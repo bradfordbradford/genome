@@ -1,0 +1,37 @@
+
+
+// General Structure ------------------
+
+body,html, #content-wrap {height:100%;}
+
+body {
+    position: relative;
+    font-family: $sans;
+    background: $primaryBackground;
+    color: $primaryText;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+#content-wrap {
+    @include container;
+
+
+    &.paper-white {
+        background: $primaryLight;
+    }
+}
+
+.bounds {
+    @include span-columns(16, $total);
+}
+
+.content-row {
+    clear:both;
+    @include clearlyFixed();
+}
+

@@ -1,0 +1,662 @@
+{:	data{	I"/:ET{:default{	:	lastI"-<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a href='/'></a>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='search-glass icon' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class='paper-white' id='content-wrap'>
+        <main>
+          <article>
+            <h1>Hello World</h1>
+            <p>This is a haml partial in action</p>
+            <hr>
+            <p>It works!</p>
+          </article>
+        </main>
+      </div>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map'>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a class='social icon facebook' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon twitter' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon linkedIn' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T:rawI"e%article
+
+    %h1 Hello World
+    %p This is a haml partial in action
+
+    %hr/
+    %p It works!;T:preI"u<article>
+  <h1>Hello World</h1>
+  <p>This is a haml partial in action</p>
+  <hr>
+  <p>It works!</p>
+</article>
+;T:	post@
+I"/stylesheet/;T{;{;I"î* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;T;	@;
+@I"/article/;T{;{	;I"
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - A New Item
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a class='name' href='/assets/html/index.html'>
+              Project Name
+            </a>
+          </h1>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#' target='_blank'>about</a>
+              </li>
+              <li>
+                <a href='#'>donate</a>
+              </li>
+              <li>
+                <a class='current' href='/assets/html/credits.html'>credits</a>
+              </li>
+              <li>
+                <a href='#'>subscribe</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div id='content-wrap'>
+        <main>
+          <article>
+            <h1>Article Page</h1>
+            <p>This is an article</p>
+            <a class='icon comment' href='#'>888 Comments</a>
+          </article>
+        </main>
+      </div>
+    </section>
+    <footer id='main-footer'>
+      
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"l%article
+    %h1 Article Page
+    %p This is an article
+
+    %a.icon.comment{:href => "#"} 888 Comments;T;
+I"}<article>
+  <h1>Article Page</h1>
+  <p>This is an article</p>
+  <a class='icon comment' href='#'>888 Comments</a>
+</article>
+;T;@I"/article_column/;T{;{	;I"•"<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article Column
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a href='/'></a>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='search-glass icon' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class='paper-white' id='content-wrap'>
+        <main>
+          <section class='column_article_layout bounds paper-white'>
+            <div class='inner-bounds'>
+              <div class='content-row'>
+                <div class='content-row'>
+                  <header class='article-header'>
+                    <a class='article-category' href='#'>Treatment</a>
+                    <h2>Rethinking Cancer Treatment in 2014</h2>
+                    <p class='lead'>Research finds major flaws in standard medical approach</p>
+                    <img alt='' class='author-pic circle' src='/assets/img/content/author-placeholder.jpg'>
+                    <a class='author-attrib' href='#'>By Author Righter</a>
+                    <div class='article-meta'>
+                      <time>December 22, 2013</time>
+                      <span class='action icon print'>Print</span>
+                      <span class='action icon comment-count'>888</span>
+                    </div>
+                  </header>
+                  <div class='article-photo primary'>
+                    <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                  </div>
+                </div>
+                <div class='content-row'>
+                  <aside class='side-column'>
+                    <div class='article-photo-caption card'>
+                      <span class='photo-attrib'>Annie Photographer</span>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                      </p>
+                    </div>
+                    <ul class='social-list'>
+                      <li>
+                        <a class='social icon facebook' href='#'></a>
+                      </li>
+                      <li>
+                        <a class='social icon twitter' href='#'></a>
+                      </li>
+                      <li>
+                        <a class='social icon linkedIn' href='#'></a>
+                      </li>
+                      <li>
+                        <a class='social icon googlePlus' href='#'></a>
+                      </li>
+                      <li>
+                        <a class='social icon email' href='#'></a>
+                      </li>
+                    </ul>
+                  </aside>
+                  <article class='article-body-copy'>
+                    <p class='lead-with-drop-cap'>
+                      Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                      tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                    </p>
+                    <p>
+                      Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                    </p>
+                    <hr class='brick'>
+                    <p>
+                      Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                    </p>
+                    <p>
+                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                    </p>
+                    <p>
+                      I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                    </p>
+                    <p>
+                      Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class='content-row'>
+                Related Reading
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map'>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a class='social icon facebook' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon twitter' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon linkedIn' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"H%section.column_article_layout.bounds.paper-white
+    .inner-bounds
+
+
+        .content-row
+            -# Article Header
+            .content-row
+                %header.article-header
+                    %a.article-category{:href => "#"} Treatment
+
+                    %h2 Rethinking Cancer Treatment in 2014
+
+                    %p.lead Research finds major flaws in standard medical approach
+
+                    %img.author-pic.circle{:src => "/assets/img/content/author-placeholder.jpg", :alt => ""}/
+
+                    %a.author-attrib{:href => "#"} By Author Righter
+
+                    .article-meta
+                        %time December 22, 2013
+                        %span.action.icon.print Print
+                        %span.action.icon.comment-count 888
+
+
+                .article-photo.primary
+                    %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+
+
+
+            .content-row
+                -# Article Aside Column
+                %aside.side-column
+
+                    -# Photo Caption Card
+                    .article-photo-caption.card
+                        %span.photo-attrib Annie Photographer
+
+                        %p
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+                    -# Social List
+                    %ul.social-list
+                        %li
+                            %a.social.icon.facebook{:href => "#"}
+                        %li
+                            %a.social.icon.twitter{:href => "#"}
+                        %li
+                            %a.social.icon.linkedIn{:href => "#"}
+                        %li
+                            %a.social.icon.googlePlus{:href => "#"}
+                        %li
+                            %a.social.icon.email{:href => "#"}
+
+
+
+                -# Article Body Copy
+                %article.article-body-copy
+                    %p.lead-with-drop-cap
+                        Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                        tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                    %p
+                        Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
+                    %hr.brick/
+
+                    %p
+                        Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                    %p
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                    %p
+                        I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                    %p
+                        Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+
+
+        .content-row
+            Related Reading;T;
+I"<section class='column_article_layout bounds paper-white'>
+  <div class='inner-bounds'>
+    <div class='content-row'>
+      <div class='content-row'>
+        <header class='article-header'>
+          <a class='article-category' href='#'>Treatment</a>
+          <h2>Rethinking Cancer Treatment in 2014</h2>
+          <p class='lead'>Research finds major flaws in standard medical approach</p>
+          <img alt='' class='author-pic circle' src='/assets/img/content/author-placeholder.jpg'>
+          <a class='author-attrib' href='#'>By Author Righter</a>
+          <div class='article-meta'>
+            <time>December 22, 2013</time>
+            <span class='action icon print'>Print</span>
+            <span class='action icon comment-count'>888</span>
+          </div>
+        </header>
+        <div class='article-photo primary'>
+          <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+        </div>
+      </div>
+      <div class='content-row'>
+        <aside class='side-column'>
+          <div class='article-photo-caption card'>
+            <span class='photo-attrib'>Annie Photographer</span>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+            </p>
+          </div>
+          <ul class='social-list'>
+            <li>
+              <a class='social icon facebook' href='#'></a>
+            </li>
+            <li>
+              <a class='social icon twitter' href='#'></a>
+            </li>
+            <li>
+              <a class='social icon linkedIn' href='#'></a>
+            </li>
+            <li>
+              <a class='social icon googlePlus' href='#'></a>
+            </li>
+            <li>
+              <a class='social icon email' href='#'></a>
+            </li>
+          </ul>
+        </aside>
+        <article class='article-body-copy'>
+          <p class='lead-with-drop-cap'>
+            Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+            tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+          </p>
+          <p>
+            Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+          </p>
+          <hr class='brick'>
+          <p>
+            Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+          </p>
+          <p>
+            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+          </p>
+          <p>
+            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+          </p>
+          <p>
+            Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+          </p>
+        </article>
+      </div>
+    </div>
+    <div class='content-row'>
+      Related Reading
+    </div>
+  </div>
+</section>
+;T;@:versioni

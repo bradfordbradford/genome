@@ -1,0 +1,27 @@
+!!! 5
+= render 'ie-conditionals'
+%html.no-js{:lang => "en"}
+
+    %head
+        = render 'head'
+
+    %body
+
+        -# Header & Content Wrap
+        %section#header-content-wrap
+
+            -# Header & Navigation
+            = render 'header'
+
+            -# Content Wrap
+            #content-wrap.paper-white
+
+                -# Main
+                %main
+                    = yield
+
+        -# Site Footer
+        %footer#main-footer
+            = render 'primary-footer'
+
+        = render 'bodyscripts'

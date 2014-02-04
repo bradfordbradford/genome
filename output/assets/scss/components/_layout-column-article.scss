@@ -1,0 +1,49 @@
+
+
+
+// Layout: Column Article //
+.column_article_layout {
+
+    padding: 70px 0 ;
+    @include clearlyFixed();
+
+    // Article Header
+    header.article-header {
+        @include span-columns(4, $total);
+        padding: 32px 0 16px;
+
+        p.lead {
+            margin: 24px auto 12px;
+        }
+
+        .author-pic, .author-attrib{
+            margin: 0 auto 16px;
+        }
+
+
+        .article-meta {
+            border-top: 1px solid $primaryRule;
+        }
+    }
+
+
+    // Primary Article Photo
+    .article-photo.primary {
+        @include span-columns(12 omega, $total);
+    }
+
+
+    // Aside Column
+    aside.side-column {
+        @include span-columns(5 omega, $total);
+    }
+
+
+    // Article Body Copy
+    article.article-body-copy {
+        padding-top: 70px;
+        @include span-columns(11, $total);
+    }
+
+
+}

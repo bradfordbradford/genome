@@ -1,0 +1,49 @@
+
+
+
+// Structure Footer //
+#main-footer {
+    background: $footerBg;
+    height: 400px;
+    width: 100%;
+
+    .footer-content-wrap {
+        @include container();
+        @include susy-grid-background;
+        padding: 70px 0;
+    }
+
+    .footer-site-map {
+        @include push(3);
+    }
+
+    .col {
+        @include span-columns(3, $total);
+    }
+
+    a {
+        color: $primaryLight;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    .social a {
+        background-position-y: -77px;
+    }
+    ul {
+        border-top: 1px solid $primaryLight;
+        margin:0;
+        padding: 6px 0px;
+
+        li {
+            padding: 2px 0px;
+        }
+        &.social {
+           li {
+                display: inline-block;
+           }
+        }
+    }
+}

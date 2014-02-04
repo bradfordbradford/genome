@@ -1,0 +1,140 @@
+
+
+
+// Typography //
+
+h1,h2,h3,h4,h5,h6 {
+    color: $primaryHeader;
+}
+
+
+a {
+    color: $primaryLink;
+    text-decoration:none;
+    @include transition(color .1s ease-in-out);
+
+    &:hover {
+        color: $primaryLinkHover;
+    }
+}
+
+::selection {
+    color: $primaryLinkHover;
+    background: $primaryLight;
+}
+
+h2 {
+    font-size: em-font(36px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: em-font(17px);
+}
+
+p {
+    color: $primaryText;
+    font-family: $serif;
+
+    // P Lead
+    &.lead {
+        font-family: $serif;
+        font-size: em-font(18px);
+        line-height: em-font(19px);
+    }
+
+    // P Drop Cap
+    &.lead-with-drop-cap {
+        &:first-child:first-letter {
+            font-family: $serif;
+            float: left;
+            line-height: .56em;
+            padding: 24px 12px 0 0;
+            color: $compliment;
+            font-size: em-font(100px);
+        }
+    }
+}
+
+// Article Body P
+.article-body-copy {
+    p {
+        line-height: em-font(24px);
+        font-size: em-font(18px);
+    }
+}
+
+// Article Cat
+.article-category {
+    margin: 0 auto 16px ;
+    color: $secondary;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: em-font(12px);
+    letter-spacing: 0.08em;
+    position: relative;
+    text-indent: 14px;
+    display: inline-block;
+
+    &:before {
+        content: '';
+        margin-left: -14px;
+        top:2px;
+        position: absolute;
+        height:8px;
+        width:8px;
+        background:$secondary;
+    }
+}
+
+// Attributions
+.author-attrib {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: em-font(16px);
+    font-weight: 700;
+    display: block;
+    color: $compliment;
+}
+
+.photo-attrib {
+    font-style:italic;
+    font-size: em-font(12px);
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: block;
+}
+
+// Photo Caption P
+.article-photo-caption p {
+    font-family: $sans;
+    font-size: em-font(16px);
+}
+
+// HR Rules
+hr {
+    background: $primaryText;
+    border: none;
+    margin: 0 auto;
+
+    &.primary {
+        color: $primaryLight;
+        width: 140px;
+        height: 1px;
+    }
+
+    .secondary {
+        background: $primaryBackground;
+        width:130px;
+        height: 10px;
+    }
+}
+
+time, .icon.action {
+    font-size: em-font(12px);
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.icon.action {
+    font-size: em-font(13px);
+}

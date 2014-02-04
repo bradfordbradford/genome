@@ -1,0 +1,68 @@
+
+
+
+
+// Utility Classes //
+
+.circle {
+    @include border-radius(1000px);
+}
+
+.serif {
+    font-family: $serif;
+}
+
+.sans {
+    font-family: $sans;
+}
+
+.center {
+    text-align: center;
+    margin: inherit auto;
+}
+
+// Article Meta
+.article-meta {
+    .icon {
+        display:inline-block;
+    }
+}
+
+// Author Pic
+.author-pic {
+    width: 84px;
+    height: 84px;
+}
+
+// Article Photo Caption Card
+.article-photo-caption.card {
+    background: $secondaryBackground;
+    padding: 20px 18px;
+    display: block;
+}
+
+
+// Social List
+.social-list {
+    margin-top: 32px;
+    background: $secondaryBackground;
+    display: table;
+    width: 100%;
+    li {
+        @include transition(background .1s ease-in-out);
+        display: table-cell;
+        text-align: center;
+        border-right: 4px solid $primaryLight;
+
+        &:last-child {border-right: none;}
+
+        a {margin: 14px auto;}
+
+        &:hover {
+            background: #3B5998;
+            a {
+                background-position-y: -77px;
+            }
+        }
+    }
+}

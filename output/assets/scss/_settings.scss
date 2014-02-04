@@ -1,0 +1,75 @@
+// SET UP YOUR VARIABLES IN THIS FILE
+
+
+// Colours
+// ------------------------------------------------------------
+
+$primary:                            #1bb793; // Green
+$secondary:                          #1cbadb; // Blue
+$compliment:                         #125e6f; // Blue/Green
+
+$primaryLight:                       #ffffff;
+$primaryText:                        #010101;
+$primaryHeader:                      #212120;
+$primaryLink:                        #5a5a5a;
+$primaryLink:                        #5a5a5a;
+$primaryLinkHover:                   #bababa;
+
+$primaryBackground:                  #efebe7; // Off-white
+$secondaryBackground:                #f3f3f3; // Off-white
+
+$primaryRule:                        #b4b4b4;
+
+
+
+
+// ---  Color Key --- //
+// 1bb793 // sea green
+// ffffff // white
+
+// // Type: Greytones
+// 010101 // blog roll titles, p
+// 212120 // comment count, print action, headers
+// 333333 // headers
+
+// 8f8e8e // photo attribution
+
+// 5a5a5a // a, tagline
+// bababa // a:hover .icon:hover
+// prima
+// efebe7 // background
+
+// 666766 // lead text, dates, captions
+
+// // Backgrounds
+// eceae8 // hr
+
+
+// Fonts
+// ------------------------------------------------------------
+$serif                  : "ff-more-web-pro",serif;
+$sans                   : "franklin-gothic-urw",sans-serif;
+
+
+
+
+// Fonts size and line height defaults for our calculations
+// ------------------------------------------------------------
+$base-font-size                         : 16px;                 // Sets the browser default size. Shouldn't need to change this.
+$base-line-height                       : 8px;                  // Baseline grid. Set to a sensible, small size.
+$round-to-nearest-half-line             : false;                // Round the line height to the nearest half line height. Off by default
+
+
+
+
+// Images
+// ------------------------------------------------------------
+$mainLogo                               : url('/assets/img/logos/genome-logo+@2x.png');
+$mainLogoSVG                            : url('/assets/img/logos/genome-logo.svg');
+$footerBg                               : url('/assets/img/patterns/footer-bg.jpg');
+$sprite                                 : url('/assets/img/icons/slicy.png');
+$spriteRetina                           : url('/assets/img/icons/slicy2x.png');
+$spriteSVG                              : url('/assets/img/icons/icon-sprite');
+
+
+

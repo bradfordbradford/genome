@@ -1,0 +1,40 @@
+
+
+
+//  Buttons  //
+
+.btn {
+    @include border-radius(3px);
+    @include transition(all .15s ease-in-out);
+    @include user-select(none);
+    @include box-sizing(border-box);
+    @include scale(font-size, 14);
+    font-style: normal;
+    position: relative;
+    padding: 8px 40px 6px;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    vertical-align: bottom;
+    cursor: pointer;
+    text-align: center;
+    @include scale(line-height, 40);
+    font-family: $sans;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:0;
+
+    letter-spacing: .06em;
+    margin: 0 12px;
+
+    &.primary {
+        background: $secondary;
+        color: $primarylight;
+
+        &:hover {
+            background: darken($secondary, 2%);
+        }
+    }
+}
+
+
