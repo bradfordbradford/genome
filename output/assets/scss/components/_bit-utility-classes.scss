@@ -3,9 +3,17 @@
 
 
 // Utility Classes //
+.smaller {
+    font-size: em-font(13px);
+    line-height:16px;
+}
+
+.light-contrast {
+    color: $primaryLinkHover;
+}
 
 .circle {
-    @include border-radius(1000px);
+    border-radius: 1000px;
 }
 
 .serif {
@@ -34,35 +42,94 @@
     height: 84px;
 }
 
-// Article Photo Caption Card
-.article-photo-caption.card {
+// Card
+.card {
     background: $secondaryBackground;
-    padding: 20px 18px;
-    display: block;
+    .card-inner-wrap {
+        padding: 20px 18px;
+    }
 }
 
-
-// Social List
-.social-list {
-    margin-top: 32px;
-    background: $secondaryBackground;
-    display: table;
-    width: 100%;
+// Featured List
+.featured-list {
+    @include noMarPad;
     li {
-        @include transition(background .1s ease-in-out);
-        display: table-cell;
+        border-bottom: $primaryLinkHover 1px solid;
+        padding: 0 0 24px;
+        &:last-child {border-bottom:none;}
+    }
+}
+
+// Media Object
+.media-object {
+    margin: 8px 0;
+
+    &.with-small-image {
+        img {
+            float:left;
+            display: block;
+            width: 64px;
+            height:64px;
+        }
+    }
+
+    &.with-large-image {
         text-align: center;
-        border-right: 4px solid $primaryLight;
+        img {
+            margin: 0 auto 12px;
+            display: block;
+        }
+    }
 
-        &:last-child {border-right: none;}
 
-        a {margin: 14px auto;}
+    &.reversed {
+        img {
+            float: right;
+        }
+    }
+}
 
-        &:hover {
-            background: #3B5998;
-            a {
-                background-position-y: -77px;
+// Collection
+.collection {
+    .media-copy {
+        width: 77%;
+        margin: 0 auto;
+    }
+}
+
+// Social Lists: Inline Cards, Inline Icons
+.social-list {
+    margin-top: 24px;
+
+    &.inline-cards {
+        background: $secondaryBackground;
+        display: table;
+        width: 100%;
+
+        li {
+            transition: background .1s ease-in-out;
+            display: table-cell;
+            text-align: center;
+            border-right: 4px solid $primaryLight;
+
+            &:last-child {border-right: none;}
+
+            a {margin: 14px auto;}
+
+            &:hover {
+                background: #3B5998;
+                a {
+                    background-position-y: -77px;
+                }
             }
         }
     }
+
+    &.inline-icons {
+        li {
+            display: inline-block;
+            margin: 14px auto;
+        }
+    }
+
 }

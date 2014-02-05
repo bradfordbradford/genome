@@ -1,0 +1,28 @@
+
+
+
+// Layout: Primary Aside //
+aside.primary-content-aside {
+
+    .aside-block {
+        padding:24px 0;
+
+        &.double-spaced {
+            padding-top: 24px + 24px;
+        }
+    }
+
+    header.card {
+        .section-title {
+            padding: 16px 18px 12px;
+            margin: 0 0 24px;
+            font-size: em-font(18px);
+            letter-spacing: 0.032em;
+        }
+    }
+    .media-object.with-large-image img {
+        width:50%;
+    }
+
+
+}

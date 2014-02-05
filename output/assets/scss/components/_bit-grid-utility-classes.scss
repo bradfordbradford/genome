@@ -1,0 +1,17 @@
+
+
+
+// Grid Utility Classes //
+.grid-3-3 {
+    .grid-element {
+        @include span-columns(4, $total);
+        &:last-child {@include span-columns(4 omega, $total);}
+    }
+}
+
+.grid-2-2 {
+    .grid-element {
+        @include span-columns(6, $total);
+        &:last-child {@include span-columns(6 omega, $total);}
+    }
+}

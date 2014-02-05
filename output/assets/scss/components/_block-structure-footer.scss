@@ -4,21 +4,18 @@
 // Structure Footer //
 #main-footer {
     background: $footerBg;
-    height: 400px;
     width: 100%;
 
     .footer-content-wrap {
         @include container();
-        @include susy-grid-background;
-        padding: 70px 0;
-    }
-
-    .footer-site-map {
-        @include push(3);
+        // @include susy-grid-background;
     }
 
     .col {
-        @include span-columns(3, $total);
+        @include span-columns(2, $total-columns);
+        &:first-child {
+            @include push(3);
+        }
     }
 
     a {

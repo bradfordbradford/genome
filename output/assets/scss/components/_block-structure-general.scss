@@ -19,19 +19,27 @@ img {
 
 #content-wrap {
     @include container;
-
-
-    &.paper-white {
-        background: $primaryLight;
-    }
+    // @include susy-grid-background;
 }
 
-.bounds {
-    @include span-columns(16, $total);
+.container {
+    @include span-columns(12, $total);
 }
 
 .content-row {
     clear:both;
     @include clearlyFixed();
+}
+
+.paper-white {
+    background: $primaryLight;
+}
+
+.block {
+    padding: 64px 0;
+
+    &:last-child {
+        padding-bottom: 160px;
+    }
 }
 

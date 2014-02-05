@@ -4,32 +4,32 @@
 //  Buttons  //
 
 .btn {
-    @include border-radius(3px);
-    @include transition(all .15s ease-in-out);
-    @include user-select(none);
-    @include box-sizing(border-box);
-    @include scale(font-size, 14);
-    font-style: normal;
-    position: relative;
+    transition: all .1s ease-in-out;
+    user-select:none;
+    box-sizing: border-box;
     padding: 8px 40px 6px;
+    border-radius: 3px;
+    position: relative;
     display: inline-block;
     text-decoration: none;
     text-rendering: optimizeLegibility;
     vertical-align: bottom;
     cursor: pointer;
     text-align: center;
-    @include scale(line-height, 40);
-    font-family: $sans;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-size: em-font(18px);
+    font-style: normal;
+    font-family: $serif;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 400;
     border:0;
-
     letter-spacing: .06em;
-    margin: 0 12px;
+    line-height: 28px;
+    margin: 16px auto;
 
     &.primary {
         background: $secondary;
-        color: $primarylight;
+        color: $primaryLight;
 
         &:hover {
             background: darken($secondary, 2%);
