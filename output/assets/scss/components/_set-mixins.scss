@@ -136,10 +136,11 @@
 
 // Center Colums
 // -------------------------------------------------------
-// @mixin center-columns {
-//     margin: 0 auto !important;
-//     float:none;
-// }
+@mixin center-columns {
+    display: block;
+    float:none;
+    margin: 0 auto;
+}
 
 
 

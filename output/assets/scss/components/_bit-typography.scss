@@ -41,6 +41,7 @@ h2 {
 p {
     color: $primaryText;
     font-family: $serif;
+    line-height: 1.25em;
 
 
     // P Lead
@@ -48,6 +49,14 @@ p {
         font-family: $serif;
         font-size: em-font(18px);
         line-height: em-font(19px);
+    }
+
+    // P Highlight
+    &.highlight {
+        font-family:$sans;
+        font-size: em-font(36px);
+        line-height: 1.025em;
+        color: $secondary;
     }
 
     // P Drop Cap
@@ -104,6 +113,9 @@ p {
     font-family: $sans;
     font-size: em-font(16px);
     line-height:20px;
+    margin: 2px auto 20px;
+    display: block;
+
     .small {
         font-size: em-font(14px);
         line-height:19px;
@@ -134,6 +146,7 @@ p {
         line-height:21px;
     }
 }
+
 // Text Highlight
 .text-meta-highlight {
     text-transform: uppercase;
@@ -147,6 +160,16 @@ p {
         font-weight: 400;
         color: $primaryText;
     }
+}
+
+
+// Featured Article
+.featured-article {
+    // NOTE: Pull up .tag and .article-header
+    .article-header {
+        margin-top: -28px;
+    }
+
 }
 
 

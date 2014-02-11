@@ -45,18 +45,9 @@
         margin-top: -2px;
     }
 
-
-    // Aside Column
-    aside.primary-content-aside {
-        @include span-columns(4 omega, $total);
-    }
-
-
     // Article Body Copy
-    article.article-body-copy {
-        @include span-columns(8, $total);
+    .article-body-copy {
         margin-top: -148px; /*temp*/
     }
-
 
 }

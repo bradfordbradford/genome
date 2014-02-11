@@ -7,7 +7,8 @@
     transition: all .1s ease-in-out;
     user-select:none;
     box-sizing: border-box;
-    padding: 8px 40px 6px;
+    padding: 16px 28px 14px;
+    min-width: 212px;
     border-radius: 3px;
     position: relative;
     display: inline-block;
@@ -35,6 +36,17 @@
             background: darken($secondary, 2%);
         }
     }
+
+    &.compliment {
+        background: $compliment;
+        color: $primaryLight;
+
+        &:hover {
+            background: darken($compliment, 2%);
+        }
+    }
+
+
 }
 
 

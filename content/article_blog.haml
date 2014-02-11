@@ -2,9 +2,8 @@
 title: Article Type- Blog
 ---
 
-%section.article_layout.block.container
-    .inner-bounds
-
+%section.primary_layout.article_layout
+    .inner-bounds.paper-white.block
 
         .content-row
             -# Article Header
@@ -41,13 +40,13 @@ title: Article Type- Blog
 
 
             .content-row
-                -# Article Aside Column
-                = render 'article-aside-primary'
+                -# Primary Aside Column
+                = render 'aside-column-article'
 
 
-                -# Article Body Copy
-                %article.article-body-copy.block
-                    %p.lead-with-drop-cap
+                -# Primary Content Column + Article Body Copy
+                %article.primary-content.article-body-copy.block
+                    %p
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                     %p
@@ -72,9 +71,9 @@ title: Article Type- Blog
 
 
 
-        .content-row
-            -# Article Aside Column
-            = render 'related-reading-collection'
+        .content-row.end-block
+            -# Collection
+            = render 'collection-related-reading'
 
 
 

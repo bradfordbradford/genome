@@ -5,9 +5,12 @@
 #main-footer {
     background: $footerBg;
     width: 100%;
+    position: relative;
+    z-index: 1;
 
     .footer-content-wrap {
         @include container();
+        padding: 70px 0 60px;
         // @include susy-grid-background;
     }
 
@@ -43,4 +46,5 @@
            }
         }
     }
+
 }

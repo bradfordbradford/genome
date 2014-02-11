@@ -3,6 +3,14 @@
 
 //  Import Bits  //
 @import
-    "layout-basic-article"
-    ,"layout-primary-content-aside"
+    "layout-primary-layout" // NOTE: structures primary content column & primary content aside
+
+    ,"layout-featured-article" // NOTE: structures featured content column & primary content aside
+
+    ,"layout-primary-content-aside" // NOTE: structures primary content aside
+
+    ,"layout-basic-article" // NOTE: structures basic article
+
+    ,"layout-heros" // NOTE: structures hero layouts
+
     ;

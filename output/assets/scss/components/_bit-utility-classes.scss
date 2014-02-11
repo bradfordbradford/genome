@@ -24,9 +24,25 @@
     font-family: $sans;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .center {
     text-align: center;
     margin: inherit auto;
+}
+
+.add-space-b {
+    margin-bottom: 56px;
+}
+
+.add-space-t {
+    margin-top: 56px;
+}
+
+.add-space-g {
+    padding: 0 56px;
 }
 
 // Article Meta
@@ -48,6 +64,20 @@
     .card-inner-wrap {
         padding: 20px 18px;
     }
+    .section-title {
+        padding: 16px 18px 12px;
+
+        &.tall {
+            padding: 74px 18px 12px;
+        }
+    }
+}
+
+// Tag
+.tag {
+    position: relative;
+    background: $primaryLight;
+    padding: 8px 16px;
 }
 
 // Featured List
@@ -55,8 +85,15 @@
     @include noMarPad;
     li {
         border-bottom: $primaryLinkHover 1px solid;
-        padding: 0 0 24px;
-        &:last-child {border-bottom:none;}
+        // padding: 0 0 24px;
+        &:last-child {
+            border-bottom:none;
+            // padding: 0 0 0;
+        }
+    }
+
+    .view-all {
+        margin: 40px auto -24px;
     }
 }
 
@@ -94,6 +131,11 @@
     .media-copy {
         width: 77%;
         margin: 0 auto;
+    }
+
+    /* NOTE: temporary? maybe move to js to align objects… */
+    .media-object {
+        height: 314px;
     }
 }
 

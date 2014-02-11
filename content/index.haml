@@ -1,11 +1,56 @@
 ---
-title: Article
+title: Home
 ---
 
-%article
+%section.hero-content
+    .inner-hero
+        issue 01
 
-    %h1 Hello World
-    %p This is a haml partial in action
+        Targeted Treatment
 
-    %hr/
-    %p It works!
+        %hr/
+
+        How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+
+        By Arthur Righter
+
+
+
+%section.primary_layout.home_layout
+    .inner-bounds.paper-white.small-block
+
+        .content-row
+
+            -# Aside Column
+            = render 'aside-column-home'
+
+
+            -# Primary Content Column
+            %section.primary-content
+
+                .content-row
+                    -# Featured Article
+                    .featured-article
+                        -# Photo
+                        .article-photo.primary
+                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+
+                        %header.article-header
+                            %a.text-meta.tag{:href => "#"} Featured Article
+
+                            %h2 The Changing World of Fitness
+
+                            %a.text-meta-sub.light-contrast.small{:href => "#"}
+                                By Author Righter
+                                %span.dot-divider
+                                12 min read
+
+                            %p
+                                Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit.
+
+
+                .content-row
+                    -# Collection
+                    = render 'collection-top-stories'
+
+

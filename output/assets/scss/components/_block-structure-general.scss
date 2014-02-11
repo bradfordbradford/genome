@@ -1,5 +1,4 @@
 
-
 // General Structure ------------------
 
 body,html, #content-wrap {height:100%;}
@@ -18,12 +17,21 @@ img {
 }
 
 #content-wrap {
-    @include container;
+    width:100%;
+
+    // NOTE: 40px to offset pulling footer up + 60px to add breathing room
+
+    padding-bottom: 40px;
     // @include susy-grid-background;
 }
 
+.inner-bounds {
+  // NOTE: Content is edge to edge unless given .inner-bounds
+  @include container;
+}
+
 .container {
-    @include span-columns(12, $total);
+  @include span-columns(12, $total);
 }
 
 .content-row {
@@ -36,10 +44,59 @@ img {
 }
 
 .block {
-    padding: 64px 0;
+    padding-top: 64px;
+}
 
-    &:last-child {
-        padding-bottom: 160px;
-    }
+.small-block {
+  padding-top: 32px;
+}
+
+.end-block {
+  padding-bottom: 160px;
+}
+
+.end-small-block {
+  padding-bottom: 76px;
+}
+
+
+
+// Push Footer, Fill Parent ------------------
+
+#header-content-wrap {
+  min-height: 100%;
+
+  // NOTE: Flex allows #content-wrap (.paper-white) to fill this parent.
+  // Fallback IE - #content-wrap declares a min-height
+  // http://css-tricks.com/almanac/properties/f/flex-direction/
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
+  // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer
+  // Z-Index Necessary - 0: #header-content-wrap, 1: #main-footer, #header-wrap, #content-wrap
+
+  margin-bottom: -40px;
+  position: relative;
+  z-index: 0;
+}
+#header-content-wrap:after {
+  content: "";
+  display: block;
+}
+#main-footer, #header-content-wrap:after {
+  height: auto;
+}
+
+#content-wrap {
+  z-index: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 

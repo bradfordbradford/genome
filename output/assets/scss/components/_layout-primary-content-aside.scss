@@ -2,10 +2,11 @@
 
 
 // Layout: Primary Aside //
-aside.primary-content-aside {
+aside.aside-column-primary {
 
     .aside-block {
         padding:24px 0;
+        display: block;
 
         &.double-spaced {
             padding-top: 24px + 24px;
@@ -14,7 +15,6 @@ aside.primary-content-aside {
 
     header.card {
         .section-title {
-            padding: 16px 18px 12px;
             margin: 0 0 24px;
             font-size: em-font(18px);
             letter-spacing: 0.032em;

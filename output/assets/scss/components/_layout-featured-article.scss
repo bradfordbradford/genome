@@ -1,0 +1,20 @@
+
+
+
+// Layout: Featured (featured articles) //
+.featured_layout {
+
+    // Article Body Copy
+    .primary-content {
+        @include span-columns(10, $total);
+        @include center-columns;
+
+
+        .primary-content-inner {
+            @include span-columns(10, $total);
+            @include center-columns;
+        }
+    }
+
+
+}

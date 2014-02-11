@@ -1,0 +1,13 @@
+
+
+
+// Layout: Edge to Edge layouts (heros, canvas) //
+.hero-content {
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    right:0;
+    background: $primaryText;
+}

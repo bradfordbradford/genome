@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"3<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"ºK<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7,7 +7,7 @@
   <head>
     <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
     <title>
-      Genome - Article
+      Genome - Home
     </title>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
@@ -50,21 +50,297 @@
           </nav>
         </div>
       </header>
-      <div class='paper-white' id='content-wrap'>
+      <div id='content-wrap'>
         <main>
-          <article>
-            <h1>Hello World</h1>
-            <p>This is a haml partial in action</p>
-            <hr>
-            <p>It works!</p>
-          </article>
+          <section class='hero-content'></section>
+          <section class='primary_layout home_layout'>
+            <div class='inner-bounds paper-white small-block'>
+              <div class='content-row'>
+                <aside class='aside-column-primary flush-right'>
+                  <div class='inner-column-wrap'>
+                    <header class='card'>
+                      <h2 class='tall section-title'>
+                        Current
+                        <span>
+                          Issue
+                        </span>
+                      </h2>
+                    </header>
+                    <div class='media-object with-large-image'>
+                      <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+                      <a class='text-meta' href='#'>issue 01</a>
+                      <div class='media-copy'>
+                        <h3 class='text-meta-header'>Spring 2014</h3>
+                        <p class='text-meta-sub contrast'>
+                          Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna
+                          <a href='#'>opus atlas.</a>
+                        </p>
+                      </div>
+                      <a class='primary btn' href='#'>Explore this Issue</a>
+                    </div>
+                    <div class='aside-block'>
+                      <header class='card'>
+                        <h2 class='section-title'>
+                          Blog
+                          <span>
+                            Stories
+                          </span>
+                        </h2>
+                      </header>
+                      <ul class='featured-list'>
+                        <li>
+                          <div class='media-object reversed'>
+                            <a class='text-meta' href='#'>Policy</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>NSA and Online Medical Records Privacy</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                3 min read
+                              </p>
+                              <p class='text-meta-sub'>
+                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class='media-object reversed'>
+                            <a class='text-meta' href='#'>science</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Rewriting the Brain</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                3 min read
+                              </p>
+                              <p class='text-meta-sub'>
+                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class='media-object'>
+                            <a class='text-meta' href='#'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                5 min read
+                              </p>
+                              <p class='text-meta-sub small'>
+                                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class='media-object'>
+                            <a class='text-meta' href='#'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Fusce lobortis lorem at ipsum semper sagittis</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                9 min read
+                              </p>
+                              <p class='text-meta-sub small'>
+                                Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class='media-object'>
+                            <a class='text-meta' href='#'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Vestibulum auctor dapibus neque</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                12 min read
+                              </p>
+                              <p class='text-meta-sub small'>
+                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                              </p>
+                            </div>
+                          </div>
+                          <div class='view-all'>
+                            <a class='italic serif' href='#'>
+                              View All &#187;
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class='aside-block'>
+                      <header class='card'>
+                        <h2 class='section-title'>
+                          Web
+                          <span>
+                            Exclusives
+                          </span>
+                        </h2>
+                      </header>
+                      <ul class='featured-list'>
+                        <li>
+                          <div class='media-object'>
+                            <a class='text-meta' href='#'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                5 min read
+                              </p>
+                              <p class='text-meta-sub small'>
+                                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class='media-object'>
+                            <a class='text-meta' href='#'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>Fusce lobortis lorem at ipsum semper sagittis</h3>
+                              <p class='text-meta-sub light-contrast small'>
+                                By Author Rightspoke
+                                <span class='dot-divider'></span>
+                                9 min read
+                              </p>
+                              <p class='text-meta-sub small'>
+                                Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
+                              </p>
+                            </div>
+                          </div>
+                          <div class='view-all'>
+                            <a class='italic serif' href='#'>
+                              View All &#187;
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </aside>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <div class='featured-article'>
+                      <div class='article-photo primary'>
+                        <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                      </div>
+                      <header class='article-header'>
+                        <a class='text-meta tag' href='#'>Featured Article</a>
+                        <h2>The Changing World of Fitness</h2>
+                        <a class='text-meta-sub light-contrast small' href='#'>
+                          By Author Righter
+                          <span class='dot-divider'></span>
+                          12 min read
+                        </a>
+                        <p>
+                          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit.
+                        </p>
+                      </header>
+                    </div>
+                  </div>
+                  <div class='content-row'>
+                    <section class='collection grid-2-per small-block'>
+                      <header class='card'>
+                        <h2 class='section-title'>
+                          Top
+                          <span>
+                            Stories
+                          </span>
+                        </h2>
+                      </header>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Research</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Science</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Treatment</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Treatment</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Research</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Science</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Treatment</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element'>
+                        <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+                        <a class='text-meta' href='#'>Treatment</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                          <p class='text-meta-sub'>By Authur Righter</p>
+                        </div>
+                      </div>
+                      <div class='content-row center end-small-block'>
+                        <a class='compliment btn' href='#'>View all Articles</a>
+                      </div>
+                    </section>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
         </main>
       </div>
     </section>
     <footer id='main-footer'>
       <div class='footer-inner-wrap'>
         <div class='footer-content-wrap'>
-          <div class='footer-site-map block'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
             <div class='content-row'>
               <div class='col'>
                 <ul>
@@ -120,18 +396,322 @@
     </script>
   </body>
 </html>
-;T:rawI"e%article
+;T:rawI"ï%section.hero-content
 
-    %h1 Hello World
-    %p This is a haml partial in action
 
-    %hr/
-    %p It works!;T:preI"u<article>
-  <h1>Hello World</h1>
-  <p>This is a haml partial in action</p>
-  <hr>
-  <p>It works!</p>
-</article>
+
+%section.primary_layout.home_layout
+    .inner-bounds.paper-white.small-block
+
+        .content-row
+
+            -# Aside Column
+            = render 'aside-column-home'
+
+
+            -# Primary Content Column
+            %section.primary-content
+
+                .content-row
+                    -# Featured Article
+                    .featured-article
+                        -# Photo
+                        .article-photo.primary
+                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+
+                        %header.article-header
+                            %a.text-meta.tag{:href => "#"} Featured Article
+
+                            %h2 The Changing World of Fitness
+
+                            %a.text-meta-sub.light-contrast.small{:href => "#"}
+                                By Author Righter
+                                %span.dot-divider
+                                12 min read
+
+                            %p
+                                Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit.
+
+
+                .content-row
+                    -# Collection
+                    = render 'collection-top-stories';T:preI" 0<section class='hero-content'></section>
+<section class='primary_layout home_layout'>
+  <div class='inner-bounds paper-white small-block'>
+    <div class='content-row'>
+      <aside class='aside-column-primary flush-right'>
+        <div class='inner-column-wrap'>
+          <header class='card'>
+            <h2 class='tall section-title'>
+              Current
+              <span>
+                Issue
+              </span>
+            </h2>
+          </header>
+          <div class='media-object with-large-image'>
+            <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+            <a class='text-meta' href='#'>issue 01</a>
+            <div class='media-copy'>
+              <h3 class='text-meta-header'>Spring 2014</h3>
+              <p class='text-meta-sub contrast'>
+                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna
+                <a href='#'>opus atlas.</a>
+              </p>
+            </div>
+            <a class='primary btn' href='#'>Explore this Issue</a>
+          </div>
+          <div class='aside-block'>
+            <header class='card'>
+              <h2 class='section-title'>
+                Blog
+                <span>
+                  Stories
+                </span>
+              </h2>
+            </header>
+            <ul class='featured-list'>
+              <li>
+                <div class='media-object reversed'>
+                  <a class='text-meta' href='#'>Policy</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>NSA and Online Medical Records Privacy</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      3 min read
+                    </p>
+                    <p class='text-meta-sub'>
+                      Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='media-object reversed'>
+                  <a class='text-meta' href='#'>science</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Rewriting the Brain</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      3 min read
+                    </p>
+                    <p class='text-meta-sub'>
+                      Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='media-object'>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      5 min read
+                    </p>
+                    <p class='text-meta-sub small'>
+                      Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='media-object'>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Fusce lobortis lorem at ipsum semper sagittis</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      9 min read
+                    </p>
+                    <p class='text-meta-sub small'>
+                      Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='media-object'>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Vestibulum auctor dapibus neque</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      12 min read
+                    </p>
+                    <p class='text-meta-sub small'>
+                      Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magnaâ€¦
+                    </p>
+                  </div>
+                </div>
+                <div class='view-all'>
+                  <a class='italic serif' href='#'>
+                    View All &#187;
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class='aside-block'>
+            <header class='card'>
+              <h2 class='section-title'>
+                Web
+                <span>
+                  Exclusives
+                </span>
+              </h2>
+            </header>
+            <ul class='featured-list'>
+              <li>
+                <div class='media-object'>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      5 min read
+                    </p>
+                    <p class='text-meta-sub small'>
+                      Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='media-object'>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>Fusce lobortis lorem at ipsum semper sagittis</h3>
+                    <p class='text-meta-sub light-contrast small'>
+                      By Author Rightspoke
+                      <span class='dot-divider'></span>
+                      9 min read
+                    </p>
+                    <p class='text-meta-sub small'>
+                      Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
+                    </p>
+                  </div>
+                </div>
+                <div class='view-all'>
+                  <a class='italic serif' href='#'>
+                    View All &#187;
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <section class='primary-content'>
+        <div class='content-row'>
+          <div class='featured-article'>
+            <div class='article-photo primary'>
+              <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+            </div>
+            <header class='article-header'>
+              <a class='text-meta tag' href='#'>Featured Article</a>
+              <h2>The Changing World of Fitness</h2>
+              <a class='text-meta-sub light-contrast small' href='#'>
+                By Author Righter
+                <span class='dot-divider'></span>
+                12 min read
+              </a>
+              <p>
+                Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit.
+              </p>
+            </header>
+          </div>
+        </div>
+        <div class='content-row'>
+          <section class='collection grid-2-per small-block'>
+            <header class='card'>
+              <h2 class='section-title'>
+                Top
+                <span>
+                  Stories
+                </span>
+              </h2>
+            </header>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Research</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Science</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Treatment</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Treatment</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Research</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Science</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Treatment</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element'>
+              <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
+              <a class='text-meta' href='#'>Treatment</a>
+              <div class='media-copy'>
+                <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                <p class='text-meta-sub'>By Authur Righter</p>
+              </div>
+            </div>
+            <div class='content-row center end-small-block'>
+              <a class='compliment btn' href='#'>View all Articles</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
 ;T:	post@
 I"/stylesheet/;T{;{;I"î* {
   margin: 0;
@@ -316,7 +896,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"9<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"t:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -368,10 +948,10 @@ I"}<article>
           </nav>
         </div>
       </header>
-      <div class='paper-white' id='content-wrap'>
+      <div id='content-wrap'>
         <main>
-          <section class='article_layout block container'>
-            <div class='inner-bounds'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds paper-white block'>
               <div class='content-row'>
                 <div class='content-row'>
                   <header class='article-header'>
@@ -401,7 +981,7 @@ I"}<article>
                   </div>
                 </div>
                 <div class='content-row'>
-                  <aside class='primary-content-aside'>
+                  <aside class='aside-column-primary'>
                     <ul class='social-list inline-cards'>
                       <li>
                         <a class='social icon facebook' href='#'></a>
@@ -492,7 +1072,7 @@ I"}<article>
                       </div>
                     </div>
                   </aside>
-                  <article class='article-body-copy block'>
+                  <article class='primary-content article-body-copy block'>
                     <p class='lead-with-drop-cap'>
                       Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                       tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -516,8 +1096,8 @@ I"}<article>
                   </article>
                 </div>
               </div>
-              <div class='content-row'>
-                <section class='related-reading collection grid-3-3 block'>
+              <div class='content-row end-block'>
+                <section class='collection grid-3-per'>
                   <h2 class='section-title'>
                     Related
                     <span>
@@ -558,7 +1138,12 @@ I"}<article>
     <footer id='main-footer'>
       <div class='footer-inner-wrap'>
         <div class='footer-content-wrap'>
-          <div class='footer-site-map block'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
             <div class='content-row'>
               <div class='col'>
                 <ul>
@@ -614,8 +1199,8 @@ I"}<article>
     </script>
   </body>
 </html>
-;T;	I",%section.article_layout.block.container
-    .inner-bounds
+;T;	I"e%section.primary_layout.article_layout
+    .inner-bounds.paper-white.block
 
 
         .content-row
@@ -655,12 +1240,12 @@ I"}<article>
 
 
             .content-row
-                -# Article Aside Column
-                = render 'article-aside-primary'
+                -# Primary Aside Column
+                = render 'aside-column-article'
 
 
-                -# Article Body Copy
-                %article.article-body-copy.block
+                -# Primary Content Column / Article Body Copy
+                %article.primary-content.article-body-copy.block
                     %p.lead-with-drop-cap
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -681,11 +1266,11 @@ I"}<article>
 
 
 
-        .content-row
-            -# Article Aside Column
-            = render 'related-reading-collection';T;
-I"j"<section class='article_layout block container'>
-  <div class='inner-bounds'>
+        .content-row.end-block
+            -# Collection
+            = render 'collection-related-reading';T;
+I"€"<section class='primary_layout article_layout'>
+  <div class='inner-bounds paper-white block'>
     <div class='content-row'>
       <div class='content-row'>
         <header class='article-header'>
@@ -715,7 +1300,7 @@ I"j"<section class='article_layout block container'>
         </div>
       </div>
       <div class='content-row'>
-        <aside class='primary-content-aside'>
+        <aside class='aside-column-primary'>
           <ul class='social-list inline-cards'>
             <li>
               <a class='social icon facebook' href='#'></a>
@@ -806,7 +1391,7 @@ I"j"<section class='article_layout block container'>
             </div>
           </div>
         </aside>
-        <article class='article-body-copy block'>
+        <article class='primary-content article-body-copy block'>
           <p class='lead-with-drop-cap'>
             Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -830,8 +1415,8 @@ I"j"<section class='article_layout block container'>
         </article>
       </div>
     </div>
-    <div class='content-row'>
-      <section class='related-reading collection grid-3-3 block'>
+    <div class='content-row end-block'>
+      <section class='collection grid-3-per'>
         <h2 class='section-title'>
           Related
           <span>
@@ -866,7 +1451,7 @@ I"j"<section class='article_layout block container'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"G:<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"†;<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -918,10 +1503,10 @@ I"j"<section class='article_layout block container'>
           </nav>
         </div>
       </header>
-      <div class='paper-white' id='content-wrap'>
+      <div id='content-wrap'>
         <main>
-          <section class='article_layout block container'>
-            <div class='inner-bounds'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds paper-white block'>
               <div class='content-row'>
                 <div class='content-row'>
                   <header class='article-header'>
@@ -950,7 +1535,7 @@ I"j"<section class='article_layout block container'>
                   </div>
                 </div>
                 <div class='content-row'>
-                  <aside class='primary-content-aside'>
+                  <aside class='aside-column-primary'>
                     <ul class='social-list inline-cards'>
                       <li>
                         <a class='social icon facebook' href='#'></a>
@@ -1041,8 +1626,8 @@ I"j"<section class='article_layout block container'>
                       </div>
                     </div>
                   </aside>
-                  <article class='article-body-copy block'>
-                    <p class='lead-with-drop-cap'>
+                  <article class='primary-content article-body-copy block'>
+                    <p>
                       Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                       tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                     </p>
@@ -1071,8 +1656,8 @@ I"j"<section class='article_layout block container'>
                   </footer>
                 </div>
               </div>
-              <div class='content-row'>
-                <section class='related-reading collection grid-3-3 block'>
+              <div class='content-row end-block'>
+                <section class='collection grid-3-per'>
                   <h2 class='section-title'>
                     Related
                     <span>
@@ -1113,7 +1698,12 @@ I"j"<section class='article_layout block container'>
     <footer id='main-footer'>
       <div class='footer-inner-wrap'>
         <div class='footer-content-wrap'>
-          <div class='footer-site-map block'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
             <div class='content-row'>
               <div class='col'>
                 <ul>
@@ -1169,10 +1759,8 @@ I"j"<section class='article_layout block container'>
     </script>
   </body>
 </html>
-;T;	I"
-%section.article_layout.block.container
-    .inner-bounds
-
+;T;	I"/%section.primary_layout.article_layout
+    .inner-bounds.paper-white.block
 
         .content-row
             -# Article Header
@@ -1209,13 +1797,13 @@ I"j"<section class='article_layout block container'>
 
 
             .content-row
-                -# Article Aside Column
-                = render 'article-aside-primary'
+                -# Primary Aside Column
+                = render 'aside-column-article'
 
 
-                -# Article Body Copy
-                %article.article-body-copy.block
-                    %p.lead-with-drop-cap
+                -# Primary Content Column + Article Body Copy
+                %article.primary-content.article-body-copy.block
+                    %p
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                     %p
@@ -1240,11 +1828,11 @@ I"j"<section class='article_layout block container'>
 
 
 
-        .content-row
-            -# Article Aside Column
-            = render 'related-reading-collection';T;
-I"g#<section class='article_layout block container'>
-  <div class='inner-bounds'>
+        .content-row.end-block
+            -# Collection
+            = render 'collection-related-reading';T;
+I"b#<section class='primary_layout article_layout'>
+  <div class='inner-bounds paper-white block'>
     <div class='content-row'>
       <div class='content-row'>
         <header class='article-header'>
@@ -1273,7 +1861,7 @@ I"g#<section class='article_layout block container'>
         </div>
       </div>
       <div class='content-row'>
-        <aside class='primary-content-aside'>
+        <aside class='aside-column-primary'>
           <ul class='social-list inline-cards'>
             <li>
               <a class='social icon facebook' href='#'></a>
@@ -1364,8 +1952,8 @@ I"g#<section class='article_layout block container'>
             </div>
           </div>
         </aside>
-        <article class='article-body-copy block'>
-          <p class='lead-with-drop-cap'>
+        <article class='primary-content article-body-copy block'>
+          <p>
             Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
           </p>
@@ -1394,8 +1982,8 @@ I"g#<section class='article_layout block container'>
         </footer>
       </div>
     </div>
-    <div class='content-row'>
-      <section class='related-reading collection grid-3-3 block'>
+    <div class='content-row end-block'>
+      <section class='collection grid-3-per'>
         <h2 class='section-title'>
           Related
           <span>
@@ -1430,7 +2018,7 @@ I"g#<section class='article_layout block container'>
     </div>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"e<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"©<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1482,7 +2070,7 @@ I"g#<section class='article_layout block container'>
           </nav>
         </div>
       </header>
-      <div class='paper-white' id='content-wrap'>
+      <div id='content-wrap'>
         <main>
           <section class='article_layout block container'>
             <div class='inner-bounds'>
@@ -1522,7 +2110,12 @@ I"g#<section class='article_layout block container'>
     <footer id='main-footer'>
       <div class='footer-inner-wrap'>
         <div class='footer-content-wrap'>
-          <div class='footer-site-map block'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
             <div class='content-row'>
               <div class='col'>
                 <ul>
@@ -1634,4 +2227,420 @@ I"˜<section class='article_layout block container'>
     </div>
   </div>
 </section>
-;T;@&:versioni
+;T;@&I"/home/;T{;{	;I"¨<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - A New Item
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a href='/'></a>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='search-glass icon' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class='paper-white' id='content-wrap'>
+        <main>
+          Hi, I'm a new item!
+        </main>
+      </div>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map block'>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a class='social icon facebook' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon twitter' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon linkedIn' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"Hi, I'm a new item!;T;
+@-;@,I"/article_feature/;T{;{	;I"{$<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article Type- Feature
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a href='/'></a>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='search-glass icon' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div id='content-wrap'>
+        <main>
+          <section class='hero-content'></section>
+          <section class='featured_layout inner-bounds paper-white block'>
+            <section class='primary-content'>
+              <div class='content-row'>
+                <article class='article-body-copy'>
+                  <p>
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  </p>
+                  <hr class='brick'>
+                  <p>
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                  </p>
+                  <p>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                  </p>
+                  <p>
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                  </p>
+                  <p>
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                  </p>
+                </article>
+              </div>
+            </section>
+          </section>
+          <section class='hero-content'></section>
+          <section class='featured_layout inner-bounds paper-white block'>
+            <section class='primary-content'>
+              <div class='content-row'>
+                <article class='article-body-copy'>
+                  <p>
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  </p>
+                  <hr class='brick'>
+                  <p>
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                  </p>
+                  <p>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                  </p>
+                  <p>
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                  </p>
+                  <p>
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                  </p>
+                </article>
+              </div>
+            </section>
+          </section>
+        </main>
+      </div>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a class='social icon facebook' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon twitter' href='#'></a>
+                  </li>
+                  <li>
+                    <a class='social icon linkedIn' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"ð-# Featured Hero
+%section.hero-content
+
+-# Featured Content Paper
+%section.featured_layout.inner-bounds.paper-white.block
+
+    -# Primary Content Column
+    %section.primary-content
+
+        .content-row
+            -# Primary Content Column + Article Body Copy
+            %article.article-body-copy
+                %p
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
+                %hr.brick/
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                %p
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                %p
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+
+
+
+
+
+-# Featured Hero
+%section.hero-content
+
+-# Featured Content Paper
+%section.featured_layout.inner-bounds.paper-white.block
+
+    -# Primary Content Column
+    %section.primary-content
+
+        .content-row
+            -# Primary Content Column + Article Body Copy
+            %article.article-body-copy
+                %p
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
+                %hr.brick/
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                %p
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                %p
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.;T;
+I"^<section class='hero-content'></section>
+<section class='featured_layout inner-bounds paper-white block'>
+  <section class='primary-content'>
+    <div class='content-row'>
+      <article class='article-body-copy'>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <hr class='brick'>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+        </p>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+        </p>
+      </article>
+    </div>
+  </section>
+</section>
+<section class='hero-content'></section>
+<section class='featured_layout inner-bounds paper-white block'>
+  <section class='primary-content'>
+    <div class='content-row'>
+      <article class='article-body-copy'>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <hr class='brick'>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+        </p>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+        </p>
+      </article>
+    </div>
+  </section>
+</section>
+;T;@1:versioni
