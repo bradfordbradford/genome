@@ -1,7 +1,6 @@
 
 // General Structure ------------------
 
-body,html, #content-wrap {height:100%;}
 
 body {
     position: relative;
@@ -16,17 +15,9 @@ img {
     max-width: 100%;
 }
 
-#content-wrap {
-    width:100%;
-
-    // NOTE: 40px to offset pulling footer up + 60px to add breathing room
-
-    padding-bottom: 40px;
-    // @include susy-grid-background;
-}
-
 .inner-bounds {
   // NOTE: Content is edge to edge unless given .inner-bounds
+  // .inner-bounds also makes .paper-white fill parent height
   @include container;
 }
 
@@ -62,8 +53,10 @@ img {
 
 
 // Push Footer, Fill Parent ------------------
+body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
 
-#header-content-wrap {
+#header-content-wrap,
+#content-wrap {
   min-height: 100%;
 
   // NOTE: Flex allows #content-wrap (.paper-white) to fill this parent.
@@ -84,19 +77,29 @@ img {
   margin-bottom: -40px;
   position: relative;
   z-index: 0;
+
+  &:after {
+    content: "";
+    display: block;
+  }
 }
-#header-content-wrap:after {
-  content: "";
-  display: block;
-}
-#main-footer, #header-content-wrap:after {
+
+#main-footer, #header-content-wrap:after, #content-wrap:after {
   height: auto;
 }
 
-#content-wrap {
+#content-wrap, .inner-bounds {
   z-index: 0;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+
+  width:100%;
+  // NOTE: 40px to offset pulling footer up + 60px to add breathing room
+
+  padding-bottom: 40px;
+  // @include susy-grid-background;
 }
+
+
 
