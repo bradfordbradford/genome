@@ -1,8 +1,8 @@
 ---
-title: Article Type- Blog
+title: Article Type- Blog w/out photo
 ---
 
-%section.primary_layout.article_layout
+%section.primary_layout.article_layout.no-photo
     .inner-bounds.paper-white.block
 
         -# Article Header
@@ -12,35 +12,20 @@ title: Article Type- Blog
 
                 %h2 Rethinking Cancer Treatment in 2014
 
-                %p.lead Research finds major flaws in standard medical approach
+                -# Social List
+                = render "social-list-all"
 
-                %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
-
-                -# Meta Info - Partial
-                = render "meta-partial-article-info"
-
-
-            -# Photo
-            .article-photo.primary
-                %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-
-            -# Photo Caption Card
-            .article-photo-caption.card
-                .card-inner-wrap
-                    %span.photo-attrib Annie Photographer
-
-                    %p.text-meta-sub.smaller
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-
+                -# Meta Info - All
+                = render "meta-all-article-info"
 
 
         .content-row
             -# Primary Aside Column
-            = render 'aside-column-article'
+            = render 'aside-column-article-no-social'
 
 
             -# Primary Content Column + Article Body Copy
-            %article.primary-content.article-body-copy.block
+            %article.primary-content.article-body-copy.small-block
                 %p
                     Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                     tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.

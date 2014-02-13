@@ -9,7 +9,7 @@
     box-sizing: border-box;
     padding: 16px 28px 14px;
     min-width: 212px;
-    border-radius: 3px;
+    border-radius: 4px;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -43,6 +43,37 @@
 
         &:hover {
             background: darken($compliment, 2%);
+        }
+    }
+
+    &.neutral {
+        background: $primaryText;
+        color: $primaryLight;
+
+        &:hover {
+            background: darken($primaryText, 2%);
+        }
+    }
+
+
+    &.media-action {
+        @include rgba($primaryHeader, .8);
+        color: $primaryLight;
+        border: 1px solid $primaryLight;
+        border:1px solid rgba(255, 255, 255, 0.6);
+        padding:12px 16px 10px;
+        min-width: inherit;
+
+        &:hover {
+            background: darken($primaryText, 2%);
+        }
+
+        &:not(.no-text)[data-icon]:before {
+            margin-right: 8px;
+        }
+
+        &.no-text {
+            padding: 10px 9px 2px 10px;
         }
     }
 

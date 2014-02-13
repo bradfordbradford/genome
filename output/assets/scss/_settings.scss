@@ -8,6 +8,7 @@ $primary:                            #1bb793; // Green
 $secondary:                          #1cbadb; // Blue
 $compliment:                         #115e6f; // Blue/Green
 
+$warmLight:                          #eeeae7; // warm white
 $primaryLight:                       #ffffff;
 $primaryText:                        #010101;
 $primaryHeader:                      #212120;
@@ -16,9 +17,14 @@ $primaryLinkHover:                   #bababa;
 
 $primaryBackground:                  #efebe7; // Off-white
 $secondaryBackground:                #f3f3f3; // Off-white
+$secondaryBackgroundCompliment:      #8f8e8e; // Off-white
 
-$primaryRule:                        #b4b4b4;
+$primaryRule:                        #eceae8;
 
+
+// Social Colours
+$facebook:                           #3d7cb8;
+$twitter:                            #1da8e0;
 
 
 
@@ -45,6 +51,7 @@ $primaryRule:                        #b4b4b4;
 
 
 // Fonts
+// Imported Icon Fonts in icons partial
 // ------------------------------------------------------------
 $serif                  : "ff-more-web-pro",serif;
 $sans                   : "franklin-gothic-urw",sans-serif;
@@ -65,7 +72,8 @@ $round-to-nearest-half-line             : false;                // Round the lin
 // ------------------------------------------------------------
 $mainLogo                               : url('/assets/img/logos/genome-logo+@2x.png');
 $mainLogoSVG                            : url('/assets/img/logos/genome-logo.svg');
-$footerBg                               : url('/assets/img/patterns/footer-bg.jpg');
+// $footerBg                               : url('/assets/img/patterns/footer-bg.jpg') no-repeat;
+$footerBg                               : url('/assets/img/patterns/use_your_illusion_@2X') repeat;
 $sprite                                 : url('/assets/img/icons/slicy.png');
 $spriteRetina                           : url('/assets/img/icons/slicy2x.png');
 $spriteSVG                              : url('/assets/img/icons/icon-sprite.svg');

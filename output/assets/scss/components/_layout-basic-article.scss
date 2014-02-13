@@ -9,15 +9,15 @@
     // Article Header
     header.article-header {
         @include span-columns(4, $total);
-        padding: 26px 0 16px;
+        padding: 3px 0 16px;
 
         p.lead {
             margin: 24px auto 12px;
         }
 
         .author-pic {
-            margin: 32px auto 16px;
-            position: absolute;
+            margin: 16px 0;
+            display: block;
         }
 
         .author-attrib{
@@ -26,9 +26,9 @@
 
 
         .article-meta {
-            margin-top: 124px;
             border-top: 1px solid $primaryRule;
         }
+
     }
 
 
@@ -43,11 +43,38 @@
         @include span-columns(4 omega, $total);
         display: block;
         margin-top: -2px;
+        clear: both;
     }
 
-    // Article Body Copy
+    // Article Body Copy when Photo is present
+    // NOTE: Temporary Setup - replace with jquery
     .article-body-copy {
-        margin-top: -148px; /*temp*/
+        margin-top: -168px;
+    }
+
+    // No Photo
+    &.no-photo {
+        .article-body-copy {
+            margin-top: 0px;
+        }
+        header.article-header {
+            width: auto;
+        }
+
+        .social-list {
+            margin: 24px 0 16px;
+        }
+
+    }
+
+    .article-footer {
+        padding: 0 0 76px;
+        border-bottom: 1px solid $primaryRule;
+
+        &.author-profile-object {
+            padding: 56px 0 32px;
+            border-top: 1px solid $primaryRule;
+        }
     }
 
 }

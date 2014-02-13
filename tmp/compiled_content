@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"6K<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"¡L<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -27,7 +27,7 @@
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
-            <a href='/'></a>
+            <a data-icon='L' href='/'></a>
             <span>Genome</span>
           </h1>
           <div class='tagline'>
@@ -46,23 +46,27 @@
               </li>
             </ul>
             <div class='search'>
-              <a class='search-glass icon' href='#'></a>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
             </div>
           </nav>
         </div>
       </header>
       <main id='content-wrap'>
-        <section class='hero-content'>
+        <section class='hero-content center hero-article-feature'>
           <div class='inner-hero'>
             <div class='text-meta hr'>
               issue 01
             </div>
             <h2>
-              Targeted Treatment
+              Targeted
+              <br>
+              Treatment
             </h2>
-            <hr>
-            <p class='lead'>How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.</p>
-            By Arthur Righter
+            <hr class='primary light partial'>
+            <p class='sans lead'>
+              How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+            </p>
+            <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
           </div>
         </section>
         <section class='primary_layout home_layout'>
@@ -247,7 +251,7 @@
                     <header class='article-header'>
                       <a class='text-meta tag' href='#'>Featured Article</a>
                       <h2>The Changing World of Fitness</h2>
-                      <a class='text-meta-sub light-contrast small' href='#'>
+                      <a class='text-meta-sub light-tint small' href='#'>
                         By Author Righter
                         <span class='dot-divider'></span>
                         12 min read
@@ -271,66 +275,66 @@
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Research</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Science</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Treatment</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Treatment</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Research</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Science</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Treatment</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='media-object with-large-image grid-element'>
                       <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
                       <a class='text-meta' href='#'>Treatment</a>
-                      <div class='media-copy'>
+                      <a class='media-copy' href='#'>
                         <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                         <p class='text-meta-sub'>By Authur Righter</p>
-                      </div>
+                      </a>
                     </div>
                     <div class='content-row center end-small-block'>
                       <a class='compliment btn' href='#'>View all Articles</a>
@@ -382,13 +386,13 @@
               <div class='col'>
                 <ul class='social'>
                   <li>
-                    <a class='social icon facebook' href='#'></a>
+                    <a data-icon='u' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon twitter' href='#'></a>
+                    <a data-icon='v' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon linkedIn' href='#'></a>
+                    <a data-icon='w' href='#'></a>
                   </li>
                 </ul>
               </div>
@@ -399,6 +403,9 @@
     </footer>
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -407,19 +414,22 @@
     </script>
   </body>
 </html>
-;T:rawI"%section.hero-content
+;T:rawI"°%section.hero-content.center.hero-article-feature
     .inner-hero
         .text-meta.hr
             issue 01
 
         %h2
-            Targeted Treatment
+            Targeted
+            %br/
+            Treatment
 
-        %hr/
+        %hr.primary.light.partial/
 
-        %p.lead How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+        %p.sans.lead
+            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
 
-        By Arthur Righter
+        %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
 
 
 
@@ -447,7 +457,7 @@
 
                             %h2 The Changing World of Fitness
 
-                            %a.text-meta-sub.light-contrast.small{:href => "#"}
+                            %a.text-meta-sub.light-tint.small{:href => "#"}
                                 By Author Righter
                                 %span.dot-divider
                                 12 min read
@@ -458,17 +468,21 @@
 
                 .content-row
                     -# Collection
-                    = render 'collection-top-stories';T:preI"c1<section class='hero-content'>
+                    = render 'collection-top-stories';T:preI"2<section class='hero-content center hero-article-feature'>
   <div class='inner-hero'>
     <div class='text-meta hr'>
       issue 01
     </div>
     <h2>
-      Targeted Treatment
+      Targeted
+      <br>
+      Treatment
     </h2>
-    <hr>
-    <p class='lead'>How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.</p>
-    By Arthur Righter
+    <hr class='primary light partial'>
+    <p class='sans lead'>
+      How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+    </p>
+    <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
   </div>
 </section>
 <section class='primary_layout home_layout'>
@@ -653,7 +667,7 @@
             <header class='article-header'>
               <a class='text-meta tag' href='#'>Featured Article</a>
               <h2>The Changing World of Fitness</h2>
-              <a class='text-meta-sub light-contrast small' href='#'>
+              <a class='text-meta-sub light-tint small' href='#'>
                 By Author Righter
                 <span class='dot-divider'></span>
                 12 min read
@@ -677,66 +691,66 @@
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Research</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Science</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Treatment</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Treatment</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Research</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Science</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>The Doctor will see Your Family History Now</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Treatment</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='media-object with-large-image grid-element'>
               <img alt='image title' src='/assets/img/content/th-feature-placeholder-slim.jpg'>
               <a class='text-meta' href='#'>Treatment</a>
-              <div class='media-copy'>
+              <a class='media-copy' href='#'>
                 <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                 <p class='text-meta-sub'>By Authur Righter</p>
-              </div>
+              </a>
             </div>
             <div class='content-row center end-small-block'>
               <a class='compliment btn' href='#'>View all Articles</a>
@@ -931,7 +945,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"9<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"g=<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -960,7 +974,7 @@ I"}<article>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
-            <a href='/'></a>
+            <a data-icon='L' href='/'></a>
             <span>Genome</span>
           </h1>
           <div class='tagline'>
@@ -979,7 +993,7 @@ I"}<article>
               </li>
             </ul>
             <div class='search'>
-              <a class='search-glass icon' href='#'></a>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
             </div>
           </nav>
         </div>
@@ -998,9 +1012,9 @@ I"}<article>
                   <div class='article-meta'>
                     <time>December 22, 2013</time>
                     <span class='ver-line'>&#124;</span>
-                    <span class='action icon print'>Print</span>
+                    <a class='action' data-icon='p' href='#1'>Print</a>
                     <span class='ver-line'>&#124;</span>
-                    <span class='action icon comment-count'>888</span>
+                    <a class='action' data-icon='i' href='#2'>888</a>
                   </div>
                 </header>
                 <div class='article-photo primary'>
@@ -1017,23 +1031,22 @@ I"}<article>
               </div>
               <div class='content-row'>
                 <aside class='aside-column-primary'>
-                  <ul class='social-list inline-cards'>
-                    <li>
-                      <a class='social icon facebook' href='#'></a>
-                    </li>
-                    <li>
-                      <a class='social icon twitter' href='#'></a>
-                    </li>
-                    <li>
-                      <a class='social icon linkedIn' href='#'></a>
-                    </li>
-                    <li>
-                      <a class='social icon googlePlus' href='#'></a>
-                    </li>
-                    <li>
-                      <a class='social icon email' href='#'></a>
-                    </li>
-                  </ul>
+                  <div class='addthis_toolbox social-list'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Share</span>
+                    </a>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Tweet</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
+                      <span></span>
+                    </a>
+                  </div>
+                  <!-- .addthis_toolbox.facebook-share-counter -->
+                  <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+                  <!-- %span Shares -->
                   <div class='aside-block double-spaced'>
                     <header class='card'>
                       <h2 class='section-title'>
@@ -1115,7 +1128,6 @@ I"}<article>
                   <p>
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                   </p>
-                  <hr class='brick'>
                   <p>
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                   </p>
@@ -1127,41 +1139,53 @@ I"}<article>
                   </p>
                   <p>
                     Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                    <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
                   </p>
+                  <footer class='article-footer author-profile-object'>
+                    <img alt='' class='author-pic circle' src='/assets/img/content/author-placeholder.jpg'>
+                    <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
+                    <p>Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.</p>
+                    <div class='right'>
+                      <a href='#'>
+                        View Articles &#187;
+                      </a>
+                    </div>
+                  </footer>
                 </article>
               </div>
             </div>
             <div class='content-row end-block'>
-              <section class='collection grid-3-per'>
-                <h2 class='section-title'>
+              <section class='collection grid-3-per with-dividers'>
+                <h2 class='section-title center'>
                   Related
                   <span>
                     Reading
                   </span>
                 </h2>
+                <hr class='thick primary neutral-light partial'>
                 <div class='media-object with-large-image grid-element'>
                   <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
                   <a class='text-meta' href='#'>Research</a>
-                  <div class='media-copy'>
+                  <a class='media-copy' href='#'>
                     <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                     <p class='text-meta-sub'>By Authur Righter</p>
-                  </div>
+                  </a>
                 </div>
                 <div class='media-object with-large-image grid-element'>
                   <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
                   <a class='text-meta' href='#'>Science</a>
-                  <div class='media-copy'>
+                  <a class='media-copy' href='#'>
                     <h3 class='text-meta-header'>Rewriting the Brain</h3>
                     <p class='text-meta-sub'>By Authur Righter</p>
-                  </div>
+                  </a>
                 </div>
                 <div class='media-object with-large-image grid-element'>
                   <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
                   <a class='text-meta' href='#'>Treatment</a>
-                  <div class='media-copy'>
+                  <a class='media-copy' href='#'>
                     <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                     <p class='text-meta-sub'>By Authur Righter</p>
-                  </div>
+                  </a>
                 </div>
               </section>
             </div>
@@ -1208,13 +1232,13 @@ I"}<article>
               <div class='col'>
                 <ul class='social'>
                   <li>
-                    <a class='social icon facebook' href='#'></a>
+                    <a data-icon='u' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon twitter' href='#'></a>
+                    <a data-icon='v' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon linkedIn' href='#'></a>
+                    <a data-icon='w' href='#'></a>
                   </li>
                 </ul>
               </div>
@@ -1225,6 +1249,9 @@ I"}<article>
     </footer>
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -1233,7 +1260,7 @@ I"}<article>
     </script>
   </body>
 </html>
-;T;	I"e%section.primary_layout.article_layout
+;T;	I"P%section.primary_layout.article_layout
     .inner-bounds.paper-white.block
 
 
@@ -1251,13 +1278,8 @@ I"}<article>
 
                     %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
 
-                    .article-meta
-                        %time December 22, 2013
-                        %span.ver-line &#124;
-                        %span.action.icon.print Print
-                        %span.ver-line &#124;
-                        %span.action.icon.comment-count 888
-
+                    -# Meta Info - Partial
+                    = render "meta-partial-article-info"
 
                 -# Photo
                 .article-photo.primary
@@ -1286,7 +1308,6 @@ I"}<article>
                     %p
                         Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
 
-                    %hr.brick/
 
                     %p
                         Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
@@ -1296,6 +1317,12 @@ I"}<article>
                         I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
                     %p
                         Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                        %a.light-tint.inline-block.end-mark{:href => "",:'data-icon'=>"G"}
+
+
+                    -# Footer: Related Tags
+                    = render 'footer-article-author-profile'
+
 
 
 
@@ -1303,7 +1330,7 @@ I"}<article>
         .content-row.end-block
             -# Collection
             = render 'collection-related-reading';T;
-I"Ä"<section class='primary_layout article_layout'>
+I"€%<section class='primary_layout article_layout'>
   <div class='inner-bounds paper-white block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -1316,9 +1343,9 @@ I"Ä"<section class='primary_layout article_layout'>
           <div class='article-meta'>
             <time>December 22, 2013</time>
             <span class='ver-line'>&#124;</span>
-            <span class='action icon print'>Print</span>
+            <a class='action' data-icon='p' href='#1'>Print</a>
             <span class='ver-line'>&#124;</span>
-            <span class='action icon comment-count'>888</span>
+            <a class='action' data-icon='i' href='#2'>888</a>
           </div>
         </header>
         <div class='article-photo primary'>
@@ -1335,23 +1362,22 @@ I"Ä"<section class='primary_layout article_layout'>
       </div>
       <div class='content-row'>
         <aside class='aside-column-primary'>
-          <ul class='social-list inline-cards'>
-            <li>
-              <a class='social icon facebook' href='#'></a>
-            </li>
-            <li>
-              <a class='social icon twitter' href='#'></a>
-            </li>
-            <li>
-              <a class='social icon linkedIn' href='#'></a>
-            </li>
-            <li>
-              <a class='social icon googlePlus' href='#'></a>
-            </li>
-            <li>
-              <a class='social icon email' href='#'></a>
-            </li>
-          </ul>
+          <div class='addthis_toolbox social-list'>
+            <a class='addthis_button_facebook' data-icon='u' href='#'>
+              <span class='line'></span>
+              <span class='value'>Share</span>
+            </a>
+            <a class='addthis_button_twitter' data-icon='v' href='#'>
+              <span class='line'></span>
+              <span class='value'>Tweet</span>
+            </a>
+            <a class='addthis_button_email' data-icon='h' href='#'>
+              <span></span>
+            </a>
+          </div>
+          <!-- .addthis_toolbox.facebook-share-counter -->
+          <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+          <!-- %span Shares -->
           <div class='aside-block double-spaced'>
             <header class='card'>
               <h2 class='section-title'>
@@ -1433,7 +1459,6 @@ I"Ä"<section class='primary_layout article_layout'>
           <p>
             Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
           </p>
-          <hr class='brick'>
           <p>
             Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
           </p>
@@ -1445,47 +1470,59 @@ I"Ä"<section class='primary_layout article_layout'>
           </p>
           <p>
             Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+            <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
           </p>
+          <footer class='article-footer author-profile-object'>
+            <img alt='' class='author-pic circle' src='/assets/img/content/author-placeholder.jpg'>
+            <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
+            <p>Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.</p>
+            <div class='right'>
+              <a href='#'>
+                View Articles &#187;
+              </a>
+            </div>
+          </footer>
         </article>
       </div>
     </div>
     <div class='content-row end-block'>
-      <section class='collection grid-3-per'>
-        <h2 class='section-title'>
+      <section class='collection grid-3-per with-dividers'>
+        <h2 class='section-title center'>
           Related
           <span>
             Reading
           </span>
         </h2>
+        <hr class='thick primary neutral-light partial'>
         <div class='media-object with-large-image grid-element'>
           <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
           <a class='text-meta' href='#'>Research</a>
-          <div class='media-copy'>
+          <a class='media-copy' href='#'>
             <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
             <p class='text-meta-sub'>By Authur Righter</p>
-          </div>
+          </a>
         </div>
         <div class='media-object with-large-image grid-element'>
           <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
           <a class='text-meta' href='#'>Science</a>
-          <div class='media-copy'>
+          <a class='media-copy' href='#'>
             <h3 class='text-meta-header'>Rewriting the Brain</h3>
             <p class='text-meta-sub'>By Authur Righter</p>
-          </div>
+          </a>
         </div>
         <div class='media-object with-large-image grid-element'>
           <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
           <a class='text-meta' href='#'>Treatment</a>
-          <div class='media-copy'>
+          <a class='media-copy' href='#'>
             <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
             <p class='text-meta-sub'>By Authur Righter</p>
-          </div>
+          </a>
         </div>
       </section>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"p8<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"›9<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1514,7 +1551,7 @@ I"Ä"<section class='primary_layout article_layout'>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
-            <a href='/'></a>
+            <a data-icon='L' href='/'></a>
             <span>Genome</span>
           </h1>
           <div class='tagline'>
@@ -1533,7 +1570,7 @@ I"Ä"<section class='primary_layout article_layout'>
               </li>
             </ul>
             <div class='search'>
-              <a class='search-glass icon' href='#'></a>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
             </div>
           </nav>
         </div>
@@ -1550,9 +1587,9 @@ I"Ä"<section class='primary_layout article_layout'>
                 <div class='article-meta'>
                   <time>December 22, 2013</time>
                   <span class='ver-line'>&#124;</span>
-                  <span class='action icon print'>Print</span>
+                  <a class='action' data-icon='p' href='#1'>Print</a>
                   <span class='ver-line'>&#124;</span>
-                  <span class='action icon comment-count'>888</span>
+                  <a class='action' data-icon='i' href='#2'>888</a>
                 </div>
               </header>
               <div class='article-photo primary'>
@@ -1569,23 +1606,22 @@ I"Ä"<section class='primary_layout article_layout'>
             </div>
             <div class='content-row'>
               <aside class='aside-column-primary'>
-                <ul class='social-list inline-cards'>
-                  <li>
-                    <a class='social icon facebook' href='#'></a>
-                  </li>
-                  <li>
-                    <a class='social icon twitter' href='#'></a>
-                  </li>
-                  <li>
-                    <a class='social icon linkedIn' href='#'></a>
-                  </li>
-                  <li>
-                    <a class='social icon googlePlus' href='#'></a>
-                  </li>
-                  <li>
-                    <a class='social icon email' href='#'></a>
-                  </li>
-                </ul>
+                <div class='addthis_toolbox social-list'>
+                  <a class='addthis_button_facebook' data-icon='u' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Share</span>
+                  </a>
+                  <a class='addthis_button_twitter' data-icon='v' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Tweet</span>
+                  </a>
+                  <a class='addthis_button_email' data-icon='h' href='#'>
+                    <span></span>
+                  </a>
+                </div>
+                <!-- .addthis_toolbox.facebook-share-counter -->
+                <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+                <!-- %span Shares -->
                 <div class='aside-block double-spaced'>
                   <header class='card'>
                     <h2 class='section-title'>
@@ -1667,7 +1703,7 @@ I"Ä"<section class='primary_layout article_layout'>
                 <p>
                   Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                 </p>
-                <hr class='brick'>
+                <hr class='brick neutral-light'>
                 <p>
                   Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 </p>
@@ -1680,46 +1716,47 @@ I"Ä"<section class='primary_layout article_layout'>
                 <p>
                   Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                 </p>
+                <footer class='article-footer'>
+                  <div class='text-meta-highlight'>Condition:</div>
+                  <a href='#'>Heart Attack,</a>
+                  <a href='#'>Heart Disease,</a>
+                  <a href='#'>Diet</a>
+                </footer>
               </article>
-              <footer class='article-footer'>
-                <div class='text-meta-highlight'>Condition:</div>
-                <a class='text-meta-highlight light-contrast' href='#'>Heart Attack,</a>
-                <a class='text-meta-highlight light-contrast' href='#'>Heart Disease,</a>
-                <a class='text-meta-highlight light-contrast' href='#'>Diet</a>
-              </footer>
             </div>
           </div>
-          <div class='content-row end-block'>
-            <section class='collection grid-3-per'>
-              <h2 class='section-title'>
+          <div class='content-row end-block inner-bounds paper-white'>
+            <section class='collection grid-3-per with-dividers'>
+              <h2 class='section-title center'>
                 Related
                 <span>
                   Reading
                 </span>
               </h2>
+              <hr class='thick primary neutral-light partial'>
               <div class='media-object with-large-image grid-element'>
                 <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
                 <a class='text-meta' href='#'>Research</a>
-                <div class='media-copy'>
+                <a class='media-copy' href='#'>
                   <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
                   <p class='text-meta-sub'>By Authur Righter</p>
-                </div>
+                </a>
               </div>
               <div class='media-object with-large-image grid-element'>
                 <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
                 <a class='text-meta' href='#'>Science</a>
-                <div class='media-copy'>
+                <a class='media-copy' href='#'>
                   <h3 class='text-meta-header'>Rewriting the Brain</h3>
                   <p class='text-meta-sub'>By Authur Righter</p>
-                </div>
+                </a>
               </div>
               <div class='media-object with-large-image grid-element'>
                 <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
                 <a class='text-meta' href='#'>Treatment</a>
-                <div class='media-copy'>
+                <a class='media-copy' href='#'>
                   <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
                   <p class='text-meta-sub'>By Authur Righter</p>
-                </div>
+                </a>
               </div>
             </section>
           </div>
@@ -1765,13 +1802,13 @@ I"Ä"<section class='primary_layout article_layout'>
               <div class='col'>
                 <ul class='social'>
                   <li>
-                    <a class='social icon facebook' href='#'></a>
+                    <a data-icon='u' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon twitter' href='#'></a>
+                    <a data-icon='v' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon linkedIn' href='#'></a>
+                    <a data-icon='w' href='#'></a>
                   </li>
                 </ul>
               </div>
@@ -1782,6 +1819,9 @@ I"Ä"<section class='primary_layout article_layout'>
     </footer>
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -1790,7 +1830,7 @@ I"Ä"<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"V%section.primary_layout.article_layout
+;T;	I"Ò%section.primary_layout.article_layout
     .inner-bounds.paper-white.block
 
         -# Article Header
@@ -1804,12 +1844,8 @@ I"Ä"<section class='primary_layout article_layout'>
 
                 %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
 
-                .article-meta
-                    %time December 22, 2013
-                    %span.ver-line &#124;
-                    %span.action.icon.print Print
-                    %span.ver-line &#124;
-                    %span.action.icon.comment-count 888
+                -# Meta Info - Partial
+                = render "meta-partial-article-info"
 
 
             -# Photo
@@ -1839,7 +1875,7 @@ I"Ä"<section class='primary_layout article_layout'>
                 %p
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
 
-                %hr.brick/
+                %hr.brick.neutral-light/
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
@@ -1850,18 +1886,17 @@ I"Ä"<section class='primary_layout article_layout'>
                 %p
                     Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
 
-            %footer.article-footer
-                .text-meta-highlight Condition:
-                %a.text-meta-highlight.light-contrast{:href => "#"} Heart Attack,
-                %a.text-meta-highlight.light-contrast{:href => "#"} Heart Disease,
-                %a.text-meta-highlight.light-contrast{:href => "#"} Diet
+
+                -# Footer: Related Tags
+                = render 'footer-article-related-tags'
 
 
 
-    .content-row.end-block
+
+    .content-row.end-block.inner-bounds.paper-white
         -# Collection
         = render 'collection-related-reading';T;
-I"œ!<section class='primary_layout article_layout'>
+I"ã"<section class='primary_layout article_layout'>
   <div class='inner-bounds paper-white block'>
     <div class='content-row'>
       <header class='article-header'>
@@ -1872,9 +1907,9 @@ I"œ!<section class='primary_layout article_layout'>
         <div class='article-meta'>
           <time>December 22, 2013</time>
           <span class='ver-line'>&#124;</span>
-          <span class='action icon print'>Print</span>
+          <a class='action' data-icon='p' href='#1'>Print</a>
           <span class='ver-line'>&#124;</span>
-          <span class='action icon comment-count'>888</span>
+          <a class='action' data-icon='i' href='#2'>888</a>
         </div>
       </header>
       <div class='article-photo primary'>
@@ -1891,23 +1926,22 @@ I"œ!<section class='primary_layout article_layout'>
     </div>
     <div class='content-row'>
       <aside class='aside-column-primary'>
-        <ul class='social-list inline-cards'>
-          <li>
-            <a class='social icon facebook' href='#'></a>
-          </li>
-          <li>
-            <a class='social icon twitter' href='#'></a>
-          </li>
-          <li>
-            <a class='social icon linkedIn' href='#'></a>
-          </li>
-          <li>
-            <a class='social icon googlePlus' href='#'></a>
-          </li>
-          <li>
-            <a class='social icon email' href='#'></a>
-          </li>
-        </ul>
+        <div class='addthis_toolbox social-list'>
+          <a class='addthis_button_facebook' data-icon='u' href='#'>
+            <span class='line'></span>
+            <span class='value'>Share</span>
+          </a>
+          <a class='addthis_button_twitter' data-icon='v' href='#'>
+            <span class='line'></span>
+            <span class='value'>Tweet</span>
+          </a>
+          <a class='addthis_button_email' data-icon='h' href='#'>
+            <span></span>
+          </a>
+        </div>
+        <!-- .addthis_toolbox.facebook-share-counter -->
+        <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+        <!-- %span Shares -->
         <div class='aside-block double-spaced'>
           <header class='card'>
             <h2 class='section-title'>
@@ -1989,7 +2023,7 @@ I"œ!<section class='primary_layout article_layout'>
         <p>
           Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
         </p>
-        <hr class='brick'>
+        <hr class='brick neutral-light'>
         <p>
           Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
         </p>
@@ -2002,51 +2036,52 @@ I"œ!<section class='primary_layout article_layout'>
         <p>
           Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
         </p>
+        <footer class='article-footer'>
+          <div class='text-meta-highlight'>Condition:</div>
+          <a href='#'>Heart Attack,</a>
+          <a href='#'>Heart Disease,</a>
+          <a href='#'>Diet</a>
+        </footer>
       </article>
-      <footer class='article-footer'>
-        <div class='text-meta-highlight'>Condition:</div>
-        <a class='text-meta-highlight light-contrast' href='#'>Heart Attack,</a>
-        <a class='text-meta-highlight light-contrast' href='#'>Heart Disease,</a>
-        <a class='text-meta-highlight light-contrast' href='#'>Diet</a>
-      </footer>
     </div>
   </div>
-  <div class='content-row end-block'>
-    <section class='collection grid-3-per'>
-      <h2 class='section-title'>
+  <div class='content-row end-block inner-bounds paper-white'>
+    <section class='collection grid-3-per with-dividers'>
+      <h2 class='section-title center'>
         Related
         <span>
           Reading
         </span>
       </h2>
+      <hr class='thick primary neutral-light partial'>
       <div class='media-object with-large-image grid-element'>
         <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
         <a class='text-meta' href='#'>Research</a>
-        <div class='media-copy'>
+        <a class='media-copy' href='#'>
           <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
           <p class='text-meta-sub'>By Authur Righter</p>
-        </div>
+        </a>
       </div>
       <div class='media-object with-large-image grid-element'>
         <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
         <a class='text-meta' href='#'>Science</a>
-        <div class='media-copy'>
+        <a class='media-copy' href='#'>
           <h3 class='text-meta-header'>Rewriting the Brain</h3>
           <p class='text-meta-sub'>By Authur Righter</p>
-        </div>
+        </a>
       </div>
       <div class='media-object with-large-image grid-element'>
         <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
         <a class='text-meta' href='#'>Treatment</a>
-        <div class='media-copy'>
+        <a class='media-copy' href='#'>
           <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
           <p class='text-meta-sub'>By Authur Righter</p>
-        </div>
+        </a>
       </div>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"Ö<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"ò<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2075,7 +2110,7 @@ I"œ!<section class='primary_layout article_layout'>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
-            <a href='/'></a>
+            <a data-icon='L' href='/'></a>
             <span>Genome</span>
           </h1>
           <div class='tagline'>
@@ -2094,7 +2129,7 @@ I"œ!<section class='primary_layout article_layout'>
               </li>
             </ul>
             <div class='search'>
-              <a class='search-glass icon' href='#'></a>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
             </div>
           </nav>
         </div>
@@ -2110,7 +2145,7 @@ I"œ!<section class='primary_layout article_layout'>
                 </span>
               </h2>
               <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/index.html'>
+                <a class='text-meta' href='/'>
                   <img alt='image title' src='/assets/img/content/site-screenshots/home.jpg'>
                 </a>
                 <a class='text-meta' href='/'>Layout</a>
@@ -2119,28 +2154,28 @@ I"œ!<section class='primary_layout article_layout'>
                 </div>
               </div>
               <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/article_feature'>
+                <a class='text-meta' href='/output/article_feature/index.html'>
                   <img alt='image title' src='/assets/img/content/site-screenshots/feature.jpg'>
                 </a>
-                <a class='text-meta' href='/article_feature'>Layout</a>
+                <a class='text-meta' href='/output/article_feature/index.html'>Layout</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header'>Article: Feature</h3>
                 </div>
               </div>
               <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/article_blog'>
+                <a class='text-meta' href='/output/article_blog/index.html'>
                   <img alt='image title' src='/assets/img/content/site-screenshots/blog.jpg'>
                 </a>
-                <a class='text-meta' href='/article_blog'>Layout</a>
+                <a class='text-meta' href='/output/article_blog/index.html'>Layout</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header'>Article: Blog</h3>
                 </div>
               </div>
               <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/article_column'>
+                <a class='text-meta' href='/output/article_column/index.html'>
                   <img alt='image title' src='/assets/img/content/site-screenshots/column.jpg'>
                 </a>
-                <a class='text-meta' href='/article_column'>Layout</a>
+                <a class='text-meta' href='/output/article_column/index.html'>Layout</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header'>Article: Column</h3>
                 </div>
@@ -2189,13 +2224,13 @@ I"œ!<section class='primary_layout article_layout'>
               <div class='col'>
                 <ul class='social'>
                   <li>
-                    <a class='social icon facebook' href='#'></a>
+                    <a data-icon='u' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon twitter' href='#'></a>
+                    <a data-icon='v' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon linkedIn' href='#'></a>
+                    <a data-icon='w' href='#'></a>
                   </li>
                 </ul>
               </div>
@@ -2206,6 +2241,9 @@ I"œ!<section class='primary_layout article_layout'>
     </footer>
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -2214,7 +2252,7 @@ I"œ!<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"û.inner-bounds.paper-white.block
+;T;	I" .inner-bounds.paper-white.block
 
     .content-row
 
@@ -2226,33 +2264,33 @@ I"œ!<section class='primary_layout article_layout'>
                     Index
 
             .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/index.html"}
+                %a.text-meta{:href => "/"}
                     %img{:src => "/assets/img/content/site-screenshots/home.jpg", :alt => "image title"}/
                 %a.text-meta{:href => "/"} Layout
                 .media-copy
                     %h3.text-meta-header Home
 
             .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/article_feature"}
+                %a.text-meta{:href => "/output/article_feature/index.html"}
                     %img{:src => "/assets/img/content/site-screenshots/feature.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/article_feature"} Layout
+                %a.text-meta{:href => "/output/article_feature/index.html"} Layout
                 .media-copy
                     %h3.text-meta-header Article: Feature
 
             .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/article_blog"}
+                %a.text-meta{:href => "/output/article_blog/index.html"}
                     %img{:src => "/assets/img/content/site-screenshots/blog.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/article_blog"} Layout
+                %a.text-meta{:href => "/output/article_blog/index.html"} Layout
                 .media-copy
                     %h3.text-meta-header Article: Blog
 
             .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/article_column"}
+                %a.text-meta{:href => "/output/article_column/index.html"}
                     %img{:src => "/assets/img/content/site-screenshots/column.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/article_column"} Layout
+                %a.text-meta{:href => "/output/article_column/index.html"} Layout
                 .media-copy
                     %h3.text-meta-header Article: Column;T;
-I"1<div class='inner-bounds paper-white block'>
+I"ì<div class='inner-bounds paper-white block'>
   <div class='content-row'>
     <section class='related-reading collection grid-3-per'>
       <h2 class='section-title'>
@@ -2262,7 +2300,7 @@ I"1<div class='inner-bounds paper-white block'>
         </span>
       </h2>
       <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/index.html'>
+        <a class='text-meta' href='/'>
           <img alt='image title' src='/assets/img/content/site-screenshots/home.jpg'>
         </a>
         <a class='text-meta' href='/'>Layout</a>
@@ -2271,28 +2309,28 @@ I"1<div class='inner-bounds paper-white block'>
         </div>
       </div>
       <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/article_feature'>
+        <a class='text-meta' href='/output/article_feature/index.html'>
           <img alt='image title' src='/assets/img/content/site-screenshots/feature.jpg'>
         </a>
-        <a class='text-meta' href='/article_feature'>Layout</a>
+        <a class='text-meta' href='/output/article_feature/index.html'>Layout</a>
         <div class='media-copy'>
           <h3 class='text-meta-header'>Article: Feature</h3>
         </div>
       </div>
       <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/article_blog'>
+        <a class='text-meta' href='/output/article_blog/index.html'>
           <img alt='image title' src='/assets/img/content/site-screenshots/blog.jpg'>
         </a>
-        <a class='text-meta' href='/article_blog'>Layout</a>
+        <a class='text-meta' href='/output/article_blog/index.html'>Layout</a>
         <div class='media-copy'>
           <h3 class='text-meta-header'>Article: Blog</h3>
         </div>
       </div>
       <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/article_column'>
+        <a class='text-meta' href='/output/article_column/index.html'>
           <img alt='image title' src='/assets/img/content/site-screenshots/column.jpg'>
         </a>
-        <a class='text-meta' href='/article_column'>Layout</a>
+        <a class='text-meta' href='/output/article_column/index.html'>Layout</a>
         <div class='media-copy'>
           <h3 class='text-meta-header'>Article: Column</h3>
         </div>
@@ -2418,8 +2456,7 @@ I"1<div class='inner-bounds paper-white block'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"
-$<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"nB<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2448,7 +2485,7 @@ $<!DOCTYPE html>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
-            <a href='/'></a>
+            <a data-icon='L' href='/'></a>
             <span>Genome</span>
           </h1>
           <div class='tagline'>
@@ -2467,46 +2504,103 @@ $<!DOCTYPE html>
               </li>
             </ul>
             <div class='search'>
-              <a class='search-glass icon' href='#'></a>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
             </div>
           </nav>
         </div>
       </header>
       <main id='content-wrap'>
-        <section class='hero-content'></section>
+        <section class='hero-content center hero-article-title'>
+          <div class='inner-hero'>
+            <div class='col-wrap'>
+              <div class='icon play-video'></div>
+              <div class='col'>
+                <h2>
+                  Breaking
+                  <br>
+                  the
+                  <br>
+                  Code
+                </h2>
+              </div>
+              <div class='col'>
+                <hr class='primary neutral'>
+                <p class='sans lead'>
+                  How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                </p>
+                <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+                <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class='featured_layout inner-bounds paper-white block'>
           <section class='primary-content'>
             <div class='content-row'>
               <article class='article-body-copy'>
                 <p>
-                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  <span class='lead-with-small-caps primary-tint'>Nonsectetur adipiscing elit,</span>
+                  Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                   tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                 </p>
                 <p>
-                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare. I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
                 </p>
-                <hr class='brick'>
+                <p>
+                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
+                </p>
+                <div class='article-photo pull-out-right'>
+                  <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
+                  <a class='btn media-action no-text' data-icon='b' href='#'></a>
+                </div>
+                <div class='article-photo-caption with-border'>
+                  <p class='text-meta-sub smaller'>
+                    Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+                  </p>
+                </div>
+                <blockquote>
+                  No sensible decision can be made any longer without taking into account not only the world as it is.
+                </blockquote>
+                <hr class='thick partial neutral-light'>
                 <p>
                   Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 </p>
                 <p>
                   Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                </p>
-                <p>
-                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                </p>
-                <p>
-                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                 </p>
               </article>
             </div>
           </section>
         </section>
-        <section class='hero-content'></section>
+        <section class='hero-content center hero-article-section'>
+          <div class='inner-hero'>
+            <a class='icon' data-icon='m' href='#'></a>
+            <h2>
+              The Genetic Code
+            </h2>
+            <hr class='primary thick light partial'>
+            <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+            <p class='italic lead'>
+              The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+            </p>
+            <a class='btn neutral' href='#'>Watch Video</a>
+          </div>
+        </section>
         <section class='featured_layout inner-bounds paper-white block'>
           <section class='primary-content'>
             <div class='content-row'>
               <article class='article-body-copy'>
+                <p>
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </p>
+                <p>
+                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                </p>
+                <h3>PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE</h3>
+                <p>
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </p>
                 <p>
                   Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                   tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2514,18 +2608,64 @@ $<!DOCTYPE html>
                 <p>
                   Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                 </p>
-                <hr class='brick'>
+                <h3>Fluctuat Nec Mergitur</h3>
+                <div class='pull-out-right big-pull'>
+                  <div class='article-photo with-bottom-border'>
+                    <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                    <a class='btn media-action' data-icon='h' href='#'>Watch Video</a>
+                  </div>
+                </div>
                 <p>
                   Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 </p>
                 <p>
                   Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
                 </p>
+                <div class='pull-out-right big-pull'>
+                  <div class='article-photo'>
+                    <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                    <a class='btn media-action' data-icon='c' href='#'>View Slideshow</a>
+                  </div>
+                  <div class='article-photo-caption with-bottom-border'>
+                    <p class='text-meta-sub smaller'>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <blockquote class='with-Qmark Q-right pull-out-right'>
+                  No sensible decision can be made any longer without taking into account not only the world as it is.
+                </blockquote>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <div class='small-block'>
+                  <div class='article-photo with-top-border'>
+                    <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                  </div>
+                  <div class='article-photo-caption with-bottom-border'>
+                    <p class='text-meta-sub smaller'>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                    </p>
+                  </div>
+                </div>
                 <p>
                   I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
                 </p>
                 <p>
                   Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                  <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
                 </p>
               </article>
             </div>
@@ -2572,13 +2712,13 @@ $<!DOCTYPE html>
               <div class='col'>
                 <ul class='social'>
                   <li>
-                    <a class='social icon facebook' href='#'></a>
+                    <a data-icon='u' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon twitter' href='#'></a>
+                    <a data-icon='v' href='#'></a>
                   </li>
                   <li>
-                    <a class='social icon linkedIn' href='#'></a>
+                    <a data-icon='w' href='#'></a>
                   </li>
                 </ul>
               </div>
@@ -2589,6 +2729,9 @@ $<!DOCTYPE html>
     </footer>
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -2597,8 +2740,30 @@ $<!DOCTYPE html>
     </script>
   </body>
 </html>
-;T;	I"-# Featured Hero
-%section.hero-content
+;T;	I"ä--# Featured Hero
+%section.hero-content.center.hero-article-title
+    .inner-hero
+        .col-wrap
+            .icon.play-video
+
+            .col
+                %h2
+                    Breaking
+                    %br/
+                    the
+                    %br/
+                    Code
+
+            .col
+                %hr.primary.neutral/
+
+                %p.sans.lead
+                    How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+
+                %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+                %a.author-attrib.text-meta-highlight{:href => "#"} Illustraion by Emiliano Ponzi
+
+
 
 -# Featured Content Paper
 %section.featured_layout.inner-bounds.paper-white.block
@@ -2609,89 +2774,237 @@ $<!DOCTYPE html>
         .content-row
             -# Primary Content Column + Article Body Copy
             %article.article-body-copy
+
+                -# P with small caps + primary tint
+                %p
+                    %span.lead-with-small-caps.primary-tint Nonsectetur adipiscing elit,
+                    Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare. I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                %p
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
+
+
+
+                -# Photo - Enlarge
+                .article-photo.pull-out-right
+                    %img{:src => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
+                    %a.btn.media-action.no-text{:href => "#",:'data-icon'=>"b"}
+                .article-photo-caption.with-border
+                    %p.text-meta-sub.smaller
+                        Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+
+
+                -# Blockquote + HR
+                %blockquote
+                    No sensible decision can be made any longer without taking into account not only the world as it is.
+                %hr.thick.partial.neutral-light/
+
+
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+
+
+
+
+-# Hero: Article Section
+%section.hero-content.center.hero-article-section
+    .inner-hero
+        %a.icon{:href => "#",:'data-icon'=>"m"}
+
+        %h2
+            The Genetic Code
+
+        %hr.primary.thick.light.partial/
+
+        %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+
+        %p.italic.lead
+            The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+
+        %a.btn.neutral{:href => "#"} Watch Video
+
+
+
+
+
+-# Featured Content Paper
+%section.featured_layout.inner-bounds.paper-white.block
+
+    -# Primary Content Column
+    %section.primary-content
+
+        .content-row
+            -# Primary Content Column + Article Body Copy
+            %article.article-body-copy
+
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                %p
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+
+                %h3 PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE
+
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                 %p
                     Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                     tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                 %p
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
 
-                %hr.brick/
+                %h3 Fluctuat Nec Mergitur
+
+                .pull-out-right.big-pull
+                    -# Photo - with caption and video
+                    .article-photo.with-bottom-border
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                        %a.btn.media-action{:href => "#",:'data-icon'=>"h"} Watch Video
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 %p
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+
+                .pull-out-right.big-pull
+                    -# Photo - with caption and slideshow
+                    .article-photo
+                        %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                        %a.btn.media-action{:href => "#",:'data-icon'=>"c"} View Slideshow
+
+                    -# Photo Caption
+                    .article-photo-caption.with-bottom-border
+                        %p.text-meta-sub.smaller
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+                %p
+                    Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+
+                -# Blockquote - nested left
+                %blockquote.with-Qmark.Q-right.pull-out-right
+                    No sensible decision can be made any longer without taking into account not only the world as it is.
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+
+                .small-block
+                    -# Photo - inline with caption
+                    .article-photo.with-top-border
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+
+                    -# Photo Caption
+                    .article-photo-caption.with-bottom-border
+                        %p.text-meta-sub.smaller
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+
                 %p
                     I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
                 %p
                     Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-
-
-
-
-
--# Featured Hero
-%section.hero-content
-
--# Featured Content Paper
-%section.featured_layout.inner-bounds.paper-white.block
-
-    -# Primary Content Column
-    %section.primary-content
-
-        .content-row
-            -# Primary Content Column + Article Body Copy
-            %article.article-body-copy
-                %p
-                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-                %p
-                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-
-                %hr.brick/
-
-                %p
-                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-                %p
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                %p
-                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                %p
-                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.;T;
-I"^<section class='hero-content'></section>
+                    %a.light-tint.inline-block.end-mark{:href => "",:'data-icon'=>"G"};T;
+I"Ÿ+<section class='hero-content center hero-article-title'>
+  <div class='inner-hero'>
+    <div class='col-wrap'>
+      <div class='icon play-video'></div>
+      <div class='col'>
+        <h2>
+          Breaking
+          <br>
+          the
+          <br>
+          Code
+        </h2>
+      </div>
+      <div class='col'>
+        <hr class='primary neutral'>
+        <p class='sans lead'>
+          How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+        </p>
+        <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+        <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+      </div>
+    </div>
+  </div>
+</section>
 <section class='featured_layout inner-bounds paper-white block'>
   <section class='primary-content'>
     <div class='content-row'>
       <article class='article-body-copy'>
         <p>
-          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          <span class='lead-with-small-caps primary-tint'>Nonsectetur adipiscing elit,</span>
+          Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
           tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
         </p>
         <p>
-          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare. I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
         </p>
-        <hr class='brick'>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
+        </p>
+        <div class='article-photo pull-out-right'>
+          <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
+          <a class='btn media-action no-text' data-icon='b' href='#'></a>
+        </div>
+        <div class='article-photo-caption with-border'>
+          <p class='text-meta-sub smaller'>
+            Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+          </p>
+        </div>
+        <blockquote>
+          No sensible decision can be made any longer without taking into account not only the world as it is.
+        </blockquote>
+        <hr class='thick partial neutral-light'>
         <p>
           Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
         </p>
         <p>
           Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-        </p>
-        <p>
-          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-        </p>
-        <p>
-          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
         </p>
       </article>
     </div>
   </section>
 </section>
-<section class='hero-content'></section>
+<section class='hero-content center hero-article-section'>
+  <div class='inner-hero'>
+    <a class='icon' data-icon='m' href='#'></a>
+    <h2>
+      The Genetic Code
+    </h2>
+    <hr class='primary thick light partial'>
+    <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+    <p class='italic lead'>
+      The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+    </p>
+    <a class='btn neutral' href='#'>Watch Video</a>
+  </div>
+</section>
 <section class='featured_layout inner-bounds paper-white block'>
   <section class='primary-content'>
     <div class='content-row'>
       <article class='article-body-copy'>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <h3>PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE</h3>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
         <p>
           Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
           tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2699,18 +3012,64 @@ I"^<section class='hero-content'></section>
         <p>
           Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
         </p>
-        <hr class='brick'>
+        <h3>Fluctuat Nec Mergitur</h3>
+        <div class='pull-out-right big-pull'>
+          <div class='article-photo with-bottom-border'>
+            <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+            <a class='btn media-action' data-icon='h' href='#'>Watch Video</a>
+          </div>
+        </div>
         <p>
           Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
         </p>
         <p>
           Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
         </p>
+        <div class='pull-out-right big-pull'>
+          <div class='article-photo'>
+            <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+            <a class='btn media-action' data-icon='c' href='#'>View Slideshow</a>
+          </div>
+          <div class='article-photo-caption with-bottom-border'>
+            <p class='text-meta-sub smaller'>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+            </p>
+          </div>
+        </div>
+        <p>
+          Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <blockquote class='with-Qmark Q-right pull-out-right'>
+          No sensible decision can be made any longer without taking into account not only the world as it is.
+        </blockquote>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <div class='small-block'>
+          <div class='article-photo with-top-border'>
+            <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+          </div>
+          <div class='article-photo-caption with-bottom-border'>
+            <p class='text-meta-sub smaller'>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+            </p>
+          </div>
+        </div>
         <p>
           I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
         </p>
         <p>
           Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+          <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
         </p>
       </article>
     </div>
@@ -2919,4 +3278,669 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7:versioni
+;T;@7I"/article_blog_no_photo/;T{;{	;I"P7<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article Type- Blog w/out photo
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a data-icon='L' href='/'></a>
+            <span>Genome</span>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main id='content-wrap'>
+        <section class='primary_layout article_layout no-photo'>
+          <div class='inner-bounds paper-white block'>
+            <div class='content-row'>
+              <header class='article-header'>
+                <a class='text-meta brick' href='#'>Treatment</a>
+                <h2>Rethinking Cancer Treatment in 2014</h2>
+                <div class='addthis_toolbox social-list'>
+                  <a class='addthis_button_facebook' data-icon='u' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Share</span>
+                  </a>
+                  <a class='addthis_button_twitter' data-icon='v' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Tweet</span>
+                  </a>
+                  <a class='addthis_button_email' data-icon='h' href='#'>
+                    <span></span>
+                  </a>
+                </div>
+                <!-- .addthis_toolbox.facebook-share-counter -->
+                <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+                <!-- %span Shares -->
+                <div class='article-meta'>
+                  <div class='left'>
+                    By
+                    <a class='emph' href='#'>Authur Righter</a>
+                    <time>December 22, 2013</time>
+                  </div>
+                  <div class='right'>
+                    <a class='action' data-icon='p' href='#1'>Print</a>
+                    <span class='ver-line'>&#124;</span>
+                    <a class='action' data-icon='i' href='#2'>888</a>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <div class='content-row'>
+              <aside class='aside-column-primary'>
+                <div class='aside-block double-spaced'>
+                  <header class='card'>
+                    <h2 class='section-title'>
+                      Top
+                      <span>
+                        Stories
+                      </span>
+                    </h2>
+                  </header>
+                  <ul class='featured-list'>
+                    <li>
+                      <div class='media-object reversed with-small-image'>
+                        <a class='text-meta' href='#'>Policy</a>
+                        <img alt='image title' src='/assets/img/content/th-placeholder.jpg'>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header small'>NSA and Online Medical Records Privacy</h3>
+                          <p class='text-meta-sub light-contrast small'>
+                            By Author Rightspoke
+                            <span class='dot-divider'></span>
+                            3 min read
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class='media-object reversed with-small-image'>
+                        <a class='text-meta' href='#'>science</a>
+                        <img alt='image title' src='/assets/img/content/th-placeholder-2.jpg'>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header small'>Rewriting the Brain</h3>
+                          <p class='text-meta-sub light-contrast small'>
+                            By Author Rightspoke
+                            <span class='dot-divider'></span>
+                            3 min read
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class='media-object'>
+                        <a class='text-meta' href='#'>Treatment</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                          <p class='text-meta-sub light-contrast small'>
+                            Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class='aside-block'>
+                  <header class='card'>
+                    <h2 class='section-title'>
+                      Print
+                      <span>
+                        Edition
+                      </span>
+                    </h2>
+                  </header>
+                  <div class='media-object with-large-image'>
+                    <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+                    <a class='text-meta' href='#'>genome magazine</a>
+                    <div class='media-copy'>
+                      <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+                      <p class='text-meta-sub contrast'>
+                        Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                      </p>
+                    </div>
+                    <a class='primary btn' href='#'>Subscribe</a>
+                  </div>
+                </div>
+              </aside>
+              <article class='primary-content article-body-copy small-block'>
+                <p>
+                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                </p>
+                <p>
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </p>
+                <hr class='brick neutral-light'>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <p>
+                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                </p>
+                <p>
+                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                </p>
+                <footer class='article-footer'>
+                  <div class='text-meta-highlight'>Condition:</div>
+                  <a href='#'>Heart Attack,</a>
+                  <a href='#'>Heart Disease,</a>
+                  <a href='#'>Diet</a>
+                </footer>
+              </article>
+            </div>
+          </div>
+          <div class='content-row end-block inner-bounds paper-white'>
+            <section class='collection grid-3-per with-dividers'>
+              <h2 class='section-title center'>
+                Related
+                <span>
+                  Reading
+                </span>
+              </h2>
+              <hr class='thick primary neutral-light partial'>
+              <div class='media-object with-large-image grid-element'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                <a class='text-meta' href='#'>Research</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                  <p class='text-meta-sub'>By Authur Righter</p>
+                </a>
+              </div>
+              <div class='media-object with-large-image grid-element'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
+                <a class='text-meta' href='#'>Science</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                  <p class='text-meta-sub'>By Authur Righter</p>
+                </a>
+              </div>
+              <div class='media-object with-large-image grid-element'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                <a class='text-meta' href='#'>Treatment</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                  <p class='text-meta-sub'>By Authur Righter</p>
+                </a>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a data-icon='u' href='#'></a>
+                  </li>
+                  <li>
+                    <a data-icon='v' href='#'></a>
+                  </li>
+                  <li>
+                    <a data-icon='w' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"^%section.primary_layout.article_layout.no-photo
+    .inner-bounds.paper-white.block
+
+        -# Article Header
+        .content-row
+            %header.article-header
+                %a.text-meta.brick{:href => "#"} Treatment
+
+                %h2 Rethinking Cancer Treatment in 2014
+
+                -# Social List
+                = render "social-list-all"
+
+                -# Meta Info - All
+                = render "meta-all-article-info"
+
+
+        .content-row
+            -# Primary Aside Column
+            = render 'aside-column-article-no-social'
+
+
+            -# Primary Content Column + Article Body Copy
+            %article.primary-content.article-body-copy.small-block
+                %p
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                %p
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
+                %hr.brick.neutral-light/
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                %p
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                %p
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+
+
+                -# Footer: Related Tags
+                = render 'footer-article-related-tags'
+
+
+
+
+    .content-row.end-block.inner-bounds.paper-white
+        -# Collection
+        = render 'collection-related-reading';T;
+I"2 <section class='primary_layout article_layout no-photo'>
+  <div class='inner-bounds paper-white block'>
+    <div class='content-row'>
+      <header class='article-header'>
+        <a class='text-meta brick' href='#'>Treatment</a>
+        <h2>Rethinking Cancer Treatment in 2014</h2>
+        <div class='addthis_toolbox social-list'>
+          <a class='addthis_button_facebook' data-icon='u' href='#'>
+            <span class='line'></span>
+            <span class='value'>Share</span>
+          </a>
+          <a class='addthis_button_twitter' data-icon='v' href='#'>
+            <span class='line'></span>
+            <span class='value'>Tweet</span>
+          </a>
+          <a class='addthis_button_email' data-icon='h' href='#'>
+            <span></span>
+          </a>
+        </div>
+        <!-- .addthis_toolbox.facebook-share-counter -->
+        <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+        <!-- %span Shares -->
+        <div class='article-meta'>
+          <div class='left'>
+            By
+            <a class='emph' href='#'>Authur Righter</a>
+            <time>December 22, 2013</time>
+          </div>
+          <div class='right'>
+            <a class='action' data-icon='p' href='#1'>Print</a>
+            <span class='ver-line'>&#124;</span>
+            <a class='action' data-icon='i' href='#2'>888</a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class='content-row'>
+      <aside class='aside-column-primary'>
+        <div class='aside-block double-spaced'>
+          <header class='card'>
+            <h2 class='section-title'>
+              Top
+              <span>
+                Stories
+              </span>
+            </h2>
+          </header>
+          <ul class='featured-list'>
+            <li>
+              <div class='media-object reversed with-small-image'>
+                <a class='text-meta' href='#'>Policy</a>
+                <img alt='image title' src='/assets/img/content/th-placeholder.jpg'>
+                <div class='media-copy'>
+                  <h3 class='text-meta-header small'>NSA and Online Medical Records Privacy</h3>
+                  <p class='text-meta-sub light-contrast small'>
+                    By Author Rightspoke
+                    <span class='dot-divider'></span>
+                    3 min read
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class='media-object reversed with-small-image'>
+                <a class='text-meta' href='#'>science</a>
+                <img alt='image title' src='/assets/img/content/th-placeholder-2.jpg'>
+                <div class='media-copy'>
+                  <h3 class='text-meta-header small'>Rewriting the Brain</h3>
+                  <p class='text-meta-sub light-contrast small'>
+                    By Author Rightspoke
+                    <span class='dot-divider'></span>
+                    3 min read
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class='media-object'>
+                <a class='text-meta' href='#'>Treatment</a>
+                <div class='media-copy'>
+                  <h3 class='text-meta-header small'>Changing the Face of Chemo</h3>
+                  <p class='text-meta-sub light-contrast small'>
+                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class='aside-block'>
+          <header class='card'>
+            <h2 class='section-title'>
+              Print
+              <span>
+                Edition
+              </span>
+            </h2>
+          </header>
+          <div class='media-object with-large-image'>
+            <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+            <a class='text-meta' href='#'>genome magazine</a>
+            <div class='media-copy'>
+              <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+              <p class='text-meta-sub contrast'>
+                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+              </p>
+            </div>
+            <a class='primary btn' href='#'>Subscribe</a>
+          </div>
+        </div>
+      </aside>
+      <article class='primary-content article-body-copy small-block'>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <hr class='brick neutral-light'>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+        </p>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+        </p>
+        <footer class='article-footer'>
+          <div class='text-meta-highlight'>Condition:</div>
+          <a href='#'>Heart Attack,</a>
+          <a href='#'>Heart Disease,</a>
+          <a href='#'>Diet</a>
+        </footer>
+      </article>
+    </div>
+  </div>
+  <div class='content-row end-block inner-bounds paper-white'>
+    <section class='collection grid-3-per with-dividers'>
+      <h2 class='section-title center'>
+        Related
+        <span>
+          Reading
+        </span>
+      </h2>
+      <hr class='thick primary neutral-light partial'>
+      <div class='media-object with-large-image grid-element'>
+        <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+        <a class='text-meta' href='#'>Research</a>
+        <a class='media-copy' href='#'>
+          <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+          <p class='text-meta-sub'>By Authur Righter</p>
+        </a>
+      </div>
+      <div class='media-object with-large-image grid-element'>
+        <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
+        <a class='text-meta' href='#'>Science</a>
+        <a class='media-copy' href='#'>
+          <h3 class='text-meta-header'>Rewriting the Brain</h3>
+          <p class='text-meta-sub'>By Authur Righter</p>
+        </a>
+      </div>
+      <div class='media-object with-large-image grid-element'>
+        <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+        <a class='text-meta' href='#'>Treatment</a>
+        <a class='media-copy' href='#'>
+          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+          <p class='text-meta-sub'>By Authur Righter</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</section>
+;T;@=I"/blank_page/;T{;{	;I":<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article Type- Blog w/out photo
+    </title>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
+    <script src='/assets/js/min/modernizr.min.js'></script>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body>
+    <section id='header-content-wrap'>
+      <header id='header-wrap'>
+        <div class='header-inner'>
+          <h1 class='logo'>
+            <a data-icon='L' href='/'></a>
+            <span>Genome</span>
+          </h1>
+          <div class='tagline'>
+            Your Health is Personal
+          </div>
+          <nav id='main-navigation'>
+            <ul class='navigation-list'>
+              <li>
+                <a href='#'>newsletter</a>
+              </li>
+              <li>
+                <a href='#'>browse</a>
+              </li>
+              <li>
+                <a class='current' href='#'>subscribe</a>
+              </li>
+            </ul>
+            <div class='search'>
+              <a class='light-tint search-glass' data-icon='C' href='#'></a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main id='content-wrap'>
+        <section class='primary_layout'>
+          <div class='inner-bounds paper-white block'>
+            <h2>Blank Page</h2>
+          </div>
+        </section>
+      </main>
+    </section>
+    <footer id='main-footer'>
+      <div class='footer-inner-wrap'>
+        <div class='footer-content-wrap'>
+          <div class='footer-site-map'>
+            <div class='content-row add-space-b'>
+              <p class='highlight center add-space-g'>
+                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              </p>
+            </div>
+            <div class='content-row'>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>About Genome</a>
+                  </li>
+                  <li>
+                    <a href='#'>Partners & Allies</a>
+                  </li>
+                  <li>
+                    <a href='#'>Media Kit</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul>
+                  <li>
+                    <a href='#'>Privacy Kit</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='col'>
+                <ul class='social'>
+                  <li>
+                    <a data-icon='u' href='#'></a>
+                  </li>
+                  <li>
+                    <a data-icon='v' href='#'></a>
+                  </li>
+                  <li>
+                    <a data-icon='w' href='#'></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src='/assets/js/min/app.min.js'></script>
+    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"X%section.primary_layout
+    .inner-bounds.paper-white.block
+
+        %h2 Blank Page;T;
+I"|<section class='primary_layout'>
+  <div class='inner-bounds paper-white block'>
+    <h2>Blank Page</h2>
+  </div>
+</section>
+;T;@C:versioni

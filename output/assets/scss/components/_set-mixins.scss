@@ -116,8 +116,8 @@
 // http://codepen.io/sturobson/pen/hdKyv
 // -------------------------------------------------------
 @mixin rgba($color, $value) {
-    background-color: $color;
-    background-color: rgba($color, $value);
+    background: $color;
+    background: rgba($color, $value);
 }
 
 

@@ -27,15 +27,16 @@ h2 {
     font-size: em-font(36px);
     font-weight: 700;
     letter-spacing: -0.009em;
-    line-height: em-font(17px);
+    line-height: 1em;
 }
 
 .section-title {
     font-family: $serif;
     text-transform: uppercase;
     span {
-        color: $primaryLink;
+        color: $secondaryBackgroundCompliment;
     }
+
 }
 
 p {
@@ -48,14 +49,14 @@ p {
     &.lead {
         font-family: $serif;
         font-size: em-font(18px);
-        line-height: em-font(19px);
+        line-height: 1.125em;
     }
 
     // P Highlight
     &.highlight {
         font-family:$sans;
         font-size: em-font(36px);
-        line-height: 1.025em;
+        line-height: 1.125em;
         color: $secondary;
     }
 
@@ -70,14 +71,61 @@ p {
             font-size: em-font(100px);
         }
     }
+
+    // P Lead In Caps
+    span.lead-with-small-caps {
+        font-variant: small-caps;
+        font-weight: 700;
+    }
 }
 
-// Article Body P
+// Blockquote
+blockquote {
+    font-family: $serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: em-font(30px);
+    text-align: center;
+    margin: 0 auto 24px;
+
+    &.with-Qmark {
+        position: relative;
+        &:before {
+            content:'\201C';
+            position: absolute;
+            font-size: em-font(30px);
+            color: $primaryRule;
+            left:-44px;
+        }
+    }
+    &.Q-right {
+        text-align: right;
+        &:before {
+            content:'\201D';
+            right: -44px;
+        }
+    }
+}
+
+// Article Body P, .end-mark, H3
 .article-body-copy {
+    h3 {
+        font-size: em-font(36px);
+        font-weight: 700;
+        letter-spacing: -0.009em;
+        line-height: 1em;
+        margin:0 0 16px;
+    }
+
     p {
-        line-height: 32px;
+        line-height: 2em;
         font-size: em-font(18px);
         margin-bottom: 32px;
+    }
+    .end-mark {
+        position: relative;
+        top: 2px;
+        left: 2px;
     }
 }
 
@@ -112,13 +160,12 @@ p {
 .text-meta-sub {
     font-family: $sans;
     font-size: em-font(16px);
-    line-height:20px;
+    line-height:1em;
     margin: 2px auto 20px;
     display: block;
 
-    .small {
-        font-size: em-font(14px);
-        line-height:19px;
+    &.smaller {
+        margin: 2px auto 0;
     }
 }
 
@@ -134,20 +181,8 @@ p {
     }
 }
 
-// Collection
-.collection {
-    .section-title {
-        font-size: em-font(20px);
-        line-height:24px;
-        margin-bottom: 20px;
-    }
-    .text-meta-sub {
-        font-size: em-font(16px);
-        line-height:21px;
-    }
-}
 
-// Text Highlight
+// Meta Highlight/Contrast
 .text-meta-highlight {
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -161,6 +196,108 @@ p {
         color: $primaryText;
     }
 }
+
+
+
+// Collection
+.collection {
+    .media-copy:hover {
+        .text-meta-header,
+        .text-meta-sub {
+            transition: color .15s ease-in-out;
+            color: $primaryLinkHover;
+        }
+    }
+    .section-title {
+        font-size: em-font(20px);
+        line-height:1.25em;
+        margin-bottom: 20px;
+    }
+    .text-meta-sub {
+        font-size: em-font(16px);
+        line-height:1em;
+    }
+}
+
+
+// Hero
+.hero-content {
+    text-align: center;
+
+    &, p, h2, .text-meta.hr {
+        color: $primaryLight;
+    }
+
+    .text-meta-highlight {
+        color: $primary;
+    }
+
+    .text-meta.hr {
+        font-size: em-font(14px);
+        padding-bottom: 6px;
+        margin:0 auto 14px;
+        border-bottom: 10px solid $primary;
+
+    }
+
+    h2 {
+        font-size: em-font(80px);
+        line-height: 0.9em;
+    }
+
+    p.lead {
+        font-size: em-font(24px);
+        margin: 0 auto 8px;
+
+    }
+
+    // Hero: Article Tot;e
+    &.hero-article-feature {
+        .text-meta-highlight {
+            color: $primary;
+        }
+        hr {
+            margin: 108px auto 16px;
+        }
+        p.lead {
+            width: 78%;
+            margin: 0 auto 8px;
+        }
+    }
+
+    // Hero: Article Feature
+    &.hero-article-section {
+
+        .icon {
+            margin-bottom: 16px;
+            display: block;
+            font-size: em-font(24px);
+            color: $primaryText;
+        }
+
+        .text-meta-highlight {
+            color: $primaryLight;
+        }
+        p.lead {
+            width: 80%;
+            margin: 40px auto 64px;
+        }
+        hr {
+            margin: 36px auto;
+        }
+    }
+
+    // Hero: Article Feature
+    &.hero-article-title {
+        h2 {
+            text-align: left
+        }
+        p.lead {margin: 8px auto;}
+        .text-meta-highlight, p.lead {text-align:left;}
+        .text-meta-highlight {display: block;line-height:1.125em;}
+    }
+}
+
 
 
 // Featured Article
@@ -189,27 +326,53 @@ hr {
     background: $primaryText;
     border: none;
     margin: 0 auto;
+    height: 1px;
+    width:100%;
+    margin-bottom: 2em;
 
-    &.primary {
-        color: $primaryLight;
-        width: 140px;
-        height: 1px;
+    &.light {
+        background: $primaryLight;
     }
 
-    .secondary {
-        background: $primaryBackground;
-        width:130px;
+    &.neutral {
+        background: $primaryLinkHover;
+    }
+
+    &.neutral-light {
+        background: $primaryRule;
+    }
+
+    &.partial {
+        width: 140px;
+    }
+
+    &.thick {
         height: 10px;
+    }
+
+    &.brick {
+        height: 8px;
+        width: 8px;
+    }
+
+}
+
+
+// Article Meta
+.article-meta {
+    font-size: em-font(13px);
+    line-height: 32px;
+
+    &, a {color: $primaryLinkHover;
+    }
+    [data-icon]:before {margin-right: 4px;}
+    a:hover {
+        color: $primaryLink;
     }
 }
 
 
 // Article Meta Utilities
-time, .icon.action {
-    font-size: em-font(13px);
-    line-height: 32px;
-}
-
-.icon.action {
+.action {
     text-transform: uppercase;
 }

@@ -3,12 +3,14 @@
 // Structure Header ------------------
 header#header-wrap {
     background: $primaryLight;
-    border-bottom: 1px solid $primaryRule;
+    border-bottom: 1px solid darken($primaryRule, 15%);
     height:80px;
+    width: 100%;
     @include clearfix();
     overflow: visible;
-    position: relative;
+    position: fixed;
     z-index: 1;
+    box-shadow: 0 3px 13px 0 rgba(2, 3, 3, 0.16);
 
     .header-inner {
         @include container;
@@ -18,7 +20,7 @@ header#header-wrap {
     .tagline {
         position: absolute;
         display: block;
-        bottom: -27px;
+        bottom: -26px;
         height: 25px;
         @include box-sizing(border-box);
         z-index: 2;
@@ -34,15 +36,26 @@ header#header-wrap {
         float:left;
         margin: 0;
         padding: 0;
+        height:80px;
+        overflow:hidden;
 
         a {
-            margin: 16px auto 18px;
-            background: $mainLogoSVG;
+            font-size: 12em;
+            margin: 0;
             height:42px;
             width:193px;
+            line-height: 0;
             display: inline-block;
+            color: $primaryText;
+            position: relative;
+            top: -60px;
+
+            &:hover {
+                color: $primaryLinkHover;
+            }
         }
         span {
+            display: none;
             display: block;
             width: 0;
             height: 0;

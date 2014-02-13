@@ -5,7 +5,7 @@
 .grid-3-per {
     .grid-element {
         @include span-columns(4, $total);
-        &:nth-child(3n+1) {@include span-columns(4 omega, $total);}
+        &:nth-child(3n+2) {@include span-columns(4 omega, $total);}
     }
 }
 

@@ -15,6 +15,9 @@ img {
     max-width: 100%;
 }
 
+// NOTE: Offset fixed navigation
+#content-wrap {padding-top:80px;}
+
 .inner-bounds {
   // NOTE: Content is edge to edge unless given .inner-bounds
   // .inner-bounds also makes .paper-white fill parent height
@@ -35,19 +38,19 @@ img {
 }
 
 .block {
-    padding-top: 64px;
+    padding-top: 64px !important;
 }
 
 .small-block {
-  padding-top: 32px;
+  padding-top: 32px !important;
 }
 
 .end-block {
-  padding-bottom: 160px;
+  padding-bottom: 160px !important;
 }
 
 .end-small-block {
-  padding-bottom: 76px;
+  padding-bottom: 76px !important;
 }
 
 
@@ -63,12 +66,12 @@ body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
   // Fallback IE - #content-wrap declares a min-height
   // http://css-tricks.com/almanac/properties/f/flex-direction/
 
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  // display: -webkit-flex;
+  // display: -ms-flex;
+  // display: flex;
+  // -webkit-flex-direction: column;
+  // -ms-flex-direction: column;
+  // flex-direction: column;
 
   // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
   // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer
@@ -90,9 +93,9 @@ body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
 
 #content-wrap, .inner-bounds {
   z-index: 0;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  // -webkit-flex: 1;
+  // -ms-flex: 1;
+  // flex: 1;
 
   width:100%;
   // NOTE: 40px to offset pulling footer up + 60px to add breathing room

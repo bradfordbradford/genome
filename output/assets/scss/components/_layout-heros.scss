@@ -5,9 +5,57 @@
 .hero-content {
     position: relative;
     z-index: 1;
-    height: 400px;
+    height: 600px;
     width: 100%;
     left: 0;
     right:0;
-    background: $primaryText;
+    background: $primaryHeader;
+
+    &.hero-article-feature{
+        background: url('../img/content/feature-placeholder.jpg')no-repeat;
+        .inner-hero {
+            padding: 72px 0 116px;
+            @include span-columns(6, $total);
+            @include center-columns;
+        }
+    }
+
+    &.hero-article-title{
+        height: 800px;
+
+        .inner-hero {
+            padding: 80px 0;
+            width:100%;
+            position: absolute;
+            bottom: 0px;
+        }
+        .col-wrap {
+
+            @include span-columns(9, $total);
+            @include center-columns;
+        }
+        .col{
+            @include span-columns(5, $total);
+        }
+        .col:last-child {
+            margin: 16px auto 0;
+            @include span-columns(7 omega, $total);
+        }
+
+    }
+
+    &.hero-article-section{
+        .inner-hero {
+            padding: 80px 0;
+            @include span-columns(8, $total);
+            @include center-columns;
+        }
+    }
+
+
+    // NOTE: List of Hero Layout options =>
+    // &.hero-article-feature,
+    // &.hero-article-title,
+    // &.hero-article-section
+
 }

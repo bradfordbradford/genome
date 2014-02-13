@@ -4,24 +4,32 @@
 
 // Utility Classes //
 .smaller {
-    font-size: em-font(13px);
-    line-height:16px;
+    font-size: em-font(13px) !important;
+    line-height:1.5em !important;
 }
 
-.light-contrast {
+.light-tint {
     color: $primaryLinkHover;
+}
+
+.primary-tint {
+    color: $primary;
 }
 
 .circle {
     border-radius: 1000px;
 }
 
+.emph {
+    font-weight: 700;
+}
+
 .serif {
-    font-family: $serif;
+    font-family: $serif !important;
 }
 
 .sans {
-    font-family: $sans;
+    font-family: $sans !important;
 }
 
 .italic {
@@ -31,6 +39,42 @@
 .center {
     text-align: center;
     margin: inherit auto;
+}
+
+.right {
+    float:right;
+}
+
+.left {
+    float:left;
+}
+
+// Pull Outs
+.pull-out-left {
+    float: left;
+    display: inline;
+    width: 390px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 32px 16px 0 0;
+}
+
+.pull-out-right {
+    float: right;
+    display: inline;
+    width: 390px;
+    box-sizing: border-box;
+    padding: 32px 0 16px 16px;
+}
+
+.big-pull {
+    width: 490px;
+    padding: 32px 0 20px 32px;
+    .article-photo-caption {margin-bottom:0;}
+}
+
+.inline-block {
+    display:inline-block;
 }
 
 .add-space-b {
@@ -45,17 +89,34 @@
     padding: 0 56px;
 }
 
-// Article Meta
-.article-meta {
-    .icon {
-        display:inline-block;
-    }
-}
-
 // Author Pic
 .author-pic {
     width: 84px;
     height: 84px;
+}
+
+// Article Photo with Border
+.article-photo-caption {
+    &.with-bottom-border {
+        border-bottom: 1px solid $primaryRule;
+        padding-bottom: 8px;
+    }
+
+    .btn.media-action {
+        bottom:54px;
+    }
+}
+
+// Article Photo with Border
+.article-photo {
+    &.with-bottom-border {
+        border-bottom: 1px solid $primaryRule;
+        padding-bottom: 40px;
+    }
+    &.with-top-border {
+        border-top: 1px solid $primaryRule;
+        padding-top: 40px;
+    }
 }
 
 // Card
@@ -122,50 +183,59 @@
     &.reversed {
         img {
             float: right;
+            margin-left: 12px;
         }
     }
 }
 
 // Collection
 .collection {
+    padding-top: 76px;
     .media-copy {
         width: 77%;
         margin: 0 auto;
     }
 
-    /* NOTE: temporary? maybe move to js to align objects… */
+    hr {
+        margin-bottom: 20px;
+    }
+
     .media-object {
+        position: relative;
         height: 314px;
+    }
+
+    // Add Divider Lines
+    &.with-dividers .media-object {
+        &:before {
+            content:'';
+            position: absolute;
+            left: -14px;
+            height: 100%;
+            width: 1px;
+            background: $primaryRule;
+        }
+    }
+    .media-object:nth-child(3n) {
+        &:before {width:0px;}
+    }
+}
+
+// Author Profile Object
+.author-profile-object {
+
+    .author-pic {
+        float: left;
+        margin-right: 16px;
+    }
+    .author-attrib {
+        margin: 8px 0 0;
     }
 }
 
 // Social Lists: Inline Cards, Inline Icons
 .social-list {
     margin-top: 24px;
-
-    &.inline-cards {
-        background: $secondaryBackground;
-        display: table;
-        width: 100%;
-
-        li {
-            transition: background .1s ease-in-out;
-            display: table-cell;
-            text-align: center;
-            border-right: 4px solid $primaryLight;
-
-            &:last-child {border-right: none;}
-
-            a {margin: 14px auto;}
-
-            &:hover {
-                background: #3B5998;
-                a {
-                    background-position-y: -77px;
-                }
-            }
-        }
-    }
 
     &.inline-icons {
         li {
@@ -175,3 +245,86 @@
     }
 
 }
+
+
+// Addthis Social List (Custom Styles)
+.addthis_toolbox {
+    display: table;
+}
+.addthis_button_facebook,
+.addthis_button_twitter,
+.addthis_button_email {
+    display: table-cell;
+    transition: background .1s ease-in-out;
+    text-align: center;
+    color: $primaryLight !important;
+    background: $secondaryBackground;
+    font-size: em-font(12px);
+    text-transform: uppercase;
+    vertical-align: top;
+    letter-spacing: .1em;
+    padding: 8px 16px;
+    border-right: 4px solid $primaryLight;
+
+    &:hover {
+        background: $primaryBackground;
+    }
+
+    span.line {
+        height: 100%;
+        width: 1px;
+        background: $primaryLight;
+        top: 0px;
+        left: 0px;
+        position: relative;
+        display: inline-block;
+    }
+
+    span.value {
+        position: relative;
+        top: -9px;
+        left: 4px;
+    }
+
+    &[data-icon]:before {
+        font-size: em-font(30px);
+        position: relative;
+        top: -2px;
+        left:  -4px;
+    }
+}
+
+.addthis_button_facebook {
+    background: $facebook;
+    &:hover {
+        background: darken($facebook, 8%);
+    }
+}
+
+.addthis_button_twitter {
+    background: $twitter;
+    &:hover {
+        background: darken($twitter, 8%);
+    }
+}
+
+.addthis_button_email {
+    color: $primaryLink  !important;
+
+    border-right: none;
+
+    &[data-icon]:before {
+        top: auto;
+        left: auto;
+    }
+}
+
+// Facebook Counter
+.addthis_counter_facebook {
+    .addthis_button_facebook {
+        display: block;
+        background: transparent;
+        border: 0px
+    }
+}
+

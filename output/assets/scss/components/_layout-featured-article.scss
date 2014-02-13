@@ -4,6 +4,8 @@
 // Layout: Featured (featured articles) //
 .featured_layout {
 
+    padding-bottom: 160px;
+
     // Article Body Copy
     .primary-content {
         @include span-columns(10, $total);
@@ -14,6 +16,38 @@
             @include span-columns(10, $total);
             @include center-columns;
         }
+
+        .article-body-copy > {
+            p {
+                width: 80%;
+                margin: 0 auto;
+            }
+            h3 {
+                width: 80%;
+                margin: 16px auto;
+            }
+        }
+    }
+
+    // Article Photos, Media Buttons
+    .article-photo {
+        position: relative;
+
+        .btn.media-action {
+            position: absolute;
+            bottom: 10px;
+            display: block;
+            left: 24px;
+            &.no-text {
+                bottom:0px;
+                left:12px;
+            }
+        }
+    }
+
+    // Article Caption
+    .article-photo-caption {
+        margin-bottom: 24px;
     }
 
 
