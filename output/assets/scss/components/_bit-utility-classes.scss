@@ -64,13 +64,18 @@
     display: inline;
     width: 390px;
     box-sizing: border-box;
-    padding: 32px 0 16px 16px;
+    padding: 32px 0 16px 24px;
 }
 
+.small-pull {
+    width: 300px;
+}
 .big-pull {
     width: 490px;
     padding: 32px 0 20px 32px;
-    .article-photo-caption {margin-bottom:0;}
+    .article-photo-caption {
+        margin-bottom:0;
+    }
 }
 
 .inline-block {
@@ -102,9 +107,6 @@
         padding-bottom: 8px;
     }
 
-    .btn.media-action {
-        bottom:54px;
-    }
 }
 
 // Article Photo with Border
@@ -112,6 +114,9 @@
     &.with-bottom-border {
         border-bottom: 1px solid $primaryRule;
         padding-bottom: 40px;
+        .btn.media-action {
+            bottom:54px;
+        }
     }
     &.with-top-border {
         border-top: 1px solid $primaryRule;

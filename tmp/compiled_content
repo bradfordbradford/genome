@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"¡L<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"}M<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -401,6 +401,8 @@
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -945,7 +947,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"g=<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"#><!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1247,6 +1249,8 @@ I"}<article>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -1522,7 +1526,7 @@ I"€%<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"›9<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"ô:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1817,6 +1821,8 @@ I"€%<section class='primary_layout article_layout'>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -2081,7 +2087,7 @@ I"ã"<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"ò<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"T<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2239,6 +2245,8 @@ I"ã"<section class='primary_layout article_layout'>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -2456,7 +2464,7 @@ I"ì<div class='inner-bounds paper-white block'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"nB<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"ŒQ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2549,16 +2557,24 @@ I"ì<div class='inner-bounds paper-white block'>
                 <p>
                   Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
                 </p>
-                <div class='article-photo pull-out-right'>
-                  <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
-                  <a class='btn media-action no-text' data-icon='b' href='#'></a>
+                <div class='pull-out-right small-pull'>
+                  <div class='article-photo'>
+                    <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
+                    <a class='btn media-action no-text overlay-view-image' data-icon='b' href='/assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'></a>
+                  </div>
+                  <div class='article-photo-caption with-bottom-border'>
+                    <p class='text-meta-sub smaller'>
+                      Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+                    </p>
+                  </div>
                 </div>
-                <div class='article-photo-caption with-border'>
-                  <p class='text-meta-sub smaller'>
-                    Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
-                  </p>
-                </div>
-                <blockquote>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <blockquote class='small-block'>
                   No sensible decision can be made any longer without taking into account not only the world as it is.
                 </blockquote>
                 <hr class='thick partial neutral-light'>
@@ -2583,7 +2599,7 @@ I"ì<div class='inner-bounds paper-white block'>
             <p class='italic lead'>
               The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
             </p>
-            <a class='btn neutral' href='#'>Watch Video</a>
+            <a class='btn neutral overlay-watch-video' href='https://vimeo.com/17404191'>Watch Video</a>
           </div>
         </section>
         <section class='featured_layout inner-bounds paper-white block'>
@@ -2598,6 +2614,22 @@ I"ì<div class='inner-bounds paper-white block'>
                   tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                 </p>
                 <h3>PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE</h3>
+                <div class='slideshow'>
+                  <ul class='slides'>
+                    <li>
+                      <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                    </li>
+                    <li>
+                      <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                    </li>
+                    <li>
+                      <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                      <figcaption>
+                        Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+                      </figcaption>
+                    </li>
+                  </ul>
+                </div>
                 <p>
                   Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                 </p>
@@ -2612,7 +2644,7 @@ I"ì<div class='inner-bounds paper-white block'>
                 <div class='pull-out-right big-pull'>
                   <div class='article-photo with-bottom-border'>
                     <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-                    <a class='btn media-action' data-icon='h' href='#'>Watch Video</a>
+                    <a class='btn media-action overlay-watch-video' data-icon='c' href='https://vimeo.com/17404191'>Watch Video</a>
                   </div>
                 </div>
                 <p>
@@ -2621,10 +2653,30 @@ I"ì<div class='inner-bounds paper-white block'>
                 <p>
                   Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
                 </p>
+                <!-- .pull-out-right.big-pull -->
+                <!-- -# Photo - with caption and slideshow -->
+                <!-- .article-photo -->
+                <!-- %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/ -->
+                <!-- %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow -->
+                <!-- -# Photo Caption -->
+                <!-- .article-photo-caption.with-bottom-border -->
+                <!-- %p.text-meta-sub.smaller -->
+                <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. -->
+                <!-- .mfp-hide#overlay-slideshow-1 -->
+                <!-- %img.slide{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."} -->
+                <!-- %img.slide{:src => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."} -->
                 <div class='pull-out-right big-pull'>
                   <div class='article-photo'>
                     <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                    <a class='btn media-action' data-icon='c' href='#'>View Slideshow</a>
+                    <div class='overlay-view-slideshow'>
+                      <a class='btn media-action slide' data-icon='c' href='/assets/img/content/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
+                        View Slideshow
+                      </a>
+                      <a class='mfp-hide slide' href='/assets/img/content/article-placeholder.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
+                        two
+                      </a>
+                    </div>
+                    <!-- %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow -->
                   </div>
                   <div class='article-photo-caption with-bottom-border'>
                     <p class='text-meta-sub smaller'>
@@ -2641,7 +2693,7 @@ I"ì<div class='inner-bounds paper-white block'>
                 <p>
                   Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
                 </p>
-                <blockquote class='with-Qmark Q-right pull-out-right'>
+                <blockquote class='with-Qmark Q-left pull-out-left'>
                   No sensible decision can be made any longer without taking into account not only the world as it is.
                 </blockquote>
                 <p>
@@ -2727,6 +2779,8 @@ I"ì<div class='inner-bounds paper-white block'>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -2740,7 +2794,7 @@ I"ì<div class='inner-bounds paper-white block'>
     </script>
   </body>
 </html>
-;T;	I"ä--# Featured Hero
+;T;	I"3;-# Featured Hero
 %section.hero-content.center.hero-article-title
     .inner-hero
         .col-wrap
@@ -2788,26 +2842,34 @@ I"ì<div class='inner-bounds paper-white block'>
 
 
                 -# Photo - Enlarge
-                .article-photo.pull-out-right
-                    %img{:src => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
-                    %a.btn.media-action.no-text{:href => "#",:'data-icon'=>"b"}
-                .article-photo-caption.with-border
-                    %p.text-meta-sub.smaller
-                        Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
-
-
-                -# Blockquote + HR
-                %blockquote
-                    No sensible decision can be made any longer without taking into account not only the world as it is.
-                %hr.thick.partial.neutral-light/
+                .pull-out-right.small-pull
+                    .article-photo
+                        %img{:src => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
+                        %a.btn.media-action.no-text.overlay-view-image{:href => "/assets/img/content/article-placeholder-slim.jpg",:title => "Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs", :'data-icon'=>"b"}
+                    .article-photo-caption.with-bottom-border
+                        %p.text-meta-sub.smaller
+                            Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
 
 
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+
+
                 %p
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
+                -# Blockquote + HR
+                %blockquote.small-block
+                    No sensible decision can be made any longer without taking into account not only the world as it is.
+                %hr.thick.partial.neutral-light/
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+
+
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
 
 
@@ -2826,7 +2888,7 @@ I"ì<div class='inner-bounds paper-white block'>
         %p.italic.lead
             The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
 
-        %a.btn.neutral{:href => "#"} Watch Video
+        %a.btn.neutral.overlay-watch-video{:href => "https://vimeo.com/17404191"} Watch Video
 
 
 
@@ -2849,6 +2911,17 @@ I"ì<div class='inner-bounds paper-white block'>
                     tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
 
                 %h3 PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE
+                .slideshow
+                    %ul.slides
+                        %li
+                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                        %li
+                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                        %li
+                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                            %figcaption
+                                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+
 
                 %p
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
@@ -2864,23 +2937,51 @@ I"ì<div class='inner-bounds paper-white block'>
                     -# Photo - with caption and video
                     .article-photo.with-bottom-border
                         %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                        %a.btn.media-action{:href => "#",:'data-icon'=>"h"} Watch Video
+                        %a.btn.media-action.overlay-watch-video{:href => "https://vimeo.com/17404191", :'data-icon'=>"c"} Watch Video
+
+
+
+
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 %p
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
+                / .pull-out-right.big-pull
+                /     -# Photo - with caption and slideshow
+                /     .article-photo
+                /         %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                /         %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow
+
+                /     -# Photo Caption
+                /     .article-photo-caption.with-bottom-border
+                /         %p.text-meta-sub.smaller
+                /             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+                / .mfp-hide#overlay-slideshow-1
+                /     %img.slide{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                /     %img.slide{:src => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+
                 .pull-out-right.big-pull
                     -# Photo - with caption and slideshow
                     .article-photo
                         %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
-                        %a.btn.media-action{:href => "#",:'data-icon'=>"c"} View Slideshow
+                        .overlay-view-slideshow
+                            %a.btn.media-action.slide{:href => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", :'data-icon'=>"c"}
+                                View Slideshow
+
+                            %a.mfp-hide.slide{:href => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                                two
+                        / %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow
 
                     -# Photo Caption
                     .article-photo-caption.with-bottom-border
                         %p.text-meta-sub.smaller
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+
+
 
                 %p
                     Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
@@ -2890,7 +2991,7 @@ I"ì<div class='inner-bounds paper-white block'>
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
                 -# Blockquote - nested left
-                %blockquote.with-Qmark.Q-right.pull-out-right
+                %blockquote.with-Qmark.Q-left.pull-out-left
                     No sensible decision can be made any longer without taking into account not only the world as it is.
 
                 %p
@@ -2914,7 +3015,7 @@ I"ì<div class='inner-bounds paper-white block'>
                 %p
                     Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                     %a.light-tint.inline-block.end-mark{:href => "",:'data-icon'=>"G"};T;
-I"Ÿ+<section class='hero-content center hero-article-title'>
+I"9<section class='hero-content center hero-article-title'>
   <div class='inner-hero'>
     <div class='col-wrap'>
       <div class='icon play-video'></div>
@@ -2953,16 +3054,24 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
         <p>
           Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
         </p>
-        <div class='article-photo pull-out-right'>
-          <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
-          <a class='btn media-action no-text' data-icon='b' href='#'></a>
+        <div class='pull-out-right small-pull'>
+          <div class='article-photo'>
+            <img alt='' src='/assets/img/content/article-placeholder-slim.jpg'>
+            <a class='btn media-action no-text overlay-view-image' data-icon='b' href='/assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'></a>
+          </div>
+          <div class='article-photo-caption with-bottom-border'>
+            <p class='text-meta-sub smaller'>
+              Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+            </p>
+          </div>
         </div>
-        <div class='article-photo-caption with-border'>
-          <p class='text-meta-sub smaller'>
-            Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
-          </p>
-        </div>
-        <blockquote>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <blockquote class='small-block'>
           No sensible decision can be made any longer without taking into account not only the world as it is.
         </blockquote>
         <hr class='thick partial neutral-light'>
@@ -2987,7 +3096,7 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
     <p class='italic lead'>
       The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
     </p>
-    <a class='btn neutral' href='#'>Watch Video</a>
+    <a class='btn neutral overlay-watch-video' href='https://vimeo.com/17404191'>Watch Video</a>
   </div>
 </section>
 <section class='featured_layout inner-bounds paper-white block'>
@@ -3002,6 +3111,22 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
           tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
         </p>
         <h3>PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE</h3>
+        <div class='slideshow'>
+          <ul class='slides'>
+            <li>
+              <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+            </li>
+            <li>
+              <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+            </li>
+            <li>
+              <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+              <figcaption>
+                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+              </figcaption>
+            </li>
+          </ul>
+        </div>
         <p>
           Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
         </p>
@@ -3016,7 +3141,7 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
         <div class='pull-out-right big-pull'>
           <div class='article-photo with-bottom-border'>
             <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-            <a class='btn media-action' data-icon='h' href='#'>Watch Video</a>
+            <a class='btn media-action overlay-watch-video' data-icon='c' href='https://vimeo.com/17404191'>Watch Video</a>
           </div>
         </div>
         <p>
@@ -3025,10 +3150,30 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
         <p>
           Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
         </p>
+        <!-- .pull-out-right.big-pull -->
+        <!-- -# Photo - with caption and slideshow -->
+        <!-- .article-photo -->
+        <!-- %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/ -->
+        <!-- %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow -->
+        <!-- -# Photo Caption -->
+        <!-- .article-photo-caption.with-bottom-border -->
+        <!-- %p.text-meta-sub.smaller -->
+        <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. -->
+        <!-- .mfp-hide#overlay-slideshow-1 -->
+        <!-- %img.slide{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."} -->
+        <!-- %img.slide{:src => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."} -->
         <div class='pull-out-right big-pull'>
           <div class='article-photo'>
             <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-            <a class='btn media-action' data-icon='c' href='#'>View Slideshow</a>
+            <div class='overlay-view-slideshow'>
+              <a class='btn media-action slide' data-icon='c' href='/assets/img/content/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
+                View Slideshow
+              </a>
+              <a class='mfp-hide slide' href='/assets/img/content/article-placeholder.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
+                two
+              </a>
+            </div>
+            <!-- %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow -->
           </div>
           <div class='article-photo-caption with-bottom-border'>
             <p class='text-meta-sub smaller'>
@@ -3045,7 +3190,7 @@ I"Ÿ+<section class='hero-content center hero-article-title'>
         <p>
           Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
         </p>
-        <blockquote class='with-Qmark Q-right pull-out-right'>
+        <blockquote class='with-Qmark Q-left pull-out-left'>
           No sensible decision can be made any longer without taking into account not only the world as it is.
         </blockquote>
         <p>
@@ -3278,7 +3423,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"P7<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"8<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3565,6 +3710,8 @@ I"Ô<div class='inner-bounds paper-white block'>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
@@ -3806,7 +3953,7 @@ I"2 <section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I":<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"ˆ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3921,6 +4068,8 @@ I"2 <section class='primary_layout article_layout no-photo'>
         </div>
       </div>
     </footer>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
     <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->

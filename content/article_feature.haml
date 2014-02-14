@@ -50,26 +50,34 @@ title: Article Type- Feature
 
 
                 -# Photo - Enlarge
-                .article-photo.pull-out-right
-                    %img{:src => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
-                    %a.btn.media-action.no-text{:href => "#",:'data-icon'=>"b"}
-                .article-photo-caption.with-border
-                    %p.text-meta-sub.smaller
-                        Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
-
-
-                -# Blockquote + HR
-                %blockquote
-                    No sensible decision can be made any longer without taking into account not only the world as it is.
-                %hr.thick.partial.neutral-light/
+                .pull-out-right.small-pull
+                    .article-photo
+                        %img{:src => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
+                        %a.btn.media-action.no-text.overlay-view-image{:href => "/assets/img/content/article-placeholder-slim.jpg",:title => "Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs", :'data-icon'=>"b"}
+                    .article-photo-caption.with-bottom-border
+                        %p.text-meta-sub.smaller
+                            Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
 
 
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+
+
                 %p
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
+                -# Blockquote + HR
+                %blockquote.small-block
+                    No sensible decision can be made any longer without taking into account not only the world as it is.
+                %hr.thick.partial.neutral-light/
+
+                %p
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+
+
+                %p
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
 
 
@@ -88,7 +96,7 @@ title: Article Type- Feature
         %p.italic.lead
             The PreDx test measures seven  substances called “biomarkers” in your blood that are linked to the development of type 2 diabetes.
 
-        %a.btn.neutral{:href => "#"} Watch Video
+        %a.btn.neutral.overlay-watch-video{:href => "https://vimeo.com/17404191"} Watch Video
 
 
 
@@ -111,6 +119,17 @@ title: Article Type- Feature
                     tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
 
                 %h3 PLACE FULL BLEED INLINE PHOTO SLIDESHOW HERE
+                .slideshow
+                    %ul.slides
+                        %li
+                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                        %li
+                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                        %li
+                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                            %figcaption
+                                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+
 
                 %p
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
@@ -126,23 +145,51 @@ title: Article Type- Feature
                     -# Photo - with caption and video
                     .article-photo.with-bottom-border
                         %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                        %a.btn.media-action{:href => "#",:'data-icon'=>"h"} Watch Video
+                        %a.btn.media-action.overlay-watch-video{:href => "https://vimeo.com/17404191", :'data-icon'=>"c"} Watch Video
+
+
+
+
 
                 %p
                     Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
                 %p
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
+                / .pull-out-right.big-pull
+                /     -# Photo - with caption and slideshow
+                /     .article-photo
+                /         %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                /         %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow
+
+                /     -# Photo Caption
+                /     .article-photo-caption.with-bottom-border
+                /         %p.text-meta-sub.smaller
+                /             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+                / .mfp-hide#overlay-slideshow-1
+                /     %img.slide{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                /     %img.slide{:src => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+
                 .pull-out-right.big-pull
                     -# Photo - with caption and slideshow
                     .article-photo
                         %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
-                        %a.btn.media-action{:href => "#",:'data-icon'=>"c"} View Slideshow
+                        .overlay-view-slideshow
+                            %a.btn.media-action.slide{:href => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", :'data-icon'=>"c"}
+                                View Slideshow
+
+                            %a.mfp-hide.slide{:href => "/assets/img/content/article-placeholder.jpg", :title => "Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+                                two
+                        / %a.btn.media-action.overlay-view-slideshow{:href => "#overlay-slideshow-1",:'data-icon'=>"c"} View Slideshow
 
                     -# Photo Caption
                     .article-photo-caption.with-bottom-border
                         %p.text-meta-sub.smaller
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+
+
+
 
                 %p
                     Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
@@ -152,7 +199,7 @@ title: Article Type- Feature
                     Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
                 -# Blockquote - nested left
-                %blockquote.with-Qmark.Q-right.pull-out-right
+                %blockquote.with-Qmark.Q-left.pull-out-left
                     No sensible decision can be made any longer without taking into account not only the world as it is.
 
                 %p
