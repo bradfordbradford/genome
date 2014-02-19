@@ -58,7 +58,7 @@
             margin-top: 0px;
         }
         header.article-header {
-            width: auto;
+            @include span-columns(8, $total);
         }
 
         .social-list {

@@ -8,12 +8,20 @@
     line-height:1.5em !important;
 }
 
+.larger {
+    font-size: em-font(20px) !important;
+}
+
 .light-tint {
     color: $primaryLinkHover;
 }
 
 .primary-tint {
     color: $primary;
+}
+
+.secondary-tint {
+    color: $secondary;
 }
 
 .circle {
@@ -90,6 +98,7 @@
     margin-top: 56px;
 }
 
+// Gutter Padding
 .add-space-g {
     padding: 0 56px;
 }
@@ -100,8 +109,14 @@
     height: 84px;
 }
 
-// Article Photo with Border
+// Article Caption
 .article-photo-caption {
+    margin-bottom: 24px;
+    p {
+        margin-bottom:0;
+    }
+
+    // Article Photo with Border
     &.with-bottom-border {
         border-bottom: 1px solid $primaryRule;
         padding-bottom: 8px;
@@ -109,59 +124,83 @@
 
 }
 
-// Article Photo with Border
+
+
+
+
+// Article Photos, Media Buttons
 .article-photo {
+    position: relative;
     &.with-bottom-border {
         border-bottom: 1px solid $primaryRule;
         padding-bottom: 40px;
         .btn.media-action {
-            bottom:54px;
+            bottom:56px;
         }
     }
+
+    // Article Photo with Border
     &.with-top-border {
         border-top: 1px solid $primaryRule;
         padding-top: 40px;
     }
+    .btn.media-action {
+        position: absolute;
+        bottom: 12px;
+        display: block;
+        left: 24px;
+        &.no-text {
+            left:12px;
+        }
+    }
 }
 
-// Card
-.card {
+
+
+// Cards
+.primary-card {
+    background: $primaryLight;
+}
+.secondary-card {
     background: $secondaryBackground;
     .card-inner-wrap {
         padding: 20px 18px;
     }
     .section-title {
         padding: 16px 18px 12px;
-
-        &.tall {
-            padding: 74px 18px 12px;
-        }
     }
 }
 
-// Tag
-.tag {
-    position: relative;
-    background: $primaryLight;
-    padding: 8px 16px;
-}
 
 // Featured List
 .featured-list {
     @include noMarPad;
-    li {
+
+    &:not(.author-list) li {
         border-bottom: $primaryLinkHover 1px solid;
-        // padding: 0 0 24px;
-        &:last-child {
-            border-bottom:none;
-            // padding: 0 0 0;
-        }
     }
 
     .view-all {
-        margin: 40px auto -24px;
+        padding:24px 0 0;
     }
 }
+
+// Roll List
+.roll-list {
+    li {
+        margin: 0 auto 24px;
+        header .text-meta {
+            color: $primaryLinkHover;
+        }
+        .text-meta-sub.sans-meta {
+            .text-meta {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+
 
 // Media Object
 .media-object {
@@ -193,6 +232,43 @@
     }
 }
 
+// Media Object - Author Type
+.media-object.author-type {
+    text-align: center;
+
+    .author-pic {
+        height: 125px;
+        width: 120px;
+        margin: 0 auto;
+    }
+    .author-attrib {
+        font-size: 1.125em;
+        text-transform: uppercase;
+
+    }
+    .author-attrib, .text-meta-sub {
+        transition: color .15s ease-in-out;
+    }
+    a:hover {
+        .author-attrib, .text-meta-sub {color: $secondary;}
+    }
+}
+
+// Media Object Horizontal Layout
+.media-object-horizontal-layout {
+    @include clearlyFixed;
+
+    .image-content {
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .comment-counter-wrap {
+        bottom: -28px;
+        top: inherit;
+    }
+}
+
+
 // Collection
 .collection {
     padding-top: 76px;
@@ -206,8 +282,10 @@
     }
 
     .media-object {
+        text-align: left;
         position: relative;
-        height: 314px;
+        height: 274px;
+        overflow: hidden;
     }
 
     // Add Divider Lines
@@ -238,7 +316,7 @@
     }
 }
 
-// Social Lists: Inline Cards, Inline Icons
+// Social Lists
 .social-list {
     margin-top: 24px;
 
@@ -250,6 +328,103 @@
     }
 
 }
+
+
+// Comment Counter
+.comment-counter-wrap {
+    display: block;
+    text-align: center;
+    margin-bottom:18px;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+}
+.icon.comment-counter {
+    background: $primaryText;
+    padding: 7px 12px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: $primaryLight;
+    font-weight: 700;
+    transition: background .15s ease-in-out;
+
+
+    &:after {
+        border-top: 10px solid $primaryText;
+        border-left: 10px solid $primaryText;
+        border-bottom: 10px solid $primaryLight;
+        position: absolute;
+        top: 20px;
+        left: 9pxpx;
+        z-index: 2;
+        height: 0px;
+        width: 0px;
+        display: block;
+        content: '';
+        transition: border .15s ease-in-out;
+    }
+
+    &:hover {
+        background: $secondary;
+        &:after {
+            border-top: 10px solid $secondary;
+            border-left: 10px solid $secondary;
+            border-bottom: 10px solid $primaryLight;
+        }
+    }
+}
+
+
+// Collection Popup Content
+.popup-content.media-object.with-large-image {
+    .popup-content-wrap {
+        position: relative;
+        padding: 24px 6px 12px;
+        background:$primaryLight;
+        transition: all .15s ease;
+    }
+
+    img {
+        margin-bottom:0px;
+        width:100%; /*temp*/
+    }
+
+    // .comment-counter-wrap,
+     p.sans-meta {
+        opacity: 0;
+        transition: opacity .15s ease-in-out;
+    }
+
+    &:hover {
+        .popup-content-wrap {
+            // animation: bump-up 0.2s ease;
+            transform: translateY(-100px);
+        }
+        .comment-counter-wrap, p.sans-meta {
+            opacity: 1;
+        }
+
+        .icon.comment-counter {
+            background: $secondary;
+            &:after {
+                border-top: 10px solid $secondary;
+                border-left: 10px solid $secondary;
+                border-bottom: 10px solid $primaryLight;
+            }
+        }
+    }
+}
+
+@keyframes bump-up {
+  0% { transform: translateY(0px) }
+  100% { transform: translateY(-100px) }
+}
+@keyframes bump-down {
+  0% { transform: translateY(-100px) }
+  100% { transform: translateY(-0px) }
+}
+
 
 
 // Addthis Social List (Custom Styles)
@@ -314,15 +489,33 @@
 }
 
 .addthis_button_email {
-    color: $primaryLink  !important;
-
+    color: $primaryLink !important;
     border-right: none;
+
+
+    span.line, span.value {display:none;}
+
 
     &[data-icon]:before {
         top: auto;
         left: auto;
     }
 }
+
+// Expanded
+ .expanded {
+    .addthis_button_email {
+        span.line {
+            background: $primaryLink;
+        }
+        span.line, span.value {display:inline-block;}
+
+        &[data-icon]:before {
+            top: -2px;
+            left:  -4px;
+        }
+    }
+ }
 
 // Facebook Counter
 .addthis_counter_facebook {

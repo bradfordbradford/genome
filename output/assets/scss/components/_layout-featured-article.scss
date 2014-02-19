@@ -20,7 +20,7 @@
         .article-body-copy > {
             p {
                 width: 80%;
-                margin: 0 auto;
+                margin: 0 auto 28px;
             }
             h3 {
                 width: 80%;
@@ -28,27 +28,5 @@
             }
         }
     }
-
-    // Article Photos, Media Buttons
-    .article-photo {
-        position: relative;
-
-        .btn.media-action {
-            position: absolute;
-            bottom: 10px;
-            display: block;
-            left: 24px;
-            &.no-text {
-                bottom:0px;
-                left:12px;
-            }
-        }
-    }
-
-    // Article Caption
-    .article-photo-caption {
-        margin-bottom: 24px;
-    }
-
 
 }

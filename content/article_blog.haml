@@ -3,7 +3,7 @@ title: Article Type- Blog
 ---
 
 %section.primary_layout.article_layout
-    .inner-bounds.paper-white.block
+    .inner-bounds.block.primary-card
 
         -# Article Header
         .content-row
@@ -25,7 +25,7 @@ title: Article Type- Blog
                 %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
 
             -# Photo Caption Card
-            .article-photo-caption.card
+            .article-photo-caption.secondary-card
                 .card-inner-wrap
                     %span.photo-attrib Annie Photographer
 
@@ -47,6 +47,9 @@ title: Article Type- Blog
                 %p
                     Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
 
+                %blockquote
+                    Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
                 %hr.brick.neutral-light/
 
                 %p
@@ -65,7 +68,7 @@ title: Article Type- Blog
 
 
 
-    .content-row.end-block.inner-bounds.paper-white
+    .content-row.end-block.inner-bounds.primary-card
         -# Collection
         = render 'collection-related-reading'
 

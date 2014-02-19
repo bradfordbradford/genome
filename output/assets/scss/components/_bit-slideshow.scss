@@ -24,6 +24,12 @@
     }
 }
 
+// NOTE: Pull up small margin at bottom of image
+.flex-viewport {
+    margin-bottom: -3px;
+}
+
+// Directional Navigation
 .flex-direction-nav {
     position: absolute;
     height: 100%;
@@ -31,7 +37,7 @@
     top: 0;
 
     li {
-        height: 99.4%;
+        height: 99.6%;
         display: inline-block;
         position: absolute;
 

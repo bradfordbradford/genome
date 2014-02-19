@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 a {
-    color: $primaryLink;
+    color: inherit;
     text-decoration:none;
     transition: color .1s ease-in-out;
 
@@ -24,10 +24,17 @@ a {
 }
 
 h2 {
-    font-size: em-font(36px);
+    font-size: em-font(42px);
     font-weight: 700;
     letter-spacing: -0.009em;
     line-height: 1em;
+}
+
+header.section-header {
+    .section-title {
+        font-size: .8125em;
+        margin-bottom: 6px;
+    }
 }
 
 .section-title {
@@ -67,13 +74,15 @@ p {
             float: left;
             line-height: .56em;
             padding: 24px 12px 0 0;
-            color: $compliment;
+            color: $secondary;
             font-size: em-font(100px);
         }
     }
 
     // P Lead In Caps
     span.lead-with-small-caps {
+        font-size: 1.25em;
+        margin: 0 6px 0 0;
         font-variant: small-caps;
         font-weight: 700;
     }
@@ -82,7 +91,7 @@ p {
 // Blockquote
 blockquote {
     font-family: $serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: italic;
     font-size: em-font(30px);
     text-align: center;
@@ -132,12 +141,20 @@ blockquote {
 // Text Meta
 .text-meta {
     margin:0 auto 6px;
-    color: $secondary;
+    position: relative;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: em-font(12px);
+    font-size: em-font(13px);
     letter-spacing: 0.08em;
     display: inline-block;
+
+    &, a {
+        color: $secondary;
+
+        &:hover {
+            color: $primaryLinkHover;
+        }
+    }
 
     // With Brick
     &.brick {
@@ -154,18 +171,35 @@ blockquote {
             background:$secondary;
         }
     }
+    time {
+        color: $primaryLink;
+        font-weight: 200;
+        margin-left: 4px;
+    }
 }
 
 // Text Meta Sub
 .text-meta-sub {
-    font-family: $sans;
-    font-size: em-font(16px);
+    font-family: $serif;
+    font-style: italic;
+    font-size: 0.825em;
     line-height:1em;
-    margin: 2px auto 20px;
+    margin: 6px auto 20px;
     display: block;
+}
 
-    &.smaller {
-        margin: 2px auto 0;
+// Text Meta Sub - Sans
+.sans-meta {
+    font-style: normal;
+    font-family: $sans;
+    font-size: .875em;
+    line-height: 1.25em;
+
+    a {
+        color: $secondary;
+        &:hover {
+            color: $primaryLinkHover;
+        }
     }
 }
 
@@ -189,7 +223,7 @@ blockquote {
     font-size: em-font(16px);
     font-weight: 700;
     display: inline-block;
-    color: $compliment;
+    color: $secondary;
 
     &.light-contrast {
         font-weight: 400;
@@ -197,6 +231,30 @@ blockquote {
     }
 }
 
+
+
+// Featured Article
+.featured-article {
+    h2 a {
+        &:hover {
+            color: $primaryLink;
+        }
+    }
+    .tag {
+        padding:26px 16px 20px 0px;
+    }
+    .text-meta-sub {
+        font-size: em-font(20px);
+        margin: 18px auto 26px;
+    }
+
+    p {
+        font-family: $sans;
+        line-height: 1.75em;
+        font-size: 1.125em;
+        margin:0 auto 16px;
+    }
+}
 
 
 // Collection
@@ -212,10 +270,6 @@ blockquote {
         font-size: em-font(20px);
         line-height:1.25em;
         margin-bottom: 20px;
-    }
-    .text-meta-sub {
-        font-size: em-font(16px);
-        line-height:1em;
     }
 }
 
@@ -298,16 +352,6 @@ blockquote {
     }
 }
 
-
-
-// Featured Article
-.featured-article {
-    // NOTE: Pull up .tag and .article-header
-    .article-header {
-        margin-top: -28px;
-    }
-
-}
 
 
 // Photo Attribution

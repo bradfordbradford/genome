@@ -25,8 +25,10 @@ header#header-wrap {
         @include box-sizing(border-box);
         z-index: 2;
         font-family: $serif;
-        background: #eaeaea;
-        color: $primaryLink;
+        // background: #eaeaea;
+        background: $primaryText;
+        // color: $primaryLink;
+        color: $primaryLight;
         padding: 8px 16px;
         font-size: em-font(11px);
         letter-spacing: 0.04em;
@@ -76,11 +78,16 @@ header#header-wrap {
                 padding: 4px 36px;
 
                 a {
+                    color: $primaryLink;
                     font-size: em-font(14px);
                     line-height: em-font(80px);
                     font-weight: 700;
                     text-transform: uppercase;
                     letter-spacing: 0.1em;
+
+                    &:hover {
+                        color:$primaryLinkHover;
+                    }
                 }
             }
         }
@@ -90,5 +97,13 @@ header#header-wrap {
     .search {
         display: inline-block;
         margin: 0 -18px 0 76px;
+        position: relative;
+        top:3px;
+
+        a:hover {
+            color:$secondary;
+        }
     }
+
+
 }

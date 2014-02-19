@@ -2,134 +2,153 @@
 
 
 -# Aside Column - Home
-%aside.aside-column-primary.flush-right
+%aside.aside-column-primary
 
     .inner-column-wrap
-
-        %header.card
-            %h2.tall.section-title
-                Current
-                %span
-                    Issue
-
-        .media-object.with-large-image
-            %img{:src => "/assets/img/content/cover-placeholder.jpg", :alt => "image title"}/
-            %a.text-meta{:href => "#"} issue 01
-            .media-copy
-                %h3.text-meta-header Spring 2014
-                %p.text-meta-sub.contrast
-                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna
-                    %a{:href => "#"} opus atlas.
-
-
-            %a.primary.btn{:href => "#"}  Explore this Issue
-
-        .aside-block
-            %header.card
+        .aside-block.with-top-border
+            %header
                 %h2.section-title
-                    Blog
+                    Current
                     %span
-                        Stories
+                        Issue
+
+            .media-object.with-large-image
+                %img{:src => "/assets/img/content/cover-placeholder.jpg", :alt => "image title"}/
+                %a.text-meta{:href => "#"} issue 01
+                .media-copy
+                    %h3.text-meta-header Spring 2014
+                    %p.text-meta-sub.contrast.sans-meta
+                        Preasent dapibd,
+                        %a{:href => "#"} neque id
+                        curscu faucibu  torot neq e gasut auge, eiu vluate magna
+                        %a{:href => "#"} opus atlas.
+
+
+                %a.primary.btn{:href => "#"}  Explore this Issue
+
+        .aside-block.with-top-border
+            %header
+                %h2.section-title
+                    Most
+                    %span
+                        Popular
 
             %ul.featured-list
-                %li
-                    .media-object.reversed
-                        %a.text-meta{:href => "#"} Policy
-                        .media-copy
-                            %h3.text-meta-header.small NSA and Online Medical Records Privacy
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                3 min read
-                            %p.text-meta-sub
-                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna…
+
                 %li
                     .media-object.reversed
                         %a.text-meta{:href => "#"} science
                         .media-copy
-                            %h3.text-meta-header.small Rewriting the Brain
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                3 min read
-                            %p.text-meta-sub
-                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna…
+                            %h3.text-meta-header.small
+                                %a{:href => "#"}
+                                    Rewriting the Brain
+                            %p.text-meta-sub.light-tint
+                                %a{:href => "#"}
+                                    By Author Rightspoke
+                                %a{:href => "#"}
+                                    %span.icon{:'data-icon'=>"i"}
+                                    53 shares
 
                 %li
                     .media-object
                         %a.text-meta{:href => "#"} Treatment
                         .media-copy
-                            %h3.text-meta-header.small Changing the Face of Chemo
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                5 min read
-                            %p.text-meta-sub.small
-                                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
-                %li
-                    .media-object
-                        %a.text-meta{:href => "#"} Treatment
-                        .media-copy
-                            %h3.text-meta-header.small Fusce lobortis lorem at ipsum semper sagittis
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                9 min read
-                            %p.text-meta-sub.small
-                                Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
-
+                            %h3.text-meta-header.small
+                                %a{:href => ""}
+                                    Changing the Face of Chemo
+                            %p.text-meta-sub.light-tint
+                                %a{:href => "#"}
+                                    By Author Rightspoke
+                                %a{:href => "#"}
+                                    %span.icon{:'data-icon'=>"i"}
+                                    95 shares
 
                 %li
                     .media-object
                         %a.text-meta{:href => "#"} Treatment
                         .media-copy
-                            %h3.text-meta-header.small Vestibulum auctor dapibus neque
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                12 min read
-                            %p.text-meta-sub.small
-                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna…
+                            %h3.text-meta-header.small
+                                %a{:href => ""}
+                                    Fusce lobortis lorem at ipsum semper sagittis
+                            %p.text-meta-sub.light-tint
+                                %a{:href => "#"}
+                                    By Author Rightspoke
+                                %a{:href => "#"}
+                                    %span.icon{:'data-icon'=>"i"}
+                                    189 shares
 
-                    .view-all
-                        %a.italic.serif{:href => "#"}
-                            View All &#187;
+                %li
+                    .media-object
+                        %a.text-meta{:href => "#"} Treatment
+                        .media-copy
+                            %h3.text-meta-header.small
+                                %a{:href => ""}
+                                    Vestibulum auctor dapibus neque
+                            %p.text-meta-sub.light-tint
+                                %a{:href => "#"}
+                                    By Author Rightspoke
+                                %a{:href => "#"}
+                                    %span.icon{:'data-icon'=>"i"}
+                                    120 shares
 
-        .aside-block
-            %header.card
+                .view-all
+                    %a.italic.serif.smaller{:href => "#"}
+                        View All &#187;
+
+        .aside-block.with-top-border
+            %header
                 %h2.section-title
-                    Web
+                    Latest
                     %span
-                        Exclusives
+                        Columns
 
-            %ul.featured-list
+            %ul.featured-list.author-list
                 %li
-                    .media-object
-                        %a.text-meta{:href => "#"} Treatment
+                    .media-object.author-type
+                        %img.author-pic{:src => "/assets/img/content/author-placeholder.jpg", :alt => ""}/
+
                         .media-copy
-                            %h3.text-meta-header.small Changing the Face of Chemo
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                5 min read
-                            %p.text-meta-sub.small
-                                Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
-                %li
-                    .media-object
-                        %a.text-meta{:href => "#"} Treatment
+                            %a{:href => ""}
+                                %h3.author-attrib{:href => "#"}
+                                    Author Righter
+                                %p.text-meta-sub
+                                    "Article Title Here"
+
+                    .media-object.author-type
+                        %img.author-pic{:src => "/assets/img/content/author-placeholder.jpg", :alt => ""}/
+
                         .media-copy
-                            %h3.text-meta-header.small Fusce lobortis lorem at ipsum semper sagittis
-                            %p.text-meta-sub.light-contrast.small
-                                By Author Rightspoke
-                                %span.dot-divider
-                                9 min read
-                            %p.text-meta-sub.small
-                                Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem
+                            %a{:href => ""}
+                                %h3.author-attrib{:href => "#"}
+                                    Author Righter
+                                %p.text-meta-sub
+                                    "Article Title Here"
+
+                    .media-object.author-type
+                        %img.author-pic{:src => "/assets/img/content/author-placeholder-2.jpg", :alt => ""}/
+
+                        .media-copy
+                            %a{:href => ""}
+                                %h3.author-attrib{:href => "#"}
+                                    Author Righter
+                                %p.text-meta-sub
+                                    "Article Title Here"
+
+                    .media-object.author-type
+                        %img.author-pic{:src => "/assets/img/content/author-placeholder-3.jpg", :alt => ""}/
+
+                        .media-copy
+                            %a{:href => ""}
+                                %h3.author-attrib{:href => "#"}
+                                    Author Righter
+                                %p.text-meta-sub
+                                    "Article Title Here"
 
 
-                    .view-all
-                        %a.italic.serif{:href => "#"}
-                            View All &#187;
+
+
+
+
 
 
 
