@@ -3,7 +3,22 @@
 # Contrib Changelog
 
 ## Timeline
-* TODAY: [02/13/14]
+* Implemented Redesign, Added Layout Elements [02/18/2014]
+
+== Pages in Progress ==
+
+    Story Roll (add pagination)
+    Search Results (add search)
+
+== New Layout Elements ==
+
+    Latest Column Author List
+    Media Object - Horiztonal
+    Popover for Media Object in Collection
+    Comment Counter for Media Objects
+
+
+* Layout, Interactive [02/13/14]
 
 == General ==
 
