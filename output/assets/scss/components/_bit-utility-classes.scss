@@ -13,7 +13,7 @@
 }
 
 .light-tint {
-    color: $primaryLinkHover;
+    color: $secondaryBackgroundCompliment;
 }
 
 .primary-tint {
@@ -66,7 +66,6 @@
     box-sizing: border-box;
     padding: 32px 16px 0 0;
 }
-
 .pull-out-right {
     float: right;
     display: inline;
@@ -74,7 +73,6 @@
     box-sizing: border-box;
     padding: 32px 0 16px 24px;
 }
-
 .small-pull {
     width: 300px;
 }
@@ -96,6 +94,18 @@
 
 .add-space-t {
     margin-top: 56px;
+}
+
+.add-small-space-t {
+    margin-top: 20px;
+}
+
+.add-padding-b {
+    padding-bottom: 42px;
+}
+
+.add-padding-t {
+    padding-top: 42px;
 }
 
 // Gutter Padding
@@ -158,10 +168,10 @@
 
 
 // Cards
-.primary-card {
+.paper-white-card {
     background: $primaryLight;
 }
-.secondary-card {
+.neutral-card {
     background: $secondaryBackground;
     .card-inner-wrap {
         padding: 20px 18px;
@@ -190,12 +200,16 @@
     li {
         margin: 0 auto 24px;
         header .text-meta {
-            color: $primaryLinkHover;
+            color: $secondaryBackgroundCompliment;
+            &:hover {color:$primaryLinkHover;}
         }
         .text-meta-sub.sans-meta {
             .text-meta {
                 margin-top: 12px;
             }
+        }
+        .action {
+            text-transform: none;
         }
     }
 }
@@ -271,7 +285,7 @@
 
 // Collection
 .collection {
-    padding-top: 76px;
+    // padding-top: 76px;
     .media-copy {
         width: 77%;
         margin: 0 auto;
@@ -350,6 +364,7 @@
     transition: background .15s ease-in-out;
 
 
+
     &:after {
         border-top: 10px solid $primaryText;
         border-left: 10px solid $primaryText;
@@ -382,7 +397,7 @@
         position: relative;
         padding: 24px 6px 12px;
         background:$primaryLight;
-        transition: all .15s ease;
+        transition: transform .2s ease-in-out .15s;
     }
 
     img {
@@ -390,18 +405,20 @@
         width:100%; /*temp*/
     }
 
-    // .comment-counter-wrap,
      p.sans-meta {
         opacity: 0;
-        transition: opacity .15s ease-in-out;
+        transition: opacity .5s ease-in-out .25s;
     }
 
     &:hover {
         .popup-content-wrap {
-            // animation: bump-up 0.2s ease;
             transform: translateY(-100px);
         }
-        .comment-counter-wrap, p.sans-meta {
+        .text-meta-header {
+            color: $primaryLink;
+        }
+
+         p.sans-meta {
             opacity: 1;
         }
 
@@ -526,3 +543,20 @@
     }
 }
 
+
+
+// Text Dividers
+.interpunct {
+    padding: 0 2px;
+    display: inline-block;
+    font-size: 2em;
+    top: 3px;
+    position: relative;
+}
+.ver-line {
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 1em;
+    top:-2px;
+    position: relative;
+}

@@ -43,7 +43,6 @@ header.section-header {
     span {
         color: $secondaryBackgroundCompliment;
     }
-
 }
 
 p {
@@ -269,7 +268,7 @@ blockquote {
     .section-title {
         font-size: em-font(20px);
         line-height:1.25em;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 }
 
@@ -419,4 +418,13 @@ hr {
 // Article Meta Utilities
 .action {
     text-transform: uppercase;
+
+    &[data-icon]:before {
+        padding-right:4px;
+    }
+    // Correct Comment Bubble Spacing
+    &[data-icon=i]:before {
+        position: relative;
+        top:2px;
+    }
 }

@@ -11,10 +11,13 @@
         %section#header-content-wrap
 
             -# Header & Navigation
+            = render 'layout-subscribe-door'
+
+            -# Header & Navigation
             = render 'header-primary'
 
             -# Content Wrap
-            %main#content-wrap
+            %main#content-wrap{:role => "main"}
 
 
                 = yield

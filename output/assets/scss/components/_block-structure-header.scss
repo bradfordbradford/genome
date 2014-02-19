@@ -9,12 +9,13 @@ header#header-wrap {
     @include clearfix();
     overflow: visible;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     box-shadow: 0 3px 13px 0 rgba(2, 3, 3, 0.16);
 
     .header-inner {
         @include container;
         position: relative;
+        height:80px;
     }
 
     .tagline {
@@ -40,6 +41,8 @@ header#header-wrap {
         padding: 0;
         height:80px;
         overflow: hidden;
+
+        position: absolute;
 
         a {
             font-size: 12em;
@@ -67,20 +70,23 @@ header#header-wrap {
 
     // Nav
     nav#main-navigation {
-        float: right;
+        // float: right;
 
-        ul.navigation-list {
+        ol.navigation-list {
             display: inline-block;
             margin: 0;
             padding: 0;
-            li {
-                display: inline-block;
-                padding: 4px 36px;
+            width: 100%;
 
-                a {
+            > li {
+                display: inline-block;
+                float: right;
+
+                > a {
+                    padding: 0px 36px;
                     color: $primaryLink;
                     font-size: em-font(14px);
-                    line-height: em-font(80px);
+                    line-height: em-font(86px);
                     font-weight: 700;
                     text-transform: uppercase;
                     letter-spacing: 0.1em;
@@ -97,11 +103,18 @@ header#header-wrap {
     .search {
         display: inline-block;
         margin: 0 -18px 0 76px;
-        position: relative;
-        top:3px;
+        // position: relative;
+        // top:3px;
+
+        display: inline-block;
+        box-sizing: border-box;
+        list-style: none;
+        line-height: 77px;
+        float:right;
 
         a:hover {
             color:$secondary;
+            background: transparent !important;
         }
     }
 

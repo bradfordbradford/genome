@@ -1,11 +1,30 @@
 
 
 
-
  // Now, Now  //
 jQuery(document).ready(function($) {
 
-    // Slideshow
+    // Menu ----------
+    $('#main-navigation').accessibleMegaMenu();
+    setTimeout(function () {
+        $('body').removeClass('init');
+    }, 500);
+
+    // Toggle View All ----------
+    $('.open-g-door').on('click', function(e){
+        $('.g-door').toggleClass("open");
+        $('#header-wrap').toggleClass("push-for-door");
+        $(this).toggleClass("switch");
+        e.preventDefault();
+    });
+    // Add an optional secondary close button
+    $('.close-g-door').on('click', function(e){
+        $('.g-door').removeClass("open");
+        $('#header-wrap').removeClass("push-for-door");
+        e.preventDefault();
+    });
+
+    // Slideshow ----------
     $('.slideshow').flexslider({
         animation: "slide",
         controlNav: false,
@@ -13,8 +32,29 @@ jQuery(document).ready(function($) {
         nextText: ''
     });
 
+    // Overlay: View Search
+    $('.overlay-view-search').magnificPopup({
+        type: 'inline',
+        mainClass: 'mfp-zoom-in overlay-with-search-box',
+        showCloseBtn: false,
+        preloader: false,
+        focus: '#nav-search-box',
 
-    // Overlay: View Image
+        // When elemened is focused, some mobile browsers in some cases zoom in
+        // It looks not nice, so we disable it:
+        callbacks: {
+          beforeOpen: function() {
+            if($(window).width() < 700) {
+              this.st.focus = false;
+            } else {
+              this.st.focus = '#name';
+            }
+          }
+        }
+      });
+
+
+    // Overlay: View Image ----------
     $('.overlay-view-image').each(function() { // the containers for all your galleries
         $(this).magnificPopup({
               type: 'image',
@@ -45,7 +85,7 @@ jQuery(document).ready(function($) {
         });
     });
 
-    // Overlay: Watch Video
+    // Overlay: Watch Video ----------
     $('.overlay-watch-video').each(function() { // the containers for all your galleries
         $(this).magnificPopup({
             type: 'iframe',
@@ -59,7 +99,7 @@ jQuery(document).ready(function($) {
         });
     });
 
-    // Overlay: View Slideshow
+    // Overlay: View Slideshow ----------
     $('.overlay-view-slideshow').magnificPopup({
           delegate: 'a',
           type: 'image',
@@ -100,7 +140,7 @@ jQuery(document).ready(function($) {
 
 });
 
-
+// Adapt ----------
 function adaptMagic(i, width) {
 document.documentElement.id = 'range_' + i;
 }

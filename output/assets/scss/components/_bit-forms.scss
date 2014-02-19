@@ -2,31 +2,31 @@
 
 
 // ** Layout Bit: Forms ** //
-#mc_embed_signup input.email, input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     border-radius: 0;
     background: none;
     font-family: inherit;
-    border: 1px solid $navneutral;;
-    @include box-shadow(none);
-    color: $primarylight;
+    border: 1px solid $primaryRule;
+    // @include box-shadow(none);
+    box-shadow: none;
+    color: $primaryLink;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1.5em;
     margin: 0 auto;
     padding: 8px;
-    line-height: 32px;
-    height: 43px;
+    height: 60px;
     position: relative;
     top: 0;
     width: 100%;
-    @include box-sizing(border-box);
-    @include transition(border-color 0.45s ease-in-out);
-    @include placeholder {color:$neutrallight;}
+    box-sizing: border-box;
+    transition: border-color 0.45s ease-in-out;
+    -webkit-placeholder: $primaryLinkHover;
 }
 
 label {
-    color: $primarylight;
+    color: $primaryLight;
     text-transform: uppercase;
     letter-spacing: .2em;
     font-weight: 400;
@@ -34,86 +34,6 @@ label {
     font-size: 90%;
 }
 
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-    outline:0;
-}
-
 
 textarea {min-height:140px;}
-
-
-// .form-row {
-//     @include clearfix();
-//     margin: 0 0 16px;
-// }
-// .form-col {
-//     @include span-columns(6,12);
-// }
-
-// .form-col.last {
-//     @include span-columns(6 omega,12);
-// }
-
-
-
-
-
-// Mail Chimp Signup ----
-#mc_embed_signup {
-    display: inline-block;
-    margin-right: 12px;
-
-    form#mc-embedded-subscribe-form {
-        border: 1px solid $neutraldark;
-        background: rgba(105, 105, 105, 0.2);
-        display: inline-block;
-        line-height: 0;
-
-        .email.icon {
-            display:inline-block;
-            top:3px;
-            margin:0 -2px 0 7px;
-        }
-
-        input.email, input.subscribe {
-            @include scale(line-height, 20);
-            height: 32px;
-            margin:0;
-        }
-
-        input.email {
-            border:0;
-            width:120px;
-            display:inline-block;
-            text-transform: capitalize;
-            @include scale(font-size, 12);
-            letter-spacing: .1em;
-            font-weight: 400;
-        }
-        input.subscribe {
-            border: 0;
-            padding: 8px 10px;
-            display:inline-block;
-            background: transparent;
-            background: rgba(0, 0, 0, 0.2);
-            color: $navneutral !important;
-            @include transition(color .15s ease-in-out);
-            &:hover {
-                cursor: pointer;
-                color: $primary !important;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width : 1098px) {
-    #mc_embed_signup form#mc-embedded-subscribe-form input.email {width:40px;}
-}
-@media only screen and (max-width : 898px) {
-    #mc_embed_signup form#mc-embedded-subscribe-form {display: none;}
-}
-
 

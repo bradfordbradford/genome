@@ -24,6 +24,22 @@
   </head>
   <body>
     <section id='header-content-wrap'>
+      <div class='g-door' id='newsletter-door'>
+        <div class='inner-bounds block'>
+          <h2 class='section-title left smaller'>
+            Subscribe to Genome
+          </h2>
+          <div class='search-box'>
+            <form action='' class='search-form'>
+              <a class='search-icon' data-icon='h' href='#'></a>
+              <input id='search' placeholder='jane@youremail.com' type='text'>
+            </form>
+          </div>
+          <a class='close-g-door' data-icon='a' href='#'>
+            <span>Close</span>
+          </a>
+        </div>
+      </div>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
@@ -33,27 +49,155 @@
           <div class='tagline'>
             Your Health is Personal
           </div>
-          <nav id='main-navigation'>
-            <ul class='navigation-list'>
-              <li>
+          <nav id='main-navigation' role='navigation'>
+            <ol class='navigation-list'>
+              <div class='search'>
+                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                <div class='search-box mfp-hide inner-bounds' id='nav-search-box'>
+                  <form action='' class='search-form'>
+                    <a class='search-icon' data-icon='C' href='#'></a>
+                    <input id='search' placeholder='What were you looking for?' type='text'>
+                  </form>
+                </div>
+              </div>
+              <li class='nav-item open-g-door'>
+                <a href='#'>subscribe</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>browse</a>
+                <ol>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Issue</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Condition</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Topic</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
                 <a href='#'>newsletter</a>
               </li>
-              <li>
-                <a href='#'>browse</a>
-              </li>
-              <li>
-                <a class='current' href='#'>subscribe</a>
-              </li>
-            </ul>
-            <div class='search'>
-              <a class='light-tint search-glass' data-icon='C' href='#'></a>
-            </div>
+            </ol>
           </nav>
         </div>
       </header>
-      <main id='content-wrap'>
+      <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds block primary-card'>
+          <div class='inner-bounds block paper-white-card'>
             <div class='content-row'>
               <header class='article-header'>
                 <a class='text-meta brick' href='#'>Treatment</a>
@@ -71,7 +215,7 @@
               <div class='article-photo primary'>
                 <img alt='' src='/assets/img/content/article-placeholder.jpg'>
               </div>
-              <div class='article-photo-caption secondary-card'>
+              <div class='article-photo-caption neutral-card'>
                 <div class='card-inner-wrap'>
                   <span class='photo-attrib'>Annie Photographer</span>
                   <p class='text-meta-sub smaller'>
@@ -100,7 +244,7 @@
                 <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
                 <!-- %span Shares -->
                 <div class='aside-block double-spaced'>
-                  <header class='secondary-card'>
+                  <header class='neutral-card'>
                     <h2 class='section-title'>
                       Top
                       <span>
@@ -176,7 +320,7 @@
                   </ul>
                 </div>
                 <div class='aside-block'>
-                  <header class='secondary-card'>
+                  <header class='neutral-card'>
                     <h2 class='section-title'>
                       Print
                       <span>
@@ -230,7 +374,7 @@
               </article>
             </div>
           </div>
-          <div class='content-row end-block inner-bounds primary-card'>
+          <div class='content-row end-block inner-bounds paper-white-card'>
             <section class='collection grid-3-per with-dividers'>
               <h2 class='section-title center'>
                 Related

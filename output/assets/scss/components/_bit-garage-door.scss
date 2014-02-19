@@ -1,0 +1,56 @@
+
+
+
+// Garage Door //
+.g-door {
+    background: $primaryLight;
+    // height: 0;
+    height: 240px;
+    opacity: 0;
+    overflow: hidden;
+    // position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transform: translateY(-240px);
+    perspective: 1000px;
+
+    &.open {
+        // height: 240px;
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+
+
+.close-g-door {
+    background: $primaryText;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 100px;
+    color: $primaryLight;
+    position: absolute;
+    right:44px;
+    top: 24px;
+
+    &:before {
+        position: relative;
+        top: 0.095em;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+// NOTE: Push down the Site Header
+.g-door {
+    transition: height 0.15s ease-in-out, transform 0.25s ease-in-out, opacity 0.75s;
+}
+#header-wrap {
+    transition: transform 0.25s ease-in-out;
+}
+.push-for-door {
+    transform: translateY(240px);
+}

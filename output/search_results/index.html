@@ -24,6 +24,22 @@
   </head>
   <body>
     <section id='header-content-wrap'>
+      <div class='g-door' id='newsletter-door'>
+        <div class='inner-bounds block'>
+          <h2 class='section-title left smaller'>
+            Subscribe to Genome
+          </h2>
+          <div class='search-box'>
+            <form action='' class='search-form'>
+              <a class='search-icon' data-icon='h' href='#'></a>
+              <input id='search' placeholder='jane@youremail.com' type='text'>
+            </form>
+          </div>
+          <a class='close-g-door' data-icon='a' href='#'>
+            <span>Close</span>
+          </a>
+        </div>
+      </div>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
@@ -33,44 +49,173 @@
           <div class='tagline'>
             Your Health is Personal
           </div>
-          <nav id='main-navigation'>
-            <ul class='navigation-list'>
-              <li>
+          <nav id='main-navigation' role='navigation'>
+            <ol class='navigation-list'>
+              <div class='search'>
+                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                <div class='search-box mfp-hide inner-bounds' id='nav-search-box'>
+                  <form action='' class='search-form'>
+                    <a class='search-icon' data-icon='C' href='#'></a>
+                    <input id='search' placeholder='What were you looking for?' type='text'>
+                  </form>
+                </div>
+              </div>
+              <li class='nav-item open-g-door'>
+                <a href='#'>subscribe</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>browse</a>
+                <ol>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Issue</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Condition</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Topic</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
                 <a href='#'>newsletter</a>
               </li>
-              <li>
-                <a href='#'>browse</a>
-              </li>
-              <li>
-                <a class='current' href='#'>subscribe</a>
-              </li>
-            </ul>
-            <div class='search'>
-              <a class='light-tint search-glass' data-icon='C' href='#'></a>
-            </div>
+            </ol>
           </nav>
         </div>
       </header>
-      <main id='content-wrap'>
-        <div class='inner-bounds block'>
+      <main id='content-wrap' role='main'>
+        <div class='inner-bounds remove-footer-offset block'>
           <header class='section-header add-bleed'>
-            <h2 class='section-title left'>
-              Search Results For:
+            <h2 class='section-title left smaller'>
               <span>
-                Diabetes
+                Search Results For:
               </span>
+              Diabetes
             </h2>
-            <hr>
+            <hr class='neutral'>
           </header>
         </div>
-        <div class='inner-bounds block primary-card'>
+        <div class='inner-bounds paper-white-card card-block'>
           <div class='content-row'>
             <section class='collection grid-3-per'>
-              <h2 class='section-title left'>
-                Features
+              <h2 class='section-title left smaller'>
+                <span>
+                  Features
+                </span>
               </h2>
-              <hr>
-              <hr class='thick primary neutral-light partial'>
+              <hr class='neutral'>
               <div class='media-object with-large-image grid-element popup-content'>
                 <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
                 <div class='popup-content-wrap'>
@@ -126,6 +271,151 @@
                 </div>
               </div>
             </section>
+          </div>
+        </div>
+        <div class='inner-bounds paper-white-card card-block'>
+          <div class='content-row'>
+            <section class='collection grid-3-per'>
+              <h2 class='section-title left smaller'>
+                <span>
+                  Columns & Departments
+                </span>
+              </h2>
+              <hr class='neutral'>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Research</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Science</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe…
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class='inner-bounds paper-white-card card-block'>
+          <div class='content-row'>
+            <section class='collection grid-3-per'>
+              <h2 class='section-title left smaller'>
+                <span>
+                  From The blog
+                </span>
+              </h2>
+              <hr class='neutral'>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Research</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Science</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe…
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class='media-object with-large-image grid-element popup-content'>
+                <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                <div class='popup-content-wrap'>
+                  <div class='comment-counter-wrap'>
+                    <a class='icon comment-counter' href=''>
+                      <span class='value'>6</span>
+                    </a>
+                  </div>
+                  <a class='text-meta' href='#'>Treatment</a>
+                  <a class='media-copy' href='#'>
+                    <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                    <p class='text-meta-sub light-tint sans-meta'>
+                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class='inner-bounds paper-white-card card-block'>
+          <div class='content-row'>
+            <h2 class='section-title left smaller'>
+              Not what you were looking for? Let's try this again:
+            </h2>
+            <div class='search-box'>
+              <form action='' class='search-form'>
+                <a class='search-icon' data-icon='C' href='#'></a>
+                <input id='search' placeholder='What were you looking for?' type='text'>
+              </form>
+            </div>
           </div>
         </div>
       </main>

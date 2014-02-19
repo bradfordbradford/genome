@@ -3,19 +3,46 @@
 # Contrib Changelog
 
 ## Timeline
-* Implemented Redesign, Added Layout Elements [02/18/2014]
+* Added Navigation & Layout Elements [02/19/2014]
 
-== Pages in Progress ==
+== Pages Finished ==
 
-    Story Roll (add pagination)
-    Search Results (add search)
+    [x] Story Roll (added read time)
+    [x] Blog Roll (added comment counter)
+    [x] Search Results (added search form)
 
 == New Layout Elements ==
 
-    Latest Column Author List
-    Media Object - Horiztonal
-    Popover for Media Object in Collection
-    Comment Counter for Media Objects
+    [x] Navigation Large Menu Dropdown Layout Block
+    [x] Subscribe Form Element
+    [x] Search Form Element
+    [x] Subscribe Door Layout Block
+    [x] Pagination Element
+
+== Resolved Bugs ==
+
+    [x] Subscribe Door conflict with fixed navigation (both fixed, switched animation technique from height to transform:translateY)
+    [] Nav mega dropdown inner content 'bumps' slightly on hover
+    [] Nav mega dropdown is abrupt (add hoverintent.js)
+    [x] Media Popover is abrupt
+    [] Media Popover social counter 'bumps' slightly on hover
+
+
+[x] Implemented Redesign, Added Layout Elements [02/18/2014]
+
+== Pages in Progress ==
+
+    [x] Story Roll (add pagination)
+    [x] Search Results (add search)
+
+== New Layout Elements ==
+
+    [x] Latest Column Author List
+    [x] Media Object - Horiztonal
+    [x] Popover for Media Object in Collection
+    [x] Comment Counter for Media Objects
+
+
 
 
 * Layout, Interactive [02/13/14]
@@ -47,7 +74,9 @@
 
 * Heros [02/12/14]
 
+
 * Home, Improved Layout Structure - [02/11/14]
+
 
 * Basic Layout Elements, Layout Structure, Utility Classes - [02/04/14]
 

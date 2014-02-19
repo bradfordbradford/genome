@@ -456,3 +456,19 @@ img.mfp-img {
   }
 }
 
+
+
+
+
+// Overlay Search Box
+// ------------------
+.mfp-bg.mfp-zoom-in.overlay-with-search-box {
+  @include rgba(#fff, 0.98);
+}
+
+.overlay-with-search-box {
+  #search-box {
+    @include span-columns(8, $total);
+    @include center-columns;
+  }
+}

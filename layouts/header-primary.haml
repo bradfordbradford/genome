@@ -6,14 +6,113 @@
         .tagline
             Your Health is Personal
 
-        %nav#main-navigation
-            %ul.navigation-list
-                %li
-                    %a{:href => "#"} newsletter
-                %li
-                    %a{:href => "#"} browse
-                %li
-                    %a.current{:href => "#"} subscribe
+        %nav#main-navigation{:role => "navigation"}
+            %ol.navigation-list
+                .search
+                    %a.light-tint.search-glass.overlay-view-search{:href => "#nav-search-box", :'data-icon'=>"C"}
+                    #nav-search-box.search-box.mfp-hide.inner-bounds
+                        %form.search-form{:action => ""}
+                            %a.search-icon{:'data-icon'=>"C", :href=>"#"}
+                            %input#search{:type => "text", :placeholder => "What were you looking for?"}/
 
-            .search
-                %a.light-tint.search-glass{:href => "#", :'data-icon'=>"C"}
+                %li.nav-item.open-g-door
+                    %a{:href => "#"} subscribe
+
+                %li.nav-item
+                    %a{href: "#"} browse
+
+                    %ol
+                        %li.nav-sub-item
+                            %h3
+                                %a{:href => "#"} By Issue
+                            %ol
+                                %li
+                                    %a{:href => "#"} Lifestyle
+                                %li
+                                    %a{:href => "#"} Policy
+                                %li
+                                    %a{:href => "#"} Science
+                                %li
+                                    %a{:href => "#"} Treatment
+                                %li
+                                    %a{:href => "#"} Technology
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li.view-all
+                                    %a.italic.serif{:href => "#"}
+                                        View All &#187;
+
+                        %li.nav-sub-item
+                            %h3
+                                %a{:href => "#"} By Condition
+                            %ol
+                                %li
+                                    %a{:href => "#"} Lifestyle
+                                %li
+                                    %a{:href => "#"} Policy
+                                %li
+                                    %a{:href => "#"} Science
+                                %li
+                                    %a{:href => "#"} Treatment
+                                %li
+                                    %a{:href => "#"} Technology
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li
+                                    %a{:href => "#"} Lifestyle
+                                %li
+                                    %a{:href => "#"} Policy
+                                %li
+                                    %a{:href => "#"} Science
+                                %li
+                                    %a{:href => "#"} Treatment
+                                %li
+                                    %a{:href => "#"} Technology
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li.view-all
+                                    %a.italic.serif.smaller{:href => "#"}
+                                        View All &#187;
+
+                        %li.nav-sub-item
+                            %h3
+                                %a{:href => "#"} By Topic
+                            %ol
+                                %li
+                                    %a{:href => "#"} Lifestyle
+                                %li
+                                    %a{:href => "#"} Policy
+                                %li
+                                    %a{:href => "#"} Science
+                                %li
+                                    %a{:href => "#"} Treatment
+                                %li
+                                    %a{:href => "#"} Technology
+                                %li
+                                    %a{:href => "#"} Topic
+                                %li
+                                    %a{:href => "#"} Topic
+
+                                %li.view-all
+                                    %a.italic.serif.smaller{:href => "#"}
+                                        View All &#187;
+
+
+
+                %li.nav-item
+                    %a{href: "#"} newsletter
+
+
+
+
+
+
+
+
+

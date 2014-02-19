@@ -24,6 +24,22 @@
   </head>
   <body>
     <section id='header-content-wrap'>
+      <div class='g-door' id='newsletter-door'>
+        <div class='inner-bounds block'>
+          <h2 class='section-title left smaller'>
+            Subscribe to Genome
+          </h2>
+          <div class='search-box'>
+            <form action='' class='search-form'>
+              <a class='search-icon' data-icon='h' href='#'></a>
+              <input id='search' placeholder='jane@youremail.com' type='text'>
+            </form>
+          </div>
+          <a class='close-g-door' data-icon='a' href='#'>
+            <span>Close</span>
+          </a>
+        </div>
+      </div>
       <header id='header-wrap'>
         <div class='header-inner'>
           <h1 class='logo'>
@@ -33,25 +49,153 @@
           <div class='tagline'>
             Your Health is Personal
           </div>
-          <nav id='main-navigation'>
-            <ul class='navigation-list'>
-              <li>
+          <nav id='main-navigation' role='navigation'>
+            <ol class='navigation-list'>
+              <div class='search'>
+                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                <div class='search-box mfp-hide inner-bounds' id='nav-search-box'>
+                  <form action='' class='search-form'>
+                    <a class='search-icon' data-icon='C' href='#'></a>
+                    <input id='search' placeholder='What were you looking for?' type='text'>
+                  </form>
+                </div>
+              </div>
+              <li class='nav-item open-g-door'>
+                <a href='#'>subscribe</a>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>browse</a>
+                <ol>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Issue</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Condition</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class='nav-sub-item'>
+                    <h3>
+                      <a href='#'>By Topic</a>
+                    </h3>
+                    <ol>
+                      <li>
+                        <a href='#'>Lifestyle</a>
+                      </li>
+                      <li>
+                        <a href='#'>Policy</a>
+                      </li>
+                      <li>
+                        <a href='#'>Science</a>
+                      </li>
+                      <li>
+                        <a href='#'>Treatment</a>
+                      </li>
+                      <li>
+                        <a href='#'>Technology</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li>
+                        <a href='#'>Topic</a>
+                      </li>
+                      <li class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
+                        </a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
                 <a href='#'>newsletter</a>
               </li>
-              <li>
-                <a href='#'>browse</a>
-              </li>
-              <li>
-                <a class='current' href='#'>subscribe</a>
-              </li>
-            </ul>
-            <div class='search'>
-              <a class='light-tint search-glass' data-icon='C' href='#'></a>
-            </div>
+            </ol>
           </nav>
         </div>
       </header>
-      <main id='content-wrap'>
+      <main id='content-wrap' role='main'>
         <section class='hero-content center hero-article-title'>
           <div class='inner-hero'>
             <div class='col-wrap'>
@@ -76,7 +220,7 @@
             </div>
           </div>
         </section>
-        <section class='featured_layout inner-bounds block primary-card'>
+        <section class='featured_layout inner-bounds block paper-white-card'>
           <section class='primary-content'>
             <div class='content-row'>
               <article class='article-body-copy'>
@@ -133,7 +277,7 @@
             <a class='btn neutral overlay-watch-video' href='https://vimeo.com/17404191'>Watch Video</a>
           </div>
         </section>
-        <section class='featured_layout inner-bounds block primary-card'>
+        <section class='featured_layout inner-bounds block paper-white-card'>
           <section class='primary-content'>
             <div class='content-row'>
               <article class='article-body-copy'>
@@ -173,7 +317,7 @@
             </p>
           </section>
         </section>
-        <section class='featured_layout inner-bounds block primary-card'>
+        <section class='featured_layout inner-bounds block paper-white-card'>
           <section class='primary-content'>
             <div class='content-row'>
               <article class='article-body-copy add-space-t'>
