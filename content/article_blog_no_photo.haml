@@ -20,9 +20,6 @@ title: Article Type- Blog w/out photo
 
 
         .content-row
-            -# Primary Aside Column
-            = render 'aside-column-article-no-social'
-
 
             -# Primary Content Column + Article Body Copy
             %article.primary-content.article-body-copy.small-block
@@ -48,9 +45,14 @@ title: Article Type- Blog w/out photo
                 = render 'footer-article-related-tags'
 
 
+            -# Primary Aside Column
+            = render 'aside-column-article-no-social'
 
 
-    .content-row.end-block.inner-bounds.paper-white
+
+
+
+    .end-block.inner-bounds.block.paper-white-card
         -# Collection
         = render 'collection-related-reading'
 

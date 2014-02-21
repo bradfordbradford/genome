@@ -3,6 +3,39 @@
 # Contrib Changelog
 
 ## Timeline
+* [02/20/2014]
+
+== Responsive Layouts Finished ==
+    Initial pass. Details/Notes to work through
+
+    Article: Blog
+        - Article Content to Full Bleed @768px
+        - Moved social icons placement to match Article: Blog w/o Image
+
+    Article: Blog w/o Photo
+        - Adjusts to Full Bleed @768px
+
+    Article: Column
+        - Adjusts to Full Bleed @768px
+
+    Article: Feature
+        Heros adjusts to cols @1224
+        Heros adjusts to center-align text @768
+        Heros adjust height and font-size @768 (to prevent overflow)
+        Article Content and Pull-Outs adjust to Full Bleed @768
+        Article-Photo's adjust to center
+
+
+
+
+== Resolved Issues ==
+
+    [x] Photo Caption Cards
+        A vulnerable point, even on desktops: pushed down if article header info is verbose. Research for a better solution.
+
+
+
+
 * Added Navigation & Layout Elements [02/19/2014]
 
 == Pages Finished ==
@@ -19,12 +52,17 @@
     [x] Subscribe Door Layout Block
     [x] Pagination Element
 
-== Resolved Bugs ==
+== Resolved Issues ==
 
     [x] Subscribe Door conflict with fixed navigation (both fixed, switched animation technique from height to transform:translateY)
+    [x] Media Popover is abrupt
+    [x] blog_no_photo: Too much margin between article header and article copy
+
+== Unresolved Issues ==
+
+    [] AddThis Social List: padding issue
     [] Nav mega dropdown inner content 'bumps' slightly on hover
     [] Nav mega dropdown is abrupt (add hoverintent.js)
-    [x] Media Popover is abrupt
     [] Media Popover social counter 'bumps' slightly on hover
 
 

@@ -2,6 +2,14 @@
 
 
 // Typography //
+body {
+    font-family: $sans;
+    background: $primaryBackground;
+    color: $primaryText;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
 h1,h2,h3,h4,h5,h6 {
     color: $primaryHeader;
@@ -29,6 +37,76 @@ h2 {
     letter-spacing: -0.009em;
     line-height: 1em;
 }
+
+em,
+i {
+  font-style: italic;
+  line-height: inherit; }
+
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit; }
+
+small {
+  font-size: 60%;
+  line-height: inherit; }
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: bold;
+  color: #910b0e; }
+
+// Lists
+ul,
+ol,
+dl {
+  list-style-position: outside;
+  font-family: inherit; }
+
+ul li ul,
+ul li ol { }
+ul.square li ul, ul.circle li ul, ul.disc li ul {
+  list-style: inherit; }
+ul.square {
+  list-style-type: square;
+  margin-left: 1.1rem; }
+ul.circle {
+  list-style-type: circle;
+  margin-left: 1.1rem; }
+ul.disc {
+  list-style-type: disc;
+  margin-left: 1.1rem; }
+ul.no-bullet {
+  list-style: none; }
+
+// Ordered Lists
+ol { }
+  ol li ul,
+  ol li ol { }
+
+// Definition Lists
+dl dt {}
+dl dd {}
+
+// Abbreviations
+abbr,
+acronym {
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 1px dotted $primaryLinkHover;
+  cursor: help; }
+
+abbr {
+  text-transform: none; }
+
+// Blockquotes
+blockquote {}
+cite {}
+blockquote,
+blockquote p {}
+
+
 
 header.section-header {
     .section-title {

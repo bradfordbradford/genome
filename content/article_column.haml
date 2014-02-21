@@ -36,12 +36,6 @@ title: Article Type- Column
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
 
-
-            .content-row
-                -# Primary Aside Column
-                = render 'aside-column-article'
-
-
                 -# Primary Content Column / Article Body Copy
                 %article.primary-content.article-body-copy.block
                     %p.lead-with-drop-cap
@@ -66,6 +60,8 @@ title: Article Type- Column
                     = render 'footer-article-related-tags'
 
 
+                -# Primary Aside Column
+                = render 'aside-column-article'
 
 
 

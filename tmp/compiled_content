@@ -1380,7 +1380,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"[<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"LW<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1607,26 +1607,35 @@ I"}<article>
                     </p>
                   </div>
                 </div>
-              </div>
-              <div class='content-row'>
+                <article class='primary-content article-body-copy block'>
+                  <p class='lead-with-drop-cap'>
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  </p>
+                  <p>
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                  </p>
+                  <p>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                  </p>
+                  <p>
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                  </p>
+                  <p>
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                    <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
+                  </p>
+                  <footer class='article-footer'>
+                    <div class='text-meta-highlight'>Condition:</div>
+                    <a href='#'>Heart Attack,</a>
+                    <a href='#'>Heart Disease,</a>
+                    <a href='#'>Diet</a>
+                  </footer>
+                </article>
                 <aside class='aside-column-primary'>
-                  <div class='addthis_toolbox social-list'>
-                    <a class='addthis_button_facebook' data-icon='u' href='#'>
-                      <span class='line'></span>
-                      <span class='value'>Share</span>
-                    </a>
-                    <a class='addthis_button_twitter' data-icon='v' href='#'>
-                      <span class='line'></span>
-                      <span class='value'>Tweet</span>
-                    </a>
-                    <a class='addthis_button_email' data-icon='h' href='#'>
-                      <span class='line'></span>
-                      <span class='value'>Email</span>
-                    </a>
-                  </div>
-                  <!-- .addthis_toolbox.facebook-share-counter -->
-                  <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
-                  <!-- %span Shares -->
                   <div class='aside-block double-spaced'>
                     <header class='neutral-card'>
                       <h2 class='section-title'>
@@ -1725,34 +1734,6 @@ I"}<article>
                     </div>
                   </div>
                 </aside>
-                <article class='primary-content article-body-copy block'>
-                  <p class='lead-with-drop-cap'>
-                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-                  </p>
-                  <p>
-                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                  </p>
-                  <p>
-                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-                  </p>
-                  <p>
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                  </p>
-                  <p>
-                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                  </p>
-                  <p>
-                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-                    <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
-                  </p>
-                  <footer class='article-footer'>
-                    <div class='text-meta-highlight'>Condition:</div>
-                    <a href='#'>Heart Attack,</a>
-                    <a href='#'>Heart Disease,</a>
-                    <a href='#'>Diet</a>
-                  </footer>
-                </article>
               </div>
             </div>
             <div class='content-row end-block'>
@@ -1893,7 +1874,7 @@ I"}<article>
     </script>
   </body>
 </html>
-;T;	I"[%section.primary_layout.article_layout
+;T;	I"?%section.primary_layout.article_layout
     .inner-bounds.paper-white-card.block
 
 
@@ -1927,12 +1908,6 @@ I"}<article>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
 
-
-            .content-row
-                -# Primary Aside Column
-                = render 'aside-column-article'
-
-
                 -# Primary Content Column / Article Body Copy
                 %article.primary-content.article-body-copy.block
                     %p.lead-with-drop-cap
@@ -1957,13 +1932,15 @@ I"}<article>
                     = render 'footer-article-related-tags'
 
 
+                -# Primary Aside Column
+                = render 'aside-column-article'
 
 
 
         .content-row.end-block
             -# Collection
             = render 'collection-related-reading';T;
-I"ò,<section class='primary_layout article_layout'>
+I"o)<section class='primary_layout article_layout'>
   <div class='inner-bounds paper-white-card block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -1992,26 +1969,35 @@ I"ò,<section class='primary_layout article_layout'>
             </p>
           </div>
         </div>
-      </div>
-      <div class='content-row'>
+        <article class='primary-content article-body-copy block'>
+          <p class='lead-with-drop-cap'>
+            Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+            tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+          </p>
+          <p>
+            Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+          </p>
+          <p>
+            Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+          </p>
+          <p>
+            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+          </p>
+          <p>
+            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+          </p>
+          <p>
+            Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+            <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
+          </p>
+          <footer class='article-footer'>
+            <div class='text-meta-highlight'>Condition:</div>
+            <a href='#'>Heart Attack,</a>
+            <a href='#'>Heart Disease,</a>
+            <a href='#'>Diet</a>
+          </footer>
+        </article>
         <aside class='aside-column-primary'>
-          <div class='addthis_toolbox social-list'>
-            <a class='addthis_button_facebook' data-icon='u' href='#'>
-              <span class='line'></span>
-              <span class='value'>Share</span>
-            </a>
-            <a class='addthis_button_twitter' data-icon='v' href='#'>
-              <span class='line'></span>
-              <span class='value'>Tweet</span>
-            </a>
-            <a class='addthis_button_email' data-icon='h' href='#'>
-              <span class='line'></span>
-              <span class='value'>Email</span>
-            </a>
-          </div>
-          <!-- .addthis_toolbox.facebook-share-counter -->
-          <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
-          <!-- %span Shares -->
           <div class='aside-block double-spaced'>
             <header class='neutral-card'>
               <h2 class='section-title'>
@@ -2110,34 +2096,6 @@ I"ò,<section class='primary_layout article_layout'>
             </div>
           </div>
         </aside>
-        <article class='primary-content article-body-copy block'>
-          <p class='lead-with-drop-cap'>
-            Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-            tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-          </p>
-          <p>
-            Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-          </p>
-          <p>
-            Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-          </p>
-          <p>
-            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-          </p>
-          <p>
-            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-          </p>
-          <p>
-            Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-            <a class='light-tint inline-block end-mark' data-icon='G' href=''></a>
-          </p>
-          <footer class='article-footer'>
-            <div class='text-meta-highlight'>Condition:</div>
-            <a href='#'>Heart Attack,</a>
-            <a href='#'>Heart Disease,</a>
-            <a href='#'>Diet</a>
-          </footer>
-        </article>
       </div>
     </div>
     <div class='content-row end-block'>
@@ -2207,7 +2165,7 @@ I"ò,<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I")Y<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"X<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2413,6 +2371,23 @@ I"ò,<section class='primary_layout article_layout'>
                 <h2>Rethinking Cancer Treatment in 2014</h2>
                 <p class='lead'>Research finds major flaws in standard medical approach</p>
                 <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
+                <div class='addthis_toolbox social-list'>
+                  <a class='addthis_button_facebook' data-icon='u' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Share</span>
+                  </a>
+                  <a class='addthis_button_twitter' data-icon='v' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Tweet</span>
+                  </a>
+                  <a class='addthis_button_email' data-icon='h' href='#'>
+                    <span class='line'></span>
+                    <span class='value'>Email</span>
+                  </a>
+                </div>
+                <!-- .addthis_toolbox.facebook-share-counter -->
+                <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+                <!-- %span Shares -->
                 <div class='article-meta'>
                   <time>December 22, 2013</time>
                   <span class='ver-line'>&#124;</span>
@@ -2432,26 +2407,38 @@ I"ò,<section class='primary_layout article_layout'>
                   </p>
                 </div>
               </div>
-            </div>
-            <div class='content-row'>
+              <article class='primary-content article-body-copy block'>
+                <p>
+                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                </p>
+                <p>
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </p>
+                <blockquote>
+                  Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </blockquote>
+                <hr class='brick neutral-light'>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <p>
+                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                </p>
+                <p>
+                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                </p>
+                <footer class='article-footer'>
+                  <div class='text-meta-highlight'>Condition:</div>
+                  <a href='#'>Heart Attack,</a>
+                  <a href='#'>Heart Disease,</a>
+                  <a href='#'>Diet</a>
+                </footer>
+              </article>
               <aside class='aside-column-primary'>
-                <div class='addthis_toolbox social-list'>
-                  <a class='addthis_button_facebook' data-icon='u' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Share</span>
-                  </a>
-                  <a class='addthis_button_twitter' data-icon='v' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Tweet</span>
-                  </a>
-                  <a class='addthis_button_email' data-icon='h' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Email</span>
-                  </a>
-                </div>
-                <!-- .addthis_toolbox.facebook-share-counter -->
-                <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
-                <!-- %span Shares -->
                 <div class='aside-block double-spaced'>
                   <header class='neutral-card'>
                     <h2 class='section-title'>
@@ -2550,37 +2537,6 @@ I"ò,<section class='primary_layout article_layout'>
                   </div>
                 </div>
               </aside>
-              <article class='primary-content article-body-copy block'>
-                <p>
-                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-                </p>
-                <p>
-                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                </p>
-                <blockquote>
-                  Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                </blockquote>
-                <hr class='brick neutral-light'>
-                <p>
-                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-                </p>
-                <p>
-                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                </p>
-                <p>
-                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                </p>
-                <p>
-                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-                </p>
-                <footer class='article-footer'>
-                  <div class='text-meta-highlight'>Condition:</div>
-                  <a href='#'>Heart Attack,</a>
-                  <a href='#'>Heart Disease,</a>
-                  <a href='#'>Diet</a>
-                </footer>
-              </article>
             </div>
           </div>
           <div class='content-row end-block inner-bounds paper-white-card'>
@@ -2720,7 +2676,7 @@ I"ò,<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"Ø%section.primary_layout.article_layout
+;T;	I"‡%section.primary_layout.article_layout
     .inner-bounds.block.paper-white-card
 
         -# Article Header
@@ -2733,6 +2689,9 @@ I"ò,<section class='primary_layout article_layout'>
                 %p.lead Research finds major flaws in standard medical approach
 
                 %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
+
+                -# Social List
+                = render "social-list"
 
                 -# Meta Info - Partial
                 = render "meta-partial-article-info"
@@ -2750,11 +2709,6 @@ I"ò,<section class='primary_layout article_layout'>
                     %p.text-meta-sub.smaller
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
-
-
-        .content-row
-            -# Primary Aside Column
-            = render 'aside-column-article'
 
 
             -# Primary Content Column + Article Body Copy
@@ -2784,12 +2738,15 @@ I"ò,<section class='primary_layout article_layout'>
                 = render 'footer-article-related-tags'
 
 
+            -# Primary Aside Column
+            = render 'aside-column-article'
+
 
 
     .content-row.end-block.inner-bounds.paper-white-card
         -# Collection
         = render 'collection-related-reading';T;
-I"∂*<section class='primary_layout article_layout'>
+I"ç*<section class='primary_layout article_layout'>
   <div class='inner-bounds block paper-white-card'>
     <div class='content-row'>
       <header class='article-header'>
@@ -2797,6 +2754,23 @@ I"∂*<section class='primary_layout article_layout'>
         <h2>Rethinking Cancer Treatment in 2014</h2>
         <p class='lead'>Research finds major flaws in standard medical approach</p>
         <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
+        <div class='addthis_toolbox social-list'>
+          <a class='addthis_button_facebook' data-icon='u' href='#'>
+            <span class='line'></span>
+            <span class='value'>Share</span>
+          </a>
+          <a class='addthis_button_twitter' data-icon='v' href='#'>
+            <span class='line'></span>
+            <span class='value'>Tweet</span>
+          </a>
+          <a class='addthis_button_email' data-icon='h' href='#'>
+            <span class='line'></span>
+            <span class='value'>Email</span>
+          </a>
+        </div>
+        <!-- .addthis_toolbox.facebook-share-counter -->
+        <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+        <!-- %span Shares -->
         <div class='article-meta'>
           <time>December 22, 2013</time>
           <span class='ver-line'>&#124;</span>
@@ -2816,26 +2790,38 @@ I"∂*<section class='primary_layout article_layout'>
           </p>
         </div>
       </div>
-    </div>
-    <div class='content-row'>
+      <article class='primary-content article-body-copy block'>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <blockquote>
+          Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </blockquote>
+        <hr class='brick neutral-light'>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+        </p>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+        </p>
+        <footer class='article-footer'>
+          <div class='text-meta-highlight'>Condition:</div>
+          <a href='#'>Heart Attack,</a>
+          <a href='#'>Heart Disease,</a>
+          <a href='#'>Diet</a>
+        </footer>
+      </article>
       <aside class='aside-column-primary'>
-        <div class='addthis_toolbox social-list'>
-          <a class='addthis_button_facebook' data-icon='u' href='#'>
-            <span class='line'></span>
-            <span class='value'>Share</span>
-          </a>
-          <a class='addthis_button_twitter' data-icon='v' href='#'>
-            <span class='line'></span>
-            <span class='value'>Tweet</span>
-          </a>
-          <a class='addthis_button_email' data-icon='h' href='#'>
-            <span class='line'></span>
-            <span class='value'>Email</span>
-          </a>
-        </div>
-        <!-- .addthis_toolbox.facebook-share-counter -->
-        <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
-        <!-- %span Shares -->
         <div class='aside-block double-spaced'>
           <header class='neutral-card'>
             <h2 class='section-title'>
@@ -2934,37 +2920,6 @@ I"∂*<section class='primary_layout article_layout'>
           </div>
         </div>
       </aside>
-      <article class='primary-content article-body-copy block'>
-        <p>
-          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-        </p>
-        <p>
-          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-        </p>
-        <blockquote>
-          Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-        </blockquote>
-        <hr class='brick neutral-light'>
-        <p>
-          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-        </p>
-        <p>
-          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-        </p>
-        <p>
-          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-        </p>
-        <p>
-          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-        </p>
-        <footer class='article-footer'>
-          <div class='text-meta-highlight'>Condition:</div>
-          <a href='#'>Heart Attack,</a>
-          <a href='#'>Heart Disease,</a>
-          <a href='#'>Diet</a>
-        </footer>
-      </article>
     </div>
   </div>
   <div class='content-row end-block inner-bounds paper-white-card'>
@@ -3033,7 +2988,7 @@ I"∂*<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"Ò/<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"@<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3231,55 +3186,117 @@ I"∂*<section class='primary_layout article_layout'>
         </div>
       </header>
       <main id='content-wrap' role='main'>
-        <div class='inner-bounds'></div>
-        <div class='block'>
-          <div class='content-row'>
-            <section class='related-reading collection grid-3-per'>
-              <h2 class='section-title'>
-                Project
-                <span>
-                  Index
-                </span>
-              </h2>
-              <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/'>
-                  <img alt='image title' src='/assets/img/content/site-screenshots/home.jpg'>
-                </a>
-                <a class='text-meta' href='/'>Layout</a>
-                <div class='media-copy'>
-                  <h3 class='text-meta-header'>Home</h3>
+        <section class='primary_layout article_layout'>
+          <div class='inner-bounds block paper-white-card'>
+            <div class='content-row'>
+              <section class='related-reading collection grid-3-per'>
+                <h2 class='section-title center'>
+                  Project
+                  <span>
+                    Index
+                  </span>
+                </h2>
+                <hr class='thick primary neutral-light partial'>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>Article Layout</div>
+                    <a class='media-copy' href='/output/article_feature/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>Article: Feature</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/output/article_feature/index.html'>
-                  <img alt='image title' src='/assets/img/content/site-screenshots/feature.jpg'>
-                </a>
-                <a class='text-meta' href='/output/article_feature/index.html'>Layout</a>
-                <div class='media-copy'>
-                  <h3 class='text-meta-header'>Article: Feature</h3>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>Article Layout</div>
+                    <a class='media-copy' href='/output/article_blog/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>Article: Blog w/ Photo</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/output/article_blog/index.html'>
-                  <img alt='image title' src='/assets/img/content/site-screenshots/blog.jpg'>
-                </a>
-                <a class='text-meta' href='/output/article_blog/index.html'>Layout</a>
-                <div class='media-copy'>
-                  <h3 class='text-meta-header'>Article: Blog</h3>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>Article Layout</div>
+                    <a class='media-copy' href='/output/article_blog_no_photo/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>Article: Blog w/o Photo</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class='media-object with-large-image grid-element'>
-                <a class='text-meta' href='/output/article_column/index.html'>
-                  <img alt='image title' src='/assets/img/content/site-screenshots/column.jpg'>
-                </a>
-                <a class='text-meta' href='/output/article_column/index.html'>Layout</a>
-                <div class='media-copy'>
-                  <h3 class='text-meta-header'>Article: Column</h3>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>Article Layout</div>
+                    <a class='media-copy' href='/output/article_column/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>Article: Column</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </section>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>List Layout</div>
+                    <a class='media-copy' href='/output/blog_roll/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>List: Blog Roll</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>List Layout</div>
+                    <a class='media-copy' href='/output/story_roll/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>List: Story Roll</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>List Layout</div>
+                    <a class='media-copy' href='/output/search_results/index.html' target='_blank'>
+                      <h3 class='text-meta-header'>List: Search Results</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='text-meta'>Home Layout</div>
+                    <a class='media-copy' href='/' target='_blank'>
+                      <h3 class='text-meta-header'>Home</h3>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
-        </div>
+        </section>
       </main>
     </section>
     <footer id='main-footer'>
@@ -3351,94 +3368,210 @@ I"∂*<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"ı.inner-bounds
-.block
+;T;	I"…%section.primary_layout.article_layout
+    .inner-bounds.block.paper-white-card
 
-    .content-row
 
-        -# Related Reading Collection
-        %section.related-reading.collection.grid-3-per
-            %h2.section-title
-                Project
-                %span
-                    Index
+        .content-row
+            -# Project Index
+            %section.related-reading.collection.grid-3-per
+                %h2.section-title.center
+                    Project
+                    %span
+                        Index
 
-            .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/"}
-                    %img{:src => "/assets/img/content/site-screenshots/home.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/"} Layout
-                .media-copy
-                    %h3.text-meta-header Home
+                %hr.thick.primary.neutral-light.partial/
 
-            .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/output/article_feature/index.html"}
-                    %img{:src => "/assets/img/content/site-screenshots/feature.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/output/article_feature/index.html"} Layout
-                .media-copy
-                    %h3.text-meta-header Article: Feature
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
 
-            .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/output/article_blog/index.html"}
-                    %img{:src => "/assets/img/content/site-screenshots/blog.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/output/article_blog/index.html"} Layout
-                .media-copy
-                    %h3.text-meta-header Article: Blog
+                        %a.media-copy{:target=>"_blank", :href => "/output/article_feature/index.html"}
+                            %h3.text-meta-header Article: Feature
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
-            .media-object.with-large-image.grid-element
-                %a.text-meta{:href => "/output/article_column/index.html"}
-                    %img{:src => "/assets/img/content/site-screenshots/column.jpg", :alt => "image title"}/
-                %a.text-meta{:href => "/output/article_column/index.html"} Layout
-                .media-copy
-                    %h3.text-meta-header Article: Column;T;
-I"õ<div class='inner-bounds'></div>
-<div class='block'>
-  <div class='content-row'>
-    <section class='related-reading collection grid-3-per'>
-      <h2 class='section-title'>
-        Project
-        <span>
-          Index
-        </span>
-      </h2>
-      <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/'>
-          <img alt='image title' src='/assets/img/content/site-screenshots/home.jpg'>
-        </a>
-        <a class='text-meta' href='/'>Layout</a>
-        <div class='media-copy'>
-          <h3 class='text-meta-header'>Home</h3>
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/article_blog/index.html"}
+                            %h3.text-meta-header Article: Blog w/ Photo
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/article_blog_no_photo/index.html"}
+                            %h3.text-meta-header Article: Blog w/o Photo
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/article_column/index.html"}
+                            %h3.text-meta-header Article: Column
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/blog_roll/index.html"}
+                            %h3.text-meta-header List: Blog Roll
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/story_roll/index.html"}
+                            %h3.text-meta-header List: Story Roll
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/search_results/index.html"}
+                            %h3.text-meta-header List: Search Results
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img{:src => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Home Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/"}
+                            %h3.text-meta-header Home
+                            %p.text-meta-sub.light-tint.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶;T;
+I"‘<section class='primary_layout article_layout'>
+  <div class='inner-bounds block paper-white-card'>
+    <div class='content-row'>
+      <section class='related-reading collection grid-3-per'>
+        <h2 class='section-title center'>
+          Project
+          <span>
+            Index
+          </span>
+        </h2>
+        <hr class='thick primary neutral-light partial'>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/output/article_feature/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Article: Feature</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/output/article_feature/index.html'>
-          <img alt='image title' src='/assets/img/content/site-screenshots/feature.jpg'>
-        </a>
-        <a class='text-meta' href='/output/article_feature/index.html'>Layout</a>
-        <div class='media-copy'>
-          <h3 class='text-meta-header'>Article: Feature</h3>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/output/article_blog/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Article: Blog w/ Photo</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/output/article_blog/index.html'>
-          <img alt='image title' src='/assets/img/content/site-screenshots/blog.jpg'>
-        </a>
-        <a class='text-meta' href='/output/article_blog/index.html'>Layout</a>
-        <div class='media-copy'>
-          <h3 class='text-meta-header'>Article: Blog</h3>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/output/article_blog_no_photo/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Article: Blog w/o Photo</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class='media-object with-large-image grid-element'>
-        <a class='text-meta' href='/output/article_column/index.html'>
-          <img alt='image title' src='/assets/img/content/site-screenshots/column.jpg'>
-        </a>
-        <a class='text-meta' href='/output/article_column/index.html'>Layout</a>
-        <div class='media-copy'>
-          <h3 class='text-meta-header'>Article: Column</h3>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/output/article_column/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Article: Column</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/output/blog_roll/index.html' target='_blank'>
+              <h3 class='text-meta-header'>List: Blog Roll</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/output/story_roll/index.html' target='_blank'>
+              <h3 class='text-meta-header'>List: Story Roll</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/output/search_results/index.html' target='_blank'>
+              <h3 class='text-meta-header'>List: Search Results</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Home Layout</div>
+            <a class='media-copy' href='/' target='_blank'>
+              <h3 class='text-meta-header'>Home</h3>
+              <p class='text-meta-sub light-tint sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-</div>
+</section>
 ;T;@&I"/home/;T{;{	;I"®<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -4652,7 +4785,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"ZS<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"YS<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4889,6 +5022,34 @@ I"Ô<div class='inner-bounds paper-white block'>
               </header>
             </div>
             <div class='content-row'>
+              <article class='primary-content article-body-copy small-block'>
+                <p>
+                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                </p>
+                <p>
+                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                </p>
+                <hr class='brick neutral-light'>
+                <p>
+                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                </p>
+                <p>
+                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                </p>
+                <p>
+                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                </p>
+                <p>
+                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                </p>
+                <footer class='article-footer'>
+                  <div class='text-meta-highlight'>Condition:</div>
+                  <a href='#'>Heart Attack,</a>
+                  <a href='#'>Heart Disease,</a>
+                  <a href='#'>Diet</a>
+                </footer>
+              </article>
               <aside class='aside-column-primary'>
                 <div class='aside-block double-spaced'>
                   <header class='neutral-card'>
@@ -4972,37 +5133,9 @@ I"Ô<div class='inner-bounds paper-white block'>
                   </div>
                 </div>
               </aside>
-              <article class='primary-content article-body-copy small-block'>
-                <p>
-                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-                </p>
-                <p>
-                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                </p>
-                <hr class='brick neutral-light'>
-                <p>
-                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-                </p>
-                <p>
-                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                </p>
-                <p>
-                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                </p>
-                <p>
-                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-                </p>
-                <footer class='article-footer'>
-                  <div class='text-meta-highlight'>Condition:</div>
-                  <a href='#'>Heart Attack,</a>
-                  <a href='#'>Heart Disease,</a>
-                  <a href='#'>Diet</a>
-                </footer>
-              </article>
             </div>
           </div>
-          <div class='content-row end-block inner-bounds paper-white'>
+          <div class='end-block inner-bounds block paper-white-card'>
             <section class='collection grid-3-per with-dividers'>
               <h2 class='section-title center'>
                 Related
@@ -5139,7 +5272,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </script>
   </body>
 </html>
-;T;	I"h%section.primary_layout.article_layout.no-photo
+;T;	I"i%section.primary_layout.article_layout.no-photo
     .inner-bounds.block.paper-white-card
 
         -# Article Header
@@ -5157,9 +5290,6 @@ I"Ô<div class='inner-bounds paper-white block'>
 
 
         .content-row
-            -# Primary Aside Column
-            = render 'aside-column-article-no-social'
-
 
             -# Primary Content Column + Article Body Copy
             %article.primary-content.article-body-copy.small-block
@@ -5185,12 +5315,17 @@ I"Ô<div class='inner-bounds paper-white block'>
                 = render 'footer-article-related-tags'
 
 
+            -# Primary Aside Column
+            = render 'aside-column-article-no-social'
 
 
-    .content-row.end-block.inner-bounds.paper-white
+
+
+
+    .end-block.inner-bounds.block.paper-white-card
         -# Collection
         = render 'collection-related-reading';T;
-I"´%<section class='primary_layout article_layout no-photo'>
+I"™%<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block paper-white-card'>
     <div class='content-row'>
       <header class='article-header'>
@@ -5229,6 +5364,34 @@ I"´%<section class='primary_layout article_layout no-photo'>
       </header>
     </div>
     <div class='content-row'>
+      <article class='primary-content article-body-copy small-block'>
+        <p>
+          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+        </p>
+        <p>
+          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+        </p>
+        <hr class='brick neutral-light'>
+        <p>
+          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+        </p>
+        <p>
+          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+        </p>
+        <p>
+          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+        </p>
+        <p>
+          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+        </p>
+        <footer class='article-footer'>
+          <div class='text-meta-highlight'>Condition:</div>
+          <a href='#'>Heart Attack,</a>
+          <a href='#'>Heart Disease,</a>
+          <a href='#'>Diet</a>
+        </footer>
+      </article>
       <aside class='aside-column-primary'>
         <div class='aside-block double-spaced'>
           <header class='neutral-card'>
@@ -5312,37 +5475,9 @@ I"´%<section class='primary_layout article_layout no-photo'>
           </div>
         </div>
       </aside>
-      <article class='primary-content article-body-copy small-block'>
-        <p>
-          Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-          tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-        </p>
-        <p>
-          Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-        </p>
-        <hr class='brick neutral-light'>
-        <p>
-          Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-        </p>
-        <p>
-          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-        </p>
-        <p>
-          I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-        </p>
-        <p>
-          Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-        </p>
-        <footer class='article-footer'>
-          <div class='text-meta-highlight'>Condition:</div>
-          <a href='#'>Heart Attack,</a>
-          <a href='#'>Heart Disease,</a>
-          <a href='#'>Diet</a>
-        </footer>
-      </article>
     </div>
   </div>
-  <div class='content-row end-block inner-bounds paper-white'>
+  <div class='end-block inner-bounds block paper-white-card'>
     <section class='collection grid-3-per with-dividers'>
       <h2 class='section-title center'>
         Related

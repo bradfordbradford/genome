@@ -3,22 +3,7 @@
 
 // html {-webkit-backface-visibility:hidden;}
 
-body {
-    position: relative;
-    font-family: $sans;
-    background: $primaryBackground;
-    color: $primaryText;
-    -webkit-font-smoothing: antialiased;
 
-}
-
-img {
-    max-width: 100%;
-}
-
-:focus {
-  outline: 1px solid rgba(000, 000, 000, 0.25);
-}
 
 // NOTE: Offset fixed navigation
 #content-wrap {padding-top:80px;}

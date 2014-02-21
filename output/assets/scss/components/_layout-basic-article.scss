@@ -10,6 +10,7 @@
     header.article-header {
         @include span-columns(4, $total);
         padding: 3px 0 16px;
+        min-height: 380px;
 
         p.lead {
             margin: 24px auto 12px;
@@ -24,9 +25,12 @@
             margin: 0 auto 16px;
         }
 
-
         .article-meta {
             border-top: 1px solid $primaryRule;
+        }
+
+        .social-list {
+            margin: 24px 0 16px;
         }
 
     }
@@ -39,18 +43,12 @@
     }
 
     // Article Photo Caption Card
-    .article-photo-caption {
+    .article-photo-caption  {
         @include span-columns(4 omega, $total);
         display: block;
         margin-top: -2px;
-        clear: both;
     }
 
-    // Article Body Copy when Photo is present
-    // NOTE: Temporary Setup - replace with jquery
-    .article-body-copy {
-        margin-top: -168px;
-    }
 
     // No Photo
     &.no-photo {
@@ -59,10 +57,7 @@
         }
         header.article-header {
             @include span-columns(8, $total);
-        }
-
-        .social-list {
-            margin: 24px 0 16px;
+            min-height: 100%;
         }
 
     }

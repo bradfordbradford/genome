@@ -30,6 +30,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  cursor: default;
 }
 ol, ul {
   list-style: none;
@@ -46,3 +52,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html, body {
+  height: 100%; }
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto; }
+
+object,
+embed {
+  height: 100%; }
+
+img {
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+:focus {
+  outline: 1px solid rgba(000, 000, 000, 0.25);
+}
+
+a:hover {
+  cursor: pointer; }
+a img {
+  border: none; }

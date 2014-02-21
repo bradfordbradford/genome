@@ -16,6 +16,9 @@ title: Article Type- Blog
 
                 %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
 
+                -# Social List
+                = render "social-list"
+
                 -# Meta Info - Partial
                 = render "meta-partial-article-info"
 
@@ -32,11 +35,6 @@ title: Article Type- Blog
                     %p.text-meta-sub.smaller
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
-
-
-        .content-row
-            -# Primary Aside Column
-            = render 'aside-column-article'
 
 
             -# Primary Content Column + Article Body Copy
@@ -65,6 +63,9 @@ title: Article Type- Blog
                 -# Footer: Related Tags
                 = render 'footer-article-related-tags'
 
+
+            -# Primary Aside Column
+            = render 'aside-column-article'
 
 
 
