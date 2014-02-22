@@ -10,19 +10,59 @@ jQuery(document).ready(function($) {
         $('body').removeClass('init');
     }, 500);
 
+    // Scroll Position ----------
+    var mainNav = $('#header-wrap');
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 640) {
+            mainNav.removeClass('menu-thick').addClass('menu-slim');
+        }
+        if (scroll < 640) {
+            mainNav.removeClass('menu-slim').addClass('menu-thick');
+        }
+    });
+
+    // Smooth Scroll ----------
+    $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+      var target = this.hash,
+      $target = $(target);
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 500, 'swing', function () {
+          window.location.hash = target;
+      });
+    });
+
     // Toggle View All ----------
     $('.open-g-door').on('click', function(e){
         $('.g-door').toggleClass("open");
-        $('#header-wrap').toggleClass("push-for-door");
+        mainNav.toggleClass("push-for-door");
         $(this).toggleClass("switch");
         e.preventDefault();
     });
     // Add an optional secondary close button
     $('.close-g-door').on('click', function(e){
         $('.g-door').removeClass("open");
-        $('#header-wrap').removeClass("push-for-door");
+        mainNav.removeClass("push-for-door");
         e.preventDefault();
     });
+
+
+    // LazyLoad Images
+    $('img.load').lazyload({
+        effect : "fadeIn"
+    });
+
+
+    // Collapsible Content
+    $(function() {
+      // Append Toggle Icon
+      var toggleIcon = $( "<span class='toggle-icon' data-icon='q'></span>" );
+      $('.collapse header h2').append(toggleIcon);
+      $( ".collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
+    });
+
 
     // Slideshow ----------
     $('.slideshow').flexslider({
@@ -32,6 +72,7 @@ jQuery(document).ready(function($) {
         nextText: ''
     });
 
+
     // Overlay: View Search
     $('.overlay-view-search').magnificPopup({
         type: 'inline',
@@ -40,8 +81,6 @@ jQuery(document).ready(function($) {
         preloader: false,
         focus: '#nav-search-box',
 
-        // When elemened is focused, some mobile browsers in some cases zoom in
-        // It looks not nice, so we disable it:
         callbacks: {
           beforeOpen: function() {
             if($(window).width() < 700) {

@@ -1,0 +1,17 @@
+
+
+
+// jQuery-UI Animations
+.ui-accordion-header-active .toggle-icon {
+    transform: rotate(90deg);
+}
+
+.ui-accordion-content {
+    opacity: 0;
+    transition: opacity .15s ease-in-out,
+                height .15s ease-in-out .2s;
+}
+
+.ui-accordion-content-active {
+    opacity: 1;
+}

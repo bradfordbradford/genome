@@ -14,4 +14,13 @@
         @include span-columns(6, $total);
         &:nth-child(even) {@include span-columns(6 omega, $total);}
     }
+
+    &.major-r {
+        .grid-element{
+            @include span-columns(4, $total);
+        }
+        .grid-element:last-child {
+            @include span-columns(8 omega, $total);
+        }
+    }
 }

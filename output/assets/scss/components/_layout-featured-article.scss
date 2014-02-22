@@ -8,25 +8,9 @@
 
     // Article Body Copy
     .primary-content {
-        @include span-columns(10, $total);
+        @include span-columns(8, $total);
         @include center-columns;
 
-
-        .primary-content-inner {
-            @include span-columns(10, $total);
-            @include center-columns;
-        }
-
-        .article-body-copy > {
-            p {
-                width: 80%;
-                margin: 0 auto 28px;
-            }
-            h3 {
-                width: 80%;
-                margin: 16px auto;
-            }
-        }
     }
 
 }

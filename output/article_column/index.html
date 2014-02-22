@@ -29,13 +29,13 @@
           <h2 class='section-title left smaller'>
             Subscribe to Genome
           </h2>
-          <div class='search-box'>
-            <form action='' class='search-form'>
-              <a class='search-icon' data-icon='h' href='#'></a>
-              <input id='search' placeholder='jane@youremail.com' type='text'>
+          <div class='form-box'>
+            <form action=''>
+              <a class='input-icon' data-icon='h' href='#'></a>
+              <input placeholder='jane@youremail.com' type='text'>
             </form>
           </div>
-          <a class='close-g-door' data-icon='a' href='#'>
+          <a class='close-g-door' data-icon='a' href='x'>
             <span>Close</span>
           </a>
         </div>
@@ -53,9 +53,9 @@
             <ol class='navigation-list'>
               <div class='search'>
                 <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='search-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action='' class='search-form'>
-                    <a class='search-icon' data-icon='C' href='#'></a>
+                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                  <form action=''>
+                    <a class='input-icon' data-icon='C' href='#'></a>
                     <input id='search' placeholder='What were you looking for?' type='text'>
                   </form>
                 </div>
@@ -202,9 +202,13 @@
               <div class='content-row'>
                 <header class='article-header'>
                   <a class='text-meta brick' href='#'>Treatment</a>
+                  <div class='text-meta light-tint' href='#'>
+                    <span class='icon' data-icon='F'></span>
+                    3 min read
+                  </div>
                   <h2>Rethinking Cancer Treatment in 2014</h2>
                   <p class='lead'>Research finds major flaws in standard medical approach</p>
-                  <img alt='' class='author-pic circle' src='/assets/img/content/author-placeholder.jpg'>
+                  <img alt='' class='load author-pic circle' data-original='/assets/img/content/author-placeholder.jpg' src='/assets/img/content/author-placeholder.jpg'>
                   <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
                   <div class='article-meta'>
                     <time>December 22, 2013</time>
@@ -215,7 +219,7 @@
                   </div>
                 </header>
                 <div class='article-photo primary'>
-                  <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                  <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
                 </div>
                 <div class='article-photo-caption neutral-card'>
                   <div class='card-inner-wrap'>
@@ -274,8 +278,13 @@
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              By Author Rightspoke
-                              53 shares
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -290,8 +299,13 @@
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              By Author Rightspoke
-                              95 shares
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -302,28 +316,17 @@
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
                               <a href=''>
-                                Fusce lobortis lorem at ipsum semper sagittis
+                                Changing the Face of Chemo
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              By Author Rightspoke
-                              189 shares
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class='media-object'>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header small'>
-                              <a href=''>
-                                Vestibulum auctor dapibus neque
+                              <a href='#'>
+                                By Author Rightspoke
                               </a>
-                            </h3>
-                            <p class='text-meta-sub light-tint'>
-                              By Author Rightspoke
-                              120 shares
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
                             </p>
                           </div>
                         </div>
@@ -331,30 +334,32 @@
                     </ul>
                   </div>
                   <div class='aside-block'>
-                    <header class='neutral-card'>
-                      <h2 class='section-title'>
-                        Print
-                        <span>
-                          Edition
-                        </span>
-                      </h2>
-                    </header>
-                    <div class='media-object with-large-image'>
-                      <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
-                      <a class='text-meta' href='#'>genome magazine</a>
-                      <div class='media-copy'>
-                        <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
-                        <p class='text-meta-sub contrast'>
-                          Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
-                        </p>
+                    <div class='collapse'>
+                      <header class='neutral-card'>
+                        <h2 class='section-title'>
+                          Print
+                          <span>
+                            Edition
+                          </span>
+                        </h2>
+                      </header>
+                      <div class='media-object with-large-image'>
+                        <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+                        <a class='text-meta' href='#'>genome magazine</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+                          <p class='text-meta-sub contrast'>
+                            Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                          </p>
+                        </div>
+                        <a class='primary btn' href='#'>Subscribe</a>
                       </div>
-                      <a class='primary btn' href='#'>Subscribe</a>
                     </div>
                   </div>
                 </aside>
               </div>
             </div>
-            <div class='content-row end-block'>
+            <div class='content-row end-block block'>
               <section class='collection grid-3-per with-dividers'>
                 <h2 class='section-title center'>
                   Related

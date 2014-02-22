@@ -7,8 +7,7 @@
     transition: all .1s ease-in-out;
     user-select:none;
     box-sizing: border-box;
-    padding: 16px 28px 14px;
-    min-width: 212px;
+    padding: 1em 2em ;
     border-radius: 4px;
     position: relative;
     display: inline-block;
@@ -16,24 +15,39 @@
     text-rendering: optimizeLegibility;
     vertical-align: bottom;
     cursor: pointer;
+    min-width: 64%;
     text-align: center;
-    font-size: em-font(18px);
+    font-size: em-font(14px);
     font-style: normal;
-    font-family: $serif;
-    text-transform: capitalize;
-    font-style: italic;
-    font-weight: 400;
+    font-family: $sans;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
     border:0;
     letter-spacing: .06em;
-    line-height: 28px;
+    line-height: 1.24em;
     margin: 0 auto;
+
+    &.special {
+        font-size: em-font(18px);
+        font-style: italic;
+        font-family: $serif;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
 
     &.primary {
         background: $secondary;
         color: $primaryLight;
 
         &:hover {
-            background: darken($secondary, 2%);
+            background: $secondaryCompliment;
+        }
+
+        &.special {
+            &:hover {
+                background: darken($secondary, 5%);
+            }
         }
     }
 
@@ -59,21 +73,49 @@
     &.media-action {
         @include rgba($primaryHeader, .8);
         color: $primaryLight;
+        text-transform: capitalize;
+        // font-family: $sans;
+        // font-style: normal;
+        // font-weight: 700;
         border: 1px solid $primaryLight;
         border:1px solid rgba(255, 255, 255, 0.6);
-        padding:12px 16px 10px;
+        padding:14px;
+        font-size: em-font(16px);
         min-width: inherit;
+        line-height: 1em;
+
+        span {
+            display: inline-block;
+            margin-left: 30px;
+        }
 
         &:hover {
             background: darken($primaryText, 2%);
         }
 
-        &:not(.no-text)[data-icon]:before {
-            margin-right: 8px;
+        &:not(.no-text):before {
+            margin: -2px 0 0 0;
+            position: absolute;
         }
 
         &.no-text {
-            padding: 10px 9px 2px 10px;
+            padding: 10px 9px 7px 10px;
+        }
+
+        &:before {
+            font-size: em-font(20px);
+
+        }
+
+        // Adjust for Slide Show Icon
+        &.slide {}
+
+        // Adjust for Play Icon
+        &.overlay-watch-video {
+            &:before {
+                font-size: em-font(28px);
+                margin:-7px 0 0 0;
+            }
         }
     }
 

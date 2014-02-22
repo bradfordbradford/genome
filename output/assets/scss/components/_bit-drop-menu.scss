@@ -38,12 +38,13 @@
     margin: 0;
     padding: 0;
     height: 80px;
+    overflow: hidden;
     // color: white !important;
   }
   .accessible-megamenu-top-nav-item a[aria-haspopup]:not(.search-glass) {
     position: relative;
     display: block;
-    height: 81px;
+    height: 80px;
     z-index: inherit;
     &:hover, &:focus, &.open {
       background: $primaryLinkDarkHover;
@@ -70,7 +71,7 @@
     -webkit-transition: opacity .15s ease-in-out .15s;
     &.open {
       visibility: visible;
-      top: 81px;
+      top: 80px;
       max-height: 600px;
       opacity: 1;
       z-index: 1001;

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "genome-font";
-  src:url("../fonts/genome-font.eot");
+  src:url("../fonts/fonts/genome-font.eot");
   src:url("../fonts/genome-font.eot?#iefix") format("embedded-opentype"),
     url("../fonts/genome-font.woff") format("woff"),
     url("../fonts/genome-font.ttf") format("truetype"),
@@ -127,4 +127,19 @@
 }
 .icon-genome-logo:before {
   content: "L";
+}
+.icon-search:before {
+  content: "C";
+}
+.icon-close-5:before {
+  content: "D";
+}
+.icon-chevron-medium-big-4-01:before {
+  content: "E";
+}
+.icon-clock:before {
+  content: "F";
+}
+.icon-glasses:before {
+  content: "H";
 }

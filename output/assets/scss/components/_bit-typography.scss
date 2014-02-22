@@ -3,6 +3,8 @@
 
 // Typography //
 body {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
     font-family: $sans;
     background: $primaryBackground;
     color: $primaryText;
@@ -32,7 +34,7 @@ a {
 }
 
 h2 {
-    font-size: em-font(42px);
+    font-size: em-font(48px);
     font-weight: 700;
     letter-spacing: -0.009em;
     line-height: 1em;
@@ -110,7 +112,7 @@ blockquote p {}
 
 header.section-header {
     .section-title {
-        font-size: .8125em;
+        font-size:1em;
         margin-bottom: 6px;
     }
 }
@@ -126,6 +128,7 @@ header.section-header {
 p {
     color: $primaryText;
     font-family: $serif;
+    font-size: em-font(20px);
     line-height: 1.25em;
 
 
@@ -171,6 +174,7 @@ blockquote {
     font-weight: 500;
     font-style: italic;
     font-size: em-font(30px);
+    line-height: 1.4em;
     text-align: center;
     margin: 0 auto 24px;
 
@@ -196,7 +200,7 @@ blockquote {
 // Article Body P, .end-mark, H3
 .article-body-copy {
     h3 {
-        font-size: em-font(36px);
+        font-size: em-font(48px);
         font-weight: 700;
         letter-spacing: -0.009em;
         line-height: 1em;
@@ -204,8 +208,8 @@ blockquote {
     }
 
     p {
-        line-height: 2em;
-        font-size: em-font(18px);
+        line-height: 1.42em;
+        font-size: em-font(20px);
         margin-bottom: 32px;
     }
     .end-mark {
@@ -222,6 +226,7 @@ blockquote {
     font-weight: 700;
     text-transform: uppercase;
     font-size: em-font(13px);
+    line-height: 1.2em;
     letter-spacing: 0.08em;
     display: inline-block;
 
@@ -259,9 +264,9 @@ blockquote {
 .text-meta-sub {
     font-family: $serif;
     font-style: italic;
-    font-size: 0.825em;
-    line-height:1em;
-    margin: 6px auto 20px;
+    font-size: em-font(12px);
+    line-height:1.64em;
+    margin: 4px auto 20px;
     display: block;
 }
 
@@ -269,8 +274,8 @@ blockquote {
 .sans-meta {
     font-style: normal;
     font-family: $sans;
-    font-size: .875em;
-    line-height: 1.25em;
+    font-size: em-font(14px);
+    line-height: 1.4em;
 
     a {
         color: $secondary;
@@ -284,7 +289,7 @@ blockquote {
 .text-meta-header {
     font-weight: 700;
     font-size: em-font(24px);
-    line-height:24px;
+    line-height:1em;
 
     &.small {
         font-size: em-font(20px);
@@ -312,6 +317,9 @@ blockquote {
 
 // Featured Article
 .featured-article {
+    .article-header {
+        margin-top:32px;
+    }
     h2 a {
         &:hover {
             color: $primaryLink;
@@ -327,8 +335,6 @@ blockquote {
 
     p {
         font-family: $sans;
-        line-height: 1.75em;
-        font-size: 1.125em;
         margin:0 auto 16px;
     }
 }
@@ -336,6 +342,9 @@ blockquote {
 
 // Collection
 .collection {
+    .text-meta {
+        font-size: em-font(10px);
+    }
     .media-copy:hover {
         .text-meta-header,
         .text-meta-sub {
@@ -373,11 +382,12 @@ blockquote {
 
     h2 {
         font-size: em-font(80px);
-        line-height: 0.9em;
+        line-height: 0.875em;
     }
 
     p.lead {
         font-size: em-font(24px);
+        line-height: 1em;
         margin: 0 auto 8px;
 
     }
@@ -392,6 +402,7 @@ blockquote {
         }
         p.lead {
             width: 78%;
+            font-family: $serif;
             margin: 0 auto 8px;
         }
     }
@@ -421,9 +432,13 @@ blockquote {
     // Hero: Article Feature
     &.hero-article-title {
         h2 {
-            text-align: left
+            text-align: left;
+            font-size: em-font(90px);
+            line-height: 0.78em;
         }
-        p.lead {margin: 8px auto;}
+        p.lead {
+            margin: 8px auto 24px;
+        }
         .text-meta-highlight, p.lead {text-align:left;}
         .text-meta-highlight {display: block;line-height:1.125em;}
     }
@@ -438,6 +453,14 @@ blockquote {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     display: block;
+}
+
+// Photo Caption
+.article-photo-caption {
+    .text-meta-sub {
+        font-family: $sans;
+        font-style:normal;
+    }
 }
 
 
@@ -495,10 +518,10 @@ hr {
 
 // Article Meta Utilities
 .action {
-    text-transform: uppercase;
+    // text-transform: uppercase;
 
     &[data-icon]:before {
-        padding-right:4px;
+        padding:0 4px;
     }
     // Correct Comment Bubble Spacing
     &[data-icon=i]:before {
@@ -506,3 +529,17 @@ hr {
         top:2px;
     }
 }
+
+
+// Aside Block Media Objects
+.aside-block .media-object {
+    .text-meta {
+        font-size: em-font(11px);
+    }
+    &:not(.with-large-image) {
+        .text-meta-header {
+            font-size: em-font(20px);
+        }
+    }
+}
+

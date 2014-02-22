@@ -4,8 +4,8 @@
 
 // Utility Classes //
 .smaller {
-    font-size: em-font(13px) !important;
-    line-height:1.5em !important;
+    font-size: em-font(14px) !important;
+    line-height:1em !important;
 }
 
 .larger {
@@ -38,6 +38,11 @@
 
 .sans {
     font-family: $sans !important;
+}
+
+.sans-normal {
+    font-family: $sans !important;
+    font-style: normal !important;
 }
 
 .italic {
@@ -203,14 +208,19 @@
             color: $secondaryBackgroundCompliment;
             &:hover {color:$primaryLinkHover;}
         }
-        .text-meta-sub.sans-meta {
-            .text-meta {
-                margin-top: 12px;
+        .media-copy {
+            .text-meta-sub {
+                font-family: $sans;
+                font-style: normal;
+                font-size: em-font(16px);
+                line-height: 1.375em;
+                .text-meta {
+                    margin-top: 12px;
+                    display: block;
+                }
             }
         }
-        .action {
-            text-transform: none;
-        }
+
     }
 }
 
@@ -256,7 +266,8 @@
         margin: 0 auto;
     }
     .author-attrib {
-        font-size: 1.125em;
+        font-size: em-font(18px);
+        line-height: .75em;
         text-transform: uppercase;
 
     }
@@ -298,7 +309,7 @@
     .media-object {
         text-align: left;
         position: relative;
-        height: 274px;
+        height: 18em;
         overflow: hidden;
     }
 
@@ -395,7 +406,7 @@
 .popup-content.media-object.with-large-image {
     .popup-content-wrap {
         position: relative;
-        padding: 24px 6px 12px;
+        padding: 22px 6px 12px;
         background:$primaryLight;
         transition: transform .2s ease-in-out .15s;
     }
@@ -460,7 +471,7 @@
     text-transform: uppercase;
     vertical-align: top;
     letter-spacing: .1em;
-    padding: 8px 16px;
+    padding: 8px 14px;
     border-right: 4px solid $primaryLight;
 
     &:hover {
@@ -551,6 +562,7 @@
     display: inline-block;
     font-size: 2em;
     top: 3px;
+    line-height: 0px;
     position: relative;
 }
 .ver-line {
@@ -559,4 +571,31 @@
     font-size: 1em;
     top:-2px;
     position: relative;
+}
+
+
+// Collapsable Sections
+.collapse {
+    header {
+        position: relative;
+        outline: none;
+
+        .toggle-icon {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            font-size: 1.75em;
+            padding: 0px;
+            margin: -14px 14px 0 0;
+            -webkit-transform: rotate(90deg);
+            color: $secondaryBackgroundCompliment;
+            transition: transform .4s ease-in-out;
+        }
+
+        &.ui-accordion-header-active {
+            .toggle-icon {
+                -webkit-transform: rotate(-90deg);
+            }
+        }
+    }
 }

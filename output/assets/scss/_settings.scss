@@ -4,8 +4,9 @@
 // Colours
 // ------------------------------------------------------------
 
-$primary:                            #1bb793; // Green
+$primary:                            ##7dc98d; // Green /old green:1bb793
 $secondary:                          #1cbadb; // Blue
+$secondaryCompliment:                #7dc98d; // Blue
 $compliment:                         #115e6f; // Blue/Green
 
 $warmLight:                          #eeeae7; // warm white
@@ -63,7 +64,7 @@ $sans                   : "franklin-gothic-urw",sans-serif;
 // Fonts size and line height defaults for our calculations
 // ------------------------------------------------------------
 $base-font-size                         : 16px;                 // Sets the browser default size. Shouldn't need to change this.
-$base-line-height                       : 8px;                  // Baseline grid. Set to a sensible, small size.
+$base-line-height                       : 1em;                  // Baseline grid. Set to a sensible, small size.
 $round-to-nearest-half-line             : false;                // Round the line height to the nearest half line height. Off by default
 
 

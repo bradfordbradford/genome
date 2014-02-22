@@ -11,12 +11,15 @@ title: Article Type- Column
             .content-row
                 %header.article-header
                     %a.text-meta.brick{:href => "#"} Treatment
+                    .text-meta.light-tint{:href => "#"}
+                        %span.icon{:'data-icon'=>"F"}
+                        3 min read
 
                     %h2 Rethinking Cancer Treatment in 2014
 
                     %p.lead Research finds major flaws in standard medical approach
 
-                    %img.author-pic.circle{:src => "/assets/img/content/author-placeholder.jpg", :alt => ""}/
+                    %img.load.author-pic.circle{:src => "/assets/img/content/author-placeholder.jpg", :'data-original' => "/assets/img/content/author-placeholder.jpg", :alt => ""}/
 
                     %a.author-attrib.text-meta-highlight{:href => "#"} By Author Righter
 
@@ -25,7 +28,7 @@ title: Article Type- Column
 
                 -# Photo
                 .article-photo.primary
-                    %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                    %img.load{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original' => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
 
                 -# Photo Caption Card
                 .article-photo-caption.neutral-card
@@ -65,7 +68,7 @@ title: Article Type- Column
 
 
 
-        .content-row.end-block
+        .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading'
 

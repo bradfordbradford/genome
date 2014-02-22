@@ -1,11 +1,11 @@
 
+// Genome Font //
 
-// //  Icons  //
 @charset "UTF-8";
 
 @font-face {
   font-family: "genome-font";
-  src:url("../fonts/genome-font.eot");
+  src:url("../fonts/fonts/genome-font.eot");
   src:url("../fonts/genome-font.eot?#iefix") format("embedded-opentype"),
     url("../fonts/genome-font.woff") format("woff"),
     url("../fonts/genome-font.ttf") format("truetype"),
@@ -131,100 +131,18 @@
 .icon-genome-logo:before {
   content: "L";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .icon {
-//     position: relative;
-//     display: block;
-//     text-align: center;
-//     background: $spriteSVG;
-
-
-//     &.action {
-//         text-indent: 22px;
-//         margin-right: 32px;
-
-//         &.comment-count {
-//             height: 24px;
-//             width:24px;
-//             background-position: -22px -243px;
-//         }
-
-//         &.print {
-//             height: 24px;
-//             width:24px;
-//             background-position: 0 -243px;
-//         }
-//     }
-
-//     &.search-glass {
-//         height: 22px;
-//         width:24px;
-//         background-position: 0 -157px;
-//         top:6px;
-//     }
-
-//     &.social {
-//         height: 22px;
-//         width:24px;
-//     }
-
-//     &.facebook {
-//         background-position: 2px -109px;
-//     }
-
-
-//     &.twitter {
-//         width:26px;
-//         background-position: -24px -109px;
-//     }
-
-
-//     &.linkedIn {
-//         background-position:84px -109px;
-//     }
-
-//     &.googlePlus {
-//         background-position:52px -109px;
-//     }
-
-//     &.email {
-//         background-position:23px -109px;
-//     }
-
-
-
-
-
-
-
-// }
+.icon-search:before {
+  content: "C";
+}
+.icon-close-5:before {
+  content: "D";
+}
+.icon-chevron-medium-big-4-01:before {
+  content: "E";
+}
+.icon-clock:before {
+  content: "F";
+}
+.icon-glasses:before {
+  content: "H";
+}
