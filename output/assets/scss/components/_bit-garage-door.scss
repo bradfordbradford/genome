@@ -24,29 +24,16 @@
 
 
 .close-g-door {
-    background: $primaryText;
-    height: 20px;
-    width: 20px;
-    text-align: center;
-    border-radius: 100px;
-    color: $primaryLight;
+    color: $primaryText;
     position: absolute;
     right:44px;
     top: 24px;
-    transition: background .15s ease-in-out;
+    font-size: em-font(24px);
+    transition: color .15s ease-in-out;
 
-    &:before {
-        position: relative;
-        top: 0.095em;
-    }
-
-    span {
-        display: none;
-    }
 
     &:hover {
-        background: $primaryLinkHover;
-        color: $primaryLight;
+        color: $primaryLinkHover;
     }
 }
 

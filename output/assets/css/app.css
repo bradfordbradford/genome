@@ -835,6 +835,8 @@ header#header-wrap .header-inner {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
   height: 80px;
 }
 
@@ -842,6 +844,11 @@ header#header-wrap .header-inner:after {
   content: "";
   display: table;
   clear: both;
+}
+
+header#header-wrap .tagline,
+header#header-wrap h1.logo {
+  left: 1.6em;
 }
 
 header#header-wrap .tagline {
@@ -929,7 +936,7 @@ header#header-wrap nav#main-navigation ol.navigation-list > li > a:hover {
 
 header#header-wrap .search {
   display: inline-block;
-  margin: 0 -18px 0 76px;
+  margin: 0 1em 0 76px;
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1214,31 +1221,17 @@ header#header-wrap.menu-slim .accessible-megamenu .accessible-megamenu-top-nav-i
 }
 
 .close-g-door {
-  background: #010101;
-  height: 20px;
-  width: 20px;
-  text-align: center;
-  border-radius: 100px;
-  color: white;
+  color: #010101;
   position: absolute;
   right: 44px;
   top: 24px;
-  -webkit-transition: background .15s ease-in-out;
-  transition: background .15s ease-in-out;
-}
-
-.close-g-door:before {
-  position: relative;
-  top: 0.095em;
-}
-
-.close-g-door span {
-  display: none;
+  font-size: 1.5em;
+  -webkit-transition: color .15s ease-in-out;
+  transition: color .15s ease-in-out;
 }
 
 .close-g-door:hover {
-  background: #bababa;
-  color: white;
+  color: #bababa;
 }
 
 .g-door {

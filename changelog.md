@@ -23,6 +23,8 @@
 [x] Social Icons
     These wack out too quickly under pressure.
 
+[x] Made Browse Menu full bleed
+
 
 
 
@@ -78,7 +80,7 @@
 [] Will nav transition to thinner bar w/ social sharing icons on Featured Articles?
     Yes.
 
-- Lets make BROWSE drop down same width as white area
+[x] Lets make BROWSE drop down same width as white area
     Yes.
 
 - Should margin between main content & sidebar be increased?
