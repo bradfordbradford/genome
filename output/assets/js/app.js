@@ -4,6 +4,11 @@
  // Now, Now  //
 jQuery(document).ready(function($) {
 
+    // Run ----------
+    $(function() {
+      setTimeout("jQuery('body').addClass('run');",200 );
+    });
+
     // Menu ----------
     $('#main-navigation').accessibleMegaMenu();
     setTimeout(function () {

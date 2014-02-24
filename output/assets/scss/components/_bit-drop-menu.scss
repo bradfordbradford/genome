@@ -21,6 +21,8 @@
   margin: 0;
   padding: 0;
   height: 80px;
+  -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
   // color: #000;
   // background-color: #fff;
   // border-bottom: 1px solid black;

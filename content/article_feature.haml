@@ -3,33 +3,41 @@ title: Article Type- Feature
 ---
 
 -# Featured Hero
-.paper-white-card
-    %section.hero-content.center.hero-article-title
-        .inner-hero
-            .col-wrap
-                .icon.play-video
+.background-white
+    %header.hero.center.hero-article-title.background-size-full
+        .story-cover-content.two-col-layout.inner-bounds.remove-footer-offset
 
-                .col
-                    %h2
-                        Breaking
-                        %br/
-                        the
-                        %br/
-                        Code
+            .align-middle.align-bottom
+                .align-block
+                    .icon.play-video
 
-                .col
-                    %hr.primary.neutral/
+                    .col
+                        %h2
+                            Breaking
+                            %br/
+                            the
+                            %br/
+                            Code
 
-                    %p.lead
-                        How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+                    .col
+                        %hr.primary.neutral/
 
-                    %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
-                    %a.author-attrib.text-meta-highlight{:href => "#"} Illustraion by Emiliano Ponzi
+                        %p.lead
+                            How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+
+                        %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+                        %a.author-attrib.text-meta-highlight{:href => "#"} Illustraion by Emiliano Ponzi
+
+                    .content-row
+                        %a.scroll-down-arrow{:href => "#scroll-here",:'data-icon' => "E"}
+
+
+        .story-cover-image
 
 
 
     -# Featured Content Paper
-    %section.featured_layout.inner-bounds.block
+    %section.featured_layout.inner-bounds.block#scroll-here
 
         -# Primary Content Column
         %section.primary-content
@@ -78,23 +86,25 @@ title: Article Type- Feature
 
 
     -# Hero: Article Section
-    %section.hero-content.center.hero-article-section
-        .inner-hero
-            .icon{:'data-icon'=>"m"}
+    %header.hero.hero-article-section.background-size-full.center
+        .story-cover-content.single-col-layout
+            .align-middle
+                .align-block
+                    .icon{:'data-icon'=>"m"}
 
-            %h2
-                The Genetic Code
+                    %h2
+                        The Genetic Code
 
-            %hr.primary.thick.light.partial/
+                    %hr.primary.thick.light.partial/
 
-            %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+                    %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
 
-            %p.italic.lead
-                The PreDx test measures seven  substances called “biomarkers” in your blood that are linked to the development of type 2 diabetes.
+                    %p.italic.lead
+                        The PreDx test measures seven  substances called “biomarkers” in your blood that are linked to the development of type 2 diabetes.
 
-            %a.special.btn.neutral.overlay-watch-video{:href => "https://vimeo.com/17404191"}
-                %span
-                    Watch Video
+                    %a.special.btn.neutral.overlay-watch-video.icon-camera-video{:href => "https://vimeo.com/17404191"}
+                        %span
+                            Watch Video
 
 
 
@@ -117,22 +127,22 @@ title: Article Type- Feature
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
 
     -# Hero: Slideshow Section
-    %section.hero-content.center.hero-slideshow-section
+    %section.hero.center.hero-slideshow-section.background-size-full.center
         -# Primary Content Column
-        %section.inner-bounds
-            .slideshow-wrap
-                .slideshow
-                    %ul.slides
-                        %li
-                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
-                        %li
-                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                        %li
-                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                            %figcaption
-                                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
-            %p.text-meta-sub.smaller
-                The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
+        .slideshow-wrap
+            .slideshow
+                %ul.slides
+                    %li
+                        %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                    %li
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                    %li
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                        %figcaption
+                            Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+    .content-row.slideshow-figcaption
+        %p.text-meta-sub.smaller
+            The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
 
 
     -# Featured Content Card

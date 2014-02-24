@@ -3,6 +3,14 @@ Burnlist: notes, mini bugs, etc
 ----
 
 
+
+Add Utilities:
+align-middle
+
+background-white
+
+background-neutral
+
 # Stress Points
 
 == Range 3,2 (768 - 1224) ==
@@ -49,15 +57,11 @@ Burnlist: notes, mini bugs, etc
 
 
 # Other Issues
-
-[ ] Lazy Load Images
-
-[ ] Feature Hero: Hover
-
+[ ] Addthis clickable?
+[ ] Video Overlay lags mfp-background
 [ ] Subtle Site Loader: along bottom?
 
-[ ] Social Icons
-    These wack out too quickly under pressure.
+
 
 
 

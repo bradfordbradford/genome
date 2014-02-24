@@ -3,18 +3,41 @@
 # Contrib Changelog
 
 ## Timeline
+* [02/24/2014]
+[x] Added load in animation for Featured Article Hero
+
+[x] Fixed 'bumping' on css3 animations
+
+[x] Refined how Hero images are handled
+
+[x] Added scroll down prompt arrow, click to drop/slide to article
+
+[x] Added button animation - icons roll up (ie. glasses to explore this issue, camera to watch video on feature)
+
+[x] Fixed slideshow styles
+
+[x] Lazy Load Images
+
+[x] Feature Hero: Hover
+
+[x] Social Icons
+    These wack out too quickly under pressure.
+
+
+
+
 * [02/21/2014]
 
-- Should we consider adding an arrow to larger header area to prompt users to scroll? This is an older audience and just realized my oversight (only example that comes to mind: https://medium.com/p/8d43bcb650c5)
-    Like it.
+[x] Should we consider adding an arrow to larger header area to prompt users to scroll? This is an older audience and just realized my oversight (only example that comes to mind: https://medium.com/p/8d43bcb650c5)
+    Like it. Click it drop into the readable area.
 
-- Add glasses symbol to Subscribe button (see purple top row of buttons for example: https://medium.com/p/8d43bcb650c5)
+[x] Add glasses symbol to Subscribe button (see purple top row of buttons for example: https://medium.com/p/8d43bcb650c5)
 
 - Should link color shifts be dark blue, not gray?
     Like it. What shade?
 
 [x] For 1-Across thumbnail, should entire text area link/be clickable? This will help on Mobile, too.
-    Mistake: header is now clickable.
+    Markup mistake: header is now clickable. Wou
 
 **Feature**
 [x] Should tagline be italicized serif to be consistent with columns & blogs?
@@ -22,10 +45,10 @@
 [x] Body copy area width be greater (90%)
 
 - Watch video button needs hover
-    What sort of hover? Currently hover is an opacity shift in background color.
+    What sort of hover? Currently hover is an opacity shift in background color. Also, for hero area featureing a vid, the button has a special hover state like 'Explore this Issue'-switches to a video camera. Like?
 
 - Slideshow captions don't look right
-    Agree.
+    Agree. Check them now.
 
 [x] Watch video (aside) icon should be different
 
@@ -46,7 +69,7 @@
 [x] line-height of last line/"continue reading" is awkward?
 
 **Story Roll**
-- Genome icon, not clock, is next to Read Time. Can we swap?
+[x] Genome icon, not clock, is next to Read Time. Can we swap?
 
 **Universal**
 [x] Does sidebar font size match UI? Seems larger?
@@ -137,10 +160,10 @@
 
 == Unresolved Issues ==
 
-    [] AddThis Social List: padding issue
-    [] Nav mega dropdown inner content 'bumps' slightly on hover
+    [x] AddThis Social List: padding issue
+    [x] Nav mega dropdown inner content 'bumps' slightly on hover
     [] Nav mega dropdown is abrupt (add hoverintent.js)
-    [] Media Popover social counter 'bumps' slightly on hover
+    [x] Media Popover social counter 'bumps' slightly on hover
 
 
 [x] Implemented Redesign, Added Layout Elements [02/18/2014]

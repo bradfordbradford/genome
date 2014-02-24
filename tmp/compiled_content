@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"¥w<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"˘c<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -24,195 +24,44 @@
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
+      <main id='content-wrap' role='main'>
+        <header class='hero hero-featured-article background-size-full center'>
+          <div class='story-cover-content single-col-layout'>
+            <div class='align-middle'>
+              <div class='align-block'>
+                <a href='#'>
+                  <div class='text-meta hr'>
+                    issue 01
+                  </div>
+                  <h2>
+                    Targeted
+                    <br>
+                    Treatment
+                  </h2>
+                  <hr class='primary light partial'>
+                  <p class='sans lead'>
+                    How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                  </p>
+                  <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
+                </a>
+                <!-- %span.story-cover-arrow{:'data-icon' => "E"} -->
+              </div>
+            </div>
           </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
+          <a class='story-cover-hover-background' href='#'>
+            <div class='align-middle'>
+              <div class='align-block'>
+                <div class='story-cover-hover-content'>
+                  <h2>
+                    Read This Feature
+                    <span class='read-this-arrow' data-icon='j'></span>
+                  </h2>
                 </div>
               </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
-      <main id='content-wrap' role='main'>
-        <section class='hero-content center hero-article-feature'>
-          <div class='inner-hero'>
-            <div class='text-meta hr'>
-              issue 01
             </div>
-            <h2>
-              Targeted
-              <br>
-              Treatment
-            </h2>
-            <hr class='primary light partial'>
-            <p class='sans lead'>
-              How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-            </p>
-            <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
-          </div>
-        </section>
+          </a>
+          <div class='story-cover-image'></div>
+        </header>
         <section class='primary_layout'>
           <div class='inner-bounds block'>
             <div class='content-row'>
@@ -227,7 +76,7 @@
                     </h2>
                   </header>
                   <div class='media-object with-large-image'>
-                    <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+                    <img alt='' src='/assets/img/content/cover-placeholder.jpg'>
                     <a class='text-meta' href='#'>issue 01</a>
                     <div class='media-copy'>
                       <h3 class='text-meta-header'>Spring 2014</h3>
@@ -238,7 +87,11 @@
                         <a href='#'>opus atlas.</a>
                       </p>
                     </div>
-                    <a class='special primary btn' href='#'>Explore this Issue</a>
+                    <a class='special primary btn icon-glasses' href='#'>
+                      <span>
+                        Explore this Issue
+                      </span>
+                    </a>
                   </div>
                 </div>
                 <div class='aside-block with-top-border'>
@@ -696,22 +549,39 @@
     </script>
   </body>
 </html>
-;T:rawI"n#%section.hero-content.center.hero-article-feature
-    .inner-hero
-        .text-meta.hr
-            issue 01
+;T:rawI" %%header.hero.hero-featured-article.background-size-full.center
+    .story-cover-content.single-col-layout
+        .align-middle
+            .align-block
+                %a{:href => "#"}
+                    .text-meta.hr
+                        issue 01
 
-        %h2
-            Targeted
-            %br/
-            Treatment
 
-        %hr.primary.light.partial/
+                    %h2
+                        Targeted
+                        %br/
+                        Treatment
 
-        %p.sans.lead
-            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                    %hr.primary.light.partial/
 
-        %a.author-attrib.text-meta-highlight{:href => "#main-footer"} By Author Righter
+                    %p.sans.lead
+                        How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+
+                    %a.author-attrib.text-meta-highlight{:href => "#main-footer"} By Author Righter
+
+                / %span.story-cover-arrow{:'data-icon' => "E"}
+
+    %a.story-cover-hover-background{:href => "#"}
+        .align-middle
+            .align-block
+                .story-cover-hover-content
+                    %h2
+                        Read This Feature
+                        %span.read-this-arrow{:'data-icon' => "j"}
+
+
+    .story-cover-image
 
 
 
@@ -869,23 +739,43 @@
 
 
                 .content-row
-                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"¡C<section class='hero-content center hero-article-feature'>
-  <div class='inner-hero'>
-    <div class='text-meta hr'>
-      issue 01
+                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"ÆF<header class='hero hero-featured-article background-size-full center'>
+  <div class='story-cover-content single-col-layout'>
+    <div class='align-middle'>
+      <div class='align-block'>
+        <a href='#'>
+          <div class='text-meta hr'>
+            issue 01
+          </div>
+          <h2>
+            Targeted
+            <br>
+            Treatment
+          </h2>
+          <hr class='primary light partial'>
+          <p class='sans lead'>
+            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+          </p>
+          <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
+        </a>
+        <!-- %span.story-cover-arrow{:'data-icon' => "E"} -->
+      </div>
     </div>
-    <h2>
-      Targeted
-      <br>
-      Treatment
-    </h2>
-    <hr class='primary light partial'>
-    <p class='sans lead'>
-      How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-    </p>
-    <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
   </div>
-</section>
+  <a class='story-cover-hover-background' href='#'>
+    <div class='align-middle'>
+      <div class='align-block'>
+        <div class='story-cover-hover-content'>
+          <h2>
+            Read This Feature
+            <span class='read-this-arrow' data-icon='j'></span>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </a>
+  <div class='story-cover-image'></div>
+</header>
 <section class='primary_layout'>
   <div class='inner-bounds block'>
     <div class='content-row'>
@@ -900,7 +790,7 @@
             </h2>
           </header>
           <div class='media-object with-large-image'>
-            <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+            <img alt='' src='/assets/img/content/cover-placeholder.jpg'>
             <a class='text-meta' href='#'>issue 01</a>
             <div class='media-copy'>
               <h3 class='text-meta-header'>Spring 2014</h3>
@@ -911,7 +801,11 @@
                 <a href='#'>opus atlas.</a>
               </p>
             </div>
-            <a class='special primary btn' href='#'>Explore this Issue</a>
+            <a class='special primary btn icon-glasses' href='#'>
+              <span>
+                Explore this Issue
+              </span>
+            </a>
           </div>
         </div>
         <div class='aside-block with-top-border'>
@@ -1482,7 +1376,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"¢X<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"LA<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1508,180 +1402,9 @@ I"}<article>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds paper-white-card block'>
+          <div class='inner-bounds background-white block'>
             <div class='content-row'>
               <div class='content-row'>
                 <header class='article-header'>
@@ -1705,7 +1428,7 @@ I"}<article>
                 <div class='article-photo primary'>
                   <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
                 </div>
-                <div class='article-photo-caption neutral-card'>
+                <div class='article-photo-caption background-neutral'>
                   <div class='card-inner-wrap'>
                     <span class='photo-attrib'>Annie Photographer</span>
                     <p class='text-meta-sub smaller'>
@@ -1743,7 +1466,7 @@ I"}<article>
                 </article>
                 <aside class='aside-column-primary'>
                   <div class='aside-block double-spaced'>
-                    <header class='neutral-card'>
+                    <header class='background-neutral'>
                       <h2 class='section-title'>
                         Top
                         <span>
@@ -1819,7 +1542,7 @@ I"}<article>
                   </div>
                   <div class='aside-block'>
                     <div class='collapse'>
-                      <header class='neutral-card'>
+                      <header class='background-neutral'>
                         <h2 class='section-title'>
                           Print
                           <span>
@@ -1981,8 +1704,8 @@ I"}<article>
     </script>
   </body>
 </html>
-;T;	I"m%section.primary_layout.article_layout
-    .inner-bounds.paper-white-card.block
+;T;	I"s%section.primary_layout.article_layout
+    .inner-bounds.background-white.block
 
 
         .content-row
@@ -2010,7 +1733,7 @@ I"}<article>
                     %img.load{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original' => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
 
                 -# Photo Caption Card
-                .article-photo-caption.neutral-card
+                .article-photo-caption.background-neutral
                     .card-inner-wrap
                         %span.photo-attrib Annie Photographer
 
@@ -2050,8 +1773,8 @@ I"}<article>
         .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading';T;
-I"◊*<section class='primary_layout article_layout'>
-  <div class='inner-bounds paper-white-card block'>
+I"È*<section class='primary_layout article_layout'>
+  <div class='inner-bounds background-white block'>
     <div class='content-row'>
       <div class='content-row'>
         <header class='article-header'>
@@ -2075,7 +1798,7 @@ I"◊*<section class='primary_layout article_layout'>
         <div class='article-photo primary'>
           <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
         </div>
-        <div class='article-photo-caption neutral-card'>
+        <div class='article-photo-caption background-neutral'>
           <div class='card-inner-wrap'>
             <span class='photo-attrib'>Annie Photographer</span>
             <p class='text-meta-sub smaller'>
@@ -2113,7 +1836,7 @@ I"◊*<section class='primary_layout article_layout'>
         </article>
         <aside class='aside-column-primary'>
           <div class='aside-block double-spaced'>
-            <header class='neutral-card'>
+            <header class='background-neutral'>
               <h2 class='section-title'>
                 Top
                 <span>
@@ -2189,7 +1912,7 @@ I"◊*<section class='primary_layout article_layout'>
           </div>
           <div class='aside-block'>
             <div class='collapse'>
-              <header class='neutral-card'>
+              <header class='background-neutral'>
                 <h2 class='section-title'>
                   Print
                   <span>
@@ -2280,7 +2003,7 @@ I"◊*<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"KY<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"ıA<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2306,180 +2029,9 @@ I"◊*<section class='primary_layout article_layout'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <header class='article-header'>
                 <a class='text-meta brick' href='#'>Treatment</a>
@@ -2514,7 +2066,7 @@ I"◊*<section class='primary_layout article_layout'>
               <div class='article-photo primary'>
                 <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
               </div>
-              <div class='article-photo-caption neutral-card'>
+              <div class='article-photo-caption background-neutral'>
                 <div class='card-inner-wrap'>
                   <span class='photo-attrib'>Annie Photographer</span>
                   <p class='text-meta-sub smaller'>
@@ -2555,7 +2107,7 @@ I"◊*<section class='primary_layout article_layout'>
               </article>
               <aside class='aside-column-primary'>
                 <div class='aside-block double-spaced'>
-                  <header class='neutral-card'>
+                  <header class='background-neutral'>
                     <h2 class='section-title'>
                       Top
                       <span>
@@ -2631,7 +2183,7 @@ I"◊*<section class='primary_layout article_layout'>
                 </div>
                 <div class='aside-block'>
                   <div class='collapse'>
-                    <header class='neutral-card'>
+                    <header class='background-neutral'>
                       <h2 class='section-title'>
                         Print
                         <span>
@@ -2655,7 +2207,7 @@ I"◊*<section class='primary_layout article_layout'>
               </aside>
             </div>
           </div>
-          <div class='content-row end-block inner-bounds paper-white-card'>
+          <div class='content-row end-block inner-bounds background-white'>
             <section class='collection grid-3-per with-dividers'>
               <h2 class='section-title center'>
                 Related
@@ -2792,8 +2344,8 @@ I"◊*<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"0%section.primary_layout.article_layout
-    .inner-bounds.block.paper-white-card
+;T;	I"6%section.primary_layout.article_layout
+    .inner-bounds.block.background-white
 
         -# Article Header
         .content-row
@@ -2818,7 +2370,7 @@ I"◊*<section class='primary_layout article_layout'>
                 %img.load{:src => "/assets/img/content/article-placeholder.jpg", :'data-original' => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
 
             -# Photo Caption Card
-            .article-photo-caption.neutral-card
+            .article-photo-caption.background-neutral
                 .card-inner-wrap
                     %span.photo-attrib Annie Photographer
 
@@ -2859,11 +2411,11 @@ I"◊*<section class='primary_layout article_layout'>
 
 
 
-    .content-row.end-block.inner-bounds.paper-white-card
+    .content-row.end-block.inner-bounds.background-white
         -# Collection
         = render 'collection-related-reading';T;
-I"+<section class='primary_layout article_layout'>
-  <div class='inner-bounds block paper-white-card'>
+I",+<section class='primary_layout article_layout'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
         <a class='text-meta brick' href='#'>Treatment</a>
@@ -2898,7 +2450,7 @@ I"+<section class='primary_layout article_layout'>
       <div class='article-photo primary'>
         <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
       </div>
-      <div class='article-photo-caption neutral-card'>
+      <div class='article-photo-caption background-neutral'>
         <div class='card-inner-wrap'>
           <span class='photo-attrib'>Annie Photographer</span>
           <p class='text-meta-sub smaller'>
@@ -2939,7 +2491,7 @@ I"+<section class='primary_layout article_layout'>
       </article>
       <aside class='aside-column-primary'>
         <div class='aside-block double-spaced'>
-          <header class='neutral-card'>
+          <header class='background-neutral'>
             <h2 class='section-title'>
               Top
               <span>
@@ -3015,7 +2567,7 @@ I"+<section class='primary_layout article_layout'>
         </div>
         <div class='aside-block'>
           <div class='collapse'>
-            <header class='neutral-card'>
+            <header class='background-neutral'>
               <h2 class='section-title'>
                 Print
                 <span>
@@ -3039,7 +2591,7 @@ I"+<section class='primary_layout article_layout'>
       </aside>
     </div>
   </div>
-  <div class='content-row end-block inner-bounds paper-white-card'>
+  <div class='content-row end-block inner-bounds background-white'>
     <section class='collection grid-3-per with-dividers'>
       <h2 class='section-title center'>
         Related
@@ -3105,7 +2657,7 @@ I"+<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"@B<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"ÿ*<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3131,180 +2683,9 @@ I"+<section class='primary_layout article_layout'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <section class='related-reading collection grid-3-per'>
                 <h2 class='section-title center'>
@@ -3486,7 +2867,7 @@ I"+<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"!%section.primary_layout.article_layout
-    .inner-bounds.block.paper-white-card
+    .inner-bounds.block.background-white
 
 
         .content-row
@@ -3579,7 +2960,7 @@ I"+<section class='primary_layout article_layout'>
                             %p.text-meta-sub.light-tint.sans-meta
                                 Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶;T;
 I"4<section class='primary_layout article_layout'>
-  <div class='inner-bounds block paper-white-card'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <section class='related-reading collection grid-3-per'>
         <h2 class='section-title center'>
@@ -3807,7 +3188,7 @@ I"4<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"Ff<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"R<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3833,204 +3214,39 @@ I"4<section class='primary_layout article_layout'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
-        <div class='paper-white-card'>
-          <section class='hero-content center hero-article-title'>
-            <div class='inner-hero'>
-              <div class='col-wrap'>
-                <div class='icon play-video'></div>
-                <div class='col'>
-                  <h2>
-                    Breaking
-                    <br>
-                    the
-                    <br>
-                    Code
-                  </h2>
-                </div>
-                <div class='col'>
-                  <hr class='primary neutral'>
-                  <p class='lead'>
-                    How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-                  </p>
-                  <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
-                  <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+        <div class='background-white'>
+          <header class='hero center hero-article-title background-size-full'>
+            <div class='story-cover-content two-col-layout inner-bounds remove-footer-offset'>
+              <div class='align-middle align-bottom'>
+                <div class='align-block'>
+                  <div class='icon play-video'></div>
+                  <div class='col'>
+                    <h2>
+                      Breaking
+                      <br>
+                      the
+                      <br>
+                      Code
+                    </h2>
+                  </div>
+                  <div class='col'>
+                    <hr class='primary neutral'>
+                    <p class='lead'>
+                      How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                    </p>
+                    <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+                    <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+                  </div>
+                  <div class='content-row'>
+                    <a class='scroll-down-arrow' data-icon='E' href='#scroll-here'></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class='featured_layout inner-bounds block'>
+            <div class='story-cover-image'></div>
+          </header>
+          <section class='featured_layout inner-bounds block' id='scroll-here'>
             <section class='primary-content'>
               <div class='content-row'>
                 <article class='article-body-copy'>
@@ -4074,24 +3290,28 @@ I"4<section class='primary_layout article_layout'>
               </div>
             </section>
           </section>
-          <section class='hero-content center hero-article-section'>
-            <div class='inner-hero'>
-              <div class='icon' data-icon='m'></div>
-              <h2>
-                The Genetic Code
-              </h2>
-              <hr class='primary thick light partial'>
-              <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
-              <p class='italic lead'>
-                The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
-              </p>
-              <a class='special btn neutral overlay-watch-video' href='https://vimeo.com/17404191'>
-                <span>
-                  Watch Video
-                </span>
-              </a>
+          <header class='hero hero-article-section background-size-full center'>
+            <div class='story-cover-content single-col-layout'>
+              <div class='align-middle'>
+                <div class='align-block'>
+                  <div class='icon' data-icon='m'></div>
+                  <h2>
+                    The Genetic Code
+                  </h2>
+                  <hr class='primary thick light partial'>
+                  <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+                  <p class='italic lead'>
+                    The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+                  </p>
+                  <a class='special btn neutral overlay-watch-video icon-camera-video' href='https://vimeo.com/17404191'>
+                    <span>
+                      Watch Video
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
-          </section>
+          </header>
           <section class='featured_layout inner-bounds block'>
             <section class='primary-content'>
               <div class='content-row'>
@@ -4107,31 +3327,31 @@ I"4<section class='primary_layout article_layout'>
               </div>
             </section>
           </section>
-          <section class='hero-content center hero-slideshow-section'>
-            <section class='inner-bounds'>
-              <div class='slideshow-wrap'>
-                <div class='slideshow'>
-                  <ul class='slides'>
-                    <li>
-                      <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                    </li>
-                    <li>
-                      <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-                    </li>
-                    <li>
-                      <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-                      <figcaption>
-                        Nonsectetur adipiscing elit. Praesent interdum augue nisi.
-                      </figcaption>
-                    </li>
-                  </ul>
-                </div>
+          <section class='hero center hero-slideshow-section background-size-full center'>
+            <div class='slideshow-wrap'>
+              <div class='slideshow'>
+                <ul class='slides'>
+                  <li>
+                    <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                  </li>
+                  <li>
+                    <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                  </li>
+                  <li>
+                    <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+                    <figcaption>
+                      Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+                    </figcaption>
+                  </li>
+                </ul>
               </div>
-              <p class='text-meta-sub smaller'>
-                The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
-              </p>
-            </section>
+            </div>
           </section>
+          <div class='content-row slideshow-figcaption'>
+            <p class='text-meta-sub smaller'>
+              The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
+            </p>
+          </div>
           <section class='featured_layout inner-bounds block'>
             <section class='primary-content'>
               <div class='content-row'>
@@ -4292,34 +3512,42 @@ I"4<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"b;-# Featured Hero
-.paper-white-card
-    %section.hero-content.center.hero-article-title
-        .inner-hero
-            .col-wrap
-                .icon.play-video
+;T;	I">-# Featured Hero
+.background-white
+    %header.hero.center.hero-article-title.background-size-full
+        .story-cover-content.two-col-layout.inner-bounds.remove-footer-offset
 
-                .col
-                    %h2
-                        Breaking
-                        %br/
-                        the
-                        %br/
-                        Code
+            .align-middle.align-bottom
+                .align-block
+                    .icon.play-video
 
-                .col
-                    %hr.primary.neutral/
+                    .col
+                        %h2
+                            Breaking
+                            %br/
+                            the
+                            %br/
+                            Code
 
-                    %p.lead
-                        How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                    .col
+                        %hr.primary.neutral/
 
-                    %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
-                    %a.author-attrib.text-meta-highlight{:href => "#"} Illustraion by Emiliano Ponzi
+                        %p.lead
+                            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+
+                        %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+                        %a.author-attrib.text-meta-highlight{:href => "#"} Illustraion by Emiliano Ponzi
+
+                    .content-row
+                        %a.scroll-down-arrow{:href => "#scroll-here",:'data-icon' => "E"}
+
+
+        .story-cover-image
 
 
 
     -# Featured Content Paper
-    %section.featured_layout.inner-bounds.block
+    %section.featured_layout.inner-bounds.block#scroll-here
 
         -# Primary Content Column
         %section.primary-content
@@ -4368,23 +3596,25 @@ I"4<section class='primary_layout article_layout'>
 
 
     -# Hero: Article Section
-    %section.hero-content.center.hero-article-section
-        .inner-hero
-            .icon{:'data-icon'=>"m"}
+    %header.hero.hero-article-section.background-size-full.center
+        .story-cover-content.single-col-layout
+            .align-middle
+                .align-block
+                    .icon{:'data-icon'=>"m"}
 
-            %h2
-                The Genetic Code
+                    %h2
+                        The Genetic Code
 
-            %hr.primary.thick.light.partial/
+                    %hr.primary.thick.light.partial/
 
-            %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
+                    %a.author-attrib.text-meta-highlight{:href => "#"} By Big Science Media
 
-            %p.italic.lead
-                The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+                    %p.italic.lead
+                        The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
 
-            %a.special.btn.neutral.overlay-watch-video{:href => "https://vimeo.com/17404191"}
-                %span
-                    Watch Video
+                    %a.special.btn.neutral.overlay-watch-video.icon-camera-video{:href => "https://vimeo.com/17404191"}
+                        %span
+                            Watch Video
 
 
 
@@ -4407,22 +3637,22 @@ I"4<section class='primary_layout article_layout'>
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
 
     -# Hero: Slideshow Section
-    %section.hero-content.center.hero-slideshow-section
+    %section.hero.center.hero-slideshow-section.background-size-full.center
         -# Primary Content Column
-        %section.inner-bounds
-            .slideshow-wrap
-                .slideshow
-                    %ul.slides
-                        %li
-                            %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
-                        %li
-                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                        %li
-                            %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
-                            %figcaption
-                                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
-            %p.text-meta-sub.smaller
-                The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
+        .slideshow-wrap
+            .slideshow
+                %ul.slides
+                    %li
+                        %img{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+                    %li
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                    %li
+                        %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
+                        %figcaption
+                            Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+    .content-row.slideshow-figcaption
+        %p.text-meta-sub.smaller
+            The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
 
 
     -# Featured Content Card
@@ -4515,32 +3745,38 @@ I"4<section class='primary_layout article_layout'>
                     %p
                         Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                         %a.light-tint.inline-block.end-mark{:href => "",:'data-icon'=>"G"};T;
-I"Í8<div class='paper-white-card'>
-  <section class='hero-content center hero-article-title'>
-    <div class='inner-hero'>
-      <div class='col-wrap'>
-        <div class='icon play-video'></div>
-        <div class='col'>
-          <h2>
-            Breaking
-            <br>
-            the
-            <br>
-            Code
-          </h2>
-        </div>
-        <div class='col'>
-          <hr class='primary neutral'>
-          <p class='lead'>
-            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-          </p>
-          <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
-          <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+I"ø;<div class='background-white'>
+  <header class='hero center hero-article-title background-size-full'>
+    <div class='story-cover-content two-col-layout inner-bounds remove-footer-offset'>
+      <div class='align-middle align-bottom'>
+        <div class='align-block'>
+          <div class='icon play-video'></div>
+          <div class='col'>
+            <h2>
+              Breaking
+              <br>
+              the
+              <br>
+              Code
+            </h2>
+          </div>
+          <div class='col'>
+            <hr class='primary neutral'>
+            <p class='lead'>
+              How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+            </p>
+            <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+            <a class='author-attrib text-meta-highlight' href='#'>Illustraion by Emiliano Ponzi</a>
+          </div>
+          <div class='content-row'>
+            <a class='scroll-down-arrow' data-icon='E' href='#scroll-here'></a>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <section class='featured_layout inner-bounds block'>
+    <div class='story-cover-image'></div>
+  </header>
+  <section class='featured_layout inner-bounds block' id='scroll-here'>
     <section class='primary-content'>
       <div class='content-row'>
         <article class='article-body-copy'>
@@ -4584,24 +3820,28 @@ I"Í8<div class='paper-white-card'>
       </div>
     </section>
   </section>
-  <section class='hero-content center hero-article-section'>
-    <div class='inner-hero'>
-      <div class='icon' data-icon='m'></div>
-      <h2>
-        The Genetic Code
-      </h2>
-      <hr class='primary thick light partial'>
-      <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
-      <p class='italic lead'>
-        The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
-      </p>
-      <a class='special btn neutral overlay-watch-video' href='https://vimeo.com/17404191'>
-        <span>
-          Watch Video
-        </span>
-      </a>
+  <header class='hero hero-article-section background-size-full center'>
+    <div class='story-cover-content single-col-layout'>
+      <div class='align-middle'>
+        <div class='align-block'>
+          <div class='icon' data-icon='m'></div>
+          <h2>
+            The Genetic Code
+          </h2>
+          <hr class='primary thick light partial'>
+          <a class='author-attrib text-meta-highlight' href='#'>By Big Science Media</a>
+          <p class='italic lead'>
+            The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
+          </p>
+          <a class='special btn neutral overlay-watch-video icon-camera-video' href='https://vimeo.com/17404191'>
+            <span>
+              Watch Video
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
-  </section>
+  </header>
   <section class='featured_layout inner-bounds block'>
     <section class='primary-content'>
       <div class='content-row'>
@@ -4617,31 +3857,31 @@ I"Í8<div class='paper-white-card'>
       </div>
     </section>
   </section>
-  <section class='hero-content center hero-slideshow-section'>
-    <section class='inner-bounds'>
-      <div class='slideshow-wrap'>
-        <div class='slideshow'>
-          <ul class='slides'>
-            <li>
-              <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-            </li>
-            <li>
-              <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-            </li>
-            <li>
-              <img alt='' src='/assets/img/content/article-placeholder.jpg'>
-              <figcaption>
-                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
-              </figcaption>
-            </li>
-          </ul>
-        </div>
+  <section class='hero center hero-slideshow-section background-size-full center'>
+    <div class='slideshow-wrap'>
+      <div class='slideshow'>
+        <ul class='slides'>
+          <li>
+            <img alt='' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+          </li>
+          <li>
+            <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+          </li>
+          <li>
+            <img alt='' src='/assets/img/content/article-placeholder.jpg'>
+            <figcaption>
+              Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+            </figcaption>
+          </li>
+        </ul>
       </div>
-      <p class='text-meta-sub smaller'>
-        The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
-      </p>
-    </section>
+    </div>
   </section>
+  <div class='content-row slideshow-figcaption'>
+    <p class='text-meta-sub smaller'>
+      The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
+    </p>
+  </div>
   <section class='featured_layout inner-bounds block'>
     <section class='primary-content'>
       <div class='content-row'>
@@ -4934,7 +4174,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"±Q<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"O:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4960,180 +4200,9 @@ I"Ô<div class='inner-bounds paper-white block'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout no-photo'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <header class='article-header'>
                 <a class='text-meta brick' href='#'>Treatment</a>
@@ -5201,7 +4270,7 @@ I"Ô<div class='inner-bounds paper-white block'>
               </article>
               <aside class='aside-column-primary'>
                 <div class='aside-block double-spaced'>
-                  <header class='neutral-card'>
+                  <header class='background-neutral'>
                     <h2 class='section-title'>
                       Top
                       <span>
@@ -5278,7 +4347,7 @@ I"Ô<div class='inner-bounds paper-white block'>
               </aside>
             </div>
           </div>
-          <div class='end-block inner-bounds block paper-white-card'>
+          <div class='end-block inner-bounds block background-white'>
             <section class='collection grid-3-per with-dividers'>
               <h2 class='section-title center'>
                 Related
@@ -5416,7 +4485,7 @@ I"Ô<div class='inner-bounds paper-white block'>
   </body>
 </html>
 ;T;	I"p%section.primary_layout.article_layout.no-photo
-    .inner-bounds.block.paper-white-card
+    .inner-bounds.block.background-white
 
         -# Article Header
         .content-row
@@ -5465,11 +4534,11 @@ I"Ô<div class='inner-bounds paper-white block'>
 
 
 
-    .end-block.inner-bounds.block.paper-white-card
+    .end-block.inner-bounds.block.background-white
         -# Collection
         = render 'collection-related-reading';T;
-I"l$<section class='primary_layout article_layout no-photo'>
-  <div class='inner-bounds block paper-white-card'>
+I"r$<section class='primary_layout article_layout no-photo'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
         <a class='text-meta brick' href='#'>Treatment</a>
@@ -5537,7 +4606,7 @@ I"l$<section class='primary_layout article_layout no-photo'>
       </article>
       <aside class='aside-column-primary'>
         <div class='aside-block double-spaced'>
-          <header class='neutral-card'>
+          <header class='background-neutral'>
             <h2 class='section-title'>
               Top
               <span>
@@ -5614,7 +4683,7 @@ I"l$<section class='primary_layout article_layout no-photo'>
       </aside>
     </div>
   </div>
-  <div class='end-block inner-bounds block paper-white-card'>
+  <div class='end-block inner-bounds block background-white'>
     <section class='collection grid-3-per with-dividers'>
       <h2 class='section-title center'>
         Related
@@ -5680,7 +4749,7 @@ I"l$<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I"â'<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"!<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5706,180 +4775,9 @@ I"l$<section class='primary_layout article_layout no-photo'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <h2>Blank Page</h2>
             </div>
@@ -5957,17 +4855,17 @@ I"l$<section class='primary_layout article_layout no-photo'>
   </body>
 </html>
 ;T;	I"u%section.primary_layout
-    .inner-bounds.block.paper-white-card
+    .inner-bounds.block.background-white
         .content-row
             %h2 Blank Page;T;
 I"¨<section class='primary_layout'>
-  <div class='inner-bounds block paper-white-card'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <h2>Blank Page</h2>
     </div>
   </div>
 </section>
-;T;@CI"/blog_roll/;T{;{	;I"g<!DOCTYPE html>
+;T;@CI"/blog_roll/;T{;{	;I"√O<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5993,184 +4891,13 @@ I"¨<section class='primary_layout'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <aside class='aside-column-primary'>
                 <div class='aside-block double-spaced'>
-                  <header class='neutral-card'>
+                  <header class='background-neutral'>
                     <h2 class='section-title'>
                       Top
                       <span>
@@ -6246,7 +4973,7 @@ I"¨<section class='primary_layout'>
                 </div>
                 <div class='aside-block'>
                   <div class='collapse'>
-                    <header class='neutral-card'>
+                    <header class='background-neutral'>
                       <h2 class='section-title'>
                         Print
                         <span>
@@ -6571,7 +5298,7 @@ I"¨<section class='primary_layout'>
   </body>
 </html>
 ;T;	I"k#%section.primary_layout.article_layout
-    .inner-bounds.block.paper-white-card
+    .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
         .content-row
@@ -6723,12 +5450,12 @@ I"¨<section class='primary_layout'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"6<section class='primary_layout article_layout'>
-  <div class='inner-bounds block paper-white-card'>
+I"%6<section class='primary_layout article_layout'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
         <div class='aside-block double-spaced'>
-          <header class='neutral-card'>
+          <header class='background-neutral'>
             <h2 class='section-title'>
               Top
               <span>
@@ -6804,7 +5531,7 @@ I"6<section class='primary_layout article_layout'>
         </div>
         <div class='aside-block'>
           <div class='collapse'>
-            <header class='neutral-card'>
+            <header class='background-neutral'>
               <h2 class='section-title'>
                 Print
                 <span>
@@ -7057,7 +5784,7 @@ I"6<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@II"/search_results/;T{;{	;I")T<!DOCTYPE html>
+;T;@II"/search_results/;T{;{	;I"¡<<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7083,177 +5810,6 @@ I"6<section class='primary_layout article_layout'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <div class='inner-bounds remove-footer-offset block'>
           <header class='section-header add-bleed'>
@@ -7266,7 +5822,7 @@ I"6<section class='primary_layout article_layout'>
             <hr class='neutral'>
           </header>
         </div>
-        <div class='inner-bounds paper-white-card card-block'>
+        <div class='inner-bounds background-white card-block'>
           <div class='content-row'>
             <section class='collection grid-3-per'>
               <h2 class='section-title left smaller'>
@@ -7332,7 +5888,7 @@ I"6<section class='primary_layout article_layout'>
             </section>
           </div>
         </div>
-        <div class='inner-bounds paper-white-card card-block'>
+        <div class='inner-bounds background-white card-block'>
           <div class='content-row'>
             <section class='collection grid-3-per'>
               <h2 class='section-title left smaller'>
@@ -7398,7 +5954,7 @@ I"6<section class='primary_layout article_layout'>
             </section>
           </div>
         </div>
-        <div class='inner-bounds paper-white-card card-block'>
+        <div class='inner-bounds background-white card-block'>
           <div class='content-row'>
             <section class='collection grid-3-per'>
               <h2 class='section-title left smaller'>
@@ -7464,7 +6020,7 @@ I"6<section class='primary_layout article_layout'>
             </section>
           </div>
         </div>
-        <div class='inner-bounds paper-white-card card-block'>
+        <div class='inner-bounds background-white card-block'>
           <div class='content-row'>
             <h2 class='section-title left smaller'>
               Not what you were looking for? Let's try this again:
@@ -7558,7 +6114,7 @@ I"6<section class='primary_layout article_layout'>
         %hr.neutral/
 
 
-.inner-bounds.paper-white-card.card-block
+.inner-bounds.background-white.card-block
     .content-row
         %section.collection.grid-3-per
             %h2.section-title.left.smaller
@@ -7615,7 +6171,7 @@ I"6<section class='primary_layout article_layout'>
 
 
 
-.inner-bounds.paper-white-card.card-block
+.inner-bounds.background-white.card-block
     .content-row
         %section.collection.grid-3-per
             %h2.section-title.left.smaller
@@ -7671,7 +6227,7 @@ I"6<section class='primary_layout article_layout'>
                             Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
 
-.inner-bounds.paper-white-card.card-block
+.inner-bounds.background-white.card-block
     .content-row
         %section.collection.grid-3-per
             %h2.section-title.left.smaller
@@ -7729,7 +6285,7 @@ I"6<section class='primary_layout article_layout'>
 
 
 
-.inner-bounds.paper-white-card.card-block
+.inner-bounds.background-white.card-block
     .content-row
         %h2.section-title.left.smaller
             Not what you were looking for? Let's try this again:
@@ -7749,7 +6305,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
     <hr class='neutral'>
   </header>
 </div>
-<div class='inner-bounds paper-white-card card-block'>
+<div class='inner-bounds background-white card-block'>
   <div class='content-row'>
     <section class='collection grid-3-per'>
       <h2 class='section-title left smaller'>
@@ -7815,7 +6371,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
     </section>
   </div>
 </div>
-<div class='inner-bounds paper-white-card card-block'>
+<div class='inner-bounds background-white card-block'>
   <div class='content-row'>
     <section class='collection grid-3-per'>
       <h2 class='section-title left smaller'>
@@ -7881,7 +6437,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
     </section>
   </div>
 </div>
-<div class='inner-bounds paper-white-card card-block'>
+<div class='inner-bounds background-white card-block'>
   <div class='content-row'>
     <section class='collection grid-3-per'>
       <h2 class='section-title left smaller'>
@@ -7947,7 +6503,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
     </section>
   </div>
 </div>
-<div class='inner-bounds paper-white-card card-block'>
+<div class='inner-bounds background-white card-block'>
   <div class='content-row'>
     <h2 class='section-title left smaller'>
       Not what you were looking for? Let's try this again:
@@ -7960,7 +6516,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@OI"/story_roll/;T{;{	;I"Nf<!DOCTYPE html>
+;T;@OI"/story_roll/;T{;{	;I"ÚN<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7986,184 +6542,13 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
   </head>
   <body>
     <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='a' href='x'>
-            <span>Close</span>
-          </a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
-                </div>
-              </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                </ol>
-              </li>
-              <li class='nav-item'>
-                <a href='#'>newsletter</a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </header>
       <main id='content-wrap' role='main'>
         <section class='primary_layout article_layout'>
-          <div class='inner-bounds block paper-white-card'>
+          <div class='inner-bounds block background-white'>
             <div class='content-row'>
               <aside class='aside-column-primary'>
                 <div class='aside-block double-spaced'>
-                  <header class='neutral-card'>
+                  <header class='background-neutral'>
                     <h2 class='section-title'>
                       Top
                       <span>
@@ -8239,7 +6624,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
                 </div>
                 <div class='aside-block'>
                   <div class='collapse'>
-                    <header class='neutral-card'>
+                    <header class='background-neutral'>
                       <h2 class='section-title'>
                         Print
                         <span>
@@ -8556,7 +6941,7 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
   </body>
 </html>
 ;T;	I"¡"%section.primary_layout.article_layout
-    .inner-bounds.block.paper-white-card
+    .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
         .content-row
@@ -8692,12 +7077,12 @@ I"ô&<div class='inner-bounds remove-footer-offset block'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"á5<section class='primary_layout article_layout'>
-  <div class='inner-bounds block paper-white-card'>
+I"ì5<section class='primary_layout article_layout'>
+  <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
         <div class='aside-block double-spaced'>
-          <header class='neutral-card'>
+          <header class='background-neutral'>
             <h2 class='section-title'>
               Top
               <span>
@@ -8773,7 +7158,7 @@ I"á5<section class='primary_layout article_layout'>
         </div>
         <div class='aside-block'>
           <div class='collapse'>
-            <header class='neutral-card'>
+            <header class='background-neutral'>
               <h2 class='section-title'>
                 Print
                 <span>

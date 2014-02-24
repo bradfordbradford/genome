@@ -84,7 +84,7 @@ body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
 
   margin-bottom: -40px;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 
   &:after {
     content: "";
@@ -97,7 +97,6 @@ body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
 }
 
 #content-wrap, .inner-bounds {
-  z-index: 0;
 
   width:100%;
 

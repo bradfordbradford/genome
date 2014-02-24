@@ -17,7 +17,7 @@
         position: absolute;
         left:0;
         right:0;
-        bottom:3px;
+        bottom:0px;
         background: $primaryText;
         color: $primaryLight;
         padding: 16px 76px;
@@ -37,7 +37,7 @@
     top: 0;
 
     li {
-        height: 99.6%;
+        height: 100%;
         display: inline-block;
         position: absolute;
 
@@ -82,6 +82,7 @@
     li:hover a span {
         color: $primaryLight;
     }
+
 }
 
 

@@ -9,6 +9,7 @@ body {
     background: $primaryBackground;
     color: $primaryText;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -361,7 +362,7 @@ blockquote {
 
 
 // Hero
-.hero-content {
+.hero {
     text-align: center;
 
     &, p, h2, .text-meta.hr {
@@ -393,7 +394,7 @@ blockquote {
     }
 
     // Hero: Article Tot;e
-    &.hero-article-feature {
+    &.hero-featured-article {
         .text-meta-highlight {
             color: $primary;
         }

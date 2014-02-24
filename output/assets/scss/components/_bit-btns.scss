@@ -34,6 +34,43 @@
         font-family: $serif;
         text-transform: capitalize;
         font-weight: 200;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        overflow:hidden;
+
+        // Icon Position & Size
+        &:before {
+            left: 0;
+            top: -100%;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            line-height: 2.24em;
+            font-size: 1.42em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        span {
+            -moz-backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            transition: all 0.3s;
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+
+        // Icon on Hover becomes visible
+        &:hover {
+            span {
+                transform: translateY(300%);
+            }
+            &:before {
+                top: 0px;
+            }
+        }
+
     }
 
     &.primary {

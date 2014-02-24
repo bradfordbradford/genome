@@ -12,7 +12,7 @@
 #range_0, { // ---- Down from 1224 ----
     // Layout - HERO: ARTICLE TITLE
     // Avoid Col Collision
-    .hero-content.hero-article-title {
+    .hero.hero-article-title {
         .col:last-child {
             @include span-columns(5 omega, $total);
         }
@@ -56,7 +56,7 @@
 
 
 
-    // Layout - FEATURE
+    // Layout - FEATURED Article
     .featured_layout {
         // Full Bleed Items: REMOVE COLUMNS
         .pull-out-right,
@@ -89,7 +89,7 @@
 
     // Layout - HERO: ARTICLE TITLE
     // Center copy
-    .hero-content.hero-article-title {
+    .hero.hero-article-title {
         h2,
         p.lead,
         .text-meta-highlight {
@@ -117,16 +117,36 @@
 
     // Layout - HERO: ARTICLE TITLE
     // Image Frame increase Height to prevent copy overflow
-    .hero-content:not(.hero-slideshow-section) {
-        height: 800px;
+    .hero:not(.hero-slideshow-section) {
+        .single-column-layout {
+            @include fullBleed;
+        }
+
+        // Hero Typography - Adjust Fonts
+        h2 {
+            font-size: em-font(60px);
+        }
+        p.lead {
+            font-size: em-font(20px);
+        }
+
+        .story-cover-hover-background h2 {
+            font-size: em-font(24px);
+            .read-this-arrow {
+                font-size:30px;
+            }
+        }
     }
     // ---- //
 
 
 
+
+
+
     // Layout - HERO: ARTICLE TITLE
     // Fit Elements inside Image Frame
-    .hero-content.hero-article-section {
+    .hero.hero-article-section {
         h2 {
             font-size: em-font(56px);
         }

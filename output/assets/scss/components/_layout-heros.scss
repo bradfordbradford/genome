@@ -3,65 +3,213 @@
 
 // Layout: Edge to Edge layouts (heros, canvas) //
 
+// This style would be inline
+.story-cover-image {
+    background: url('../img/content/feature-placeholder.jpg')no-repeat;
+}
 
-.hero-content {
+
+// Hero Utilities ----
+
+// Background Size Full
+.background-size-full {
+    max-width: 100%;
+    margin-top: 0;
     position: relative;
-    z-index: 1;
-    height: 600px;
-    width: 100%;
-    left: 0;
-    right:0;
-    background: $primaryHeader;
+    height: 100%;
+    max-height: 600px;
+    background-color: $primaryHeader;
+    background-position: center;
+}
 
+// Single Col Layout (8 cols, centered)
+.single-col-layout {
+    @include span-columns(8, $total);
+    @include center-columns;
+}
 
-    // Hero Article - Feature Type
-    &.hero-article-feature{
-        background: url('../img/content/feature-placeholder.jpg')no-repeat;
-        .inner-hero {
-            padding: 72px 0 116px;
-            @include span-columns(6, $total);
-            @include center-columns;
+// Two Col Layout
+.two-col-layout {
+    // .col-wrap {
+        // @include span-columns(9, $total);
+        // @include center-columns;
+    // }
+    .col{
+        @include span-columns(5, $total);
+    }
+    .col:last-child {
+        margin: 16px auto 0;
+        @include span-columns(7 omega, $total);
+    }
+}
+
+// Taller Hero
+.hero-tall {
+    height:800px;
+}
+
+// Align Middle
+.align-middle {
+    height: 100%;
+    &.align-bottom {
+        .align-block {
+            vertical-align: bottom;
+            padding-bottom:40px;
         }
     }
+    &:before {
+        content: '';
+        height: 100%;
+        margin-right: -0.25em;
+    }
+    &:before, .align-block {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+// Cover Content
+.story-cover-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 100%;
+    // bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+// Cover Hover
+.story-cover-hover-background {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    opacity: 0;
+    transition: all .15s ease-in-out;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    bottom: 0px;
+    top: 0px;
+    max-width: 100%;
+    margin-top: 0;
+    height: 100%;
+    max-height: 600px;
+    background: lighten($primaryText, 15%) url('../img/patterns/background-pixelated.png') repeat;
+    // background-position: center;
+
+    .story-cover-hover-content {
+        transition: transform .34s ease-in-out;
+        transform: translateY(10px);
+    }
+
+    h2 {
+        font-weight: 200;
+    }
+    .read-this-arrow {
+        display: inline-block;
+        font-size: 60px;
+        position: relative;
+        top: 8px;
+    }
+}
+
+// Cover Image
+.story-cover-image {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    transition: opacity .34s ease-in;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+html.js.opacity {
+    .story-cover-image {
+        opacity:0;
+    }
+    body.run {
+        .story-cover-image {
+            opacity:1;
+        }
+    }
+}
+
+// Scroll Down Cover Arrow
+.scroll-down-arrow {
+    position: relative;
+    top: 24px;
+    z-index: 3;
+    opacity: .7;
+    font-size: 2.5em;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    transition: all .15s ease-in-out;
+    &:hover {
+        color: $primary;
+    }
+}
+
+// Hover on Hero
+.hero:hover {
+    .scroll-down-arrow {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+    .story-cover-hover-background {
+        opacity: .8;
+    }
+    .story-cover-hover-background .story-cover-hover-content {
+        transform: translateY(-10px);
+    }
+
+}
+
+
+.hero {
+    position: relative;
+    height: 600px;
 
 
     // Hero Article - Title Type
     &.hero-article-title{
         height: 800px;
 
-        .inner-hero {
-            padding: 80px 0;
-            width:100%;
-            position: absolute;
-            bottom: 0px;
-        }
-        .col-wrap {
-            @include span-columns(9, $total);
-            @include center-columns;
-        }
-        .col{
-            @include span-columns(5, $total);
-        }
-        .col:last-child {
-            margin: 16px auto 0;
-            @include span-columns(7 omega, $total);
-        }
+        // .inner-hero {
+        //     padding: 80px 0;
+        //     width:100%;
+        //     position: absolute;
+        //     bottom: 0px;
+        // }
+        // .col-wrap {
+        //     @include span-columns(9, $total);
+        //     @include center-columns;
+        // }
+        // .col{
+        //     @include span-columns(5, $total);
+        // }
+        // .col:last-child {
+        //     margin: 16px auto 0;
+        //     @include span-columns(7 omega, $total);
+        // }
 
     }
 
-    // Hero Article - Inline Article Type
-    &.hero-article-section{
-        .inner-hero {
-            padding: 80px 0;
-            @include span-columns(8, $total);
-            @include center-columns;
-        }
-    }
 
     // Hero Article - Inline Slideshow Type
     &.hero-slideshow-section{
         background: $primaryText;
         height: auto;
+        max-height: 100%;
         .inner-bounds {
             padding: 0;
 
@@ -70,18 +218,24 @@
             }
         }
 
-        // Caption for Entire Slideshow
-        .text-meta-sub {
-            color: $primaryText;
-            position: absolute;
-            margin-top:12px;
-        }
     }
 
 
     // NOTE: List of Hero Layout options =>
-    // &.hero-article-feature,
+    // &.hero-featured-article,
     // &.hero-article-title,
     // &.hero-article-section
 
+}
+
+// Caption for Entire Slideshow
+.slideshow-figcaption {
+
+
+    .text-meta-sub {
+        @include span-columns(8, $total);
+        @include center-columns;
+        color: $primaryText;
+        margin-top:14px;
+    }
 }

@@ -173,10 +173,10 @@
 
 
 // Cards
-.paper-white-card {
+.background-white {
     background: $primaryLight;
 }
-.neutral-card {
+.background-neutral {
     background: $secondaryBackground;
     .card-inner-wrap {
         padding: 20px 18px;
@@ -363,6 +363,8 @@
     position: absolute;
     width: 100%;
     top: -20px;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 .icon.comment-counter {
     background: $primaryText;
@@ -405,6 +407,8 @@
 // Collection Popup Content
 .popup-content.media-object.with-large-image {
     .popup-content-wrap {
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
         position: relative;
         padding: 22px 6px 12px;
         background:$primaryLight;
