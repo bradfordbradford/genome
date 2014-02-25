@@ -3,6 +3,14 @@
 
 
 // Utility Classes //
+.hide-above-tablet-p {
+    display: none !important;
+}
+.hide-below-tablet-p {
+    display: inherit !important;
+}
+
+
 .smaller {
     font-size: em-font(14px) !important;
     line-height:1em !important;
@@ -417,7 +425,6 @@
 
     img {
         margin-bottom:0px;
-        width:100%; /*temp*/
     }
 
      p.sans-meta {
@@ -427,7 +434,8 @@
 
     &:hover {
         .popup-content-wrap {
-            transform: translateY(-100px);
+            transform: translate3d(0,-100px, 0);
+
         }
         .text-meta-header {
             color: $primaryLink;
@@ -447,117 +455,6 @@
         }
     }
 }
-
-@keyframes bump-up {
-  0% { transform: translateY(0px) }
-  100% { transform: translateY(-100px) }
-}
-@keyframes bump-down {
-  0% { transform: translateY(-100px) }
-  100% { transform: translateY(-0px) }
-}
-
-
-
-// Addthis Social List (Custom Styles)
-.addthis_toolbox {
-    display: table;
-}
-.addthis_button_facebook,
-.addthis_button_twitter,
-.addthis_button_email {
-    display: table-cell;
-    transition: background .1s ease-in-out;
-    text-align: center;
-    color: $primaryLight !important;
-    background: $secondaryBackground;
-    font-size: em-font(12px);
-    text-transform: uppercase;
-    vertical-align: top;
-    letter-spacing: .1em;
-    padding: 8px 14px;
-    border-right: 4px solid $primaryLight;
-
-    &:hover {
-        background: $primaryBackground;
-    }
-
-    span.line {
-        height: 100%;
-        width: 1px;
-        background: $primaryLight;
-        top: 0px;
-        left: 0px;
-        position: relative;
-        display: inline-block;
-    }
-
-    span.value {
-        position: relative;
-        top: -9px;
-        left: 4px;
-    }
-
-    &[data-icon]:before {
-        font-size: em-font(30px);
-        position: relative;
-        top: -2px;
-        left:  -4px;
-    }
-}
-
-.addthis_button_facebook {
-    background: $facebook;
-    &:hover {
-        background: darken($facebook, 8%);
-    }
-}
-
-.addthis_button_twitter {
-    background: $twitter;
-    &:hover {
-        background: darken($twitter, 8%);
-    }
-}
-
-.addthis_button_email {
-    color: $primaryLink !important;
-    border-right: none;
-
-
-    span.line, span.value {display:none;}
-
-
-    &[data-icon]:before {
-        top: auto;
-        left: auto;
-    }
-}
-
-// Expanded
- .expanded {
-    .addthis_button_email {
-        span.line {
-            background: $primaryLink;
-        }
-        span.line, span.value {display:inline-block;}
-
-        &[data-icon]:before {
-            top: -2px;
-            left:  -4px;
-        }
-    }
- }
-
-// Facebook Counter
-.addthis_counter_facebook {
-    .addthis_button_facebook {
-        display: block;
-        background: transparent;
-        border: 0px
-    }
-}
-
 
 
 // Text Dividers
@@ -580,7 +477,7 @@
 
 // Collapsable Sections
 .collapse {
-    header {
+    header, > a {
         position: relative;
         outline: none;
 
@@ -591,14 +488,14 @@
             font-size: 1.75em;
             padding: 0px;
             margin: -14px 14px 0 0;
-            -webkit-transform: rotate(90deg);
+
             color: $secondaryBackgroundCompliment;
             transition: transform .4s ease-in-out;
         }
 
         &.ui-accordion-header-active {
             .toggle-icon {
-                -webkit-transform: rotate(-90deg);
+                -webkit-transform: rotate(180deg);
             }
         }
     }

@@ -30,10 +30,6 @@
 
 // Two Col Layout
 .two-col-layout {
-    // .col-wrap {
-        // @include span-columns(9, $total);
-        // @include center-columns;
-    // }
     .col{
         @include span-columns(5, $total);
     }
@@ -51,6 +47,7 @@
 // Align Middle
 .align-middle {
     height: 100%;
+    position: relative;
     &.align-bottom {
         .align-block {
             vertical-align: bottom;
@@ -60,7 +57,7 @@
     &:before {
         content: '';
         height: 100%;
-        margin-right: -0.25em;
+        margin-right: -0.32em;
     }
     &:before, .align-block {
         display: inline-block;
@@ -101,7 +98,7 @@
 
     .story-cover-hover-content {
         transition: transform .34s ease-in-out;
-        transform: translateY(10px);
+        transform: translate3d(0px, 10px, 0px);
     }
 
     h2 {
@@ -119,6 +116,7 @@
 .story-cover-image {
     position: absolute;
     z-index: 0;
+    padding-top: 20px;
     top: 0;
     left: 0;
     right: 0;
@@ -163,13 +161,13 @@ html.js.opacity {
 .hero:hover {
     .scroll-down-arrow {
         opacity: 1;
-        transform: translateY(5px);
+        transform: translate3d(0, 5px, 0);
     }
     .story-cover-hover-background {
         opacity: .8;
     }
     .story-cover-hover-background .story-cover-hover-content {
-        transform: translateY(-10px);
+        transform: translate3d(0, -10px, 0);
     }
 
 }

@@ -34,6 +34,11 @@
     @media only screen and (max-width: 480px) { @content; }
   }
 
+  // all above ipad portrait
+  @else if $point == above-ipad-portrait {
+    @media only screen and (min-width: 768px) { @content; }
+  }
+
 
   // Specific Targets --------------------
   @else if $point == just-ipad-potrait {

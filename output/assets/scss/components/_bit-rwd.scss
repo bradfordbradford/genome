@@ -25,6 +25,22 @@
 #range_1,
 #range_0 { // ---- Down from 768px ----
 
+    // Utilities: Hide/Show
+    .hide-above-tablet-p {
+        display: inherit !important;
+    }
+    .hide-below-tablet-p {
+        display: none !important;
+    }
+    // ---- //
+
+
+    // Layout - HEADER
+    // Header is done in MQs to prevent flash of desktop styles before JS loads
+    // See block-structure-header.scss
+    // For OffCanvas, see block-structure-offcanvas.scss
+
+
     // Layout - BASIC ARTICLE
     .article_layout {
 
@@ -60,9 +76,7 @@
     .featured_layout {
         // Full Bleed Items: REMOVE COLUMNS
         .pull-out-right,
-        .pull-out-left,
-        .primary-content .article-body-copy > p,
-        .primary-content .article-body-copy > h3  {
+        .pull-out-left {
             @include fullBleed;
         }
 
@@ -83,6 +97,8 @@
         .article-photo {
             text-align: center;
         }
+
+
     }
     // ---- //
 
@@ -118,7 +134,7 @@
     // Layout - HERO: ARTICLE TITLE
     // Image Frame increase Height to prevent copy overflow
     .hero:not(.hero-slideshow-section) {
-        .single-column-layout {
+        .single-col-layout {
             @include fullBleed;
         }
 
@@ -130,17 +146,19 @@
             font-size: em-font(20px);
         }
 
-        .story-cover-hover-background h2 {
-            font-size: em-font(24px);
-            .read-this-arrow {
-                font-size:30px;
-            }
+        // Hide Hover BG below iPad Portrait
+        .story-cover-hover-background {
+            display: none;
         }
+
+        // .story-cover-hover-background h2 {
+        //     font-size: em-font(24px);
+        //     .read-this-arrow {
+        //         font-size:30px;
+        //     }
+        // }
     }
     // ---- //
-
-
-
 
 
 

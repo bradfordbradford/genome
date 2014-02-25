@@ -8,8 +8,8 @@
 
 .ui-accordion-content {
     opacity: 0;
-    transition: opacity .15s ease-in-out,
-                height .15s ease-in-out .2s;
+    transition: opacity .15s ease,
+                height .15s ease .2s;
 }
 
 .ui-accordion-content-active {

@@ -171,6 +171,7 @@ p {
 
 // Blockquote
 blockquote {
+    -webkit-font-smoothing: initial;
     font-family: $serif;
     font-weight: 500;
     font-style: italic;

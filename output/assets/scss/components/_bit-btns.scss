@@ -61,15 +61,8 @@
             display: inline-block;
         }
 
-        // Icon on Hover becomes visible
-        &:hover {
-            span {
-                transform: translateY(300%);
-            }
-            &:before {
-                top: 0px;
-            }
-        }
+
+        // HOVER - See MQ below (add hover only for non-touch)
 
     }
 
@@ -168,3 +161,20 @@
 }
 
 
+
+
+// MQs //
+@include breakpoint(above-ipad-portrait) {
+
+    .btn.special {
+        // Icon on Hover becomes visible
+        &:hover {
+            span {
+                transform: translate3d(0, 300%, 0);
+            }
+            &:before {
+                top: 0px;
+            }
+        }
+    }
+}

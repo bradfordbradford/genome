@@ -4,19 +4,17 @@
  // Now, Now  //
 jQuery(document).ready(function($) {
 
-    // Run ----------
-    $(function() {
-      setTimeout("jQuery('body').addClass('run');",200 );
-    });
-
-    // Menu ----------
-    $('#main-navigation').accessibleMegaMenu();
+    // Prevent FOUC while JS loads, then swap for Run ----------
     setTimeout(function () {
-        $('body').removeClass('init');
+        $('body').removeClass('init').addClass('run');
     }, 500);
 
+
+    // Menu ----------
+    $('html.js.no-touch #main-navigation').accessibleMegaMenu();
+
     // Scroll Position ----------
-    var mainNav = $('#header-wrap');
+    var mainNav = $('#main-site-navigation-wrap');
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 640) {
@@ -62,10 +60,16 @@ jQuery(document).ready(function($) {
 
     // Collapsible Content
     $(function() {
-      // Append Toggle Icon
-      var toggleIcon = $( "<span class='toggle-icon' data-icon='q'></span>" );
-      $('.collapse header h2').append(toggleIcon);
-      $( ".collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
+      var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
+      $('#content-wrap .collapse header h2').append(toggleIcon);
+      $( "#content-wrap .collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
+    });
+
+    // OffCanvas Nav Collapsible Content
+    $(function() {
+      var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
+      $('#offcanvas-navigation .collapse header .collapse-section-title').append(toggleIcon);
+      $( "#offcanvas-navigation .collapse").accordion({collapsible: true,active: false,animate:'swing'});
     });
 
 
@@ -104,7 +108,7 @@ jQuery(document).ready(function($) {
               type: 'image',
               mainClass: 'mfp-zoom-in overlay-with-image',
               tLoading: '',
-              removalDelay: 100,
+              removalDelay: 500,
               callbacks: {
 
                 imageLoadComplete: function() {
@@ -134,7 +138,7 @@ jQuery(document).ready(function($) {
         $(this).magnificPopup({
             type: 'iframe',
             mainClass: 'mfp-zoom-in overlay-with-video',
-            removalDelay: 100,
+            removalDelay: 500,
             preloader: false,
             fixedContentPos: false,
             closeBtnInside: false,
@@ -149,7 +153,7 @@ jQuery(document).ready(function($) {
           type: 'image',
           tLoading: '',
           mainClass: 'mfp-zoom-in overlay-with-slideshow-slides',
-          removalDelay: 100,
+          removalDelay: 500,
           callbacks: {
             imageLoadComplete: function() {
               var self = this;
@@ -173,7 +177,7 @@ jQuery(document).ready(function($) {
           image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
             titleSrc: function(item) {
-              return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+              return item.el.attr('title');
             }
           }
         });

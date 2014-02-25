@@ -3,8 +3,11 @@
 
 // Layout: Featured (featured articles) //
 .featured_layout {
-
     padding-bottom: 160px;
+
+    &:first-of-type {
+        padding-top: 100px !important;
+    }
 
     // Article Body Copy
     .primary-content {

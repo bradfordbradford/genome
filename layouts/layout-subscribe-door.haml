@@ -1,12 +1,17 @@
 -# Chapters Door
 #newsletter-door.g-door
     .inner-bounds.block
-        %h2.section-title.left.smaller
-            Subscribe to Genome
+        .grid-2-per.major-r
+            .grid-element
+                .g-door-image-content
+                    %img{:src => "../assets/img/content/subscription-placeholder.jpg", :alt => "genome is the bomb-diggety"}/
+            .grid-element
+                %h2.section-title.left.smaller
+                    Subscribe to Genome
 
-        .form-box
-            %form{:action => ""}
-                %a.input-icon{:'data-icon'=>"h", :href=>"#"}
-                %input{:type => "text", :placeholder => "jane@youremail.com"}/
+                .form-box
+                    %form{:action => ""}
+                        %a.input-icon{:'data-icon'=>"h", :href=>"#"}
+                        %input{:type => "text", :placeholder => "jane@youremail.com"}/
 
-        %a.close-g-door{:href => "x", :'data-icon'=>"D"}
+                %a.close-g-door{:href => "x", :'data-icon'=>"D"}

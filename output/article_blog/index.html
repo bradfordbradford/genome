@@ -12,494 +12,553 @@
     <meta content='' name='description'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
-    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
-    <script>
-      try{Typekit.load();}catch(e){}
-    </script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
     <script src='/assets/js/min/modernizr.min.js'></script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body>
-    <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='D' href='x'></a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
+  <body class='init nav-add-social'>
+    <div id='site-wrap-outer'>
+      <section id='nav-and-content-wrap'>
+        <div class='g-door' id='newsletter-door'>
+          <div class='inner-bounds block'>
+            <div class='grid-2-per major-r'>
+              <div class='grid-element'>
+                <div class='g-door-image-content'>
+                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
                 </div>
               </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
+              <div class='grid-element'>
+                <h2 class='section-title left smaller'>
+                  Subscribe to Genome
+                </h2>
+                <div class='form-box'>
+                  <form action=''>
+                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <input placeholder='jane@youremail.com' type='text'>
+                  </form>
+                </div>
+                <a class='close-g-door' data-icon='D' href='x'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id='main-site-navigation-wrap'>
+          <div class='site-navigation-inner'>
+            <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
+              <a class='light-tint' data-icon='B' href='#offcanvas-navigation'></a>
+            </div>
+            <header id='site-title' role='banner'>
+              <h1 class='logo'>
+                <a data-icon='L' href='/'></a>
+                <span>Genome</span>
+              </h1>
+              <div class='tagline'>
+                Your Health is Personal
+              </div>
+            </header>
+            <nav id='main-navigation' role='navigation'>
+              <ol class='navigation-list'>
+                <div class='search'>
+                  <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                    <form action=''>
+                      <a class='input-icon' data-icon='C' href='#'></a>
+                      <input id='search' placeholder='What were you looking for?' type='text'>
+                    </form>
+                  </div>
+                </div>
+                <li class='nav-item open-g-door hide-below-tablet-p'>
+                  <a href='#'>subscribe</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>browse</a>
+                  <ol>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Issue</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Condition</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif smaller' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Topic</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif smaller' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>newsletter</a>
+                </li>
+              </ol>
+            </nav>
+            <aside class='add-social'>
+              <div class='addthis_toolbox social-list'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Share</span>
+                </a>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Email</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <nav class='hide-above-tablet-p' id='offcanvas-navigation' role='navigation'>
+          <div class='offcanvas-inner'>
+            <ol class='navigation-list'>
+              <li class='nav-item current'>
+                <a href='#'>newsletter</a>
               </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
+              <li class='nav-item collapse'>
+                <header>
+                  <div class='collapse-section-title'>browse</div>
+                </header>
+                <ol class='sub-item'>
+                  <li>
+                    <a href='https://www.google.com/'>By Topic</a>
                   </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
+                  <li>
+                    <a href='https://www.google.com/'>By Condition</a>
                   </li>
                 </ol>
               </li>
               <li class='nav-item'>
-                <a href='#'>newsletter</a>
+                <a href='#'>subscribe</a>
               </li>
             </ol>
-          </nav>
-        </div>
-      </header>
-      <main id='content-wrap' role='main'>
-        <section class='primary_layout article_layout'>
-          <div class='inner-bounds block background-white'>
-            <div class='content-row'>
-              <header class='article-header'>
-                <a class='text-meta brick' href='#'>Treatment</a>
-                <h2>Rethinking Cancer Treatment in 2014</h2>
-                <p class='lead'>Research finds major flaws in standard medical approach</p>
-                <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
-                <div class='addthis_toolbox social-list'>
-                  <a class='addthis_button_facebook' data-icon='u' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Share</span>
-                  </a>
-                  <a class='addthis_button_twitter' data-icon='v' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Tweet</span>
-                  </a>
-                  <a class='addthis_button_email' data-icon='h' href='#'>
-                    <span class='line'></span>
-                    <span class='value'>Email</span>
-                  </a>
+            <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
+          </div>
+        </nav>
+      </section>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds block background-white'>
+              <div class='content-row'>
+                <header class='article-header'>
+                  <a class='text-meta brick' href='#'>Treatment</a>
+                  <h2>Rethinking Cancer Treatment in 2014</h2>
+                  <p class='lead'>Research finds major flaws in standard medical approach</p>
+                  <a class='author-attrib text-meta-highlight' href='#'>By Author Righter</a>
+                  <div class='addthis_toolbox social-list'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Share</span>
+                    </a>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Tweet</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Email</span>
+                    </a>
+                  </div>
+                  <!-- .addthis_toolbox.facebook-share-counter -->
+                  <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
+                  <!-- %span Shares -->
+                  <div class='article-meta'>
+                    <time>December 22, 2013</time>
+                    <span class='ver-line'>&#124;</span>
+                    <a class='action' data-icon='p' href='#1'>Print</a>
+                    <span class='ver-line'>&#124;</span>
+                    <a class='action' data-icon='i' href='#2'>888</a>
+                  </div>
+                </header>
+                <div class='article-photo primary'>
+                  <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
                 </div>
-                <!-- .addthis_toolbox.facebook-share-counter -->
-                <!-- %a.addthis_counter_facebook{:href => "#", :'data-icon'=>"A"} -->
-                <!-- %span Shares -->
-                <div class='article-meta'>
-                  <time>December 22, 2013</time>
-                  <span class='ver-line'>&#124;</span>
-                  <a class='action' data-icon='p' href='#1'>Print</a>
-                  <span class='ver-line'>&#124;</span>
-                  <a class='action' data-icon='i' href='#2'>888</a>
+                <div class='article-photo-caption background-neutral'>
+                  <div class='card-inner-wrap'>
+                    <span class='photo-attrib'>Annie Photographer</span>
+                    <p class='text-meta-sub smaller'>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                    </p>
+                  </div>
                 </div>
-              </header>
-              <div class='article-photo primary'>
-                <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
-              </div>
-              <div class='article-photo-caption background-neutral'>
-                <div class='card-inner-wrap'>
-                  <span class='photo-attrib'>Annie Photographer</span>
-                  <p class='text-meta-sub smaller'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                <article class='primary-content article-body-copy block'>
+                  <p>
+                    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                   </p>
-                </div>
-              </div>
-              <article class='primary-content article-body-copy block'>
-                <p>
-                  Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
-                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
-                </p>
-                <p>
-                  Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                </p>
-                <blockquote>
-                  Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
-                </blockquote>
-                <hr class='partial thick neutral-light'>
-                <p>
-                  Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
-                </p>
-                <p>
-                  Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
-                </p>
-                <p>
-                  I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
-                </p>
-                <p>
-                  Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
-                </p>
-                <footer class='article-footer'>
-                  <div class='text-meta-highlight'>Condition:</div>
-                  <a href='#'>Heart Attack,</a>
-                  <a href='#'>Heart Disease,</a>
-                  <a href='#'>Diet</a>
-                </footer>
-              </article>
-              <aside class='aside-column-primary'>
-                <div class='aside-block double-spaced'>
-                  <header class='background-neutral'>
-                    <h2 class='section-title'>
-                      Top
-                      <span>
-                        Stories
-                      </span>
-                    </h2>
-                  </header>
-                  <ul class='featured-list'>
-                    <li>
-                      <div class='media-object reversed'>
-                        <a class='text-meta' href='#'>science</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href='#'>
-                              Rewriting the Brain
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Changing the Face of Chemo
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Changing the Face of Chemo
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class='aside-block'>
-                  <div class='collapse'>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  </p>
+                  <blockquote>
+                    Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                  </blockquote>
+                  <hr class='partial thick neutral-light'>
+                  <p>
+                    Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                  </p>
+                  <p>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                  </p>
+                  <p>
+                    I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                  </p>
+                  <p>
+                    Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                  </p>
+                  <footer class='article-footer'>
+                    <div class='text-meta-highlight'>Condition:</div>
+                    <a href='#'>Heart Attack,</a>
+                    <a href='#'>Heart Disease,</a>
+                    <a href='#'>Diet</a>
+                  </footer>
+                </article>
+                <aside class='aside-column-primary'>
+                  <div class='aside-block double-spaced'>
                     <header class='background-neutral'>
                       <h2 class='section-title'>
-                        Print
+                        Top
                         <span>
-                          Edition
+                          Stories
                         </span>
                       </h2>
                     </header>
-                    <div class='media-object with-large-image'>
-                      <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
-                      <a class='text-meta' href='#'>genome magazine</a>
-                      <div class='media-copy'>
-                        <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
-                        <p class='text-meta-sub contrast'>
-                          Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
-                        </p>
+                    <ul class='featured-list'>
+                      <li>
+                        <div class='media-object reversed'>
+                          <a class='text-meta' href='#'>science</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href='#'>
+                                Rewriting the Brain
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Changing the Face of Chemo
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Changing the Face of Chemo
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='aside-block'>
+                    <div class='collapse'>
+                      <header class='background-neutral'>
+                        <h2 class='section-title'>
+                          Print
+                          <span>
+                            Edition
+                          </span>
+                        </h2>
+                      </header>
+                      <div class='media-object with-large-image'>
+                        <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
+                        <a class='text-meta' href='#'>genome magazine</a>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+                          <p class='text-meta-sub contrast'>
+                            Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                          </p>
+                        </div>
+                        <a class='primary btn' href='#'>Subscribe</a>
                       </div>
-                      <a class='primary btn' href='#'>Subscribe</a>
                     </div>
                   </div>
-                </div>
-              </aside>
+                </aside>
+              </div>
             </div>
-          </div>
-          <div class='content-row end-block inner-bounds background-white'>
-            <section class='collection grid-3-per with-dividers'>
-              <h2 class='section-title center'>
-                Related
-                <span>
-                  Reading
-                </span>
-              </h2>
-              <hr class='thick primary neutral-light partial'>
-              <div class='media-object with-large-image grid-element popup-content'>
-                <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
-                <div class='popup-content-wrap'>
-                  <div class='comment-counter-wrap'>
-                    <a class='icon comment-counter' href=''>
-                      <span class='value'>6</span>
+            <div class='content-row end-block inner-bounds background-white'>
+              <section class='collection grid-3-per with-dividers'>
+                <h2 class='section-title center'>
+                  Related
+                  <span>
+                    Reading
+                  </span>
+                </h2>
+                <hr class='thick primary neutral-light partial'>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href=''>
+                        <span class='value'>6</span>
+                      </a>
+                    </div>
+                    <a class='text-meta' href='#'>Research</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                      <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                      </p>
                     </a>
                   </div>
-                  <a class='text-meta' href='#'>Research</a>
-                  <a class='media-copy' href='#'>
-                    <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                    <p class='text-meta-sub light-tint sans-meta'>
-                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                    </p>
-                  </a>
                 </div>
-              </div>
-              <div class='media-object with-large-image grid-element popup-content'>
-                <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
-                <div class='popup-content-wrap'>
-                  <div class='comment-counter-wrap'>
-                    <a class='icon comment-counter' href=''>
-                      <span class='value'>6</span>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder-3.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href=''>
+                        <span class='value'>6</span>
+                      </a>
+                    </div>
+                    <a class='text-meta' href='#'>Science</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                      <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe…
+                      </p>
                     </a>
                   </div>
-                  <a class='text-meta' href='#'>Science</a>
-                  <a class='media-copy' href='#'>
-                    <h3 class='text-meta-header'>Rewriting the Brain</h3>
-                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                    <p class='text-meta-sub light-tint sans-meta'>
-                      A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe…
-                    </p>
-                  </a>
                 </div>
-              </div>
-              <div class='media-object with-large-image grid-element popup-content'>
-                <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
-                <div class='popup-content-wrap'>
-                  <div class='comment-counter-wrap'>
-                    <a class='icon comment-counter' href=''>
-                      <span class='value'>6</span>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href=''>
+                        <span class='value'>6</span>
+                      </a>
+                    </div>
+                    <a class='text-meta' href='#'>Treatment</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                      <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                      <p class='text-meta-sub light-tint sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                      </p>
                     </a>
                   </div>
-                  <a class='text-meta' href='#'>Treatment</a>
-                  <a class='media-copy' href='#'>
-                    <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                    <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                    <p class='text-meta-sub light-tint sans-meta'>
-                      Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                    </p>
-                  </a>
                 </div>
-              </div>
-            </section>
-          </div>
-        </section>
-      </main>
-    </section>
-    <footer id='main-footer'>
-      <div class='footer-inner-wrap'>
-        <div class='footer-content-wrap'>
-          <div class='footer-site-map'>
-            <div class='content-row add-space-b'>
-              <p class='highlight center add-space-g'>
-                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              </p>
+              </section>
             </div>
-            <div class='content-row'>
-              <div class='col'>
-                <ul>
-                  <li>
-                    <a href='#'>About Genome</a>
-                  </li>
-                  <li>
-                    <a href='#'>Partners & Allies</a>
-                  </li>
-                  <li>
-                    <a href='#'>Media Kit</a>
-                  </li>
-                </ul>
+          </section>
+        </main>
+      </div>
+      <footer id='main-footer'>
+        <div class='footer-inner-wrap'>
+          <div class='footer-content-wrap'>
+            <div class='footer-site-map'>
+              <div class='content-row add-space-b'>
+                <p class='highlight center add-space-g'>
+                  Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+                </p>
               </div>
-              <div class='col'>
-                <ul>
-                  <li>
-                    <a href='#'>Privacy Kit</a>
-                  </li>
-                  <li>
-                    <a href='#'>Terms & Conditions</a>
-                  </li>
-                  <li>
-                    <a href='#'>Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-              <div class='col'>
-                <ul class='social'>
-                  <li>
-                    <a data-icon='u' href='#'></a>
-                  </li>
-                  <li>
-                    <a data-icon='v' href='#'></a>
-                  </li>
-                  <li>
-                    <a data-icon='w' href='#'></a>
-                  </li>
-                </ul>
+              <div class='content-row'>
+                <div class='col'>
+                  <ul>
+                    <li>
+                      <a href='#'>About Genome</a>
+                    </li>
+                    <li>
+                      <a href='#'>Partners & Allies</a>
+                    </li>
+                    <li>
+                      <a href='#'>Media Kit</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='col'>
+                  <ul>
+                    <li>
+                      <a href='#'>Privacy Kit</a>
+                    </li>
+                    <li>
+                      <a href='#'>Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href='#'>Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='col'>
+                  <ul class='social'>
+                    <li>
+                      <a data-icon='u' href='#'></a>
+                    </li>
+                    <li>
+                      <a data-icon='v' href='#'></a>
+                    </li>
+                    <li>
+                      <a data-icon='w' href='#'></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
-    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
-    <!-- %script -->
-    <!-- var addthis_config = {"data_track_addressbar":true}; -->
+    <script src='/assets/js/min/nav-offcanvas.min.js'></script>
+    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
+    <script>
+      var addthis_config = {"data_track_addressbar":true};
+    </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

@@ -3,7 +3,33 @@
 # Contrib Changelog
 
 ## Timeline
+
+* [02/25/2014]
+[x] responsive nav
+
+[ ] iPad Portrait - padding issue on offcanvas collapsible menu
+
+[x] Touch Screens - don't show hover state, just click through
+
+[x] social nav on features
+
+[x] swap out close buttons for overlays
+
+[] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
+
+[x] prevent FOUC with body.init till bodyReady
+
+
+
 * [02/24/2014]
+[x] Home Hero - mobile (is pushed down below image content)
+Modal Overlay BGs - transition issue in chrome
+[x] AddThis - why it's not linking out
+
+
+
+
+* [02/23/2014]
 [x] Added load in animation for Featured Article Hero
 
 [x] Fixed 'bumping' on css3 animations
@@ -49,7 +75,7 @@
 - Watch video button needs hover
     What sort of hover? Currently hover is an opacity shift in background color. Also, for hero area featureing a vid, the button has a special hover state like 'Explore this Issue'-switches to a video camera. Like?
 
-- Slideshow captions don't look right
+[x] Slideshow captions don't look right
     Agree. Check them now.
 
 [x] Watch video (aside) icon should be different
@@ -101,9 +127,9 @@
 
 [] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
 
-[] Perhaps for Subscribe drawer we style the button differently? See the green "Continue" button for example here: http://tympanus.net/Development/CreativeButtons/
+[x] Perhaps for Subscribe drawer we style the button differently? See the green "Continue" button for example here: http://tympanus.net/Development/CreativeButtons/
 
-[] Did you catch the "Read More" hover for the homepage cover image? Let's talk if you have any questions.
+[x] Did you catch the "Read More" hover for the homepage cover image? Let's talk if you have any questions.
 
 * [02/20/2014]
 

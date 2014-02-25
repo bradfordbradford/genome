@@ -7,9 +7,13 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  @include rgba($primaryText, .8);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  // opacity: 0.8;
+  // filter: alpha(opacity=80);
 
 }
 
@@ -105,7 +109,21 @@
 .mfp-s-error .mfp-content {
   display: none; }
 
-button.mfp-close, button.mfp-arrow {
+.mfp-close {
+  border: 0;
+  right: 16px;
+  top: 16px;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+// button.mfp-close,
+button.mfp-arrow {
   font-family: $sans;
   font-weight: 200;
   -webkit-border-radius: 100px;
@@ -123,7 +141,8 @@ button.mfp-close, button.mfp-arrow {
   padding: 0;
   z-index: 1046;
   -webkit-box-shadow: none;
-  box-shadow: none; }
+  box-shadow: none;
+}
 button::-moz-focus-inner {
   padding: 0;
   border: 0; }
@@ -377,56 +396,151 @@ img.mfp-img {
 
 // Zoom In Animation
 // -----------------
-.mfp-ready .mfp-figure {
-  opacity: 0;
-}
-
-
 .mfp-zoom-in {
 
   /* start state */
-  .mfp-figure {
+  .mfp-content {
     opacity: 0;
-    transition: all 0.3s ease-out;
-    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
   }
 
-  &.mfp-bg,
-  .mfp-preloader {
+  &.mfp-bg {
     opacity: 0;
     transition: all 0.3s ease-out;
   }
 
   /* animate in */
-  &.mfp-image-loaded {
-    .mfp-figure {
+  &.mfp-ready {
+    .mfp-content {
       opacity: 1;
       transform: scale(1);
     }
-  }
-
-  &.mfp-ready {
-    &.mfp-bg,
-    .mfp-preloader{
-      opacity: 0.9;
+    &.mfp-bg {
+      opacity: 0.8;
     }
   }
 
   /* animate out */
   &.mfp-removing {
 
-    .mfp-figure {
-      transform: scale(0.9);
+    .mfp-content {
+      transform: scale(0.8);
       opacity: 0;
     }
-    &.mfp-bg,
-    .mfp-preloader{
+    &.mfp-bg {
       opacity: 0;
     }
 
   }
 
 }
+
+// .mfp-zoom-in {
+
+//   // Start State
+//   &.mfp-bg {
+//     opacity:0;
+//     -webkit-transition: all 0.3s ease-out;
+//     -moz-transition: all 0.3s ease-out;
+//     transition: all 0.3s ease-out;
+//   }
+
+//   // Add Content
+//   &.mfp-ready {
+//     &.mfp-bg
+//     {
+//       opacity: 0.8;
+//     }
+//   }
+
+//   .mfp-content {
+//     opacity: 0;
+//     -webkit-transition: all 0.3s ease-out;
+//     -moz-transition: all 0.3s ease-out;
+//     transition: all 0.3s ease-out;
+//     -webkit-transform: scale(0.9);
+//     -moz-transform: scale(0.9);
+//     transform: scale(0.9);
+//   }
+
+//   &.mfp-ready {
+//     .mfp-content {
+//       opacity: 1;
+//       transform: scale(1);
+//       -webkit-transform: scale(1);
+//       -moz-transform: scale(1);
+//     }
+//   }
+
+//   // Remove
+//   &.mfp-removing {
+//     &.mfp-bg {
+//       -webkit-transition: all 0.3s ease-out;
+//       -moz-transition: all 0.3s ease-out;
+//       transition: all 0.3s ease-out;
+//     }
+
+//     .mfp-content {
+//       transform: scale(0.9);
+//       -webkit-transform: scale(0.9);
+//       -moz-transform: scale(0.9);
+//       opacity: 0;
+//     }
+//   }
+
+
+
+//   /* start state */
+//   // &.mfp-ready {
+//   //   &.mfp-bg {
+//   //     opacity: 0;
+//   //   }
+//   // }
+//   // .mfp-figure {
+//   //   opacity: 0;
+//   //   transition: all 0.4s ease-in-out,
+//   //               opacity 0.4s ease-in-out;
+//   //   transform: scale(0.9);
+//   // }
+
+//   // // &.mfp-bg,
+//   // // .mfp-preloader {
+//   // //   opacity: 0;
+//   // //   // transition: all 0.4s ease-in-out,
+//   //             // opacity 0.4s ease-in-out;
+//   // // }
+
+//   // /* animate in */
+//   // &.mfp-image-loaded {
+//   //   .mfp-figure {
+//   //     opacity: 1;
+//   //     transform: scale(1);
+//   //   }
+//   // }
+
+//   // &.mfp-ready {
+//   //   &.mfp-bg {
+//   //     opacity: 0.9;
+//   //   }
+//   // }
+
+//   // /* animate out */
+//   // &.mfp-removing {
+//   //   transition: all 0.4s ease-in-out,
+//   //               opacity 0.4s ease-in-out;
+
+//   //   .mfp-figure {
+//   //     transform: scale(0.9);
+//   //     opacity: 0;
+//   //   }
+//   //   &.mfp-bg {
+//   //     opacity: 0;
+//   //   }
+
+//   // }
+
+// }
 
 
 
@@ -463,7 +577,7 @@ img.mfp-img {
 // Overlay Search Box
 // ------------------
 .mfp-bg.mfp-zoom-in.overlay-with-search-box {
-  @include rgba(#fff, 0.98);
+  @include rgba($primaryLight, .8);
 }
 
 .overlay-with-search-box {

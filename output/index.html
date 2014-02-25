@@ -12,704 +12,763 @@
     <meta content='' name='description'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
-    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
-    <script>
-      try{Typekit.load();}catch(e){}
-    </script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
     <script src='/assets/js/min/modernizr.min.js'></script>
+    <link href='/assets/css/app.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body>
-    <section id='header-content-wrap'>
-      <div class='g-door' id='newsletter-door'>
-        <div class='inner-bounds block'>
-          <h2 class='section-title left smaller'>
-            Subscribe to Genome
-          </h2>
-          <div class='form-box'>
-            <form action=''>
-              <a class='input-icon' data-icon='h' href='#'></a>
-              <input placeholder='jane@youremail.com' type='text'>
-            </form>
-          </div>
-          <a class='close-g-door' data-icon='D' href='x'></a>
-        </div>
-      </div>
-      <header id='header-wrap'>
-        <div class='header-inner'>
-          <h1 class='logo'>
-            <a data-icon='L' href='/'></a>
-            <span>Genome</span>
-          </h1>
-          <div class='tagline'>
-            Your Health is Personal
-          </div>
-          <nav id='main-navigation' role='navigation'>
-            <ol class='navigation-list'>
-              <div class='search'>
-                <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='C' href='#'></a>
-                    <input id='search' placeholder='What were you looking for?' type='text'>
-                  </form>
+  <body class='init nav-add-social'>
+    <div id='site-wrap-outer'>
+      <section id='nav-and-content-wrap'>
+        <div class='g-door' id='newsletter-door'>
+          <div class='inner-bounds block'>
+            <div class='grid-2-per major-r'>
+              <div class='grid-element'>
+                <div class='g-door-image-content'>
+                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
                 </div>
               </div>
-              <li class='nav-item open-g-door'>
-                <a href='#'>subscribe</a>
+              <div class='grid-element'>
+                <h2 class='section-title left smaller'>
+                  Subscribe to Genome
+                </h2>
+                <div class='form-box'>
+                  <form action=''>
+                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <input placeholder='jane@youremail.com' type='text'>
+                  </form>
+                </div>
+                <a class='close-g-door' data-icon='D' href='x'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id='main-site-navigation-wrap'>
+          <div class='site-navigation-inner'>
+            <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
+              <a class='light-tint' data-icon='B' href='#offcanvas-navigation'></a>
+            </div>
+            <header id='site-title' role='banner'>
+              <h1 class='logo'>
+                <a data-icon='L' href='/'></a>
+                <span>Genome</span>
+              </h1>
+              <div class='tagline'>
+                Your Health is Personal
+              </div>
+            </header>
+            <nav id='main-navigation' role='navigation'>
+              <ol class='navigation-list'>
+                <div class='search'>
+                  <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                    <form action=''>
+                      <a class='input-icon' data-icon='C' href='#'></a>
+                      <input id='search' placeholder='What were you looking for?' type='text'>
+                    </form>
+                  </div>
+                </div>
+                <li class='nav-item open-g-door hide-below-tablet-p'>
+                  <a href='#'>subscribe</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>browse</a>
+                  <ol>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Issue</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Condition</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif smaller' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Topic</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a class='italic serif smaller' href='#'>
+                            View All &#187;
+                          </a>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>newsletter</a>
+                </li>
+              </ol>
+            </nav>
+            <aside class='add-social'>
+              <div class='addthis_toolbox social-list'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Share</span>
+                </a>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Email</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <nav class='hide-above-tablet-p' id='offcanvas-navigation' role='navigation'>
+          <div class='offcanvas-inner'>
+            <ol class='navigation-list'>
+              <li class='nav-item current'>
+                <a href='#'>newsletter</a>
               </li>
-              <li class='nav-item'>
-                <a href='#'>browse</a>
-                <ol>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Issue</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
+              <li class='nav-item collapse'>
+                <header>
+                  <div class='collapse-section-title'>browse</div>
+                </header>
+                <ol class='sub-item'>
+                  <li>
+                    <a href='https://www.google.com/'>By Topic</a>
                   </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Condition</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
-                  </li>
-                  <li class='nav-sub-item'>
-                    <h3>
-                      <a href='#'>By Topic</a>
-                    </h3>
-                    <ol>
-                      <li>
-                        <a href='#'>Lifestyle</a>
-                      </li>
-                      <li>
-                        <a href='#'>Policy</a>
-                      </li>
-                      <li>
-                        <a href='#'>Science</a>
-                      </li>
-                      <li>
-                        <a href='#'>Treatment</a>
-                      </li>
-                      <li>
-                        <a href='#'>Technology</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li>
-                        <a href='#'>Topic</a>
-                      </li>
-                      <li class='view-all'>
-                        <a class='italic serif smaller' href='#'>
-                          View All &#187;
-                        </a>
-                      </li>
-                    </ol>
+                  <li>
+                    <a href='https://www.google.com/'>By Condition</a>
                   </li>
                 </ol>
               </li>
               <li class='nav-item'>
-                <a href='#'>newsletter</a>
+                <a href='#'>subscribe</a>
               </li>
             </ol>
-          </nav>
-        </div>
-      </header>
-      <main id='content-wrap' role='main'>
-        <header class='hero hero-featured-article background-size-full center'>
-          <div class='story-cover-content single-col-layout'>
-            <div class='align-middle'>
-              <div class='align-block'>
-                <a href='#'>
-                  <div class='text-meta hr'>
-                    issue 01
-                  </div>
-                  <h2>
-                    Targeted
-                    <br>
-                    Treatment
-                  </h2>
-                  <hr class='primary light partial'>
-                  <p class='sans lead'>
-                    How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
-                  </p>
-                  <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
-                </a>
-                <!-- %span.story-cover-arrow{:'data-icon' => "E"} -->
-              </div>
-            </div>
+            <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
           </div>
-          <a class='story-cover-hover-background' href='#'>
-            <div class='align-middle'>
-              <div class='align-block'>
-                <div class='story-cover-hover-content'>
-                  <h2>
-                    Read This Feature
-                    <span class='read-this-arrow' data-icon='j'></span>
-                  </h2>
+        </nav>
+      </section>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <header class='hero hero-featured-article background-size-full center'>
+            <div class='story-cover-content single-col-layout'>
+              <div class='align-middle'>
+                <div class='align-block'>
+                  <a href='https://www.google.com/'>
+                    <div class='text-meta hr'>
+                      issue 01
+                    </div>
+                    <h2>
+                      Targeted
+                      <br>
+                      Treatment
+                    </h2>
+                    <hr class='primary light partial'>
+                    <p class='sans lead'>
+                      How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+                    </p>
+                    <a class='author-attrib text-meta-highlight' href='#main-footer'>By Author Righter</a>
+                  </a>
+                  <!-- %span.story-cover-arrow{:'data-icon' => "E"} -->
                 </div>
               </div>
             </div>
-          </a>
-          <div class='story-cover-image'></div>
-        </header>
-        <section class='primary_layout'>
-          <div class='inner-bounds block'>
-            <div class='content-row'>
-              <aside class='aside-column-primary'>
-                <div class='aside-block with-top-border'>
-                  <header>
-                    <h2 class='section-title'>
-                      Current
-                      <span>
-                        Issue
-                      </span>
+            <a class='story-cover-hover-background' href='#'>
+              <div class='align-middle'>
+                <div class='align-block'>
+                  <div class='story-cover-hover-content'>
+                    <h2>
+                      Read This Feature
+                      <span class='read-this-arrow' data-icon='j'></span>
                     </h2>
-                  </header>
-                  <div class='media-object with-large-image'>
-                    <img alt='' src='/assets/img/content/cover-placeholder.jpg'>
-                    <a class='text-meta' href='#'>issue 01</a>
-                    <div class='media-copy'>
-                      <h3 class='text-meta-header'>Spring 2014</h3>
-                      <p class='text-meta-sub contrast sans-meta'>
-                        Preasent dapibd,
-                        <a href='#'>neque id</a>
-                        curscu faucibu  torot neq e gasut auge, eiu vluate magna
-                        <a href='#'>opus atlas.</a>
-                      </p>
-                    </div>
-                    <a class='special primary btn icon-glasses' href='#'>
-                      <span>
-                        Explore this Issue
-                      </span>
-                    </a>
                   </div>
                 </div>
-                <div class='aside-block with-top-border'>
-                  <header>
-                    <h2 class='section-title'>
-                      Blog
-                      <span>
-                        Stories
-                      </span>
-                    </h2>
-                  </header>
-                  <ul class='featured-list'>
-                    <li>
-                      <div class='media-object reversed'>
-                        <a class='text-meta' href='#'>science</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href='#'>
-                              Rewriting the Brain
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Changing the Face of Chemo
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Fusce lobortis lorem at ipsum semper sagittis
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='F'></span>
-                              3 min read
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <div class='view-all'>
-                      <a class='italic serif smaller' href='#'>
-                        View All &#187;
-                      </a>
-                    </div>
-                  </ul>
-                </div>
-                <div class='aside-block with-top-border'>
-                  <header>
-                    <h2 class='section-title'>
-                      Most
-                      <span>
-                        Popular
-                      </span>
-                    </h2>
-                  </header>
-                  <ul class='featured-list'>
-                    <li>
-                      <div class='media-object reversed'>
-                        <a class='text-meta' href='#'>science</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href='#'>
-                              Rewriting the Brain
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='i'></span>
-                              53 shares
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Changing the Face of Chemo
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='i'></span>
-                              95 shares
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='media-object'>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header small'>
-                            <a href=''>
-                              Fusce lobortis lorem at ipsum semper sagittis
-                            </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>
-                            <a href='#'>
-                              By Author Rightspoke
-                            </a>
-                            <a href='#'>
-                              <span class='icon' data-icon='i'></span>
-                              189 shares
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <div class='view-all'>
-                      <a class='italic serif smaller' href='#'>
-                        View All &#187;
-                      </a>
-                    </div>
-                  </ul>
-                </div>
-                <div class='aside-block with-top-border'>
-                  <header>
-                    <h2 class='section-title'>
-                      Latest
-                      <span>
-                        Columns
-                      </span>
-                    </h2>
-                  </header>
-                  <ul class='featured-list author-list'>
-                    <li>
-                      <div class='media-object author-type'>
-                        <img alt='' class='author-pic' src='/assets/img/content/author-placeholder.jpg'>
-                        <div class='media-copy'>
-                          <a href=''>
-                            <h3 class='author-attrib' href='#'>
-                              Author Righter
-                            </h3>
-                            <p class='text-meta-sub'>
-                              "Article Title Here"
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                      <div class='media-object author-type'>
-                        <img alt='' class='author-pic' src='/assets/img/content/author-placeholder.jpg'>
-                        <div class='media-copy'>
-                          <a href=''>
-                            <h3 class='author-attrib' href='#'>
-                              Author Righter
-                            </h3>
-                            <p class='text-meta-sub'>
-                              "Article Title Here"
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                      <div class='media-object author-type'>
-                        <img alt='' class='author-pic' src='/assets/img/content/author-placeholder-2.jpg'>
-                        <div class='media-copy'>
-                          <a href=''>
-                            <h3 class='author-attrib' href='#'>
-                              Author Righter
-                            </h3>
-                            <p class='text-meta-sub'>
-                              "Article Title Here"
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </aside>
-              <section class='primary-content'>
-                <div class='content-row'>
-                  <div class='content-block'>
-                    <div class='featured-article'>
-                      <div class='article-photo primary'>
-                        <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                      </div>
-                      <header class='article-header'>
-                        <div class='text-meta'>
-                          <a href='#'>Featured Article</a>
-                          <time>December 22, 2013</time>
-                        </div>
-                        <h2>
-                          <a href='#'>
-                            The Changing World of Fitness & Sporting
-                          </a>
-                        </h2>
-                        <a class='text-meta-sub light-tint' href='#'>
-                          By Author Righter
-                        </a>
-                        <p>
-                          Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
-                          <a class='text-meta' href=''>Continue Reading &#187;</a>
+              </div>
+            </a>
+            <div class='story-cover-image'></div>
+          </header>
+          <section class='primary_layout'>
+            <div class='inner-bounds block'>
+              <div class='content-row'>
+                <aside class='aside-column-primary'>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Current
+                        <span>
+                          Issue
+                        </span>
+                      </h2>
+                    </header>
+                    <div class='media-object with-large-image'>
+                      <img alt='' src='/assets/img/content/cover-placeholder.jpg'>
+                      <a class='text-meta' href='#'>issue 01</a>
+                      <div class='media-copy'>
+                        <h3 class='text-meta-header'>Spring 2014</h3>
+                        <p class='text-meta-sub contrast sans-meta'>
+                          Preasent dapibd,
+                          <a href='#'>neque id</a>
+                          curscu faucibu  torot neq e gasut auge, eiu vluate magna
+                          <a href='#'>opus atlas.</a>
                         </p>
-                      </header>
+                      </div>
+                      <a class='special primary btn icon-glasses' href='https://www.google.com/'>
+                        <span>
+                          Explore this Issue
+                        </span>
+                      </a>
                     </div>
                   </div>
-                </div>
-                <div class='content-row'>
-                  <section class='collection grid-2-per content-block'>
-                    <div class='media-object with-large-image grid-element popup-content'>
-                      <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder-2.jpg' src='/assets/img/content/th-feature-placeholder-2.jpg'>
-                      <div class='popup-content-wrap'>
-                        <div class='comment-counter-wrap'>
-                          <a class='icon comment-counter' href=''>
-                            <span class='value'>6</span>
-                          </a>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Blog
+                        <span>
+                          Stories
+                        </span>
+                      </h2>
+                    </header>
+                    <ul class='featured-list'>
+                      <li>
+                        <div class='media-object reversed'>
+                          <a class='text-meta' href='#'>science</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href='#'>
+                                Rewriting the Brain
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
                         </div>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <a class='media-copy' href='#'>
-                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                          <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                          <p class='text-meta-sub light-tint sans-meta'>
-                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                          </p>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Changing the Face of Chemo
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Fusce lobortis lorem at ipsum semper sagittis
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='F'></span>
+                                3 min read
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <div class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
                         </a>
                       </div>
-                    </div>
-                    <div class='media-object with-large-image grid-element popup-content'>
-                      <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder.jpg' src='/assets/img/content/th-feature-placeholder.jpg'>
-                      <div class='popup-content-wrap'>
-                        <div class='comment-counter-wrap'>
-                          <a class='icon comment-counter' href=''>
-                            <span class='value'>6</span>
-                          </a>
+                    </ul>
+                  </div>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Most
+                        <span>
+                          Popular
+                        </span>
+                      </h2>
+                    </header>
+                    <ul class='featured-list'>
+                      <li>
+                        <div class='media-object reversed'>
+                          <a class='text-meta' href='#'>science</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href='#'>
+                                Rewriting the Brain
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='i'></span>
+                                53 shares
+                              </a>
+                            </p>
+                          </div>
                         </div>
-                        <a class='text-meta' href='#'>Research</a>
-                        <a class='media-copy' href='#'>
-                          <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                          <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                          <p class='text-meta-sub light-tint sans-meta'>
-                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                          </p>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Changing the Face of Chemo
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='i'></span>
+                                95 shares
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class='media-object'>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header small'>
+                              <a href=''>
+                                Fusce lobortis lorem at ipsum semper sagittis
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>
+                              <a href='#'>
+                                By Author Rightspoke
+                              </a>
+                              <a href='#'>
+                                <span class='icon' data-icon='i'></span>
+                                189 shares
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <div class='view-all'>
+                        <a class='italic serif smaller' href='#'>
+                          View All &#187;
                         </a>
                       </div>
+                    </ul>
+                  </div>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Latest
+                        <span>
+                          Columns
+                        </span>
+                      </h2>
+                    </header>
+                    <ul class='featured-list author-list'>
+                      <li>
+                        <div class='media-object author-type'>
+                          <img alt='' class='author-pic' src='/assets/img/content/author-placeholder.jpg'>
+                          <div class='media-copy'>
+                            <a href=''>
+                              <h3 class='author-attrib' href='#'>
+                                Author Righter
+                              </h3>
+                              <p class='text-meta-sub'>
+                                "Article Title Here"
+                              </p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class='media-object author-type'>
+                          <img alt='' class='author-pic' src='/assets/img/content/author-placeholder.jpg'>
+                          <div class='media-copy'>
+                            <a href=''>
+                              <h3 class='author-attrib' href='#'>
+                                Author Righter
+                              </h3>
+                              <p class='text-meta-sub'>
+                                "Article Title Here"
+                              </p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class='media-object author-type'>
+                          <img alt='' class='author-pic' src='/assets/img/content/author-placeholder-2.jpg'>
+                          <div class='media-copy'>
+                            <a href=''>
+                              <h3 class='author-attrib' href='#'>
+                                Author Righter
+                              </h3>
+                              <p class='text-meta-sub'>
+                                "Article Title Here"
+                              </p>
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </aside>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <div class='content-block'>
+                      <div class='featured-article'>
+                        <div class='article-photo primary'>
+                          <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                        </div>
+                        <header class='article-header'>
+                          <div class='text-meta'>
+                            <a href='#'>Featured Article</a>
+                            <time>December 22, 2013</time>
+                          </div>
+                          <h2>
+                            <a href='#'>
+                              The Changing World of Fitness & Sporting
+                            </a>
+                          </h2>
+                          <a class='text-meta-sub light-tint' href='#'>
+                            By Author Righter
+                          </a>
+                          <p>
+                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+                            <a class='text-meta' href=''>Continue Reading &#187;</a>
+                          </p>
+                        </header>
+                      </div>
                     </div>
-                  </section>
-                </div>
-                <div class='content-row'>
-                  <section class='grid-2-per content-block'>
-                    <div class='media-object-horizontal-layout'>
-                      <div class='grid-element image-content'>
+                  </div>
+                  <div class='content-row'>
+                    <section class='collection grid-2-per content-block'>
+                      <div class='media-object with-large-image grid-element popup-content'>
                         <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder-2.jpg' src='/assets/img/content/th-feature-placeholder-2.jpg'>
-                        <div class='comment-counter-wrap'>
-                          <a class='icon comment-counter' href=''>
-                            <span class='value'>6</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div class='grid-element'>
-                        <a class='text-meta' href='#'>Technology</a>
-                        <div class='media-copy'>
-                          <h3 class='text-meta-header'>
-                            <a href='#'>
-                              Reworking Your Genetic Puzzle
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
                             </a>
-                          </h3>
-                          <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                          <p class='text-meta-sub light-tint sans-meta'>
-                            Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non…
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-                <div class='content-row'>
-                  <div class='content-block'>
-                    <div class='featured-article'>
-                      <div class='article-photo primary'>
-                        <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                      </div>
-                      <header class='article-header'>
-                        <div class='text-meta tag'>
-                          <a href='#'>Featured Article</a>
-                          <time>December 22, 2013</time>
-                        </div>
-                        <h2>
-                          <a href='#'>
-                            The Changing World of Fitness & Sporting
+                          </div>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                            <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                            <p class='text-meta-sub light-tint sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                            </p>
                           </a>
-                        </h2>
-                        <a class='text-meta-sub light-tint' href='#'>
-                          By Author Righter
-                        </a>
-                        <p>
-                          Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
-                          <a class='text-meta' href=''>Continue Reading &#187;</a>
-                        </p>
-                      </header>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder.jpg' src='/assets/img/content/th-feature-placeholder.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Research</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                            <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                            <p class='text-meta-sub light-tint sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class='content-row'>
+                    <section class='grid-2-per content-block'>
+                      <div class='media-object-horizontal-layout'>
+                        <div class='grid-element image-content'>
+                          <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder-2.jpg' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class='grid-element'>
+                          <a class='text-meta' href='#'>Technology</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header'>
+                              <a href='#'>
+                                Reworking Your Genetic Puzzle
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                            <p class='text-meta-sub light-tint sans-meta'>
+                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non…
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class='content-row'>
+                    <div class='content-block'>
+                      <div class='featured-article'>
+                        <div class='article-photo primary'>
+                          <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                        </div>
+                        <header class='article-header'>
+                          <div class='text-meta tag'>
+                            <a href='#'>Featured Article</a>
+                            <time>December 22, 2013</time>
+                          </div>
+                          <h2>
+                            <a href='#'>
+                              The Changing World of Fitness & Sporting
+                            </a>
+                          </h2>
+                          <a class='text-meta-sub light-tint' href='#'>
+                            By Author Righter
+                          </a>
+                          <p>
+                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+                            <a class='text-meta' href=''>Continue Reading &#187;</a>
+                          </p>
+                        </header>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class='content-row'>
-                  <section class='collection grid-2-per content-block'>
-                    <div class='media-object with-large-image grid-element popup-content'>
-                      <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder-2.jpg' src='/assets/img/content/th-feature-placeholder-2.jpg'>
-                      <div class='popup-content-wrap'>
-                        <div class='comment-counter-wrap'>
-                          <a class='icon comment-counter' href=''>
-                            <span class='value'>6</span>
+                  <div class='content-row'>
+                    <section class='collection grid-2-per content-block'>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder-2.jpg' src='/assets/img/content/th-feature-placeholder-2.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                            <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                            <p class='text-meta-sub light-tint sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                            </p>
                           </a>
                         </div>
-                        <a class='text-meta' href='#'>Treatment</a>
-                        <a class='media-copy' href='#'>
-                          <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                          <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                          <p class='text-meta-sub light-tint sans-meta'>
-                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                          </p>
-                        </a>
                       </div>
-                    </div>
-                    <div class='media-object with-large-image grid-element popup-content'>
-                      <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder.jpg' src='/assets/img/content/th-feature-placeholder.jpg'>
-                      <div class='popup-content-wrap'>
-                        <div class='comment-counter-wrap'>
-                          <a class='icon comment-counter' href=''>
-                            <span class='value'>6</span>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='/assets/img/content/th-feature-placeholder.jpg' src='/assets/img/content/th-feature-placeholder.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Research</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                            <p class='text-meta-sub light-tint'>By Authur Righter</p>
+                            <p class='text-meta-sub light-tint sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+                            </p>
                           </a>
                         </div>
-                        <a class='text-meta' href='#'>Research</a>
-                        <a class='media-copy' href='#'>
-                          <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                          <p class='text-meta-sub light-tint'>By Authur Righter</p>
-                          <p class='text-meta-sub light-tint sans-meta'>
-                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
-                          </p>
-                        </a>
                       </div>
-                    </div>
-                  </section>
-                </div>
-                <div class='content-row'>
-                  <a class='full-bleed btn compliment' href='#'>View All Articles</a>
-                </div>
-              </section>
-            </div>
-          </div>
-        </section>
-      </main>
-    </section>
-    <footer id='main-footer'>
-      <div class='footer-inner-wrap'>
-        <div class='footer-content-wrap'>
-          <div class='footer-site-map'>
-            <div class='content-row add-space-b'>
-              <p class='highlight center add-space-g'>
-                Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              </p>
-            </div>
-            <div class='content-row'>
-              <div class='col'>
-                <ul>
-                  <li>
-                    <a href='#'>About Genome</a>
-                  </li>
-                  <li>
-                    <a href='#'>Partners & Allies</a>
-                  </li>
-                  <li>
-                    <a href='#'>Media Kit</a>
-                  </li>
-                </ul>
+                    </section>
+                  </div>
+                  <div class='content-row'>
+                    <a class='full-bleed btn compliment' href='#'>View All Articles</a>
+                  </div>
+                </section>
               </div>
-              <div class='col'>
-                <ul>
-                  <li>
-                    <a href='#'>Privacy Kit</a>
-                  </li>
-                  <li>
-                    <a href='#'>Terms & Conditions</a>
-                  </li>
-                  <li>
-                    <a href='#'>Contact Us</a>
-                  </li>
-                </ul>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer id='main-footer'>
+        <div class='footer-inner-wrap'>
+          <div class='footer-content-wrap'>
+            <div class='footer-site-map'>
+              <div class='content-row add-space-b'>
+                <p class='highlight center add-space-g'>
+                  Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+                </p>
               </div>
-              <div class='col'>
-                <ul class='social'>
-                  <li>
-                    <a data-icon='u' href='#'></a>
-                  </li>
-                  <li>
-                    <a data-icon='v' href='#'></a>
-                  </li>
-                  <li>
-                    <a data-icon='w' href='#'></a>
-                  </li>
-                </ul>
+              <div class='content-row'>
+                <div class='col'>
+                  <ul>
+                    <li>
+                      <a href='#'>About Genome</a>
+                    </li>
+                    <li>
+                      <a href='#'>Partners & Allies</a>
+                    </li>
+                    <li>
+                      <a href='#'>Media Kit</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='col'>
+                  <ul>
+                    <li>
+                      <a href='#'>Privacy Kit</a>
+                    </li>
+                    <li>
+                      <a href='#'>Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href='#'>Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='col'>
+                  <ul class='social'>
+                    <li>
+                      <a data-icon='u' href='#'></a>
+                    </li>
+                    <li>
+                      <a data-icon='v' href='#'></a>
+                    </li>
+                    <li>
+                      <a data-icon='w' href='#'></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
-    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
-    <!-- %script -->
-    <!-- var addthis_config = {"data_track_addressbar":true}; -->
+    <script src='/assets/js/min/nav-offcanvas.min.js'></script>
+    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
+    <script>
+      var addthis_config = {"data_track_addressbar":true};
+    </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

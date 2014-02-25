@@ -5,26 +5,32 @@
     %head
         = render 'head'
 
-    %body
+    %body.init.nav-add-social
 
-        -# Header & Content Wrap
-        %section#header-content-wrap
+        -# Site Wrap Outer
+        #site-wrap-outer
+            -# Header & Content Wrap
+            %section#nav-and-content-wrap
 
-            -# Subscribe
-            = render 'layout-subscribe-door'
+                -# Subscribe
+                = render 'layout-subscribe-door'
 
-            -# Header & Navigation
-            = render 'header-primary'
+                -# Header & Navigation
+                = render 'header-primary'
 
-            -# Content Wrap
-            %main#content-wrap{:role => "main"}
-
-
-                = yield
+            -# Site Wrap Inner
+            #site-wrap-inner
 
 
-        -# Site Footer
-        %footer#main-footer
-            = render 'footer-primary'
+                -# Content Wrap
+                %main#content-wrap{:role => "main"}
+
+
+                    = yield
+
+
+            -# Site Footer
+            %footer#main-footer
+                = render 'footer-primary'
 
         = render 'bodyscripts'

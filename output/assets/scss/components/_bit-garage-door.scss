@@ -5,20 +5,26 @@
 .g-door {
     background: $primaryLight;
     // height: 0;
-    height: 240px;
+    height: 250px;
     opacity: 0;
     overflow: hidden;
     // position: relative;
     position: fixed;
     width: 100%;
     z-index: 100;
-    transform: translateY(-240px);
+    transform: translate3d(0px, -250px, 0px);
     perspective: 1000px;
 
     &.open {
-        // height: 240px;
+        // height: 250px;
         opacity:1;
-        transform: translateY(0px);
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    .g-door-image-content {
+        width: 80%;
+        margin: -40px auto 0;
+        display: block;
     }
 }
 
@@ -43,5 +49,5 @@
 }
 
 .push-for-door {
-    transform: translateY(240px);
+    transform: translate3d(0px, 250px, 0px);
 }
