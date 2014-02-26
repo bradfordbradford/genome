@@ -1,0 +1,35 @@
+BUDGET::
+$3,800 for the CMS
+$800 for the paid subscription portion.
+~$300 of the e-commerce portion is for the WooCommerce plugin and extension.
+
+Genome Documentation: https://www.dropbox.com/sh/a25akw0s0zr03w5/hf0RYe-spO
+
+CMS FUNCTIONAL REQUIREMENTS::
+	1. CMS for managing dynamic content, including articles and blogs
+	2. Ability of admin to create and maintain user accounts for content creators
+	3. Ability to tag articles and blog entries by Condition, Issue and Topic
+	4. Ability to add new Conditions, Issues and Topics
+	5. Ability to assign a category to articles and blog entries
+	6. Ability to assign an article from a series of design templates
+		- This will be default functionality with the theme we create. Something worth mentioning here, though, is that we will have to create these templates for them. There isn't an easy way to create a new template without interfacing with WP, so they will have to choose from a predetermined set of templates or contact us to add new ones.
+	7. Video-embedding within articles and blog entries
+	8. Ability to create posts from a mobile device (ie. responsive CMS)
+		- Official WP mobile app. Great for writing content, but people are unhappy with its ability to do other tasks such as viewing statistics or managing settings, etc. OR Mobile CMS plugin which will basically add a mobile view to the CMS. Something similar to this might work well: http://wordpress.org/plugins/juiz-smart-mobile-admin/screenshots/
+
+WEBSITE FUNCTIONAL REQUIREMENTS::
+	1. Ability to incorporate various forms of media (video, animation, etc) into articles - These will need to be embedded from YouTube or Vimeo. Gives the brand further reach and those services take care of compatibility issues.
+	2. Search functionality - Built in to WP.
+	3. User comment functionality (with account management) - Built in to WP.
+	4. Ability to subscribe to print edition of magazine - This needs further discussion regarding how they will receive credit card payments. This can be handled within WP, or we may want to use a 3rd party service. For subscriptions I would like to use this plugin: http://www.woothemes.com/products/woocommerce-subscriptions/?utm_source=extension_home_page_banner&utm_medium=banner&utm_campaign=Banners. We would have to add a payment gateway, so cost for parts would be about $300. I'd estimate another $500 for labor, so $800 total to add paid subscriptions.
+	5. Ability to subscribe to an email newsletter - We can use this plugin or something similar: http://wordpress.org/plugins/newsletter-sign-up/.
+	6. Responsive design - FED. We can build off of Bootstrap or an existing Responsive base theme to speed it up.
+	7. Links to social media sites - FED.
+	8. Social media sharing functionality - There are loads of WP or javascript plugins for this. The biggest issue is finding one that looks good so I think we'll need to have further discussion about this.
+	9. Display of “similar” article content - Built in to WP.
+	10. Ability to navigate by Condition, Issue and Topic - Built in to WP.
+	11. Robust usage data reportage - Built in to WP, may need to extend with Google Analytics or other 3rd party plugin.
+	12. Print functionality - More of a FED issue.
+	
+RETAINER AGREEMENT::
+	Minimum of two hours per month for support at $50/hour ($100/month). If they need extra help one month, I'll start billing at $50/hour for each hour beyond the initial two.
