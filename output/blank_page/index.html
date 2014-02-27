@@ -32,7 +32,7 @@
     <link href='/assets/css/app.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='nav-and-content-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -61,7 +61,7 @@
         <section id='main-site-navigation-wrap'>
           <div class='site-navigation-inner'>
             <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
-              <a class='light-tint' data-icon='B' href='#offcanvas-navigation'></a>
+              <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
             </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
@@ -75,7 +75,7 @@
             <nav id='main-navigation' role='navigation'>
               <ol class='navigation-list'>
                 <div class='search'>
-                  <a class='light-tint search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                  <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
                   <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                     <form action=''>
                       <a class='input-icon' data-icon='C' href='#'></a>
@@ -116,9 +116,7 @@
                           <a href='#'>Topic</a>
                         </li>
                         <li class='view-all'>
-                          <a class='italic serif' href='#'>
-                            View All &#187;
-                          </a>
+                          <a href='#'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
@@ -170,9 +168,7 @@
                           <a href='#'>Topic</a>
                         </li>
                         <li class='view-all'>
-                          <a class='italic serif smaller' href='#'>
-                            View All &#187;
-                          </a>
+                          <a href='#'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
@@ -203,9 +199,7 @@
                           <a href='#'>Topic</a>
                         </li>
                         <li class='view-all'>
-                          <a class='italic serif smaller' href='#'>
-                            View All &#187;
-                          </a>
+                          <a href='#'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
@@ -272,22 +266,22 @@
           </section>
         </main>
       </div>
-      <footer id='main-footer'>
+      <footer id='main-footer' role='contentinfo'>
         <div class='footer-content-wrap'>
-          <div class='content-row add-space-b'>
-            <div class='content-row add-space-b'>
-              <div class='show-for-print grid-2-per' id='subscribe-ad'>
-                <div class='content-row'>
-                  <h2 class='section-title sans center'>
-                    <span>
-                      Free
-                    </span>
-                    Home Subscription
-                  </h2>
-                  <hr class='partial thick'>
-                </div>
+          <div class='show-for-print content-row' id='subscribe-ad'>
+            <div class='grid-2-per add-space-b'>
+              <div class='content-row'>
+                <h2 class='section-title sans center'>
+                  <span>
+                    Free
+                  </span>
+                  Home Subscription
+                </h2>
+                <hr class='partial thick'>
+              </div>
+              <div class='content-row'>
                 <div class='grid-element'>
-                  <div class='img-content'>
+                  <div class='image-content'>
                     <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
                   </div>
                 </div>
@@ -307,6 +301,8 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
               <a class='small-block show-for-print' href='http://genomemag.com'></a>
@@ -341,7 +337,7 @@
               </ul>
             </div>
             <div class='col'>
-              <ul class='social'>
+              <ul class='social-list inline'>
                 <li>
                   <a data-icon='u' href='http://link/…'></a>
                 </li>

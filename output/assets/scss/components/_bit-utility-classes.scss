@@ -3,6 +3,8 @@
 
 
 // Utility Classes //
+
+// Hide/Show
 .hide-above-tablet-p {
     display: none !important;
 }
@@ -13,7 +15,7 @@
     display: none;
 }
 
-
+// Size
 .smaller {
     font-size: em-font(14px) !important;
     line-height:1em !important;
@@ -23,22 +25,74 @@
     font-size: em-font(20px) !important;
 }
 
-.light-tint {
-    color: $secondaryBackgroundCompliment;
+// Text Color
+.light-text-color {
+    color: $secondaryBackgroundCompliment !important;
 }
 
-.primary-tint {
-    color: $primary;
+.white-text-color {
+    color: $primaryLight !important;
 }
 
-.secondary-tint {
-    color: $secondary;
+.primary-text-color {
+    color: $primary !important;
 }
+
+.tertiary-text-color {
+    color: $tertiary !important;
+}
+
+.secondary-text-color {
+    color: $secondary !important;
+}
+
+.compliment-text-color {
+    color: $compliment !important;
+}
+
+
+
+// Background Color
+.light-bg {
+    background: $secondaryBackgroundCompliment !important;
+}
+
+.neutral-bg {
+    background: $primaryLinkHover !important;
+}
+.neutral-light-bg {
+    background: $primaryRule !important;
+}
+
+.white-bg {
+    background: $primaryLight !important;
+}
+
+.primary-bg {
+    background: $primary !important;
+}
+
+.tertiary-bg {
+    background: $tertiary !important;
+}
+
+.secondary-bg {
+    background: $secondary !important;
+}
+
+.compliment-bg {
+    background: $compliment !important;
+}
+
 
 .circle {
     border-radius: 1000px;
 }
 
+// Typography
+.capital-case {
+    text-transform: capitalize;;
+}
 .emph {
     font-weight: 700;
 }
@@ -358,18 +412,69 @@
     }
 }
 
-// Social Lists
-.social-list {
-    margin-top: 24px;
+// List Utilities
+.inline {
+    li {
+        display: inline-block;
+    }
+}
+.slats {
+    li {
+        padding:12px 0;
+        border-bottom: $primaryLinkHover 1px solid;
 
-    &.inline-icons {
-        li {
-            display: inline-block;
-            margin: 14px auto;
+        &.active {
+            padding-left: 14px;
+            a {
+                color: $primary;
+            }
+        }
+
+        &:last-child {
+            border-bottom:0px;
+        }
+
+    }
+}
+
+// Meta List
+ul.meta-list {
+    margin-bottom: 24px;
+    &.with-tags {
+        li:not(.list-title) {
+            a {
+                padding: 4px 10px;
+                background: $secondaryBackground;
+                border-radius: 14px 14px;
+                color: $primaryLink;
+                display: inline-block;
+                margin: 4px 2px;
+                transition: all .15s ease;
+            }
+            &:hover {
+                a {
+                    background: $primaryLinkHover;
+                    color: $primaryLight;
+                }
+            }
+        }
+
+        // Tag Backgrounds
+        &.tags-primary-bg li a:hover {
+            background: $primary !important;
+        }
+
+        &.tags-secondary-bg li a:hover {
+            background: $secondary !important;
+        }
+
+        &.tags-compliment-bg li a:hover {
+            background: $compliment !important;
         }
     }
 
 }
+
 
 
 // Comment Counter
@@ -466,7 +571,7 @@
 }
 
 
-// Text Dividers
+// Text Dividers/Ornaments
 .interpunct {
     padding: 0 2px;
     display: inline-block;
@@ -481,6 +586,10 @@
     font-size: 1em;
     top:-2px;
     position: relative;
+}
+.double-quote-right {
+    display: inline-block;
+    font-size: 1.4em;
 }
 
 

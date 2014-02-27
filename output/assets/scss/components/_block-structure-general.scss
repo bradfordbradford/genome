@@ -71,22 +71,11 @@
 
 
 // Push Footer, Fill Parent ------------------
-body,html,#content-wrap,.inner-bounds {height:100%; width:100%;}
+body,html,#content-wrap,.inner-bounds {height:100%!important; width:100%;}
 
 #nav-and-content-wrap,
 #content-wrap {
   min-height: 100%;
-
-  // NOTE: Flex allows #content-wrap (.paper-white) to fill this parent.
-  // Fallback IE - #content-wrap declares a min-height
-  // http://css-tricks.com/almanac/properties/f/flex-direction/
-
-  // display: -webkit-flex;
-  // display: -ms-flex;
-  // display: flex;
-  // -webkit-flex-direction: column;
-  // -ms-flex-direction: column;
-  // flex-direction: column;
 
   // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
   // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer

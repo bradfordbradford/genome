@@ -1,18 +1,17 @@
 
 .footer-content-wrap
 
-    .content-row.add-space-b
-
-        .content-row.add-space-b
-            #subscribe-ad.show-for-print.grid-2-per
-                .content-row
-                    %h2.section-title.sans.center
-                        %span
-                            Free
-                        Home Subscription
-                    %hr.partial.thick/
+    #subscribe-ad.show-for-print.content-row
+        .grid-2-per.add-space-b
+            .content-row
+                %h2.section-title.sans.center
+                    %span
+                        Free
+                    Home Subscription
+                %hr.partial.thick/
+            .content-row
                 .grid-element
-                    .img-content
+                    .image-content
                         %img{:src => "../assets/img/content/subscription-placeholder.jpg", :alt => "genome is the bomb-diggety"}/
                 .grid-element.serif
                     %p.lead.emph
@@ -27,7 +26,7 @@
 
 
 
-
+    .content-row.add-space-b
         %p.highlight.center.add-space-g
             Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
             %a.small-block.show-for-print{:href => "http://genomemag.com"}
@@ -51,7 +50,7 @@
                 %li
                     %a{:href => "http://link/…"} Contact Us
         .col
-            %ul.social
+            %ul.social-list.inline
                 %li
                     %a{:href => "http://link/…", :'data-icon'=>"u"}
                 %li

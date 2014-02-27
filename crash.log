@@ -1,18 +1,8 @@
-Crashlog created at 2014-02-26 17:37:50 -0600
+Crashlog created at 2014-02-27 14:43:15 -0600
 
 ===== MESSAGE:
 
-Haml::SyntaxError: layout /head/:16: unknown regexp options - at
-layout /head/:16: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
-...link href='/assets/css/app.css' rel='stylesheet'>\n<!--[if l...
-...                               ^
-layout /head/:16: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
-...ts/css/app.css' rel='stylesheet'>\n<!--[if lt IE 9]><link re...
-...                               ^
-layout /head/:16: syntax error, unexpected tSTRING_BEG, expecting tSTRING_DEND
-...cript src='../js/min/ie.min.js'></script><![endif]-->\n", 0,...
-...                               ^
-layout /head/:16: unterminated string meets end of file
+Haml::SyntaxError: The line was indented 2 levels deeper than the previous line.
 
 ===== COMPILATION STACK:
 
@@ -20,47 +10,49 @@ layout /head/:16: unterminated string meets end of file
 
 ===== STACK TRACE:
 
-  0. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:131:in `rescue in render'
-  1. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:128:in `render'
-  2. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/filters/haml.rb:23:in `run'
-  3. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  4. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/helpers/rendering.rb:120:in `render'
-  5. layout /default/:6:in `block in render'
-  6. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:129:in `eval'
-  7. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:129:in `render'
-  8. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/filters/haml.rb:23:in `run'
-  9. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  10. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
-  11. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
-  12. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
-  13. ./Rules:11:in `block in load'
-  14. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  15. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  16. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  17. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  18. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  19. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  20. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  21. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  22. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:395:in `block in run'
-  23. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:436:in `run_listeners_while'
-  24. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:394:in `run'
-  25. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  26. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  27. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  28. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:13:in `call'
-  29. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command_dsl.rb:185:in `block in runner'
-  30. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `call'
-  31. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `run_this'
-  32. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:251:in `run'
-  33. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:264:in `run'
-  34. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:59:in `block in run'
-  35. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  36. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  37. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:57:in `run'
-  38. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/bin/nanoc:19:in `<top (required)>'
-  39. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/bin/nanoc:23:in `load'
-  ... 42 more lines omitted. See full crash log for details.
+  0. layout /aside-column-article/:72
+  1. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/parser.rb:128:in `parse'
+  2. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:66:in `initialize'
+  3. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/filters/haml.rb:23:in `new'
+  4. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/filters/haml.rb:23:in `run'
+  5. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  6. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/helpers/rendering.rb:120:in `render'
+  7. item /article_blog/ (rep default):66:in `block in render'
+  8. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:129:in `eval'
+  9. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/haml-4.0.5/lib/haml/engine.rb:129:in `render'
+  10. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/filters/haml.rb:23:in `run'
+  11. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  12. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
+  13. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  14. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
+  15. ./Rules:7:in `block in load'
+  16. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  17. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  18. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  19. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  20. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  21. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  22. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  23. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  24. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:395:in `block in run'
+  25. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:436:in `run_listeners_while'
+  26. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:394:in `run'
+  27. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  28. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  29. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  30. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:13:in `call'
+  31. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command_dsl.rb:185:in `block in runner'
+  32. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `call'
+  33. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `run_this'
+  34. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:251:in `run'
+  35. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:264:in `run'
+  36. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:59:in `block in run'
+  37. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  38. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  39. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:57:in `run'
+  40. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/nanoc-3.6.7/bin/nanoc:19:in `<top (required)>'
+  41. /Users/lindseybradford/.rbenv/versions/2.0.0-p195/bin/nanoc:23:in `load'
+  ... 44 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
@@ -165,7 +157,7 @@ SSH_AUTH_SOCK => "/tmp/launch-BWXNrO/Listeners"
 TERM => "xterm-256color"
 TERM_PROGRAM => "Apple_Terminal"
 TERM_PROGRAM_VERSION => "326"
-TERM_SESSION_ID => "2DFB9BD1-6A7D-4AF6-9F78-BBF8C7AD2C91"
+TERM_SESSION_ID => "65F5C08D-132A-4448-A3BF-13766327A345"
 TMPDIR => "/var/folders/ms/3sgmmzcx1n58dznsx51l795m0000gn/T/"
 USER => "lindseybradford"
 __CF_USER_TEXT_ENCODING => "0x1F5:0:0"

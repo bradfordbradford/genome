@@ -3,19 +3,44 @@
 # Contrib Changelog
 
 ## Timeline
+* [02/27/2014]
+
+[x] Read through CSS & HTML - check that code is dry and semantic
+
+[x] HR with minicon
+
+[x] tag list on article footer
+
+[x] cat. list for aside
+
+[] Finalize and send to John
+
+[] grid+type
+
+[] overlay transitions
+
+[] firefox bug
+
+
+
+
+
+
+* [02/26/2014]
+[x] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
+
+[x] Print Style Basics
 
 * [02/25/2014]
 [x] responsive nav
 
-[ ] iPad Portrait - padding issue on offcanvas collapsible menu
+[x] iPad Portrait - padding issue on offcanvas collapsible menu
 
 [x] Touch Screens - don't show hover state, just click through
 
 [x] social nav on features
 
 [x] swap out close buttons for overlays
-
-[] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
 
 [x] prevent FOUC with body.init till bodyReady
 

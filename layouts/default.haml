@@ -5,7 +5,7 @@
     %head
         = render 'head'
 
-    %body.init.nav-add-social
+    %body.init
 
         -# Site Wrap Outer
         #site-wrap-outer
@@ -30,7 +30,7 @@
 
 
             -# Site Footer
-            %footer#main-footer
+            %footer#main-footer{:role=>'contentinfo'}
                 = render 'footer-primary'
 
         = render 'bodyscripts'

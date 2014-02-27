@@ -3,16 +3,32 @@ Burnlist: notes, mini bugs, etc
 ----
 
 
+# Working Through JSErrors
+- Top undefined - coming from AddThis because site is local. --non-issue
 
-Add Utilities:
-align-middle
 
-background-white
+# Misc Issues
+[ ] Video Overlay lags mfp-background
 
-background-neutral
+[ ] Home
+
+    - continue reading line height and icon
+
+    - featured article grid floats are backwards
+
+
+[ ] Rolls pages
+
+    - pagination on mobile
+
+
+[ ] Blank pages
+
+    - height doesn't push footer down
+
+
 
 # Stress Points
-
 == Range 3,2 (768 - 1224) ==
 
     Hero Feature, Inline Feature
@@ -56,26 +72,8 @@ background-neutral
 
 
 
-# Other Issues
-[ ] Addthis clickable?
-[ ] Video Overlay lags mfp-background
-[ ] Subtle Site Loader: along bottom?
 
 
 
 
 
-
-
-# Working through Mobile
-- Aside Bar
-    How to to handle this content?
-    Idea #1: Collapse content aside blocks just like 'Print Edition'? Possible place bookmark btn with mobile specific nav (unnecessary, I think).
-
-- Collections
-    Where to break to Single Col? Stress point: @760px
-
-- Social
-    Q: These show up AFTER reading the article. Is that desirable? Moving them would require code duplication (mobile+desktop).
-
-    A: Moved to top to match Blog w/o Photo for drier code, consistency, accesibility.

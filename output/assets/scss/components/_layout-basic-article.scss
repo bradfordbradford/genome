@@ -50,11 +50,9 @@
     }
 
 
+
     // No Photo
     &.no-photo {
-        .article-body-copy {
-            margin-top: 0px;
-        }
         header.article-header {
             @include span-columns(8, $total);
             min-height: 100%;
@@ -63,7 +61,7 @@
     }
 
     .article-footer {
-        padding: 0 0 76px;
+        padding: 14px 0 76px;
         border-bottom: 1px solid $primaryRule;
 
         &.author-profile-object {
