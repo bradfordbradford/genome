@@ -1,4 +1,7 @@
-/* Magnific Popup CSS */
+
+
+
+// Magnific Popup CSS
 .mfp-bg {
   top: 0;
   left: 0;
@@ -259,7 +262,7 @@ button::-moz-focus-inner {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: black; }
 
-/* Main image in popup */
+ // Main image in popup
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -272,7 +275,7 @@ img.mfp-img {
   padding: 40px 0 40px;
   margin: 0 auto; }
 
-/* The shadow behind the image */
+// The shadow behind the image
 .mfp-figure {
   line-height: 0; }
   .mfp-figure:after {
@@ -318,9 +321,7 @@ img.mfp-img {
   cursor: pointer; }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
+  // Remove all paddings around the image on small screen
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
@@ -398,7 +399,7 @@ img.mfp-img {
 // -----------------
 .mfp-zoom-in {
 
-  /* start state */
+  // start
   .mfp-content {
     opacity: 0;
     transition: all 0.2s ease-in-out;
@@ -410,7 +411,7 @@ img.mfp-img {
     transition: all 0.3s ease-out;
   }
 
-  /* animate in */
+  // animate in
   &.mfp-ready {
     .mfp-content {
       opacity: 1;
@@ -421,7 +422,7 @@ img.mfp-img {
     }
   }
 
-  /* animate out */
+  // animate out
   &.mfp-removing {
 
     .mfp-content {
@@ -435,114 +436,6 @@ img.mfp-img {
   }
 
 }
-
-// .mfp-zoom-in {
-
-//   // Start State
-//   &.mfp-bg {
-//     opacity:0;
-//     -webkit-transition: all 0.3s ease-out;
-//     -moz-transition: all 0.3s ease-out;
-//     transition: all 0.3s ease-out;
-//   }
-
-//   // Add Content
-//   &.mfp-ready {
-//     &.mfp-bg
-//     {
-//       opacity: 0.8;
-//     }
-//   }
-
-//   .mfp-content {
-//     opacity: 0;
-//     -webkit-transition: all 0.3s ease-out;
-//     -moz-transition: all 0.3s ease-out;
-//     transition: all 0.3s ease-out;
-//     -webkit-transform: scale(0.9);
-//     -moz-transform: scale(0.9);
-//     transform: scale(0.9);
-//   }
-
-//   &.mfp-ready {
-//     .mfp-content {
-//       opacity: 1;
-//       transform: scale(1);
-//       -webkit-transform: scale(1);
-//       -moz-transform: scale(1);
-//     }
-//   }
-
-//   // Remove
-//   &.mfp-removing {
-//     &.mfp-bg {
-//       -webkit-transition: all 0.3s ease-out;
-//       -moz-transition: all 0.3s ease-out;
-//       transition: all 0.3s ease-out;
-//     }
-
-//     .mfp-content {
-//       transform: scale(0.9);
-//       -webkit-transform: scale(0.9);
-//       -moz-transform: scale(0.9);
-//       opacity: 0;
-//     }
-//   }
-
-
-
-//   /* start state */
-//   // &.mfp-ready {
-//   //   &.mfp-bg {
-//   //     opacity: 0;
-//   //   }
-//   // }
-//   // .mfp-figure {
-//   //   opacity: 0;
-//   //   transition: all 0.4s ease-in-out,
-//   //               opacity 0.4s ease-in-out;
-//   //   transform: scale(0.9);
-//   // }
-
-//   // // &.mfp-bg,
-//   // // .mfp-preloader {
-//   // //   opacity: 0;
-//   // //   // transition: all 0.4s ease-in-out,
-//   //             // opacity 0.4s ease-in-out;
-//   // // }
-
-//   // /* animate in */
-//   // &.mfp-image-loaded {
-//   //   .mfp-figure {
-//   //     opacity: 1;
-//   //     transform: scale(1);
-//   //   }
-//   // }
-
-//   // &.mfp-ready {
-//   //   &.mfp-bg {
-//   //     opacity: 0.9;
-//   //   }
-//   // }
-
-//   // /* animate out */
-//   // &.mfp-removing {
-//   //   transition: all 0.4s ease-in-out,
-//   //               opacity 0.4s ease-in-out;
-
-//   //   .mfp-figure {
-//   //     transform: scale(0.9);
-//   //     opacity: 0;
-//   //   }
-//   //   &.mfp-bg {
-//   //     opacity: 0;
-//   //   }
-
-//   // }
-
-// }
-
-
 
 
 

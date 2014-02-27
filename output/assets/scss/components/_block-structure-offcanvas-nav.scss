@@ -42,7 +42,7 @@
             }
 
 
-            > a, .collapse-section-title {
+            > a, .collapse-header {
                 display: block;
                 outline: none;
                 padding: 0px 4px;
@@ -67,7 +67,7 @@
         }
 
         // Layout for Collapsible Content
-        .nav-item.collapse {
+        .collapse-area {
             padding-bottom: 0;
             border-bottom: 0px;
 

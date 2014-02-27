@@ -9,12 +9,25 @@
     <title>
       Genome - Roll Type- Blog
     </title>
+    <meta content='Genome Magazine' property='og:title'>
+    <meta content='Website' property='og:type'>
+    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='/' property='og:url'>
+    <meta content='Genome Magazine' property='og:site_name'>
+    <meta content='Genome Magazine' property='og:author'>
+    <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <!-- %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"} -->
+    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
     <link href='/assets/css/app.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
@@ -52,7 +65,7 @@
             </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
-                <a data-icon='L' href='/'></a>
+                <a data-icon='L' href='http://genome.com'></a>
                 <span>Genome</span>
               </h1>
               <div class='tagline'>
@@ -227,11 +240,11 @@
               <li class='nav-item current'>
                 <a href='#'>newsletter</a>
               </li>
-              <li class='nav-item collapse'>
-                <header>
+              <li class='nav-item collapse-area'>
+                <header class='collapse-header'>
                   <div class='collapse-section-title'>browse</div>
                 </header>
-                <ol class='sub-item'>
+                <ol class='collapse-content'>
                   <li>
                     <a href='https://www.google.com/'>By Topic</a>
                   </li>
@@ -266,18 +279,18 @@
                     <ul class='featured-list'>
                       <li>
                         <div class='media-object reversed'>
-                          <a class='text-meta' href='#'>science</a>
+                          <a class='text-meta' href='http://link/…'>science</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 Rewriting the Brain
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 By Author Rightspoke
                               </a>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 <span class='icon' data-icon='F'></span>
                                 3 min read
                               </a>
@@ -287,18 +300,18 @@
                       </li>
                       <li>
                         <div class='media-object'>
-                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='text-meta' href='http://link/…'>Treatment</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
-                              <a href=''>
+                              <a href='http://link/…'>
                                 Changing the Face of Chemo
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 By Author Rightspoke
                               </a>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 <span class='icon' data-icon='F'></span>
                                 3 min read
                               </a>
@@ -308,18 +321,18 @@
                       </li>
                       <li>
                         <div class='media-object'>
-                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='text-meta' href='http://link/…'>Treatment</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
-                              <a href=''>
+                              <a href='http://link/…'>
                                 Changing the Face of Chemo
                               </a>
                             </h3>
                             <p class='text-meta-sub light-tint'>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 By Author Rightspoke
                               </a>
-                              <a href='#'>
+                              <a href='http://link/…'>
                                 <span class='icon' data-icon='F'></span>
                                 3 min read
                               </a>
@@ -330,8 +343,8 @@
                     </ul>
                   </div>
                   <div class='aside-block'>
-                    <div class='collapse'>
-                      <header class='background-neutral'>
+                    <div class='collapse-area'>
+                      <header class='background-neutral collapse-header'>
                         <h2 class='section-title'>
                           Print
                           <span>
@@ -339,16 +352,16 @@
                           </span>
                         </h2>
                       </header>
-                      <div class='media-object with-large-image'>
+                      <div class='media-object with-large-image collapse-content'>
                         <img alt='image title' src='/assets/img/content/cover-placeholder.jpg'>
-                        <a class='text-meta' href='#'>genome magazine</a>
+                        <a class='text-meta' href='http://link/…'>genome magazine</a>
                         <div class='media-copy'>
                           <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
                           <p class='text-meta-sub contrast'>
                             Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
                           </p>
                         </div>
-                        <a class='primary btn' href='#'>Subscribe</a>
+                        <a class='primary btn' href='http://link/…'>Subscribe</a>
                       </div>
                     </div>
                   </div>
@@ -587,55 +600,85 @@
         </main>
       </div>
       <footer id='main-footer'>
-        <div class='footer-inner-wrap'>
-          <div class='footer-content-wrap'>
-            <div class='footer-site-map'>
-              <div class='content-row add-space-b'>
-                <p class='highlight center add-space-g'>
-                  Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-                </p>
-              </div>
-              <div class='content-row'>
-                <div class='col'>
-                  <ul>
-                    <li>
-                      <a href='#'>About Genome</a>
-                    </li>
-                    <li>
-                      <a href='#'>Partners & Allies</a>
-                    </li>
-                    <li>
-                      <a href='#'>Media Kit</a>
-                    </li>
-                  </ul>
+        <div class='footer-content-wrap'>
+          <div class='content-row add-space-b'>
+            <div class='content-row add-space-b'>
+              <div class='show-for-print grid-2-per' id='subscribe-ad'>
+                <div class='content-row'>
+                  <h2 class='section-title sans center'>
+                    <span>
+                      Free
+                    </span>
+                    Home Subscription
+                  </h2>
+                  <hr class='partial thick'>
                 </div>
-                <div class='col'>
-                  <ul>
-                    <li>
-                      <a href='#'>Privacy Kit</a>
-                    </li>
-                    <li>
-                      <a href='#'>Terms & Conditions</a>
-                    </li>
-                    <li>
-                      <a href='#'>Contact Us</a>
-                    </li>
-                  </ul>
+                <div class='grid-element'>
+                  <div class='img-content'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                  </div>
                 </div>
-                <div class='col'>
-                  <ul class='social'>
-                    <li>
-                      <a data-icon='u' href='#'></a>
-                    </li>
-                    <li>
-                      <a data-icon='v' href='#'></a>
-                    </li>
-                    <li>
-                      <a data-icon='w' href='#'></a>
-                    </li>
-                  </ul>
+                <div class='grid-element serif'>
+                  <p class='lead emph'>
+                    Quarterly Print Edition
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta.
+                  </p>
+                  <p class='lead italic small-block'>
+                    Subscribe online at:
+                    <a href='http://genomemag.com'>
+                      www.genomemag.com
+                    </a>
+                  </p>
                 </div>
               </div>
+            </div>
+            <p class='highlight center add-space-g'>
+              Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              <a class='small-block show-for-print' href='http://genomemag.com'></a>
+              www.genomemag.com
+            </p>
+          </div>
+          <div class='content-row footer-site-map'>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/…'>About Genome</a>
+                </li>
+                <li>
+                  <a href='http://link/…'>Partners & Allies</a>
+                </li>
+                <li>
+                  <a href='http://link/…'>Media Kit</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/…'>Privacy Kit</a>
+                </li>
+                <li>
+                  <a href='http://link/…'>Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href='http://link/…'>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul class='social'>
+                <li>
+                  <a data-icon='u' href='http://link/…'></a>
+                </li>
+                <li>
+                  <a data-icon='v' href='http://link/…'></a>
+                </li>
+                <li>
+                  <a data-icon='w' href='http://link/…'></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -645,7 +688,6 @@
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='/assets/js/min/app.min.js'></script>
     <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='/assets/js/min/nav-offcanvas.min.js'></script>
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};

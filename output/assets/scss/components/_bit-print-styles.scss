@@ -1,21 +1,17 @@
 
 
 
-
-// Print
-
+// Print Styles
 @media print {
 
       .show-for-print {display: inherit !important;}
-
       body {padding: 32px;font-size:12px;}
-
-      * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+      * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } // Black prints faster: h5bp.com/s
       .article-body-copy a {text-decoration: underline;}
       abbr[title]:after { content: " (" attr(title) ")"; }
-      .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+      .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } // Don't show links for images, or javascript/internal links
       pre, blockquote { page-break-inside: avoid; }
-      thead { display: table-header-group; } /* h5bp.com/t */
+      thead { display: table-header-group; }
       tr, img { page-break-inside: avoid; }
       img { max-width: 100% !important; }
       @page { margin: 0.5cm; }
@@ -41,7 +37,6 @@
         hr {
             background: #000 !important;
             margin: 16px auto 60px;
-            height: 6px;
         }
         .img-content {
             width: 80%;
@@ -84,48 +79,47 @@
         display: none !important;
       }
 
-      // Show
       section#main-site-navigation-wrap h1.logo {
         overflow: visible;
       }
 
 
-      // General Layout & Structure
+      // General Layout
       section#main-site-navigation-wrap {
         position: relative;
         box-shadow: none;
       }
-          // Padding, Placement
-          #content-wrap {
-            padding-top: 40px;
-          }
-          .featured_layout {
-            padding-bottom: 40px !important;
-          }
-          .block,
-          #main-footer .footer-content-wrap {
-            padding: 0px;
-          }
-          section#main-site-navigation-wrap .tagline, section#main-site-navigation-wrap h1.logo {
-            left:0px;
-          }
-          .hero {
-            height: auto !important;
-            margin: 32px auto;
-          }
-          .story-cover-content {
-            position: relative;
-          }
-          // Full Bleed
-          .primary_layout .primary-content,
-          .article_layout header.article-header,
-          .two-col-layout .col,
-          .featured_layout .primary-content {
-            @include fullBleed;
-            min-height: 100%;
-          }
+      #content-wrap {
+        padding-top: 40px;
+      }
+      .block,
+      #main-footer .footer-content-wrap {
+        padding: 0px;
+      }
+      section#main-site-navigation-wrap .tagline, section#main-site-navigation-wrap h1.logo {
+        left:0px;
+      }
+      .hero {
+        height: auto !important;
+        margin: 32px auto;
+      }
+      .story-cover-content {
+        position: relative;
+      }
+      .featured_layout {
+        padding-bottom: 40px !important;
+      }
 
-      // Typography
+      // Full Bleed
+      .primary_layout .primary-content,
+      .article_layout header.article-header,
+      .two-col-layout .col,
+      .featured_layout .primary-content {
+        @include fullBleed;
+        min-height: 100%;
+      }
+
+      // General Typography
       section#main-site-navigation-wrap h1.logo a {
         font-size: 5em;
         top: 0px;
@@ -149,11 +143,14 @@
       p {
         font-size: 16px;
       }
+
       .text-meta-highlight,
       .text-meta, .text-meta a {
         font-size: 12px;
       }
+
       .article-body-copy a[href]:after { content: " (" attr(href) ")"; }
+
       .article-body-copy h3 {
         font-size: 24px;
         margin-bottom: 12px;

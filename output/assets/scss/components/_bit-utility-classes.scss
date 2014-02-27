@@ -9,6 +9,9 @@
 .hide-below-tablet-p {
     display: inherit !important;
 }
+.show-for-print {
+    display: none;
+}
 
 
 .smaller {
@@ -57,6 +60,10 @@
     font-style: italic;
 }
 
+.normal {
+    font-style: normal;
+}
+
 .center {
     text-align: center;
     margin: inherit auto;
@@ -69,6 +76,8 @@
 .left {
     float:left;
 }
+
+
 
 // Pull Outs
 .pull-out-left {
@@ -476,10 +485,14 @@
 
 
 // Collapsable Sections
-.collapse {
-    header, > a {
+.collapse-area {
+    .collapse-header, > a {
         position: relative;
         outline: none;
+
+        &:hover {
+            cursor: pointer;
+        }
 
         .toggle-icon {
             position: absolute;
@@ -493,10 +506,16 @@
             transition: transform .4s ease-in-out;
         }
 
-        &.ui-accordion-header-active {
+        &.open {
+            .collapse-section-title {
+                color: $primaryLinkHover;
+            }
             .toggle-icon {
                 -webkit-transform: rotate(180deg);
             }
         }
+    }
+    .collapse-content {
+        display: none;
     }
 }

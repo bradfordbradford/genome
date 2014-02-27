@@ -4,6 +4,7 @@
  // Now, Now  //
 jQuery(document).ready(function($) {
 
+
     // Prevent FOUC while JS loads, then swap for Run ----------
     setTimeout(function () {
         $('body').removeClass('init').addClass('run');
@@ -13,7 +14,7 @@ jQuery(document).ready(function($) {
     // Menu ----------
     $('html.js.no-touch #main-navigation').accessibleMegaMenu();
 
-    // Scroll Position ----------
+    // Scroll Position (nav changes) ----------
     var mainNav = $('#main-site-navigation-wrap');
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
@@ -23,6 +24,17 @@ jQuery(document).ready(function($) {
         if (scroll < 640) {
             mainNav.removeClass('menu-slim').addClass('menu-thick');
         }
+    });
+
+    // Init Skrollr ----------
+    var s = skrollr.init({
+      edgeStrategy: 'set',
+      easing: {
+        WTF: Math.random,
+        inverted: function(p) {
+          return 1-p;
+        }
+      }
     });
 
     // Smooth Scroll ----------
@@ -59,18 +71,40 @@ jQuery(document).ready(function($) {
 
 
     // Collapsible Content
-    $(function() {
-      var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
-      $('#content-wrap .collapse header h2').append(toggleIcon);
-      $( "#content-wrap .collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
-    });
+    // Add Toggle
+    var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
+    $('.collapse-header').append(toggleIcon);
 
-    // OffCanvas Nav Collapsible Content
     $(function() {
-      var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
-      $('#offcanvas-navigation .collapse header .collapse-section-title').append(toggleIcon);
-      $( "#offcanvas-navigation .collapse").accordion({collapsible: true,active: false,animate:'swing'});
+      $(".collapse-header").click(function () {
+        if ($(this).hasClass('open')){
+            $(this).next('.collapse-content').slideUp('slow');
+            $(this).removeClass('open')
+        }
+        else {
+          // close other content
+          $('.collapse-header').not(this).next('.collapse-content').slideUp('slow');
+          $('.collapse-header').not(this).removeClass('open');
+
+          //open clicked content
+          $(this).next('.collapse-content').slideDown('slow');
+          // add open class
+          $(this).addClass('open');
+        }
+      });
     });
+    // $(function() {
+    //   var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
+    //   $('#content-wrap .collapse header h2').append(toggleIcon);
+    //   $( "#content-wrap .collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
+    // });
+
+    // // OffCanvas Nav Collapsible Content
+    // $(function() {
+    //   var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
+    //   $('#offcanvas-navigation .collapse header .collapse-section-title').append(toggleIcon);
+    //   $( "#offcanvas-navigation .collapse").accordion({collapsible: true,active: false,animate:'swing'});
+    // });
 
 
     // Slideshow ----------

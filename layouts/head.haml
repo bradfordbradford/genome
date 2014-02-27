@@ -3,6 +3,14 @@
 %title
     = "Genome - #{@item[:title]}"
 
+-# Meta Info
+%meta{:property => "og:title", :content => "Genome Magazine"}
+%meta{:property => "og:type", :content => "Website"}
+%meta{:property => "og:image", :content => "../img/icons/og-facebook.jpg"}
+%meta{:property => "og:url", :content => "/"}
+%meta{:property => "og:site_name", :content => "Genome Magazine"}
+%meta{:property => "og:author", :content => "Genome Magazine"}
+%meta{:property => "og:description", :content => ""}
 %meta{:name => "description", :content => ""}
 %meta{:name => "keywords", :content => ""}
 %meta{:name => "author", :content => ""}
@@ -13,12 +21,14 @@
 
 
 -# Favicon
-/ %link{:href => "../img/icons/favicon.ico", :rel => "shortcut icon"}
+%link{:href => "/assets/img/icons/favicon-152.png", :sizes => '152x152', :rel => "apple-touch-icon-precomposed"}
+%link{:href => "/assets/img/icons/favicon-alt-32.png", :sizes => '32x32', :rel => "apple-touch-icon-precomposed"}
+%link{:href => "/assets/img/icons/favicon-alt-16.png", :rel => "icon"}
 
 -# FONTS
-    %script{:src => "//use.typekit.net/gzy0ghu.js"}
-    %script
-        try{Typekit.load();}catch(e){}
+%script{:src => "//use.typekit.net/gzy0ghu.js"}
+%script
+    try{Typekit.load();}catch(e){}
 
 -# Modernizr
 %script{:src => "/assets/js/min/modernizr.min.js"}

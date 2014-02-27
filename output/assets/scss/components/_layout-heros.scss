@@ -7,6 +7,9 @@
 .story-cover-image {
     background: url('../img/content/feature-placeholder.jpg')no-repeat;
 }
+.story-cover-image-transition {
+    background: url('../img/content/feature-placeholder-transitionTo.jpg') no-repeat;
+}
 
 
 // Hero Utilities ----
@@ -75,6 +78,11 @@
     // bottom: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    // Set to Rel to allow Skrollr.js magic
+    .cover-content-inner {
+        position: relative;
+    }
 }
 
 // Cover Hover
@@ -93,8 +101,7 @@
     margin-top: 0;
     height: 100%;
     max-height: 600px;
-    background: lighten($primaryText, 15%) url('../img/patterns/background-pixelated.png') repeat;
-    // background-position: center;
+    background: lighten($primaryText, 10%) url('../img/patterns/background-pixelated-dark.png') repeat;
 
     .story-cover-hover-content {
         transition: transform .34s ease-in-out;
@@ -113,9 +120,9 @@
 }
 
 // Cover Image
-.story-cover-image {
+.story-cover-image,
+.story-cover-image-transition {
     position: absolute;
-    z-index: 0;
     padding-top: 20px;
     top: 0;
     left: 0;
@@ -126,19 +133,15 @@
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    transition: opacity .34s ease-in;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
-html.js.opacity {
-    .story-cover-image {
-        opacity:0;
-    }
-    body.run {
-        .story-cover-image {
-            opacity:1;
-        }
-    }
+.story-cover-image {
+    // transition: opacity .34s ease-in;
+    z-index: 1;
+}
+.story-cover-image-transition {
+    z-index: 0;
 }
 
 // Scroll Down Cover Arrow

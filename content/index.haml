@@ -6,7 +6,7 @@ title: Home
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
-                %a{:href => "https://www.google.com/"}
+                %a.cover-content-inner{:href => "https://www.google.com/", :'data-0'=>'top:0px;', :'data-500'=>'top:-40px;'}
                     .text-meta.hr
                         issue 01
 
@@ -21,9 +21,8 @@ title: Home
                     %p.sans.lead
                         How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
 
-                    %a.author-attrib.text-meta-highlight{:href => "#main-footer"} By Author Righter
+                    .author-attrib.text-meta-highlight By Author Righter
 
-                / %span.story-cover-arrow{:'data-icon' => "E"}
 
     %a.story-cover-hover-background{:href => "#"}
         .align-middle
@@ -34,7 +33,8 @@ title: Home
                         %span.read-this-arrow{:'data-icon' => "j"}
 
 
-    .story-cover-image
+    .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
+    .story-cover-image-transition
 
 
 

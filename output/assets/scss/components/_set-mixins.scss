@@ -196,7 +196,7 @@
 // Full Bleed
 // -------------------------------------------------------
 @mixin fullBleed {
-    margin: auto auto;
+    margin: auto auto ;
     display: block;
     float:none;
     width: auto;

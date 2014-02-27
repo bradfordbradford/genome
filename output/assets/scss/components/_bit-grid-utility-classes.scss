@@ -12,7 +12,7 @@
 .grid-2-per {
     .grid-element {
         @include span-columns(6, $total);
-        &:nth-child(even) {@include span-columns(6 omega, $total);}
+        &:nth-child(odd) {@include span-columns(6 omega, $total);}
     }
 
     &.major-r {
