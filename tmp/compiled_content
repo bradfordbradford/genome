@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"-ì<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"(ì<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -34,7 +34,7 @@
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -1639,7 +1639,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"Ù<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"Ô<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1675,7 +1675,7 @@ I"}<article>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -2685,7 +2685,7 @@ I"ë:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"èw<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"äw<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2721,7 +2721,7 @@ I"ë:<section class='primary_layout article_layout'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -3700,7 +3700,7 @@ I"~2<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"wV<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"rV<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3736,7 +3736,7 @@ I"~2<section class='primary_layout article_layout'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -4498,7 +4498,7 @@ I"_<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"z<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4534,7 +4534,7 @@ I"_<section class='primary_layout article_layout'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -5738,7 +5738,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"÷m<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"—m<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5774,7 +5774,7 @@ I"Ô<div class='inner-bounds paper-white block'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -6666,7 +6666,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I"≈:<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"¿:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6702,7 +6702,7 @@ I"*<section class='primary_layout article_layout no-photo'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -7049,7 +7049,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@CI"/blog_roll/;T{;{	;I"Œâ<!DOCTYPE html>
+;T;@CI"/blog_roll/;T{;{	;I"…â<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7085,7 +7085,7 @@ I"¨<section class='primary_layout'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -8379,7 +8379,7 @@ I"à@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@II"/search_results/;T{;{	;I"ãi<!DOCTYPE html>
+;T;@II"/search_results/;T{;{	;I"Üi<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8415,7 +8415,7 @@ I"à@<section class='primary_layout article_layout'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>
@@ -9378,7 +9378,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@OI"/story_roll/;T{;{	;I"Ìà<!DOCTYPE html>
+;T;@OI"/story_roll/;T{;{	;I"Ëà<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9414,7 +9414,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
-      <section id='nav-and-content-wrap'>
+      <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <div class='grid-2-per major-r'>

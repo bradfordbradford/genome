@@ -823,7 +823,7 @@ html,
   width: 100%;
 }
 
-#nav-and-content-wrap,
+#header-nav-wrap,
 #content-wrap {
   min-height: 100%;
   margin-bottom: -40px;
@@ -831,14 +831,14 @@ html,
   z-index: 10;
 }
 
-#nav-and-content-wrap:after,
+#header-nav-wrap:after,
 #content-wrap:after {
   content: "";
   display: block;
 }
 
 #main-footer,
-#nav-and-content-wrap:after,
+#header-nav-wrap:after,
 #content-wrap:after {
   height: auto;
 }
