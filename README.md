@@ -11,4 +11,4 @@ Genome
 What is this?
 -------------
 
-Genome is a medical periodical. This is the front-end design and dev for genomemag.com.
+Genome is a medical periodical. This is the front-end design and dev for genomemag.com
