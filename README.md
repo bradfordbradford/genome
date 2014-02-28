@@ -7,8 +7,15 @@ Genome
 
 
 * [What is this?](#what-is-this)
+* [Docs?](#docs)
 
 What is this?
 -------------
 
 Genome is a medical periodical. This is the front-end design and dev for genomemag.com
+
+Docs
+-------------
+For information on the basic structure, markup patterns, and a guide to stylesheets, check the wiki:
+
+[Genome Wiki](https://github.com/bradfordbradford/genome/wiki)
