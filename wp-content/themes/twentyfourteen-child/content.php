@@ -20,15 +20,17 @@
 		<div class="entry-meta">
 			<span class="cat-links">
 				 <?php
-				 // Display Topic
+// Get Topic Info
 					foreach((get_the_category()) as $childcat) {
 						if (cat_is_ancestor_of(5, $childcat)) {
-							echo '<a href="'.get_category_link($childcat->cat_ID).'">';
-							echo $childcat->cat_name . '</a>';
+							$topicLink = get_category_link($childcat->cat_ID);
+							$topicName = $childcat->cat_name;
+							$topicID   = $childcat->cat_ID;
 						}
 					}
-		?>
+				?>
 			</span>
+			<a href="<?php echo $topicLink; ?>"><?php echo $topicName; ?></a>
 		</div>
 		<?php
 			endif;
@@ -75,7 +77,7 @@
 		?>
 				
 		 <?php
-		 // Display Conditions
+// Display Conditions
 // 		 	echo "Condition: ";
 // 			foreach((get_the_category()) as $childcat) {
 // 				if (cat_is_ancestor_of(7, $childcat)) {
@@ -89,4 +91,58 @@
 	<?php endif; ?>
 
 	<?php the_tags( '<footer class="entry-meta">Tags: <span class="tag-links">', '', '</span></footer>' ); ?>
+	
+		<hr>
+	
+		<h2>Related Reading</h2>
+		 <?php
+// Find Condition ID
+			foreach((get_the_category()) as $childcat) {
+				if (cat_is_ancestor_of(7, $childcat)) {
+// Note: only keeps last value of many
+					$catsIn[] = $childcat->cat_ID;
+				}
+			}
+			$catsIn[] = $topicID;
+// print_r( $catsIn );
+		?>
+		<?php
+      		$args = array(
+			  'post_type'             => array( 'post' ),
+			  'showposts'             => 3,
+			  'category__in'          => $catsIn,
+			  'ignore_sticky_posts'   => true,
+			  'post__not_in'          => array( $post->ID ),
+			  // 'orderby'               => 'comment_count',
+			  //'order'                 => 'asc',
+			  // 'date_query' => array(
+			  //     array(
+			  //         'after' => '1 week ago',
+			  //     ),
+			  // ),
+      		);
+      		$related = new WP_Query($args);
+  		?>
+		<?php while ( $related->have_posts() ): $related->the_post(); ?>
+		  <?php the_post_thumbnail( 'thumbnail' ); ?>
+		  <?php echo get_comments_number(); ?>
+		  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a><br>
+		  <?php the_author(); ?><br>
+		  <?php
+// Display Topic
+			foreach((get_the_category()) as $childcat) {
+				if (cat_is_ancestor_of(5, $childcat)) {
+					echo '<a href="'.get_category_link($childcat->cat_ID).'">';
+					echo $childcat->cat_name . '</a>';
+				}
+			}
+		 ?>
+		 <?php the_excerpt(); ?>
+		 <br><br>
+	  <?php endwhile; ?>
+	  <?php
+// Reset WP_Query
+	  	wp_reset_query();
+	  ?>
+
 </article><!-- #post-## -->
