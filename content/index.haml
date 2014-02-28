@@ -1,0 +1,193 @@
+---
+title: Home
+---
+
+%header.hero.hero-featured-article.background-size-full.center
+    .story-cover-content.single-col-layout
+        .align-middle
+            .align-block
+                %a.cover-content-inner{:href => "https://www.google.com/", :'data-0'=>'top:0px;', :'data-500'=>'top:-40px;'}
+                    .text-meta.hr
+                        issue 01
+
+                    %h2
+                        Targeted
+                        %br/
+                        Treatment
+
+                    %hr.white-bg.partial/
+
+                    %p.sans.lead
+                        How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+
+                    .author-attrib.text-meta-highlight By Author Righter
+
+    %a.arrow-down.alternate{:href => "#scroll"}
+
+    .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
+    .story-cover-image-transition
+
+
+
+
+%section.primary_layout#scroll
+    .inner-bounds.block
+
+        .content-row
+
+            -# Aside Column
+            = render 'aside-column-home'
+
+
+            -# Primary Content Column
+            %section.primary-content
+
+                -# Featured Article
+                .content-row
+                    .content-block
+                        .featured-article
+                            -# Photo
+                            .article-photo.primary
+                                %img.load{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original'=>'/assets/img/content/Repubblica-30-dicembre-2012.jpg', :alt => ""}/
+
+                            %header.article-header
+                                .text-meta
+                                    %a{:href => "#"} Featured Article
+                                    %time December 22, 2013
+
+                                %h2
+                                    %a{:href => "#"}
+                                        The Changing World of Fitness & Sporting
+
+                                %a.text-meta-sub.light-text-color{:href => "#"}
+                                    By Author Righter
+
+                                %p
+                                    Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+                                    %a.text-meta.continue-reading{:href => "#"}
+                                        Continue Reading
+                                        %span.double-quote-right
+                                            &#187;
+
+
+                -# Complimentary Featured Articles
+                .content-row
+                    %section.collection.grid-2-per.content-block
+
+                        .media-object.with-large-image.grid-element.popup-content
+                            %img.load{:src => "/assets/img/content/th-feature-placeholder-2.jpg", :'data-original'=>'/assets/img/content/th-feature-placeholder-2.jpg', :alt => "image title"}/
+                            .popup-content-wrap
+                                .comment-counter-wrap
+                                    %a.icon.comment-counter{:href => ""}
+                                        %span.value 6
+
+                                %a.text-meta{:href => "#"} Treatment
+
+                                %a.media-copy{:href => "#"}
+                                    %h3.text-meta-header Changing the Face of Chemo
+                                    %p.text-meta-sub.light-text-color By Authur Righter
+                                    %p.text-meta-sub.light-text-color.sans-meta
+                                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+
+                        .media-object.with-large-image.grid-element.popup-content
+                            %img.load{:src => "/assets/img/content/th-feature-placeholder.jpg", :'data-original' => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                            .popup-content-wrap
+                                .comment-counter-wrap
+                                    %a.icon.comment-counter{:href => ""}
+                                        %span.value 6
+
+                                %a.text-meta{:href => "#"} Research
+
+                                %a.media-copy{:href => "#"}
+                                    %h3.text-meta-header Reworking Your Genetic Puzzle
+                                    %p.text-meta-sub.light-text-color By Authur Righter
+                                    %p.text-meta-sub.light-text-color.sans-meta
+                                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+
+
+                -# Complimentary Featured Articles - Horizontal Layout
+                .content-row
+                    %section.grid-2-per.content-block
+                        .media-object-horizontal-layout
+                            .grid-element.image-content
+                                %img.load{:src => "/assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "/assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+                                .comment-counter-wrap
+                                    %a.icon.comment-counter{:href => ""}
+                                        %span.value 6
+                            .grid-element
+                                %a.text-meta{:href => "#"} Technology
+                                .media-copy
+                                    %h3.text-meta-header
+                                        %a{:href => "#"}
+                                            Reworking Your Genetic Puzzle
+                                    %p.text-meta-sub.light-text-color By Authur Righter
+                                    %p.text-meta-sub.light-text-color.sans-meta
+                                        Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non…
+
+
+
+                -# Featured Article
+                .content-row
+                    .content-block
+                        .featured-article
+                            -# Photo
+                            .article-photo.primary
+                                %img.load{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original' => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
+
+                            %header.article-header
+                                .text-meta.tag
+                                    %a{:href => "#"} Featured Article
+                                    %time December 22, 2013
+
+                                %h2
+                                    %a{:href => "#"}
+                                        The Changing World of Fitness & Sporting
+
+                                %a.text-meta-sub.light-text-color{:href => "#"}
+                                    By Author Righter
+
+                                %p
+                                    Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+                                    %a.text-meta.continue-reading{:href => "#"}
+                                        Continue Reading
+                                        %span.double-quote-right
+                                            &#187;
+
+
+                -# Complimentary Featured Articles
+                .content-row
+                    %section.collection.grid-2-per.content-block
+
+                        .media-object.with-large-image.grid-element.popup-content
+                            %img.load{:src => "/assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "/assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+                            .popup-content-wrap
+                                .comment-counter-wrap
+                                    %a.icon.comment-counter{:href => ""}
+                                        %span.value 6
+
+                                %a.text-meta{:href => "#"} Treatment
+
+                                %a.media-copy{:href => "#"}
+                                    %h3.text-meta-header Changing the Face of Chemo
+                                    %p.text-meta-sub.light-text-color By Authur Righter
+                                    %p.text-meta-sub.light-text-color.sans-meta
+                                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+
+                        .media-object.with-large-image.grid-element.popup-content
+                            %img.load{:src => "/assets/img/content/th-feature-placeholder.jpg", :'data-original' => "/assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                            .popup-content-wrap
+                                .comment-counter-wrap
+                                    %a.icon.comment-counter{:href => ""}
+                                        %span.value 6
+
+                                %a.text-meta{:href => "#"} Research
+
+                                %a.media-copy{:href => "#"}
+                                    %h3.text-meta-header Reworking Your Genetic Puzzle
+                                    %p.text-meta-sub.light-text-color By Authur Righter
+                                    %p.text-meta-sub.light-text-color.sans-meta
+                                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor…
+
+
+                .content-row
+                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles

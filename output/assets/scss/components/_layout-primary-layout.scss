@@ -1,0 +1,30 @@
+
+
+
+// Layout: Primary (basis of home, column, blog) //
+.primary_layout {
+
+    // Aside Column
+    aside.aside-column-primary {
+        @include span-columns(4 omega, $total);
+    }
+
+
+    // Article Body Copy
+    .primary-content {
+        @include span-columns(8, $total);
+
+        .content-block {
+            @include clearlyFixed;
+            background: $primaryLight;
+            padding: 24px;
+            margin: 0 auto 20px;
+
+            .article-photo.primary {
+                margin: -24px -24px 0px -24px;
+            }
+        }
+    }
+
+
+}

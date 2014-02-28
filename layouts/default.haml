@@ -1,0 +1,36 @@
+!!! 5
+= render 'ie-conditionals'
+%html.no-js{:lang => "en"}
+
+    %head
+        = render 'head'
+
+    %body.init
+
+        -# Site Wrap Outer
+        #site-wrap-outer
+            -# Header & Content Wrap
+            %section#header-nav-wrap
+
+                -# Subscribe
+                = render 'layout-subscribe-door'
+
+                -# Header & Navigation
+                = render 'header-primary'
+
+            -# Site Wrap Inner
+            #site-wrap-inner
+
+
+                -# Content Wrap
+                %main#content-wrap{:role => "main"}
+
+
+                    = yield
+
+
+            -# Site Footer
+            %footer#main-footer{:role=>'contentinfo'}
+                = render 'footer-primary'
+
+        = render 'bodyscripts'

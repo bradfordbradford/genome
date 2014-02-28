@@ -1,0 +1,25 @@
+
+
+
+// Hide Content Fast, preven FUOC before JS loads
+html.js {
+    body.init {
+        #main-navigation .nav-item ol,
+        #offcanvas-navigation,
+        aside.add-social {
+            display:none !important;
+        }
+    }
+
+    // Opacity Elements
+    &.opacity {
+        body.init {
+            .story-cover-image,
+            .story-cover-image-transition
+             {
+                opacity:0;
+            }
+        }
+    }
+}
+

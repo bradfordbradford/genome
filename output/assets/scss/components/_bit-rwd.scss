@@ -1,0 +1,218 @@
+
+
+
+// Responsive Layouts //
+
+
+
+
+#range_3,
+#range_2,
+#range_1,
+#range_0, { // ---- Down from 1224 ----
+    // Layout - HERO: ARTICLE TITLE
+    // Avoid Col Collision
+    .hero.hero-article-title {
+        .col:last-child {
+            @include span-columns(5 omega, $total);
+        }
+    }
+}
+
+
+
+
+#range_1,
+#range_0 { // ---- Down from 768px ----
+
+    // Utilities: Hide/Show
+    .hide-above-tablet-p {
+        display: inherit !important;
+    }
+    .hide-below-tablet-p {
+        display: none !important;
+    }
+    // ---- //
+
+
+    // Layout - HEADER
+    // Header is done in MQs to prevent flash of desktop styles before JS loads
+    // See block-structure-header.scss
+    // For OffCanvas, see block-structure-offcanvas.scss
+
+
+    // Layout - BASIC ARTICLE
+    .article_layout {
+
+        // Full Bleed Items: REMOVE COLUMNS
+        header.article-header,
+        .article-photo-caption,
+        .article-photo.primary {
+            @include fullBleed;
+        }
+
+        // Flexible Height: Remove Min Heights
+        header.article-header {
+            min-height: 100% !important;
+        }
+    }
+    //----//
+
+
+
+    // Layout - PRIMARY
+    .primary_layout {
+        // Full Bleed Items: REMOVE COLUMNS
+        aside.aside-column-primary,
+        .primary-content {
+            @include fullBleed;
+        }
+    }
+    //----//
+
+
+
+    // Layout - FEATURED Article
+    .featured_layout {
+        // Full Bleed Items: REMOVE COLUMNS
+        .pull-out-right,
+        .pull-out-left {
+            @include fullBleed;
+        }
+
+            // CORRECT MARGINS & PADDING
+            // afer REMOVING COLUMNS
+
+            // Pull Outs: Correct Padding
+            .pull-out-right {
+                padding: 32px 0;
+            }
+
+            .pull-out-left {
+                padding:32px 16px 32px 0
+            }
+
+
+        // Center Elements
+        .article-photo {
+            text-align: center;
+        }
+
+
+    }
+    // ---- //
+
+
+    // Layout - HERO: ARTICLE TITLE
+    // Center copy
+    .hero.hero-article-title {
+        h2,
+        p.lead,
+        .text-meta-highlight {
+            text-align: center;
+
+            br {
+                display:none
+            }
+        }
+
+        // Full Bleed Items: REMOVE COLUMNS
+        .col, .col:last-child {
+            @include fullBleed;
+        }
+
+        // CORRECT MARGINS & PADDING
+        // afer REMOVING COLUMNS
+        h2 {
+            margin-bottom: 24px;
+        }
+    }
+    // ---- //
+
+
+
+    // Layout - HERO: ARTICLE TITLE
+    // Image Frame increase Height to prevent copy overflow
+    .hero:not(.hero-slideshow-section) {
+        .single-col-layout {
+            @include fullBleed;
+        }
+
+        // Hero Typography - Adjust Fonts
+        h2 {
+            font-size: em-font(60px);
+        }
+        p.lead {
+            font-size: em-font(20px);
+        }
+
+        // Hide Hover BG below iPad Portrait
+        .story-cover-hover-background {
+            display: none;
+        }
+
+        // .story-cover-hover-background h2 {
+        //     font-size: em-font(24px);
+        //     .read-this-arrow {
+        //         font-size:30px;
+        //     }
+        // }
+    }
+    // ---- //
+
+
+
+    // Layout - HERO: ARTICLE TITLE
+    // Fit Elements inside Image Frame
+    .hero.hero-article-section {
+        h2 {
+            font-size: em-font(56px);
+        }
+        p {
+            font-size: em-font(20px);
+        }
+    }
+    // ---- //
+
+
+}
+
+
+
+
+#range_0 { // ---- Down from 480px ----
+
+    // Layout - FEATURE
+    .featured_layout {
+        // Full Bleed Items: REMOVE COLUMNS
+        .primary-content {
+            @include fullBleed;
+        }
+    }
+    //----//
+
+    // Layout - GRID UTILITIES
+    // Full Bleed Items: REMOVE COLUMNS
+    .grid-3-per, .grid-2-per {
+        .grid-element {
+            @include fullBleed;
+        }
+    }
+
+    // Collection Items: Correct Height
+    .collection {
+        .media-object {
+            height: auto;
+        }
+    }
+    // ---- //
+
+    // Article Meta: Avoid Collision by breaking to another line
+    .article-meta .right {
+        display: block;
+        float:none;
+        clear: both;
+        line-height: 18px;
+    }
+
+}
