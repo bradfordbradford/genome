@@ -22,18 +22,12 @@ title: Home
 
                     .author-attrib.text-meta-highlight By Author Righter
 
-
-    %a.story-cover-hover-background{:href => "/article_feature"}
-        .align-middle
-            .align-block
-                .story-cover-hover-content
-                    %h2
-                        Read This Cover Story
-                        %span.read-this-arrow{:'data-icon' => "j"}
-
+    %a.arrow-down.alternate{:href => "#scroll"}
 
     .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
     .story-cover-image-transition
+
+
 
 
 %section.primary_layout
@@ -46,7 +40,7 @@ title: Home
 
 
             -# Primary Content Column
-            %section.primary-content
+            %section.primary-content#scroll
 
                 -# Featured Article
                 .content-row

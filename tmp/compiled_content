@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"°î<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"%ì<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -279,18 +279,7 @@
                 </div>
               </div>
             </div>
-            <a class='story-cover-hover-background' href='/article_feature'>
-              <div class='align-middle'>
-                <div class='align-block'>
-                  <div class='story-cover-hover-content'>
-                    <h2>
-                      Read This Cover Story
-                      <span class='read-this-arrow' data-icon='j'></span>
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </a>
+            <a class='arrow-down alternate' href='#scroll'></a>
             <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
             <div class='story-cover-image-transition'></div>
           </header>
@@ -540,7 +529,7 @@
                     </ul>
                   </div>
                 </aside>
-                <section class='primary-content'>
+                <section class='primary-content' id='scroll'>
                   <div class='content-row'>
                     <div class='content-block'>
                       <div class='featured-article'>
@@ -761,8 +750,9 @@
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -825,7 +815,7 @@
     </script>
   </body>
 </html>
-;T:rawI"¬'%header.hero.hero-featured-article.background-size-full.center
+;T:rawI"’&%header.hero.hero-featured-article.background-size-full.center
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
@@ -845,18 +835,12 @@
 
                     .author-attrib.text-meta-highlight By Author Righter
 
-
-    %a.story-cover-hover-background{:href => "/article_feature"}
-        .align-middle
-            .align-block
-                .story-cover-hover-content
-                    %h2
-                        Read This Cover Story
-                        %span.read-this-arrow{:'data-icon' => "j"}
-
+    %a.arrow-down.alternate{:href => "#scroll"}
 
     .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
     .story-cover-image-transition
+
+
 
 
 %section.primary_layout
@@ -869,7 +853,7 @@
 
 
             -# Primary Content Column
-            %section.primary-content
+            %section.primary-content#scroll
 
                 -# Featured Article
                 .content-row
@@ -1019,7 +1003,7 @@
 
 
                 .content-row
-                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"ÎH<header class='hero hero-featured-article background-size-full center'>
+                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"ÃG<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -1041,18 +1025,7 @@
       </div>
     </div>
   </div>
-  <a class='story-cover-hover-background' href='/article_feature'>
-    <div class='align-middle'>
-      <div class='align-block'>
-        <div class='story-cover-hover-content'>
-          <h2>
-            Read This Cover Story
-            <span class='read-this-arrow' data-icon='j'></span>
-          </h2>
-        </div>
-      </div>
-    </div>
-  </a>
+  <a class='arrow-down alternate' href='#scroll'></a>
   <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
   <div class='story-cover-image-transition'></div>
 </header>
@@ -1302,7 +1275,7 @@
           </ul>
         </div>
       </aside>
-      <section class='primary-content'>
+      <section class='primary-content' id='scroll'>
         <div class='content-row'>
           <div class='content-block'>
             <div class='featured-article'>
@@ -1666,7 +1639,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"€<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"Ï<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2263,8 +2236,9 @@ I"}<article>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -2711,7 +2685,7 @@ I"ë:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"vw<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"áw<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3300,8 +3274,9 @@ I"ë:<section class='primary_layout article_layout'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -3725,7 +3700,7 @@ I"~2<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"^V<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"oV<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4136,8 +4111,9 @@ I"~2<section class='primary_layout article_layout'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -4522,7 +4498,7 @@ I"_<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"KÅ<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"w<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4782,33 +4758,25 @@ I"_<section class='primary_layout article_layout'>
       <div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
           <div class='background-white'>
-            <header class='hero center hero-article-title background-size-full'>
-              <div class='story-cover-content two-col-layout inner-bounds remove-footer-offset'>
-                <div class='align-middle align-bottom'>
+            <header class='hero hero-featured-article background-size-full center hero-tall'>
+              <div class='story-cover-content single-col-layout'>
+                <div class='align-middle'>
                   <div class='align-block'>
-                    <div class='cover-content-inner' data-0='top:0px;' data-500='top:-60px;'>
-                      <div class='icon play-video'></div>
-                      <div class='col'>
-                        <h2>
-                          Breaking
-                          <br>
-                          the
-                          <br>
-                          Code
-                        </h2>
-                      </div>
-                      <div class='col'>
-                        <hr class='neutral-bg'>
-                        <p class='lead'>
-                          How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-                        </p>
-                        <a class='author-attrib text-meta-highlight primary-text-color' href='#'>By Big Science Media</a>
-                        <a class='author-attrib text-meta-highlight primary-text-color' href='#'>Illustraion by Emiliano Ponzi</a>
-                      </div>
+                    <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
+                      <h2>
+                        Targeted
+                        <br>
+                        Treatment
+                      </h2>
+                      <hr class='white-bg partial'>
+                      <p class='sans lead'>
+                        How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                      </p>
+                      <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
                       <div class='content-row'>
-                        <a class='scroll-down-arrow' data-icon='E' href='#scroll-here'></a>
+                        <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -4821,7 +4789,7 @@ I"_<section class='primary_layout article_layout'>
                   <div class='content-row'>
                     <article class='article-body-copy'>
                       <p>
-                        <span class='lead-with-small-caps primary-text-color'>Lorem ipsum dolor sit amet,</span>
+                        <span class='lead-with-small-caps tertiary-text-color'>Lorem ipsum dolor sit amet,</span>
                         consectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat tristique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                         raesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -4829,7 +4797,7 @@ I"_<section class='primary_layout article_layout'>
                       <p>
                         Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur.
                       </p>
-                      <div class='pull-out-right small-pull'>
+                      <div class='pull-out-right'>
                         <div class='article-photo'>
                           <img alt='' class='load' data-original='/assets/img/content/article-placeholder-slim.jpg' src='/assets/img/content/article-placeholder-slim.jpg'>
                           <a class='btn media-action no-text overlay-view-image' data-icon='b' href='/assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'></a>
@@ -4864,12 +4832,11 @@ I"_<section class='primary_layout article_layout'>
                 <div class='story-cover-content single-col-layout'>
                   <div class='align-middle'>
                     <div class='align-block'>
-                      <div class='icon' data-icon='m'></div>
                       <h2>
                         The Genetic Code
                       </h2>
                       <hr class='thick white-bg partial'>
-                      <a class='author-attrib text-meta-highlight primary-text-color' href='#'>By Big Science Media</a>
+                      <a class='author-attrib text-meta-highlight tertiary-text-color' href='#'>By Big Science Media</a>
                       <p class='italic lead'>
                         The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
                       </p>
@@ -4917,12 +4884,10 @@ I"_<section class='primary_layout article_layout'>
                   </div>
                 </div>
               </section>
-              <div class='content-row slideshow-figcaption'>
-                <p class='text-meta-sub sans-meta'>
-                  The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
-                </p>
-              </div>
-              <section class='featured_layout inner-bounds block'>
+              <!-- .content-row.slideshow-figcaption -->
+              <!-- %p.text-meta-sub.sans-meta -->
+              <!-- The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. -->
+              <section class='featured_layout inner-bounds'>
                 <section class='primary-content'>
                   <div class='content-row'>
                     <article class='article-body-copy add-space-t'>
@@ -4936,8 +4901,9 @@ I"_<section class='primary_layout article_layout'>
                       <p>
                         Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                       </p>
+                      <hr class='article-break health-journal-hr'>
                       <h3>Fluctuat Nec Mergitur</h3>
-                      <div class='pull-out-right big-pull'>
+                      <div class='pull-out-right'>
                         <div class='article-photo with-bottom-border'>
                           <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
                           <a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'>
@@ -4953,7 +4919,7 @@ I"_<section class='primary_layout article_layout'>
                       <p>
                         Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
                       </p>
-                      <div class='pull-out-right big-pull'>
+                      <div class='pull-out-left'>
                         <div class='article-photo'>
                           <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
                           <div class='overlay-view-slideshow'>
@@ -4968,9 +4934,9 @@ I"_<section class='primary_layout article_layout'>
                           </div>
                         </div>
                         <div class='article-photo-caption with-bottom-border'>
-                          <p class='text-meta-sub smaller'>
+                          <div class='text-meta-sub'>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                          </p>
+                          </div>
                         </div>
                       </div>
                       <p>
@@ -5053,8 +5019,9 @@ I"_<section class='primary_layout article_layout'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -5117,40 +5084,31 @@ I"_<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"áA-# Featured Hero
+;T;	I"@-# Featured Hero
 .background-white
-    %header.hero.center.hero-article-title.background-size-full
-        .story-cover-content.two-col-layout.inner-bounds.remove-footer-offset
-
-            .align-middle.align-bottom
+    %header.hero.hero-featured-article.background-size-full.center.hero-tall
+        .story-cover-content.single-col-layout
+            .align-middle
                 .align-block
-                    .cover-content-inner{:'data-0'=>'top:0px;', :'data-500'=>'top:-60px;'}
-                        .icon.play-video
+                    %a.cover-content-inner{:href => "https://www.google.com/", :'data-0'=>'top:0px;', :'data-500'=>'top:-40px;'}
 
-                        .col
-                            %h2
-                                Breaking
-                                %br/
-                                the
-                                %br/
-                                Code
+                        %h2
+                            Targeted
+                            %br/
+                            Treatment
 
-                        .col
-                            %hr.neutral-bg/
+                        %hr.white-bg.partial/
 
-                            %p.lead
-                                How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+                        %p.sans.lead
+                            How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
 
-                            %a.author-attrib.text-meta-highlight.primary-text-color{:href => "#"} By Big Science Media
-                            %a.author-attrib.text-meta-highlight.primary-text-color{:href => "#"} Illustraion by Emiliano Ponzi
+                        .author-attrib.text-meta-highlight.tertiary-text-color By Author Righter
 
                         .content-row
-                            %a.scroll-down-arrow{:href => "#scroll-here",:'data-icon' => "E"}
-
+                            %a.arrow-down{:href => "#scroll-here",:'data-icon' => "E"}
 
         .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
         .story-cover-image-transition
-
 
     #read-time-wrap
         -# Featured Content Paper
@@ -5167,7 +5125,7 @@ I"_<section class='primary_layout article_layout'>
 
                         -# P with small caps + primary tint
                         %p
-                            %span.lead-with-small-caps.primary-text-color Lorem ipsum dolor sit amet,
+                            %span.lead-with-small-caps.tertiary-text-color Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat tristique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                             raesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -5175,7 +5133,7 @@ I"_<section class='primary_layout article_layout'>
                             Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur.
 
                         -# Photo - Enlarge
-                        .pull-out-right.small-pull
+                        .pull-out-right
                             .article-photo
                                 %img.load{:src => "/assets/img/content/article-placeholder-slim.jpg", :'data-original' => "/assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
                                 %a.btn.media-action.no-text.overlay-view-image{:href => "/assets/img/content/article-placeholder-slim.jpg",:title => "Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs", :'data-icon'=>"b"}
@@ -5209,14 +5167,13 @@ I"_<section class='primary_layout article_layout'>
             .story-cover-content.single-col-layout
                 .align-middle
                     .align-block
-                        .icon{:'data-icon'=>"m"}
 
                         %h2
                             The Genetic Code
 
                         %hr.thick.white-bg.partial/
 
-                        %a.author-attrib.text-meta-highlight.primary-text-color{:href => "#"} By Big Science Media
+                        %a.author-attrib.text-meta-highlight.tertiary-text-color{:href => "#"} By Big Science Media
 
                         %p.italic.lead
                             The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
@@ -5259,13 +5216,13 @@ I"_<section class='primary_layout article_layout'>
                             %img{:src => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
                             %figcaption
                                 Nonsectetur adipiscing elit. Praesent interdum augue nisi.
-        .content-row.slideshow-figcaption
-            %p.text-meta-sub.sans-meta
-                The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
+        / .content-row.slideshow-figcaption
+        /     %p.text-meta-sub.sans-meta
+        /         The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
 
 
         -# Featured Content Card
-        %section.featured_layout.inner-bounds.block
+        %section.featured_layout.inner-bounds
 
             -# Primary Content Column
             %section.primary-content
@@ -5281,9 +5238,11 @@ I"_<section class='primary_layout article_layout'>
                         %p
                             Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
 
+                        %hr.article-break.health-journal-hr
+
                         %h3 Fluctuat Nec Mergitur
 
-                        .pull-out-right.big-pull
+                        .pull-out-right
                             -# Photo - with caption and video
                             .article-photo.with-bottom-border
                                 %img.load{:src => "/assets/img/content/article-placeholder.jpg", :'data-original' => "/assets/img/content/article-placeholder.jpg", :alt => ""}/
@@ -5300,7 +5259,7 @@ I"_<section class='primary_layout article_layout'>
                         %p
                             Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
 
-                        .pull-out-right.big-pull
+                        .pull-out-left
                             -# Photo - with caption and slideshow
                             .article-photo
                                 %img.load{:src => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original' => "/assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
@@ -5316,7 +5275,7 @@ I"_<section class='primary_layout article_layout'>
 
                             -# Photo Caption
                             .article-photo-caption.with-bottom-border
-                                %p.text-meta-sub.smaller
+                                .text-meta-sub
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
 
@@ -5355,34 +5314,26 @@ I"_<section class='primary_layout article_layout'>
                         %p
                             Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                             %span.light-text-color.inline-block.end-mark{:'data-icon'=>"G"};T;
-I"î><div class='background-white'>
-  <header class='hero center hero-article-title background-size-full'>
-    <div class='story-cover-content two-col-layout inner-bounds remove-footer-offset'>
-      <div class='align-middle align-bottom'>
+I"=<div class='background-white'>
+  <header class='hero hero-featured-article background-size-full center hero-tall'>
+    <div class='story-cover-content single-col-layout'>
+      <div class='align-middle'>
         <div class='align-block'>
-          <div class='cover-content-inner' data-0='top:0px;' data-500='top:-60px;'>
-            <div class='icon play-video'></div>
-            <div class='col'>
-              <h2>
-                Breaking
-                <br>
-                the
-                <br>
-                Code
-              </h2>
-            </div>
-            <div class='col'>
-              <hr class='neutral-bg'>
-              <p class='lead'>
-                How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
-              </p>
-              <a class='author-attrib text-meta-highlight primary-text-color' href='#'>By Big Science Media</a>
-              <a class='author-attrib text-meta-highlight primary-text-color' href='#'>Illustraion by Emiliano Ponzi</a>
-            </div>
+          <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
+            <h2>
+              Targeted
+              <br>
+              Treatment
+            </h2>
+            <hr class='white-bg partial'>
+            <p class='sans lead'>
+              How Personalized Medicine is developing health care tailored to your unique genetic blueprint ‚Äî and how that affects you today.
+            </p>
+            <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
             <div class='content-row'>
-              <a class='scroll-down-arrow' data-icon='E' href='#scroll-here'></a>
+              <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -5395,7 +5346,7 @@ I"î><div class='background-white'>
         <div class='content-row'>
           <article class='article-body-copy'>
             <p>
-              <span class='lead-with-small-caps primary-text-color'>Lorem ipsum dolor sit amet,</span>
+              <span class='lead-with-small-caps tertiary-text-color'>Lorem ipsum dolor sit amet,</span>
               consectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat tristique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
               raesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
               tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -5403,7 +5354,7 @@ I"î><div class='background-white'>
             <p>
               Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur.
             </p>
-            <div class='pull-out-right small-pull'>
+            <div class='pull-out-right'>
               <div class='article-photo'>
                 <img alt='' class='load' data-original='/assets/img/content/article-placeholder-slim.jpg' src='/assets/img/content/article-placeholder-slim.jpg'>
                 <a class='btn media-action no-text overlay-view-image' data-icon='b' href='/assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'></a>
@@ -5438,12 +5389,11 @@ I"î><div class='background-white'>
       <div class='story-cover-content single-col-layout'>
         <div class='align-middle'>
           <div class='align-block'>
-            <div class='icon' data-icon='m'></div>
             <h2>
               The Genetic Code
             </h2>
             <hr class='thick white-bg partial'>
-            <a class='author-attrib text-meta-highlight primary-text-color' href='#'>By Big Science Media</a>
+            <a class='author-attrib text-meta-highlight tertiary-text-color' href='#'>By Big Science Media</a>
             <p class='italic lead'>
               The PreDx test measures seven  substances called ‚Äúbiomarkers‚Äù in your blood that are linked to the development of type 2 diabetes.
             </p>
@@ -5491,12 +5441,10 @@ I"î><div class='background-white'>
         </div>
       </div>
     </section>
-    <div class='content-row slideshow-figcaption'>
-      <p class='text-meta-sub sans-meta'>
-        The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews.
-      </p>
-    </div>
-    <section class='featured_layout inner-bounds block'>
+    <!-- .content-row.slideshow-figcaption -->
+    <!-- %p.text-meta-sub.sans-meta -->
+    <!-- The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. The President talks about climate change, Iran, the atmosphere in Washington, and the future of American policy in these outtakes from a series of exclusive interviews. -->
+    <section class='featured_layout inner-bounds'>
       <section class='primary-content'>
         <div class='content-row'>
           <article class='article-body-copy add-space-t'>
@@ -5510,8 +5458,9 @@ I"î><div class='background-white'>
             <p>
               Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
             </p>
+            <hr class='article-break health-journal-hr'>
             <h3>Fluctuat Nec Mergitur</h3>
-            <div class='pull-out-right big-pull'>
+            <div class='pull-out-right'>
               <div class='article-photo with-bottom-border'>
                 <img alt='' class='load' data-original='/assets/img/content/article-placeholder.jpg' src='/assets/img/content/article-placeholder.jpg'>
                 <a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'>
@@ -5527,7 +5476,7 @@ I"î><div class='background-white'>
             <p>
               Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
             </p>
-            <div class='pull-out-right big-pull'>
+            <div class='pull-out-left'>
               <div class='article-photo'>
                 <img alt='' class='load' data-original='/assets/img/content/Repubblica-30-dicembre-2012.jpg' src='/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
                 <div class='overlay-view-slideshow'>
@@ -5542,9 +5491,9 @@ I"î><div class='background-white'>
                 </div>
               </div>
               <div class='article-photo-caption with-bottom-border'>
-                <p class='text-meta-sub smaller'>
+                <div class='text-meta-sub'>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                </p>
+                </div>
               </div>
             </div>
             <p>
@@ -5789,7 +5738,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"Ωm<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"Œm<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6344,8 +6293,9 @@ I"Ô<div class='inner-bounds paper-white block'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -6716,7 +6666,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I"¨:<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"Ω:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7023,8 +6973,9 @@ I"*<section class='primary_layout article_layout no-photo'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -7098,7 +7049,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@CI"/blog_roll/;T{;{	;I"µâ<!DOCTYPE html>
+;T;@CI"/blog_roll/;T{;{	;I"∆â<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7795,8 +7746,9 @@ I"¨<section class='primary_layout'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -8427,7 +8379,7 @@ I"à@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@II"/search_results/;T{;{	;I"ri<!DOCTYPE html>
+;T;@II"/search_results/;T{;{	;I"Éi<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8949,8 +8901,9 @@ I"à@<section class='primary_layout article_layout'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>
@@ -9425,7 +9378,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@OI"/story_roll/;T{;{	;I"‘à<!DOCTYPE html>
+;T;@OI"/story_roll/;T{;{	;I"Âà<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10114,8 +10067,9 @@ I"'<div class='inner-bounds remove-footer-offset block'>
           <div class='content-row add-space-b'>
             <p class='highlight center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
-              <a class='small-block show-for-print' href='http://genomemag.com'></a>
-              www.genomemag.com
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
             </p>
           </div>
           <div class='content-row footer-site-map'>

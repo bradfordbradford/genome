@@ -44,7 +44,8 @@
 
 // Taller Hero
 .hero-tall {
-    height:800px;
+    height:800px !important;
+    max-height:800px !important;
 }
 
 // Align Middle
@@ -145,7 +146,7 @@
 }
 
 // Scroll Down Cover Arrow
-.scroll-down-arrow {
+.arrow-down {
     position: relative;
     top: 24px;
     z-index: 3;
@@ -156,15 +157,34 @@
     margin-top: 40px;
     transition: all .15s ease-in-out;
     &:hover {
-        color: $primary;
+        color: $primaryLink;
     }
+}
+
+// Scroll Down Arrow and Wrap
+.arrow-down.alternate {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    height: 21px;
+    width: 46px;
+    bottom:0px;
+    top: inherit;
+    margin: 0 0 0 -23px;
+    left: 50%;
+    background: url('../img/icons/arrow-down.png') no-repeat center bottom;
 }
 
 // Hover on Hero
 .hero:hover {
-    .scroll-down-arrow {
+    .arrow-down {
         opacity: 1;
         transform: translate3d(0, 5px, 0);
+
+        &.alternate {
+            opacity:.7
+            transform: translate3d(0, 2px, 0);
+        }
     }
     .story-cover-hover-background {
         opacity: .8;
@@ -179,30 +199,12 @@
 .hero {
     position: relative;
     height: 600px;
+    overflow: hidden;
 
 
     // Hero Article - Title Type
     &.hero-article-title{
         height: 800px;
-
-        // .inner-hero {
-        //     padding: 80px 0;
-        //     width:100%;
-        //     position: absolute;
-        //     bottom: 0px;
-        // }
-        // .col-wrap {
-        //     @include span-columns(9, $total);
-        //     @include center-columns;
-        // }
-        // .col{
-        //     @include span-columns(5, $total);
-        // }
-        // .col:last-child {
-        //     margin: 16px auto 0;
-        //     @include span-columns(7 omega, $total);
-        // }
-
     }
 
 

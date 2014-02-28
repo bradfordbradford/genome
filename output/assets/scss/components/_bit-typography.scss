@@ -104,10 +104,10 @@ abbr {
   text-transform: none; }
 
 // Blockquotes
-blockquote {}
-cite {}
-blockquote,
-blockquote p {}
+// blockquote {}
+// cite {}
+// blockquote,
+// blockquote p {}
 
 
 
@@ -173,10 +173,10 @@ p {
 blockquote {
     -webkit-font-smoothing: initial;
     font-family: $serif;
-    font-weight: 500;
+    font-weight: 800;
     font-style: italic;
-    font-size: em-font(30px);
-    line-height: 1.4em;
+    font-size: 1.75em; // 28px
+    line-height: 1.2em; // 33.6px
     text-align: center;
     margin: 0 auto 24px;
 
@@ -201,7 +201,7 @@ blockquote {
 
 // Article Body P, .end-mark, H3
 .article-body-copy {
-    h3 {
+    h2 {
         font-size: em-font(48px);
         font-weight: 700;
         letter-spacing: -0.009em;
@@ -209,10 +209,18 @@ blockquote {
         margin:0 0 16px;
     }
 
+    h3 {
+        font-size: em-font(36px);
+        font-weight: 700;
+        letter-spacing: -0.009em;
+        line-height: 1em;
+        margin:0 0 16px;
+    }
+
     p {
-        line-height: 1.42em;
+        line-height: 1.64em;
         font-size: em-font(20px);
-        margin: 32px auto;
+        margin: 0 auto 32px;
     }
     .end-mark {
         position: relative;
@@ -268,8 +276,8 @@ blockquote {
 .text-meta-sub {
     font-family: $serif;
     font-style: italic;
-    font-size: em-font(12px);
-    line-height:1.64em;
+    font-size: 0.75em; // 12px
+    line-height:1.125em; // 18px
     margin: 4px auto 20px;
     display: block;
 }
@@ -323,6 +331,9 @@ blockquote {
         &:hover {
             color: $primaryLink;
         }
+    }
+    p {
+        line-height: 1.42em;
     }
     .tag {
         padding:26px 16px 20px 0px;
@@ -492,7 +503,7 @@ hr {
         background-repeat: no-repeat;
         border: 0 none;
         height: 47px !important;
-        margin: 15px 0;
+        margin: 0 0 32px;
         &.health-journal-hr {
             background-image: url("../img/ornaments/article-break-health-journal-icon-retina.png") !important;
         }

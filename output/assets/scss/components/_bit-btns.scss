@@ -29,7 +29,8 @@
     margin: 0 auto;
 
     &.special {
-        font-size: em-font(18px);
+        font-size: em-font(14px);
+        padding: 20px 30px;
         font-style: italic;
         font-family: $serif;
         text-transform: capitalize;
@@ -45,8 +46,8 @@
             position: absolute;
             height: 100%;
             width: 100%;
-            line-height: 2.24em;
-            font-size: 1.42em;
+            line-height: 2.2em;
+            font-size: 1.8em;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
@@ -86,7 +87,7 @@
         color: $primaryLight;
 
         &:hover {
-            background: darken($compliment, 2%);
+            background: darken($primary, 2%);
         }
     }
 

@@ -5,6 +5,18 @@
 ## Timeline
 * [02/27/2014]
 
+
+[] change subscribe form-box icon to out arrow
+
+
+- bugs-
+[] overlay transitions
+
+[] firefox bug
+
+[] Finalize and send to John
+--
+
 [x] Read through CSS & HTML - check that code is dry and semantic
 
 [x] HR with minicon
@@ -13,14 +25,14 @@
 
 [x] cat. list for aside
 
-[] Finalize and send to John
+- design audit-
+[x] remove featured hover bg, add read btn with book, add white full bleed bar with down-arrow
 
-[] grid+type
+[x] check for css/html consistency for pull-outs
 
-[] overlay transitions
+[x] secondar btn hover to primary
 
-[] firefox bug
-
+[x] grid+type
 
 
 
