@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"%ì<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"-ì<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -29,7 +29,7 @@
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -283,7 +283,7 @@
             <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
             <div class='story-cover-image-transition'></div>
           </header>
-          <section class='primary_layout'>
+          <section class='primary_layout' id='scroll'>
             <div class='inner-bounds block'>
               <div class='content-row'>
                 <aside class='aside-column-primary'>
@@ -529,7 +529,7 @@
                     </ul>
                   </div>
                 </aside>
-                <section class='primary-content' id='scroll'>
+                <section class='primary-content'>
                   <div class='content-row'>
                     <div class='content-block'>
                       <div class='featured-article'>
@@ -843,7 +843,7 @@
 
 
 
-%section.primary_layout
+%section.primary_layout#scroll
     .inner-bounds.block
 
         .content-row
@@ -853,7 +853,7 @@
 
 
             -# Primary Content Column
-            %section.primary-content#scroll
+            %section.primary-content
 
                 -# Featured Article
                 .content-row
@@ -1029,7 +1029,7 @@
   <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
   <div class='story-cover-image-transition'></div>
 </header>
-<section class='primary_layout'>
+<section class='primary_layout' id='scroll'>
   <div class='inner-bounds block'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -1275,7 +1275,7 @@
           </ul>
         </div>
       </aside>
-      <section class='primary-content' id='scroll'>
+      <section class='primary-content'>
         <div class='content-row'>
           <div class='content-block'>
             <div class='featured-article'>
@@ -1639,7 +1639,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"Ï<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"Ù<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1670,7 +1670,7 @@ I"}<article>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -2685,7 +2685,7 @@ I"ë:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"áw<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"èw<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2716,7 +2716,7 @@ I"ë:<section class='primary_layout article_layout'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -3700,7 +3700,7 @@ I"~2<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"oV<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"wV<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3731,7 +3731,7 @@ I"~2<section class='primary_layout article_layout'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -4498,7 +4498,7 @@ I"_<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"w<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4529,7 +4529,7 @@ I"_<section class='primary_layout article_layout'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -5738,7 +5738,7 @@ I"Ô<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"Œm<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"÷m<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5769,7 +5769,7 @@ I"Ô<div class='inner-bounds paper-white block'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -6666,7 +6666,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I"Ω:<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"≈:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6697,7 +6697,7 @@ I"*<section class='primary_layout article_layout no-photo'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -7049,7 +7049,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@CI"/blog_roll/;T{;{	;I"∆â<!DOCTYPE html>
+;T;@CI"/blog_roll/;T{;{	;I"Œâ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7080,7 +7080,7 @@ I"¨<section class='primary_layout'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -8379,7 +8379,7 @@ I"à@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@II"/search_results/;T{;{	;I"Éi<!DOCTYPE html>
+;T;@II"/search_results/;T{;{	;I"ãi<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8410,7 +8410,7 @@ I"à@<section class='primary_layout article_layout'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
@@ -9378,7 +9378,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@OI"/story_roll/;T{;{	;I"Âà<!DOCTYPE html>
+;T;@OI"/story_roll/;T{;{	;I"Ìà<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9409,7 +9409,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
       try{Typekit.load();}catch(e){}
     </script>
     <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/app.css' rel='stylesheet'>
+    <link href='/assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>

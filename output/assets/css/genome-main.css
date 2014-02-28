@@ -3842,6 +3842,7 @@ aside.aside-column-primary .icon {
 }
 
 .hero:hover .arrow-down.alternate {
+  opacity: .7;
   -webkit-transform: translate3d(0, 2px, 0);
   -ms-transform: translate3d(0, 2px, 0);
   transform: translate3d(0, 2px, 0);
