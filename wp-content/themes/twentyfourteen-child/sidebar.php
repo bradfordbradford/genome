@@ -46,43 +46,15 @@
       <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a><br>
       <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read<br>
       <?php the_author(); ?><br>
-      <?php 
-      if ( in_category( 'Topic' )) {
-      	//the_category(', ', 'single');
-      	$args = array(
-          // 'show_option_all'    => '',
-          // 'orderby'            => 'name',
-          // 'order'              => 'ASC',
-          // 'style'              => '',
-          // 'show_count'         => 0,
-          // 'hide_empty'         => 1,
-          // 'use_desc_for_title' => 1,
-          'child_of'           => 5,
-          // 'feed'               => '',
-          // 'feed_type'          => '',
-          // 'feed_image'         => '',
-          // 'exclude'            => '',
-          // 'exclude_tree'       => '',
-          // 'include'            => '',
-          // 'hierarchical'       => 1,
-          // 'title_li'           => __( 'Categories' ),
-          // 'show_option_none'   => __('No categories'),
-          // 'number'             => null,
-          // 'echo'               => 1,
-          // 'depth'              => 0,
-          // 'current_category'   => 0,
-          // 'pad_counts'         => 0,
-          // 'taxonomy'           => 'category',
-          // 'walker'             => null
-        );
-
-        wp_list_categories( $args );
-      } elseif ( in_category( array( 'Tropical Birds', 'small-mammals' ) )) {
-      	// They are warm-blooded...
-      } else {
-      	// & c.
-      }
-      ?>
+ 	 <?php
+ 	 // Display Topic
+ 		foreach((get_the_category()) as $childcat) {
+ 			if (cat_is_ancestor_of(5, $childcat)) {
+ 				echo '<a href="'.get_category_link($childcat->cat_ID).'">';
+ 				echo $childcat->cat_name . '</a>';
+ 			}
+ 		}
+     ?>
       <br><br>
   <?php endwhile; ?>
 </div><!-- #secondary -->
