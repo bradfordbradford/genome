@@ -9,3 +9,16 @@ output/.sass-cache
 output/assets/.sass-cache
 
 
+
+# Project Files
+
+content
+layouts
+lib
+tmp
+Rules
+crash.log
+nanoc.yaml
+output/assets/scss
+output/assets/haml
+output/assets/genome-custom-font.zip
