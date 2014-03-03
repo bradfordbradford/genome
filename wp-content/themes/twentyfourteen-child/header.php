@@ -44,36 +44,227 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<?php if ( get_header_image() ) : ?>
-	<div id="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-		</a>
-	</div>
-	<?php endif; ?>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
-			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
-			</div>
-
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<h1 class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></h1>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav>
-		</div>
-
-		<div id="search-container" class="search-box-wrapper hide">
-			<div class="search-box">
-				<?php get_search_form(); ?>
-			</div>
-		</div>
-	</header><!-- #masthead -->
-
-	<div id="main" class="site-main">
+  <body class='init'>
+    <div id='site-wrap-outer'>
+      <section id='header-nav-wrap'>
+        <div class='g-door' id='newsletter-door'>
+          <div class='inner-bounds block'>
+            <div class='grid-2-per major-r'>
+              <div class='grid-element'>
+                <div class='g-door-image-content'>
+                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                </div>
+              </div>
+              <div class='grid-element'>
+                <h2 class='section-title left smaller'>
+                  Subscribe to Genome
+                </h2>
+                <div class='form-box'>
+                  <form action=''>
+                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <input placeholder='jane@youremail.com' type='text'>
+                  </form>
+                </div>
+                <a class='close-g-door' data-icon='D' href='x'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id='main-site-navigation-wrap'>
+          <div class='site-navigation-inner'>
+            <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
+              <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
+            </div>
+            <header id='site-title' role='banner'>
+              <h1 class='logo'>
+                <a data-icon='L' href='<?php echo esc_url( home_url( '/' ) ); ?>'></a>
+                <span>Genome</span>
+              </h1>
+              <div class='tagline'>
+                Your Health is Personal
+              </div>
+            </header>
+            <nav id='main-navigation' role='navigation'>
+              <ol class='navigation-list'>
+                <div class='search'>
+                  <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                    <form action=''>
+<?php // get_search_form(); ?>
+                      <a class='input-icon' data-icon='C' href='#'></a>
+                      <input id='search' placeholder='What were you looking for?' type='text'>
+                    </form>
+                  </div>
+                </div>
+                <li class='nav-item open-g-door hide-below-tablet-p'>
+                  <a href='#'>subscribe</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>browse</a>
+                  <ol>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Issue</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Condition</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Topic</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>newsletter</a>
+                </li>
+              </ol>
+            </nav>
+            <aside class='add-social'>
+              <div class='addthis_toolbox social-list'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Share</span>
+                </a>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Email</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <nav class='hide-above-tablet-p' id='offcanvas-navigation' role='navigation'>
+          <div class='offcanvas-inner'>
+            <ol class='navigation-list'>
+              <li class='nav-item current'>
+                <a href='#'>newsletter</a>
+              </li>
+              <li class='nav-item collapse-area'>
+                <header class='collapse-header'>
+                  <div class='collapse-section-title'>browse</div>
+                </header>
+                <ol class='collapse-content'>
+                  <li>
+                    <a href='https://www.google.com/'>By Topic</a>
+                  </li>
+                  <li>
+                    <a href='https://www.google.com/'>By Condition</a>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>subscribe</a>
+              </li>
+            </ol>
+            <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
+          </div>
+        </nav>
+      </section>

@@ -8,13 +8,14 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
-	<p><?php the_post_thumbnail_caption(); ?></p>
-	<p><?php // the_post_thumbnail_title(); ?></p>
-
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds background-white block'>
+              <div class='content-row'>
+                <div class='content-row'>
+                  <header class='article-header'>
+                  		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
 		<div class="entry-meta">
 			<span class="cat-links">
 				 <?php
@@ -31,7 +32,14 @@
 			<a href="<?php echo $topicLink; ?>"><?php echo $topicName; ?></a>
 		</div>
 		<?php
-			endif;
+			endif; ?>
+                
+	<?php twentyfourteen_post_thumbnail(); ?>
+	<p><?php the_post_thumbnail_caption(); ?></p>
+	<p><?php // the_post_thumbnail_title(); ?></p>
+
+	<header class="entry-header">
+    <?php
 
 			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
