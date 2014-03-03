@@ -12,6 +12,7 @@ Genome
 What is this?
 -------------
 
+<<<<<<< HEAD
 Genome is a medical periodical. This is the front-end design and dev for genomemag.com
 
 Docs
@@ -19,3 +20,6 @@ Docs
 For information on the basic structure, markup patterns, and a guide to stylesheets, check the wiki:
 
 [Genome Wiki](https://github.com/bradfordbradford/genome/wiki)
+=======
+Genome is a medical periodical. This is the front-end design and dev for genomemag.com.
+>>>>>>> 45d725b25c3fe6259343dc85f6c59235dd5f10b8

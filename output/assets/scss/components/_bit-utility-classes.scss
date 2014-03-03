@@ -1,0 +1,633 @@
+
+
+
+
+// Utility Classes //
+
+// Hide/Show
+.hide-above-tablet-p {
+    display: none !important;
+}
+.hide-below-tablet-p {
+    display: inherit !important;
+}
+.show-for-print {
+    display: none;
+}
+
+// Size
+.smaller {
+    font-size: em-font(14px) !important;
+    line-height:1em !important;
+}
+
+.larger {
+    font-size: em-font(20px) !important;
+}
+
+// Text Color
+.light-text-color {
+    color: $secondaryBackgroundCompliment !important;
+}
+
+.white-text-color {
+    color: $primaryLight !important;
+}
+
+.primary-text-color {
+    color: $primary !important;
+}
+
+.tertiary-text-color {
+    color: $tertiary !important;
+}
+
+.secondary-text-color {
+    color: $secondary !important;
+}
+
+.compliment-text-color {
+    color: $compliment !important;
+}
+
+
+
+// Background Color
+.light-bg {
+    background: $secondaryBackgroundCompliment !important;
+}
+
+.neutral-bg {
+    background: $primaryLinkHover !important;
+}
+.neutral-light-bg {
+    background: $primaryRule !important;
+}
+
+.white-bg {
+    background: $primaryLight !important;
+}
+
+.primary-bg {
+    background: $primary !important;
+}
+
+.tertiary-bg {
+    background: $tertiary !important;
+}
+
+.secondary-bg {
+    background: $secondary !important;
+}
+
+.compliment-bg {
+    background: $compliment !important;
+}
+
+
+.circle {
+    border-radius: 1000px;
+}
+
+// Typography
+.capital-case {
+    text-transform: capitalize;;
+}
+.emph {
+    font-weight: 700;
+}
+
+.serif {
+    font-family: $serif !important;
+}
+
+.sans {
+    font-family: $sans !important;
+}
+
+.sans-normal {
+    font-family: $sans !important;
+    font-style: normal !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+    margin: inherit auto;
+}
+
+.right {
+    float:right;
+}
+
+.left {
+    float:left;
+}
+
+
+
+// Pull Outs
+.pull-out-left {
+    margin-left: -160px;
+    float: left;
+    display: inline;
+    width: 410px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 32px 40px 0 0;
+
+    // Quotes
+    &.with-Qmark {
+        padding: 40px 40px 0 0;
+        margin-bottom: 0;
+        width: 400px;
+        margin-left: -160px;
+    }
+}
+.pull-out-right {
+    margin-right: -140px;
+    float: right;
+    display: inline;
+    width: 390px;
+    box-sizing: border-box;
+    padding: 32px 0 20px 32px;
+    .article-photo-caption {
+        margin-bottom:0;
+    }
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.add-space-b {
+    margin-bottom: 56px;
+}
+
+.add-space-t {
+    margin-top: 56px;
+}
+
+.add-small-space-t {
+    margin-top: 20px;
+}
+
+.add-padding-b {
+    padding-bottom: 42px;
+}
+
+.add-padding-t {
+    padding-top: 42px;
+}
+
+// Gutter Padding
+.add-space-g {
+    padding: 0 56px;
+}
+
+// Author Pic
+.author-pic {
+    width: 84px;
+    height: 84px;
+}
+
+// Article Caption
+.article-photo-caption {
+    margin: 12px 0;
+    .text-meta-sub {
+        margin:0;
+    }
+
+    // Article Photo with Border
+    &.with-bottom-border {
+        border-bottom: 1px solid $primaryRule;
+        padding-bottom: 8px;
+    }
+
+}
+
+
+
+
+
+// Article Photos, Media Buttons
+.article-photo {
+    position: relative;
+    &.with-bottom-border {
+        border-bottom: 1px solid $primaryRule;
+        padding-bottom: 40px;
+        .btn.media-action {
+            bottom:56px;
+        }
+    }
+
+    // Article Photo with Border
+    &.with-top-border {
+        border-top: 1px solid $primaryRule;
+        padding-top: 40px;
+    }
+    .btn.media-action {
+        position: absolute;
+        bottom: 12px;
+        display: block;
+        left: 24px;
+        &.no-text {
+            left:12px;
+        }
+    }
+}
+
+
+
+// Cards
+.background-white {
+    background: $primaryLight;
+}
+.background-neutral {
+    background: $secondaryBackground;
+    .card-inner-wrap {
+        padding: 20px 18px;
+    }
+    .section-title {
+        padding: 16px 18px 12px;
+    }
+}
+
+
+// Featured List
+.featured-list {
+    @include noMarPad;
+
+    &:not(.author-list) li {
+        border-bottom: $primaryLinkHover 1px solid;
+    }
+
+    .view-all {
+        padding:24px 0 0;
+    }
+}
+
+// Roll List
+.roll-list {
+    li {
+        margin: 0 auto 24px;
+        header .text-meta {
+            color: $secondaryBackgroundCompliment;
+            &:hover {color:$primaryLinkHover;}
+        }
+        .media-copy {
+            .text-meta-sub {
+                font-family: $sans;
+                font-style: normal;
+                font-size: em-font(16px);
+                line-height: 1.375em;
+                .text-meta {
+                    margin-top: 12px;
+                    display: block;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+// Media Object
+.media-object {
+    margin: 8px 0;
+
+    &.with-small-image {
+        img {
+            float:left;
+            display: block;
+            width: 64px;
+            height:64px;
+        }
+    }
+
+    &.with-large-image {
+        text-align: center;
+        img {
+            margin: 0 auto 12px;
+            display: block;
+        }
+    }
+
+
+    &.reversed {
+        img {
+            float: right;
+            margin-left: 12px;
+        }
+    }
+}
+
+// Media Object - Author Type
+.media-object.author-type {
+    text-align: center;
+
+    .author-pic {
+        height: 125px;
+        width: 120px;
+        margin: 0 auto;
+    }
+    .author-attrib {
+        font-size: em-font(18px);
+        line-height: .75em;
+        text-transform: uppercase;
+
+    }
+    .author-attrib, .text-meta-sub {
+        transition: color .15s ease-in-out;
+    }
+    a:hover {
+        .author-attrib, .text-meta-sub {color: $secondary;}
+    }
+}
+
+// Media Object Horizontal Layout
+.media-object-horizontal-layout {
+    @include clearlyFixed;
+
+    .image-content {
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .comment-counter-wrap {
+        bottom: -28px;
+        top: inherit;
+    }
+}
+
+
+// Collection
+.collection {
+    // padding-top: 76px;
+    .media-copy {
+        width: 77%;
+        margin: 0 auto;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+    .media-object {
+        text-align: left;
+        position: relative;
+        height: 18em;
+        overflow: hidden;
+    }
+
+    // Add Divider Lines
+    &.with-dividers .media-object {
+        &:before {
+            content:'';
+            position: absolute;
+            left: -14px;
+            height: 100%;
+            width: 1px;
+            background: $primaryRule;
+        }
+    }
+    .media-object:nth-child(3n) {
+        &:before {width:0px;}
+    }
+}
+
+// Author Profile Object
+.author-profile-object {
+
+    .author-pic {
+        float: left;
+        margin-right: 16px;
+    }
+    .author-attrib {
+        margin: 8px 0 0;
+    }
+}
+
+// List Utilities
+.inline {
+    li {
+        display: inline-block;
+    }
+}
+.slats {
+    li {
+        padding:12px 0;
+        border-bottom: $primaryLinkHover 1px solid;
+
+        &.active {
+            padding-left: 14px;
+            a {
+                color: $primary;
+            }
+        }
+
+        &:last-child {
+            border-bottom:0px;
+        }
+
+    }
+}
+
+// Meta List
+ul.meta-list {
+    margin-bottom: 24px;
+    &.with-tags {
+        li:not(.list-title) {
+            a {
+                padding: 4px 10px;
+                background: $secondaryBackground;
+                border-radius: 14px 14px;
+                color: $primaryLink;
+                display: inline-block;
+                margin: 4px 2px;
+                transition: all .15s ease;
+            }
+            &:hover {
+                a {
+                    background: $primaryLinkHover;
+                    color: $primaryLight;
+                }
+            }
+        }
+
+        // Tag Backgrounds
+        &.tags-primary-bg li a:hover {
+            background: $primary !important;
+        }
+
+        &.tags-secondary-bg li a:hover {
+            background: $secondary !important;
+        }
+
+        &.tags-compliment-bg li a:hover {
+            background: $compliment !important;
+        }
+    }
+
+}
+
+
+
+// Comment Counter
+.comment-counter-wrap {
+    display: block;
+    text-align: center;
+    margin-bottom:18px;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.icon.comment-counter {
+    background: $primaryText;
+    padding: 7px 12px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: $primaryLight;
+    font-weight: 700;
+    transition: background .15s ease-in-out;
+
+
+
+    &:after {
+        border-top: 10px solid $primaryText;
+        border-left: 10px solid $primaryText;
+        border-bottom: 10px solid $primaryLight;
+        position: absolute;
+        top: 20px;
+        left: 9pxpx;
+        z-index: 2;
+        height: 0px;
+        width: 0px;
+        display: block;
+        content: '';
+        transition: border .15s ease-in-out;
+    }
+
+    &:hover {
+        background: $secondary;
+        &:after {
+            border-top: 10px solid $secondary;
+            border-left: 10px solid $secondary;
+            border-bottom: 10px solid $primaryLight;
+        }
+    }
+}
+
+
+// Collection Popup Content
+.popup-content.media-object.with-large-image {
+    .popup-content-wrap {
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        position: relative;
+        padding: 22px 6px 12px;
+        background:$primaryLight;
+        transition: transform .2s ease-in-out .15s;
+    }
+
+    img {
+        margin-bottom:0px;
+    }
+
+     p.sans-meta {
+        opacity: 0;
+        transition: opacity .5s ease-in-out .25s;
+    }
+
+    &:hover {
+        .popup-content-wrap {
+            transform: translate3d(0,-100px, 0);
+
+        }
+        .text-meta-header {
+            color: $primaryLink;
+        }
+
+         p.sans-meta {
+            opacity: 1;
+        }
+
+        .icon.comment-counter {
+            background: $secondary;
+            &:after {
+                border-top: 10px solid $secondary;
+                border-left: 10px solid $secondary;
+                border-bottom: 10px solid $primaryLight;
+            }
+        }
+    }
+}
+
+
+// Text Dividers/Ornaments
+.interpunct {
+    padding: 0 2px;
+    display: inline-block;
+    font-size: 2em;
+    top: 3px;
+    line-height: 0px;
+    position: relative;
+}
+.ver-line {
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 1em;
+    top:-2px;
+    position: relative;
+}
+.double-quote-right {
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+
+// Collapsable Sections
+.collapse-area {
+    .collapse-header, > a {
+        position: relative;
+        outline: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .toggle-icon {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            font-size: 1.75em;
+            padding: 0px;
+            margin: -14px 14px 0 0;
+
+            color: $secondaryBackgroundCompliment;
+            transition: transform .4s ease-in-out;
+        }
+
+        &.open {
+            .collapse-section-title {
+                color: $primaryLinkHover;
+            }
+            .toggle-icon {
+                -webkit-transform: rotate(180deg);
+            }
+        }
+    }
+    .collapse-content {
+        display: none;
+    }
+}
