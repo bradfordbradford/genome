@@ -87,38 +87,38 @@
 }
 
 // Cover Hover
-.story-cover-hover-background {
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    opacity: 0;
-    transition: all .15s ease-in-out;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    bottom: 0px;
-    top: 0px;
-    max-width: 100%;
-    margin-top: 0;
-    height: 100%;
-    max-height: 600px;
-    background: lighten($primaryText, 10%) url('../img/patterns/background-pixelated-dark.png') repeat;
+// .story-cover-hover-background {
+//     -moz-backface-visibility: hidden;
+//     -webkit-backface-visibility: hidden;
+//     opacity: 0;
+//     transition: all .15s ease-in-out;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     z-index: 2;
+//     bottom: 0px;
+//     top: 0px;
+//     max-width: 100%;
+//     margin-top: 0;
+//     height: 100%;
+//     max-height: 600px;
+//     background: lighten($primaryText, 10%) url('../img/patterns/background-pixelated-dark.png') repeat;
 
-    .story-cover-hover-content {
-        transition: transform .34s ease-in-out;
-        transform: translate3d(0px, 10px, 0px);
-    }
+//     .story-cover-hover-content {
+//         transition: transform .34s ease-in-out;
+//         transform: translate3d(0px, 10px, 0px);
+//     }
 
-    h2 {
-        font-weight: 200;
-    }
-    .read-this-arrow {
-        display: inline-block;
-        font-size: 60px;
-        position: relative;
-        top: 8px;
-    }
-}
+//     h2 {
+//         font-weight: 200;
+//     }
+//     .read-this-arrow {
+//         display: inline-block;
+//         font-size: 60px;
+//         position: relative;
+//         top: 8px;
+//     }
+// }
 
 // Cover Image
 .story-cover-image,
@@ -186,12 +186,12 @@
             transform: translate3d(0, 2px, 0);
         }
     }
-    .story-cover-hover-background {
-        opacity: .8;
-    }
-    .story-cover-hover-background .story-cover-hover-content {
-        transform: translate3d(0, -10px, 0);
-    }
+    // .story-cover-hover-background {
+    //     opacity: .8;
+    // }
+    // .story-cover-hover-background .story-cover-hover-content {
+    //     transform: translate3d(0, -10px, 0);
+    // }
 
 }
 

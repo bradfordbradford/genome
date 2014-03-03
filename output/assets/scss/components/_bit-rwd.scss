@@ -131,7 +131,7 @@
 
 
 
-    // Layout - HERO: ARTICLE TITLE
+    // Layout - HEROS
     // Image Frame increase Height to prevent copy overflow
     .hero:not(.hero-slideshow-section) {
         .single-col-layout {
@@ -162,7 +162,7 @@
 
 
 
-    // Layout - HERO: ARTICLE TITLE
+    // Layout - HERO: ARTICLE SECTION
     // Fit Elements inside Image Frame
     .hero.hero-article-section {
         h2 {
@@ -173,7 +173,6 @@
         }
     }
     // ---- //
-
 
 }
 

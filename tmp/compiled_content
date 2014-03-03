@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"(“<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"4“<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -21,16 +21,16 @@
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -1639,7 +1639,7 @@ I"}<article>
   <p>This is an article</p>
   <a class='icon comment' href='#'>888 Comments</a>
 </article>
-;T;@I"/article_column/;T{;{	;I"ï<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"û<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1662,16 +1662,16 @@ I"}<article>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -2685,7 +2685,7 @@ I"‘:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_blog/;T{;{	;I"Šw<!DOCTYPE html>
+;T;@I"/article_blog/;T{;{	;I"–w<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2708,16 +2708,16 @@ I"‘:<section class='primary_layout article_layout'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -3700,7 +3700,7 @@ I"~2<section class='primary_layout article_layout'>
     </section>
   </div>
 </section>
-;T;@ I"/project_index/;T{;{	;I"rV<!DOCTYPE html>
+;T;@ I"/project_index/;T{;{	;I"~V<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3723,16 +3723,16 @@ I"~2<section class='primary_layout article_layout'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -4498,7 +4498,7 @@ I"_<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"z<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"†<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4521,16 +4521,16 @@ I"_<section class='primary_layout article_layout'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -5738,7 +5738,7 @@ I"ï<div class='inner-bounds paper-white block'>
     </p>
   </div>
 </div>
-;T;@7I"/article_blog_no_photo/;T{;{	;I"Ñm<!DOCTYPE html>
+;T;@7I"/article_blog_no_photo/;T{;{	;I"Ým<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5761,16 +5761,16 @@ I"ï<div class='inner-bounds paper-white block'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -6666,7 +6666,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@=I"/blank_page/;T{;{	;I"À:<!DOCTYPE html>
+;T;@=I"/blank_page/;T{;{	;I"Ì:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6689,16 +6689,16 @@ I"*<section class='primary_layout article_layout no-photo'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -7049,7 +7049,7 @@ I"¬<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@CI"/blog_roll/;T{;{	;I"É‰<!DOCTYPE html>
+;T;@CI"/blog_roll/;T{;{	;I"Õ‰<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7072,16 +7072,16 @@ I"¬<section class='primary_layout'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -8379,7 +8379,7 @@ I"ˆ@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@II"/search_results/;T{;{	;I"†i<!DOCTYPE html>
+;T;@II"/search_results/;T{;{	;I"’i<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8402,16 +8402,16 @@ I"ˆ@<section class='primary_layout article_layout'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>
@@ -9378,7 +9378,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@OI"/story_roll/;T{;{	;I"èˆ<!DOCTYPE html>
+;T;@OI"/story_roll/;T{;{	;I"ôˆ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9401,16 +9401,16 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <link href='/assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
-    <link href='/assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
-    <link href='/assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
     <script src='//use.typekit.net/gzy0ghu.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
-    <script src='/assets/js/min/modernizr.min.js'></script>
-    <link href='/assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
   </head>
   <body class='init'>
     <div id='site-wrap-outer'>

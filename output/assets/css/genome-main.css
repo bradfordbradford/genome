@@ -819,7 +819,7 @@ body,
 html,
 #content-wrap,
 .inner-bounds {
-  height: 100% !important;
+  height: 100%;
   width: 100%;
 }
 
@@ -3743,44 +3743,6 @@ aside.aside-column-primary .icon {
   position: relative;
 }
 
-.story-cover-hover-background {
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  opacity: 0;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  bottom: 0px;
-  top: 0px;
-  max-width: 100%;
-  margin-top: 0;
-  height: 100%;
-  max-height: 600px;
-  background: #1b1b1b url("../img/patterns/background-pixelated-dark.png") repeat;
-}
-
-.story-cover-hover-background .story-cover-hover-content {
-  -webkit-transition: -webkit-transform .34s ease-in-out;
-  transition: transform .34s ease-in-out;
-  -webkit-transform: translate3d(0px, 10px, 0px);
-  -ms-transform: translate3d(0px, 10px, 0px);
-  transform: translate3d(0px, 10px, 0px);
-}
-
-.story-cover-hover-background h2 {
-  font-weight: 200;
-}
-
-.story-cover-hover-background .read-this-arrow {
-  display: inline-block;
-  font-size: 60px;
-  position: relative;
-  top: 8px;
-}
-
 .story-cover-image,
 .story-cover-image-transition {
   position: absolute;
@@ -3846,16 +3808,6 @@ aside.aside-column-primary .icon {
   -webkit-transform: translate3d(0, 2px, 0);
   -ms-transform: translate3d(0, 2px, 0);
   transform: translate3d(0, 2px, 0);
-}
-
-.hero:hover .story-cover-hover-background {
-  opacity: .8;
-}
-
-.hero:hover .story-cover-hover-background .story-cover-hover-content {
-  -webkit-transform: translate3d(0, -10px, 0);
-  -ms-transform: translate3d(0, -10px, 0);
-  transform: translate3d(0, -10px, 0);
 }
 
 .hero {

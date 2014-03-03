@@ -71,7 +71,9 @@
 
 
 // Push Footer, Fill Parent ------------------
-body,html,#content-wrap,.inner-bounds {height:100%!important; width:100%;}
+body,html,#content-wrap,.inner-bounds {
+  height:100%;
+  width:100%;}
 
 #header-nav-wrap,
 #content-wrap {
