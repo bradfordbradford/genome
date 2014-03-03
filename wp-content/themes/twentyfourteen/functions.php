@@ -101,9 +101,9 @@ function twentyfourteen_setup() {
 	) );
 
 	// This theme allows users to set a custom background.
-	add_theme_support( 'custom-background', apply_filters( 'twentyfourteen_custom_background_args', array(
-		'default-color' => 'f5f5f5',
-	) ) );
+// 	add_theme_support( 'custom-background', apply_filters( 'twentyfourteen_custom_background_args', array(
+// 		'default-color' => 'f5f5f5',
+// 	) ) );
 
 	// Add support for featured content.
 	add_theme_support( 'featured-content', array(
@@ -230,17 +230,17 @@ function twentyfourteen_font_url() {
  */
 function twentyfourteen_scripts() {
 	// Add Lato font, used in the main stylesheet.
-	wp_enqueue_style( 'twentyfourteen-lato', twentyfourteen_font_url(), array(), null );
+//	wp_enqueue_style( 'twentyfourteen-lato', twentyfourteen_font_url(), array(), null );
 
 	// Add Genericons font, used in the main stylesheet.
-	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.2' );
+//	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.2' );
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array( 'genericons' ) );
+//	wp_enqueue_style( 'twentyfourteen-style', get_stylesheet_uri(), array( 'genericons' ) );
 
 	// Load the Internet Explorer specific stylesheet.
-	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style', 'genericons' ), '20131205' );
-	wp_style_add_data( 'twentyfourteen-ie', 'conditional', 'lt IE 9' );
+// 	wp_enqueue_style( 'twentyfourteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentyfourteen-style', 'genericons' ), '20131205' );
+// 	wp_style_add_data( 'twentyfourteen-ie', 'conditional', 'lt IE 9' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -250,9 +250,9 @@ function twentyfourteen_scripts() {
 		wp_enqueue_script( 'twentyfourteen-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20130402' );
 	}
 
-	if ( is_active_sidebar( 'sidebar-3' ) ) {
-		wp_enqueue_script( 'jquery-masonry' );
-	}
+// 	if ( is_active_sidebar( 'sidebar-3' ) ) {
+// 		wp_enqueue_script( 'jquery-masonry' );
+// 	}
 
 	if ( is_front_page() && 'slider' == get_theme_mod( 'featured_content_layout' ) ) {
 		wp_enqueue_script( 'twentyfourteen-slider', get_template_directory_uri() . '/js/slider.js', array( 'jquery' ), '20131205', true );
@@ -262,7 +262,7 @@ function twentyfourteen_scripts() {
 		) );
 	}
 
-	wp_enqueue_script( 'twentyfourteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20131209', true );
+//	wp_enqueue_script( 'twentyfourteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20131209', true );
 }
 add_action( 'wp_enqueue_scripts', 'twentyfourteen_scripts' );
 
