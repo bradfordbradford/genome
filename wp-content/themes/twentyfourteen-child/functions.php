@@ -111,8 +111,8 @@ function register_shortcodes(){
 	add_shortcode('hr-break', 'hr_article_break_function');
 	add_shortcode('hr-thick', 'hr_thick_function');
 	add_shortcode('small-caps', 'lead_small_caps_function');
-	add_shortcode('small-block', 'small_block_function');
-	add_shortcode('left-block', 'left_block_function');
+	add_shortcode('block-small', 'small_block_function');
+	add_shortcode('block-left', 'left_block_function');
 	add_shortcode('heading', 'h3_function');
 }
 add_action( 'init', 'register_shortcodes');

@@ -8,43 +8,48 @@
  */
 ?>
 
-
-	<?php twentyfourteen_post_thumbnail(); ?>
-
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
-		<?php
-			endif;
-
-			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
-			else :
-				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-			endif;
-		?>
-		
-		<?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?><br>
-
-		<div class="entry-meta">
-			Author: 
-			<?php the_author(); ?>
-			<?php
-				edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-			?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
-	<?php if ( is_search() ) : ?>
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-	<?php else : ?>
-	<div class="entry-content">
-		<?php
-			$content = get_the_content() . " image" ;
-			echo apply_filters('the_content',$content);
-		?>
-	</div><!-- .entry-content -->
-	<?php endif; ?>
-
-</article><!-- #post-## -->
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <div class='background-white'>
+            <header class='hero hero-featured-article background-size-full center hero-tall'>
+              <div class='story-cover-content single-col-layout'>
+                <div class='align-middle'>
+                  <div class='align-block'>
+                    <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
+                      <h2>
+                        <?php the_title(); ?><br>
+                      </h2>
+                      <hr class='white-bg partial'>
+                      <p class='sans lead'>
+                        <?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?><br>
+                      </p>
+                      <div class='author-attrib text-meta-highlight tertiary-text-color'>By <?php the_author(); ?></div>
+                      <div class='content-row'>
+                        <a class='arrow-down' data-icon='E' href=''></a>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+              <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
+              <div class='story-cover-image-transition' style='background-image: url(<?php echo $featured_img; ?>);'></div>
+            </header>
+            <div id='read-time-wrap'>
+              <section class='featured_layout inner-bounds block' id='top'>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <article class='article-body-copy'>
+                      <?php
+// Content
+                        $content = get_the_content() . " <span class='light-text-color inline-block end-mark' data-icon='G'></span>" ;
+                        echo apply_filters('the_content',$content);
+                      ?>
+                    </article>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </main>
+      </div>

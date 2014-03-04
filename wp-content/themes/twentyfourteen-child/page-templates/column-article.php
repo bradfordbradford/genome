@@ -27,8 +27,7 @@ get_header(); ?>
 				endwhile;
 			?>
 
-	<?php get_sidebar( 'content' ); ?>
+	<?php //get_sidebar( 'content' ); ?>
 
 <?php
-get_sidebar();
 get_footer();

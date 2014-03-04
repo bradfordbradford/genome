@@ -25,7 +25,7 @@
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='<?php echo get_stylesheet_directory_uri(); ?>/img/content/subscription-placeholder.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -99,8 +99,8 @@
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
+    <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
+    <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};

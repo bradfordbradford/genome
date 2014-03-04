@@ -10,139 +10,190 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
-	<p><?php the_post_thumbnail_caption(); ?></p>
-	<p><?php // the_post_thumbnail_title(); ?></p>
 
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
-		<div class="entry-meta">
-			<span class="cat-links">
-				 <?php
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds block background-white'>
+              <div class='content-row'>
+                <header class='article-header'>
+                  <?php
 // Get Topic Info
-					foreach((get_the_category()) as $childcat) {
-						if (cat_is_ancestor_of(5, $childcat)) {
-							$topicLink = get_category_link($childcat->cat_ID);
-							$topicName = $childcat->cat_name;
-							$topicID   = $childcat->cat_ID;
-						}
-					}
-				?>
-			</span>
-			<a href="<?php echo $topicLink; ?>"><?php echo $topicName; ?></a>
-		</div>
-		<?php
-			endif;
+                    foreach((get_the_category()) as $childcat) {
+                      if (cat_is_ancestor_of(5, $childcat)) {
+                        $topicLink = get_category_link($childcat->cat_ID);
+                        $topicName = $childcat->cat_name;
+                        $topicID   = $childcat->cat_ID;
+                      }
+                    }
+                  ?>
+                  <a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
+                  <?php the_title( '<h2>', '</h2>' ); ?>
+                  
+                  <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
+                  <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
+                  <div class='addthis_toolbox social-list'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Share</span>
+                    </a>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Tweet</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Email</span>
+                    </a>
+                  </div>
+                  <div class='article-meta'>
+                    <time><?php echo get_the_time('F j, Y'); ?></time>
+                    <span class='ver-line'>&#124;</span>
+                    <a class='action' data-icon='p' href='#1'>Print</a>
+                    <span class='ver-line'>&#124;</span>
+                    <a class='action' data-icon='i' href='#2'>
+                      <?php
+                        if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
+                      ?>
+                      <?php comments_popup_link( __( '0', 'twentyfourteen' ), __( '1', 'twentyfourteen' ), __( '%', 'twentyfourteen' ) ); ?>
+                      <?php
+                        endif;
 
-			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
-			else :
-				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-			endif;
-		?>
-		
-		<?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?>
+                        edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
+                      ?>
+                    </a>
+                  </div>
+                </header>
+                <div class='article-photo primary'>
+                <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                
+                  <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                </div>
+                <div class='article-photo-caption background-neutral'>
+                  <div class='card-inner-wrap'>
+                    <span class='photo-attrib'><?php the_post_thumbnail_description(); ?></span>
+                    <p class='text-meta-sub smaller'>
+                      <?php the_post_thumbnail_caption(); ?>
+                      
+                    </p>
+                  </div>
+                </div>
+                <article class='primary-content article-body-copy'>
+                  <div id='read-time-wrap'>
+                    <?php
+// Content
+                      the_content();
+                    ?>
 
-		<div class="entry-meta">
-			<?php
-				if ( 'post' == get_post_type() )
-					twentyfourteen_posted_on();
-
-				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-			?>
-			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
-			<?php
-				endif;
-
-				edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-			?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
-	<?php if ( is_search() ) : ?>
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-	<?php else : ?>
-	<div class="entry-content">
-		<?php
-			the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfourteen' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-			) );
-		?>
-				
-		 <?php
+                  </div>
+                  <footer class='article-footer'>
+                    <div class='content-row'>
+                      <ul class='meta-list with-tags inline tags-compliment-bg'>
+                        <li class='list-title'>
+                          <div class='text-meta-highlight'>Condition:</div>
+                        </li>
+                        <?php
 // Display Conditions
-// 		 	echo "Condition: ";
-// 			foreach((get_the_category()) as $childcat) {
-// 				if (cat_is_ancestor_of(7, $childcat)) {
-// 					echo '<a href="'.get_category_link($childcat->cat_ID).'">';
-// 					echo $childcat->cat_name . '</a>, ';
-// 				}
-// 			}
-		?>
+                          foreach((get_the_category()) as $childcat) :
+                            if (cat_is_ancestor_of(7, $childcat)) : ?>
+                              <li><a href="<?php echo get_category_link($childcat->cat_ID); ?>">
+                              <?php echo $childcat->cat_name; ?></a></li>
+                        <?php
+                            endif;
+                          endforeach;
+                        ?>
+                      </ul>
+                    </div>
+                    <div class='content-row'>
+                      <ul class='meta-list with-tags inline tags-primary-bg'>
+                        <li class='list-title'>
+                          <div class='text-meta-highlight'>Tags:</div>
+                        </li>
+                        <?php the_tags('<li>','</li><li>','</li>'); ?>
+                      </ul>
+                    </div>
+                  </footer>
+                </article>
+                <?php get_sidebar(); ?>
+              </div>
+              <div class='content-row end-block block'>
+                <section class='collection grid-3-per with-dividers'>
+                  <h2 class='section-title center'>
+                    Related
+                    <span>
+                      Reading
+                    </span>
+                  </h2>
+                  <hr class='thick neutral-light-bg partial'>
+                  
+                      <?php
+                  // Find Condition ID
+                        foreach((get_the_category()) as $childcat) {
+                          if (cat_is_ancestor_of(7, $childcat)) {
+                            $catsIn[] = $childcat->cat_ID;
+                          }
+                        }
+                  // Related Topics as a backup
+                        $catsIn[] = $topicID;
+                  // print_r( $catsIn );
+                      ?>
+                      <?php
+                            $args = array(
+                          'post_type'             => array( 'post', 'page' ),
+                          'showposts'             => 3,
+                          'category__in'          => $catsIn,
+                          'ignore_sticky_posts'   => true,
+                          'post__not_in'          => array( $post->ID ),
+                          // 'orderby'               => 'comment_count',
+                          //'order'                 => 'asc',
+                          // 'date_query' => array(
+                          //     array(
+                          //         'after' => '1 week ago',
+                          //     ),
+                          // ),
+                            );
+                            $related = new WP_Query($args);
+                        ?>
+                      <?php while ( $related->have_posts() ): $related->the_post(); ?>
+                        <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                        <div class='media-object with-large-image grid-element popup-content'>
+                          <img alt='image title' style="width:274px; height:154px;" src='<?php echo $featured_img; ?>'>
+                          <div class='popup-content-wrap'>
+                            <div class='comment-counter-wrap'>
+                              <a class='icon comment-counter' href=''>
+                                <span class='value'><?php echo get_comments_number(); ?></span>
+                              </a>
+                            </div>
+                            <?php
+                        // Display Topic
+                              foreach((get_the_category()) as $childcat) {
+                                if (cat_is_ancestor_of(5, $childcat)) {
+                                  echo "<a class='text-meta' href='".get_category_link($childcat->cat_ID)."'>";
+                                  echo $childcat->cat_name . '</a>';
+                                }
+                              }
+                            ?>
+                            <a class='media-copy' href='<?php echo get_permalink(); ?>'>
+                              <h3 class='text-meta-header'><?php the_title(); ?></h3>
+                              <p class='text-meta-sub light-text-color'>By <?php the_author(); ?><br></p>
+                              <p class='text-meta-sub light-text-color sans-meta'>
+                                <?php
+                                  remove_filter( 'the_excerpt', 'wpautop' );
+                                  the_excerpt();
+                                ?>
+                              </p>
+                            </a>
+                          </div>
+                        </div>
+                      <?php endwhile; ?>
+                      <?php
+                  // Reset WP_Query
+                        wp_reset_query();
+                      ?>
 
-	</div><!-- .entry-content -->
-	<?php endif; ?>
-
-	<?php the_tags( '<footer class="entry-meta">Tags: <span class="tag-links">', '', '</span></footer>' ); ?>
-	
-		<hr>
-	
-		<h2>Related Reading</h2>
-		 <?php
-// Find Condition ID
-			foreach((get_the_category()) as $childcat) {
-				if (cat_is_ancestor_of(7, $childcat)) {
-// Note: only keeps last value of many
-					$catsIn[] = $childcat->cat_ID;
-				}
-			}
-			$catsIn[] = $topicID;
-// print_r( $catsIn );
-		?>
-		<?php
-      		$args = array(
-			  'post_type'             => array( 'post' ),
-			  'showposts'             => 3,
-			  'category__in'          => $catsIn,
-			  'ignore_sticky_posts'   => true,
-			  'post__not_in'          => array( $post->ID ),
-			  // 'orderby'               => 'comment_count',
-			  //'order'                 => 'asc',
-			  // 'date_query' => array(
-			  //     array(
-			  //         'after' => '1 week ago',
-			  //     ),
-			  // ),
-      		);
-      		$related = new WP_Query($args);
-  		?>
-		<?php while ( $related->have_posts() ): $related->the_post(); ?>
-		  <?php the_post_thumbnail( 'thumbnail' ); ?>
-		  <?php echo get_comments_number(); ?>
-		  <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a><br>
-		  <?php the_author(); ?><br>
-		  <?php
-// Display Topic
-			foreach((get_the_category()) as $childcat) {
-				if (cat_is_ancestor_of(5, $childcat)) {
-					echo '<a href="'.get_category_link($childcat->cat_ID).'">';
-					echo $childcat->cat_name . '</a>';
-				}
-			}
-		 ?>
-		 <?php the_excerpt(); ?>
-		 <br><br>
-	  <?php endwhile; ?>
-	  <?php
-// Reset WP_Query
-	  	wp_reset_query();
-	  ?>
-
-</article><!-- #post-## -->
+                </section>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>

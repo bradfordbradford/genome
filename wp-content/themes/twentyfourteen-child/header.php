@@ -44,7 +44,7 @@
 	<?php wp_head(); ?>
 </head>
 
-  <body class='init'>
+  <body class='init<?php if ( is_page_template('page-templates/feature-article.php') ) { echo " nav-add-social"; } ?>'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -52,7 +52,7 @@
             <div class='grid-2-per major-r'>
               <div class='grid-element'>
                 <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                  <img alt='genome is the bomb-diggety' src='<?php echo get_stylesheet_directory_uri(); ?>/img/content/subscription-placeholder.jpg'>
                 </div>
               </div>
               <div class='grid-element'>
@@ -104,115 +104,112 @@
                   <ol>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='#'>By Issue</a>
+                        <a href='<?php echo site_url() . "/category/issue/"; ?>'>By Issue</a>
                       </h3>
                       <ol>
-                        <li>
-                          <a href='#'>Lifestyle</a>
-                        </li>
-                        <li>
-                          <a href='#'>Policy</a>
-                        </li>
-                        <li>
-                          <a href='#'>Science</a>
-                        </li>
-                        <li>
-                          <a href='#'>Treatment</a>
-                        </li>
-                        <li>
-                          <a href='#'>Technology</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
+                      <?php $args = array(
+                        'show_option_all'    => '',
+                        'orderby'            => 'name',
+                        'order'              => 'ASC',
+                        'style'              => 'list',
+                        'show_count'         => 0,
+                        'hide_empty'         => 1,
+                        'use_desc_for_title' => 1,
+                        'child_of'           => 16,
+                        'feed'               => '',
+                        'feed_type'          => '',
+                        'feed_image'         => '',
+                        'exclude'            => '',
+                        'exclude_tree'       => '',
+                        'include'            => '',
+                        'hierarchical'       => 1,
+                        'title_li'           => '',
+                        'show_option_none'   => __('No categories'),
+                        'number'             => null,
+                        'echo'               => 1,
+                        'depth'              => 0,
+                        'current_category'   => 0,
+                        'pad_counts'         => 0,
+                        'taxonomy'           => 'category',
+                        'walker'             => null
+                      ); ?>
+                      <?php wp_list_categories( $args ); ?>
                         <li class='view-all'>
-                          <a href='#'>View All &#187;</a>
+                          <a href='<?php echo site_url() . "/category/issue/"; ?>'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='#'>By Condition</a>
+                        <a href='<?php echo site_url() . "/category/condition/"; ?>'>By Condition</a>
                       </h3>
                       <ol>
-                        <li>
-                          <a href='#'>Lifestyle</a>
-                        </li>
-                        <li>
-                          <a href='#'>Policy</a>
-                        </li>
-                        <li>
-                          <a href='#'>Science</a>
-                        </li>
-                        <li>
-                          <a href='#'>Treatment</a>
-                        </li>
-                        <li>
-                          <a href='#'>Technology</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
-                        <li>
-                          <a href='#'>Lifestyle</a>
-                        </li>
-                        <li>
-                          <a href='#'>Policy</a>
-                        </li>
-                        <li>
-                          <a href='#'>Science</a>
-                        </li>
-                        <li>
-                          <a href='#'>Treatment</a>
-                        </li>
-                        <li>
-                          <a href='#'>Technology</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
+                      <?php $args = array(
+                        'show_option_all'    => '',
+                        'orderby'            => 'name',
+                        'order'              => 'ASC',
+                        'style'              => 'list',
+                        'show_count'         => 0,
+                        'hide_empty'         => 1,
+                        'use_desc_for_title' => 1,
+                        'child_of'           => 7,
+                        'feed'               => '',
+                        'feed_type'          => '',
+                        'feed_image'         => '',
+                        'exclude'            => '',
+                        'exclude_tree'       => '',
+                        'include'            => '',
+                        'hierarchical'       => 1,
+                        'title_li'           => '',
+                        'show_option_none'   => __('No categories'),
+                        'number'             => null,
+                        'echo'               => 1,
+                        'depth'              => 0,
+                        'current_category'   => 0,
+                        'pad_counts'         => 0,
+                        'taxonomy'           => 'category',
+                        'walker'             => null
+                      ); ?>
+                      <?php wp_list_categories( $args ); ?>
                         <li class='view-all'>
-                          <a href='#'>View All &#187;</a>
+                          <a href='<?php echo site_url() . "/category/condition/"; ?>'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='#'>By Topic</a>
+                        <a href='<?php echo site_url() . "/category/topic/"; ?>'>By Topic</a>
                       </h3>
                       <ol>
-                        <li>
-                          <a href='#'>Lifestyle</a>
-                        </li>
-                        <li>
-                          <a href='#'>Policy</a>
-                        </li>
-                        <li>
-                          <a href='#'>Science</a>
-                        </li>
-                        <li>
-                          <a href='#'>Treatment</a>
-                        </li>
-                        <li>
-                          <a href='#'>Technology</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
-                        <li>
-                          <a href='#'>Topic</a>
-                        </li>
+                      <?php $args = array(
+                        'show_option_all'    => '',
+                        'orderby'            => 'name',
+                        'order'              => 'ASC',
+                        'style'              => 'list',
+                        'show_count'         => 0,
+                        'hide_empty'         => 1,
+                        'use_desc_for_title' => 1,
+                        'child_of'           => 5,
+                        'feed'               => '',
+                        'feed_type'          => '',
+                        'feed_image'         => '',
+                        'exclude'            => '',
+                        'exclude_tree'       => '',
+                        'include'            => '',
+                        'hierarchical'       => 1,
+                        'title_li'           => '',
+                        'show_option_none'   => __('No categories'),
+                        'number'             => null,
+                        'echo'               => 1,
+                        'depth'              => 0,
+                        'current_category'   => 0,
+                        'pad_counts'         => 0,
+                        'taxonomy'           => 'category',
+                        'walker'             => null
+                      ); ?>
+                      <?php wp_list_categories( $args ); ?>
                         <li class='view-all'>
-                          <a href='#'>View All &#187;</a>
+                          <a href='<?php echo site_url() . "/category/topic/"; ?>'>View All &#187;</a>
                         </li>
                       </ol>
                     </li>
@@ -253,10 +250,10 @@
                 </header>
                 <ol class='collapse-content'>
                   <li>
-                    <a href='https://www.google.com/'>By Topic</a>
+                    <a href='<?php echo site_url() . "/category/topic/"; ?>'>By Topic</a>
                   </li>
                   <li>
-                    <a href='https://www.google.com/'>By Condition</a>
+                    <a href='<?php echo site_url() . "/category/condition/"; ?>'>By Condition</a>
                   </li>
                 </ol>
               </li>
