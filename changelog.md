@@ -3,18 +3,53 @@
 # Contrib Changelog
 
 ## Timeline
+* [03/03/2014]
+[x] Switched to relative asset paths
+
+[x] Stripped out adept.js - just using MQs (snappier load time)
+
+[x] Updated Fonts (needed add'l icons)
+
+[x] Article_Feature - reworked anchor targets (see Markup Edits)
+
+[x] Home - reworked anchor targets (see Markup Edits)
+
+[x] Nav - Changed subscribe form-box icon to arrow (see Markup Edits)
+
+[x] Overlay Transitions - Fixed Chrome bug
+
+[x] Align Middle Firefox - Fixed
+--------------------------------
+_Files Updated_
+assets/fonts - replace directory
+assets/css/genome-main.css - replace file
+assets/js - replace directory
+
+_Markup Edited_
+Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
+Home Scroll to Content -
+    change this: <a class='arrow-down alternate' href='#scroll'></a>
+    to this: <a class='arrow-down alternate' href=''></a>
+
+    change this: <section class='primary_layout' id='scroll'>
+    to this: <section class='primary_layout' id='content-top'>
+
+Featured Scroll to Content -
+    change this: <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
+    to this: <a class='arrow-down' data-icon='E' href=''></a>
+
+    change this: <section class='featured_layout inner-bounds block' id='scroll-here'>
+    to this: <section class='featured_layout inner-bounds block' id='top'>
+
+
+
+
+
+
 * [02/27/2014]
 
 
-[] change subscribe form-box icon to out arrow
-
-
-- bugs-
-[] overlay transitions
-
-[] firefox bug
-
-[] Finalize and send to John
+[x] Finalize and send to John
 --
 
 [x] Read through CSS & HTML - check that code is dry and semantic

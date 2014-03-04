@@ -1,0 +1,110 @@
+
+// General Structure ------------------
+
+#site-wrap-outer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 10;
+}
+
+#site-wrap-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+// NOTE: Offset fixed navigation
+#content-wrap {padding-top:120px;}
+
+.inner-bounds {
+  // NOTE: Content is edge to edge unless given .inner-bounds
+  // .inner-bounds also makes .paper-white fill parent height
+  @include container;
+
+  // NOTE: Footer offset added below. Use this to remove it:
+  &.remove-footer-offset {
+    padding-bottom:0px
+  }
+}
+
+.card-block {
+  padding-top:42px;
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 60px;
+  }
+}
+
+.container {
+  @include span-columns(12, $total);
+}
+
+.content-row {
+    clear:both;
+    @include clearlyFixed();
+}
+
+.block {
+    padding-top: 50px !important;
+}
+
+.small-block {
+  padding-top: 32px !important;
+}
+
+.end-block {
+  padding-bottom: 96px !important;
+}
+
+.end-small-block {
+  padding-bottom: 76px !important;
+}
+
+.add-bleed {
+  margin-left: -1.6em;
+  margin-right: -1.6em;
+}
+
+
+
+// Push Footer, Fill Parent ------------------
+body,html,#content-wrap,.inner-bounds {
+  height:100% !important;
+  width:100%;}
+
+#header-nav-wrap,
+#content-wrap {
+  min-height: 100%;
+
+  // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
+  // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer
+  // Z-Index Necessary - 0: #header-nav-wrap, 1: #main-footer, #header-wrap, #content-wrap
+
+  margin-bottom: -40px;
+  position: relative;
+  z-index: 10;
+
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+
+#main-footer, #header-nav-wrap:after, #content-wrap:after {
+  height: auto;
+}
+
+#content-wrap, .inner-bounds {
+
+  width:100%;
+
+  // NOTE: 40px to offset pulling footer up + 60px to add breathing room
+  padding-bottom: 40px;
+  // @include susy-grid-background;
+}
+
+
+

@@ -1,0 +1,56 @@
+
+
+
+
+// First, establish breakpoints --------------
+@mixin breakpoint($point) {
+
+  // Standard Targets --------------------
+  @if $point == grand-monitor-up {
+    @media only screen and (min-width: 1824px) { @content; }
+  }
+
+  @else if $point == monitor-up {
+    @media only screen and (min-width: 1600px) { @content; }
+  }
+
+  @else if $point == laptop-up {
+    @media only screen and (min-width: 1224px) { @content; }
+  }
+
+  @else if $point == laptop {
+    @media only screen and (min-width: 1224px) { @content; }
+  }
+
+  @else if $point == ipad-landscape {
+    @media only screen and (max-width : 1024px) { @content; }
+  }
+
+  @else if $point == ipad-portrait {
+    @media only screen and (max-width : 768px) { @content; }
+  }
+
+  @else if $point == small-tablet-portrait {
+    @media only screen and (max-width : 674px) { @content; }
+  }
+
+  @else if $point == phone {
+    @media only screen and (max-width: 480px) { @content; }
+  }
+
+  // all above ipad portrait
+  @else if $point == above-ipad-portrait {
+    @media only screen and (min-width: 768px) { @content; }
+  }
+
+
+  // Specific Targets --------------------
+  @else if $point == just-ipad-potrait {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; }
+  }
+
+  @else if $point == just-ipad-landscape {
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; }
+  }
+
+}

@@ -1,8 +1,8 @@
 
 
 
- // Now, Now  //
-jQuery(document).ready(function($) {
+//  // Now, Now  //
+$(document).ready(function($) {
 
 
     // Prevent FOUC while JS loads, then swap for Run ----------
@@ -12,7 +12,8 @@ jQuery(document).ready(function($) {
 
 
     // Menu ----------
-    $('html.js.no-touch #main-navigation').accessibleMegaMenu();
+    $('html.js #main-navigation').accessibleMegaMenu();
+
 
     // Scroll Position (nav changes) ----------
     var mainNav = $('#main-site-navigation-wrap');
@@ -26,18 +27,15 @@ jQuery(document).ready(function($) {
         }
     });
 
-    // Init Skrollr ----------
-    var s = skrollr.init({
-      edgeStrategy: 'set',
-      easing: {
-        WTF: Math.random,
-        inverted: function(p) {
-          return 1-p;
-        }
-      }
+
+    // Smooth Scroll to Top (without ugly hashes, and with nice top offsets) ----------
+    $(".hero .arrow-down").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop: $('#top').offset().top -40 }, 500, 'swing');
     });
 
-    // Smooth Scroll ----------
+
+    // Smooth Scroll for Anchors Links ----------
     $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
       var target = this.hash,
@@ -46,10 +44,12 @@ jQuery(document).ready(function($) {
           'scrollTop': $target.offset().top
       }, 500, 'swing', function () {
           window.location.hash = target;
+          // history.replaceState({}, '', '/');
       });
     });
 
-    // Toggle View All ----------
+
+    // // Toggle View All ----------
     $('.open-g-door').on('click', function(e){
         $('.g-door').toggleClass("open");
         mainNav.toggleClass("push-for-door");
@@ -64,17 +64,17 @@ jQuery(document).ready(function($) {
     });
 
 
-    // LazyLoad Images
+    // LazyLoad Images ----------
     $('img.load').lazyload({
         effect : "fadeIn"
     });
 
 
-    // Collapsible Content
-    // Add Toggle
+
+    // Collapsible Content - Add Toggle ----------
     var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
     $('.collapse-header').append(toggleIcon);
-
+    // Collapsible Content
     $(function() {
       $(".collapse-header").click(function () {
         if ($(this).hasClass('open')){
@@ -93,18 +93,6 @@ jQuery(document).ready(function($) {
         }
       });
     });
-    // $(function() {
-    //   var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
-    //   $('#content-wrap .collapse header h2').append(toggleIcon);
-    //   $( "#content-wrap .collapse" ).accordion({collapsible: true,active: false,animate:'swing'});
-    // });
-
-    // // OffCanvas Nav Collapsible Content
-    // $(function() {
-    //   var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
-    //   $('#offcanvas-navigation .collapse header .collapse-section-title').append(toggleIcon);
-    //   $( "#offcanvas-navigation .collapse").accordion({collapsible: true,active: false,animate:'swing'});
-    // });
 
 
     // Slideshow ----------
@@ -116,20 +104,19 @@ jQuery(document).ready(function($) {
     });
 
 
-    // Overlay: View Search
+    // Overlay: View Search ----------
     $('.overlay-view-search').magnificPopup({
         type: 'inline',
         mainClass: 'mfp-zoom-in overlay-with-search-box',
         showCloseBtn: false,
         preloader: false,
         focus: '#nav-search-box',
-
         callbacks: {
           beforeOpen: function() {
             if($(window).width() < 700) {
               this.st.focus = false;
             } else {
-              this.st.focus = '#name';
+              this.st.focus = '#nav-search-box';
             }
           }
         }
@@ -167,6 +154,7 @@ jQuery(document).ready(function($) {
         });
     });
 
+
     // Overlay: Watch Video ----------
     $('.overlay-watch-video').each(function() { // the containers for all your galleries
         $(this).magnificPopup({
@@ -174,12 +162,13 @@ jQuery(document).ready(function($) {
             mainClass: 'mfp-zoom-in overlay-with-video',
             removalDelay: 500,
             preloader: false,
-            fixedContentPos: false,
+            fixedContentPos: true,
             closeBtnInside: false,
             closeOnContentClick: true,
             midClick: true
         });
     });
+
 
     // Overlay: View Slideshow ----------
     $('.overlay-view-slideshow').magnificPopup({
@@ -216,27 +205,4 @@ jQuery(document).ready(function($) {
           }
         });
 
-    //  ----------
-    // $(function() {
-    // });
-
 });
-
-// Adapt ----------
-function adaptMagic(i, width) {
-document.documentElement.id = 'range_' + i;
-}
-var ADAPT_CONFIG = {
-dynamic: true,
-callback: adaptMagic,
-
-range: [
-'0 to 480',                 // 0
-'480 to 768',               // 1
-'768 to 1024',              // 2
-'1024 to 1224',             // 3
-'1224 to 1600',             // 4
-'1600 to 1824',             // 5
-'1824'                      // 6
-]
-};

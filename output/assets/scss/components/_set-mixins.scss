@@ -1,0 +1,203 @@
+
+
+
+// List styles
+// -------------------------------------------------------
+@mixin unordered {
+     list-style-position: outside;
+     list-style-type: disc;
+}
+
+@mixin unordered-inside {
+     list-style-position: inside;
+     list-style-type: disc;
+}
+
+@mixin ordered {
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+
+@mixin ordered-inside {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+@mixin nobullet {
+    list-style-type: none;
+}
+
+// Functions for px to em conversions
+// ------------------------------------------------------------
+@function emify($target, $context) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0em;
+}
+
+// Make px to ems using base-font-size
+// echo as: font-size: em-font(#px);
+@function em-font($target, $context: $base-font-size) {
+   @return emify($target, $context);
+}
+
+
+// Make px to ems using base-line-height
+// echo as: font-size: em-base(#px);
+@function em-base($target, $context: $base-line-height) {
+   @return emify($target, $context);
+}
+
+// Scale: Convert PX/EM
+// -------------------------------------------------------
+// See http://mrdanadams.com/2012/pixel-ems-css-conversion-sass-mixin/
+// Used to convert PX to EMs for multiple properties or values or both.
+// $base is an optional measurement that allows making measurements relative to the parent font size rather than the current. Also accepts a list of lists (instead a list of values) for properties that accept multiple lists of values. Only numbers of converted; everything else is passed through.
+// Examples:
+
+// @include scale(line-height, 30)
+// @include scale(line-height, 30, 16)
+// @include scale(width height, 125);
+// @include scale(padding, 0 25, 16);
+// @include scale(text-shadow, (#0d6e28 1 1) (#777 0 0 2), 16);
+// @include scale(box-shadow, (inset 0 0 0 1 #2a9022) (inset 0 0 3 #459966), 16);
+
+@mixin scale($props, $sizes, $base: $base-font-size) {
+    $values: ();
+    $sublists: false;
+    @each $s in $sizes {
+         // unwrap lists for values that have multiple list of values such as text-shadow
+        @if type-of($s) == list {
+            $sublists: true;
+            $vv: ();
+            @each $ss in $s {
+                $vv: append($vv, if(type-of($ss) == number, #{$ss / $base}em, $ss));
+            }
+            $values: append($values, join((), $vv));
+        } @else {
+            $values: append($values, if(type-of($s) == number, #{$s / $base}em, $s));
+        }
+    }
+    $value: join((), $values, if($sublists, comma, space));
+    @each $prop in $props { #{$prop}: $value }
+}
+
+
+// Advanced typography settings
+// -------------------------------------------------------
+// Get advanced with type if needed for ligatures etc...
+
+@mixin advancedtype {
+    font-variant-ligatures: contextual;               // Set the default for ligatures
+    -moz-font-feature-settings: "liga=1,dlig=1";      // Ligature settings for mozilla
+    font-kerning: normal;                               // Set the default for kerning
+    -webkit-font-smoothing: antialiased;              // Improve (or in some cases royally screw with) safari's legibility somewhat
+    font-synthesis: none;                             // Don't allow the font to create sythetic bold/italic
+    text-rendering: optimizeLegibility;               // Improve kerning pairs. Webkit gets funny with this sometimes
+}
+
+
+// Retina images.
+// Use with care - http://37signals.com/svn/posts/3271-easy-retina-ready-images-using-scss
+// -------------------------------------------------------
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+     // on retina, use image that's scaled by 2
+    background-image: url($image);
+    background-size: $width $height;
+  }
+}
+
+
+// HEX to RGB
+// http://codepen.io/sturobson/pen/hdKyv
+// -------------------------------------------------------
+@mixin rgba($color, $value) {
+    background: $color;
+    background: rgba($color, $value);
+}
+
+
+// Opacity Mixin
+// -------------------------------------------------------
+@mixin opacity($value) {
+    -webkit-opacity:$value;
+    -moz-opacity:$value;
+    -o-opacity:$value;
+    opacity:$value;
+}
+
+
+
+
+
+// Center Colums
+// -------------------------------------------------------
+@mixin center-columns {
+    display: block;
+    float:none;
+    margin: 0 auto;
+}
+
+
+
+
+// Edge to Edge
+// -------------------------------------------------------
+// @mixin edge-to-edge {
+//   @include container($total-columns);
+//   padding:0;
+//   margin: 0 auto;
+//   width: 100%;
+//   max-width:1400px;
+// }
+
+
+
+// Bounds
+// -------------------------------------------------------
+@mixin bounds {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+// clearfix
+// -------------------------------------------------------
+@mixin clearlyFixed {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+
+// 0 padding, 0 margin
+// ------------------------------------------------------
+@mixin noMarPad {
+    margin:0;
+    padding:0;
+}
+
+
+
+
+// Full Bleed
+// -------------------------------------------------------
+@mixin fullBleed {
+    margin: auto auto ;
+    display: block;
+    float:none;
+    width: auto;
+}

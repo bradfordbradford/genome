@@ -1,0 +1,11 @@
+
+
+// IE8
+.lt-ie9 {
+    .bounds{
+     position: static !important;
+    }
+    #content-wrap {
+        min-height: 840px;
+    }
+}

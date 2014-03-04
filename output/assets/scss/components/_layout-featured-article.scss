@@ -1,0 +1,14 @@
+
+
+
+// Layout: Featured (featured articles) //
+.featured_layout {
+
+    // Article Body Copy
+    .primary-content {
+        @include span-columns(8, $total);
+        @include center-columns;
+
+    }
+
+}

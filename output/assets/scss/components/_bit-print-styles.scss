@@ -1,0 +1,164 @@
+
+
+
+// Print Styles
+@media print {
+
+      .show-for-print {display: inherit !important;}
+      body {padding: 32px;font-size:12px;}
+      * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } // Black prints faster: h5bp.com/s
+      .article-body-copy a {text-decoration: underline;}
+      abbr[title]:after { content: " (" attr(title) ")"; }
+      .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } // Don't show links for images, or javascript/internal links
+      pre, blockquote { page-break-inside: avoid; }
+      thead { display: table-header-group; }
+      tr, img { page-break-inside: avoid; }
+      img { max-width: 100% !important; }
+      @page { margin: 0.5cm; }
+      p, h2, h3 { orphans: 3; widows: 3; }
+      p.highlight,
+      h2,
+      h3,
+      #subscribe-ad { page-break-after: avoid; }
+
+
+      // Subscribe Add
+      #subscribe-ad {
+        width: 90%;
+        margin: 24px auto 24px;
+        border: 1px dotted black;
+        padding: 24px 24px 40px;
+        @include clearlyFixed;
+
+        .section-title span {
+            color: $secondary !important;
+        }
+
+        hr {
+            background: #000 !important;
+            margin: 16px auto 60px;
+        }
+        .image-content {
+            width: 80%;
+            margin: -40px auto 0;
+            display: block;
+        }
+        p.lead {
+            font-size: 18px;
+            a {
+                display: block;
+            }
+        }
+
+      }
+
+
+
+      // Hide
+      #main-navigation,
+      .comment-counter-wrap,
+      .media-object.with-large-image img,
+      .addthis_toolbox,
+      .article-photo,
+      .article-photo-caption,
+      .slideshow-wrap,
+      .slideshow-figcaption,
+      .hero.hero-article-title h2 br,
+      .scroll-down-arrow,
+      .pull-out-right,
+      .pull-out-left,
+      .small-pull,
+      .big-pull,
+      .footer-site-map,
+      .hero.hero-article-section,
+      .primary_layout aside.aside-column-primary,
+      .collection,
+      a.action,
+      .ver-line
+      {
+        display: none !important;
+      }
+
+      section#main-site-navigation-wrap h1.logo {
+        overflow: visible;
+      }
+
+
+      // General Layout
+      section#main-site-navigation-wrap {
+        position: relative;
+        box-shadow: none;
+      }
+      #content-wrap {
+        padding-top: 40px;
+      }
+      .block,
+      #main-footer .footer-content-wrap {
+        padding: 0px;
+      }
+      section#main-site-navigation-wrap .tagline, section#main-site-navigation-wrap h1.logo {
+        left:0px;
+      }
+      .hero {
+        height: auto !important;
+        margin: 32px auto;
+      }
+      .story-cover-content {
+        position: relative;
+      }
+      .featured_layout {
+        padding-bottom: 40px !important;
+      }
+
+      // Full Bleed
+      .primary_layout .primary-content,
+      .article_layout header.article-header,
+      .two-col-layout .col,
+      .featured_layout .primary-content {
+        @include fullBleed;
+        min-height: 100%;
+      }
+
+      // General Typography
+      section#main-site-navigation-wrap h1.logo a {
+        font-size: 5em;
+        top: 0px;
+      }
+      h1.logo a[href]:after {
+        content: "" attr(href) "";
+        position: relative;
+        font-size: 14px;
+        top: 6px;
+        right: 72px;
+        float: right;
+      }
+      .footer-site-map {
+        text-align: center;
+      }
+      p.highlight,
+      .article-body-copy p,
+      .hero p.lead,
+      blockquote,
+      p.lead,
+      p {
+        font-size: 16px;
+      }
+
+      .text-meta-highlight,
+      .text-meta, .text-meta a {
+        font-size: 12px;
+      }
+
+      .article-body-copy a[href]:after { content: " (" attr(href) ")"; }
+
+      .article-body-copy h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+      .hero.hero-article-title h2,
+      .hero h2,
+      h2 {
+        font-size: 32px;
+      }
+
+}
