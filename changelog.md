@@ -27,14 +27,14 @@ _Markup Edited_
 Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
 Home Scroll to Content -
     change this: <a class='arrow-down alternate' href='#scroll'></a>
-    to this: <a class='arrow-down alternate' href='#'></a>
+    to this: <a class='arrow-down alternate' href=''></a>
 
     change this: <section class='primary_layout' id='scroll'>
     to this: <section class='primary_layout' id='content-top'>
 
 Featured Scroll to Content -
     change this: <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
-    to this: <a class='arrow-down' data-icon='E' href='#'></a>
+    to this: <a class='arrow-down' data-icon='E' href=''></a>
 
     change this: <section class='featured_layout inner-bounds block' id='scroll-here'>
     to this: <section class='featured_layout inner-bounds block' id='top'>

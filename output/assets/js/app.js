@@ -14,6 +14,7 @@ $(document).ready(function($) {
     // Menu ----------
     $('html.js #main-navigation').accessibleMegaMenu();
 
+
     // Scroll Position (nav changes) ----------
     var mainNav = $('#main-site-navigation-wrap');
     $(window).scroll(function () {
@@ -27,25 +28,26 @@ $(document).ready(function($) {
     });
 
 
-    // Smooth Scroll ----------
-    // $('a[href^="#"]').on('click',function (e) {
-    //   e.preventDefault();
-    //   var target = this.hash,
-    //   $target = $(target);
-    //   $('html, body').stop().animate({
-    //       'scrollTop': $target.offset().top
-    //   }, 500, 'swing', function () {
-    //       window.location.hash = target;
-    //       // history.replaceState({}, '', '/');
-    //   });
-    // });
-
-
-    // Smooth Scroll to Top (without ugly hashes, and with nice top offsets)
+    // Smooth Scroll to Top (without ugly hashes, and with nice top offsets) ----------
     $(".hero .arrow-down").click(function(e) {
         e.preventDefault();
         $('html, body').animate({scrollTop: $('#top').offset().top -40 }, 500, 'swing');
     });
+
+
+    // Smooth Scroll for Anchors Links ----------
+    $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+      var target = this.hash,
+      $target = $(target);
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 500, 'swing', function () {
+          window.location.hash = target;
+          // history.replaceState({}, '', '/');
+      });
+    });
+
 
     // // Toggle View All ----------
     $('.open-g-door').on('click', function(e){
@@ -62,17 +64,16 @@ $(document).ready(function($) {
     });
 
 
-    // LazyLoad Images
+    // LazyLoad Images ----------
     $('img.load').lazyload({
         effect : "fadeIn"
     });
 
 
 
-    // Collapsible Content - Add Toggle
+    // Collapsible Content - Add Toggle ----------
     var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
     $('.collapse-header').append(toggleIcon);
-
     // Collapsible Content
     $(function() {
       $(".collapse-header").click(function () {
@@ -103,7 +104,7 @@ $(document).ready(function($) {
     });
 
 
-    // Overlay: View Search
+    // Overlay: View Search ----------
     $('.overlay-view-search').magnificPopup({
         type: 'inline',
         mainClass: 'mfp-zoom-in overlay-with-search-box',
@@ -153,6 +154,7 @@ $(document).ready(function($) {
         });
     });
 
+
     // Overlay: Watch Video ----------
     $('.overlay-watch-video').each(function() { // the containers for all your galleries
         $(this).magnificPopup({
@@ -166,6 +168,7 @@ $(document).ready(function($) {
             midClick: true
         });
     });
+
 
     // Overlay: View Slideshow ----------
     $('.overlay-view-slideshow').magnificPopup({
@@ -201,6 +204,5 @@ $(document).ready(function($) {
             }
           }
         });
-
 
 });
