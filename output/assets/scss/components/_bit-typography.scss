@@ -60,7 +60,7 @@ code {
   font-weight: bold;
   color: #910b0e; }
 
-<<<<<<< HEAD
+
 // Text Dividers/Ornaments
 .interpunct {
     padding: 0 2px;
@@ -83,8 +83,6 @@ code {
     padding-left: 2px;
 }
 
-=======
->>>>>>> master
 // Lists
 ul,
 ol,
@@ -242,7 +240,7 @@ blockquote {
         margin:0 0 16px;
     }
 
-<<<<<<< HEAD
+
     h4 {
         font-size: em-font(24px);
         font-weight: 700;
@@ -250,8 +248,6 @@ blockquote {
         margin:0 0 6px;
     }
 
-=======
->>>>>>> master
     p {
         line-height: 1.64em;
         font-size: em-font(20px);
@@ -262,15 +258,14 @@ blockquote {
         top: 2px;
         left: 2px;
     }
-<<<<<<< HEAD
+
     a {
         color: $primaryLink;
         &:hover {
             color: $primaryLinkHover;
         }
     }
-=======
->>>>>>> master
+
 }
 
 // Text Meta
@@ -524,8 +519,6 @@ hr {
     width:100%;
     margin-bottom: 2em;
 
-<<<<<<< HEAD
-=======
     // &.light {
     //     background: $primaryLight;
     // }
@@ -542,7 +535,7 @@ hr {
     //     background: $primaryRule;
     // }
 
->>>>>>> master
+
     &.article-break {
         background: transparent;
         background-position: center center !important;
@@ -586,10 +579,7 @@ hr {
 
 // Article Meta Utilities
 .action {
-<<<<<<< HEAD
-=======
     // text-transform: uppercase;
->>>>>>> master
 
     &[data-icon]:before {
         padding:0 4px;
@@ -602,7 +592,7 @@ hr {
 }
 
 
-<<<<<<< HEAD
+
 // Media Objects inside Primary Content
 .slats .media-object {
     h3 {
@@ -614,8 +604,8 @@ hr {
     }
 }
 
-=======
->>>>>>> master
+
+
 // Aside Block Media Objects
 .aside-block .media-object {
     .text-meta {
@@ -628,7 +618,7 @@ hr {
     }
 }
 
-<<<<<<< HEAD
+
 // VCard
 .vcard {
     margin-bottom: 8px;
@@ -654,5 +644,3 @@ span.org {
 span.tel {
     font-weight: 700;
 }
-=======
->>>>>>> master
