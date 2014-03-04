@@ -3,32 +3,84 @@ Burnlist: notes, mini bugs, etc
 ----
 
 
-# Working Through JSErrors
-- Top undefined - coming from AddThis because site is local. --non-issue
+# Changes for Integration
+# Notes for John
+
+    _Files Updated_
+    assets/fonts - replace directory
+    assets/css/genome-main.css - replace file
+    assets/js - replace directory
+
+    _Markup Edited_
+    Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
+    Home Scroll to Content -
+        change this: <a class='arrow-down alternate' href='#scroll'></a>
+        to this: <a class='arrow-down alternate' href=''></a>
+
+        change this: <section class='primary_layout' id='scroll'>
+        to this: <section class='primary_layout' id='content-top'>
+
+    Featured Scroll to Content -
+        change this: <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
+        to this: <a class='arrow-down' data-icon='E' href=''></a>
+
+        change this: <section class='featured_layout inner-bounds block' id='scroll-here'>
+        to this: <section class='featured_layout inner-bounds block' id='top'>
 
 
-# Misc Issues
-[ ] Video Overlay lags mfp-background
-
-[ ] Home
-
-    - continue reading line height and icon
-
-    - featured article grid floats are backwards
 
 
-[ ] Rolls pages
+# Open
+
+[] Rolls pages
 
     - pagination on mobile
-
 
 [ ] Blank pages
 
     - height doesn't push footer down
 
 
+# Closed
+== HOME ==
 
-# Stress Points
+    [x] Home
+        - continue reading line height and icon
+        - featured article grid floats are backwards
+
+
+== GENERAL ==
+
+    [x] Video Overlay lags mfp-background
+    [x] Check typography & grid sizes
+
+
+== HEADER ==
+
+    [x] Locks and Minifies
+
+== Featured Article ==
+
+    [x] Overlay
+        [x] Single Image
+        [x] Image Gallery
+        [x] Video
+    [x] Inline Gallery
+
+== Hover States ==
+
+    [x] collection media objects
+        [x] comment counter
+        [x] anything else?
+
+    [x] feature overlay
+        [x] Read this Feature prompt
+
+
+
+
+
+# Stress Point Notes
 == Range 3,2 (768 - 1224) ==
 
     Hero Feature, Inline Feature

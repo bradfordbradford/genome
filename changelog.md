@@ -4,6 +4,7 @@
 
 ## Timeline
 * [03/03/2014]
+
 [x] Switched to relative asset paths
 
 [x] Stripped out adept.js - just using MQs (snappier load time)
@@ -48,9 +49,7 @@ Featured Scroll to Content -
 
 * [02/27/2014]
 
-
 [x] Finalize and send to John
---
 
 [x] Read through CSS & HTML - check that code is dry and semantic
 
@@ -70,15 +69,21 @@ Featured Scroll to Content -
 [x] grid+type
 
 
-
+--------------------------------
 
 
 * [02/26/2014]
+
 [x] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
+
+
+--------------------------------
+
 
 [x] Print Style Basics
 
 * [02/25/2014]
+
 [x] responsive nav
 
 [x] iPad Portrait - padding issue on offcanvas collapsible menu
@@ -92,16 +97,22 @@ Featured Scroll to Content -
 [x] prevent FOUC with body.init till bodyReady
 
 
+--------------------------------
+
 
 * [02/24/2014]
+
 [x] Home Hero - mobile (is pushed down below image content)
 Modal Overlay BGs - transition issue in chrome
+
 [x] AddThis - why it's not linking out
 
 
+--------------------------------
 
 
 * [02/23/2014]
+
 [x] Added load in animation for Featured Article Hero
 
 [x] Fixed 'bumping' on css3 animations
@@ -124,6 +135,7 @@ Modal Overlay BGs - transition issue in chrome
 [x] Made Browse Menu full bleed
 
 
+--------------------------------
 
 
 * [02/21/2014]
@@ -133,7 +145,7 @@ Modal Overlay BGs - transition issue in chrome
 
 [x] Add glasses symbol to Subscribe button (see purple top row of buttons for example: https://medium.com/p/8d43bcb650c5)
 
-- Should link color shifts be dark blue, not gray?
+[] Should link color shifts be dark blue, not gray?
     Like it. What shade?
 
 [x] For 1-Across thumbnail, should entire text area link/be clickable? This will help on Mobile, too.
@@ -166,6 +178,7 @@ Modal Overlay BGs - transition issue in chrome
 [x] Should all meta (including author) be sans in this view since text is so tiny?
     Agree. Will be consistent with article meta
 [x] Pagination styles?
+
 [x] line-height of last line/"continue reading" is awkward?
 
 **Story Roll**
@@ -226,12 +239,15 @@ Modal Overlay BGs - transition issue in chrome
         Article-Photo's adjust to center
 
 
-
-
-== Resolved Issues ==
+== Closed ==
 
     [x] Photo Caption Cards
         A vulnerable point, even on desktops: pushed down if article header info is verbose. Research for a better solution.
+
+
+
+
+--------------------------------
 
 
 
@@ -282,6 +298,9 @@ Modal Overlay BGs - transition issue in chrome
 
 
 
+--------------------------------
+
+
 
 * Layout, Interactive [02/13/14]
 
@@ -309,56 +328,24 @@ Modal Overlay BGs - transition issue in chrome
             [x] view full image
 
 
-
-* Heros [02/12/14]
-
-
-* Home, Improved Layout Structure - [02/11/14]
+--------------------------------
 
 
-* Basic Layout Elements, Layout Structure, Utility Classes - [02/04/14]
+[02/12/14]
+
+[x] Heros
 
 
+--------------------------------
 
 
+[02/11/14]
+[x] Home, Improved Layout Structure
 
 
+--------------------------------
 
+[02/04/14]
 
-
-
-
-
-
-
---------------------
-* BACKLOG
-
-== GENERAL ==
-
-    _ Check typography & grid sizes
-
-
-== HEADER ==
-
-    _ Locks and Minifies
-
-== Featured Article ==
-
-    _ Overlay
-        _ Single Image
-        _ Image Gallery
-        _ Video
-    _ Inline Gallery
-
-== Hover States ==
-
-    _ collection media objects
-        _ comment counter
-        _ anything else?
-
-    _ feature overlay
-        _ Read this Feature prompt
-
-
+[x] Basic Layout Elements, Layout Structure, Utility Classes
 
