@@ -3,8 +3,6 @@
 
 
 // Utility Classes //
-<<<<<<< HEAD
-=======
 // .scroll-offset-20:before {
 //     display: block;
 //     content: "";
@@ -22,8 +20,7 @@
 //     position: relative;
 //     overflow: auto;
 //     -webkit-overflow-scrolling: touch;
-// }
->>>>>>> master
+
 
 // Hide/Show
 .hide-above-tablet-p {
@@ -183,10 +180,9 @@
         margin-bottom:0;
     }
 }
-<<<<<<< HEAD
+
 .dis-block {display: block;}
-=======
->>>>>>> master
+
 
 .inline-block {
     display:inline-block;
@@ -271,11 +267,10 @@
 
 
 
-<<<<<<< HEAD
+
 // Cards & Backgrounds
-=======
-// Cards
->>>>>>> master
+
+
 .background-white {
     background: $primaryLight;
 }
@@ -305,7 +300,7 @@
 
 // Roll List
 .roll-list {
-<<<<<<< HEAD
+
 
     li {
         clear: both;
@@ -318,11 +313,10 @@
             &:first-child {margin-top:0px;}
         }
 
-=======
+
     li {
         margin: 0 auto 24px;
->>>>>>> master
-        header .text-meta {
+
             color: $secondaryBackgroundCompliment;
             &:hover {color:$primaryLinkHover;}
         }
@@ -342,16 +336,15 @@
     }
 }
 
-<<<<<<< HEAD
+
 // Contact List
 ul.contact-list {
     li.vcard {
         margin: 0 0 8px;
     }
 }
-=======
 
->>>>>>> master
+
 
 // Media Object
 .media-object {
@@ -374,17 +367,14 @@ ul.contact-list {
         }
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master
     &.reversed {
         img {
             float: right;
             margin-left: 12px;
         }
     }
-<<<<<<< HEAD
+
 
     &.with-med-image {
         img {
@@ -400,8 +390,7 @@ ul.contact-list {
         }
     }
 
-=======
->>>>>>> master
+
 }
 
 // Media Object - Author Type
@@ -512,12 +501,11 @@ ul.contact-list {
         }
 
     }
-<<<<<<< HEAD
+
     .media-object {
         @include clearfix;
     }
-=======
->>>>>>> master
+
 }
 
 // Meta List
@@ -654,8 +642,6 @@ ul.meta-list {
 }
 
 
-<<<<<<< HEAD
-=======
 // Text Dividers/Ornaments
 .interpunct {
     padding: 0 2px;
@@ -678,7 +664,6 @@ ul.meta-list {
 }
 
 
->>>>>>> master
 // Collapsable Sections
 .collapse-area {
     .collapse-header, > a {

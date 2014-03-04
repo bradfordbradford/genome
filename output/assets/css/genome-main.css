@@ -2008,11 +2008,12 @@ body.nav-add-social section#main-site-navigation-wrap.menu-slim aside.add-social
   margin-top: 0px;
 }
 
-.roll-list li header .text-meta {
+.roll-list li li {
+  margin: 0 auto 24px;
   color: #8f8e8e;
 }
 
-.roll-list li header .text-meta:hover {
+.roll-list li li:hover {
   color: #bababa;
 }
 
@@ -2311,6 +2312,28 @@ ul.meta-list.with-tags.tags-compliment-bg li a:hover {
   border-top: 10px solid #1cbadb;
   border-left: 10px solid #1cbadb;
   border-bottom: 10px solid white;
+}
+
+.interpunct {
+  padding: 0 2px;
+  display: inline-block;
+  font-size: 2em;
+  top: 3px;
+  line-height: 0px;
+  position: relative;
+}
+
+.ver-line {
+  padding: 0 3px;
+  display: inline-block;
+  font-size: 1em;
+  top: -2px;
+  position: relative;
+}
+
+.double-quote-right {
+  display: inline-block;
+  font-size: 1.4em;
 }
 
 .collapse-area .collapse-header,
