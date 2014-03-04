@@ -3,6 +3,13 @@
 # Contrib Changelog
 
 ## Timeline
+
+* [03/03/2014]
+
+[x] Phase 2 Utility Pages
+
+--------------------------------
+
 * [03/03/2014]
 
 [x] Switched to relative asset paths
@@ -20,7 +27,9 @@
 [x] Overlay Transitions - Fixed Chrome bug
 
 [x] Align Middle Firefox - Fixed
+
 --------------------------------
+
 _Files Updated_
 assets/fonts - replace directory
 assets/css/genome-main.css - replace file
@@ -69,7 +78,9 @@ Featured Scroll to Content -
 [x] grid+type
 
 
+
 --------------------------------
+
 
 
 * [02/26/2014]
@@ -77,7 +88,9 @@ Featured Scroll to Content -
 [x] For "full bleed" images on Home and Featured, can we apply the effects we discussed (https://medium.com/)? If you have changed your mind on how we should handle these sections, let me know!
 
 
+
 --------------------------------
+
 
 
 [x] Print Style Basics

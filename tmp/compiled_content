@@ -7186,7 +7186,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"žV<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"ëj<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7552,6 +7552,78 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
                       </a>
                     </div>
                   </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_about/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: About Us</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_contact/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Contact</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_contributors/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Contributors</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_media-kit/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Media Kit</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_partners-and-allies/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Partners & Allies</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/output/utility_privacy-policy/index.html' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Privacy Policy</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+                        </p>
+                      </a>
+                    </div>
+                  </div>
                 </section>
               </div>
             </div>
@@ -7661,7 +7733,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     </script>
   </body>
 </html>
-;T;	I"l%section.primary_layout.article_layout
+;T;	I"E(%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
 
@@ -7753,8 +7825,72 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
                         %a.media-copy{:target=>"_blank", :href => "/"}
                             %h3.text-meta-header Home
                             %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+
+
+
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_about/index.html"}
+                            %h3.text-meta-header Utility: About Us
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_contact/index.html"}
+                            %h3.text-meta-header Utility: Contact
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_contributors/index.html"}
+                            %h3.text-meta-header Utility: Contributors
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_media-kit/index.html"}
+                            %h3.text-meta-header Utility: Media Kit
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_partners-and-allies/index.html"}
+                            %h3.text-meta-header Utility: Partners & Allies
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/output/utility_privacy-policy/index.html"}
+                            %h3.text-meta-header Utility: Privacy Policy
+                            %p.text-meta-sub.light-text-color.sans-meta
                                 Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦;T;
-I"<section class='primary_layout article_layout'>
+I"ü)<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <section class='related-reading collection grid-3-per'>
@@ -7855,6 +7991,78 @@ I"<section class='primary_layout article_layout'>
             <div class='text-meta'>Home Layout</div>
             <a class='media-copy' href='/' target='_blank'>
               <h3 class='text-meta-header'>Home</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_about/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: About Us</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_contact/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Contact</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_contributors/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Contributors</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_media-kit/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Media Kit</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_partners-and-allies/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Partners & Allies</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/output/utility_privacy-policy/index.html' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Privacy Policy</h3>
               <p class='text-meta-sub light-text-color sans-meta'>
                 Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolorâ€¦
               </p>
@@ -10160,7 +10368,7 @@ I"@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"R<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"™Q<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10508,9 +10716,6 @@ I"@<section class='primary_layout article_layout'>
                         <a href='#'>About Us</a>
                       </li>
                       <li>
-                        <a href='#'>Genome Staff</a>
-                      </li>
-                      <li>
                         <a href='#'>Partners & Allies</a>
                       </li>
                       <li>
@@ -10709,7 +10914,7 @@ I"@<section class='primary_layout article_layout'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"Õ<section class='primary_layout article_layout no-photo'>
+I"‡<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -10798,9 +11003,6 @@ I"Õ<section class='primary_layout article_layout no-photo'>
               <a href='#'>About Us</a>
             </li>
             <li>
-              <a href='#'>Genome Staff</a>
-            </li>
-            <li>
               <a href='#'>Partners & Allies</a>
             </li>
             <li>
@@ -10821,7 +11023,7 @@ I"Õ<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"ZH<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"îG<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11146,9 +11348,6 @@ I"Õ<section class='primary_layout article_layout no-photo'>
                         <a href='#'>About Us</a>
                       </li>
                       <li>
-                        <a href='#'>Genome Staff</a>
-                      </li>
-                      <li>
                         <a href='#'>Partners & Allies</a>
                       </li>
                       <li>
@@ -11326,7 +11525,8 @@ I"Õ<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"<section class='primary_layout article_layout no-photo'>
+I"¶
+<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -11392,9 +11592,6 @@ I"<section class='primary_layout article_layout no-photo'>
               <a href='#'>About Us</a>
             </li>
             <li>
-              <a href='#'>Genome Staff</a>
-            </li>
-            <li>
               <a href='#'>Partners & Allies</a>
             </li>
             <li>
@@ -11415,7 +11612,7 @@ I"<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"ËL<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"_L<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11744,9 +11941,6 @@ I"<section class='primary_layout article_layout no-photo'>
                         <a href='#'>About Us</a>
                       </li>
                       <li>
-                        <a href='#'>Genome Staff</a>
-                      </li>
-                      <li>
                         <a href='#'>Partners & Allies</a>
                       </li>
                       <li>
@@ -11930,7 +12124,7 @@ I"<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"Z<section class='primary_layout article_layout no-photo'>
+I"<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -12000,9 +12194,6 @@ I"Z<section class='primary_layout article_layout no-photo'>
               <a href='#'>About Us</a>
             </li>
             <li>
-              <a href='#'>Genome Staff</a>
-            </li>
-            <li>
               <a href='#'>Partners & Allies</a>
             </li>
             <li>
@@ -12023,7 +12214,7 @@ I"Z<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"ýK<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"‘K<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12321,9 +12512,6 @@ I"Z<section class='primary_layout article_layout no-photo'>
                         <a href='#'>About Us</a>
                       </li>
                       <li>
-                        <a href='#'>Genome Staff</a>
-                      </li>
-                      <li>
                         <a href='#'>Partners & Allies</a>
                       </li>
                       <li>
@@ -12484,7 +12672,7 @@ I"Z<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"½<section class='primary_layout article_layout no-photo'>
+I"o<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -12523,9 +12711,6 @@ I"½<section class='primary_layout article_layout no-photo'>
               <a href='#'>About Us</a>
             </li>
             <li>
-              <a href='#'>Genome Staff</a>
-            </li>
-            <li>
               <a href='#'>Partners & Allies</a>
             </li>
             <li>
@@ -12546,7 +12731,7 @@ I"½<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"ÒB<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"TB<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12813,7 +12998,7 @@ I"½<section class='primary_layout article_layout no-photo'>
                 </header>
               </div>
               <div class='content-row'>
-                <section class='primary-content article-body-copy'>
+                <section class='primary-content'>
                   <div class='vcard dis-block'>
                     <span class='org'>Big Science Media</span>
                     <span class='street-address'>6900 Dallas Parkway</span>
@@ -12838,9 +13023,6 @@ I"½<section class='primary_layout article_layout no-photo'>
                     <ul class='featured-list slats'>
                       <li class='active'>
                         <a href='#'>About Us</a>
-                      </li>
-                      <li>
-                        <a href='#'>Genome Staff</a>
                       </li>
                       <li>
                         <a href='#'>Partners & Allies</a>
@@ -12968,7 +13150,7 @@ I"½<section class='primary_layout article_layout no-photo'>
     </script>
   </body>
 </html>
-;T;	I"v%section.primary_layout.article_layout.no-photo
+;T;	I"d%section.primary_layout.article_layout.no-photo
     .inner-bounds.block.background-white
 
 
@@ -12982,7 +13164,7 @@ I"½<section class='primary_layout article_layout no-photo'>
         .content-row
 
             -# Primary Content Column + Article Body Copy
-            %section.primary-content.article-body-copy
+            %section.primary-content
 
                 .vcard.dis-block
                     %span.org Big Science Media
@@ -13002,7 +13184,7 @@ I"½<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"Á<section class='primary_layout article_layout no-photo'>
+I"a<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -13010,7 +13192,7 @@ I"Á<section class='primary_layout article_layout no-photo'>
       </header>
     </div>
     <div class='content-row'>
-      <section class='primary-content article-body-copy'>
+      <section class='primary-content'>
         <div class='vcard dis-block'>
           <span class='org'>Big Science Media</span>
           <span class='street-address'>6900 Dallas Parkway</span>
@@ -13037,9 +13219,6 @@ I"Á<section class='primary_layout article_layout no-photo'>
               <a href='#'>About Us</a>
             </li>
             <li>
-              <a href='#'>Genome Staff</a>
-            </li>
-            <li>
               <a href='#'>Partners & Allies</a>
             </li>
             <li>
@@ -13060,7 +13239,7 @@ I"Á<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"%[<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"¹Z<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13473,9 +13652,6 @@ I"Á<section class='primary_layout article_layout no-photo'>
                         <a href='#'>About Us</a>
                       </li>
                       <li>
-                        <a href='#'>Genome Staff</a>
-                      </li>
-                      <li>
                         <a href='#'>Partners & Allies</a>
                       </li>
                       <li>
@@ -13718,7 +13894,7 @@ I"Á<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"i<section class='primary_layout article_layout no-photo'>
+I"<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -13870,9 +14046,6 @@ I"i<section class='primary_layout article_layout no-photo'>
           <ul class='featured-list slats'>
             <li class='active'>
               <a href='#'>About Us</a>
-            </li>
-            <li>
-              <a href='#'>Genome Staff</a>
             </li>
             <li>
               <a href='#'>Partners & Allies</a>
