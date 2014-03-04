@@ -4,20 +4,22 @@
 
 ## Timeline
 * [03/03/2014]
-[x] switched rwd from range_ ids to mq (snappier)
+[x] Switched to relative asset paths
 
-[x] Updated Fonts (redrop files to font dir)
+[x] Stripped out adept.js - just using MQs (snappier load time)
 
-[x] Article_Feature - removed #scroll-here. targeting #read-time-wrap instead. added .scroll-offset-40 class
+[x] Updated Fonts (needed add'l icons)
 
-[x] Home - moved #scroll to section.primary_layout. added .scroll-offset-20 class
+[x] Article_Feature - reworked anchor targets (see Markup Edits)
 
-[x] Nav - changed subscribe form-box icon to out arrow Markup: change to 'K'
+[x] Home - reworked anchor targets (see Markup Edits)
 
-[x] overlay transitions - still inconsistent
+[x] Nav - Changed subscribe form-box icon to arrow (see Markup Edits)
 
-[x] firefox bug
+[x] Overlay Transitions - Fixed Chrome bug
 
+[x] Align Middle Firefox - Fixed
+--------------------------------
 _Files Updated_
 assets/fonts - replace directory
 assets/css/genome-main.css - replace file
@@ -38,6 +40,7 @@ Featured Scroll to Content -
 
     change this: <section class='featured_layout inner-bounds block' id='scroll-here'>
     to this: <section class='featured_layout inner-bounds block' id='top'>
+
 
 
 
