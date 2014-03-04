@@ -83,6 +83,7 @@ code {
     padding-left: 2px;
 }
 
+
 // Lists
 ul,
 ol,
@@ -106,14 +107,14 @@ ul.disc {
 ul.no-bullet {
   list-style: none; }
 
-// Ordered Lists
-ol { }
-  ol li ul,
-  ol li ol { }
+// // Ordered Lists
+// ol { }
+//   ol li ul,
+//   ol li ol { }
 
-// Definition Lists
-dl dt {}
-dl dd {}
+// // Definition Lists
+// dl dt {}
+// dl dd {}
 
 // Abbreviations
 abbr,
@@ -519,22 +520,6 @@ hr {
     width:100%;
     margin-bottom: 2em;
 
-    // &.light {
-    //     background: $primaryLight;
-    // }
-
-    // &.primary- {
-    //     background: $primary;
-    // }
-
-    // &.neutral {
-    //     background: $primaryLinkHover;
-    // }
-
-    // &.neutral-light {
-    //     background: $primaryRule;
-    // }
-
 
     &.article-break {
         background: transparent;
@@ -579,6 +564,7 @@ hr {
 
 // Article Meta Utilities
 .action {
+
     // text-transform: uppercase;
 
     &[data-icon]:before {
@@ -605,7 +591,6 @@ hr {
 }
 
 
-
 // Aside Block Media Objects
 .aside-block .media-object {
     .text-meta {
@@ -617,7 +602,6 @@ hr {
         }
     }
 }
-
 
 // VCard
 .vcard {

@@ -6,7 +6,8 @@ html.js {
     body.init {
         #main-navigation .nav-item ol,
         #offcanvas-navigation,
-        aside.add-social {
+        aside.add-social,
+        #newsletter-door{
             display:none !important;
         }
     }

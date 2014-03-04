@@ -3,6 +3,26 @@
 
 
 // Utility Classes //
+// .scroll-offset-20:before {
+//     display: block;
+//     content: "";
+//     height: 20px;
+//     margin: -20px 0 0;
+// }
+// .scroll-offset-40:before {
+//     display: block;
+//     content: "";
+//     height: 40px;
+//     margin: -40px 0 0;
+// }
+
+// #skrollr-body {
+//     position: relative;
+//     overflow: auto;
+//     -webkit-overflow-scrolling: touch;
+
+// }
+
 
 // Hide/Show
 .hide-above-tablet-p {
@@ -162,7 +182,9 @@
         margin-bottom:0;
     }
 }
+
 .dis-block {display: block;}
+
 
 .inline-block {
     display:inline-block;
@@ -247,7 +269,10 @@
 
 
 
+
 // Cards & Backgrounds
+
+
 .background-white {
     background: $primaryLight;
 }
@@ -278,6 +303,7 @@
 // Roll List
 .roll-list {
 
+
     li {
         clear: both;
         @include clearfix;
@@ -289,7 +315,10 @@
             &:first-child {margin-top:0px;}
         }
 
-        header .text-meta {
+
+    li {
+        margin: 0 auto 24px;
+
             color: $secondaryBackgroundCompliment;
             &:hover {color:$primaryLinkHover;}
         }
@@ -309,12 +338,15 @@
     }
 }
 
+
 // Contact List
 ul.contact-list {
     li.vcard {
         margin: 0 0 8px;
     }
 }
+
+
 
 // Media Object
 .media-object {
@@ -337,12 +369,14 @@ ul.contact-list {
         }
     }
 
+
     &.reversed {
         img {
             float: right;
             margin-left: 12px;
         }
     }
+
 
     &.with-med-image {
         img {
@@ -357,6 +391,7 @@ ul.contact-list {
             margin-top: 8px;
         }
     }
+
 
 }
 
@@ -468,9 +503,11 @@ ul.contact-list {
         }
 
     }
+
     .media-object {
         @include clearfix;
     }
+
 }
 
 // Meta List
@@ -604,6 +641,28 @@ ul.meta-list {
             }
         }
     }
+}
+
+
+// Text Dividers/Ornaments
+.interpunct {
+    padding: 0 2px;
+    display: inline-block;
+    font-size: 2em;
+    top: 3px;
+    line-height: 0px;
+    position: relative;
+}
+.ver-line {
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 1em;
+    top:-2px;
+    position: relative;
+}
+.double-quote-right {
+    display: inline-block;
+    font-size: 1.4em;
 }
 
 
