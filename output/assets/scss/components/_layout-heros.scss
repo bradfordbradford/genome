@@ -45,23 +45,30 @@
 // Taller Hero
 .hero-tall {
     height:800px !important;
-    max-height:800px !important;
+    // max-height:800px !important;
 }
 
 // Align Middle
+.wrap-temp {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
 .align-middle {
     height: 100%;
     position: relative;
+    z-index: 2;
     &.align-bottom {
         .align-block {
             vertical-align: bottom;
             padding-bottom:40px;
         }
     }
-    &:before {
+    &:before  {
         content: '';
         height: 100%;
-        margin-right: -0.32em;
+        margin-right: -0.25em;
     }
     &:before, .align-block {
         display: inline-block;
@@ -69,18 +76,25 @@
     }
 }
 
+
+// .story-cover-image, .story-cover-image-transition {display: none;}
+
+
 // Cover Content
 .story-cover-content {
+    width: 100%;
+    height:600px;
+
     position: absolute;
     left: 0;
     right: 0;
     z-index: 2;
-    height: 100%;
-    // bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    // height: 100%;
+//     bottom: 40px;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
 
-    // Set to Rel to allow Skrollr.js magic
+//     // Set to Rel to allow Skrollr.js magic
     .cover-content-inner {
         position: relative;
     }
@@ -197,9 +211,13 @@
 
 
 .hero {
-    position: relative;
     height: 600px;
-    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    // position: relative;
+    // height: 600px;
+    // width:100%;
+    // overflow: auto;
 
 
     // Hero Article - Title Type

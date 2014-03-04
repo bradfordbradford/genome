@@ -6,10 +6,7 @@
 
 
 
-#range_3,
-#range_2,
-#range_1,
-#range_0, { // ---- Down from 1224 ----
+@include breakpoint(laptop) { // ---- Down from 1224 ----
     // Layout - HERO: ARTICLE TITLE
     // Avoid Col Collision
     .hero.hero-article-title {
@@ -22,8 +19,7 @@
 
 
 
-#range_1,
-#range_0 { // ---- Down from 768px ----
+@include breakpoint(ipad-portrait) { // ---- Down from 768px ----
 
     // Utilities: Hide/Show
     .hide-above-tablet-p {
@@ -179,8 +175,11 @@
 
 
 
-#range_0 { // ---- Down from 480px ----
-
+@include breakpoint(phone) { // ---- Down from 480px ----
+    .inner-bounds {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
     // Layout - FEATURE
     .featured_layout {
         // Full Bleed Items: REMOVE COLUMNS

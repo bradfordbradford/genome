@@ -6,12 +6,16 @@
 @mixin breakpoint($point) {
 
   // Standard Targets --------------------
-  @if $point == grand-monitor {
+  @if $point == grand-monitor-up {
     @media only screen and (min-width: 1824px) { @content; }
   }
 
-  @else if $point == monitor {
+  @else if $point == monitor-up {
     @media only screen and (min-width: 1600px) { @content; }
+  }
+
+  @else if $point == laptop-up {
+    @media only screen and (min-width: 1224px) { @content; }
   }
 
   @else if $point == laptop {

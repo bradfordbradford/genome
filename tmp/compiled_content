@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"4“<!DOCTYPE html>
+{:	data{I"/:ET{:default{	:	lastI"-“<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -20,7 +20,7 @@
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -49,7 +49,7 @@
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -279,11 +279,11 @@
                 </div>
               </div>
             </div>
-            <a class='arrow-down alternate' href='#scroll'></a>
+            <a class='arrow-down alternate' href='#'></a>
             <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
             <div class='story-cover-image-transition'></div>
           </header>
-          <section class='primary_layout' id='scroll'>
+          <section class='primary_layout' id='top'>
             <div class='inner-bounds block'>
               <div class='content-row'>
                 <aside class='aside-column-primary'>
@@ -703,7 +703,7 @@
                     </section>
                   </div>
                   <div class='content-row'>
-                    <a class='full-bleed btn compliment' href='#'>View All Articles</a>
+                    <!-- %a.full-bleed.btn.compliment{:href => "#"} View All Articles -->
                   </div>
                 </section>
               </div>
@@ -801,12 +801,11 @@
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -815,7 +814,7 @@
     </script>
   </body>
 </html>
-;T:rawI"Õ&%header.hero.hero-featured-article.background-size-full.center
+;T:rawI"Ì&%header.hero.hero-featured-article.background-size-full.center
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
@@ -835,15 +834,13 @@
 
                     .author-attrib.text-meta-highlight By Author Righter
 
-    %a.arrow-down.alternate{:href => "#scroll"}
+    %a.arrow-down.alternate{:href => "#"}
 
     .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
     .story-cover-image-transition
 
 
-
-
-%section.primary_layout#scroll
+%section#top.primary_layout
     .inner-bounds.block
 
         .content-row
@@ -1003,7 +1000,7 @@
 
 
                 .content-row
-                    %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"ÌG<header class='hero hero-featured-article background-size-full center'>
+                    / %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T:preI"ÅG<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -1025,11 +1022,11 @@
       </div>
     </div>
   </div>
-  <a class='arrow-down alternate' href='#scroll'></a>
+  <a class='arrow-down alternate' href='#'></a>
   <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
   <div class='story-cover-image-transition'></div>
 </header>
-<section class='primary_layout' id='scroll'>
+<section class='primary_layout' id='top'>
   <div class='inner-bounds block'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -1449,7 +1446,7 @@
           </section>
         </div>
         <div class='content-row'>
-          <a class='full-bleed btn compliment' href='#'>View All Articles</a>
+          <!-- %a.full-bleed.btn.compliment{:href => "#"} View All Articles -->
         </div>
       </section>
     </div>
@@ -1661,7 +1658,7 @@ I"}<article>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -1690,7 +1687,7 @@ I"}<article>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -2287,12 +2284,11 @@ I"}<article>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -2707,7 +2703,7 @@ I"‘:<section class='primary_layout article_layout'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -2736,7 +2732,7 @@ I"‘:<section class='primary_layout article_layout'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -3325,12 +3321,11 @@ I"‘:<section class='primary_layout article_layout'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -3722,7 +3717,7 @@ I"~2<section class='primary_layout article_layout'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -3751,7 +3746,7 @@ I"~2<section class='primary_layout article_layout'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -4162,12 +4157,11 @@ I"~2<section class='primary_layout article_layout'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -4498,7 +4492,7 @@ I"_<section class='primary_layout article_layout'>
   </body>
 </html>
 ;T;	I"Hi, I'm a new item!;T;
-@-;@,I"/article_feature/;T{;{	;I"†<!DOCTYPE html>
+@-;@,I"/article_feature/;T{;{	;I"s<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4520,7 +4514,7 @@ I"_<section class='primary_layout article_layout'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -4549,7 +4543,7 @@ I"_<section class='primary_layout article_layout'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -4774,7 +4768,7 @@ I"_<section class='primary_layout article_layout'>
                       </p>
                       <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
                       <div class='content-row'>
-                        <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
+                        <a class='arrow-down' data-icon='E' href='#'></a>
                       </div>
                     </a>
                   </div>
@@ -4784,7 +4778,7 @@ I"_<section class='primary_layout article_layout'>
               <div class='story-cover-image-transition'></div>
             </header>
             <div id='read-time-wrap'>
-              <section class='featured_layout inner-bounds block' id='scroll-here'>
+              <section class='featured_layout inner-bounds block' id='top'>
                 <section class='primary-content'>
                   <div class='content-row'>
                     <article class='article-body-copy'>
@@ -5070,12 +5064,11 @@ I"_<section class='primary_layout article_layout'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -5084,7 +5077,7 @@ I"_<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"@-# Featured Hero
+;T;	I"	@-# Featured Hero
 .background-white
     %header.hero.hero-featured-article.background-size-full.center.hero-tall
         .story-cover-content.single-col-layout
@@ -5105,14 +5098,14 @@ I"_<section class='primary_layout article_layout'>
                         .author-attrib.text-meta-highlight.tertiary-text-color By Author Righter
 
                         .content-row
-                            %a.arrow-down{:href => "#scroll-here",:'data-icon' => "E"}
+                            %a.arrow-down{:href => "#",:'data-icon' => "E"}
 
         .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
         .story-cover-image-transition
 
     #read-time-wrap
         -# Featured Content Paper
-        %section.featured_layout.inner-bounds.block#scroll-here
+        %section#top.featured_layout.inner-bounds.block
 
 
             -# Primary Content Column
@@ -5314,7 +5307,7 @@ I"_<section class='primary_layout article_layout'>
                         %p
                             Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                             %span.light-text-color.inline-block.end-mark{:'data-icon'=>"G"};T;
-I"=<div class='background-white'>
+I" =<div class='background-white'>
   <header class='hero hero-featured-article background-size-full center hero-tall'>
     <div class='story-cover-content single-col-layout'>
       <div class='align-middle'>
@@ -5331,7 +5324,7 @@ I"=<div class='background-white'>
             </p>
             <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
             <div class='content-row'>
-              <a class='arrow-down' data-icon='E' href='#scroll-here'></a>
+              <a class='arrow-down' data-icon='E' href='#'></a>
             </div>
           </a>
         </div>
@@ -5341,7 +5334,7 @@ I"=<div class='background-white'>
     <div class='story-cover-image-transition'></div>
   </header>
   <div id='read-time-wrap'>
-    <section class='featured_layout inner-bounds block' id='scroll-here'>
+    <section class='featured_layout inner-bounds block' id='top'>
       <section class='primary-content'>
         <div class='content-row'>
           <article class='article-body-copy'>
@@ -5760,7 +5753,7 @@ I"ï<div class='inner-bounds paper-white block'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -5789,7 +5782,7 @@ I"ï<div class='inner-bounds paper-white block'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -6344,12 +6337,11 @@ I"ï<div class='inner-bounds paper-white block'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -6688,7 +6680,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -6717,7 +6709,7 @@ I"*<section class='primary_layout article_layout no-photo'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -7024,12 +7016,11 @@ I"*<section class='primary_layout article_layout no-photo'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -7071,7 +7062,7 @@ I"¬<section class='primary_layout'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -7100,7 +7091,7 @@ I"¬<section class='primary_layout'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -7797,12 +7788,11 @@ I"¬<section class='primary_layout'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -8401,7 +8391,7 @@ I"ˆ@<section class='primary_layout article_layout'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -8430,7 +8420,7 @@ I"ˆ@<section class='primary_layout article_layout'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -8952,12 +8942,11 @@ I"ˆ@<section class='primary_layout article_layout'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -9400,7 +9389,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
@@ -9429,7 +9418,7 @@ I"'<div class='inner-bounds remove-footer-offset block'>
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -10118,12 +10107,11 @@ I"'<div class='inner-bounds remove-footer-offset block'>
     </div>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='/assets/js/min/app.min.js'></script>
-    <script src='/assets/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <!-- %script{:src => "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086"} -->
+    <!-- %script -->
+    <!-- var addthis_config = {"data_track_addressbar":true}; -->
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

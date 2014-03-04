@@ -413,6 +413,7 @@ img.mfp-img {
 
   // animate in
   &.mfp-ready {
+    // height: 20000px !important;
     .mfp-content {
       opacity: 1;
       transform: scale(1);

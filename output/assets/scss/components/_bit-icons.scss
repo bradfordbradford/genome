@@ -15,6 +15,7 @@
 
 }
 
+
 [data-icon]:before {
   font-family: "genome-font" !important;
   content: attr(data-icon);
@@ -145,4 +146,16 @@
 }
 .icon-glasses:before {
   content: "H";
+}
+.icon-loop-refresh:before {
+  content: "I";
+}
+.icon-download-1:before {
+  content: "J";
+}
+.icon-fontawesome-webfont:before {
+  content: "K";
+}
+.icon-email-plane:before {
+  content: "M";
 }
