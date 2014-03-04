@@ -1,6 +1,7 @@
 .lt-ie9 .bounds {
   position: static !important;
 }
+
 .lt-ie9 #content-wrap {
   min-height: 840px;
 }
