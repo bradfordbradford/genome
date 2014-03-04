@@ -1,0 +1,238 @@
+
+
+
+// Structure OffCanvas Nav ------------------
+
+#offcanvas-navigation {
+  z-index: 200;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: $primaryLight;
+
+    // Inner
+    .offcanvas-inner {
+        z-index: 1;
+        padding: 0 1.6em;
+        position: relative;
+    }
+
+    // Navigation List
+    ol.navigation-list {
+        *zoom: 1;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        &, &:after {
+            content: "";
+            display: table;
+        }
+        &:after {
+            clear: both;
+        }
+
+        > li {
+            display: block;
+            padding: 16px 0;
+            border-bottom: 1px solid lighten($primaryHeader, 10%);
+            &:last-child {
+                border-top: 1px solid lighten($primaryHeader, 10%);
+                margin-top: 16px;
+            }
+
+
+            > a, .collapse-header {
+                display: block;
+                outline: none;
+                padding: 0px 4px;
+                color: $primaryLink;
+                font-size: em-font(14px);
+                line-height: 1.125em;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+
+
+                &:hover {
+                    color:$primaryLinkHover;
+                }
+            }
+
+            &.current {
+                a {
+                    color: $primaryLinkHover;
+                }
+            }
+        }
+
+        // Layout for Collapsible Content
+        .collapse-area {
+            padding-bottom: 0;
+            border-bottom: 0px;
+
+            header {
+                margin: 0 0 16px;
+            }
+
+            li {
+                display: block;
+                padding: 12px 0;
+                border-bottom: 1px solid lighten($primaryHeader, 10%);
+                &:last-child {
+                    border-bottom: 0px;
+                    padding-bottom: 0px;
+                }
+
+                a {
+                    display: block;
+                    outline: none;
+                    padding: 0px 16px;
+                    color: $primaryLink;
+                    font-size: em-font(11px);
+                    line-height: 1.125em;
+                    font-weight: 700;
+                    text-transform: uppercase;
+
+                }
+            }
+        }
+    }
+    // Close Button
+    a#offcanvas-nav-close-btn {
+        position: absolute;
+        top: -56px;
+        margin-left: -8px;
+        font-size: 1.5em;
+    }
+
+}
+
+
+@include breakpoint(ipad-portrait) {
+
+    // The OffCanvas Nav
+    #offcanvas-navigation {
+        position: absolute;
+        top: 0px;
+        padding-top: 60px + 10px; //offset by main-nav height + some
+
+        &:not(:target) {
+            z-index: 1;
+            height: 0;
+        }
+        &:target a#offcanvas-nav-close-btn {
+            display: block;
+        }
+    }
+
+    #offcanvas-navigation {
+        left: -70%;
+    }
+    #site-wrap-inner {
+        left: 0;
+    }
+
+    // Ready
+    .js-ready {
+        #offcanvas-navigation {
+        height: 100%;
+        width: 70%;
+        background: $primaryHeader;
+        -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+        box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+        }
+
+
+        &.js-nav #site-wrap-inner,
+        &.js-nav #main-site-navigation-wrap {
+            left: 70%;
+        }
+
+        &.csstransforms3d.csstransitions #offcanvas-navigation {
+        position: fixed;
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        -moz-transform: translate3d(-100%, 0, 0);
+        -ms-transform: translate3d(-100%, 0, 0);
+        -o-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: -webkit-transform 500ms ease;
+        -moz-transition: -moz-transform 500ms ease;
+        -o-transition: -o-transform 500ms ease;
+        transition: transform 500ms ease;
+        }
+        &.csstransforms3d.csstransitions #site-wrap-inner,
+        &.csstransforms3d.csstransitions #main-site-navigation-wrap {
+        left: 0 !important;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transition: -webkit-transform 500ms ease;
+        -moz-transition: -moz-transform 500ms ease;
+        -o-transition: -o-transform 500ms ease;
+        transition: transform 500ms ease;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+        }
+
+        &.csstransforms3d.csstransitions.js-nav #site-wrap-inner,
+        &.csstransforms3d.csstransitions.js-nav #main-site-navigation-wrap {
+        -webkit-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+        -moz-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+        -ms-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+        -o-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+        transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
+        }
+
+        &.csstransforms3d.csstransitions.js-nav #offcanvas-navigation {
+        -webkit-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
+        -moz-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
+        -ms-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
+        -o-transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
+        transform: translate3d(0%, 0, 0) scale3d(1, 1, 1);
+        }
+
+        &.csstransforms3d.csstransitions #offcanvas-navigation .offcanvas-inner {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7;
+        -webkit-transition: opacity 300ms 100ms, -webkit-transform 500ms ease;
+        -webkit-transition-delay: ease, 0s;
+        -moz-transition: opacity 300ms 100ms ease, -moz-transform 500ms ease;
+        -o-transition: opacity 300ms 100ms ease, -o-transform 500ms ease;
+        transition: opacity 300ms 100ms ease, transform 500ms ease;
+        -webkit-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+        -moz-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+        -ms-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+        -o-transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+        transform: translate3d(70%, 0, 0) scale3d(0.9, 0.9, 0.9);
+        -webkit-transform-origin: 50% 0%;
+        -moz-transform-origin: 50% 0%;
+        -ms-transform-origin: 50% 0%;
+        -o-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        }
+
+        &.csstransforms3d.csstransitions.js-nav #offcanvas-navigation .offcanvas-inner {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        }
+    }
+
+}

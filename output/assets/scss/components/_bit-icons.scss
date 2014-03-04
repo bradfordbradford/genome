@@ -1,0 +1,161 @@
+
+// Genome Font //
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "genome-font";
+  src:url("../fonts/fonts/genome-font.eot");
+  src:url("../fonts/genome-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/genome-font.woff") format("woff"),
+    url("../fonts/genome-font.ttf") format("truetype"),
+    url("../fonts/genome-font.svg#genome-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+[data-icon]:before {
+  font-family: "genome-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "genome-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-microscope:before {
+  content: "d";
+}
+.icon-eye-view:before {
+  content: "e";
+}
+.icon-sort-row-1:before {
+  content: "f";
+}
+.icon-feed-rss:before {
+  content: "g";
+}
+.icon-letter-mail:before {
+  content: "h";
+}
+.icon-comments:before {
+  content: "i";
+}
+.icon-close:before {
+  content: "a";
+}
+.icon-photo-enlarge:before {
+  content: "b";
+}
+.icon-slideshow:before {
+  content: "c";
+}
+.icon-play:before {
+  content: "j";
+}
+.icon-volume:before {
+  content: "k";
+}
+.icon-off-volume:before {
+  content: "l";
+}
+.icon-camera-video:before {
+  content: "m";
+}
+.icon-pause:before {
+  content: "n";
+}
+.icon-lightbulb-shine:before {
+  content: "o";
+}
+.icon-print:before {
+  content: "p";
+}
+.icon-chevron-small-left:before {
+  content: "r";
+}
+.icon-chevron-small-right:before {
+  content: "q";
+}
+.icon-chevron-medium-right:before {
+  content: "s";
+}
+.icon-chevron-medium-left:before {
+  content: "t";
+}
+.icon-facebook:before {
+  content: "u";
+}
+.icon-twitter-alt:before {
+  content: "v";
+}
+.icon-linkedin:before {
+  content: "w";
+}
+.icon-health-journal:before {
+  content: "x";
+}
+.icon-medic-symbol:before {
+  content: "y";
+}
+.icon-chain-link:before {
+  content: "z";
+}
+.icon-share:before {
+  content: "A";
+}
+.icon-sort-row:before {
+  content: "B";
+}
+.icon-genome-endmark:before {
+  content: "G";
+}
+.icon-genome-logo:before {
+  content: "L";
+}
+.icon-search:before {
+  content: "C";
+}
+.icon-close-5:before {
+  content: "D";
+}
+.icon-chevron-medium-big-4-01:before {
+  content: "E";
+}
+.icon-clock:before {
+  content: "F";
+}
+.icon-glasses:before {
+  content: "H";
+}
+.icon-loop-refresh:before {
+  content: "I";
+}
+.icon-download-1:before {
+  content: "J";
+}
+.icon-fontawesome-webfont:before {
+  content: "K";
+}
+.icon-email-plane:before {
+  content: "M";
+}
