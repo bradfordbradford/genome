@@ -17,11 +17,15 @@
                   <div class='align-block'>
                     <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
                       <h2>
-                        <?php the_title(); ?><br>
+                        <?php the_title(); ?>
+                        <?php
+//                           $title = get_post_meta( get_the_ID(), 'Feature Title', true );
+//                           echo wpautop($title);
+                        ?>
                       </h2>
                       <hr class='white-bg partial'>
                       <p class='sans lead'>
-                        <?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?><br>
+                        <?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?>
                       </p>
                       <div class='author-attrib text-meta-highlight tertiary-text-color'>By <?php the_author(); ?></div>
                       <div class='content-row'>
