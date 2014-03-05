@@ -6,7 +6,7 @@
     background: $primaryLight;
     // height: 0;
     height: 250px;
-    opacity: 0;
+    @include opacity(0);
     overflow: hidden;
     // position: relative;
     position: fixed;
@@ -17,7 +17,7 @@
 
     &.open {
         // height: 250px;
-        opacity:1;
+        @include opacity(1);
         transform: translate3d(0px, 0px, 0px);
     }
 

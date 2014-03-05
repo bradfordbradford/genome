@@ -615,7 +615,7 @@ ul.meta-list {
     }
 
      p.sans-meta {
-        opacity: 0;
+        @include opacity(0);
         transition: opacity .5s ease-in-out .25s;
     }
 
@@ -629,7 +629,7 @@ ul.meta-list {
         }
 
          p.sans-meta {
-            opacity: 1;
+            @include opacity(1);
         }
 
         .icon.comment-counter {

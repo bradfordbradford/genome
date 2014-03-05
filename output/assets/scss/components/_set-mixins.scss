@@ -128,6 +128,9 @@
     -moz-opacity:$value;
     -o-opacity:$value;
     opacity:$value;
+    filter: alpha(opacity=$value);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
+
 }
 
 

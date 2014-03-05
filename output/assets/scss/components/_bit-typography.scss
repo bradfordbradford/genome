@@ -513,6 +513,7 @@ blockquote {
 
 // HR Rules
 hr {
+    clear:both;
     background: $primaryText;
     border: none;
     margin: 0 auto;
