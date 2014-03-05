@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"¢w<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"¸w<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -30,9 +30,9 @@
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -1012,7 +1012,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"ãm<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"ùm<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1044,9 +1044,9 @@ I"/article_blog_no_photo/;T{;{	;I"ãm<!DOCTYPE html>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -1939,7 +1939,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"€<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"!€<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1971,9 +1971,9 @@ I"*<section class='primary_layout article_layout no-photo'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -2984,7 +2984,7 @@ I"¡:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"Ž<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"¤<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3016,9 +3016,9 @@ I"¡:<section class='primary_layout article_layout'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4020,7 +4020,7 @@ I"=<div class='background-white'>
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"Ì:<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"â:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4052,9 +4052,9 @@ I"=<div class='background-white'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4402,7 +4402,7 @@ I"¬<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"ï‰<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"Š<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4434,9 +4434,9 @@ I"¬<section class='primary_layout'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -5731,7 +5731,7 @@ I"¢@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"P“<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"f“<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5763,9 +5763,9 @@ I"¢@<section class='primary_layout article_layout'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -7186,7 +7186,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"ëj<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"k<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7218,9 +7218,9 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -8073,7 +8073,7 @@ I"ü)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"¶i<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I"Ìi<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8105,9 +8105,9 @@ I"ü)<section class='primary_layout article_layout'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -9071,7 +9071,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"‰<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"$‰<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9103,9 +9103,9 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -10368,7 +10368,7 @@ I"@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"™Q<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"¯Q<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10400,9 +10400,9 @@ I"@<section class='primary_layout article_layout'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11023,7 +11023,7 @@ I"‡<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"îG<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"H<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11055,9 +11055,9 @@ I"‡<section class='primary_layout article_layout no-photo'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11612,7 +11612,7 @@ I"¶
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"_L<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"uL<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11644,9 +11644,9 @@ I"¶
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -12214,7 +12214,7 @@ I"<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"‘K<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"§K<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12246,9 +12246,9 @@ I"<section class='primary_layout article_layout no-photo'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -12731,7 +12731,7 @@ I"o<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"TB<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"jB<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12763,9 +12763,9 @@ I"o<section class='primary_layout article_layout no-photo'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -13239,7 +13239,7 @@ I"a<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"¹Z<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"ÏZ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13271,9 +13271,9 @@ I"a<section class='primary_layout article_layout no-photo'>
     </script>
     <script src='../assets/js/min/modernizr.min.js'></script>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>

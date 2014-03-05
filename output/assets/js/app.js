@@ -108,7 +108,7 @@ $(document).ready(function($) {
     $('.overlay-view-search').magnificPopup({
         type: 'inline',
         mainClass: 'mfp-zoom-in overlay-with-search-box',
-        showCloseBtn: false,
+        closeBtnInside: false,
         preloader: false,
         focus: '#nav-search-box',
         callbacks: {
