@@ -107,6 +107,57 @@ function h3_function($atts, $content = null) {
    return $return_string;
 }
 
+function vid_right_function($atts, $content = null) {
+   $return_string = "<div class='pull-out-right'>
+  <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'>
+      <span>
+        Watch Video
+      </span>
+    </a>
+  </div>
+</div>";
+   return $return_string;
+}
+
+function i_can_be_your_hero_baby_function($atts){
+   extract(shortcode_atts(array(
+      'title'    => 'Title',
+      'by'       => 'Author',
+      'subtitle' => 'Subtitle',
+      'vimeo_id' => ''
+   ), $atts));
+   $return_string = "                    </article>
+                  </div>
+                </section>
+              </section>
+              <header class='hero hero-article-section background-size-full center'>
+                <div class='story-cover-content single-col-layout'>
+                  <div class='align-middle'>
+                    <div class='align-block'>
+                      <h2>
+                        " . $title . "
+                      </h2>
+                      <hr class='thick white-bg partial'>
+                      <a class='author-attrib text-meta-highlight tertiary-text-color' href='#'>" . $by . "</a>
+                      <p class='italic lead'>
+                        " . $subtitle . "
+                      </p>
+                      <a class='special btn neutral overlay-watch-video icon-camera-video' href='https://vimeo.com/" . $vimeo_id . "'>
+                        <span>
+                          Watch Video
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <section class='featured_layout inner-bounds block'>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <article class='article-body-copy'>";
+   return $return_string;
+}
+
 function register_shortcodes(){
 	add_shortcode('hr-break', 'hr_article_break_function');
 	add_shortcode('hr-thick', 'hr_thick_function');
@@ -114,6 +165,8 @@ function register_shortcodes(){
 	add_shortcode('block-small', 'small_block_function');
 	add_shortcode('block-left', 'left_block_function');
 	add_shortcode('heading', 'h3_function');
+	add_shortcode('video-right', 'vid_right_function');
+	add_shortcode('hero', 'i_can_be_your_hero_baby_function');
 }
 add_action( 'init', 'register_shortcodes');
 
@@ -282,17 +335,20 @@ add_filter("post_gallery", "fix_my_gallery",10,2);
 // Image attachement
 ////////////////////////
 
+
+
 /**
  * Filter to replace the [caption] shortcode text with HTML5 compliant code
  *
  * @return text HTML content describing embedded figure
  **/
+add_filter('img_caption_shortcode', 'my_img_caption_shortcode_filter',10,3);
 function my_img_caption_shortcode_filter($val, $attr, $content = null)
 {
 	extract(shortcode_atts(array(
 		'id'	=> '',
 		'align'	=> '',
-		'width'	=> '',
+		'width'	=> '200',
 		'caption' => ''
 	), $attr));
 	
@@ -306,14 +362,20 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 // 		$id = 'id="' . $id . '" aria-labelledby="figcaption_' . $id . '" ';
 // 	}
 
-	return "       <div class='article-photo with-top-border'>
-	  " . do_shortcode( $content ) . "
+	//$content = get_the_content();
+	//$src = preg_match( '/src="([^"]*)"/i', $content );
+	
+	$src = $content;
+
+	$output = "       <div class='article-photo with-top-border'>
+	  " . $src . "
 	  </div>
 	  <div class='article-photo-caption with-bottom-border'>
             <p class='text-meta-sub smaller'>
               " . $caption . '
             </p>
         </div>';
+  return $output;
 }
 
 

@@ -101,10 +101,12 @@
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
+    <?php if ( !is_page_template('page-templates/feature-article.php') ) : ?>
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
     </script>
+    <?php endif; ?>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
