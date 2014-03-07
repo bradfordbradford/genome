@@ -36,7 +36,7 @@
                 </div>
               </div>
               <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-              <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
+              <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;' style='background-image: url(<?php echo $featured_img; ?>);'></div>
               <div class='story-cover-image-transition' style='background-image: url(<?php echo $featured_img; ?>);'></div>
             </header>
             <div id='read-time-wrap'>

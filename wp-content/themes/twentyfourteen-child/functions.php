@@ -158,6 +158,36 @@ function i_can_be_your_hero_baby_function($atts){
    return $return_string;
 }
 
+ // init process for registering our button
+ add_action('init', 'wpse72394_shortcode_button_init');
+ function wpse72394_shortcode_button_init() {
+
+      //Abort early if the user will never see TinyMCE
+      if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') && get_user_option('rich_editing') == 'true')
+           return;
+
+      //Add a callback to regiser our tinymce plugin   
+      add_filter("mce_external_plugins", "wpse72394_register_tinymce_plugin"); 
+
+      // Add a callback to add our button to the TinyMCE toolbar
+      add_filter('mce_buttons', 'wpse72394_add_tinymce_button');
+}
+
+
+//This callback registers our plug-in
+function wpse72394_register_tinymce_plugin($plugin_array) {
+    $plugin_array['wpse72394_button'] = '../../../wp-content/themes/twentyfourteen-child/shortcodes/hero.js';
+    return $plugin_array;
+}
+
+//This callback adds our button to the toolbar
+function wpse72394_add_tinymce_button($buttons) {
+            //Add the button ID to the $button array
+    $buttons[] = "wpse72394_button";
+    $buttons[] = "wpse72395_button";
+    return $buttons;
+}
+
 function register_shortcodes(){
 	add_shortcode('hr-break', 'hr_article_break_function');
 	add_shortcode('hr-thick', 'hr_thick_function');
@@ -347,10 +377,12 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 {
 	extract(shortcode_atts(array(
 		'id'	=> '',
-		'align'	=> '',
+		'align'	=> 'none',
 		'width'	=> '200',
 		'caption' => ''
 	), $attr));
+
+	$align = str_replace('align', '', $align);
 	
 // 	if ( 1 > (int) $width || empty($caption) )
 // 		return $val;
@@ -367,15 +399,33 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 	
 	$src = $content;
 
-	$output = "       <div class='article-photo with-top-border'>
-	  " . $src . "
-	  </div>
-	  <div class='article-photo-caption with-bottom-border'>
-            <p class='text-meta-sub smaller'>
-              " . $caption . '
-            </p>
-        </div>';
+	//$src = wp_get_attachment_image_src( $src );
+	//$src = "ho";
+
+	if ($align != 'none') {
+		$output = "<div class='pull-out-" . $align . "'>
+			       <div class='article-photo'>
+		  " . $src . "
+		  	</div>
+		  	<div class='article-photo-caption with-bottom-border'>
+	            	<p class='text-meta-sub smaller'>
+	              	" . $caption . '
+	            	</p>
+	        	</div>
+	        </div>';
+	} else {
+		$output = "       <div class='article-photo with-top-border'>
+		  " . $src . "
+		  </div>
+		  <div class='article-photo-caption with-bottom-border'>
+	            <p class='text-meta-sub smaller'>
+	              " . $caption . '
+	            </p>
+	        </div>';
+	}
+
   return $output;
+
 }
 
 
