@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /GenomeCMS/
+RewriteBase /genome/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /GenomeCMS/index.php [L]
+RewriteRule . /genome/index.php [L]
 </IfModule>
 
 # END WordPress
