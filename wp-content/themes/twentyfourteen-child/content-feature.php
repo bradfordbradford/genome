@@ -17,10 +17,12 @@
                   <div class='align-block'>
                     <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
                       <h2>
-                        <?php the_title(); ?>
+                        <?php //the_title(); ?>
                         <?php
-//                           $title = get_post_meta( get_the_ID(), 'Feature Title', true );
-//                           echo wpautop($title);
+                          $title = get_post_meta( get_the_ID(), 'Feature Title', true );
+                          //echo wpautop($title);
+                          $title = nl2br($title);
+                          echo $title;
                         ?>
                       </h2>
                       <hr class='white-bg partial'>

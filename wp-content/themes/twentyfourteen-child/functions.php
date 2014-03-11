@@ -72,9 +72,12 @@ add_action( 'admin_init', 'myplugin_settings' );
 
 // Content filters
 function first_paragraph($content){
+	global $wpdb;
     return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead-with-drop-cap">', $content, 1);
 }
-//add_filter('the_content', 'first_paragraph');
+// if (is_page_template('column-article.php') {
+// 	add_filter('the_content', 'first_paragraph');
+// }
 
 // Shortcodes
 function hr_article_break_function() {
@@ -93,7 +96,16 @@ function lead_small_caps_function($atts, $content = null) {
 }
 
 function small_block_function($atts, $content = null) {
-   $return_string = "<blockquote class='small-block'>" . $content . "</blockquote>";
+   extract(shortcode_atts(array(
+      'align'    => 'center',
+   ), $atts));
+
+   if ($align != 'center') {
+   	$return_string = "<blockquote class='with-Qmark Q-" . $align . " pull-out-" . $align . "'>" . $content . "</blockquote>";
+   } else {
+   	$return_string = "<blockquote class='small-block'>" . $content . "</blockquote>";
+   }
+   
    return $return_string;
 }
 
@@ -107,22 +119,39 @@ function h3_function($atts, $content = null) {
    return $return_string;
 }
 
-function vid_right_function($atts, $content = null) {
-   $return_string = "<div class='pull-out-right'>
-  <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'>
+function video_function($atts, $content = null) {
+	extract(shortcode_atts(array(
+	  'align'    => 'right',
+	  'vimeo_id' => '11111111',
+	), $atts));
+
+	if ($align == 'left') {
+		$return_string = "<div class='pull-out-left'>
+  <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/" . $vimeo_id . "'>
       <span>
         Watch Video
       </span>
     </a>
   </div>
 </div>";
-   return $return_string;
+	} else {
+		$return_string = "<div class='pull-out-right'>
+  <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/" . $vimeo_id . "'>
+      <span>
+        Watch Video
+      </span>
+    </a>
+  </div>
+</div>";
+	}
+
+	return $return_string;
 }
 
 function i_can_be_your_hero_baby_function($atts){
    extract(shortcode_atts(array(
       'title'    => 'Title',
-      'by'       => 'Author',
+      'author'   => 'Author',
       'subtitle' => 'Subtitle',
       'vimeo_id' => ''
    ), $atts));
@@ -138,7 +167,7 @@ function i_can_be_your_hero_baby_function($atts){
                         " . $title . "
                       </h2>
                       <hr class='thick white-bg partial'>
-                      <a class='author-attrib text-meta-highlight tertiary-text-color' href='#'>" . $by . "</a>
+                      <a class='author-attrib text-meta-highlight tertiary-text-color' href='#'>" . $author . "</a>
                       <p class='italic lead'>
                         " . $subtitle . "
                       </p>
@@ -185,6 +214,11 @@ function wpse72394_add_tinymce_button($buttons) {
             //Add the button ID to the $button array
     $buttons[] = "wpse72394_button";
     $buttons[] = "wpse72395_button";
+    $buttons[] = "wpse72396_button";
+    $buttons[] = "wpse72397_button";
+    $buttons[] = "wpse72398_button";
+    $buttons[] = "wpse72399_button";
+    $buttons[] = "wpse72400_button";
     return $buttons;
 }
 
@@ -195,7 +229,7 @@ function register_shortcodes(){
 	add_shortcode('block-small', 'small_block_function');
 	add_shortcode('block-left', 'left_block_function');
 	add_shortcode('heading', 'h3_function');
-	add_shortcode('video-right', 'vid_right_function');
+	add_shortcode('video', 'video_function');
 	add_shortcode('hero', 'i_can_be_your_hero_baby_function');
 }
 add_action( 'init', 'register_shortcodes');
@@ -234,14 +268,15 @@ function fix_my_gallery($output, $attr) {
 		'itemtag'    => 'ul',
 		'icontag'    => 'li',
 		'captiontag' => 'figcaption',
-		'columns'    => 3,
+		'columns'    => 1,
 		'size'       => 'original',
 		'include'    => '',
 		'exclude'    => '',
 		'link'       => ''
 	), $attr, 'gallery'));
 
-	$id = intval($id);
+	if ($columns == 1) {
+			$id = intval($id);
 	if ( 'RAND' == $order )
 		$orderby = 'none';
 
@@ -359,6 +394,117 @@ function fix_my_gallery($output, $attr) {
                     <article class='article-body-copy add-space-t'>";
 
 	return $output;
+	} else {
+			$id = intval($id);
+	if ( 'RAND' == $order )
+		$orderby = 'none';
+
+	if ( !empty($include) ) {
+		$_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+
+		$attachments = array();
+		foreach ( $_attachments as $key => $val ) {
+			$attachments[$val->ID] = $_attachments[$key];
+		}
+	} elseif ( !empty($exclude) ) {
+		$attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+	} else {
+		$attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+	}
+
+	if ( empty($attachments) )
+		return '';
+
+	if ( is_feed() ) {
+		$output = "\n";
+		foreach ( $attachments as $att_id => $attachment )
+			$output .= wp_get_attachment_link($att_id, $size, true) . "\n";
+		return $output;
+	}
+
+	$itemtag = tag_escape($itemtag);
+	$captiontag = tag_escape($captiontag);
+	$icontag = tag_escape($icontag);
+	$valid_tags = wp_kses_allowed_html( 'post' );
+	if ( ! isset( $valid_tags[ $itemtag ] ) )
+		$itemtag = 'dl';
+	if ( ! isset( $valid_tags[ $captiontag ] ) )
+		$captiontag = 'dd';
+	if ( ! isset( $valid_tags[ $icontag ] ) )
+		$icontag = 'dt';
+
+	$columns = intval($columns);
+	$itemwidth = $columns > 0 ? floor(100/$columns) : 100;
+	$float = is_rtl() ? 'right' : 'left';
+
+	$selector = "gallery-{$instance}";
+
+	$gallery_style = $gallery_div = '';
+	if ( apply_filters( 'use_default_gallery_style', true ) )
+		$gallery_style = "
+		<style type='text/css'>
+			#{$selector} {
+				margin: auto;
+			}
+			#{$selector} .gallery-item {
+				float: {$float};
+				margin-top: 10px;
+				text-align: center;
+				width: {$itemwidth}%;
+			}
+			#{$selector} img {
+				border: 2px solid #cfcfcf;
+			}
+			#{$selector} .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>";
+	$size_class = sanitize_html_class( $size );
+	$gallery_div = "                      <div class='pull-out-left'>
+                        <div class='article-photo'>
+                          <img alt='' class='load' data-original='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg' src='http://localhost:8888/genome/output/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                          <div class='overlay-view-slideshow'>
+                            <a class='btn media-action slide' data-icon='c' href='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
+                              <span>
+                                View Slideshow
+                              </span>
+                            </a>
+                          ";
+	$output = apply_filters( 'gallery_style', $gallery_style . "\n\t\t" . $gallery_div );
+
+	// $output .= "<{$itemtag} class='slides'>";
+
+	$i = 0;
+	foreach ( $attachments as $id => $attachment ) {
+
+		$image_output = wp_get_attachment_link( $id, $size, false, false, '&nbsp;' );
+		$image_output = str_replace('<a href', "<a class='mfp-hide slide' href", $image_output);
+
+		$image_meta  = wp_get_attachment_metadata( $id );
+
+		$orientation = '';
+		if ( isset( $image_meta['height'], $image_meta['width'] ) )
+			$orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
+
+		$output .= "
+	              	
+                        $image_output";
+
+
+	}
+		$output .= "</div>
+                        </div>
+                        <div class='article-photo-caption with-bottom-border'>
+                          <div class='text-meta-sub'>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                          </div>
+                        </div>
+                      </div>";
+
+	return $output;
+	}
+
 }
 add_filter("post_gallery", "fix_my_gallery",10,2);
 
