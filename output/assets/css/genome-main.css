@@ -1489,34 +1489,6 @@ body.nav-add-social section#main-site-navigation-wrap.menu-slim aside.add-social
   padding: 2px 0px;
 }
 
-* {
-  margin: 0;
-}
-
-html,
-body,
-#site-wrap-outer {
-  height: 100%;
-}
-
-#site-wrap-inner,
-#site-wrap-outer {
-  min-height: 100%;
-  margin-bottom: -360px;
-}
-
-#site-wrap-outer:after
-#site-wrap-inner:after {
-  content: "";
-  display: block;
-}
-
-#main-footer,
-#site-wrap-inner:after,
-#site-wrap-outer:after {
-  height: 400px;
-}
-
 .accessible-megamenu {
   text-align: center;
   position: relative;

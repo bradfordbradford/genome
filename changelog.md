@@ -61,6 +61,21 @@ Home Aside Col -
             <span class='eta'></span>
         </a>
 
+    --
+
+    For each "# shares" replace those words with <span class='share-count'></span> and remove '# shares' words
+        <a href='#'>
+            <span class='icon' data-icon='i'></span>
+            <span class='share-count'></span>
+        </a>
+
+
+Blog Roll -
+
+    For each a.action with a share count, add span.share-count inside and remove '# shares' words
+        <a class='action' data-icon='i' href='#'>
+          <span class='share-count'></span>
+        </a>
 
 
 Story Roll -
@@ -96,6 +111,15 @@ Article_Column -
 
     and inside <article> wrap the <p> tag content with #rte-target
         <div id="rte-target">…</div>
+
+
+For Blog Articles
+
+    Where Comments are counted, add span.comment-counter
+
+    <a href="#" class="action" data-icon="i">
+        <span class="comment-counter"></span>
+    </a>
 
 
 Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)

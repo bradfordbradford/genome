@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"£w<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"Qx<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -404,6 +404,7 @@
                               </a>
                               <a href='http://link/‚Ä¶'>
                                 <span class='icon' data-icon='F'></span>
+                                <span class='eta'></span>
                                 3 min read
                               </a>
                             </p>
@@ -425,6 +426,7 @@
                               </a>
                               <a href='http://link/‚Ä¶'>
                                 <span class='icon' data-icon='F'></span>
+                                <span class='eta'></span>
                                 3 min read
                               </a>
                             </p>
@@ -446,6 +448,7 @@
                               </a>
                               <a href='http://link/‚Ä¶'>
                                 <span class='icon' data-icon='F'></span>
+                                <span class='eta'></span>
                                 3 min read
                               </a>
                             </p>
@@ -722,7 +725,7 @@
 
     .content-row.end-block.inner-bounds.background-white
         -# Collection
-        = render 'collection-related-reading';T:preI"Ñ2<section class='primary_layout article_layout'>
+        = render 'collection-related-reading';T:preI"3<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -869,6 +872,7 @@
                     </a>
                     <a href='http://link/‚Ä¶'>
                       <span class='icon' data-icon='F'></span>
+                      <span class='eta'></span>
                       3 min read
                     </a>
                   </p>
@@ -890,6 +894,7 @@
                     </a>
                     <a href='http://link/‚Ä¶'>
                       <span class='icon' data-icon='F'></span>
+                      <span class='eta'></span>
                       3 min read
                     </a>
                   </p>
@@ -911,6 +916,7 @@
                     </a>
                     <a href='http://link/‚Ä¶'>
                       <span class='icon' data-icon='F'></span>
+                      <span class='eta'></span>
                       3 min read
                     </a>
                   </p>
@@ -1939,7 +1945,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I">Ä<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"ÚÄ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2353,6 +2359,7 @@ I"*<section class='primary_layout article_layout no-photo'>
                                 </a>
                                 <a href='http://link/‚Ä¶'>
                                   <span class='icon' data-icon='F'></span>
+                                  <span class='eta'></span>
                                   3 min read
                                 </a>
                               </p>
@@ -2374,6 +2381,7 @@ I"*<section class='primary_layout article_layout no-photo'>
                                 </a>
                                 <a href='http://link/‚Ä¶'>
                                   <span class='icon' data-icon='F'></span>
+                                  <span class='eta'></span>
                                   3 min read
                                 </a>
                               </p>
@@ -2395,6 +2403,7 @@ I"*<section class='primary_layout article_layout no-photo'>
                                 </a>
                                 <a href='http://link/‚Ä¶'>
                                   <span class='icon' data-icon='F'></span>
+                                  <span class='eta'></span>
                                   3 min read
                                 </a>
                               </p>
@@ -2689,7 +2698,7 @@ I"*<section class='primary_layout article_layout no-photo'>
         .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading';T;
-I"√:<section class='primary_layout article_layout'>
+I"Y;<section class='primary_layout article_layout'>
   <div class='inner-bounds background-white block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -2844,6 +2853,7 @@ I"√:<section class='primary_layout article_layout'>
                       </a>
                       <a href='http://link/‚Ä¶'>
                         <span class='icon' data-icon='F'></span>
+                        <span class='eta'></span>
                         3 min read
                       </a>
                     </p>
@@ -2865,6 +2875,7 @@ I"√:<section class='primary_layout article_layout'>
                       </a>
                       <a href='http://link/‚Ä¶'>
                         <span class='icon' data-icon='F'></span>
+                        <span class='eta'></span>
                         3 min read
                       </a>
                     </p>
@@ -2886,6 +2897,7 @@ I"√:<section class='primary_layout article_layout'>
                       </a>
                       <a href='http://link/‚Ä¶'>
                         <span class='icon' data-icon='F'></span>
+                        <span class='eta'></span>
                         3 min read
                       </a>
                     </p>
@@ -4405,7 +4417,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"ä<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"ç<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4812,7 +4824,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888 shares</a>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4845,7 +4860,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>32 shares</a>
+                            <a class='action' data-icon='i' href='#'>
+                              32 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4878,7 +4896,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4911,7 +4932,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4944,7 +4968,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4977,7 +5004,10 @@ I"¨<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -5166,7 +5196,7 @@ I"¨<section class='primary_layout'>
     </script>
   </body>
 </html>
-;T;	I"„'%section.primary_layout.article_layout
+;T;	I"K*%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
@@ -5188,7 +5218,9 @@ I"¨<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888 shares
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5213,58 +5245,9 @@ I"¨<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 32 shares
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        32 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5290,7 +5273,9 @@ I"¨<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5315,7 +5300,64 @@ I"¨<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5337,7 +5379,7 @@ I"¨<section class='primary_layout'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"Ø@<section class='primary_layout article_layout'>
+I"ˇB<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -5485,7 +5527,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888 shares</a>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5518,7 +5563,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>32 shares</a>
+                  <a class='action' data-icon='i' href='#'>
+                    32 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5551,7 +5599,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5584,7 +5635,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5617,7 +5671,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5650,7 +5707,10 @@ I"Ø@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5734,7 +5794,7 @@ I"Ø@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"Nï<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"ñ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6163,6 +6223,7 @@ I"Ø@<section class='primary_layout article_layout'>
                               <a href='#'>
                                 <span class='icon' data-icon='i'></span>
                                 53 shares
+                                <span class='share-count'></span>
                               </a>
                             </p>
                           </div>
@@ -6184,6 +6245,7 @@ I"Ø@<section class='primary_layout article_layout'>
                               <a href='#'>
                                 <span class='icon' data-icon='i'></span>
                                 95 shares
+                                <span class='share-count'></span>
                               </a>
                             </p>
                           </div>
@@ -6205,6 +6267,7 @@ I"Ø@<section class='primary_layout article_layout'>
                               <a href='#'>
                                 <span class='icon' data-icon='i'></span>
                                 189 shares
+                                <span class='share-count'></span>
                               </a>
                             </p>
                           </div>
@@ -6743,7 +6806,7 @@ I"Ø@<section class='primary_layout article_layout'>
 
                 .content-row
                     / %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T;
-I"£I<header class='hero hero-featured-article background-size-full center'>
+I"KJ<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6913,6 +6976,7 @@ I"£I<header class='hero hero-featured-article background-size-full center'>
                     <a href='#'>
                       <span class='icon' data-icon='i'></span>
                       53 shares
+                      <span class='share-count'></span>
                     </a>
                   </p>
                 </div>
@@ -6934,6 +6998,7 @@ I"£I<header class='hero hero-featured-article background-size-full center'>
                     <a href='#'>
                       <span class='icon' data-icon='i'></span>
                       95 shares
+                      <span class='share-count'></span>
                     </a>
                   </p>
                 </div>
@@ -6955,6 +7020,7 @@ I"£I<header class='hero hero-featured-article background-size-full center'>
                     <a href='#'>
                       <span class='icon' data-icon='i'></span>
                       189 shares
+                      <span class='share-count'></span>
                     </a>
                   </p>
                 </div>
