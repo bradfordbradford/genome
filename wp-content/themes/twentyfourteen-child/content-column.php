@@ -73,7 +73,9 @@
                       <?php
 // Content
                         $content = get_the_content() . " <span class='light-text-color inline-block end-mark' data-icon='G'></span>" ;
-                        echo apply_filters('the_content',$content);
+                        $content = apply_filters('the_content',$content);
+                        // $content = apply_filters('first_paragraph',$content);
+                        echo $content;
                       ?>
 
                     </div>

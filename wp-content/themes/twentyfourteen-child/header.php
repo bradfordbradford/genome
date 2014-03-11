@@ -41,8 +41,9 @@
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/modernizr.min.js'></script>
     <link href='<?php echo get_stylesheet_directory_uri(); ?>/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ie8.css" /><script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/ie.min.js'></script><![endif]-->
+    <?php wp_head(); ?>
     <?php if ( is_page_template('page-templates/feature-article.php') ) { echo "<style>" . get_post_meta( get_the_ID(), 'Custom CSS', true ) . "</style>"; } ?>
-	<?php wp_head(); ?>
+    
 </head>
 
   <body class='init<?php if ( is_page_template('page-templates/feature-article.php') ) { echo " nav-add-social"; } ?>'>
