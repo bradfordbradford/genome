@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"¸w<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"£w<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -32,7 +32,7 @@
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -299,7 +299,7 @@
                   </div>
                 </div>
                 <article class='primary-content article-body-copy'>
-                  <div id='read-time-wrap'>
+                  <div id='rte-wrap'>
                     <p>
                       Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                       <a href='http://link-here/â€¦'>amazing</a>
@@ -651,7 +651,7 @@
     </script>
   </body>
 </html>
-;T:rawI"%section.primary_layout.article_layout
+;T:rawI"û%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Article Header
@@ -688,7 +688,7 @@
 
             -# Primary Content Column + Article Body Copy
             %article.primary-content.article-body-copy
-                #read-time-wrap
+                #rte-wrap
                     %p
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         %a{:href => "http://link-here/â€¦"} amazing
@@ -722,7 +722,7 @@
 
     .content-row.end-block.inner-bounds.background-white
         -# Collection
-        = render 'collection-related-reading';T:preI"Š2<section class='primary_layout article_layout'>
+        = render 'collection-related-reading';T:preI"„2<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -764,7 +764,7 @@
         </div>
       </div>
       <article class='primary-content article-body-copy'>
-        <div id='read-time-wrap'>
+        <div id='rte-wrap'>
           <p>
             Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
             <a href='http://link-here/â€¦'>amazing</a>
@@ -1012,7 +1012,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"ùm<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"êm<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1046,7 +1046,7 @@ I"/article_blog_no_photo/;T{;{	;I"ùm<!DOCTYPE html>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -1939,7 +1939,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"!€<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I">€<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1973,7 +1973,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -2206,7 +2206,8 @@ I"*<section class='primary_layout article_layout no-photo'>
                     <a class='text-meta brick' href='http://link/â€¦'>Treatment</a>
                     <div class='text-meta light-text-color' href='http://link/â€¦'>
                       <span class='icon' data-icon='F'></span>
-                      3 min read
+                      <span class='eta'></span>
+                      7 min read
                     </div>
                     <h2>Rethinking Cancer Treatment in 2014</h2>
                     <p class='lead'>Research finds major flaws in standard medical approach</p>
@@ -2232,7 +2233,7 @@ I"*<section class='primary_layout article_layout no-photo'>
                     </div>
                   </div>
                   <article class='primary-content article-body-copy'>
-                    <div id='read-time-wrap'>
+                    <div id='rte-target'>
                       <p class='lead-with-drop-cap'>
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2600,7 +2601,7 @@ I"*<section class='primary_layout article_layout no-photo'>
     </script>
   </body>
 </html>
-;T;	I"¸%section.primary_layout.article_layout
+;T;	I"Ö%section.primary_layout.article_layout
     .inner-bounds.background-white.block
 
 
@@ -2611,7 +2612,8 @@ I"*<section class='primary_layout article_layout no-photo'>
                     %a.text-meta.brick{:href => "http://link/â€¦"} Treatment
                     .text-meta.light-text-color{:href => "http://link/â€¦"}
                         %span.icon{:'data-icon'=>"F"}
-                        3 min read
+                        %span.eta
+                        7 min read
 
                     %h2 Rethinking Cancer Treatment in 2014
 
@@ -2639,7 +2641,7 @@ I"*<section class='primary_layout article_layout no-photo'>
 
                 -# Primary Content Column / Article Body Copy
                 %article.primary-content.article-body-copy
-                    #read-time-wrap
+                    #rte-target
                         %p.lead-with-drop-cap
                             Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2687,7 +2689,7 @@ I"*<section class='primary_layout article_layout no-photo'>
         .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading';T;
-I"¡:<section class='primary_layout article_layout'>
+I"Ã:<section class='primary_layout article_layout'>
   <div class='inner-bounds background-white block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -2695,7 +2697,8 @@ I"¡:<section class='primary_layout article_layout'>
           <a class='text-meta brick' href='http://link/â€¦'>Treatment</a>
           <div class='text-meta light-text-color' href='http://link/â€¦'>
             <span class='icon' data-icon='F'></span>
-            3 min read
+            <span class='eta'></span>
+            7 min read
           </div>
           <h2>Rethinking Cancer Treatment in 2014</h2>
           <p class='lead'>Research finds major flaws in standard medical approach</p>
@@ -2721,7 +2724,7 @@ I"¡:<section class='primary_layout article_layout'>
           </div>
         </div>
         <article class='primary-content article-body-copy'>
-          <div id='read-time-wrap'>
+          <div id='rte-target'>
             <p class='lead-with-drop-cap'>
               Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
               tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2984,7 +2987,7 @@ I"¡:<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"¤<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"•<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3018,7 +3021,7 @@ I"¡:<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4020,7 +4023,7 @@ I"=<div class='background-white'>
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"â:<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"Ó:<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4054,7 +4057,7 @@ I"=<div class='background-white'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4402,7 +4405,7 @@ I"¬<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"Š<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"Š<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4436,7 +4439,7 @@ I"¬<section class='primary_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4809,7 +4812,7 @@ I"¬<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>888 shares</a>
                           </p>
                         </header>
                       </div>
@@ -4842,7 +4845,7 @@ I"¬<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>888</a>
+                            <a class='action' data-icon='i' href='#'>32 shares</a>
                           </p>
                         </header>
                       </div>
@@ -5163,7 +5166,7 @@ I"¬<section class='primary_layout'>
     </script>
   </body>
 </html>
-;T;	I"Ö'%section.primary_layout.article_layout
+;T;	I"ã'%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
@@ -5185,7 +5188,7 @@ I"¬<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
+                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888 shares
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5210,7 +5213,7 @@ I"¬<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"} 888
+                                    %a.action{:href=>"#", :'data-icon'=>"i"} 32 shares
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5334,7 +5337,7 @@ I"¬<section class='primary_layout'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"¢@<section class='primary_layout article_layout'>
+I"¯@<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -5482,7 +5485,7 @@ I"¢@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>888 shares</a>
                 </p>
               </header>
             </div>
@@ -5515,7 +5518,7 @@ I"¢@<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>888</a>
+                  <a class='action' data-icon='i' href='#'>32 shares</a>
                 </p>
               </header>
             </div>
@@ -5731,7 +5734,7 @@ I"¢@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"f“<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"N•<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5765,7 +5768,7 @@ I"¢@<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -6059,7 +6062,7 @@ I"¢@<section class='primary_layout article_layout'>
                     </header>
                     <ul class='featured-list'>
                       <li>
-                        <div class='media-object reversed'>
+                        <div class='media-object rte-remote' data-file='/article_column/index.html' data-target='article'>
                           <a class='text-meta' href='#'>science</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
@@ -6069,18 +6072,20 @@ I"¢@<section class='primary_layout article_layout'>
                             </h3>
                             <p class='text-meta-sub light-text-color'>
                               <a href='#'>
-                                By Author Rightspoke
+                                By Laura Rightspoke
                               </a>
                               <a href='#'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
+                                <span class='icon' data-icon='F'>
+                                  <span class='eta'></span>
+                                  3 min read
+                                </span>
                               </a>
                             </p>
                           </div>
                         </div>
                       </li>
                       <li>
-                        <div class='media-object'>
+                        <div class='media-object rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                           <a class='text-meta' href='#'>Treatment</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
@@ -6093,15 +6098,17 @@ I"¢@<section class='primary_layout article_layout'>
                                 By Author Rightspoke
                               </a>
                               <a href='#'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
+                                <span class='icon' data-icon='F'>
+                                  <span class='eta'></span>
+                                  3 min read
+                                </span>
                               </a>
                             </p>
                           </div>
                         </div>
                       </li>
                       <li>
-                        <div class='media-object'>
+                        <div class='media-object rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                           <a class='text-meta' href='#'>Treatment</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
@@ -6114,8 +6121,10 @@ I"¢@<section class='primary_layout article_layout'>
                                 By Author Rightspoke
                               </a>
                               <a href='#'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
+                                <span class='icon' data-icon='F'>
+                                  <span class='eta'></span>
+                                  3 min read
+                                </span>
                               </a>
                             </p>
                           </div>
@@ -6734,7 +6743,7 @@ I"¢@<section class='primary_layout article_layout'>
 
                 .content-row
                     / %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T;
-I"èG<header class='hero hero-featured-article background-size-full center'>
+I"£I<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6803,7 +6812,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
           </header>
           <ul class='featured-list'>
             <li>
-              <div class='media-object reversed'>
+              <div class='media-object rte-remote' data-file='/article_column/index.html' data-target='article'>
                 <a class='text-meta' href='#'>science</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header small'>
@@ -6813,18 +6822,20 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
                   </h3>
                   <p class='text-meta-sub light-text-color'>
                     <a href='#'>
-                      By Author Rightspoke
+                      By Laura Rightspoke
                     </a>
                     <a href='#'>
-                      <span class='icon' data-icon='F'></span>
-                      3 min read
+                      <span class='icon' data-icon='F'>
+                        <span class='eta'></span>
+                        3 min read
+                      </span>
                     </a>
                   </p>
                 </div>
               </div>
             </li>
             <li>
-              <div class='media-object'>
+              <div class='media-object rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                 <a class='text-meta' href='#'>Treatment</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header small'>
@@ -6837,15 +6848,17 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
                       By Author Rightspoke
                     </a>
                     <a href='#'>
-                      <span class='icon' data-icon='F'></span>
-                      3 min read
+                      <span class='icon' data-icon='F'>
+                        <span class='eta'></span>
+                        3 min read
+                      </span>
                     </a>
                   </p>
                 </div>
               </div>
             </li>
             <li>
-              <div class='media-object'>
+              <div class='media-object rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                 <a class='text-meta' href='#'>Treatment</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header small'>
@@ -6858,8 +6871,10 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
                       By Author Rightspoke
                     </a>
                     <a href='#'>
-                      <span class='icon' data-icon='F'></span>
-                      3 min read
+                      <span class='icon' data-icon='F'>
+                        <span class='eta'></span>
+                        3 min read
+                      </span>
                     </a>
                   </p>
                 </div>
@@ -7186,7 +7201,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"k<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"òj<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7220,7 +7235,7 @@ I"èG<header class='hero hero-featured-article background-size-full center'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -8073,7 +8088,7 @@ I"ü)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"Ìi<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I"½i<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8107,7 +8122,7 @@ I"ü)<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -9071,7 +9086,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"$‰<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"u|<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9105,7 +9120,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -9468,73 +9483,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                 </aside>
                 <section class='primary-content'>
                   <ul class='featured-list roll-list'>
-                    <li class='media-object-horizontal-layout'>
-                      <div class='content-row'>
-                        <header>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                          <p class='text-meta-sub light-text-color'>
-                            <a href='#'>By Authur Righter</a>
-                            <span class='interpunct'>&#183</span>
-                            December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='F' href='#'>5 minutes</a>
-                          </p>
-                        </header>
-                      </div>
-                      <div class='grid-2-per major-r'>
-                        <div class='grid-element image-content'>
-                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                        </div>
-                        <div class='grid-element'>
-                          <div class='media-copy'>
-                            <p class='text-meta-sub sans-meta'>
-                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                              <a class='text-meta continue-reading' href='#'>
-                                Continue Reading
-                                <span class='double-quote-right'>
-                                  &#187;
-                                </span>
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class='media-object-horizontal-layout'>
-                      <div class='content-row'>
-                        <header>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                          <p class='text-meta-sub light-text-color'>
-                            <a href='#'>By Authur Righter</a>
-                            <span class='interpunct'>&#183</span>
-                            December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='F' href='#'>5 minutes</a>
-                          </p>
-                        </header>
-                      </div>
-                      <div class='grid-2-per major-r'>
-                        <div class='grid-element image-content'>
-                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                        </div>
-                        <div class='grid-element'>
-                          <div class='media-copy'>
-                            <p class='text-meta-sub sans-meta'>
-                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                              <a class='text-meta continue-reading' href='#'>
-                                Continue Reading
-                                <span class='double-quote-right'>
-                                  &#187;
-                                </span>
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class='media-object-horizontal-layout'>
+                    <li class='media-object-horizontal-layout rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                       <div class='content-row'>
                         <a class='text-meta' href='#'>Treatment</a>
                         <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -9543,7 +9492,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                           <span class='interpunct'>&#183</span>
                           December 22, 2013
                           <span class='interpunct'>&#183</span>
-                          <a class='action' data-icon='F' href='#'>5 minutes</a>
+                          <a class='action' data-icon='F' href='#'>
+                            <span class='eta'></span>
+                            7 min read
+                          </a>
                         </p>
                       </div>
                       <div class='grid-2-per major-r'>
@@ -9565,7 +9517,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                         </div>
                       </div>
                     </li>
-                    <li class='media-object-horizontal-layout'>
+                    <li class='media-object-horizontal-layout rte-remote' data-file='/article_column/index.html' data-target='#read-time-wrap'>
                       <div class='content-row'>
                         <a class='text-meta' href='#'>Treatment</a>
                         <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -9574,7 +9526,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                           <span class='interpunct'>&#183</span>
                           December 22, 2013
                           <span class='interpunct'>&#183</span>
-                          <a class='action' data-icon='F' href='#'>5 minutes</a>
+                          <a class='action' data-icon='F' href='#'>
+                            <span class='eta'></span>
+                            7 min read
+                          </a>
                         </p>
                       </div>
                       <div class='grid-2-per major-r'>
@@ -9596,7 +9551,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                         </div>
                       </div>
                     </li>
-                    <li class='media-object-horizontal-layout'>
+                    <li class='media-object-horizontal-layout rte-remote' data-file='/article_column/index.html' data-target='#read-time-wrap'>
                       <div class='content-row'>
                         <a class='text-meta' href='#'>Treatment</a>
                         <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -9605,7 +9560,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                           <span class='interpunct'>&#183</span>
                           December 22, 2013
                           <span class='interpunct'>&#183</span>
-                          <a class='action' data-icon='F' href='#'>5 minutes</a>
+                          <a class='action' data-icon='F' href='#'>
+                            <span class='eta'></span>
+                            7 min read
+                          </a>
                         </p>
                       </div>
                       <div class='grid-2-per major-r'>
@@ -9627,7 +9585,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                         </div>
                       </div>
                     </li>
-                    <li class='media-object-horizontal-layout'>
+                    <li class='media-object-horizontal-layout rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
                       <div class='content-row'>
                         <a class='text-meta' href='#'>Treatment</a>
                         <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -9636,7 +9594,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                           <span class='interpunct'>&#183</span>
                           December 22, 2013
                           <span class='interpunct'>&#183</span>
-                          <a class='action' data-icon='F' href='#'>5 minutes</a>
+                          <a class='action' data-icon='F' href='#'>
+                            <span class='eta'></span>
+                            7 min read
+                          </a>
                         </p>
                       </div>
                       <div class='grid-2-per major-r'>
@@ -9824,7 +9785,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     </script>
   </body>
 </html>
-;T;	I",'%section.primary_layout.article_layout
+;T;	I"ÿ%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
@@ -9834,55 +9795,8 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
 
             %section.primary-content
                 %ul.featured-list.roll-list
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
 
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub.sans-meta
-                                        Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub.sans-meta
-                                        Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#read-time-wrap'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
                             %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
@@ -9891,7 +9805,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
+                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                    %span.eta
+                                    7 min read
+
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -9905,7 +9822,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_column/index.html',:'data-target'=>'#read-time-wrap'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
                             %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
@@ -9914,7 +9831,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
+                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                    %span.eta
+                                    7 min read
+
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -9928,7 +9848,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_column/index.html',:'data-target'=>'#read-time-wrap'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
                             %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
@@ -9937,7 +9857,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
+                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                    %span.eta
+                                    7 min read
+
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -9951,7 +9874,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#read-time-wrap'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
                             %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
@@ -9960,7 +9883,10 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"} 5 minutes
+                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                    %span.eta
+                                    7 min read
+
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -9979,7 +9905,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"@<section class='primary_layout article_layout'>
+I"Œ5<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -10117,73 +10043,7 @@ I"@<section class='primary_layout article_layout'>
       </aside>
       <section class='primary-content'>
         <ul class='featured-list roll-list'>
-          <li class='media-object-horizontal-layout'>
-            <div class='content-row'>
-              <header>
-                <a class='text-meta' href='#'>Treatment</a>
-                <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                <p class='text-meta-sub light-text-color'>
-                  <a href='#'>By Authur Righter</a>
-                  <span class='interpunct'>&#183</span>
-                  December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='F' href='#'>5 minutes</a>
-                </p>
-              </header>
-            </div>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element image-content'>
-                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-              </div>
-              <div class='grid-element'>
-                <div class='media-copy'>
-                  <p class='text-meta-sub sans-meta'>
-                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                    <a class='text-meta continue-reading' href='#'>
-                      Continue Reading
-                      <span class='double-quote-right'>
-                        &#187;
-                      </span>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class='media-object-horizontal-layout'>
-            <div class='content-row'>
-              <header>
-                <a class='text-meta' href='#'>Treatment</a>
-                <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                <p class='text-meta-sub light-text-color'>
-                  <a href='#'>By Authur Righter</a>
-                  <span class='interpunct'>&#183</span>
-                  December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='F' href='#'>5 minutes</a>
-                </p>
-              </header>
-            </div>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element image-content'>
-                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-              </div>
-              <div class='grid-element'>
-                <div class='media-copy'>
-                  <p class='text-meta-sub sans-meta'>
-                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum nonâ€¦
-                    <a class='text-meta continue-reading' href='#'>
-                      Continue Reading
-                      <span class='double-quote-right'>
-                        &#187;
-                      </span>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class='media-object-horizontal-layout'>
+          <li class='media-object-horizontal-layout rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
             <div class='content-row'>
               <a class='text-meta' href='#'>Treatment</a>
               <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -10192,7 +10052,10 @@ I"@<section class='primary_layout article_layout'>
                 <span class='interpunct'>&#183</span>
                 December 22, 2013
                 <span class='interpunct'>&#183</span>
-                <a class='action' data-icon='F' href='#'>5 minutes</a>
+                <a class='action' data-icon='F' href='#'>
+                  <span class='eta'></span>
+                  7 min read
+                </a>
               </p>
             </div>
             <div class='grid-2-per major-r'>
@@ -10214,7 +10077,7 @@ I"@<section class='primary_layout article_layout'>
               </div>
             </div>
           </li>
-          <li class='media-object-horizontal-layout'>
+          <li class='media-object-horizontal-layout rte-remote' data-file='/article_column/index.html' data-target='#read-time-wrap'>
             <div class='content-row'>
               <a class='text-meta' href='#'>Treatment</a>
               <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -10223,7 +10086,10 @@ I"@<section class='primary_layout article_layout'>
                 <span class='interpunct'>&#183</span>
                 December 22, 2013
                 <span class='interpunct'>&#183</span>
-                <a class='action' data-icon='F' href='#'>5 minutes</a>
+                <a class='action' data-icon='F' href='#'>
+                  <span class='eta'></span>
+                  7 min read
+                </a>
               </p>
             </div>
             <div class='grid-2-per major-r'>
@@ -10245,7 +10111,7 @@ I"@<section class='primary_layout article_layout'>
               </div>
             </div>
           </li>
-          <li class='media-object-horizontal-layout'>
+          <li class='media-object-horizontal-layout rte-remote' data-file='/article_column/index.html' data-target='#read-time-wrap'>
             <div class='content-row'>
               <a class='text-meta' href='#'>Treatment</a>
               <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -10254,7 +10120,10 @@ I"@<section class='primary_layout article_layout'>
                 <span class='interpunct'>&#183</span>
                 December 22, 2013
                 <span class='interpunct'>&#183</span>
-                <a class='action' data-icon='F' href='#'>5 minutes</a>
+                <a class='action' data-icon='F' href='#'>
+                  <span class='eta'></span>
+                  7 min read
+                </a>
               </p>
             </div>
             <div class='grid-2-per major-r'>
@@ -10276,7 +10145,7 @@ I"@<section class='primary_layout article_layout'>
               </div>
             </div>
           </li>
-          <li class='media-object-horizontal-layout'>
+          <li class='media-object-horizontal-layout rte-remote' data-file='/article_blog/index.html' data-target='#read-time-wrap'>
             <div class='content-row'>
               <a class='text-meta' href='#'>Treatment</a>
               <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
@@ -10285,7 +10154,10 @@ I"@<section class='primary_layout article_layout'>
                 <span class='interpunct'>&#183</span>
                 December 22, 2013
                 <span class='interpunct'>&#183</span>
-                <a class='action' data-icon='F' href='#'>5 minutes</a>
+                <a class='action' data-icon='F' href='#'>
+                  <span class='eta'></span>
+                  7 min read
+                </a>
               </p>
             </div>
             <div class='grid-2-per major-r'>
@@ -10368,7 +10240,7 @@ I"@<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"¯Q<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I" Q<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10402,7 +10274,7 @@ I"@<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11023,7 +10895,7 @@ I"‡<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"H<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"õG<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11057,7 +10929,7 @@ I"‡<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11612,7 +11484,7 @@ I"¶
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"uL<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"fL<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11646,7 +11518,7 @@ I"¶
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -12214,7 +12086,7 @@ I"<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"§K<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"˜K<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12248,7 +12120,7 @@ I"<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -12731,7 +12603,7 @@ I"o<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"jB<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"[B<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12765,7 +12637,7 @@ I"o<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -13239,7 +13111,7 @@ I"a<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"ÏZ<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"ÀZ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13273,7 +13145,7 @@ I"a<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init nav-add-social'>
+  <body class='init'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>

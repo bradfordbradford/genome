@@ -36,7 +36,71 @@ assets/css/genome-main.css - replace file
 assets/js - replace directory
 
 _Markup Edited_
+Home Aside Column -
+    for reach a.icon inside
+
+Home Aside Col -
+
+    Inside ul.featured <li>, for each of the following <div>s:
+        <div class='media-object'>
+
+    Add this class so it looks like this:
+
+        <div class='rte-remote media-object' data-file='' data-target=''>
+
+    And to each a.icon with the "3 min read":
+        <a href='#'>
+            <span class='icon' data-icon='F'></span>
+            3 min read
+        </a>
+
+    Replace those words with <span class='eta'></span>
+
+        <a href='#'>
+            <span class='icon' data-icon='F'></span>
+            <span class='eta'></span>
+        </a>
+
+
+
+Story Roll -
+
+    change each of the following <li>s
+    <li class='media-object-horizontal-layout'>
+
+    to this:
+    <li class='rte-remote media-object-horizontal-layout' data-file='' data-target=''>
+
+    and each a.action inside those <li>s from this:
+    <a class='action' data-icon='F' href='#'></a>
+
+    to this:
+    <a class='action' data-icon='F' href='#'>
+        <span class='eta'></span>
+    </a>
+
+
+Article_Column -
+
+    Inside article header, change this:
+    <div class='text-meta light-text-color' href='http://link/…'>
+      <span class='icon' data-icon='F'></span>
+      3 min read
+    </div>
+
+    to this:
+    <div class='text-meta light-text-color' href='http://link/…'>
+      <span class='icon' data-icon='F'></span>
+      <span class="eta"></span>
+    </div>
+
+    and inside <article> wrap the <p> tag content with #rte-target
+        <div id="rte-target">…</div>
+
+
 Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
+
+
 Home Scroll to Content -
     change this: <a class='arrow-down alternate' href='#scroll'></a>
     to this: <a class='arrow-down alternate' href=''></a>
