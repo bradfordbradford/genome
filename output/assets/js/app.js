@@ -70,6 +70,31 @@ $(document).ready(function($) {
     });
 
 
+    // // Read Time for Lists ---------
+    // $(function() {
+
+    //     $('.eta-read-time').each(function() {
+
+    //       $(this).readingTime({
+    //         readingTimeTarget: $(this).find('.eta'),
+    //         // wordCountTarget: $(this).find('.words'),
+    //         remotePath: $(this).attr('data-file'),
+    //         remoteTarget: $(this).attr('data-target')
+    //       });
+
+    //     });
+
+    // });
+
+    // Read Time for Articles ---------
+    // $(function() {
+
+    //   $('#read-time-wrap').readingTime({
+    //     // wordCountTarget: '.words'
+    //   });
+
+    // });
+
 
     // Collapsible Content - Add Toggle ----------
     var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );

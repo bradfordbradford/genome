@@ -71,13 +71,13 @@
 
 
 // Push Footer, Fill Parent ------------------
-body,html,#content-wrap,.inner-bounds {
-  height:100% !important;
-  width:100%;}
+// body,html,#content-wrap,.inner-bounds {
+//   height:100% !important;
+//   width:100%;}
 
 #header-nav-wrap,
 #content-wrap {
-  min-height: 100%;
+  // min-height: 100%;
 
   // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
   // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer
@@ -87,15 +87,15 @@ body,html,#content-wrap,.inner-bounds {
   position: relative;
   z-index: 10;
 
-  &:after {
-    content: "";
-    display: block;
-  }
+  // &:after {
+  //   content: "";
+  //   display: block;
+  // }
 }
 
-#main-footer, #header-nav-wrap:after, #content-wrap:after {
-  height: auto;
-}
+// #main-footer, #header-nav-wrap:after, #content-wrap:after {
+//   height: auto;
+// }
 
 #content-wrap, .inner-bounds {
 
