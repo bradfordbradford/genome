@@ -85,13 +85,13 @@ jQuery(document).ready(function($) {
 
 
             // Register buttons - trigger above command when clicked
-            ed.addButton('wpse72394_button', {title : 'H', cmd : 'wpse72394_insert_shortcode', image: url + 'h.png' });
-            ed.addButton('wpse72395_button', {title : 'S', cmd : 'wpse72395_insert_shortcode', image: url + 's.png' });
-            ed.addButton('wpse72396_button', {title : 'B', cmd : 'wpse72396_insert_shortcode', image: url + 'b.png' });
-            ed.addButton('wpse72397_button', {title : 'ht', cmd : 'wpse72397_insert_shortcode', image: url + 'ht.png' });
-            ed.addButton('wpse72398_button', {title : 'hb', cmd : 'wpse72398_insert_shortcode', image: url + 'hb.png' });
-            ed.addButton('wpse72399_button', {title : 'h3', cmd : 'wpse72399_insert_shortcode', image: url + 'h3.png' });
-            ed.addButton('wpse72400_button', {title : 'V', cmd : 'wpse72400_insert_shortcode', image: url + 'v.png' });
+            ed.addButton('wpse72394_button', {title : 'H', cmd : 'wpse72394_insert_shortcode', image: url + '/h.png' });
+            ed.addButton('wpse72395_button', {title : 'S', cmd : 'wpse72395_insert_shortcode', image: url + '/s.png' });
+            ed.addButton('wpse72396_button', {title : 'B', cmd : 'wpse72396_insert_shortcode', image: url + '/b.png' });
+            ed.addButton('wpse72397_button', {title : 'ht', cmd : 'wpse72397_insert_shortcode', image: url + '/ht.png' });
+            ed.addButton('wpse72398_button', {title : 'hb', cmd : 'wpse72398_insert_shortcode', image: url + '/hb.png' });
+            ed.addButton('wpse72399_button', {title : 'h3', cmd : 'wpse72399_insert_shortcode', image: url + '/h3.png' });
+            ed.addButton('wpse72400_button', {title : 'V', cmd : 'wpse72400_insert_shortcode', image: url + '/v.png' });
         },   
     });
 

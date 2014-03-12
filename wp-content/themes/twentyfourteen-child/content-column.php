@@ -35,7 +35,7 @@
                     <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
                     <?php
                       if (function_exists('get_wp_user_avatar_src')) {
-                        $avatar = get_wp_user_avatar_src();
+                        $avatar = get_wp_user_avatar_src($user_id);
                       } else {
                         $avatar = '';
                       }
