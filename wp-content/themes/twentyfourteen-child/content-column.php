@@ -33,8 +33,14 @@
                     <?php the_title( '<h2>', '</h2>' ); ?>
                     
                     <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
-                    
-                    <img alt='' class='load author-pic circle' data-original='<?php echo get_wp_user_avatar_src(); ?>' src='<?php echo get_wp_user_avatar_src(); ?>'>
+                    <?php
+                      if (function_exists('get_wp_user_avatar_src')) {
+                        $avatar = get_wp_user_avatar_src();
+                      } else {
+                        $avatar = '';
+                      }
+                    ?>
+                    <img alt='' class='load author-pic circle' data-original='<?php echo $avatar; ?>' src='<?php echo $avatar; ?>'>
                     <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
                     <div class='article-meta'>
                       <time><?php echo get_the_time('F j, Y'); ?></time>
