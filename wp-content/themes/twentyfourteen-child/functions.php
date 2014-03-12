@@ -463,7 +463,7 @@ function fix_my_gallery($output, $attr) {
 	$size_class = sanitize_html_class( $size );
 	$gallery_div = "                      <div class='pull-out-left'>
                         <div class='article-photo'>
-                          <img alt='' class='load' data-original='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg' src='http://localhost:8888/genome/output/assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                          <img alt='' class='load' data-original='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg' src='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg'>
                           <div class='overlay-view-slideshow'>
                             <a class='btn media-action slide' data-icon='c' href='http://cleave.co/genome/wp-content/uploads/2014/03/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'>
                               <span>
