@@ -170,6 +170,18 @@
     }
     // ---- //
 
+
+}
+
+
+
+
+@include breakpoint(small-tablet-portrait) { // ---- Down from 674px ----
+    // Pagination
+    .pagination-wrap ol {
+        display: none;
+    }
+    // ---- //
 }
 
 
@@ -212,5 +224,6 @@
         clear: both;
         line-height: 18px;
     }
+    // ---- //
 
 }

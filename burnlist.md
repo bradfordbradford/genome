@@ -3,6 +3,8 @@ Burnlist: notes, mini bugs, etc
 ----
 
 
+
+
 # Changes for Integration
 # Notes for John
 
@@ -27,18 +29,30 @@ Burnlist: notes, mini bugs, etc
         change this: <section class='featured_layout inner-bounds block' id='scroll-here'>
         to this: <section class='featured_layout inner-bounds block' id='top'>
 
+    Reference changelog for info about read and share count markup changes
+
 
 
 
 # Open
 
+[] Featured Lists
+
+    - show disqus share count (yikes!)
+
+
+[] Site Footer
+
+    - needs to stay down on short pages
+
+[] Blog pages
+
+    - comment counts
+
+
 [] Rolls pages
 
     - pagination on mobile
-
-[ ] Blank pages
-
-    - height doesn't push footer down
 
 
 # Closed

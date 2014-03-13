@@ -4223,6 +4223,12 @@ aside.aside-column-primary .icon {
   }
 }
 
+@media only screen and (max-width: 674px) {
+  .pagination-wrap ol {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .inner-bounds {
     padding-left: 1em;
