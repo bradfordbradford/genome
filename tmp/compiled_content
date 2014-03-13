@@ -1018,7 +1018,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"Ím<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"Vn<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1307,7 +1307,10 @@ I"/article_blog_no_photo/;T{;{	;I"Ím<!DOCTYPE html>
                     <div class='right'>
                       <a class='action' data-icon='p' href='#1'>PRINT</a>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='i' href='#2'>888</a>
+                      <a class='action' data-icon='i' href='#2'>
+                        888
+                        <div class='comment-counter'></div>
+                      </a>
                     </div>
                   </div>
                 </header>
@@ -1690,7 +1693,7 @@ I"/article_blog_no_photo/;T{;{	;I"Ím<!DOCTYPE html>
     .end-block.inner-bounds.block.background-white
         -# Collection
         = render 'collection-related-reading';T;
-I"*<section class='primary_layout article_layout no-photo'>
+I"a*<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -1720,7 +1723,10 @@ I"*<section class='primary_layout article_layout no-photo'>
           <div class='right'>
             <a class='action' data-icon='p' href='#1'>PRINT</a>
             <span class='ver-line'>&#124;</span>
-            <a class='action' data-icon='i' href='#2'>888</a>
+            <a class='action' data-icon='i' href='#2'>
+              888
+              <div class='comment-counter'></div>
+            </a>
           </div>
         </div>
       </header>
@@ -4417,7 +4423,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"ç<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"zä<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4823,11 +4829,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              888 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 888 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -4859,11 +4864,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              32 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 32 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -4895,11 +4899,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              888 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 888 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -4931,11 +4934,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              888 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 888 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -4967,11 +4969,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              888 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 888 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -5003,11 +5004,10 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <a class='action' data-icon='i' href='#'>
-                              888 shares
-                              <span class='share-count'></span>
-                            </a>
+                            <!-- %span.interpunct &#183 -->
+                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                            <!-- 888 shares -->
+                            <!-- %span.share-count -->
                           </p>
                         </header>
                       </div>
@@ -5052,21 +5052,6 @@ I"¨<section class='primary_layout'>
                     </li>
                     <li>
                       <a href='#'>3</a>
-                    </li>
-                    <li>
-                      <a href='#'>4</a>
-                    </li>
-                    <li>
-                      <a href='#'>5</a>
-                    </li>
-                    <li>
-                      <a href='#'>6</a>
-                    </li>
-                    <li>
-                      <a href='#'>7</a>
-                    </li>
-                    <li>
-                      <a href='#'>8</a>
                     </li>
                     <li>
                       <a href='#'>‚Ä¶</a>
@@ -5196,7 +5181,7 @@ I"¨<section class='primary_layout'>
     </script>
   </body>
 </html>
-;T;	I"K*%section.primary_layout.article_layout
+;T;	I"{*%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
@@ -5217,10 +5202,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     888 shares
+                                    /     %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5244,65 +5229,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        32 shares
-                                        %span.share-count
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     32 shares
+                                    /     %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5327,10 +5257,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     888 shares
+                                    /     %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5354,10 +5284,65 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     888 shares
+                                    /     %span.share-count
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    December 22, 2013
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     888 shares
+                                    /     %span.share-count
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    / %span.interpunct &#183
+                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
+                                    /     888 shares
+                                    /     %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5379,7 +5364,7 @@ I"¨<section class='primary_layout'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"ˇB<section class='primary_layout article_layout'>
+I"DA<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -5526,11 +5511,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    888 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 888 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5562,11 +5546,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    32 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 32 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5598,11 +5581,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    888 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 888 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5634,11 +5616,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    888 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 888 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5670,11 +5651,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    888 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 888 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5706,11 +5686,10 @@ I"ˇB<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <a class='action' data-icon='i' href='#'>
-                    888 shares
-                    <span class='share-count'></span>
-                  </a>
+                  <!-- %span.interpunct &#183 -->
+                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
+                  <!-- 888 shares -->
+                  <!-- %span.share-count -->
                 </p>
               </header>
             </div>
@@ -5757,21 +5736,6 @@ I"ˇB<section class='primary_layout article_layout'>
             <a href='#'>3</a>
           </li>
           <li>
-            <a href='#'>4</a>
-          </li>
-          <li>
-            <a href='#'>5</a>
-          </li>
-          <li>
-            <a href='#'>6</a>
-          </li>
-          <li>
-            <a href='#'>7</a>
-          </li>
-          <li>
-            <a href='#'>8</a>
-          </li>
-          <li>
             <a href='#'>‚Ä¶</a>
           </li>
           <li>
@@ -5794,7 +5758,7 @@ I"ˇB<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"ñ<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"uï<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6082,6 +6046,180 @@ I"ˇB<section class='primary_layout article_layout'>
           <section class='primary_layout' id='top'>
             <div class='inner-bounds block'>
               <div class='content-row'>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <div class='content-block'>
+                      <div class='featured-article'>
+                        <div class='article-photo primary'>
+                          <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                        </div>
+                        <header class='article-header'>
+                          <div class='text-meta'>
+                            <a href='#'>Featured Article</a>
+                            <time>December 22, 2013</time>
+                          </div>
+                          <h2>
+                            <a href='#'>
+                              The Changing World of Fitness & Sporting
+                            </a>
+                          </h2>
+                          <a class='text-meta-sub light-text-color' href='#'>
+                            By Author Righter
+                          </a>
+                          <p>
+                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                            <a class='text-meta continue-reading' href='#'>
+                              Continue Reading
+                              <span class='double-quote-right'>
+                                &#187;
+                              </span>
+                            </a>
+                          </p>
+                        </header>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='content-row'>
+                    <section class='collection grid-2-per content-block'>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                            <p class='text-meta-sub light-text-color sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Research</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                            <p class='text-meta-sub light-text-color sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class='content-row'>
+                    <section class='grid-2-per content-block'>
+                      <div class='media-object-horizontal-layout'>
+                        <div class='grid-element image-content'>
+                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class='grid-element'>
+                          <a class='text-meta' href='#'>Technology</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header'>
+                              <a href='#'>
+                                Reworking Your Genetic Puzzle
+                              </a>
+                            </h3>
+                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                            <p class='text-meta-sub light-text-color sans-meta'>
+                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non‚Ä¶
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class='content-row'>
+                    <div class='content-block'>
+                      <div class='featured-article'>
+                        <div class='article-photo primary'>
+                          <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+                        </div>
+                        <header class='article-header'>
+                          <div class='text-meta tag'>
+                            <a href='#'>Featured Article</a>
+                            <time>December 22, 2013</time>
+                          </div>
+                          <h2>
+                            <a href='#'>
+                              The Changing World of Fitness & Sporting
+                            </a>
+                          </h2>
+                          <a class='text-meta-sub light-text-color' href='#'>
+                            By Author Righter
+                          </a>
+                          <p>
+                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                            <a class='text-meta continue-reading' href='#'>
+                              Continue Reading
+                              <span class='double-quote-right'>
+                                &#187;
+                              </span>
+                            </a>
+                          </p>
+                        </header>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='content-row'>
+                    <section class='collection grid-2-per content-block'>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                            <p class='text-meta-sub light-text-color sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class='media-object with-large-image grid-element popup-content'>
+                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                        <div class='popup-content-wrap'>
+                          <div class='comment-counter-wrap'>
+                            <a class='icon comment-counter' href=''>
+                              <span class='value'>6</span>
+                            </a>
+                          </div>
+                          <a class='text-meta' href='#'>Research</a>
+                          <a class='media-copy' href='#'>
+                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                            <p class='text-meta-sub light-text-color sans-meta'>
+                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                            </p>
+                          </a>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </section>
                 <aside class='aside-column-primary'>
                   <div class='aside-block with-top-border'>
                     <header>
@@ -6334,183 +6472,6 @@ I"ˇB<section class='primary_layout article_layout'>
                     </ul>
                   </div>
                 </aside>
-                <section class='primary-content'>
-                  <div class='content-row'>
-                    <div class='content-block'>
-                      <div class='featured-article'>
-                        <div class='article-photo primary'>
-                          <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                        </div>
-                        <header class='article-header'>
-                          <div class='text-meta'>
-                            <a href='#'>Featured Article</a>
-                            <time>December 22, 2013</time>
-                          </div>
-                          <h2>
-                            <a href='#'>
-                              The Changing World of Fitness & Sporting
-                            </a>
-                          </h2>
-                          <a class='text-meta-sub light-text-color' href='#'>
-                            By Author Righter
-                          </a>
-                          <p>
-                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                            <a class='text-meta continue-reading' href='#'>
-                              Continue Reading
-                              <span class='double-quote-right'>
-                                &#187;
-                              </span>
-                            </a>
-                          </p>
-                        </header>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='content-row'>
-                    <section class='collection grid-2-per content-block'>
-                      <div class='media-object with-large-image grid-element popup-content'>
-                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                        <div class='popup-content-wrap'>
-                          <div class='comment-counter-wrap'>
-                            <a class='icon comment-counter' href=''>
-                              <span class='value'>6</span>
-                            </a>
-                          </div>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <a class='media-copy' href='#'>
-                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                            <p class='text-meta-sub light-text-color sans-meta'>
-                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                      <div class='media-object with-large-image grid-element popup-content'>
-                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
-                        <div class='popup-content-wrap'>
-                          <div class='comment-counter-wrap'>
-                            <a class='icon comment-counter' href=''>
-                              <span class='value'>6</span>
-                            </a>
-                          </div>
-                          <a class='text-meta' href='#'>Research</a>
-                          <a class='media-copy' href='#'>
-                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                            <p class='text-meta-sub light-text-color sans-meta'>
-                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                  <div class='content-row'>
-                    <section class='grid-2-per content-block'>
-                      <div class='media-object-horizontal-layout'>
-                        <div class='grid-element image-content'>
-                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                          <div class='comment-counter-wrap'>
-                            <a class='icon comment-counter' href=''>
-                              <span class='value'>6</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class='grid-element'>
-                          <a class='text-meta' href='#'>Technology</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header'>
-                              <a href='#'>
-                                Reworking Your Genetic Puzzle
-                              </a>
-                            </h3>
-                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                            <p class='text-meta-sub light-text-color sans-meta'>
-                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non‚Ä¶
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                  <div class='content-row'>
-                    <div class='content-block'>
-                      <div class='featured-article'>
-                        <div class='article-photo primary'>
-                          <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-                        </div>
-                        <header class='article-header'>
-                          <div class='text-meta tag'>
-                            <a href='#'>Featured Article</a>
-                            <time>December 22, 2013</time>
-                          </div>
-                          <h2>
-                            <a href='#'>
-                              The Changing World of Fitness & Sporting
-                            </a>
-                          </h2>
-                          <a class='text-meta-sub light-text-color' href='#'>
-                            By Author Righter
-                          </a>
-                          <p>
-                            Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                            <a class='text-meta continue-reading' href='#'>
-                              Continue Reading
-                              <span class='double-quote-right'>
-                                &#187;
-                              </span>
-                            </a>
-                          </p>
-                        </header>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='content-row'>
-                    <section class='collection grid-2-per content-block'>
-                      <div class='media-object with-large-image grid-element popup-content'>
-                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                        <div class='popup-content-wrap'>
-                          <div class='comment-counter-wrap'>
-                            <a class='icon comment-counter' href=''>
-                              <span class='value'>6</span>
-                            </a>
-                          </div>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <a class='media-copy' href='#'>
-                            <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                            <p class='text-meta-sub light-text-color sans-meta'>
-                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                      <div class='media-object with-large-image grid-element popup-content'>
-                        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
-                        <div class='popup-content-wrap'>
-                          <div class='comment-counter-wrap'>
-                            <a class='icon comment-counter' href=''>
-                              <span class='value'>6</span>
-                            </a>
-                          </div>
-                          <a class='text-meta' href='#'>Research</a>
-                          <a class='media-copy' href='#'>
-                            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                            <p class='text-meta-sub light-text-color sans-meta'>
-                              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                            </p>
-                          </a>
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                  <div class='content-row'>
-                    <!-- %a.full-bleed.btn.compliment{:href => "#"} View All Articles -->
-                  </div>
-                </section>
               </div>
             </div>
           </section>
@@ -6619,7 +6580,7 @@ I"ˇB<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"Á&%header.hero.hero-featured-article.background-size-full.center
+;T;	I"t&%header.hero.hero-featured-article.background-size-full.center
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
@@ -6649,10 +6610,6 @@ I"ˇB<section class='primary_layout article_layout'>
     .inner-bounds.block
 
         .content-row
-
-            -# Aside Column
-            = render 'aside-column-home'
-
 
             -# Primary Content Column
             %section.primary-content
@@ -6803,10 +6760,9 @@ I"ˇB<section class='primary_layout article_layout'>
                                     %p.text-meta-sub.light-text-color.sans-meta
                                         Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
-
-                .content-row
-                    / %a.full-bleed.btn.compliment{:href => "#"} View All Articles;T;
-I"KJ<header class='hero hero-featured-article background-size-full center'>
+            -# Aside Column
+            = render 'aside-column-home';T;
+I" I<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6835,6 +6791,180 @@ I"KJ<header class='hero hero-featured-article background-size-full center'>
 <section class='primary_layout' id='top'>
   <div class='inner-bounds block'>
     <div class='content-row'>
+      <section class='primary-content'>
+        <div class='content-row'>
+          <div class='content-block'>
+            <div class='featured-article'>
+              <div class='article-photo primary'>
+                <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+              </div>
+              <header class='article-header'>
+                <div class='text-meta'>
+                  <a href='#'>Featured Article</a>
+                  <time>December 22, 2013</time>
+                </div>
+                <h2>
+                  <a href='#'>
+                    The Changing World of Fitness & Sporting
+                  </a>
+                </h2>
+                <a class='text-meta-sub light-text-color' href='#'>
+                  By Author Righter
+                </a>
+                <p>
+                  Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                  <a class='text-meta continue-reading' href='#'>
+                    Continue Reading
+                    <span class='double-quote-right'>
+                      &#187;
+                    </span>
+                  </a>
+                </p>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div class='content-row'>
+          <section class='collection grid-2-per content-block'>
+            <div class='media-object with-large-image grid-element popup-content'>
+              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+              <div class='popup-content-wrap'>
+                <div class='comment-counter-wrap'>
+                  <a class='icon comment-counter' href=''>
+                    <span class='value'>6</span>
+                  </a>
+                </div>
+                <a class='text-meta' href='#'>Treatment</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                  <p class='text-meta-sub light-text-color sans-meta'>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element popup-content'>
+              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+              <div class='popup-content-wrap'>
+                <div class='comment-counter-wrap'>
+                  <a class='icon comment-counter' href=''>
+                    <span class='value'>6</span>
+                  </a>
+                </div>
+                <a class='text-meta' href='#'>Research</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                  <p class='text-meta-sub light-text-color sans-meta'>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                  </p>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class='content-row'>
+          <section class='grid-2-per content-block'>
+            <div class='media-object-horizontal-layout'>
+              <div class='grid-element image-content'>
+                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                <div class='comment-counter-wrap'>
+                  <a class='icon comment-counter' href=''>
+                    <span class='value'>6</span>
+                  </a>
+                </div>
+              </div>
+              <div class='grid-element'>
+                <a class='text-meta' href='#'>Technology</a>
+                <div class='media-copy'>
+                  <h3 class='text-meta-header'>
+                    <a href='#'>
+                      Reworking Your Genetic Puzzle
+                    </a>
+                  </h3>
+                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                  <p class='text-meta-sub light-text-color sans-meta'>
+                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non‚Ä¶
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class='content-row'>
+          <div class='content-block'>
+            <div class='featured-article'>
+              <div class='article-photo primary'>
+                <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
+              </div>
+              <header class='article-header'>
+                <div class='text-meta tag'>
+                  <a href='#'>Featured Article</a>
+                  <time>December 22, 2013</time>
+                </div>
+                <h2>
+                  <a href='#'>
+                    The Changing World of Fitness & Sporting
+                  </a>
+                </h2>
+                <a class='text-meta-sub light-text-color' href='#'>
+                  By Author Righter
+                </a>
+                <p>
+                  Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                  <a class='text-meta continue-reading' href='#'>
+                    Continue Reading
+                    <span class='double-quote-right'>
+                      &#187;
+                    </span>
+                  </a>
+                </p>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div class='content-row'>
+          <section class='collection grid-2-per content-block'>
+            <div class='media-object with-large-image grid-element popup-content'>
+              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+              <div class='popup-content-wrap'>
+                <div class='comment-counter-wrap'>
+                  <a class='icon comment-counter' href=''>
+                    <span class='value'>6</span>
+                  </a>
+                </div>
+                <a class='text-meta' href='#'>Treatment</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                  <p class='text-meta-sub light-text-color sans-meta'>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class='media-object with-large-image grid-element popup-content'>
+              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+              <div class='popup-content-wrap'>
+                <div class='comment-counter-wrap'>
+                  <a class='icon comment-counter' href=''>
+                    <span class='value'>6</span>
+                  </a>
+                </div>
+                <a class='text-meta' href='#'>Research</a>
+                <a class='media-copy' href='#'>
+                  <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                  <p class='text-meta-sub light-text-color sans-meta'>
+                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                  </p>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
       <aside class='aside-column-primary'>
         <div class='aside-block with-top-border'>
           <header>
@@ -7087,183 +7217,6 @@ I"KJ<header class='hero hero-featured-article background-size-full center'>
           </ul>
         </div>
       </aside>
-      <section class='primary-content'>
-        <div class='content-row'>
-          <div class='content-block'>
-            <div class='featured-article'>
-              <div class='article-photo primary'>
-                <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-              </div>
-              <header class='article-header'>
-                <div class='text-meta'>
-                  <a href='#'>Featured Article</a>
-                  <time>December 22, 2013</time>
-                </div>
-                <h2>
-                  <a href='#'>
-                    The Changing World of Fitness & Sporting
-                  </a>
-                </h2>
-                <a class='text-meta-sub light-text-color' href='#'>
-                  By Author Righter
-                </a>
-                <p>
-                  Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                  <a class='text-meta continue-reading' href='#'>
-                    Continue Reading
-                    <span class='double-quote-right'>
-                      &#187;
-                    </span>
-                  </a>
-                </p>
-              </header>
-            </div>
-          </div>
-        </div>
-        <div class='content-row'>
-          <section class='collection grid-2-per content-block'>
-            <div class='media-object with-large-image grid-element popup-content'>
-              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-              <div class='popup-content-wrap'>
-                <div class='comment-counter-wrap'>
-                  <a class='icon comment-counter' href=''>
-                    <span class='value'>6</span>
-                  </a>
-                </div>
-                <a class='text-meta' href='#'>Treatment</a>
-                <a class='media-copy' href='#'>
-                  <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                  <p class='text-meta-sub light-text-color sans-meta'>
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                  </p>
-                </a>
-              </div>
-            </div>
-            <div class='media-object with-large-image grid-element popup-content'>
-              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
-              <div class='popup-content-wrap'>
-                <div class='comment-counter-wrap'>
-                  <a class='icon comment-counter' href=''>
-                    <span class='value'>6</span>
-                  </a>
-                </div>
-                <a class='text-meta' href='#'>Research</a>
-                <a class='media-copy' href='#'>
-                  <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                  <p class='text-meta-sub light-text-color sans-meta'>
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                  </p>
-                </a>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class='content-row'>
-          <section class='grid-2-per content-block'>
-            <div class='media-object-horizontal-layout'>
-              <div class='grid-element image-content'>
-                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                <div class='comment-counter-wrap'>
-                  <a class='icon comment-counter' href=''>
-                    <span class='value'>6</span>
-                  </a>
-                </div>
-              </div>
-              <div class='grid-element'>
-                <a class='text-meta' href='#'>Technology</a>
-                <div class='media-copy'>
-                  <h3 class='text-meta-header'>
-                    <a href='#'>
-                      Reworking Your Genetic Puzzle
-                    </a>
-                  </h3>
-                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                  <p class='text-meta-sub light-text-color sans-meta'>
-                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus Atlas. Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non‚Ä¶
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class='content-row'>
-          <div class='content-block'>
-            <div class='featured-article'>
-              <div class='article-photo primary'>
-                <img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'>
-              </div>
-              <header class='article-header'>
-                <div class='text-meta tag'>
-                  <a href='#'>Featured Article</a>
-                  <time>December 22, 2013</time>
-                </div>
-                <h2>
-                  <a href='#'>
-                    The Changing World of Fitness & Sporting
-                  </a>
-                </h2>
-                <a class='text-meta-sub light-text-color' href='#'>
-                  By Author Righter
-                </a>
-                <p>
-                  Good negotiators know that one of the trickiest aspects of their jotb is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                  <a class='text-meta continue-reading' href='#'>
-                    Continue Reading
-                    <span class='double-quote-right'>
-                      &#187;
-                    </span>
-                  </a>
-                </p>
-              </header>
-            </div>
-          </div>
-        </div>
-        <div class='content-row'>
-          <section class='collection grid-2-per content-block'>
-            <div class='media-object with-large-image grid-element popup-content'>
-              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-              <div class='popup-content-wrap'>
-                <div class='comment-counter-wrap'>
-                  <a class='icon comment-counter' href=''>
-                    <span class='value'>6</span>
-                  </a>
-                </div>
-                <a class='text-meta' href='#'>Treatment</a>
-                <a class='media-copy' href='#'>
-                  <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
-                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                  <p class='text-meta-sub light-text-color sans-meta'>
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                  </p>
-                </a>
-              </div>
-            </div>
-            <div class='media-object with-large-image grid-element popup-content'>
-              <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
-              <div class='popup-content-wrap'>
-                <div class='comment-counter-wrap'>
-                  <a class='icon comment-counter' href=''>
-                    <span class='value'>6</span>
-                  </a>
-                </div>
-                <a class='text-meta' href='#'>Research</a>
-                <a class='media-copy' href='#'>
-                  <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
-                  <p class='text-meta-sub light-text-color'>By Authur Righter</p>
-                  <p class='text-meta-sub light-text-color sans-meta'>
-                    Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
-                  </p>
-                </a>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class='content-row'>
-          <!-- %a.full-bleed.btn.compliment{:href => "#"} View All Articles -->
-        </div>
-      </section>
     </div>
   </div>
 </section>
@@ -9152,7 +9105,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"u|<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"Æz<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9709,21 +9662,6 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
                       <a href='#'>3</a>
                     </li>
                     <li>
-                      <a href='#'>4</a>
-                    </li>
-                    <li>
-                      <a href='#'>5</a>
-                    </li>
-                    <li>
-                      <a href='#'>6</a>
-                    </li>
-                    <li>
-                      <a href='#'>7</a>
-                    </li>
-                    <li>
-                      <a href='#'>8</a>
-                    </li>
-                    <li>
                       <a href='#'>‚Ä¶</a>
                     </li>
                     <li>
@@ -9971,7 +9909,7 @@ I"5'<div class='inner-bounds remove-footer-offset block'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"å5<section class='primary_layout article_layout'>
+I"[4<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -10267,21 +10205,6 @@ I"å5<section class='primary_layout article_layout'>
           </li>
           <li>
             <a href='#'>3</a>
-          </li>
-          <li>
-            <a href='#'>4</a>
-          </li>
-          <li>
-            <a href='#'>5</a>
-          </li>
-          <li>
-            <a href='#'>6</a>
-          </li>
-          <li>
-            <a href='#'>7</a>
-          </li>
-          <li>
-            <a href='#'>8</a>
           </li>
           <li>
             <a href='#'>‚Ä¶</a>

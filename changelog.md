@@ -41,6 +41,8 @@ Home Aside Column -
 
 Home Aside Col -
 
+    Moved aside below main content area
+
     Inside ul.featured <li>, for each of the following <div>s:
         <div class='media-object'>
 
@@ -72,10 +74,7 @@ Home Aside Col -
 
 Blog Roll -
 
-    For each a.action with a share count, add span.share-count inside and remove '# shares' words
-        <a class='action' data-icon='i' href='#'>
-          <span class='share-count'></span>
-        </a>
+    Removed interpunct and share count info
 
 
 Story Roll -
