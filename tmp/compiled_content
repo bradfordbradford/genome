@@ -4423,7 +4423,7 @@ I"¨<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"zä<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"ã<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4829,10 +4829,11 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <!-- %span.interpunct &#183 -->
-                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                            <!-- 888 shares -->
-                            <!-- %span.share-count -->
+                            <span class='interpunct'>&#183</span>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4899,10 +4900,11 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <!-- %span.interpunct &#183 -->
-                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                            <!-- 888 shares -->
-                            <!-- %span.share-count -->
+                            <span class='interpunct'>&#183</span>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4934,10 +4936,11 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <!-- %span.interpunct &#183 -->
-                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                            <!-- 888 shares -->
-                            <!-- %span.share-count -->
+                            <span class='interpunct'>&#183</span>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -4969,10 +4972,11 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <!-- %span.interpunct &#183 -->
-                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                            <!-- 888 shares -->
-                            <!-- %span.share-count -->
+                            <span class='interpunct'>&#183</span>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -5004,10 +5008,11 @@ I"¨<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <!-- %span.interpunct &#183 -->
-                            <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                            <!-- 888 shares -->
-                            <!-- %span.share-count -->
+                            <span class='interpunct'>&#183</span>
+                            <a class='action' data-icon='i' href='#'>
+                              888 shares
+                              <span class='share-count'></span>
+                            </a>
                           </p>
                         </header>
                       </div>
@@ -5181,7 +5186,7 @@ I"¨<section class='primary_layout'>
     </script>
   </body>
 </html>
-;T;	I"{*%section.primary_layout.article_layout
+;T;	I"S*%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Complimentary Featured Articles - Horizontal Layout
@@ -5202,10 +5207,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     888 shares
-                                    /     %span.share-count
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5257,10 +5262,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     888 shares
-                                    /     %span.share-count
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5284,10 +5289,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     888 shares
-                                    /     %span.share-count
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5312,10 +5317,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     888 shares
-                                    /     %span.share-count
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5339,10 +5344,10 @@ I"¨<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     888 shares
-                                    /     %span.share-count
+                                    %span.interpunct &#183
+                                    %a.action{:href=>"#", :'data-icon'=>"i"}
+                                        888 shares
+                                        %span.share-count
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5364,7 +5369,7 @@ I"¨<section class='primary_layout'>
         .content-row
             -# Pagination
             = render 'pagination';T;
-I"DA<section class='primary_layout article_layout'>
+I"∑A<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <aside class='aside-column-primary'>
@@ -5511,10 +5516,11 @@ I"DA<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <!-- %span.interpunct &#183 -->
-                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                  <!-- 888 shares -->
-                  <!-- %span.share-count -->
+                  <span class='interpunct'>&#183</span>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5581,10 +5587,11 @@ I"DA<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <!-- %span.interpunct &#183 -->
-                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                  <!-- 888 shares -->
-                  <!-- %span.share-count -->
+                  <span class='interpunct'>&#183</span>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5616,10 +5623,11 @@ I"DA<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <!-- %span.interpunct &#183 -->
-                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                  <!-- 888 shares -->
-                  <!-- %span.share-count -->
+                  <span class='interpunct'>&#183</span>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5651,10 +5659,11 @@ I"DA<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <!-- %span.interpunct &#183 -->
-                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                  <!-- 888 shares -->
-                  <!-- %span.share-count -->
+                  <span class='interpunct'>&#183</span>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5686,10 +5695,11 @@ I"DA<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <!-- %span.interpunct &#183 -->
-                  <!-- %a.action{:href=>"#", :'data-icon'=>"i"} -->
-                  <!-- 888 shares -->
-                  <!-- %span.share-count -->
+                  <span class='interpunct'>&#183</span>
+                  <a class='action' data-icon='i' href='#'>
+                    888 shares
+                    <span class='share-count'></span>
+                  </a>
                 </p>
               </header>
             </div>
@@ -5758,7 +5768,7 @@ I"DA<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"uï<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"lï<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6346,7 +6356,7 @@ I"DA<section class='primary_layout article_layout'>
                     </header>
                     <ul class='featured-list'>
                       <li>
-                        <div class='media-object reversed'>
+                        <div class='media-object'>
                           <a class='text-meta' href='#'>science</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
@@ -6762,7 +6772,7 @@ I"DA<section class='primary_layout article_layout'>
 
             -# Aside Column
             = render 'aside-column-home';T;
-I" I<header class='hero hero-featured-article background-size-full center'>
+I"¡I<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -7091,7 +7101,7 @@ I" I<header class='hero hero-featured-article background-size-full center'>
           </header>
           <ul class='featured-list'>
             <li>
-              <div class='media-object reversed'>
+              <div class='media-object'>
                 <a class='text-meta' href='#'>science</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header small'>
