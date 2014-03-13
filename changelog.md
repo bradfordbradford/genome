@@ -74,7 +74,10 @@ Home Aside Col -
 
 Blog Roll -
 
-    Removed interpunct and share count info
+    For each a.action with a share count, add span.share-count inside and remove '# shares' words
+        <a class='action' data-icon='i' href='#'>
+          <span class='share-count'></span>
+        </a>
 
 
 Story Roll -
