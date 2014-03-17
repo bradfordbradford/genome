@@ -229,5 +229,40 @@ $(document).ready(function($) {
             }
           }
         });
+    
+
+    // add share counts
+    addthis.addEventListener('addthis.ready', function() 
+      {
+        $('.featured-list.with-shares')
+          .find('li')
+            .each(
+              function()
+              {
+                var $article  = $(this);
+                var $link     = $(this).find('h3 > a');
+
+                // get shares object
+                addthis.sharecounters.getShareCounts(
+                  {
+                    service   :   'facebook', 
+                    countUrl  :   $link.attr('href')
+                  }, 
+                  function(obj) 
+                  { 
+                    // uses jQuery.number plugin for commas       
+                    var text = $.number(obj.count) + ' ';
+
+                    // "1 share" or "5 shares"
+                    text += obj.count === 1 ? 'share' : 'shares';
+
+                    // replace the text on the page
+                    $article.find('.share-count').text(text);
+                  }
+                );
+              }
+            );
+      }
+    );
 
 });
