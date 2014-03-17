@@ -9,7 +9,8 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+<?php if ($featured_img) : ?>
 
       <div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
@@ -26,8 +27,7 @@
                         $topicID   = $childcat->cat_ID;
                       }
                     }
-                  ?>
-                  <a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
+                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
                   <?php the_title( '<h2>', '</h2>' ); ?>
                   
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
@@ -86,6 +86,75 @@
                     ?>
 
                   </div>
+
+<?php else : ?>
+
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout no-photo'>
+            <div class='inner-bounds block background-white'>
+              <div class='content-row'>
+                <header class='article-header'>
+                  <?php
+// Get Topic Info
+                    foreach((get_the_category()) as $childcat) {
+                      if (cat_is_ancestor_of(5, $childcat)) {
+                        $topicLink = get_category_link($childcat->cat_ID);
+                        $topicName = $childcat->cat_name;
+                        $topicID   = $childcat->cat_ID;
+                      }
+                    }
+                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
+                  <?php the_title( '<h2>', '</h2>' ); ?>
+                  
+                  <div class='addthis_toolbox social-list'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Share</span>
+                    </a>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Tweet</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Email</span>
+                    </a>
+                  </div>
+                  <div class='article-meta'>
+                    <div class='left'>
+                      By
+                      <a class='emph' href='#'>Authur Righter</a>
+                      <span class='interpunct'>&#183</span>
+                      <time>December 22, 2013</time>
+                    </div>
+                    <div class='right'>
+                      <a class='action' data-icon='p' href='#1'>PRINT</a>
+                      <span class='ver-line'>&#124;</span>
+                      <a class='action' data-icon='i' href='#2'>
+                      <?php
+                        if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
+                      ?>
+                      <?php comments_popup_link( __( '0', 'twentyfourteen' ), __( '1', 'twentyfourteen' ), __( '%', 'twentyfourteen' ) ); ?>
+                      <?php
+                        endif;
+
+                        edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
+                      ?>
+                        <div class='comment-counter'></div>
+                      </a>
+                    </div>
+                  </div>
+                </header>
+              </div>
+              <div class='content-row'>
+                <article class='primary-content article-body-copy'>
+                    <?php
+// Content
+                      the_content();
+                    ?>
+<?php endif; ?>
+
                   <footer class='article-footer'>
                     <div class='content-row'>
                       <ul class='meta-list with-tags inline tags-compliment-bg'>
@@ -193,7 +262,6 @@
 
                 </section>
               </div>
-            </div>
-          </section>
-        </main>
-      </div>
+            </section>
+          </main>
+        </div>

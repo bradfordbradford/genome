@@ -1,5 +1,12 @@
 <?php
 
+add_filter( 'img_caption_shortcode', 'remove_thumbnail_dimensions');
+function remove_thumbnail_dimensions( $html ) {
+  $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+  $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+  return $html;
+}
+
 // Clean up wp_head - wrap in function?
 remove_action( 'wp_head', 'rsd_link' );
 remove_action( 'wp_head', 'wlwmanifest_link' );
@@ -72,8 +79,7 @@ add_action( 'admin_init', 'myplugin_settings' );
 
 // Content filters
 function first_paragraph($content){
-	global $wpdb;
-    return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead-with-drop-cap">', $content, 1);
+  return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead-with-drop-cap">', $content, 1);
 }
 // if (is_page_template('column-article.php') {
 // 	add_filter('the_content', 'first_paragraph');
@@ -124,6 +130,9 @@ function video_function($atts, $content = null) {
 	  'align'    => 'right',
 	  'vimeo_id' => '11111111',
 	), $atts));
+
+	$content = preg_replace( '/(width|height)=\"\d*\"\s/', "", $content );
+  $content = preg_replace( '/(width|height)=\"\d*\"\s/', "", $content );
 
 	if ($align == 'left') {
 		$return_string = "<div class='pull-out-left'>
@@ -362,6 +371,8 @@ function fix_my_gallery($output, $attr) {
 				$image_output = wp_get_attachment_image( $id, $size, false );
 			else
 				$image_output = wp_get_attachment_link( $id, $size, true, false );
+				$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+  			$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
 
 			$image_meta  = wp_get_attachment_metadata( $id );
 
@@ -487,6 +498,8 @@ function fix_my_gallery($output, $attr) {
 
 				$image_output = wp_get_attachment_link( $id, $size, false, false, '&nbsp;' );
 				$image_output = str_replace('<a href', "<a class='mfp-hide slide' href", $image_output);
+				$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+  			$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
 
 				$image_meta  = wp_get_attachment_metadata( $id );
 
@@ -550,7 +563,26 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 	//$content = get_the_content();
 	//$src = preg_match( '/src="([^"]*)"/i', $content );
 	
+	// $src = do_shortcode( $content );
 	$src = $content;
+    // $src =
+    //     preg_replace(
+    //         array('{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}',
+    //             '{ wp-image-[0-9]*" /></a>}'),
+    //         array('<img','" />'),
+    //         $src
+    //     );
+
+  // $src = preg_replace_callback(
+  //   '{<a\s+(?:[^>]*?\s+)?href="([^"]*)">}',
+  //   function($m) {
+  //   		//$falsetto = $src;
+  //       $falsetto .= "<himg>".$m[1]."</himg>";
+  //       preg_replace('</a>', $m[1], $falsetto);
+  //       return $falsetto;
+  //   },
+  //   $src);
+
 
 	//$src = wp_get_attachment_image_src( $src );
 	//$src = "ho";
@@ -581,6 +613,56 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 
 }
 
+function add_lazyload($content) {
+     $dom = new DOMDocument();
+     @$dom->loadHTML($content);
 
+     foreach ($dom->getElementsByTagName('img') as $node) {
+         $oldsrc = $node->getAttribute('src');
+         $node->setAttribute("data-original", $oldsrc );
+         //$newsrc = ''.get_template_directory_uri().'/library/images/nothing.gif';
+         $node->setAttribute("src", $oldsrc);
+         $node->setAttribute("class", "load");
+     }
+     return preg_replace('/^<!DOCTYPE.+?>/', '', str_replace( array('<html>', '</html>', '<body>', '</body>'), array('', '', '', ''), $dom->saveHTML()));
+     // $newHtml = $dom->saveHtml();
+     // return $newHtml;
+}
+
+add_filter('the_content', 'add_lazyload');
+
+// function k99_image_link_void( $content ) {
+//     $content =
+//         preg_replace(
+//             array('{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}',
+//                 '{ wp-image-[0-9]*" /></a>}'),
+//             array('<img','" />'),
+//             $content
+//         );
+//     return $content;
+// }
+
+// add_filter( 'the_content', 'k99_image_link_void' );
+
+function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url, $size, $alt) {
+  //$html = str_replace('<img ', '<img id="yay" ', $html);
+  if ($url != '') {
+//   	$html = "[caption id='id' align='".$align."' width='width']<img alt='".$alt."' class='load' data-original='".$url."' src='".$url."'>
+// <a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'></a>".$caption."[/caption]";
+
+  	$html = '[caption id="1" align="alignright" width="1"]<img alt="'.$alt.'" class="load" data-original="'.$url.'" src="'.$url.'">
+<a class="btn media-action no-text overlay-view-image" data-icon="b" href="'.$url.'" title="'.$title.'"></a>'.$alt.'[/caption]';
+
+
+
+  	return $html;
+
+  } else {
+  	return $html;
+  }
+
+}
+add_filter('image_send_to_editor', 'filter_image_send_to_editor', 10, 8);
+add_filter('the_content', 'filter_image_send_to_editor', 10, 8);
 
 ?>

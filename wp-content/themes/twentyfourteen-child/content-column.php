@@ -78,9 +78,12 @@
                     <div id='read-time-wrap'>
                       <?php
 // Content
-                        $content = get_the_content() . " <span class='light-text-color inline-block end-mark' data-icon='G'></span>" ;
+                        $content = get_the_content();
+                        $content .= " <span class='light-text-color inline-block end-mark' data-icon='G'></span>" ;
                         $content = apply_filters('the_content',$content);
-                        // $content = apply_filters('first_paragraph',$content);
+                        $content = preg_replace('/<p([^>]+)?>/', '<p$1 class="lead-with-drop-cap">', $content, 1);
+                        //$content = apply_filters('first_paragraph',$content);
+                        //add_filter('the_content', 'first_paragraph');
                         echo $content;
                       ?>
 
