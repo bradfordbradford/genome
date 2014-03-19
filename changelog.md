@@ -39,6 +39,12 @@ _Markup Edited_
 Home Aside Column -
     for reach a.icon inside
 
+General
+
+    Move search out of main-navigation right under mobile toggle btn
+    Added .hide-below-tablet-p to footer statement/highlight block and .white-text-color to .highlight <p>
+
+
 Home Aside Col -
 
     Moved aside below main content area

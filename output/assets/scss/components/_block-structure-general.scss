@@ -1,10 +1,13 @@
 
 // General Structure ------------------
 
+
+
 #site-wrap-outer {
   position: relative;
   overflow: hidden;
   width: 100%;
+  // height: 100%;
   z-index: 10;
 }
 
@@ -16,7 +19,9 @@
 }
 
 // NOTE: Offset fixed navigation
-#content-wrap {padding-top:120px;}
+#content-wrap {
+  padding-top:$navbarHeight*1.5;
+}
 
 .inner-bounds {
   // NOTE: Content is edge to edge unless given .inner-bounds
@@ -78,33 +83,20 @@
 #header-nav-wrap,
 #content-wrap {
   // min-height: 100%;
-
   // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
-  // Offset Necessary - #content-wrap declares padding-bottom so content doesn't flow past footer
-  // Z-Index Necessary - 0: #header-nav-wrap, 1: #main-footer, #header-wrap, #content-wrap
-
-  margin-bottom: -40px;
+  margin-bottom: - ($navbarHeight / 2) ;
   position: relative;
-  z-index: 10;
-
-  // &:after {
-  //   content: "";
-  //   display: block;
-  // }
+  z-index: 11;
 }
-
-// #main-footer, #header-nav-wrap:after, #content-wrap:after {
-//   height: auto;
-// }
 
 #content-wrap, .inner-bounds {
-
   width:100%;
-
+  height:100%;
   // NOTE: 40px to offset pulling footer up + 60px to add breathing room
-  padding-bottom: 40px;
+  padding-bottom: $navbarHeight / 2;
   // @include susy-grid-background;
 }
+
 
 
 

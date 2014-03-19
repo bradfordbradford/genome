@@ -1,8 +1,18 @@
 
 %section#main-site-navigation-wrap
     .site-navigation-inner
+
         #toggle-offcanvas-nav.hide-above-tablet-p
             %a.light-text-color{:href => "#offcanvas-navigation", :'data-icon'=>"B"}
+
+
+        .search
+            %a.light-text-color.search-glass.overlay-view-search{:href => "#nav-search-box", :'data-icon'=>"C"}
+            #nav-search-box.form-box.mfp-hide.inner-bounds
+                %form{:action => ""}
+                    %a.input-icon{:'data-icon'=>"C", :href=>"#"}
+                    %input#search{:type => "text", :placeholder => "What were you looking for?"}/
+
         %header#site-title{:role => "banner"}
             %h1.logo
                 %a{:href => "http://genome.com", :'data-icon'=>"L"}
@@ -10,16 +20,13 @@
             .tagline
                 Your Health is Personal
 
+
         %nav#main-navigation{:role => "navigation"}
             %ol.navigation-list
-                .search
-                    %a.light-text-color.search-glass.overlay-view-search{:href => "#nav-search-box", :'data-icon'=>"C"}
-                    #nav-search-box.form-box.mfp-hide.inner-bounds
-                        %form{:action => ""}
-                            %a.input-icon{:'data-icon'=>"C", :href=>"#"}
-                            %input#search{:type => "text", :placeholder => "What were you looking for?"}/
 
-                %li.nav-item.open-g-door.hide-below-tablet-p
+                %li.nav-item.hide-below-tablet-p.open-g-door
+                    %a{href: "#"} newsletter
+                %li.nav-item.hide-below-tablet-p
                     %a{:href => "#"} subscribe
 
                 %li.nav-item.hide-below-tablet-p
@@ -106,8 +113,7 @@
 
 
 
-                %li.nav-item.hide-below-tablet-p
-                    %a{href: "#"} newsletter
+
 
         %aside.add-social
             .addthis_toolbox.social-list
@@ -132,6 +138,8 @@
                 %header.collapse-header
                     .collapse-section-title browse
                 %ol.collapse-content
+                    %li
+                        %a{:href => "https://www.google.com/"} By Issue
                     %li
                         %a{:href => "https://www.google.com/"} By Topic
                     %li

@@ -261,9 +261,9 @@ blockquote {
     }
 
     a {
-        color: $primaryLink;
+        color: $primaryLinkHover;
         &:hover {
-            color: $primaryLinkHover;
+            color: $primaryLink;
         }
     }
 
@@ -387,6 +387,13 @@ blockquote {
         font-family: $sans;
         margin:0 auto 16px;
     }
+}
+
+.article-header span.eta {
+    font-family: $serif;
+    font-style: italic;
+    text-transform: none;
+    font-weight: 200;
 }
 
 
