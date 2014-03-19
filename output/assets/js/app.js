@@ -229,6 +229,20 @@ $(document).ready(function($) {
             }
           }
         });
+
+    
+    // callback for updating share count on page
+    var updateCount = function($article, count)
+    {
+      // uses jQuery.number plugin for commas       
+      count = $.number(count) + ' ';
+
+      // "1 share" or "5 shares"
+      var text = count + ' ' + (count === 1 ? 'share' : 'shares');
+
+      // replace the text on the page
+      $article.find('.share-count').text(text);
+    };
     
 
     // add share counts
@@ -239,25 +253,44 @@ $(document).ready(function($) {
             .each(
               function()
               {
-                var $article  = $(this);
-                var $link     = $(this).find('h3 > a');
+                var $article      = $(this);
+                var $link         = $(this).find('h3 > a');
+                var servicesCount = 0;
+                var shares        = 0;
 
-                // get shares object
+                // facebook shares
                 addthis.sharecounters.getShareCounts(
                   {
-                    service   :   'facebook', 
-                    countUrl  :   $link.attr('href')
+                    service   : 'facebook', 
+                    countUrl  : $link.attr('href')
                   }, 
                   function(obj) 
-                  { 
-                    // uses jQuery.number plugin for commas       
-                    var text = $.number(obj.count) + ' ';
+                  {
+                    servicesCount++;
+                    shares += obj.count;
 
-                    // "1 share" or "5 shares"
-                    text += obj.count === 1 ? 'share' : 'shares';
+                    if (servicesCount === 2)
+                    {
+                      updateCount($article, shares);
+                    }
+                  }
+                );
 
-                    // replace the text on the page
-                    $article.find('.share-count').text(text);
+                // twitter shares
+                addthis.sharecounters.getShareCounts(
+                  {
+                    service   : 'twitter', 
+                    countUrl  : $link.attr('href')
+                  }, 
+                  function(obj) 
+                  {
+                    servicesCount++;
+                    shares += obj.count;
+
+                    if (servicesCount === 2)
+                    {
+                      updateCount($article, shares);
+                    }
                   }
                 );
               }
