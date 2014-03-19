@@ -57,26 +57,26 @@
             <div class='col'>
               <ul>
                 <li>
-                  <a href='http://link/…'>About Genome</a>
+                  <a href='<?php echo site_url(); ?>/about-us/'>About Genome</a>
                 </li>
                 <li>
-                  <a href='http://link/…'>Partners & Allies</a>
+                  <a href='<?php echo site_url(); ?>/partners-and-allies/'>Partners & Allies</a>
                 </li>
                 <li>
-                  <a href='http://link/…'>Media Kit</a>
+                  <a href='<?php echo site_url(); ?>/media-kit/'>Media Kit</a>
                 </li>
               </ul>
             </div>
             <div class='col'>
               <ul>
                 <li>
-                  <a href='http://link/…'>Privacy Kit</a>
+                  <a href='<?php echo site_url(); ?>/privacy-kit/'>Privacy Kit</a>
                 </li>
                 <li>
-                  <a href='http://link/…'>Terms & Conditions</a>
+                  <a href='<?php echo site_url(); ?>/terms-and-conditions/'>Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href='http://link/…'>Contact Us</a>
+                  <a href='<?php echo site_url(); ?>/contact-us/'>Contact Us</a>
                 </li>
               </ul>
             </div>
