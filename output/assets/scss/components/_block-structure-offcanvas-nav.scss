@@ -169,7 +169,8 @@
         transition: transform 500ms ease;
         }
         &.csstransforms3d.csstransitions #site-wrap-inner,
-        &.csstransforms3d.csstransitions #main-site-navigation-wrap {
+        &.csstransforms3d.csstransitions #main-site-navigation-wrap,
+        &.csstransforms3d.csstransitions #main-footer {
         left: 0 !important;
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
@@ -188,7 +189,8 @@
         }
 
         &.csstransforms3d.csstransitions.js-nav #site-wrap-inner,
-        &.csstransforms3d.csstransitions.js-nav #main-site-navigation-wrap {
+        &.csstransforms3d.csstransitions.js-nav #main-site-navigation-wrap,
+        &.csstransforms3d.csstransitions.js-nav #main-footer {
         -webkit-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
         -moz-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);
         -ms-transform: translate3d(70%, 0, 0) scale3d(1, 1, 1);

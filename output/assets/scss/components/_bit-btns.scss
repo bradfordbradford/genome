@@ -105,9 +105,6 @@
         @include rgba($primaryHeader, .8);
         color: $primaryLight;
         text-transform: capitalize;
-        // font-family: $sans;
-        // font-style: normal;
-        // font-weight: 700;
         border: 1px solid $primaryLight;
         border:1px solid rgba(255, 255, 255, 0.6);
         padding:14px;
@@ -122,6 +119,7 @@
 
         &:hover {
             background: darken($primaryText, 2%);
+            color: $primaryLight
         }
 
         &:not(.no-text):before {

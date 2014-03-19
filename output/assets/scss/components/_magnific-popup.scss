@@ -476,10 +476,11 @@ img.mfp-img {
 }
 
 .overlay-with-search-box {
-  #search-box {
+  #nav-search-box {
     @include span-columns(8, $total);
     @include center-columns;
   }
+
   .mfp-close {
     color: $primaryText;
     z-index: 1000;

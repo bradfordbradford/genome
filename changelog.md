@@ -39,6 +39,12 @@ _Markup Edited_
 Home Aside Column -
     for reach a.icon inside
 
+General
+
+    Move search out of main-navigation right under mobile toggle btn
+    Added .hide-below-tablet-p to footer statement/highlight block and .white-text-color to .highlight <p>
+
+
 Home Aside Col -
 
     Moved aside below main content area
@@ -74,7 +80,10 @@ Home Aside Col -
 
 Blog Roll -
 
-    Removed interpunct and share count info
+    For each a.action with a share count, add span.share-count inside and remove '# shares' words
+        <a class='action' data-icon='i' href='#'>
+          <span class='share-count'></span>
+        </a>
 
 
 Story Roll -

@@ -1,5 +1,14 @@
 
-
+// Sticky Footer only for blank/short pages
+if ($(document).height() <= $(window).height()) {
+  $(window).load(function(){
+    $(window).resize(function(){
+     var height = $(window).height()
+     $('#content-wrap').height(height) ;
+  })
+  $(window).resize(); //on page load
+  });
+}
 
 //  // Now, Now  //
 $(document).ready(function($) {

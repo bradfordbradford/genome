@@ -4,7 +4,7 @@
 section#main-site-navigation-wrap {
     background: $primaryLight;
     border-bottom: 1px solid darken($primaryRule, 15%);
-    height:80px;
+    height:$navbarHeight;
     width: 100%;
     @include clearfix();
     overflow: visible;
@@ -21,7 +21,7 @@ section#main-site-navigation-wrap {
         position: relative;
         padding-left:0;
         padding-right:0;
-        height:80px;
+        height:$navbarHeight;
     }
 
     .tagline, h1.logo {
@@ -53,7 +53,7 @@ section#main-site-navigation-wrap {
         float:left;
         margin: 0;
         padding: 0;
-        height:80px;
+        height:$navbarHeight;
         overflow: hidden;
         position: absolute;
         z-index: 2;
@@ -88,19 +88,24 @@ section#main-site-navigation-wrap {
     // Nav
     nav#main-navigation {
         position: relative;
-        z-index: 1;
+        z-index: 14;
 
         ol.navigation-list {
-            position: relative;
+            // position: relative;
+            width: 100%;
+            position: absolute;
             display: inline-block;
             margin: 0;
             padding: 0;
-            width: 100%;
             transition: opacity .4s ease 0s;
 
             > li {
                 display: inline-block;
                 float: right;
+
+                &:first-child {
+                    margin-right: 40px;
+                }
 
                 > a {
                     padding: 0px 36px;
@@ -150,11 +155,17 @@ section#main-site-navigation-wrap {
         z-index: 0;
     }
 
+    // Search
+    .search, .search a {
+        position: relative;
+        z-index: 15;
+    }
+
     // Toggle Off Canvas
     #toggle-offcanvas-nav {
         float:left;
         position: absolute;
-        z-index: 2;
+        z-index: 15;
         line-height: 64px;
         padding: 0 1em 0 1em;
         margin:0;
@@ -162,7 +173,7 @@ section#main-site-navigation-wrap {
 
     // Slim Navigation: Decrease Height
     &.menu-slim {
-        height: 60px;
+        height: $navbarHeightSlim;
 
         // Logo: smaller and pull up for new height
         h1.logo {
@@ -174,23 +185,23 @@ section#main-site-navigation-wrap {
 
         // Tagline: pull up for new height
         .tagline {
-            bottom: -5px;
+            bottom: -9px;
         }
 
         // Adjust Nav Item line-height
         nav#main-navigation ol.navigation-list > li > a{
-            line-height: 4.375em;
+            line-height: 4.175em;
         }
         .search{
-            line-height: 4.175em;
+            line-height: 3.75em;
         }
 
         // Move MegaMenu Down
         .accessible-megamenu .accessible-megamenu-panel.open {
-            top: 60px;
+            top: $navbarHeightSlim;
         }
         .accessible-megamenu .accessible-megamenu-top-nav-item {
-            height: 60px;
+            height: $navbarHeightSlim;
         }
 
     }
@@ -219,7 +230,7 @@ body.nav-add-social {
 @include breakpoint(ipad-portrait) {
     // Implement .menu-slim, pull up Content-Wrap and center logo and tagline
     #content-wrap {
-    padding-top: 80px;
+    padding-top: $navbarHeight;
     }
     section#main-site-navigation-wrap {
 
@@ -241,7 +252,7 @@ body.nav-add-social {
         .tagline {
             left: 50%;
             margin-left: -75px;
-            bottom: -5px;
+            bottom: -13px;
         }
 
         // Adjust Nav Item line-height
@@ -288,5 +299,6 @@ body.nav-add-social {
     }
     // ---- //
 
-}
 
+
+}

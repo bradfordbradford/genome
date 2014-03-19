@@ -63,6 +63,15 @@
             <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
               <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
             </div>
+            <div class='search'>
+              <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+              <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                <form action=''>
+                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input id='search' placeholder='What were you looking for?' type='text'>
+                </form>
+              </div>
+            </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
                 <a data-icon='L' href='http://genome.com'></a>
@@ -74,16 +83,10 @@
             </header>
             <nav id='main-navigation' role='navigation'>
               <ol class='navigation-list'>
-                <div class='search'>
-                  <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                    <form action=''>
-                      <a class='input-icon' data-icon='C' href='#'></a>
-                      <input id='search' placeholder='What were you looking for?' type='text'>
-                    </form>
-                  </div>
-                </div>
-                <li class='nav-item open-g-door hide-below-tablet-p'>
+                <li class='nav-item hide-below-tablet-p open-g-door'>
+                  <a href='#'>newsletter</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
                   <a href='#'>subscribe</a>
                 </li>
                 <li class='nav-item hide-below-tablet-p'>
@@ -205,9 +208,6 @@
                     </li>
                   </ol>
                 </li>
-                <li class='nav-item hide-below-tablet-p'>
-                  <a href='#'>newsletter</a>
-                </li>
               </ol>
             </nav>
             <aside class='add-social'>
@@ -240,6 +240,9 @@
                 </header>
                 <ol class='collapse-content'>
                   <li>
+                    <a href='https://www.google.com/'>By Issue</a>
+                  </li>
+                  <li>
                     <a href='https://www.google.com/'>By Topic</a>
                   </li>
                   <li>
@@ -261,81 +264,6 @@
             <div class='inner-bounds block background-white'>
               <div class='content-row'>
                 <aside class='aside-column-primary'>
-                  <div class='aside-block double-spaced'>
-                    <header class='background-neutral'>
-                      <h2 class='section-title'>
-                        Top
-                        <span>
-                          Stories
-                        </span>
-                      </h2>
-                    </header>
-                    <ul class='featured-list'>
-                      <li>
-                        <div class='media-object reversed'>
-                          <a class='text-meta' href='http://link/…'>science</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header small'>
-                              <a href='http://link/…'>
-                                Rewriting the Brain
-                              </a>
-                            </h3>
-                            <p class='text-meta-sub light-text-color'>
-                              <a href='http://link/…'>
-                                By Author Rightspoke
-                              </a>
-                              <a href='http://link/…'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class='media-object'>
-                          <a class='text-meta' href='http://link/…'>Treatment</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header small'>
-                              <a href='http://link/…'>
-                                Changing the Face of Chemo
-                              </a>
-                            </h3>
-                            <p class='text-meta-sub light-text-color'>
-                              <a href='http://link/…'>
-                                By Author Rightspoke
-                              </a>
-                              <a href='http://link/…'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class='media-object'>
-                          <a class='text-meta' href='http://link/…'>Treatment</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header small'>
-                              <a href='http://link/…'>
-                                Changing the Face of Chemo
-                              </a>
-                            </h3>
-                            <p class='text-meta-sub light-text-color'>
-                              <a href='http://link/…'>
-                                By Author Rightspoke
-                              </a>
-                              <a href='http://link/…'>
-                                <span class='icon' data-icon='F'></span>
-                                3 min read
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
                   <div class='aside-block double-spaced'>
                     <header class='background-neutral'>
                       <h2 class='section-title'>
@@ -694,8 +622,8 @@
               </div>
             </div>
           </div>
-          <div class='content-row add-space-b'>
-            <p class='highlight center add-space-g'>
+          <div class='content-row add-space-b hide-below-tablet-p'>
+            <p class='highlight white-text-color center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
               <a class='small-block show-for-print' href='http://genomemag.com'>
                 www.genomemag.com

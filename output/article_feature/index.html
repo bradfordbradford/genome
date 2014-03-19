@@ -63,6 +63,15 @@
             <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
               <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
             </div>
+            <div class='search'>
+              <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+              <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                <form action=''>
+                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input id='search' placeholder='What were you looking for?' type='text'>
+                </form>
+              </div>
+            </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
                 <a data-icon='L' href='http://genome.com'></a>
@@ -74,16 +83,10 @@
             </header>
             <nav id='main-navigation' role='navigation'>
               <ol class='navigation-list'>
-                <div class='search'>
-                  <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                    <form action=''>
-                      <a class='input-icon' data-icon='C' href='#'></a>
-                      <input id='search' placeholder='What were you looking for?' type='text'>
-                    </form>
-                  </div>
-                </div>
-                <li class='nav-item open-g-door hide-below-tablet-p'>
+                <li class='nav-item hide-below-tablet-p open-g-door'>
+                  <a href='#'>newsletter</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
                   <a href='#'>subscribe</a>
                 </li>
                 <li class='nav-item hide-below-tablet-p'>
@@ -205,9 +208,6 @@
                     </li>
                   </ol>
                 </li>
-                <li class='nav-item hide-below-tablet-p'>
-                  <a href='#'>newsletter</a>
-                </li>
               </ol>
             </nav>
             <aside class='add-social'>
@@ -239,6 +239,9 @@
                   <div class='collapse-section-title'>browse</div>
                 </header>
                 <ol class='collapse-content'>
+                  <li>
+                    <a href='https://www.google.com/'>By Issue</a>
+                  </li>
                   <li>
                     <a href='https://www.google.com/'>By Topic</a>
                   </li>
@@ -516,8 +519,8 @@
               </div>
             </div>
           </div>
-          <div class='content-row add-space-b'>
-            <p class='highlight center add-space-g'>
+          <div class='content-row add-space-b hide-below-tablet-p'>
+            <p class='highlight white-text-color center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
               <a class='small-block show-for-print' href='http://genomemag.com'>
                 www.genomemag.com

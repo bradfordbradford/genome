@@ -3,6 +3,11 @@
 
 
 // Utility Classes //
+
+.full-height {
+    height: 100%;
+}
+
 // Hide/Show
 .hide-above-tablet-p {
     display: none !important;
@@ -254,6 +259,7 @@
 
 .background-white {
     background: $primaryLight;
+    height: 100%;
 }
 .background-neutral {
     background: $secondaryBackground;
@@ -286,7 +292,11 @@
     li {
         clear: both;
         @include clearfix;
-        margin: 0 auto 24px;
+        padding: 4px 0;
+        margin: 0 auto 12px;
+        color: $secondaryBackgroundCompliment;
+
+        a:hover {color:$primaryLinkHover;}
 
         &.title {
             margin: 60px auto 16px;
@@ -294,19 +304,23 @@
             &:first-child {margin-top:0px;}
         }
 
-
-    li {
-        margin: 0 auto 24px;
-
-            color: $secondaryBackgroundCompliment;
-            &:hover {color:$primaryLinkHover;}
+        .text-meta-header {
+            font-size: 1.25em;
         }
+        .text-meta-sub {
+            margin: 4px auto 8px;
+            font-size: 1em; // .875em?
+        }
+
         .media-copy {
+
             .text-meta-sub {
                 font-family: $sans;
                 font-style: normal;
                 font-size: em-font(16px);
                 line-height: 1.375em;
+                margin: 4px auto 8px;
+
                 .text-meta {
                     margin-top: 12px;
                     display: block;
@@ -360,14 +374,23 @@ ul.contact-list {
     &.with-med-image {
         img {
             @include clearfix;
-            width: 84px;
-            height: 84px;
+            width: 124px;
+            height: 124px;
             margin-right: 16px;
             float:left;
             display: block;
         }
+        h2 {
+            font-size: 2em;
+            margin: 12px 0 16px;
+        }
+        .sans {
+            margin: 0 0 16px;
+            font-size: 1.125em;
+            line-height: 1.3em;
+        }
         .media-copy {
-            margin-top: 8px;
+            margin-left: 140px;
         }
     }
 
@@ -471,9 +494,9 @@ ul.contact-list {
         border-bottom: $primaryLinkHover 1px solid;
 
         &.active {
-            padding-left: 14px;
             a {
                 color: $primary;
+                font-weight: 800;
             }
         }
 
@@ -485,6 +508,13 @@ ul.contact-list {
 
     .media-object {
         @include clearfix;
+    }
+
+    &.side-nav {
+
+        li {
+            padding: 24px 0;
+        }
     }
 
 }

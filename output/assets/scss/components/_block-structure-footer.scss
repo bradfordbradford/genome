@@ -29,8 +29,13 @@
         }
     }
 
-    .social-list a {
-        background-position-y: -77px;
+    .social-list {
+        text-align: center;
+        a {
+            background-position-y: -77px;
+            font-size: em-font(24px);
+            padding: 0 8px 0  0;
+        }
     }
     ul {
         border-top: 1px solid $primaryLight;
