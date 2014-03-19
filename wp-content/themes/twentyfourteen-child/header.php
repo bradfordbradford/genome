@@ -252,6 +252,9 @@
                 </header>
                 <ol class='collapse-content'>
                   <li>
+                    <a href='<?php echo site_url() . "/category/issue/"; ?>'>By Issue</a>
+                  </li>
+                  <li>
                     <a href='<?php echo site_url() . "/category/topic/"; ?>'>By Topic</a>
                   </li>
                   <li>

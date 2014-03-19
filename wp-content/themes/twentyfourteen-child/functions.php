@@ -650,10 +650,24 @@ function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url,
 //   	$html = "[caption id='id' align='".$align."' width='width']<img alt='".$alt."' class='load' data-original='".$url."' src='".$url."'>
 // <a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'></a>".$caption."[/caption]";
 
-  	$html = '[caption id="1" align="alignright" width="1"]<img alt="'.$alt.'" class="load" data-original="'.$url.'" src="'.$url.'">
-<a class="btn media-action no-text overlay-view-image" data-icon="b" href="'.$url.'" title="'.$title.'"></a>'.$alt.'[/caption]';
+  	//$html = '<img alt="'.$alt.'" class="load" data-original="'.$url.'" src="'.$url.'">
+//<a class="btn media-action no-text overlay-view-image" data-icon="b" href="'.$url.'" title="'.$title.'">&nbsp;</a>';
 
+  	//$html .= "<a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'>&nbsp;</a>";
 
+  	//$html = "<a href='google.com'>Hi</a>";
+
+  	$html = "                      <div class='pull-out-right'>
+                        <div class='article-photo'>
+                          <img alt='' class='load' data-original='".$url."' src='".$url."'>
+                          <a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$caption."'> </a>
+                        </div>
+                        <div class='article-photo-caption with-bottom-border'>
+                          <p class='text-meta-sub smaller'>
+                            ".$caption."
+                          </p>
+                        </div>
+                      </div>";
 
   	return $html;
 
@@ -662,7 +676,7 @@ function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url,
   }
 
 }
-add_filter('image_send_to_editor', 'filter_image_send_to_editor', 10, 8);
-add_filter('the_content', 'filter_image_send_to_editor', 10, 8);
+//add_filter('image_send_to_editor', 'filter_image_send_to_editor', 10, 8);
+//add_filter('the_content', 'filter_image_send_to_editor', 10, 8);
 
 ?>
