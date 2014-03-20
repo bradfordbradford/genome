@@ -157,6 +157,151 @@ function video_function($atts, $content = null) {
 	return $return_string;
 }
 
+function contribs($atts, $content = null) {
+   $return_string = "<ul class='slats'>" . $content . "</ul>";
+   return $return_string;
+}
+
+function contrib($atts){
+	extract(shortcode_atts(array(
+		'author' => '',
+		'title'  => '',
+		'pos'  => '',
+		'posts'  => ''
+	), $atts));
+
+	$author = get_user_by('login', $author);
+
+	// print_r($author);
+
+	// echo $author->display_name;
+
+	if (function_exists('get_wp_user_avatar_src')) {
+		$avatar = get_wp_user_avatar_src($author->id);
+	} else {
+		$avatar = '';
+	}
+
+	if ($pos == 'first' && $posts == '') {
+		$return_string = "<ul class='slats'>";
+	}
+	if ($pos == 'first' && $posts != '') {
+		$return_string = "<ul class='roll-list slats'>";
+	}
+	
+	$return_string .= "                    <li>
+                      <div class='media-object with-med-image'>
+                        <img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header small' href='#'>
+                            <a href='#'>
+                              " . $author->display_name . "
+                            </a>
+                          </h3>
+                          <p class='sans'>
+                            " . $title . "
+                          </p>
+                        </div>
+                      </div>
+                    </li>";
+
+    if ($posts != '') {
+
+    					$num_posts = 3;
+                          $popular = new WP_Query( array(
+                            'post_type'             => array( 'page', 'post' ),
+                            'showposts'             => $num_posts,
+                            // 'cat'                   => 'MyCategory',
+                            //'ignore_sticky_posts'   => true,
+                            'orderby'               => 'comment_count',
+                            'order'                 => 'dsc',
+                            // 'date_query' => array(
+                            //     array(
+                            //         'after' => '1 week ago',
+                            //     ),
+                            // ),
+                            'author'                => $author->id,
+                          ) );
+
+		while ( $popular->have_posts() ): $popular->the_post();
+                        
+        	// $return_string .= "<li>
+         //                  <div class='media-object reversed'>";
+                            // Display Topic
+                              // foreach((get_the_category()) as $childcat) {
+                              //   if (cat_is_ancestor_of(5, $childcat)) {
+                              //     $return_string .= "<a class='text-meta' href='".get_category_link($childcat->cat_ID)."'>";
+                              //     $return_string .= $childcat->cat_name . "</a>";
+                              //   }
+                              // }
+
+                        //     $return_string .= "<div class='media-copy'>
+                        //       <h3 class='text-meta-header small'>
+                        //         <a href='" . get_permalink() . "'>"
+                        //           . the_title('','',FALSE) . "
+                        //         </a>
+                        //       </h3>
+                        //       <p class='text-meta-sub light-text-color'>
+                        //         <a href='http://link/…'>
+                        //           By " . the_author('','',FALSE) . "
+                        //         </a>
+                        //         <a href='http://link/…'>
+                        //           <span class='icon' data-icon='F'></span>
+                        //           " . get_post_meta( get_the_ID(), 'Read Time', true ) . " read
+                        //         </a>
+                        //       </p>
+                        //     </div>
+                        //   </div>
+                        // </li>";
+
+
+
+
+    	$return_string .= "
+    				<li>
+                      <div class='media-object-horizontal-layout'>
+                        <header>
+                          <h3 class='text-meta-header'>" . the_title('','',FALSE) . "</h3>
+                          <p class='text-meta-sub light-text-color'>
+                            " . the_date('','','',FALSE) . "
+                          </p>
+                        </header>
+                        <div class='media-copy'>
+                          <p class='text-meta-sub'>
+                            " . get_the_excerpt() . "
+                            <a class='text-meta continue-reading' href='" . get_permalink() . "'>
+                              Continue Reading
+                              <span class='double-quote-right'>
+                                &#187;
+                              </span>
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </li>";
+        if ($num_posts) {
+        	 $return_string .= "                     <div class='view-all right'>
+                        <a class='italic serif' href='#'>
+                          View All
+                          <span class='double-quote-right'>
+                            &#187;
+                          </span>
+                        </a>
+                      </div>";
+        }
+
+    	endwhile;
+        wp_reset_query();
+    }
+
+    if ($pos == 'last') {
+		$return_string .= "</ul>";
+	}             
+
+	return $return_string;
+
+}
+
 function i_can_be_your_hero_baby_function($atts){
    extract(shortcode_atts(array(
       'title'    => 'Title',
@@ -240,6 +385,8 @@ function register_shortcodes(){
 	add_shortcode('heading', 'h3_function');
 	add_shortcode('video', 'video_function');
 	add_shortcode('hero', 'i_can_be_your_hero_baby_function');
+	add_shortcode('contributor', 'contrib');
+	add_shortcode('contributors', 'contribs');
 }
 add_action( 'init', 'register_shortcodes');
 
@@ -565,6 +712,15 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 	
 	// $src = do_shortcode( $content );
 	$src = $content;
+
+	$src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
+  	$src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
+
+	$src = str_replace('<a', "<a class='overlay-view-image' title='" . $caption . "'", $src);
+
+	$src = str_replace('<img', "<span class='btn media-action no-text' data-icon='b'></span>
+	    <img", $src);
+    // $src =
     // $src =
     //     preg_replace(
     //         array('{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}',
@@ -678,5 +834,7 @@ function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url,
 }
 //add_filter('image_send_to_editor', 'filter_image_send_to_editor', 10, 8);
 //add_filter('the_content', 'filter_image_send_to_editor', 10, 8);
+
+
 
 ?>

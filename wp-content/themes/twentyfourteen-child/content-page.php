@@ -8,6 +8,14 @@
  */
 ?>
 
+<?php 
+
+  $url = $_SERVER['REQUEST_URI'];
+  $tokens = explode('/', $url);
+  $url = $tokens[sizeof($tokens)-2];
+
+?>
+
 	<div id='site-wrap-inner'>
 	<main id='content-wrap' role='main'>
 	  <section class='primary_layout article_layout no-photo'>
@@ -18,7 +26,7 @@
 	        </header>
 	      </div>
 	      <div class='content-row'>
-	        <article class='primary-content article-body-copy'>
+	        <article class='primary-content<?php if ($url != "contact-us" && $url != "contributors") { echo " article-body-copy"; } ?>'>
 
 						<?php
 							the_content();
