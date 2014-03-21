@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php 
+<?php
 
   $url = $_SERVER['REQUEST_URI'];
   $tokens = explode('/', $url);
@@ -17,8 +17,8 @@
 ?>
 
                 <aside class='aside-column-primary'>
-                  <div class='aside-block double-spaced'>
-                    <ul class='featured-list slats'>
+                  <div class='aside-block'>
+                    <ul class='featured-list slats side-nav'>
                       <li<?php if ($url == 'about-us') { echo " class='active'"; } ?>>
                         <a href='<?php echo site_url(); ?>/about-us/'>About Us</a>
                       </li>
