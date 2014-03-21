@@ -90,6 +90,15 @@ $(document).ready(function($) {
         });
     });
 
+    // Read Time for Columns
+    $(function() {
+        var rte = $( "#rte-target .eta" );
+        $('#rte-target').readingTime({
+            readingTimeTarget: rte
+        });
+        $('.article-header .eta-time').append(rte);
+    });
+
 
     // Collapsible Content - Add Toggle ----------
     var toggleIcon = $( "<span class='toggle-icon' data-icon='E'></span>" );
@@ -293,3 +302,5 @@ $(document).ready(function($) {
     );
 
 });
+
+
