@@ -38,7 +38,7 @@
                 </div>
               </div>
               <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-              <?php 
+              <?php
                 if( class_exists('Dynamic_Featured_Image') ) {
                   global $dynamic_featured_image;
                     $featured_images = $dynamic_featured_image->get_featured_images( $postId );
@@ -50,7 +50,7 @@
               <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;' style='background-image: url(<?php echo $featured_img; ?>);'></div>
               <div class='story-cover-image-transition' style='background-image: url(<?php echo $featured_img_2; ?>);'></div>
             </header>
-            <div id='read-time-wrap'>
+            <div id='rte-target'>
               <section class='featured_layout inner-bounds block' id='top'>
                 <section class='primary-content'>
                   <div class='content-row'>
