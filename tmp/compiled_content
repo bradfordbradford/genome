@@ -1988,7 +1988,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"|É<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"wÉ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2258,9 +2258,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                     <a class='text-meta brick' href='http://link/‚Ä¶'>Treatment</a>
                     <div class='text-meta light-text-color' href='http://link/‚Ä¶'>
                       <span class='icon' data-icon='F'></span>
-                      <span class='eta'>
-                        7 min read
-                      </span>
+                      <span class='eta-time'></span>
                     </div>
                     <h2>Rethinking Cancer Treatment in 2014</h2>
                     <p class='lead'>Research finds major flaws in standard medical approach</p>
@@ -2287,6 +2285,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                   </div>
                   <article class='primary-content article-body-copy'>
                     <div id='rte-target'>
+                      <span class='eta'></span>
                       <p class='lead-with-drop-cap'>
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2662,7 +2661,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </script>
   </body>
 </html>
-;T;	I"˛%section.primary_layout.article_layout
+;T;	I"ˇ%section.primary_layout.article_layout
     .inner-bounds.background-white.block
 
 
@@ -2673,8 +2672,8 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                     %a.text-meta.brick{:href => "http://link/‚Ä¶"} Treatment
                     .text-meta.light-text-color{:href => "http://link/‚Ä¶"}
                         %span.icon{:'data-icon'=>"F"}
-                        %span.eta
-                            7 min read
+                        %span.eta-time
+
 
                     %h2 Rethinking Cancer Treatment in 2014
 
@@ -2703,6 +2702,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                 -# Primary Content Column / Article Body Copy
                 %article.primary-content.article-body-copy
                     #rte-target
+                        %span.eta
                         %p.lead-with-drop-cap
                             Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -2752,7 +2752,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
         .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading';T;
-I"Î;<section class='primary_layout article_layout'>
+I";<section class='primary_layout article_layout'>
   <div class='inner-bounds background-white block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -2760,9 +2760,7 @@ I"Î;<section class='primary_layout article_layout'>
           <a class='text-meta brick' href='http://link/‚Ä¶'>Treatment</a>
           <div class='text-meta light-text-color' href='http://link/‚Ä¶'>
             <span class='icon' data-icon='F'></span>
-            <span class='eta'>
-              7 min read
-            </span>
+            <span class='eta-time'></span>
           </div>
           <h2>Rethinking Cancer Treatment in 2014</h2>
           <p class='lead'>Research finds major flaws in standard medical approach</p>
@@ -2789,6 +2787,7 @@ I"Î;<section class='primary_layout article_layout'>
         </div>
         <article class='primary-content article-body-copy'>
           <div id='rte-target'>
+            <span class='eta'></span>
             <p class='lead-with-drop-cap'>
               Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
               tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
@@ -5686,7 +5685,7 @@ I"™5<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"tï<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"èï<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -6180,12 +6179,12 @@ I"™5<section class='primary_layout article_layout'>
                       </h2>
                     </header>
                     <ul class='featured-list'>
-                      <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                      <li class='rte-remote' data-file='/article_column/index.html' data-target='#rte-target'>
                         <div class='media-object'>
                           <a class='text-meta' href='#'>science</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header small'>
-                              <a href='#'>
+                              <a href='/article_column/index.html'>
                                 Rewriting the Brain
                               </a>
                             </h3>
@@ -6673,7 +6672,7 @@ I"™5<section class='primary_layout article_layout'>
 
             -# Aside Column
             = render 'aside-column-home';T;
-I"≠H<header class='hero hero-featured-article background-size-full center'>
+I"»H<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6905,12 +6904,12 @@ I"≠H<header class='hero hero-featured-article background-size-full center'>
             </h2>
           </header>
           <ul class='featured-list'>
-            <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+            <li class='rte-remote' data-file='/article_column/index.html' data-target='#rte-target'>
               <div class='media-object'>
                 <a class='text-meta' href='#'>science</a>
                 <div class='media-copy'>
                   <h3 class='text-meta-header small'>
-                    <a href='#'>
+                    <a href='/article_column/index.html'>
                       Rewriting the Brain
                     </a>
                   </h3>
