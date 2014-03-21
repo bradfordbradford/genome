@@ -27,9 +27,9 @@
                         $topicID   = $childcat->cat_ID;
                       }
                     }
-                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
+                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                   <?php the_title( '<h2>', '</h2>' ); ?>
-                  
+
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
                   <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
                   <div class='addthis_toolbox social-list'>
@@ -66,7 +66,7 @@
                 </header>
                 <div class='article-photo primary'>
                 <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-                
+
                   <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                 </div>
                 <div class='article-photo-caption background-neutral'>
@@ -74,12 +74,12 @@
                     <span class='photo-attrib'><?php the_post_thumbnail_description(); ?></span>
                     <p class='text-meta-sub smaller'>
                       <?php the_post_thumbnail_caption(); ?>
-                      
+
                     </p>
                   </div>
                 </div>
                 <article class='primary-content article-body-copy'>
-                  <div id='read-time-wrap'>
+                  <div id='rte-target'>
                     <?php
 // Content
                       the_content();
@@ -104,9 +104,9 @@
                         $topicID   = $childcat->cat_ID;
                       }
                     }
-                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>                    
+                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                   <?php the_title( '<h2>', '</h2>' ); ?>
-                  
+
                   <div class='addthis_toolbox social-list'>
                     <a class='addthis_button_facebook' data-icon='u' href='#'>
                       <span class='line'></span>
@@ -194,7 +194,7 @@
                     </span>
                   </h2>
                   <hr class='thick neutral-light-bg partial'>
-                  
+
                       <?php
                   // Find Condition ID
                         foreach((get_the_category()) as $childcat) {
@@ -234,7 +234,7 @@
                               </a>
                             </div>
                             <?php
-                        // Display Topic
+                            // Display Topic
                               foreach((get_the_category()) as $childcat) {
                                 if (cat_is_ancestor_of(5, $childcat)) {
                                   echo "<a class='text-meta' href='".get_category_link($childcat->cat_ID)."'>";
