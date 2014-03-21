@@ -40,13 +40,15 @@
     .article-photo.primary {
         @include span-columns(8 omega, $total);
         position: relative;
+        margin-bottom: 32px;
     }
 
     // Article Photo Caption Card
     .article-photo-caption  {
         @include span-columns(4 omega, $total);
         display: block;
-        margin-top: -2px;
+        clear: right;
+        margin-top: -32px;
     }
 
 
