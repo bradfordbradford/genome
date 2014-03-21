@@ -5,14 +5,12 @@ title: Roll Type- Blog
 %section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
-        -# Complimentary Featured Articles - Horizontal Layout
         .content-row
-            -# Primary Aside Column
-            = render 'aside-column-blog-roll-list'
 
+            -# Blog Roll List
             %section.primary-content
 
-                %ul.featured-list.roll-list
+                %ul.featured-list.roll-list.with-shares
 
                     %li.media-object-horizontal-layout
                         .content-row
@@ -24,9 +22,8 @@ title: Roll Type- Blog
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -50,65 +47,8 @@ title: Roll Type- Blog
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    / %span.interpunct &#183
-                                    / %a.action{:href=>"#", :'data-icon'=>"i"}
-                                    /     32 shares
-                                    /     %span.share-count
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -134,9 +74,8 @@ title: Roll Type- Blog
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -161,9 +100,8 @@ title: Roll Type- Blog
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %a.action{:href=>"#", :'data-icon'=>"i"}
-                                        888 shares
-                                        %span.share-count
+                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -179,7 +117,59 @@ title: Roll Type- Blog
                                                 &#187;
 
 
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %span.icon{:'data-icon'=>"i"}
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
 
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %span.share-count getting shares &hellip;
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement…
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+
+            -# Primary Aside Column
+            = render 'aside-column-blog-roll-list'
 
 
         .content-row

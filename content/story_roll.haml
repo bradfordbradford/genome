@@ -5,26 +5,26 @@ title: Roll Type- Story
 %section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
-        -# Complimentary Featured Articles - Horizontal Layout
         .content-row
-            -# Primary Aside Column
-            = render 'aside-column-story-roll-list'
 
+            -# Story Roll List
             %section.primary-content
                 %ul.featured-list.roll-list
 
-                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#read-time-wrap'}
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#rte-target'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
-                            %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                            %h3.text-meta-header
+                                %a{:href => "#"}
+                                    Does a Raw Food Diet Help Prevent Heart Disease?
                             %p.text-meta-sub.light-text-color
                                 %a{:href => "#"} By Authur Righter
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                %span.action{:href=>"#", :'data-icon'=>"F"}
                                     %span.eta
-                                    7 min read
+                                        …
 
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -39,18 +39,20 @@ title: Roll Type- Story
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_column/index.html',:'data-target'=>'#read-time-wrap'}
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#rte-target'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
-                            %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                            %h3.text-meta-header
+                                %a{:href => "#"}
+                                    Does a Raw Food Diet Help Prevent Heart Disease?
                             %p.text-meta-sub.light-text-color
                                 %a{:href => "#"} By Authur Righter
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                %span.action{:href=>"#", :'data-icon'=>"F"}
                                     %span.eta
-                                    7 min read
+                                        …
 
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -65,18 +67,20 @@ title: Roll Type- Story
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_column/index.html',:'data-target'=>'#read-time-wrap'}
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#rte-target'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
-                            %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                            %h3.text-meta-header
+                                %a{:href => "#"}
+                                    Does a Raw Food Diet Help Prevent Heart Disease?
                             %p.text-meta-sub.light-text-color
                                 %a{:href => "#"} By Authur Righter
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                %span.action{:href=>"#", :'data-icon'=>"F"}
                                     %span.eta
-                                    7 min read
+                                        …
 
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -91,18 +95,20 @@ title: Roll Type- Story
                                             %span.double-quote-right
                                                 &#187;
 
-                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#read-time-wrap'}
+                    %li.media-object-horizontal-layout.rte-remote{:'data-file'=>'/article_blog/index.html', :'data-target'=>'#rte-target'}
                         .content-row
                             %a.text-meta{:href => "#"} Treatment
-                            %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                            %h3.text-meta-header
+                                %a{:href => "#"}
+                                    Does a Raw Food Diet Help Prevent Heart Disease?
                             %p.text-meta-sub.light-text-color
                                 %a{:href => "#"} By Authur Righter
                                 %span.interpunct &#183
                                 December 22, 2013
                                 %span.interpunct &#183
-                                %a.action{:href=>"#", :'data-icon'=>"F"}
+                                %span.action{:href=>"#", :'data-icon'=>"F"}
                                     %span.eta
-                                    7 min read
+                                        …
 
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -117,7 +123,8 @@ title: Roll Type- Story
                                             %span.double-quote-right
                                                 &#187;
 
-
+            -# Primary Aside Column
+            = render 'aside-column-story-roll-list'
 
         .content-row
             -# Pagination

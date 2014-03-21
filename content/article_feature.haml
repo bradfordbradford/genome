@@ -28,7 +28,7 @@ title: Article Type- Feature
         .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
         .story-cover-image-transition
 
-    #read-time-wrap
+    #rte-target
         -# Featured Content Paper
         %section#top.featured_layout.inner-bounds.block
 
@@ -53,8 +53,11 @@ title: Article Type- Feature
                         -# Photo - Enlarge
                         .pull-out-right
                             .article-photo
-                                %img.load{:src => "../assets/img/content/article-placeholder-slim.jpg", :'data-original' => "../assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
-                                %a.btn.media-action.no-text.overlay-view-image{:href => "../assets/img/content/article-placeholder-slim.jpg",:title => "Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs", :'data-icon'=>"b"}
+                                / %img.load{:src => "../assets/img/content/article-placeholder-slim.jpg", :'data-original' => "../assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
+                                %a.overlay-view-image{:href => "../assets/img/content/article-placeholder-slim.jpg",:title => "Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs"}
+                                    %span.btn.media-action.no-text{:'data-icon'=>"b"}
+                                    %img.load{:src => "../assets/img/content/article-placeholder-slim.jpg", :'data-original' => "../assets/img/content/article-placeholder-slim.jpg", :alt => ""}/
+
                             .article-photo-caption.with-bottom-border
                                 %p.text-meta-sub.smaller
                                     Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.

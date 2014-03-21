@@ -39,7 +39,13 @@ title: Article Type- Blog
 
             -# Primary Content Column + Article Body Copy
             %article.primary-content.article-body-copy
-                #rte-wrap
+                #rte-target
+                    %p
+                        Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                        %a{:href => "http://link-here/…"} amazing
+                        tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                    %p
+                        Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                     %p
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         %a{:href => "http://link-here/…"} amazing
@@ -64,6 +70,8 @@ title: Article Type- Blog
 
                 -# Footer: Related Tags
                 = render 'footer-article-related-tags'
+
+                #disqus_thread
 
 
             -# Primary Aside Column

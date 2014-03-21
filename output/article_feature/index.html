@@ -286,7 +286,7 @@
               <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
               <div class='story-cover-image-transition'></div>
             </header>
-            <div id='read-time-wrap'>
+            <div id='rte-target'>
               <section class='featured_layout inner-bounds block' id='top'>
                 <section class='primary-content'>
                   <div class='content-row'>
@@ -302,8 +302,11 @@
                       </p>
                       <div class='pull-out-right'>
                         <div class='article-photo'>
-                          <img alt='' class='load' data-original='../assets/img/content/article-placeholder-slim.jpg' src='../assets/img/content/article-placeholder-slim.jpg'>
-                          <a class='btn media-action no-text overlay-view-image' data-icon='b' href='../assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'></a>
+                          <!-- %img.load{:src => "../assets/img/content/article-placeholder-slim.jpg", :'data-original' => "../assets/img/content/article-placeholder-slim.jpg", :alt => ""}/ -->
+                          <a class='overlay-view-image' href='../assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'>
+                            <span class='btn media-action no-text' data-icon='b'></span>
+                            <img alt='' class='load' data-original='../assets/img/content/article-placeholder-slim.jpg' src='../assets/img/content/article-placeholder-slim.jpg'>
+                          </a>
                         </div>
                         <div class='article-photo-caption with-bottom-border'>
                           <p class='text-meta-sub smaller'>
@@ -578,6 +581,15 @@
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
+    </script>
+    <script>
+      var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
     </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

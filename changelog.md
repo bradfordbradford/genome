@@ -41,8 +41,11 @@ Home Aside Column -
 
 General
 
-    Move search out of main-navigation right under mobile toggle btn
-    Added .hide-below-tablet-p to footer statement/highlight block and .white-text-color to .highlight <p>
+    * [x - @wp] updated logo
+    * check that all aside columns site beneath main content
+    * check that titles (normally h3s) contain a links to their content
+    * [x - @wp] Move search out of main-navigation right under mobile toggle btn
+    * [x - @wp]  Added .hide-below-tablet-p to footer statement/highlight block and .white-text-color to .highlight <p>
 
 
 Home Aside Col -
@@ -130,7 +133,7 @@ For Blog Articles
     </a>
 
 
-Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
+ [x - @wp]  Subscribe Dropdown/Door - data-icon='K' (changed icon 'h' envelope to 'K' arrow)
 
 
 Home Scroll to Content -
