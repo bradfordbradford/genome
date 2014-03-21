@@ -281,7 +281,7 @@
                       <span class='ver-line'>&#124;</span>
                       <a class='action' data-icon='p' href='#1'>Print</a>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='i' href='#2'>888</a>
+                      <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
                     </div>
                   </header>
                   <div class='article-photo primary'>
@@ -389,6 +389,7 @@
                         </ul>
                       </div>
                     </footer>
+                    <div id='disqus_thread'></div>
                   </article>
                   <aside class='aside-column-primary'>
                     <div class='aside-block double-spaced'>
@@ -401,7 +402,7 @@
                         </h2>
                       </header>
                       <ul class='featured-list'>
-                        <li>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
                           <div class='media-object reversed'>
                             <a class='text-meta' href='http://link/…'>science</a>
                             <div class='media-copy'>
@@ -414,16 +415,14 @@
                                 <a href='http://link/…'>
                                   By Author Rightspoke
                                 </a>
-                                <a href='http://link/…'>
-                                  <span class='icon' data-icon='F'></span>
-                                  <span class='eta'></span>
-                                  3 min read
-                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>…</span>
+                                </span>
                               </p>
                             </div>
                           </div>
                         </li>
-                        <li>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
                           <div class='media-object'>
                             <a class='text-meta' href='http://link/…'>Treatment</a>
                             <div class='media-copy'>
@@ -436,16 +435,14 @@
                                 <a href='http://link/…'>
                                   By Author Rightspoke
                                 </a>
-                                <a href='http://link/…'>
-                                  <span class='icon' data-icon='F'></span>
-                                  <span class='eta'></span>
-                                  3 min read
-                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>…</span>
+                                </span>
                               </p>
                             </div>
                           </div>
                         </li>
-                        <li>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
                           <div class='media-object'>
                             <a class='text-meta' href='http://link/…'>Treatment</a>
                             <div class='media-copy'>
@@ -458,11 +455,9 @@
                                 <a href='http://link/…'>
                                   By Author Rightspoke
                                 </a>
-                                <a href='http://link/…'>
-                                  <span class='icon' data-icon='F'></span>
-                                  <span class='eta'></span>
-                                  3 min read
-                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>…</span>
+                                </span>
                               </p>
                             </div>
                           </div>
@@ -659,6 +654,15 @@
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
+    </script>
+    <script>
+      var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
     </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
