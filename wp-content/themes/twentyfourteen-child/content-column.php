@@ -28,6 +28,7 @@
                     <a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                     <div class='text-meta light-text-color' href='http://link/…'>
                       <span class='icon' data-icon='F'></span>
+                      <span class="eta-time"></span>
                       <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read
                     </div>
                     <?php the_title( '<h2>', '</h2>' ); ?>
@@ -76,6 +77,7 @@
                   </div>
                   <article class='primary-content article-body-copy'>
                     <div id='rte-target'>
+                      <span class='eta'></span>
                       <?php
 // Content
                         $content = get_the_content();
