@@ -7,24 +7,24 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-	
+
                   <aside class='aside-column-primary'>
                     <div class='aside-block double-spaced'>
                       <header class='background-neutral'>
                         <h2 class='section-title'>
-                          Top
+                          Most
                           <span>
-                            Stories
+                            Popular
                           </span>
                         </h2>
                       </header>
-                      <ul class='featured-list'>
+                      <ul class='featured-list with-shares'>
                         <li>
                           <div class='media-object reversed'>
                             <a class='text-meta' href='http://link/…'>science</a>
                             <div class='media-copy'>
                               <h3 class='text-meta-header small'>
-                                <a href='http://link/…'>
+                                <a href='http://github.com'>
                                   Rewriting the Brain
                                 </a>
                               </h3>
@@ -33,8 +33,8 @@
                                   By Author Rightspoke
                                 </a>
                                 <a href='http://link/…'>
-                                  <span class='icon' data-icon='F'></span>
-                                  3 min read
+                                  <span class='icon' data-icon='i'></span>
+                                  <span class='share-count'>getting shares &hellip;</span>
                                 </a>
                               </p>
                             </div>
@@ -56,8 +56,8 @@
                           ) );
                         ?>
                         <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
-                        <li>
-                          <div class='media-object reversed'>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                          <div class='media-object'>
                             <?php
                             // Display Topic
                               foreach((get_the_category()) as $childcat) {
@@ -77,10 +77,10 @@
                                 <a href='http://link/…'>
                                   By <?php the_author(); ?>
                                 </a>
-                                <a href='http://link/…'>
-                                  <span class='icon' data-icon='F'></span>
-                                  <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read
-                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>&hellip;</span>
+                                </span>
+                                <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read
                               </p>
                             </div>
                           </div>
