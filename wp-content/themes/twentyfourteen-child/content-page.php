@@ -26,7 +26,7 @@
 	        </header>
 	      </div>
 	      <div class='content-row'>
-	        <article class='primary-content<?php if ($url != "contact-us" && $url != "contributors") { echo " article-body-copy"; } ?>'>
+	        <article class='primary-content<?php if ($url != "contact" && $url != "contributors") { echo " article-body-copy"; } ?>'>
 
 						<?php
 							the_content();

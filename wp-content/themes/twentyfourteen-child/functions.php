@@ -125,6 +125,32 @@ function h3_function($atts, $content = null) {
    return $return_string;
 }
 
+function h4_function($atts, $content = null) {
+   $return_string = "<h4 class='small-block'>" . $content . "</h4>";
+   return $return_string;
+}
+
+function email_function($atts, $content = null) {
+   //$content = "john.mueller@hello.ab.com";
+   $parts = explode('@', $content);
+   $name = $parts[0];
+   $parts = explode('.', $parts[1]);
+   if (sizeof($parts) > 2) {
+     $domain = $parts[0] . "." . $parts[1];
+   } else {
+     $domain = $parts[0];
+   }
+   
+   $ending = $parts[sizeof($parts)-1];
+   // $name = $tokens[sizeof($tokens)-2];
+   $return_string = $name;
+   $return_string .= " {at} ";
+   $return_string .= $domain;
+   $return_string .= " (dot) ";
+   $return_string .= $ending;
+   return $return_string;
+}
+
 function video_function($atts, $content = null) {
 	extract(shortcode_atts(array(
 	  'align'    => 'right',
@@ -157,12 +183,12 @@ function video_function($atts, $content = null) {
 	return $return_string;
 }
 
-function contribs($atts, $content = null) {
+function contribs_function($atts, $content = null) {
    $return_string = "<ul class='slats'>" . $content . "</ul>";
    return $return_string;
 }
 
-function contrib($atts){
+function contrib_function($atts){
 	extract(shortcode_atts(array(
 		'author' => '',
 		'title'  => '',
@@ -189,11 +215,11 @@ function contrib($atts){
 		$return_string = "<ul class='roll-list slats'>";
 	}
 	
-	$return_string .= "                    <li>
+	$return_string .= "                    <li class='title'>
                       <div class='media-object with-med-image'>
                         <img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>
                         <div class='media-copy'>
-                          <h3 class='text-meta-header small' href='#'>
+                          <h3 class='text-meta-header' href='#'>
                             <a href='#'>
                               " . $author->display_name . "
                             </a>
@@ -201,9 +227,18 @@ function contrib($atts){
                           <p class='sans'>
                             " . $title . "
                           </p>
+                          <div class='view-all'>
+                            <a class='italic serif' href='#'>
+                              View All Articles
+                              <span class='double-quote-right'>
+                                &#187;
+                              </span>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </li>";
+
 
     if ($posts != '') {
 
@@ -261,7 +296,7 @@ function contrib($atts){
     				<li>
                       <div class='media-object-horizontal-layout'>
                         <header>
-                          <h3 class='text-meta-header'>" . the_title('','',FALSE) . "</h3>
+                          <h4 class='text-meta-header'>" . the_title('','',FALSE) . "</h4>
                           <p class='text-meta-sub light-text-color'>
                             " . the_date('','','',FALSE) . "
                           </p>
@@ -279,16 +314,9 @@ function contrib($atts){
                         </div>
                       </div>
                     </li>";
-        if ($num_posts) {
-        	 $return_string .= "                     <div class='view-all right'>
-                        <a class='italic serif' href='#'>
-                          View All
-                          <span class='double-quote-right'>
-                            &#187;
-                          </span>
-                        </a>
-                      </div>";
-        }
+
+
+
 
     	endwhile;
         wp_reset_query();
@@ -299,6 +327,89 @@ function contrib($atts){
 	}             
 
 	return $return_string;
+
+}
+
+function person_function($atts){
+  extract(shortcode_atts(array(
+    'name' => '',
+    'title'  => '',
+    'link'  => '',
+    'position'  => ''
+  ), $atts));
+
+  if ($position == 'first') {
+    $return_string = "<ul class='slats'>";
+  }
+  
+  $return_string .= "                    <li>
+                      <div class='media-object'>
+                        <div class='media-copy'>
+                          <h3 class='text-meta-header small' href='#'>
+                            <a href='" . $link . "'>
+                              " . $name . "
+                            </a>
+                          </h3>
+                          <p class='sans'>
+                            " . $title . "
+                          </p>
+                        </div>
+                      </div>
+                    </li>";
+
+    if ($position == 'last') {
+    $return_string .= "</ul>";
+  }             
+
+  return $return_string;
+
+}
+
+function contact_function($atts){
+  extract(shortcode_atts(array(
+    'name' => '',
+    'phone'  => '',
+    'email'  => '',
+    'position'  => ''
+  ), $atts));
+
+  if ($position == 'first') {
+    $return_string = "<ul class='contact-list'>";
+  }
+  
+  $return_string .= "                    <li class='vcard inline'>
+                      <span class='fn'>
+                        " . $name . ":
+                      </span>
+                      <span class='tel'>
+                        " . $phone . "
+                      </span>";
+
+    if ($position == 'last') {
+    $return_string .= "</ul>";
+  }             
+
+  return $return_string;
+
+}
+
+function vcard_function($atts){
+  extract(shortcode_atts(array(
+    'name' => '',
+    'address1'  => '',
+    'address2'  => '',
+    'address3'  => ''
+  ), $atts));
+
+  
+  $return_string .= "                  <div class='vcard dis-block'>
+                    <span class='org'>" . $name . "</span>
+                    <span class='street-address'>" . $address1 . "</span>
+                    <span class='street-address'>" . $address2 . "</span>
+                    <span class='locality region postal-code'>" . $address3 . "</span>
+                  </div>";          
+
+  return $return_string;
 
 }
 
@@ -382,11 +493,16 @@ function register_shortcodes(){
 	add_shortcode('small-caps', 'lead_small_caps_function');
 	add_shortcode('block-small', 'small_block_function');
 	add_shortcode('block-left', 'left_block_function');
-	add_shortcode('heading', 'h3_function');
+	add_shortcode('h3', 'h3_function');
+  add_shortcode('h4', 'h4_function');
+  add_shortcode('email', 'email_function');
 	add_shortcode('video', 'video_function');
 	add_shortcode('hero', 'i_can_be_your_hero_baby_function');
-	add_shortcode('contributor', 'contrib');
-	add_shortcode('contributors', 'contribs');
+	add_shortcode('contributor', 'contrib_function');
+	add_shortcode('contributors', 'contribs_function');
+  add_shortcode('person', 'person_function');
+  add_shortcode('contact', 'contact_function');
+  add_shortcode('vcard', 'vcard_function');
 }
 add_action( 'init', 'register_shortcodes');
 
@@ -835,6 +951,14 @@ function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url,
 //add_filter('image_send_to_editor', 'filter_image_send_to_editor', 10, 8);
 //add_filter('the_content', 'filter_image_send_to_editor', 10, 8);
 
+function custom_excerpt_length( $length ) {
+  return 25;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+function new_excerpt_more( $more ) {
+  return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 ?>
