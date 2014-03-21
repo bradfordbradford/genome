@@ -10,7 +10,8 @@
  */
 ?>
 <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-<?php if ($featured_img) : ?>
+<?php if ( is_single() ) : // Individual Page ?>
+  <?php if ($featured_img) : ?>
 
       <div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
@@ -87,7 +88,7 @@
 
                   </div>
 
-<?php else : ?>
+  <?php else : // No Featured Img ?>
 
       <div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
@@ -153,7 +154,7 @@
 // Content
                       the_content();
                     ?>
-<?php endif; ?>
+  <?php endif; // Featured Img ?>
 
                   <footer class='article-footer'>
                     <div class='content-row'>
@@ -265,3 +266,56 @@
             </section>
           </main>
         </div>
+<?php else : // List Page ?>
+<li class='media-object-horizontal-layout'>
+                      <div class='content-row'>
+                        <header>
+                          <?php 
+                            foreach((get_the_category()) as $childcat) {
+                              if (cat_is_ancestor_of(5, $childcat)) {
+                                $topicLink = get_category_link($childcat->cat_ID);
+                                $topicName = $childcat->cat_name;
+                                $topicID   = $childcat->cat_ID;
+                              }
+                            }
+                          ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
+                          <h3 class='text-meta-header'><?php the_title(); ?></h3>
+                          <p class='text-meta-sub light-text-color'>
+                            <a href='#'>By <?php the_author(); ?></a>
+                            <span class='interpunct'>&#183</span>
+                            <?php echo get_the_time('F j, Y'); ?>
+
+                            <span class='interpunct'>&#183</span>
+                            <span class='icon' data-icon='i'></span>
+                            <span class='share-count'>getting shares &hellip;</span>
+                          </p>
+                        </header>
+                      </div>
+                      <div class='grid-2-per major-r'>
+                        <div class='grid-element image-content'>
+                          <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                        </div>
+                        <div class='grid-element'>
+                          <div class='media-copy'>
+                            <p class='text-meta-sub'>
+                              <?php
+                                remove_filter( 'the_excerpt', 'wpautop' );
+                                the_excerpt();
+                              ?>
+                              <a class='text-meta continue-reading' href='<?php echo get_permalink(); ?>'>
+                                Continue Reading
+                                <span class='double-quote-right'>
+                                  &#187;
+                                </span>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+<?php endif; // Individual / List Page ?>
+
+<?php if ( is_search() ) : ?>
+  Search blog.
+<?php endif; ?>
+
