@@ -45,8 +45,8 @@
               </div>
             </div>
           </div>
-          <div class='content-row add-space-b'>
-            <p class='highlight center add-space-g'>
+          <div class='content-row add-space-b hide-below-tablet-p'>
+            <p class='highlight white-text-color center add-space-g'>
               Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
               <a class='small-block show-for-print' href='http://genomemag.com'>
                 www.genomemag.com
@@ -103,7 +103,25 @@
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
     <?php if ( !is_page_template('page-templates/feature-article.php') ) : ?>
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
+    <script>
+      var addthis_config = {"data_track_addressbar":true};
+    </script>
     <?php endif; ?>
+    <script>
+      var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

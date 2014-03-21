@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "genome-font";
-  src:url("../fonts/fonts/genome-font.eot");
-  src:url("../fonts/genome-font.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/genome-font.woff") format("woff"),
-    url("../fonts/genome-font.ttf") format("truetype"),
-    url("../fonts/genome-font.svg#genome-font") format("svg");
+  font-family: "genome";
+  src:url("../fonts/genome.eot");
+  src:url("../fonts/genome.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/genome.woff") format("woff"),
+    url("../fonts/genome.ttf") format("truetype"),
+    url("../fonts/genome.svg#genome") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "genome-font" !important;
+  font-family: "genome" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "genome-font" !important;
+  font-family: "genome" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -125,9 +125,6 @@
 .icon-genome-endmark:before {
   content: "G";
 }
-.icon-genome-logo:before {
-  content: "L";
-}
 .icon-search:before {
   content: "C";
 }
@@ -142,4 +139,19 @@
 }
 .icon-glasses:before {
   content: "H";
+}
+.icon-loop-refresh:before {
+  content: "I";
+}
+.icon-download-1:before {
+  content: "J";
+}
+.icon-fontawesome-webfont:before {
+  content: "K";
+}
+.icon-email-plane:before {
+  content: "M";
+}
+.icon-genome-logo:before {
+  content: "L";
 }

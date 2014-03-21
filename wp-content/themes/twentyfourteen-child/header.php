@@ -28,7 +28,7 @@
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>        
+    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <link href='<?php echo get_stylesheet_directory_uri(); ?>/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -43,7 +43,7 @@
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ie8.css" /><script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/ie.min.js'></script><![endif]-->
     <?php wp_head(); ?>
     <?php if ( is_page_template('page-templates/feature-article.php') ) { echo "<style>" . get_post_meta( get_the_ID(), 'Custom CSS', true ) . "</style>"; } ?>
-    
+
 </head>
 
   <body class='init<?php if ( is_page_template('page-templates/feature-article.php') ) { echo " nav-add-social"; } ?>'>
@@ -63,7 +63,7 @@
                 </h2>
                 <div class='form-box'>
                   <form action=''>
-                    <a class='input-icon' data-icon='h' href='#'></a>
+                    <a class='input-icon' data-icon='K' href='#'></a>
                     <input placeholder='jane@youremail.com' type='text'>
                   </form>
                 </div>
@@ -77,6 +77,16 @@
             <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
               <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
             </div>
+            <div class='search'>
+              <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+              <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                <form action=''>
+<?php // get_search_form(); ?>
+                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input id='search' placeholder='What were you looking for?' type='text'>
+                </form>
+              </div>
+            </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
                 <a data-icon='L' href='<?php echo esc_url( home_url( '/' ) ); ?>'></a>
@@ -88,17 +98,10 @@
             </header>
             <nav id='main-navigation' role='navigation'>
               <ol class='navigation-list'>
-                <div class='search'>
-                  <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
-                  <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                    <form action=''>
-<?php // get_search_form(); ?>
-                      <a class='input-icon' data-icon='C' href='#'></a>
-                      <input id='search' placeholder='What were you looking for?' type='text'>
-                    </form>
-                  </div>
-                </div>
-                <li class='nav-item open-g-door hide-below-tablet-p'>
+                <li class='nav-item hide-below-tablet-p open-g-door'>
+                  <a href='#'>newsletter</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
                   <a href='#'>subscribe</a>
                 </li>
                 <li class='nav-item hide-below-tablet-p'>
@@ -216,9 +219,6 @@
                       </ol>
                     </li>
                   </ol>
-                </li>
-                <li class='nav-item hide-below-tablet-p'>
-                  <a href='#'>newsletter</a>
                 </li>
               </ol>
             </nav>
