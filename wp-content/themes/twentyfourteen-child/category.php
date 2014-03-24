@@ -38,23 +38,29 @@ get_header(); ?>
 												get_template_part( 'content', get_post_format() );
 
 												endwhile;
+
+												echo "  		  </ul>
+													</section>";
+													get_sidebar( 'archive' );
+		
 												// Previous/next page navigation.
-												twentyfourteen_paging_nav();
+											
+												paging_nav();
 
 											else :
 												// If no content, include the "No posts found" template.
 												get_template_part( 'content', 'none' );
 
+											echo "  		  </ul>
+													</section>";
+													get_sidebar( 'archive' );
+
 											endif;
 										?>
 
-  		  </ul>
-		</section><?php
-		get_sidebar( 'archive' );
-		?>
-
 
 	      </div>
+	    </div>
       </div>
 	  </section>
  </main>

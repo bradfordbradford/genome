@@ -961,4 +961,79 @@ function new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
+if ( ! function_exists( 'twentyfourteen_paging_nav' ) ) :
+/**
+ * Display navigation to next/previous set of posts when applicable.
+ *
+ * @since Twenty Fourteen 1.0
+ *
+ * @return void
+ */
+function paging_nav() {
+  // Don't print empty markup if there's only one page.
+  if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
+    return;
+  }
+
+  $paged        = get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1;
+  $pagenum_link = html_entity_decode( get_pagenum_link() );
+  $query_args   = array();
+  $url_parts    = explode( '?', $pagenum_link );
+
+  if ( isset( $url_parts[1] ) ) {
+    wp_parse_str( $url_parts[1], $query_args );
+  }
+
+  $pagenum_link = remove_query_arg( array_keys( $query_args ), $pagenum_link );
+  $pagenum_link = trailingslashit( $pagenum_link ) . '%_%';
+
+  $format  = $GLOBALS['wp_rewrite']->using_index_permalinks() && ! strpos( $pagenum_link, 'index.php' ) ? 'index.php/' : '';
+  $format .= $GLOBALS['wp_rewrite']->using_permalinks() ? user_trailingslashit( 'page/%#%', 'paged' ) : '?paged=%#%';
+
+  // Set up paginated links.
+  $links = paginate_links( array(
+    'base'     => $pagenum_link,
+    'format'   => $format,
+    'total'    => $GLOBALS['wp_query']->max_num_pages,
+    'current'  => $paged,
+    'mid_size' => 1,
+    'add_args' => array_map( 'urlencode', $query_args ),
+    'prev_next' => False,
+    'prev_text' => __( 'Older Entries' ),
+    'next_text' => __( 'Newer Entries' ),
+    'type'     => 'list'
+  ) );
+
+  if ( $links ) :
+
+  ?>
+<?php 
+  $next = get_next_posts_link( "Older Entries
+                      <span data-icon='r'></span>" );
+  $next = str_replace("<a", "<a class='page-prev directional-nav'", $next);
+
+  $prev = get_previous_posts_link( "Newer Entries
+                    <span data-icon='q'></span>" );
+
+  $prev = str_replace("<a", "<a class='page-new directional-nav'", $prev);
+
+  $links = str_replace("ul>", "ol>", $links);
+  $links = str_replace("<ul", "<ol", $links);
+?>
+<div class='content-row'>
+                <div class='pagination-wrap'>
+                  <?php echo $next; ?>
+                  <?php echo $prev; ?>
+
+      <?php //print_r($links); 
+      // Maybe use array and regex preg_match_return?
+      ?>
+
+      <?php echo $links; ?>
+
+  <?php
+  endif;
+}
+endif;
+
 ?>
