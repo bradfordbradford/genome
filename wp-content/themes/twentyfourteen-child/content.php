@@ -34,15 +34,15 @@
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
                   <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
                   <div class='addthis_toolbox social-list'>
-                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                    <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Share</span>
                     </a>
-                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                    <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
                     </a>
-                    <a class='addthis_button_email' data-icon='h' href='#'>
+                    <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Email</span>
                     </a>
@@ -109,15 +109,15 @@
                   <?php the_title( '<h2>', '</h2>' ); ?>
 
                   <div class='addthis_toolbox social-list'>
-                    <a class='addthis_button_facebook' data-icon='u' href='#'>
+                    <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Share</span>
                     </a>
-                    <a class='addthis_button_twitter' data-icon='v' href='#'>
+                    <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
                     </a>
-                    <a class='addthis_button_email' data-icon='h' href='#'>
+                    <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
                       <span class='value'>Email</span>
                     </a>
