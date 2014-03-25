@@ -35,7 +35,7 @@
                         <a href='<?php echo site_url(); ?>/privacy-policy/'>Privacy Policy</a>
                       </li>
                       <li<?php if ($url == 'contact') { echo " class='active'"; } ?>>
-                        <a href='<?php echo site_url(); ?>/contact-us/'>Contact Us</a>
+                        <a href='<?php echo site_url(); ?>/contact/'>Contact Us</a>
                       </li>
                     </ul>
                   </div>

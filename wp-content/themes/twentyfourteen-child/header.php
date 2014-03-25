@@ -80,10 +80,12 @@
             <div class='search'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
-                <form action=''>
-<?php // get_search_form(); ?>
-                  <a class='input-icon' data-icon='C' href='#'></a>
-                  <input id='search' placeholder='What were you looking for?' type='text'>
+                <?php // get_search_form(); ?>
+
+                <form role='search' method='get' action='<?php echo site_url(); ?>'>
+                  <input type='submit' class='input-icon' data-icon='C' value='Search'>
+                  <!-- <a class='input-icon' data-icon='C' href='#'></a> -->
+                  <input id='search' name='s' placeholder='What were you looking for?' type='search'>
                 </form>
               </div>
             </div>

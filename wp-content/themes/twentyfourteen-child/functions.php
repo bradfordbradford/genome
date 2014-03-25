@@ -191,7 +191,7 @@ function contribs_function($atts, $content = null) {
 function contrib_function($atts){
 	extract(shortcode_atts(array(
 		'author' => '',
-		'title'  => '',
+		//'title'  => '',
 		'pos'  => '',
 		'posts'  => ''
 	), $atts));
@@ -225,7 +225,7 @@ function contrib_function($atts){
                             </a>
                           </h3>
                           <p class='sans'>
-                            " . $title . "
+                            " . $author->description . "
                           </p>
                           <div class='view-all'>
                             <a class='italic serif' href='#'>

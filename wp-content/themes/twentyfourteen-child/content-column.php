@@ -29,7 +29,6 @@
                     <div class='text-meta light-text-color' href='http://link/…'>
                       <span class='icon' data-icon='F'></span>
                       <span class="eta-time"></span>
-                      <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read
                     </div>
                     <?php the_title( '<h2>', '</h2>' ); ?>
 
@@ -48,17 +47,8 @@
                       <span class='ver-line'>&#124;</span>
                       <a class='action' data-icon='p' href='#1'>Print</a>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='i' href='#2'>
-                        <?php
-                          if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-                        ?>
-                        <?php comments_popup_link( __( '0', 'twentyfourteen' ), __( '1', 'twentyfourteen' ), __( '%', 'twentyfourteen' ) ); ?>
-                        <?php
-                          endif;
-
-                          edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-                        ?>
-                      </a>
+                      <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
+                      <?php edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
                     </div>
                   </header>
                   <div class='article-photo primary'>
@@ -165,9 +155,7 @@
                           <img alt='image title' style="width:274px; height:154px;" src='<?php echo $featured_img; ?>'>
                           <div class='popup-content-wrap'>
                             <div class='comment-counter-wrap'>
-                              <a class='icon comment-counter' href=''>
-                                <span class='value'><?php echo get_comments_number(); ?></span>
-                              </a>
+                              <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                             </div>
                             <?php
                         // Display Topic

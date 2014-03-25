@@ -76,7 +76,7 @@
                   <a href='<?php echo site_url(); ?>/terms-and-conditions/'>Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href='<?php echo site_url(); ?>/contact-us/'>Contact Us</a>
+                  <a href='<?php echo site_url(); ?>/contact/'>Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -101,12 +101,10 @@
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
-    <?php if ( !is_page_template('page-templates/feature-article.php') ) : ?>
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
     </script>
-    <?php endif; ?>
     <script>
       var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
       (function () {

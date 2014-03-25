@@ -56,7 +56,7 @@
                           ) );
                         ?>
                         <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
-                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                        <li class='rte-remote' data-file='<?php echo get_permalink(); ?>' data-target='#rte-target'>
                           <div class='media-object'>
                             <?php
                             // Display Topic
@@ -80,7 +80,6 @@
                                 <span class='action' data-icon='F' href='#'>
                                   <span class='eta'>&hellip;</span>
                                 </span>
-                                <?php echo get_post_meta( get_the_ID(), 'Read Time', true ); ?> read
                               </p>
                             </div>
                           </div>

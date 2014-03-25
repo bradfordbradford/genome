@@ -52,17 +52,8 @@
                     <span class='ver-line'>&#124;</span>
                     <a class='action' data-icon='p' href='#1'>Print</a>
                     <span class='ver-line'>&#124;</span>
-                    <a class='action' data-icon='i' href='#2'>
-                      <?php
-                        if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-                      ?>
-                      <?php comments_popup_link( __( '0', 'twentyfourteen' ), __( '1', 'twentyfourteen' ), __( '%', 'twentyfourteen' ) ); ?>
-                      <?php
-                        endif;
-
-                        edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-                      ?>
-                    </a>
+                    <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
+                    <?php edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
                   </div>
                 </header>
                 <div class='article-photo primary'>
@@ -87,6 +78,8 @@
                     ?>
 
                   </div>
+
+  <?php elseif ( is_search() ) : ?>
 
   <?php else : // No Featured Img ?>
 
@@ -279,14 +272,18 @@
                               }
                             }
                           ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
-                          <h3 class='text-meta-header'><?php the_title(); ?></h3>
+                          <h3 class='text-meta-header'>
+                            <a href='<?php echo get_permalink(); ?>'>
+                              <?php the_title(); ?>
+                            </a>
+                          </h3>
                           <p class='text-meta-sub light-text-color'>
                             <a href='#'>By <?php the_author(); ?></a>
                             <span class='interpunct'>&#183</span>
                             <?php echo get_the_time('F j, Y'); ?>
 
                             <span class='interpunct'>&#183</span>
-                            <span class='icon' data-icon='i'></span>
+                            <span class='icon' data-icon='A'></span>
                             <span class='share-count'>getting shares &hellip;</span>
                           </p>
                         </header>
