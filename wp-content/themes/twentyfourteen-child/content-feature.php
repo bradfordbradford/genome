@@ -15,7 +15,7 @@
               <div class='story-cover-content single-col-layout'>
                 <div class='align-middle'>
                   <div class='align-block'>
-                    <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
+                    <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='#'>
                       <h2>
                         <?php //the_title(); ?>
                         <?php

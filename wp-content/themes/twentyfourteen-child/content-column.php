@@ -37,10 +37,12 @@
                       if (function_exists('get_wp_user_avatar_src')) {
                         $avatar = get_wp_user_avatar_src($user_id);
                       } else {
-                        $avatar = '';
+                        $avatar = site_url() . '/wp-content/uploads/2014/03/user-placeholderRetina-150x150.png';
+                      }
+                      if ($avatar != site_url() . '/wp-content/uploads/2014/03/user-placeholderRetina-150x150.png') {
+                        echo "<img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>";
                       }
                     ?>
-                    <img alt='' class='load author-pic circle' data-original='<?php echo $avatar; ?>' src='<?php echo $avatar; ?>'>
                     <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
                     <div class='article-meta'>
                       <time><?php echo get_the_time('F j, Y'); ?></time>
@@ -150,7 +152,12 @@
                             $related = new WP_Query($args);
                         ?>
                       <?php while ( $related->have_posts() ): $related->the_post(); ?>
-                        <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                        <?php
+                          $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          if ($featured_img == '') {
+                            $featured_img = site_url() . '/wp-content/themes/twentyfourteen-child/img/content/article-img-placeholderRetina.png';
+                          }
+                        ?>
                         <div class='media-object with-large-image grid-element popup-content'>
                           <img alt='image title' style="width:274px; height:154px;" src='<?php echo $featured_img; ?>'>
                           <div class='popup-content-wrap'>

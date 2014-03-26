@@ -19,27 +19,6 @@
                         </h2>
                       </header>
                       <ul class='featured-list with-shares'>
-                        <li>
-                          <div class='media-object reversed'>
-                            <a class='text-meta' href='http://link/…'>science</a>
-                            <div class='media-copy'>
-                              <h3 class='text-meta-header small'>
-                                <a href='http://github.com'>
-                                  Rewriting the Brain
-                                </a>
-                              </h3>
-                              <p class='text-meta-sub light-text-color'>
-                                <a href='http://link/…'>
-                                  By Author Rightspoke
-                                </a>
-                                <a href='http://link/…'>
-                                  <span class='icon' data-icon='i'></span>
-                                  <span class='share-count'>getting shares &hellip;</span>
-                                </a>
-                              </p>
-                            </div>
-                          </div>
-                        </li>
                         <?php
                           $popular = new WP_Query( array(
                             'post_type'             => array( 'post' ),

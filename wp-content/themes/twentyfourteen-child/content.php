@@ -218,14 +218,17 @@
                             $related = new WP_Query($args);
                         ?>
                       <?php while ( $related->have_posts() ): $related->the_post(); ?>
-                        <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                        <?php
+                          $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          if ($featured_img == '') {
+                            $featured_img = site_url() . '/wp-content/themes/twentyfourteen-child/img/content/article-img-placeholderRetina.png';
+                          }
+                        ?>
                         <div class='media-object with-large-image grid-element popup-content'>
                           <img alt='image title' style="width:274px; height:154px;" src='<?php echo $featured_img; ?>'>
                           <div class='popup-content-wrap'>
                             <div class='comment-counter-wrap'>
-                              <a class='icon comment-counter' href=''>
-                                <span class='value'><?php echo get_comments_number(); ?></span>
-                              </a>
+                              <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                             </div>
                             <?php
                             // Display Topic
