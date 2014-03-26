@@ -25,6 +25,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     -webkit-placeholder: $primaryLinkHover;
 }
 
+input[type="submit"],
+input[type="search"] {
+    border: 0px;
+}
+
 label {
     color: $primaryLight;
     text-transform: uppercase;

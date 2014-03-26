@@ -4,20 +4,31 @@
 // FormBox Forms
 
 .form-box {
+
     form {
         padding-top: 24px;
         clear: both;
         position: relative;
 
         // Add Search Icon
-        .input-icon {
+        input[type="submit"],
+        input[type="submit"] {
             position: absolute;
             width: inherit;
-            right: 20px;
+            right: 14px;
             z-index: 2;
-            top: 45px;
+            top: 42px;
+            background: $searchIcon 0px 0px;
+            background-color: transparent;
+            height: 20px;
+            width: 22px;
+            &:hover {
+                background-position: -24px 0px;
+                cursor: pointer;
+            }
         }
-        input {
+
+        input[type="text"] {
             background: $primaryLight;
             font-family: $serif;
             font-style: italic;
@@ -37,13 +48,15 @@
         }
     }
 
-    &#nav-search-box {
+     &#nav-search-box {
         form {
-            input {
+            input[type="text"] {
                 background: darken($primaryBackground, 5%);
                 border-color: darken($primaryBackground, 20%);
             }
         }
     }
+
+
 }
 
