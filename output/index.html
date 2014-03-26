@@ -67,7 +67,7 @@
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -452,6 +452,9 @@
                       </div>
                     </section>
                   </div>
+                  <div class='content-row add-padding-b'>
+                    <a class='btn primary full-bleed' href='#'>View All (Issues?)</a>
+                  </div>
                 </section>
                 <aside class='aside-column-primary'>
                   <div class='aside-block with-top-border'>
@@ -559,12 +562,23 @@
                       </div>
                     </ul>
                   </div>
-                  <div class='aside-block with-top-border'>
+                  <div class='aside-block with-top-border' id='most-pop-block'>
                     <header>
                       <h2 class='section-title'>
                         Most
                         <span>
                           Popular
+                        </span>
+                      </h2>
+                    </header>
+                    <ul class='featured-list with-shares' id='most-pop-list'></ul>
+                  </div>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Top
+                        <span>
+                          Stories
                         </span>
                       </h2>
                     </header>
@@ -583,7 +597,7 @@
                                 By Author Rightspoke
                               </a>
                               <a href=''>
-                                <span class='icon' data-icon='i'></span>
+                                <span class='icon' data-icon='A'></span>
                                 <span class='share-count'>getting shares &hellip;</span>
                               </a>
                             </p>
@@ -603,7 +617,7 @@
                               <a href='#'>
                                 By Author Rightspoke
                               </a>
-                              <span class='icon' data-icon='i'></span>
+                              <span class='icon' data-icon='A'></span>
                               <span class='share-count'>getting shares &hellip;</span>
                             </p>
                           </div>
@@ -622,7 +636,7 @@
                               <a href='#'>
                                 By Author Rightspoke
                               </a>
-                              <span class='icon' data-icon='i'></span>
+                              <span class='icon' data-icon='A'></span>
                               <span class='share-count'>getting shares &hellip;</span>
                             </p>
                           </div>

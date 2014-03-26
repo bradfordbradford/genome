@@ -21,7 +21,7 @@ title: Roll Type- Search Results
             %hr.neutral-bg/
 
             .media-object.with-large-image.grid-element.popup-content
-                %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                %img.load{:src => "../assets/img/icons/article-img-placeholderRetina.png", :'data-original' => "../assets/img/icons/article-img-placeholderRetina.png", :alt => "image title"}/
                 .popup-content-wrap
                     .comment-counter-wrap
                         %a.icon.comment-counter{:href => "http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread"}
@@ -181,7 +181,8 @@ title: Roll Type- Search Results
 
         .form-box
             %form{:action => ""}
-                %a.input-icon{:'data-icon'=>"C", :href=>"#"}
+                / %a.input-icon{:'data-icon'=>"C", :href=>"#"}
+                %input.input-icon{:type => "submit", :value=>"", :'data-icon'=>"C",}/
                 %input#search{:type => "text", :placeholder => "What were you looking for?"}/
 
 

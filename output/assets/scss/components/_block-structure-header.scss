@@ -56,7 +56,7 @@ section#main-site-navigation-wrap {
         height:$navbarHeight;
         overflow: hidden;
         position: absolute;
-        z-index: 2;
+        z-index: 20;
 
         a {
             font-size: 12em;
@@ -134,12 +134,13 @@ section#main-site-navigation-wrap {
         list-style: none;
         line-height: 77px;
         float:right;
-        transition: line-height .4s ease-in-out;
+        transition:  opacity .4s ease 0s,
+                        line-height .4s ease-in-out;
 
         a {
             padding: 0 1em 0 1em;
             &:hover {
-                color:$secondary;
+                color:$primaryLink !important;
                 background: transparent !important;
             }
         }
@@ -210,7 +211,9 @@ section#main-site-navigation-wrap {
 // Social Icons Nav once .menu-slim is added
 body.nav-add-social {
     section#main-site-navigation-wrap.menu-slim {
-        ol.navigation-list {
+        ol.navigation-list,
+        .search
+         {
             @include opacity(0);
             top: -100px;
             transition: opacity .4s ease 1s,
@@ -230,7 +233,7 @@ body.nav-add-social {
 @include breakpoint(ipad-portrait) {
     // Implement .menu-slim, pull up Content-Wrap and center logo and tagline
     #content-wrap {
-    padding-top: $navbarHeight;
+    padding-top: 60px;
     }
     section#main-site-navigation-wrap {
 
@@ -254,6 +257,9 @@ body.nav-add-social {
             margin-left: -75px;
             bottom: -13px;
         }
+
+        // Hide Large Menu
+        nav#main-navigation {display: none;}
 
         // Adjust Nav Item line-height
         nav#main-navigation ol.navigation-list > li > a{

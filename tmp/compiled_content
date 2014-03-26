@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"=~<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"K~<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -67,7 +67,7 @@
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -1045,7 +1045,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"¶q<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1114,7 +1114,7 @@ I"/article_blog_no_photo/;T{;{	;I"¶q<!DOCTYPE html>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -1988,7 +1988,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"wÉ<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"ÖÉ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2057,7 +2057,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -3048,7 +3048,7 @@ I";<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"¬Ç<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"–Ç<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3117,7 +3117,7 @@ I";<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -4107,7 +4107,7 @@ I"
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"	B<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"B<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4176,7 +4176,7 @@ I"
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -4515,7 +4515,7 @@ I"ö<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"∏}<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"∆}<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4584,7 +4584,7 @@ I"ö<section class='primary_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -4792,7 +4792,7 @@ I"ö<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <span class='icon' data-icon='i'></span>
+                            <span class='icon' data-icon='A'></span>
                             <span class='share-count'>getting shares &hellip;</span>
                           </p>
                         </header>
@@ -4825,41 +4825,7 @@ I"ö<section class='primary_layout'>
                             <a href='#'>By Authur Righter</a>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
-                            <span class='icon' data-icon='i'></span>
-                            <span class='share-count'>getting shares &hellip;</span>
-                          </p>
-                        </header>
-                      </div>
-                      <div class='grid-2-per major-r'>
-                        <div class='grid-element image-content'>
-                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-                        </div>
-                        <div class='grid-element'>
-                          <div class='media-copy'>
-                            <p class='text-meta-sub'>
-                              Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                              <a class='text-meta continue-reading' href='#'>
-                                Continue Reading
-                                <span class='double-quote-right'>
-                                  &#187;
-                                </span>
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class='media-object-horizontal-layout'>
-                      <div class='content-row'>
-                        <header>
-                          <a class='text-meta' href='#'>Treatment</a>
-                          <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                          <p class='text-meta-sub light-text-color'>
-                            <a href='#'>By Authur Righter</a>
-                            <span class='interpunct'>&#183</span>
-                            December 22, 2013
-                            <span class='interpunct'>&#183</span>
-                            <span class='icon' data-icon='i'></span>
+                            <span class='icon' data-icon='A'></span>
                             <span class='share-count'>getting shares &hellip;</span>
                           </p>
                         </header>
@@ -4893,7 +4859,7 @@ I"ö<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <span class='icon' data-icon='i'></span>
+                            <span class='icon' data-icon='A'></span>
                             <span class='share-count'>getting shares &hellip;</span>
                           </p>
                         </header>
@@ -4927,7 +4893,41 @@ I"ö<section class='primary_layout'>
                             <span class='interpunct'>&#183</span>
                             December 22, 2013
                             <span class='interpunct'>&#183</span>
-                            <span class='icon' data-icon='i'></span>
+                            <span class='icon' data-icon='A'></span>
+                            <span class='share-count'>getting shares &hellip;</span>
+                          </p>
+                        </header>
+                      </div>
+                      <div class='grid-2-per major-r'>
+                        <div class='grid-element image-content'>
+                          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                        </div>
+                        <div class='grid-element'>
+                          <div class='media-copy'>
+                            <p class='text-meta-sub'>
+                              Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                              <a class='text-meta continue-reading' href='#'>
+                                Continue Reading
+                                <span class='double-quote-right'>
+                                  &#187;
+                                </span>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='media-object-horizontal-layout'>
+                      <div class='content-row'>
+                        <header>
+                          <a class='text-meta' href='#'>Treatment</a>
+                          <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
+                          <p class='text-meta-sub light-text-color'>
+                            <a href='#'>By Authur Righter</a>
+                            <span class='interpunct'>&#183</span>
+                            December 22, 2013
+                            <span class='interpunct'>&#183</span>
+                            <span class='icon' data-icon='A'></span>
                           </p>
                         </header>
                       </div>
@@ -5222,7 +5222,7 @@ I"ö<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.icon{:'data-icon'=>"A"}
                                     %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -5247,60 +5247,7 @@ I"ö<section class='primary_layout'>
                                     %a{:href => "#"} By Authur Righter
                                     %span.interpunct &#183
                                     December 22, 2013
-                                    %span.icon{:'data-icon'=>"i"}
-                                    %span.share-count getting shares &hellip;
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %span.icon{:'data-icon'=>"i"}
-                                    %span.share-count getting shares &hellip;
-                        .grid-2-per.major-r
-                            .grid-element.image-content
-                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
-
-                            .grid-element
-                                .media-copy
-                                    %p.text-meta-sub
-                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-
-                                        %a.text-meta.continue-reading{:href => "#"}
-                                            Continue Reading
-                                            %span.double-quote-right
-                                                &#187;
-
-                    %li.media-object-horizontal-layout
-                        .content-row
-                            %header
-                                %a.text-meta{:href => "#"} Treatment
-                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
-                                %p.text-meta-sub.light-text-color
-                                    %a{:href => "#"} By Authur Righter
-                                    %span.interpunct &#183
-                                    December 22, 2013
-                                    %span.interpunct &#183
-                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.icon{:'data-icon'=>"A"}
                                     %span.share-count getting shares &hellip;
                         .grid-2-per.major-r
                             .grid-element.image-content
@@ -5327,7 +5274,60 @@ I"ö<section class='primary_layout'>
                                     %span.interpunct &#183
                                     December 22, 2013
                                     %span.interpunct &#183
-                                    %span.icon{:'data-icon'=>"i"}
+                                    %span.icon{:'data-icon'=>"A"}
+                                    %span.share-count getting shares &hellip;
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %span.icon{:'data-icon'=>"A"}
+                                    %span.share-count getting shares &hellip;
+                        .grid-2-per.major-r
+                            .grid-element.image-content
+                                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+
+                            .grid-element
+                                .media-copy
+                                    %p.text-meta-sub
+                                        Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+
+                                        %a.text-meta.continue-reading{:href => "#"}
+                                            Continue Reading
+                                            %span.double-quote-right
+                                                &#187;
+
+
+                    %li.media-object-horizontal-layout
+                        .content-row
+                            %header
+                                %a.text-meta{:href => "#"} Treatment
+                                %h3.text-meta-header Does a Raw Food Diet Help Prevent Heart Disease?
+                                %p.text-meta-sub.light-text-color
+                                    %a{:href => "#"} By Authur Righter
+                                    %span.interpunct &#183
+                                    December 22, 2013
+                                    %span.interpunct &#183
+                                    %span.icon{:'data-icon'=>"A"}
                         .grid-2-per.major-r
                             .grid-element.image-content
                                 %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
@@ -5390,7 +5390,7 @@ I"™5<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <span class='icon' data-icon='i'></span>
+                  <span class='icon' data-icon='A'></span>
                   <span class='share-count'>getting shares &hellip;</span>
                 </p>
               </header>
@@ -5423,41 +5423,7 @@ I"™5<section class='primary_layout article_layout'>
                   <a href='#'>By Authur Righter</a>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
-                  <span class='icon' data-icon='i'></span>
-                  <span class='share-count'>getting shares &hellip;</span>
-                </p>
-              </header>
-            </div>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element image-content'>
-                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
-              </div>
-              <div class='grid-element'>
-                <div class='media-copy'>
-                  <p class='text-meta-sub'>
-                    Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
-                    <a class='text-meta continue-reading' href='#'>
-                      Continue Reading
-                      <span class='double-quote-right'>
-                        &#187;
-                      </span>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class='media-object-horizontal-layout'>
-            <div class='content-row'>
-              <header>
-                <a class='text-meta' href='#'>Treatment</a>
-                <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
-                <p class='text-meta-sub light-text-color'>
-                  <a href='#'>By Authur Righter</a>
-                  <span class='interpunct'>&#183</span>
-                  December 22, 2013
-                  <span class='interpunct'>&#183</span>
-                  <span class='icon' data-icon='i'></span>
+                  <span class='icon' data-icon='A'></span>
                   <span class='share-count'>getting shares &hellip;</span>
                 </p>
               </header>
@@ -5491,7 +5457,7 @@ I"™5<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <span class='icon' data-icon='i'></span>
+                  <span class='icon' data-icon='A'></span>
                   <span class='share-count'>getting shares &hellip;</span>
                 </p>
               </header>
@@ -5525,7 +5491,41 @@ I"™5<section class='primary_layout article_layout'>
                   <span class='interpunct'>&#183</span>
                   December 22, 2013
                   <span class='interpunct'>&#183</span>
-                  <span class='icon' data-icon='i'></span>
+                  <span class='icon' data-icon='A'></span>
+                  <span class='share-count'>getting shares &hellip;</span>
+                </p>
+              </header>
+            </div>
+            <div class='grid-2-per major-r'>
+              <div class='grid-element image-content'>
+                <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+              </div>
+              <div class='grid-element'>
+                <div class='media-copy'>
+                  <p class='text-meta-sub'>
+                    Good negotiators know that one of the trickiest aspects of their job is the timing of offers. As negotiations grind on, the costs of a stalemate rise on both sides. Yet if a settlement‚Ä¶
+                    <a class='text-meta continue-reading' href='#'>
+                      Continue Reading
+                      <span class='double-quote-right'>
+                        &#187;
+                      </span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class='media-object-horizontal-layout'>
+            <div class='content-row'>
+              <header>
+                <a class='text-meta' href='#'>Treatment</a>
+                <h3 class='text-meta-header'>Does a Raw Food Diet Help Prevent Heart Disease?</h3>
+                <p class='text-meta-sub light-text-color'>
+                  <a href='#'>By Authur Righter</a>
+                  <span class='interpunct'>&#183</span>
+                  December 22, 2013
+                  <span class='interpunct'>&#183</span>
+                  <span class='icon' data-icon='A'></span>
                 </p>
               </header>
             </div>
@@ -5685,7 +5685,7 @@ I"™5<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"èï<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"ò<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5754,7 +5754,7 @@ I"™5<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -6139,6 +6139,9 @@ I"™5<section class='primary_layout article_layout'>
                       </div>
                     </section>
                   </div>
+                  <div class='content-row add-padding-b'>
+                    <a class='btn primary full-bleed' href='#'>View All (Issues?)</a>
+                  </div>
                 </section>
                 <aside class='aside-column-primary'>
                   <div class='aside-block with-top-border'>
@@ -6246,12 +6249,23 @@ I"™5<section class='primary_layout article_layout'>
                       </div>
                     </ul>
                   </div>
-                  <div class='aside-block with-top-border'>
+                  <div class='aside-block with-top-border' id='most-pop-block'>
                     <header>
                       <h2 class='section-title'>
                         Most
                         <span>
                           Popular
+                        </span>
+                      </h2>
+                    </header>
+                    <ul class='featured-list with-shares' id='most-pop-list'></ul>
+                  </div>
+                  <div class='aside-block with-top-border'>
+                    <header>
+                      <h2 class='section-title'>
+                        Top
+                        <span>
+                          Stories
                         </span>
                       </h2>
                     </header>
@@ -6270,7 +6284,7 @@ I"™5<section class='primary_layout article_layout'>
                                 By Author Rightspoke
                               </a>
                               <a href=''>
-                                <span class='icon' data-icon='i'></span>
+                                <span class='icon' data-icon='A'></span>
                                 <span class='share-count'>getting shares &hellip;</span>
                               </a>
                             </p>
@@ -6290,7 +6304,7 @@ I"™5<section class='primary_layout article_layout'>
                               <a href='#'>
                                 By Author Rightspoke
                               </a>
-                              <span class='icon' data-icon='i'></span>
+                              <span class='icon' data-icon='A'></span>
                               <span class='share-count'>getting shares &hellip;</span>
                             </p>
                           </div>
@@ -6309,7 +6323,7 @@ I"™5<section class='primary_layout article_layout'>
                               <a href='#'>
                                 By Author Rightspoke
                               </a>
-                              <span class='icon' data-icon='i'></span>
+                              <span class='icon' data-icon='A'></span>
                               <span class='share-count'>getting shares &hellip;</span>
                             </p>
                           </div>
@@ -6494,7 +6508,7 @@ I"™5<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"Ó&%header.hero.hero-featured-article.background-size-full.center
+;T;	I"j'%header.hero.hero-featured-article.background-size-full.center
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
@@ -6670,9 +6684,13 @@ I"™5<section class='primary_layout article_layout'>
                                     %p.text-meta-sub.light-text-color.sans-meta
                                         Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
+
+                .content-row.add-padding-b
+                    %a.btn.primary.full-bleed{:href => "#"} View All (Issues?)
+
             -# Aside Column
             = render 'aside-column-home';T;
-I"»H<header class='hero hero-featured-article background-size-full center'>
+I"¶J<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6864,6 +6882,9 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
             </div>
           </section>
         </div>
+        <div class='content-row add-padding-b'>
+          <a class='btn primary full-bleed' href='#'>View All (Issues?)</a>
+        </div>
       </section>
       <aside class='aside-column-primary'>
         <div class='aside-block with-top-border'>
@@ -6971,12 +6992,23 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
             </div>
           </ul>
         </div>
-        <div class='aside-block with-top-border'>
+        <div class='aside-block with-top-border' id='most-pop-block'>
           <header>
             <h2 class='section-title'>
               Most
               <span>
                 Popular
+              </span>
+            </h2>
+          </header>
+          <ul class='featured-list with-shares' id='most-pop-list'></ul>
+        </div>
+        <div class='aside-block with-top-border'>
+          <header>
+            <h2 class='section-title'>
+              Top
+              <span>
+                Stories
               </span>
             </h2>
           </header>
@@ -6995,7 +7027,7 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
                       By Author Rightspoke
                     </a>
                     <a href=''>
-                      <span class='icon' data-icon='i'></span>
+                      <span class='icon' data-icon='A'></span>
                       <span class='share-count'>getting shares &hellip;</span>
                     </a>
                   </p>
@@ -7015,7 +7047,7 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
                     <a href='#'>
                       By Author Rightspoke
                     </a>
-                    <span class='icon' data-icon='i'></span>
+                    <span class='icon' data-icon='A'></span>
                     <span class='share-count'>getting shares &hellip;</span>
                   </p>
                 </div>
@@ -7034,7 +7066,7 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
                     <a href='#'>
                       By Author Rightspoke
                     </a>
-                    <span class='icon' data-icon='i'></span>
+                    <span class='icon' data-icon='A'></span>
                     <span class='share-count'>getting shares &hellip;</span>
                   </p>
                 </div>
@@ -7104,7 +7136,7 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"m<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I" m<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7173,7 +7205,7 @@ I"»H<header class='hero hero-featured-article background-size-full center'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -8004,7 +8036,7 @@ I"¸)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"¯k<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I"fl<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8073,7 +8105,7 @@ I"¸)<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -8287,7 +8319,7 @@ I"¸)<section class='primary_layout article_layout'>
                 </h2>
                 <hr class='neutral-bg'>
                 <div class='media-object with-large-image grid-element popup-content'>
-                  <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                  <img alt='image title' class='load' data-original='../assets/img/icons/article-img-placeholderRetina.png' src='../assets/img/icons/article-img-placeholderRetina.png'>
                   <div class='popup-content-wrap'>
                     <div class='comment-counter-wrap'>
                       <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
@@ -8464,7 +8496,8 @@ I"¸)<section class='primary_layout article_layout'>
               </h2>
               <div class='form-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <!-- %a.input-icon{:'data-icon'=>"C", :href=>"#"} -->
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -8585,7 +8618,7 @@ I"¸)<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"R%-# Search Results
+;T;	I"¥%-# Search Results
 .inner-bounds.remove-footer-offset.block
     %header.section-header.add-bleed
         %h2.section-title.left.smaller
@@ -8604,7 +8637,7 @@ I"¸)<section class='primary_layout article_layout'>
             %hr.neutral-bg/
 
             .media-object.with-large-image.grid-element.popup-content
-                %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                %img.load{:src => "../assets/img/icons/article-img-placeholderRetina.png", :'data-original' => "../assets/img/icons/article-img-placeholderRetina.png", :alt => "image title"}/
                 .popup-content-wrap
                     .comment-counter-wrap
                         %a.icon.comment-counter{:href => "http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread"}
@@ -8764,9 +8797,10 @@ I"¸)<section class='primary_layout article_layout'>
 
         .form-box
             %form{:action => ""}
-                %a.input-icon{:'data-icon'=>"C", :href=>"#"}
+                / %a.input-icon{:'data-icon'=>"C", :href=>"#"}
+                %input.input-icon{:type => "submit", :value=>"", :'data-icon'=>"C",}/
                 %input#search{:type => "text", :placeholder => "What were you looking for?"}/;T;
-I"(<div class='inner-bounds remove-footer-offset block'>
+I"Z(<div class='inner-bounds remove-footer-offset block'>
   <header class='section-header add-bleed'>
     <h2 class='section-title left smaller'>
       <span>
@@ -8787,7 +8821,7 @@ I"(<div class='inner-bounds remove-footer-offset block'>
       </h2>
       <hr class='neutral-bg'>
       <div class='media-object with-large-image grid-element popup-content'>
-        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+        <img alt='image title' class='load' data-original='../assets/img/icons/article-img-placeholderRetina.png' src='../assets/img/icons/article-img-placeholderRetina.png'>
         <div class='popup-content-wrap'>
           <div class='comment-counter-wrap'>
             <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
@@ -8964,13 +8998,14 @@ I"(<div class='inner-bounds remove-footer-offset block'>
     </h2>
     <div class='form-box'>
       <form action=''>
-        <a class='input-icon' data-icon='C' href='#'></a>
+        <!-- %a.input-icon{:'data-icon'=>"C", :href=>"#"} -->
+        <input class='input-icon' data-icon='C' type='submit' value=''>
         <input id='search' placeholder='What were you looking for?' type='text'>
       </form>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"˝y<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"z<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9039,7 +9074,7 @@ I"(<div class='inner-bounds remove-footer-offset block'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -10094,7 +10129,7 @@ I"Ó1<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"f<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"çf<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10163,7 +10198,7 @@ I"Ó1<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -11111,7 +11146,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"PI<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"^I<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11180,7 +11215,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -11703,7 +11738,7 @@ I"#
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"¡M<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"œM<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11772,7 +11807,7 @@ I"#
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -12308,7 +12343,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"ÛL<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"M<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12377,7 +12412,7 @@ I"y<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -12828,7 +12863,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"∂C<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"ƒC<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12897,7 +12932,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -13339,7 +13374,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"1u<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"v<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13408,7 +13443,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <a class='input-icon' data-icon='C' href='#'></a>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -13613,7 +13648,8 @@ I"Œ<section class='primary_layout article_layout no-photo'>
                   <ul class='roll-list slats'>
                     <li class='title'>
                       <div class='media-object with-med-image'>
-                        <img alt='' class='load author-pic circle' data-original='../assets/img/content/carl-zimmer-web.jpg' src='../assets/img/content/carl-zimmer-web.jpg'>
+                        <!-- %img.load.author-pic.circle{:src => "../assets/img/content/carl-zimmer-web.jpg", :'data-original' => "../assets/img/content/carl-zimmer-web.jpg", :alt => ""}/ -->
+                        <img alt='' class='load author-pic' data-original='../assets/img/icons/user-placeholderRetina.png' src='../assets/img/icons/user-placeholderRetina.png'>
                         <div class='media-copy'>
                           <h2 class='text-meta-header' href='#'>
                             <a href='#'>
@@ -13996,7 +14032,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </script>
   </body>
 </html>
-;T;	I"≠*%section.primary_layout.article_layout.no-photo
+;T;	I"n+%section.primary_layout.article_layout.no-photo
     .inner-bounds.block.background-white
 
 
@@ -14014,7 +14050,9 @@ I"Œ<section class='primary_layout article_layout no-photo'>
                 %ul.roll-list.slats
                     %li.title
                         .media-object.with-med-image
-                            %img.load.author-pic.circle{:src => "../assets/img/content/carl-zimmer-web.jpg", :'data-original' => "../assets/img/content/carl-zimmer-web.jpg", :alt => ""}/
+                            / %img.load.author-pic.circle{:src => "../assets/img/content/carl-zimmer-web.jpg", :'data-original' => "../assets/img/content/carl-zimmer-web.jpg", :alt => ""}/
+                            %img.load.author-pic{:src => "../assets/img/icons/user-placeholderRetina.png", :'data-original' => "../assets/img/icons/user-placeholderRetina.png", :alt => ""}/
+
                             .media-copy
                                 %h2.text-meta-header{:href => "#"}
                                     %a{:href => "#"}
@@ -14196,7 +14234,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
 
             -# Primary Aside Column
             = render 'aside-column-utility-nav';T;
-I"H.<section class='primary_layout article_layout no-photo'>
+I"/<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -14208,7 +14246,8 @@ I"H.<section class='primary_layout article_layout no-photo'>
         <ul class='roll-list slats'>
           <li class='title'>
             <div class='media-object with-med-image'>
-              <img alt='' class='load author-pic circle' data-original='../assets/img/content/carl-zimmer-web.jpg' src='../assets/img/content/carl-zimmer-web.jpg'>
+              <!-- %img.load.author-pic.circle{:src => "../assets/img/content/carl-zimmer-web.jpg", :'data-original' => "../assets/img/content/carl-zimmer-web.jpg", :alt => ""}/ -->
+              <img alt='' class='load author-pic' data-original='../assets/img/icons/user-placeholderRetina.png' src='../assets/img/icons/user-placeholderRetina.png'>
               <div class='media-copy'>
                 <h2 class='text-meta-header' href='#'>
                   <a href='#'>
@@ -14476,4 +14515,904 @@ I"H.<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@d:versioni
+;T;@dI"/project_index_local/;T{;{	;I"Wl<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Project Index (local)
+    </title>
+    <meta content='Genome Magazine' property='og:title'>
+    <meta content='Website' property='og:type'>
+    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='/' property='og:url'>
+    <meta content='Genome Magazine' property='og:site_name'>
+    <meta content='Genome Magazine' property='og:author'>
+    <meta content='' property='og:description'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body class='init'>
+    <div id='site-wrap-outer'>
+      <section id='header-nav-wrap'>
+        <div class='g-door' id='newsletter-door'>
+          <div class='inner-bounds block'>
+            <div class='grid-2-per major-r'>
+              <div class='grid-element'>
+                <div class='g-door-image-content'>
+                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                </div>
+              </div>
+              <div class='grid-element'>
+                <h2 class='section-title left smaller'>
+                  Subscribe to Genome
+                </h2>
+                <div class='form-box'>
+                  <form action=''>
+                    <a class='input-icon' data-icon='K' href='#'></a>
+                    <input placeholder='jane@youremail.com' type='text'>
+                  </form>
+                </div>
+                <a class='close-g-door' data-icon='D' href='x'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id='main-site-navigation-wrap'>
+          <div class='site-navigation-inner'>
+            <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
+              <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
+            </div>
+            <div class='search'>
+              <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+              <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                <form action=''>
+                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input id='search' placeholder='What were you looking for?' type='text'>
+                </form>
+              </div>
+            </div>
+            <header id='site-title' role='banner'>
+              <h1 class='logo'>
+                <a data-icon='L' href='http://genome.com'></a>
+                <span>Genome</span>
+              </h1>
+              <div class='tagline'>
+                Your Health is Personal
+              </div>
+            </header>
+            <nav id='main-navigation' role='navigation'>
+              <ol class='navigation-list'>
+                <li class='nav-item hide-below-tablet-p open-g-door'>
+                  <a href='#'>newsletter</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>subscribe</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>browse</a>
+                  <ol>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Issue</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Condition</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Topic</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </nav>
+            <aside class='add-social'>
+              <div class='addthis_toolbox social-list'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Share</span>
+                </a>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Email</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <nav class='hide-above-tablet-p' id='offcanvas-navigation' role='navigation'>
+          <div class='offcanvas-inner'>
+            <ol class='navigation-list'>
+              <li class='nav-item current'>
+                <a href='#'>newsletter</a>
+              </li>
+              <li class='nav-item collapse-area'>
+                <header class='collapse-header'>
+                  <div class='collapse-section-title'>browse</div>
+                </header>
+                <ol class='collapse-content'>
+                  <li>
+                    <a href='https://www.google.com/'>By Issue</a>
+                  </li>
+                  <li>
+                    <a href='https://www.google.com/'>By Topic</a>
+                  </li>
+                  <li>
+                    <a href='https://www.google.com/'>By Condition</a>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>subscribe</a>
+              </li>
+            </ol>
+            <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
+          </div>
+        </nav>
+      </section>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout'>
+            <div class='inner-bounds block background-white'>
+              <div class='content-row'>
+                <section class='related-reading collection grid-3-per'>
+                  <h2 class='section-title center'>
+                    Project Index
+                    <span>
+                      Local Paths
+                    </span>
+                  </h2>
+                  <hr class='thick neutral-light-bg partial'>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Article Layout</div>
+                      <a class='media-copy' href='/article_feature/' target='_blank'>
+                        <h3 class='text-meta-header'>Article: Feature</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Article Layout</div>
+                      <a class='media-copy' href='/article_blog/' target='_blank'>
+                        <h3 class='text-meta-header'>Article: Blog w/ Photo</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Article Layout</div>
+                      <a class='media-copy' href='/article_blog_no_photo/' target='_blank'>
+                        <h3 class='text-meta-header'>Article: Blog w/o Photo</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Article Layout</div>
+                      <a class='media-copy' href='/article_column/' target='_blank'>
+                        <h3 class='text-meta-header'>Article: Column</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>List Layout</div>
+                      <a class='media-copy' href='/blog_roll/' target='_blank'>
+                        <h3 class='text-meta-header'>List: Blog Roll</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>List Layout</div>
+                      <a class='media-copy' href='/story_roll/' target='_blank'>
+                        <h3 class='text-meta-header'>List: Story Roll</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>List Layout</div>
+                      <a class='media-copy' href='/search_results/' target='_blank'>
+                        <h3 class='text-meta-header'>List: Search Results</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Home Layout</div>
+                      <a class='media-copy' href='/' target='_blank'>
+                        <h3 class='text-meta-header'>Home</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_about/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: About Us</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_contact/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Contact</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_contributors/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Contributors</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_media-kit/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Media Kit</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_partners-and-allies/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Partners & Allies</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='text-meta'>Utility Layout</div>
+                      <a class='media-copy' href='/utility_privacy-policy/' target='_blank'>
+                        <h3 class='text-meta-header'>Utility: Privacy Policy</h3>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer id='main-footer' role='contentinfo'>
+        <div class='footer-content-wrap'>
+          <div class='show-for-print content-row' id='subscribe-ad'>
+            <div class='grid-2-per add-space-b'>
+              <div class='content-row'>
+                <h2 class='section-title sans center'>
+                  <span>
+                    Free
+                  </span>
+                  Home Subscription
+                </h2>
+                <hr class='partial thick'>
+              </div>
+              <div class='content-row'>
+                <div class='grid-element'>
+                  <div class='image-content'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                  </div>
+                </div>
+                <div class='grid-element serif'>
+                  <p class='lead emph'>
+                    Quarterly Print Edition
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta.
+                  </p>
+                  <p class='lead italic small-block'>
+                    Subscribe online at:
+                    <a href='http://genomemag.com'>
+                      www.genomemag.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='content-row add-space-b hide-below-tablet-p'>
+            <p class='highlight white-text-color center add-space-g'>
+              Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
+            </p>
+          </div>
+          <div class='content-row footer-site-map'>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/‚Ä¶'>About Genome</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Partners & Allies</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Media Kit</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/‚Ä¶'>Privacy Kit</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul class='social-list inline'>
+                <li>
+                  <a data-icon='u' href='http://link/‚Ä¶'></a>
+                </li>
+                <li>
+                  <a data-icon='v' href='http://link/‚Ä¶'></a>
+                </li>
+                <li>
+                  <a data-icon='w' href='http://link/‚Ä¶'></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
+    <script>
+      var addthis_config = {"data_track_addressbar":true};
+    </script>
+    <script>
+      var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"t'%section.primary_layout.article_layout
+    .inner-bounds.block.background-white
+
+
+        .content-row
+            -# Project Index
+            %section.related-reading.collection.grid-3-per
+                %h2.section-title.center
+                    Project Index
+                    %span
+                        Local Paths
+
+                %hr.thick.neutral-light-bg.partial/
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/article_feature/"}
+                            %h3.text-meta-header Article: Feature
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/article_blog/"}
+                            %h3.text-meta-header Article: Blog w/ Photo
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/article_blog_no_photo/"}
+                            %h3.text-meta-header Article: Blog w/o Photo
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Article Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/article_column/"}
+                            %h3.text-meta-header Article: Column
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/blog_roll/"}
+                            %h3.text-meta-header List: Blog Roll
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/story_roll/"}
+                            %h3.text-meta-header List: Story Roll
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta List Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/search_results/"}
+                            %h3.text-meta-header List: Search Results
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Home Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/"}
+                            %h3.text-meta-header Home
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+
+
+
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_about/"}
+                            %h3.text-meta-header Utility: About Us
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_contact/"}
+                            %h3.text-meta-header Utility: Contact
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_contributors/"}
+                            %h3.text-meta-header Utility: Contributors
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_media-kit/"}
+                            %h3.text-meta-header Utility: Media Kit
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_partners-and-allies/"}
+                            %h3.text-meta-header Utility: Partners & Allies
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+                .media-object.with-large-image.grid-element.popup-content
+                    %img.load{:src => "../assets/img/content/th-feature-placeholder.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder.jpg", :alt => "image title"}/
+                    .popup-content-wrap
+                        .text-meta Utility Layout
+
+                        %a.media-copy{:target=>"_blank", :href => "/utility_privacy-policy/"}
+                            %h3.text-meta-header Utility: Privacy Policy
+                            %p.text-meta-sub.light-text-color.sans-meta
+                                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶;T;
+I"+)<section class='primary_layout article_layout'>
+  <div class='inner-bounds block background-white'>
+    <div class='content-row'>
+      <section class='related-reading collection grid-3-per'>
+        <h2 class='section-title center'>
+          Project Index
+          <span>
+            Local Paths
+          </span>
+        </h2>
+        <hr class='thick neutral-light-bg partial'>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/article_feature/' target='_blank'>
+              <h3 class='text-meta-header'>Article: Feature</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/article_blog/' target='_blank'>
+              <h3 class='text-meta-header'>Article: Blog w/ Photo</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/article_blog_no_photo/' target='_blank'>
+              <h3 class='text-meta-header'>Article: Blog w/o Photo</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Article Layout</div>
+            <a class='media-copy' href='/article_column/' target='_blank'>
+              <h3 class='text-meta-header'>Article: Column</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/blog_roll/' target='_blank'>
+              <h3 class='text-meta-header'>List: Blog Roll</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/story_roll/' target='_blank'>
+              <h3 class='text-meta-header'>List: Story Roll</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>List Layout</div>
+            <a class='media-copy' href='/search_results/' target='_blank'>
+              <h3 class='text-meta-header'>List: Search Results</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Home Layout</div>
+            <a class='media-copy' href='/' target='_blank'>
+              <h3 class='text-meta-header'>Home</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_about/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: About Us</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_contact/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Contact</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_contributors/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Contributors</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_media-kit/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Media Kit</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_partners-and-allies/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Partners & Allies</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder.jpg' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='text-meta'>Utility Layout</div>
+            <a class='media-copy' href='/utility_privacy-policy/' target='_blank'>
+              <h3 class='text-meta-header'>Utility: Privacy Policy</h3>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+;T;@j:versioni

@@ -2,11 +2,28 @@
 Burnlist: notes, mini bugs, etc
 ----
 
+03/26/14
+
+[] 'View All' Button on Homepage
+
+[] Logo tagline bumped right
+
+[x] Search Input special WP markup
+
+[] What does list of all issues look like?
+
+[] .add-social Search Icon should hide
+
+[] Placeholder img content
+
+[] Email Security (john's .js)
+
+[] Short page (search) results
 
 
 
 # Changes for Integration
-# Notes for John
+# Notes for WP
 
     _Files Updated_
     assets/fonts - replace directory

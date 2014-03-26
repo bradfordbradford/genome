@@ -5,9 +5,9 @@
 
 #site-wrap-outer {
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
   width: 100%;
-  // height: 100%;
+  height: 100%;
   z-index: 10;
 }
 
@@ -20,13 +20,15 @@
 
 // NOTE: Offset fixed navigation
 #content-wrap {
-  padding-top:$navbarHeight*1.5;
+  padding-top:$navbarHeight;
+  height: auto !important;
 }
 
 .inner-bounds {
   // NOTE: Content is edge to edge unless given .inner-bounds
   // .inner-bounds also makes .paper-white fill parent height
   @include container;
+  height:auto;
 
   // NOTE: Footer offset added below. Use this to remove it:
   &.remove-footer-offset {
@@ -84,7 +86,7 @@
 #content-wrap {
   // min-height: 100%;
   // NOTE: Margin-bottom allows footer to peak above the fold on empty pages.
-  margin-bottom: - ($navbarHeight / 2) ;
+  // margin-bottom: - ($navbarHeight / 2) ;
   position: relative;
   z-index: 11;
 }
@@ -97,6 +99,20 @@
   // @include susy-grid-background;
 }
 
+// Footer Settings depending on Skrollr.js loading
+.no-touch.skrollr {
+  #main-footer {
+    margin-top: - ($footerHeight / 2 ) - ($navbarHeight / 3.6) ;
+  }
+}
 
+.touch {
+  body {
+    height: auto;
+  }
+  #main-footer {
+    margin-top: -$navbarHeight;
+  }
+}
 
 
