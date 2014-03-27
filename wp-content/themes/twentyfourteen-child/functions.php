@@ -1036,4 +1036,92 @@ function paging_nav() {
 }
 endif;
 
+add_action('init', 'current_issue_register');
+function current_issue_register() {
+ 
+  $labels = array(
+    'name' => _x('Current Issue', 'post type general name'),
+    'singular_name' => _x('Current Issue', 'post type singular name'),
+    'add_new' => _x('Add New', 'Current Issue'),
+    'add_new_item' => __('Add New Current Issue'),
+    'edit_item' => __('Edit Current Issue'),
+    'new_item' => __('New Current Issue'),
+    'view_item' => __('View Current Issue'),
+    'search_items' => __('Search Current Issue'),
+    'not_found' =>  __('Nothing found'),
+    'not_found_in_trash' => __('Nothing found in Trash'),
+    'parent_item_colon' => ''
+  );
+ 
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'query_var' => true,
+    'menu_icon' => 'dashicons-format-aside',
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'hierarchical' => false,
+    'menu_position' => null,
+    'supports' => array('title','editor','thumbnail')
+    ); 
+ 
+  register_post_type( 'current_issue' , $args );
+}
+
+add_action('admin_init', 'admin_init1');
+function admin_init1(){
+  add_meta_box("issue_number-meta", "Issue Number", "issue_number", "current_issue", "side", "low");
+  //add_meta_box("credits_meta", "Design &amp; Build Credits", "credits_meta", "portfolio", "normal", "low");
+}
+ 
+function issue_number(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $issue_number = $custom["issue_number"][0];
+  ?>
+  <label>#:</label>
+  <input name="issue_number" value="<?php echo $issue_number; ?>" />
+  <?php
+}
+
+add_action('save_post', 'save_details1');
+
+function save_details1(){
+  global $post;
+ 
+  update_post_meta($post->ID, "issue_number", $_POST["issue_number"]);
+
+}
+
+add_action("manage_posts_custom_column",  "portfolio_custom_columns1");
+add_filter("manage_edit-current_issue_columns", "portfolio_edit_columns1");
+ 
+function portfolio_edit_columns1($columns){
+  $columns = array(
+    "cb" => "<input type='checkbox' />",
+    "title" => "Current Issue Title",
+    "description" => "Description",
+    "issue_number" => "Issue Number",
+  );
+ 
+  return $columns;
+}
+function portfolio_custom_columns1($column){
+  global $post;
+ 
+  switch ($column) {
+    case "description":
+      the_excerpt();
+      break;
+    case "issue_number":
+      $custom = get_post_custom();
+      echo $custom["issue_number"][0];
+      break;
+  }
+}
+
+add_theme_support('post-thumbnails');
+
 ?>

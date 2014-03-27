@@ -25,6 +25,19 @@ get_header(); ?>
               <hr class='neutral-bg'>
             </header>
           </div>
+
+
+				<?php
+					// Start the Loop.
+					while ( have_posts() ) : the_post();
+
+					//print_r($post);
+					//echo $post->ID;
+
+					$feature = get_post_meta( get_the_ID(), 'Feature Title', true );
+					// If it contains Feature Title, it's a Feature
+					if( ! empty( $feature ) ) : ?>
+					  
           <div class='inner-bounds background-white card-block'>
             <div class='content-row'>
               <section class='collection grid-3-per'>
@@ -35,26 +48,87 @@ get_header(); ?>
                 </h2>
                 <hr class='neutral-bg'>
 
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+                <?php 
+									/*
+									 * Include the post format-specific template for the content. If you want to
+									 * use this in a child theme, then include a file called called content-___.php
+									 * (where ___ is the post format) and that will be used instead.
+									 */
+									get_template_part( 'content', 'search' );
+                ?>
 
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
+              </section>
+            </div>
+          </div>
 
-						?>
-									  </section>
-			</div>
-		  </div>
-		  		<?php
-					endwhile;
+          <?php endif; ?>
+
+          <?php
+          $feature = get_post_meta( get_the_ID(), 'Feature Title', true );
+          $column = get_post_meta( get_the_ID(), 'Subtitle', true );
+          $blog = $post->post_type;
+					// If it contains Feature Title, it's a Feature
+					if( empty( $feature ) && ! empty( $column ) && $blog == 'page' ) : ?>
+					  
+          <div class='inner-bounds background-white card-block'>
+            <div class='content-row'>
+              <section class='collection grid-3-per'>
+                <h2 class='section-title left smaller'>
+                  <span>
+                    Columns & Departments
+                  </span>
+                </h2>
+                <hr class='neutral-bg'>
+
+                <?php 
+									/*
+									 * Include the post format-specific template for the content. If you want to
+									 * use this in a child theme, then include a file called called content-___.php
+									 * (where ___ is the post format) and that will be used instead.
+									 */
+									get_template_part( 'content', 'search' );
+                ?>
+
+              </section>
+            </div>
+          </div>
+
+          <?php endif; ?>
+
+          <?php
+          $blog = $post->post_type;
+					// If it contains Feature Title, it's a Feature
+					if( $blog == 'post' ) : ?>
+					  
+          <div class='inner-bounds background-white card-block'>
+            <div class='content-row'>
+              <section class='collection grid-3-per'>
+                <h2 class='section-title left smaller'>
+                  <span>
+                    From The blog
+                  </span>
+                </h2>
+                <hr class='neutral-bg'>
+
+                <?php 
+									/*
+									 * Include the post format-specific template for the content. If you want to
+									 * use this in a child theme, then include a file called called content-___.php
+									 * (where ___ is the post format) and that will be used instead.
+									 */
+									get_template_part( 'content', 'search' );
+                ?>
+
+              </section>
+            </div>
+          </div>
+
+          <?php endif; ?>
+
+		  		<?php endwhile;
 					
 					// Previous/next post navigation.
-					twentyfourteen_paging_nav();
+					// twentyfourteen_paging_nav();
 
 					else :
 						// If no content, include the "No posts found" template.
@@ -75,9 +149,9 @@ get_header(); ?>
               Not what you were looking for? Let's try this again:
             </h2>
             <div class='form-box'>
-              <form action=''>
-                <a class='input-icon' data-icon='C' href='#'></a>
-                <input id='search' placeholder='What were you looking for?' type='text'>
+              <form role='search' method='get' action='<?php echo site_url(); ?>'>
+                <input class='input-icon' data-icon='C' type='submit' value='Search'>
+                <input id='search' name='s' placeholder='What were you looking for?' type='text'>
               </form>
             </div>
           </div>
