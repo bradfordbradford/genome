@@ -155,7 +155,7 @@
                         <?php
                           $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
                           if ($featured_img == '') {
-                            $featured_img = site_url() . '/wp-content/themes/twentyfourteen-child/img/content/article-img-placeholderRetina.png';
+                            $featured_img = get_stylesheet_directory_uri() . '/img/content/article-img-placeholderRetina.png';
                           }
                         ?>
                         <div class='media-object with-large-image grid-element popup-content'>
