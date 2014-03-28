@@ -44,7 +44,7 @@
                               if (function_exists('get_wp_user_avatar_src')) {
                                 $avatar = get_wp_user_avatar_src($user_id);
                               } else {
-                                $avatar = site_url() . '/wp-content/uploads/2014/03/user-placeholderRetina-150x150.png';
+                                $avatar = get_stylesheet_directory_uri() . '/img/icons/user-placeholderRetina.png';
                               }
                             ?>
                             <img alt='' class='author-pic' src='<?php echo $avatar; ?>'>

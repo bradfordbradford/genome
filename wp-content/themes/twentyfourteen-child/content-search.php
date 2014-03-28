@@ -12,7 +12,7 @@
 <?php
   $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
   if ($featured_img == '') {
-    $featured_img = get_stylesheet_directory_uri() . '/img/content/article-img-placeholderRetina.png';
+    $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
   }
 ?>
 
@@ -31,7 +31,7 @@
                         }
                       }
                     ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
-                    <a class='media-copy' href='<?php echo get_permalink(); ?>'>
+                    <a class='media-copy' href='<?php echo get_permalink($post->ID); ?>'>
                       <h3 class='text-meta-header'><?php the_title(); ?></h3>
                       <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
                       <p class='text-meta-sub light-text-color sans-meta'>

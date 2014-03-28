@@ -49,7 +49,7 @@
                               </a>
                             </h3>
                             <p class='text-meta-sub light-text-color'>
-                              <a href='#'>
+                              <a href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>
                                 By <?php the_author(); ?>
                               </a>
                               <span class='action' data-icon='F' href='#'>

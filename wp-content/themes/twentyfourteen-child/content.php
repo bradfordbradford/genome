@@ -32,7 +32,7 @@
                   <?php the_title( '<h2>', '</h2>' ); ?>
 
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
-                  <a class='author-attrib text-meta-highlight' href='http://link/…'>By <?php the_author(); ?></a>
+                  <a class='author-attrib text-meta-highlight' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>By <?php the_author(); ?></a>
                   <div class='addthis_toolbox social-list'>
                     <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                       <span class='line'></span>
@@ -118,23 +118,15 @@
                   <div class='article-meta'>
                     <div class='left'>
                       By
-                      <a class='emph' href='#'>Authur Righter</a>
+                      <a class='emph' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>Authur Righter</a>
                       <span class='interpunct'>&#183</span>
                       <time>December 22, 2013</time>
                     </div>
                     <div class='right'>
                       <a class='action' data-icon='p' href='#1'>PRINT</a>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='i' href='#2'>
-                      <?php
-                        if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-                      ?>
-                      <?php comments_popup_link( __( '0', 'twentyfourteen' ), __( '1', 'twentyfourteen' ), __( '%', 'twentyfourteen' ) ); ?>
-                      <?php
-                        endif;
-
-                        edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-                      ?>
+                      <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
+                      <?php edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
                         <div class='comment-counter'></div>
                       </a>
                     </div>
@@ -177,7 +169,10 @@
                     </div>
                   </footer>
                 </article>
-                <?php get_sidebar(); ?>
+                <aside class='aside-column-primary'>
+                  <?php get_sidebar( 'most-popular' ); ?>
+                  <?php get_sidebar( 'print-edition' ); ?>
+                </aside>
               </div>
               <div class='content-row end-block block'>
                 <section class='collection grid-3-per with-dividers'>
@@ -221,7 +216,7 @@
                         <?php
                           $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
                           if ($featured_img == '') {
-                            $featured_img = get_stylesheet_directory_uri() . '/img/content/article-img-placeholderRetina.png';
+                            $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
                           }
                         ?>
                         <div class='media-object with-large-image grid-element popup-content'>
@@ -281,7 +276,7 @@
                             </a>
                           </h3>
                           <p class='text-meta-sub light-text-color'>
-                            <a href='#'>By <?php the_author(); ?></a>
+                            <a href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>By <?php the_author(); ?></a>
                             <span class='interpunct'>&#183</span>
                             <?php echo get_the_time('F j, Y'); ?>
 
@@ -314,8 +309,4 @@
                       </div>
                     </li>
 <?php endif; // Individual / List Page ?>
-
-<?php if ( is_search() ) : ?>
-  Search blog.
-<?php endif; ?>
 

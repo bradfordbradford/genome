@@ -70,12 +70,21 @@ function the_post_thumbnail_description() {
 // Post types
 function myplugin_settings() {  
 	// Add tag metabox to page
-	register_taxonomy_for_object_type('post_tag', 'page'); 
+	register_taxonomy_for_object_type('post_tag', 'page');
 	// Add category metabox to page
-	register_taxonomy_for_object_type('category', 'page');  
+	register_taxonomy_for_object_type('category', 'page');
 }
  // Add to the admin_init hook of your theme functions.php file 
 add_action( 'admin_init', 'myplugin_settings' );
+
+function custom_post_author_archive( &$query )
+{
+    if ( $query->is_author )
+        $query->set( 'post_type', array( 'post', 'page' ) );
+        // $query->set( 'post_type', 'post' );
+    remove_action( 'pre_get_posts', 'custom_post_author_archive' ); // run once!
+}
+add_action( 'pre_get_posts', 'custom_post_author_archive' );
 
 // Content filters
 function first_paragraph($content){
@@ -197,7 +206,6 @@ function contrib_function($atts){
 	), $atts));
 
 	$author = get_user_by('login', $author);
-
 	// print_r($author);
 
 	// echo $author->display_name;
@@ -205,7 +213,7 @@ function contrib_function($atts){
 	if (function_exists('get_wp_user_avatar_src')) {
 		$avatar = get_wp_user_avatar_src($author->id);
 	} else {
-		$avatar = '';
+		$avatar = get_stylesheet_directory_uri() . '/img/icons/user-placeholderRetina.png';
 	}
 
 	if ($pos == 'first' && $posts == '') {
@@ -220,7 +228,7 @@ function contrib_function($atts){
                         <img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>
                         <div class='media-copy'>
                           <h3 class='text-meta-header' href='#'>
-                            <a href='#'>
+                            <a href='" . site_url() . "/author/" . $author->user_nicename . "'>
                               " . $author->display_name . "
                             </a>
                           </h3>
@@ -228,7 +236,7 @@ function contrib_function($atts){
                             " . $author->description . "
                           </p>
                           <div class='view-all'>
-                            <a class='italic serif' href='#'>
+                            <a class='italic serif' href='" . site_url() . "/author/" . $author->user_nicename . "'>
                               View All Articles
                               <span class='double-quote-right'>
                                 &#187;
@@ -1073,6 +1081,7 @@ function current_issue_register() {
 add_action('admin_init', 'admin_init1');
 function admin_init1(){
   add_meta_box("issue_number-meta", "Issue Number", "issue_number", "current_issue", "side", "low");
+  add_meta_box("issue_link-meta", "Issue Link", "issue_link", "current_issue", "side", "low");
   //add_meta_box("credits_meta", "Design &amp; Build Credits", "credits_meta", "portfolio", "normal", "low");
 }
  
@@ -1082,7 +1091,15 @@ function issue_number(){
   $issue_number = $custom["issue_number"][0];
   ?>
   <label>#:</label>
-  <input name="issue_number" value="<?php echo $issue_number; ?>" />
+  <input name="issue_number" type="text" size="4" value="<?php echo $issue_number; ?>" />
+  <?php
+}
+function issue_link(){
+  global $post;
+  $custom = get_post_custom($post->ID);
+  $issue_link = $custom["issue_link"][0];
+  ?>
+  <input name="issue_link" type="text" size="24" value="<?php echo $issue_link; ?>" />
   <?php
 }
 
@@ -1092,6 +1109,7 @@ function save_details1(){
   global $post;
  
   update_post_meta($post->ID, "issue_number", $_POST["issue_number"]);
+  update_post_meta($post->ID, "issue_link", $_POST["issue_link"]);
 
 }
 
@@ -1123,5 +1141,17 @@ function portfolio_custom_columns1($column){
 }
 
 add_theme_support('post-thumbnails');
+
+# http://css-tricks.com/snippets/wordpress/make-archives-php-include-custom-post-types/
+# For Categories
+function namespace_add_custom_types( $query ) {
+  if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
+    $query->set( 'post_type', array(
+     'post', 'page'
+    ));
+    return $query;
+  }
+}
+add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
 
 ?>

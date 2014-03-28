@@ -30,17 +30,19 @@
                     <div class='media-object with-large-image'>
                       <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                       <img alt='' src='<?php echo $featured_img; ?>'>
-                      <a class='text-meta' href='#'>issue <?php echo get_post_meta( get_the_ID(), 'current_issue', true ); ?></a>
+                      <a class='text-meta' href='#'>issue <?php echo get_post_meta( get_the_ID(), 'issue_number', true ); ?></a>
                       <div class='media-copy'>
                         <h3 class='text-meta-header'><?php the_title(); ?></h3>
                         <p class='text-meta-sub contrast sans-meta'>
                           <?php
-                            remove_filter( 'the_excerpt', 'wpautop' );
-                            the_excerpt();
+                            $content = get_the_content();
+                            $content = preg_replace('/<p([^>]+)?>/', '', $content, 1);
+                            $content = str_replace('</p>', '', $content);
+                            echo $content;
                           ?>
                         </p>
                       </div>
-                      <a class='special primary btn icon-glasses' href='https://www.google.com/'>
+                      <a class='special primary btn icon-glasses' href='<?php echo get_post_meta( get_the_ID(), 'issue_link', true ); ?>'>
                         <span>
                           Explore this Issue
                         </span>
