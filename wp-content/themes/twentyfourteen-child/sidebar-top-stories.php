@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class='aside-block with-top-border'>
+<div class='aside-block <?php if (is_front_page()) { echo "with-top-border"; } else { echo "double-spaced"; } ?>'>
                     <header>
                       <h2 class='section-title'>
                         Top

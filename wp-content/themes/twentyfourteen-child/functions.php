@@ -1103,15 +1103,25 @@ function issue_link(){
   <?php
 }
 
-add_action('save_post', 'save_details1');
-
-function save_details1(){
+add_action('save_post', 'save_my_metadata');
+function save_my_metadata($ID = false, $post = false) {
   global $post;
- 
-  update_post_meta($post->ID, "issue_number", $_POST["issue_number"]);
-  update_post_meta($post->ID, "issue_link", $_POST["issue_link"]);
-
+  
+  if($post->post_type != 'current_issue') {
+    return;
+  } else {
+    update_post_meta($ID, "issue_number", $_POST["issue_number"]);
+    update_post_meta($ID, "issue_link", $_POST["issue_link"]);
+  }
 }
+
+// function save_details1(){
+//   global $post;
+ 
+//   update_post_meta($post->ID, "issue_number", $_POST["issue_number"]);
+//   update_post_meta($post->ID, "issue_link", $_POST["issue_link"]);
+
+// }
 
 add_action("manage_posts_custom_column",  "portfolio_custom_columns1");
 add_filter("manage_edit-current_issue_columns", "portfolio_edit_columns1");
@@ -1153,5 +1163,16 @@ function namespace_add_custom_types( $query ) {
   }
 }
 add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
+
+// Blank search behavior
+function SearchFilter($query) {
+    // If 's' request variable is set but empty
+    if (isset($_GET['s']) && empty($_GET['s']) && $query->is_main_query()){
+        $query->is_search = true;
+        $query->is_home = false;
+    }
+    return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
 
 ?>

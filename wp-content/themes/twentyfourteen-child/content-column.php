@@ -110,7 +110,10 @@
                       </div>
                     </footer>
                   </article>
-                  <?php get_sidebar(); ?>
+                  <aside class='aside-column-primary'>
+                    <?php get_sidebar( 'top-stories' ); ?>
+                    <?php get_sidebar( 'print-edition' ); ?>
+                  </aside>
                 </div>
               </div>
               <div class='content-row end-block block'>

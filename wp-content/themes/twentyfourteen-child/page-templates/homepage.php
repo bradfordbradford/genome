@@ -17,6 +17,23 @@ get_header(); ?>
         <main id='content-wrap' role='main'>
           <header class='hero hero-featured-article background-size-full center'>
 
+          <?php // Get Issue #
+            $args = array(
+              'post_type' => 'current_issue',
+              'orderby'   => 'date',
+              'order'     => 'dsc',
+              'showposts' => 1,
+            );
+
+            // The Query
+            $the_query = new WP_Query( $args );
+
+            // Not an acutal Loop, only display the most recent values
+            //print_r($the_query);
+            while ( $the_query->have_posts() ): $the_query->the_post();
+              $issue = get_post_meta( get_the_ID(), 'issue_number', true );
+            endwhile;
+          ?>
 
         	<?php
         		$args = array(
@@ -35,7 +52,6 @@ get_header(); ?>
 						  $url = get_permalink();
 							$author = the_author();
 							$subtitle = get_post_meta( get_the_ID(), 'Subtitle', true );
-							$issue = get_post_meta( get_the_ID(), 'Issue Number', true );
 	            $title = get_post_meta( get_the_ID(), 'Feature Title', true );
               $title = nl2br($title);
               $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );

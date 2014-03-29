@@ -194,7 +194,7 @@ get_header(); ?>
         <?php
           endif; // !empty($blog_ids)
 
-            endif; // have posts
+            else: // no posts
         ?>
 
                 <span>
@@ -219,6 +219,10 @@ get_header(); ?>
             </div>
           </div>
         </div>
+
+        <?php
+             endif; // have posts
+        ?>
 
 		</main>
 	</div>
