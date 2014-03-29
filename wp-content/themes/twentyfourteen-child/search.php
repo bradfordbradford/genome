@@ -27,17 +27,30 @@ get_header(); ?>
           </div>
 
 
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+        <?php
+          while ( have_posts() ) : the_post();
+            $feature = get_post_meta( get_the_ID(), 'Feature Title', true );
+            $column = get_post_meta( get_the_ID(), 'Subtitle', true );
+            $blog = $post->post_type;
 
-					//print_r($post);
-					//echo $post->ID;
+            if ($blog == 'post') {
+              $blog_ids[] .= $post->ID;
+              //print_r($post);
+            } elseif (!empty($feature)) {
+              $feature_ids[] .= $post->ID;
+            } elseif (empty($feature) && !empty($column)) {
+              $column_ids[] .= $post->ID;
+            }
+            //$IDZ[] .= $post->ID;
+          endwhile;
+          // echo "Features: ";
+          // print_r($feature_ids);
+          // echo "<br>Columns: ";
+          // print_r($column_ids);
+          // echo "<br>Blogs: ";
+          // print_r($blog_ids);
 
-					$feature = get_post_meta( get_the_ID(), 'Feature Title', true );
-					// If it contains Feature Title, it's a Feature
-					if( ! empty( $feature ) ) : ?>
-					  
+          if (!empty($feature_ids)) : ?>
           <div class='inner-bounds background-white card-block'>
             <div class='content-row'>
               <section class='collection grid-3-per'>
@@ -48,58 +61,92 @@ get_header(); ?>
                 </h2>
                 <hr class='neutral-bg'>
 
-                <?php 
-									/*
-									 * Include the post format-specific template for the content. If you want to
-									 * use this in a child theme, then include a file called called content-___.php
-									 * (where ___ is the post format) and that will be used instead.
-									 */
-									get_template_part( 'content', 'search' );
-                ?>
+                  <?php
+                  // Start the Loop.
+                  // $blog = $post->post_type;
+                  // while ( have_posts() ) : the_post(); ?>
+
+
+
+                          <?php 
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            foreach($feature_ids as $post) {
+                              // echo $item.', ';
+                              // echo $post->ID.'. ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
+                              //echo $item['filepath'];
+                              //the_title();
+                              get_template_part( 'content', 'search' );
+
+                              // to know what's in $item
+                              //echo '<pre>'; var_dump($item);
+                          }
+
+                            
+                          ?>
+
+                  <?php //endwhile; ?>
 
               </section>
             </div>
           </div>
+        <?php
+          endif; // !empty($blog_ids)
 
-          <?php endif; ?>
-
-          <?php
-          $feature = get_post_meta( get_the_ID(), 'Feature Title', true );
-          $column = get_post_meta( get_the_ID(), 'Subtitle', true );
-          $blog = $post->post_type;
-					// If it contains Feature Title, it's a Feature
-					if( empty( $feature ) && ! empty( $column ) && $blog == 'page' ) : ?>
-					  
+          if (!empty($column_ids)) : ?>
           <div class='inner-bounds background-white card-block'>
             <div class='content-row'>
               <section class='collection grid-3-per'>
                 <h2 class='section-title left smaller'>
                   <span>
-                    Columns & Departments
+                    Columns &amp; Departments
                   </span>
                 </h2>
                 <hr class='neutral-bg'>
 
-                <?php 
-									/*
-									 * Include the post format-specific template for the content. If you want to
-									 * use this in a child theme, then include a file called called content-___.php
-									 * (where ___ is the post format) and that will be used instead.
-									 */
-									get_template_part( 'content', 'search' );
-                ?>
+                  <?php
+                  // Start the Loop.
+                  // $blog = $post->post_type;
+                  // while ( have_posts() ) : the_post(); ?>
+
+
+
+                          <?php 
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            foreach($column_ids as $post) {
+                              // echo $item.', ';
+                              // echo $post->ID.'. ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
+                              //echo $item['filepath'];
+                              //the_title();
+                              get_template_part( 'content', 'search' );
+
+                              // to know what's in $item
+                              //echo '<pre>'; var_dump($item);
+                          }
+
+                            
+                          ?>
+
+                  <?php //endwhile; ?>
 
               </section>
             </div>
           </div>
+        <?php
+          endif; // !empty($blog_ids)
 
-          <?php endif; ?>
-
-          <?php
-          $blog = $post->post_type;
-					// If it contains Feature Title, it's a Feature
-					if( $blog == 'post' ) : ?>
-					  
+          if (!empty($blog_ids)) : ?>
           <div class='inner-bounds background-white card-block'>
             <div class='content-row'>
               <section class='collection grid-3-per'>
@@ -110,38 +157,54 @@ get_header(); ?>
                 </h2>
                 <hr class='neutral-bg'>
 
-                <?php 
-									/*
-									 * Include the post format-specific template for the content. If you want to
-									 * use this in a child theme, then include a file called called content-___.php
-									 * (where ___ is the post format) and that will be used instead.
-									 */
-									get_template_part( 'content', 'search' );
-                ?>
+                  <?php
+                  // Start the Loop.
+                  // $blog = $post->post_type;
+                  // while ( have_posts() ) : the_post(); ?>
+
+
+
+                          <?php 
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            foreach($blog_ids as $post) {
+                              // echo $item.', ';
+                              // echo $post->ID.'. ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
+                              //echo $item['filepath'];
+                              //the_title();
+                              get_template_part( 'content', 'search' );
+
+                              // to know what's in $item
+                              //echo '<pre>'; var_dump($item);
+                          }
+
+                            
+                          ?>
+
+                  <?php //endwhile; ?>
 
               </section>
             </div>
           </div>
+        <?php
+          endif; // !empty($blog_ids)
 
-          <?php endif; ?>
+            endif; // have posts
+        ?>
 
-		  		<?php endwhile;
-					
-					// Previous/next post navigation.
-					// twentyfourteen_paging_nav();
-
-					else :
-						// If no content, include the "No posts found" template.
-						//get_template_part( 'content', 'none' );
-						 ?>
-								Sorry, no content was found.
-									</h2>
+                <span>
+                  No Search Results Matching: 
+                </span>
+                <?php printf( __( '%s', 'twentyfourteen' ), get_search_query() ); ?>
+              </h2>
               <hr class='neutral-bg'>
             </header>
           </div>
-
-				<?php	endif;
-				?>
 
 		    <div class='inner-bounds background-white card-block'>
           <div class='content-row'>

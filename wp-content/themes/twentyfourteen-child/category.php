@@ -28,24 +28,34 @@ get_header(); ?>
 
         <?php
           while ( have_posts() ) : the_post();
-            if ($post->post_type == 'post') {
+            $feature = get_post_meta( get_the_ID(), 'Feature Title', true );
+            $column = get_post_meta( get_the_ID(), 'Subtitle', true );
+            $blog = $post->post_type;
+
+            if ($blog == 'post') {
               $blog_ids[] .= $post->ID;
               //print_r($post);
+            } elseif (!empty($feature)) {
+              $feature_ids[] .= $post->ID;
+            } elseif (empty($feature) && !empty($column)) {
+              $column_ids[] .= $post->ID;
             }
             //$IDZ[] .= $post->ID;
           endwhile;
-          print_r($blog_ids);
+          // echo "Features: ";
+          // print_r($feature_ids);
+          // echo "<br>Columns: ";
+          // print_r($column_ids);
+          // echo "<br>Blogs: ";
+          // print_r($blog_ids);
 
-          // $feature = get_post_meta( get_the_ID(), 'Feature Title', true );
-          // if (have_posts() && ! empty( $feature )) :
-
-          if (!empty($blog_ids)) { ?>
+          if (!empty($feature_ids)) : ?>
           <div class='inner-bounds background-white card-block'>
             <div class='content-row'>
               <section class='collection grid-3-per'>
                 <h2 class='section-title left smaller'>
                   <span>
-                    From The blog
+                    Features
                   </span>
                 </h2>
                 <hr class='neutral-bg'>
@@ -55,17 +65,19 @@ get_header(); ?>
                   // $blog = $post->post_type;
                   // while ( have_posts() ) : the_post(); ?>
 
+
+
                           <?php 
                             /*
                              * Include the post format-specific template for the content. If you want to
                              * use this in a child theme, then include a file called called content-___.php
                              * (where ___ is the post format) and that will be used instead.
                              */
-                            foreach($blog_ids as $item) {
+                            foreach($feature_ids as $post) {
                               // echo $item.', ';
                               // echo $post->ID.'. ';
-                              $post->ID = $item;
-                              echo $post->ID.', ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
                               //echo $item['filepath'];
                               //the_title();
                               get_template_part( 'content', 'search' );
@@ -82,14 +94,107 @@ get_header(); ?>
               </section>
             </div>
           </div>
-        <?php  }
-        endif;
+        <?php
+          endif; // !empty($blog_ids)
+
+          if (!empty($column_ids)) : ?>
+          <div class='inner-bounds background-white card-block'>
+            <div class='content-row'>
+              <section class='collection grid-3-per'>
+                <h2 class='section-title left smaller'>
+                  <span>
+                    Columns &amp; Departments
+                  </span>
+                </h2>
+                <hr class='neutral-bg'>
+
+                  <?php
+                  // Start the Loop.
+                  // $blog = $post->post_type;
+                  // while ( have_posts() ) : the_post(); ?>
+
+
+
+                          <?php 
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            foreach($column_ids as $post) {
+                              // echo $item.', ';
+                              // echo $post->ID.'. ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
+                              //echo $item['filepath'];
+                              //the_title();
+                              get_template_part( 'content', 'search' );
+
+                              // to know what's in $item
+                              //echo '<pre>'; var_dump($item);
+                          }
+
+                            
+                          ?>
+
+                  <?php //endwhile; ?>
+
+              </section>
+            </div>
+          </div>
+        <?php
+          endif; // !empty($blog_ids)
+
+          if (!empty($blog_ids)) : ?>
+          <div class='inner-bounds background-white card-block'>
+            <div class='content-row'>
+              <section class='collection grid-3-per'>
+                <h2 class='section-title left smaller'>
+                  <span>
+                    From The blog
+                  </span>
+                </h2>
+                <hr class='neutral-bg'>
+
+                  <?php
+                  // Start the Loop.
+                  // $blog = $post->post_type;
+                  // while ( have_posts() ) : the_post(); ?>
+
+
+
+                          <?php 
+                            /*
+                             * Include the post format-specific template for the content. If you want to
+                             * use this in a child theme, then include a file called called content-___.php
+                             * (where ___ is the post format) and that will be used instead.
+                             */
+                            foreach($blog_ids as $post) {
+                              // echo $item.', ';
+                              // echo $post->ID.'. ';
+                              // $post->ID = $item;
+                              // echo $post->ID.', ';
+                              //echo $item['filepath'];
+                              //the_title();
+                              get_template_part( 'content', 'search' );
+
+                              // to know what's in $item
+                              //echo '<pre>'; var_dump($item);
+                          }
+
+                            
+                          ?>
+
+                  <?php //endwhile; ?>
+
+              </section>
+            </div>
+          </div>
+        <?php
+          endif; // !empty($blog_ids)
+
+            endif; // have posts
         ?>
-
-
-
-
-
 
 		    <div class='inner-bounds background-white card-block'>
           <div class='content-row'>
