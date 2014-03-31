@@ -68,7 +68,7 @@ get_header(); ?>
 
 
 
-                          <?php 
+                          <?php
                             /*
                              * Include the post format-specific template for the content. If you want to
                              * use this in a child theme, then include a file called called content-___.php
@@ -87,7 +87,7 @@ get_header(); ?>
                               //echo '<pre>'; var_dump($item);
                           }
 
-                            
+
                           ?>
 
                   <?php //endwhile; ?>
@@ -116,7 +116,7 @@ get_header(); ?>
 
 
 
-                          <?php 
+                          <?php
                             /*
                              * Include the post format-specific template for the content. If you want to
                              * use this in a child theme, then include a file called called content-___.php
@@ -135,7 +135,7 @@ get_header(); ?>
                               //echo '<pre>'; var_dump($item);
                           }
 
-                            
+
                           ?>
 
                   <?php //endwhile; ?>
@@ -164,7 +164,7 @@ get_header(); ?>
 
 
 
-                          <?php 
+                          <?php
                             /*
                              * Include the post format-specific template for the content. If you want to
                              * use this in a child theme, then include a file called called content-___.php
@@ -183,7 +183,7 @@ get_header(); ?>
                               //echo '<pre>'; var_dump($item);
                           }
 
-                            
+
                           ?>
 
                   <?php //endwhile; ?>
@@ -198,7 +198,7 @@ get_header(); ?>
         ?>
 
                 <span>
-                  No Search Results Matching: 
+                  No Search Results Matching:
                 </span>
                 <?php printf( __( '%s', '' ), get_search_query() ); ?>
               </h2>
@@ -211,7 +211,7 @@ get_header(); ?>
             <h2 class='section-title left smaller'>
               Not what you were looking for? Let's try this again:
             </h2>
-            <div class='form-box'>
+            <div id="inline-search-box" class='form-box'>
               <form role='search' method='get' action='<?php echo site_url(); ?>'>
                 <input class='input-icon' data-icon='C' type='submit' value='Search'>
                 <input id='search' name='s' placeholder='What were you looking for?' type='text'>
