@@ -17,9 +17,9 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 								<span>
-									<?php printf( __( 'Search Results for: ', 'twentyfourteen' ) ); ?>
+									<?php printf( __( 'Search Results for: ', '' ) ); ?>
 								</span>
-			<?php printf( __( '%s', 'twentyfourteen' ), get_search_query() ); ?>
+			<?php printf( __( '%s', '' ), get_search_query() ); ?>
 
 							</h2>
               <hr class='neutral-bg'>
@@ -200,7 +200,7 @@ get_header(); ?>
                 <span>
                   No Search Results Matching: 
                 </span>
-                <?php printf( __( '%s', 'twentyfourteen' ), get_search_query() ); ?>
+                <?php printf( __( '%s', '' ), get_search_query() ); ?>
               </h2>
               <hr class='neutral-bg'>
             </header>

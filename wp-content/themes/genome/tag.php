@@ -21,9 +21,9 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 								<span>
-									<?php printf( __( 'Showing Results for: ', 'twentyfourteen' ) ); ?>
+									<?php printf( __( 'Showing Results for: ', '' ) ); ?>
 								</span>
-                <?php printf( __( '%s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?>
+                <?php printf( __( '%s', '' ), single_cat_title( '', false ) ); ?>
 
 							</h2>
               <hr class='neutral-bg'>

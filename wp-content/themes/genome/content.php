@@ -53,7 +53,7 @@
                     <a class='action' data-icon='p' href='#1'>Print</a>
                     <span class='ver-line'>&#124;</span>
                     <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
-                    <?php edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
+                    <?php edit_post_link( __( ' | Edit', '' ), '<span class="edit-link">', '</span>' ); ?>
                   </div>
                 </header>
                 <div class='article-photo primary'>

@@ -61,7 +61,7 @@
                           </h2>
                         </header>
                         <div class='media-object with-large-image collapse-content'>
-                          <img alt='image title' src='http://localhost:8888/GenomeCMS/wp-content/themes/twentyfourteen-child/img/content/cover-placeholder.jpg'>
+                          <img alt='image title' src='http://localhost:8888/GenomeCMS/wp-content/themes/genome/img/content/cover-placeholder.jpg'>
                           <a class='text-meta' href='http://link/…'>genome magazine</a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>

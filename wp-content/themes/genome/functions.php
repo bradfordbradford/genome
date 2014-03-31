@@ -478,7 +478,7 @@ function i_can_be_your_hero_baby_function($atts){
 
 //This callback registers our plug-in
 function wpse72394_register_tinymce_plugin($plugin_array) {
-    $plugin_array['wpse72394_button'] = '../../../wp-content/themes/twentyfourteen-child/shortcodes/hero.js';
+    $plugin_array['wpse72394_button'] = '../../../wp-content/themes/genome/shortcodes/hero.js';
     return $plugin_array;
 }
 
@@ -969,7 +969,6 @@ function new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
-if ( ! function_exists( 'twentyfourteen_paging_nav' ) ) :
 /**
  * Display navigation to next/previous set of posts when applicable.
  *
@@ -1042,7 +1041,6 @@ function paging_nav() {
   <?php
   endif;
 }
-endif;
 
 add_action('init', 'current_issue_register');
 function current_issue_register() {
