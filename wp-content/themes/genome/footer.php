@@ -25,7 +25,7 @@
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='<?php echo get_stylesheet_directory_uri(); ?>/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='<?php echo get_stylesheet_directory_uri(); ?>/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>

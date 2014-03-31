@@ -54,7 +54,7 @@
             <div class='grid-2-per major-r'>
               <div class='grid-element'>
                 <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                  <img alt='genome is the bomb-diggety' src='../assets/img/content/newsletter-ad.jpg'>
                 </div>
               </div>
               <div class='grid-element'>
