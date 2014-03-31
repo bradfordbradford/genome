@@ -31,13 +31,13 @@
                         }
                       }
                     ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
-                    <a class='media-copy' href='<?php echo get_permalink($post->ID); ?>'>
+                    <a class='media-copy' href='<?php echo get_permalink(); ?>'>
                       <h3 class='text-meta-header'><?php the_title(); ?></h3>
                       <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
                       <p class='text-meta-sub light-text-color sans-meta'>
                       <?php
-                        remove_filter( 'the_excerpt', 'wpautop' );
-                        the_excerpt();
+                        $my_excerpt = get_excerpt_by_id($post->id);
+                        echo $my_excerpt;
                       ?>
                       </p>
                     </a>
