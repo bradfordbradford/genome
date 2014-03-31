@@ -1,0 +1,30 @@
+
+
+
+// // Sticky Footer
+
+// * {
+//   margin: 0;
+// }
+// html,
+// body,
+// #site-wrap-outer {
+//   height: 100%;
+// }
+
+// #site-wrap-inner,
+// #site-wrap-outer {
+//   min-height: 100%;
+//   // equal to footer height - 40px for padding offset
+//   margin-bottom: -360px;
+// }
+
+// #site-wrap-outer:after
+// #site-wrap-inner:after, {
+//   content: "";
+//   display: block;
+// }
+
+// #main-footer, #site-wrap-inner:after,#site-wrap-outer:after {
+//   height:400px;
+// }

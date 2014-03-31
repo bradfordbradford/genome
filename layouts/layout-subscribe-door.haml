@@ -1,17 +1,45 @@
 -# Chapters Door
 #newsletter-door.g-door
-    .inner-bounds.block
-        .grid-2-per.major-r
-            .grid-element
-                .g-door-image-content
-                    %img{:src => "../assets/img/content/subscription-placeholder.jpg", :alt => "genome is the bomb-diggety"}/
-            .grid-element
-                %h2.section-title.left.smaller
-                    Subscribe to Genome
+  .inner-bounds.block
 
-                .form-box
-                    %form{:action => ""}
-                        %a.input-icon{:'data-icon'=>"K", :href=>"#"}
-                        %input{:type => "text", :placeholder => "jane@youremail.com"}/
+    %h2.section-title.smaller
+      The
+      %em
+        Genome
+      Newsletter
 
-                %a.close-g-door{:href => "x", :'data-icon'=>"D"}
+    %p.lead Sign up for our newsletter and get Genome updates in your inbox.
+
+    .form-box
+      %form.validate#mc-embedded-subscribe-form{:action => "http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;id=0a55916b1f", :name => "mc-embedded-subscribe-form", :method => "post", :target=>"_blank", :novalidate=>""}
+        .mc-field-group
+          %input.required.email#mce-EMAIL{:type => "email", :placeholder => "jane@youremail.com", :value=>"", :name=>"EMAIL"}/
+        #mce-responses.clear
+          .response#mce-error-response{:style=>"display:none"}
+          .response#mce-success-response{:style=>"display:none"}
+        %div{:style=>"position: absolute; left: -5000px;"}
+          %input{:type=>"text", :name=>"b_f01a898f9c8e64b560ee3c845_0a55916b1f", :value=>""}
+        .clear
+          %input#mc-embedded-subscribe.input-icon{:type => "submit", :value=>"Subscribe", :name=>"subscribe"}/
+
+    -# Archived Newsletter Content
+      .grid-2-per.major-r
+        .grid-element
+          .g-door-image-content
+            %img{:src => "../assets/img/content/newsletter-ad.jpg", :alt => "genome is the bomb-diggety"}/
+        .grid-element
+          %h2.section-title.left.smaller The Genome Newsletter
+
+          .form-box
+            %form.validate#mc-embedded-subscribe-form{:action => "http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;id=0a55916b1f", :name => "mc-embedded-subscribe-form", :method => "post", :target=>"_blank", :novalidate=>""}
+              .mc-field-group
+                %input.required.email#mce-EMAIL{:type => "email", :placeholder => "jane@youremail.com", :value=>"", :name=>"EMAIL"}/
+              #mce-responses.clear
+                .response#mce-error-response{:style=>"display:none"}
+                .response#mce-success-response{:style=>"display:none"}
+              %div{:style=>"position: absolute; left: -5000px;"}
+                %input{:type=>"text", :name=>"b_f01a898f9c8e64b560ee3c845_0a55916b1f", :value=>""}
+              .clear
+                %input#mc-embedded-subscribe.input-icon{:type => "submit", :value=>"Subscribe", :name=>"subscribe"}/
+
+        %a.close-g-door{:href => "x", :'data-icon'=>"D"}

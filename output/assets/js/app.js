@@ -1,22 +1,10 @@
-// Sticky Footer only for blank/short pages
-// if ($(document).height() <= $(window).height()) {
-//   $(window).load(function(){
-//     $(window).resize(function(){
-//      var height = $(window).height()
-//      $('#content-wrap').height(height) ;
-//   })
-//   $(window).resize(); //on page load
-//   });
-// }
+
 
 // Email Security
-  $(function() {
-   $('a[href^="mailto:"]').each(function() {
-    this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.');
-    // Remove this line if you don't want to set the email address as link text:
-    this.innerHTML = this.href.replace('mailto:', '');
-   });
-  });
+function createEmail(user, website, ending) {
+  document.write("<a href=" + "&#109a&#105l" + "&#116&#111:" + user + "&#64;" + website + "&#46;" + ending+ ">" + user + "@" + website + "." + ending+"</a>");
+}
+
 
 //  // Now, Now  //
 $(document).ready(function($) {
@@ -107,6 +95,7 @@ $(document).ready(function($) {
         });
         $('.article-header .eta-time').append(rte);
     });
+
 
 
 
@@ -247,27 +236,27 @@ $(document).ready(function($) {
 
     // Get Most Popular // ----------------------------------------------------
     addthis.addEventListener('addthis.ready', function popular(){
-
-      $.ajax({
-        // url: 'http://q.addthis.com/feeds/1.0/shared.json?domain=genome.telegraphcreative.co&pubid=ra-509d72c21cd49086&period=month',
-        url: 'http://q.addthis.com/feeds/1.0/shared.json?pubid=atblog&service=email&period=month',
-        // url: 'trigger-fail',
-        type: 'get',
-        dataType: "jsonp",
-        success: function (data) {
-          $('#most-pop-block').addClass('pop-success');
-          var items = [];
-          $.each(data, function (i, items) {
-              $('ul#most-pop-list').append('<li><div class=\'media-object\'><h3 class=\'text-meta-header small\'><a href="' + items.url + '">' + items.title + '</a></h3><p class=\'text-meta-sub light-text-color\'><span class=\'icon\' data-icon=\'A\'></span><span class=\'share-count\'>getting shares &hellip;</span></p></div></li>');
-              // Limit to 3 results
-              if ( i === 2 ) {return false;}
-          });
-        }
-      }).done(function(){
+    //
+    //   $.ajax({
+    //     // url: 'http://q.addthis.com/feeds/1.0/shared.json?domain=genome.telegraphcreative.co&pubid=ra-509d72c21cd49086&period=month',
+    //     url: 'http://q.addthis.com/feeds/1.0/shared.json?pubid=atblog&service=email&period=month',
+    //     // url: 'trigger-fail',
+    //     type: 'get',
+    //     dataType: "jsonp",
+    //     success: function (data) {
+    //       $('#most-pop-block').addClass('pop-success');
+    //       var items = [];
+    //       $.each(data, function (i, items) {
+    //           $('ul#most-pop-list').append('<li><div class=\'media-object\'><h3 class=\'text-meta-header small\'><a href="' + items.url + '">' + items.title + '</a></h3><p class=\'text-meta-sub light-text-color\'><span class=\'icon\' data-icon=\'A\'></span><span class=\'share-count\'>getting shares &hellip;</span></p></div></li>');
+    //           // Limit to 3 results
+    //           if ( i === 2 ) {return false;}
+    //       });
+    //     }
+    //   }).done(function(){
+    //     runShareCounts();
+    //   }).always(function(){
         runShareCounts();
-      }).always(function(){
-        runShareCounts();
-      });
+    //   });
     });
 
   // callback for updating share count on page
@@ -342,5 +331,3 @@ $(document).ready(function($) {
 
 
 });
-
-

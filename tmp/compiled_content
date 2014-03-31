@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"K~<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"ßÄ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -24,7 +24,7 @@
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -37,24 +37,30 @@
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -67,7 +73,7 @@
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -573,7 +579,7 @@
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -1045,7 +1051,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"t<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1071,7 +1077,7 @@ I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -1084,24 +1090,30 @@ I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -1114,7 +1126,7 @@ I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -1580,7 +1592,7 @@ I"/article_blog_no_photo/;T{;{	;I"¥q<!DOCTYPE html>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -1988,7 +2000,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"ÖÉ<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"·Ö<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2014,7 +2026,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -2027,24 +2039,30 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -2057,7 +2075,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -2564,7 +2582,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -3048,7 +3066,7 @@ I";<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"–Ç<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I",Ö<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3074,7 +3092,7 @@ I";<section class='primary_layout article_layout'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -3087,24 +3105,30 @@ I";<section class='primary_layout article_layout'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -3117,7 +3141,7 @@ I";<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -3552,7 +3576,7 @@ I";<section class='primary_layout article_layout'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -4107,7 +4131,7 @@ I"
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"B<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"sD<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4133,7 +4157,7 @@ I"
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -4146,24 +4170,30 @@ I"
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -4176,7 +4206,7 @@ I"
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -4398,7 +4428,7 @@ I"
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -4515,7 +4545,7 @@ I"ö<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"∆}<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I""Ä<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4541,7 +4571,7 @@ I"ö<section class='primary_layout'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -4554,24 +4584,30 @@ I"ö<section class='primary_layout'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -4584,7 +4620,7 @@ I"ö<section class='primary_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -5105,7 +5141,7 @@ I"ö<section class='primary_layout'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -5685,7 +5721,7 @@ I"™5<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"ò<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"cö<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5711,7 +5747,7 @@ I"™5<section class='primary_layout article_layout'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -5724,24 +5760,30 @@ I"™5<section class='primary_layout article_layout'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -5754,7 +5796,7 @@ I"™5<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -6411,7 +6453,7 @@ I"™5<section class='primary_layout article_layout'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -7136,7 +7178,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I" m<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"|o<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7162,7 +7204,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -7175,24 +7217,30 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -7205,7 +7253,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -7599,7 +7647,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -8036,7 +8084,7 @@ I"¸)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"fl<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I"Ÿn<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8062,7 +8110,7 @@ I"¸)<section class='primary_layout article_layout'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -8075,24 +8123,30 @@ I"¸)<section class='primary_layout article_layout'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -8105,7 +8159,7 @@ I"¸)<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -8494,7 +8548,7 @@ I"¸)<section class='primary_layout article_layout'>
               <h2 class='section-title left smaller'>
                 Not what you were looking for? Let's try this again:
               </h2>
-              <div class='form-box'>
+              <div class='form-box' id='inline-search-box'>
                 <form action=''>
                   <!-- %a.input-icon{:'data-icon'=>"C", :href=>"#"} -->
                   <input class='input-icon' data-icon='C' type='submit' value=''>
@@ -8521,7 +8575,7 @@ I"¸)<section class='primary_layout article_layout'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -8618,7 +8672,7 @@ I"¸)<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"¥%-# Search Results
+;T;	I"∆%-# Search Results
 .inner-bounds.remove-footer-offset.block
     %header.section-header.add-bleed
         %h2.section-title.left.smaller
@@ -8795,12 +8849,12 @@ I"¸)<section class='primary_layout article_layout'>
         %h2.section-title.left.smaller
             Not what you were looking for? Let's try this again:
 
-        .form-box
+        .form-box#inline-search-box
             %form{:action => ""}
                 / %a.input-icon{:'data-icon'=>"C", :href=>"#"}
                 %input.input-icon{:type => "submit", :value=>"", :'data-icon'=>"C",}/
                 %input#search{:type => "text", :placeholder => "What were you looking for?"}/;T;
-I"Z(<div class='inner-bounds remove-footer-offset block'>
+I"q(<div class='inner-bounds remove-footer-offset block'>
   <header class='section-header add-bleed'>
     <h2 class='section-title left smaller'>
       <span>
@@ -8996,7 +9050,7 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
     <h2 class='section-title left smaller'>
       Not what you were looking for? Let's try this again:
     </h2>
-    <div class='form-box'>
+    <div class='form-box' id='inline-search-box'>
       <form action=''>
         <!-- %a.input-icon{:'data-icon'=>"C", :href=>"#"} -->
         <input class='input-icon' data-icon='C' type='submit' value=''>
@@ -9005,7 +9059,7 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"z<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"g|<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9031,7 +9085,7 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -9044,24 +9098,30 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -9074,7 +9134,7 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -9595,7 +9655,7 @@ I"Z(<div class='inner-bounds remove-footer-offset block'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -10129,7 +10189,7 @@ I"Ó1<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"çf<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"Èh<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10155,7 +10215,7 @@ I"Ó1<section class='primary_layout article_layout'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -10168,24 +10228,30 @@ I"Ó1<section class='primary_layout article_layout'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -10198,7 +10264,7 @@ I"Ó1<section class='primary_layout article_layout'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -10646,7 +10712,7 @@ I"Ó1<section class='primary_layout article_layout'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -11146,7 +11212,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"^I<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"∫K<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11172,7 +11238,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -11185,24 +11251,30 @@ I"F!<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -11215,7 +11287,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -11507,7 +11579,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -11738,7 +11810,7 @@ I"#
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"œM<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"+P<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11764,7 +11836,7 @@ I"#
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -11777,24 +11849,30 @@ I"#
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -11807,7 +11885,7 @@ I"#
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -12103,7 +12181,7 @@ I"#
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -12343,7 +12421,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"M<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"]O<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12369,7 +12447,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -12382,24 +12460,30 @@ I"y<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -12412,7 +12496,7 @@ I"y<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -12677,7 +12761,7 @@ I"y<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -12863,7 +12947,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"ƒC<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I" F<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12889,7 +12973,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -12902,24 +12986,30 @@ I"‹<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -12932,7 +13022,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -13193,7 +13283,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -13374,7 +13464,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"v<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"^x<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13400,7 +13490,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -13413,24 +13503,30 @@ I"Œ<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -13443,7 +13539,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -13935,7 +14031,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>
@@ -14515,7 +14611,7 @@ I"/<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@dI"/project_index_local/;T{;{	;I"Wl<!DOCTYPE html>
+;T;@dI"/project_index_local/;T{;{	;I"≥n<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -14541,7 +14637,7 @@ I"/<section class='primary_layout article_layout no-photo'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
@@ -14554,24 +14650,30 @@ I"/<section class='primary_layout article_layout no-photo'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+            <h2 class='section-title smaller'>
+              The
+              <em>
+                Genome
+              </em>
+              Newsletter
+            </h2>
+            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>
-                  Subscribe to Genome
-                </h2>
-                <div class='form-box'>
-                  <form action=''>
-                    <a class='input-icon' data-icon='K' href='#'></a>
-                    <input placeholder='jane@youremail.com' type='text'>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -14584,7 +14686,7 @@ I"/<section class='primary_layout article_layout no-photo'>
               <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
               <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
                 <form action=''>
-                  <input class='input-icon' data-icon='C' type='submit' value=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
                   <input id='search' placeholder='What were you looking for?' type='text'>
                 </form>
               </div>
@@ -14978,7 +15080,7 @@ I"/<section class='primary_layout article_layout no-photo'>
               <div class='content-row'>
                 <div class='grid-element'>
                   <div class='image-content'>
-                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-placeholder.jpg'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
                   </div>
                 </div>
                 <div class='grid-element serif'>

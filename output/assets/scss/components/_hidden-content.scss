@@ -1,0 +1,7 @@
+
+// Hide till Site is Active & Shares populated
+.icon.comment-counter,
+.share-count,
+.icon[data-icon="A"] {
+  display: none !important;
+}

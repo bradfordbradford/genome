@@ -179,10 +179,8 @@ title: Roll Type- Search Results
         %h2.section-title.left.smaller
             Not what you were looking for? Let's try this again:
 
-        .form-box
+        .form-box#inline-search-box
             %form{:action => ""}
                 / %a.input-icon{:'data-icon'=>"C", :href=>"#"}
                 %input.input-icon{:type => "submit", :value=>"", :'data-icon'=>"C",}/
                 %input#search{:type => "text", :placeholder => "What were you looking for?"}/
-
-

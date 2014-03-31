@@ -1,12 +1,47 @@
 ----
 Burnlist: notes, mini bugs, etc
 ----
+03/31/14
+----
+# Launch List
+
+### Bugs
+- Search input btn
+
+- Footer not pushing down
+
+- Footer lacks bg pattern
+
+- Newsletter button is floating above form
+
+
+
+### Other
+
+- Hide comment & Share count till site is trafficked [LB]
+
+- No view all button at bottom [send]
+
+- Email script ?? [hold]
+
+- Check final paths in modernizr.js [hold]
+
+- Newsletter photo update? [LB]
+
+
+
+
+
+
+
+
+
 
 03/26/14
 
 [] 'View All' Button on Homepage
 
-[] Logo tagline bumped right
+[x] Logo tagline bumped right
 
 [x] Search Input special WP markup
 
@@ -18,7 +53,7 @@ Burnlist: notes, mini bugs, etc
 
 [] Email Security (john's .js)
 
-[] Short page (search) results
+[] Short page footer issue
 
 
 
@@ -152,11 +187,3 @@ Burnlist: notes, mini bugs, etc
     Article: Feature
 
         Primary Content to Full Bleed
-
-
-
-
-
-
-
-

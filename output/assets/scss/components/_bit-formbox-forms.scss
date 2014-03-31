@@ -10,23 +10,7 @@
         clear: both;
         position: relative;
 
-        // Add Search Icon
-        input[type="submit"],
-        input[type="submit"] {
-            position: absolute;
-            width: inherit;
-            right: 14px;
-            z-index: 2;
-            top: 42px;
-            background: $searchIcon 0px 0px;
-            background-color: transparent;
-            height: 20px;
-            width: 22px;
-            &:hover {
-                background-position: -24px 0px;
-                cursor: pointer;
-            }
-        }
+
 
         input[type="text"] {
             background: $primaryLight;
@@ -48,11 +32,37 @@
         }
     }
 
-     &#nav-search-box {
+    // Nav Search Form Box
+    &#nav-search-box {
+      form {
+        input[type="text"] {
+            background: darken($primaryBackground, 5%);
+            border-color: darken($primaryBackground, 20%);
+        }
+      }
+    }
+
+    // Search Form Box - All
+     &#nav-search-box,
+     &#inline-search-box {
         form {
-            input[type="text"] {
-                background: darken($primaryBackground, 5%);
-                border-color: darken($primaryBackground, 20%);
+            // Search Icon
+            input[type="submit"],
+            input[type="submit"] {
+                position: absolute;
+                width: inherit;
+                right: 14px;
+                color: transparent;
+                z-index: 2;
+                top: 42px;
+                background: $iconsSprite 0px 0px;
+                background-color: transparent;
+                height: 20px;
+                width: 22px;
+                &:hover {
+                    background-position: -24px 0px;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -60,3 +70,31 @@
 
 }
 
+// Garage Door SignUp Form Box
+#newsletter-door .form-box {
+  .input-icon {
+    position: absolute;
+    z-index: 2;
+    right: 16px;
+    top: 50%;
+    margin-top: 2px;
+  }
+  // Go Icon
+  input[type="submit"],
+  input[type="submit"] {
+      position: absolute;
+      width: inherit;
+      right: 14px;
+      color: transparent;
+      z-index: 2;
+      top: 42px;
+      background: $iconsSprite 0px -25px;
+      background-color: transparent;
+      height: 20px;
+      width: 22px;
+      &:hover {
+          background-position: -24px -25px;
+          cursor: pointer;
+      }
+  }
+}
