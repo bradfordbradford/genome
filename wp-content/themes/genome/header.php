@@ -34,7 +34,7 @@
     <link href='<?php echo get_stylesheet_directory_uri(); ?>/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
     <link href='<?php echo get_stylesheet_directory_uri(); ?>/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
     <link href='<?php echo get_stylesheet_directory_uri(); ?>/img/icons/favicon-alt-16.png' rel='icon'>
-    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
     <script>
       try{Typekit.load();}catch(e){}
     </script>
