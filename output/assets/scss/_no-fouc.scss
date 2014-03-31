@@ -1,0 +1,36 @@
+
+
+
+// Hide Content Fast, prevent FUOC before JS loads
+html.js {
+    #most-pop-block {
+        display: none !important;
+        &.pop-success {
+            display: inherit !important;
+        }
+    }
+
+    body.init {
+        #main-navigation .nav-item ol,
+        #offcanvas-navigation,
+        aside.add-social,
+        #newsletter-door{
+            display:none !important;
+        }
+    }
+
+    // Opacity Elements
+    &.opacity {
+        body.init {
+            .story-cover-image,
+            .story-cover-image-transition
+             {
+                -webkit-opacity:0;
+                -moz-opacity:0;
+                -o-opacity:0;
+                opacity:0;
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            }
+        }
+    }
+}

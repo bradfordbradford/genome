@@ -139,6 +139,8 @@ header.section-header {
     .section-title {
         font-size:1em;
         margin-bottom: 6px;
+        clear: both;
+        display: block;
     }
 }
 
@@ -389,6 +391,7 @@ blockquote {
     }
 }
 
+// Article Header ETA
 .article-header span.eta {
     font-family: $serif;
     font-style: italic;
@@ -414,6 +417,11 @@ blockquote {
         line-height:1.25em;
         margin-bottom: 16px;
     }
+}
+
+// Newsletter
+#newsletter-door .section-title {
+  padding-bottom: 16px;
 }
 
 
