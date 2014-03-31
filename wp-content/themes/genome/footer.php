@@ -101,7 +101,8 @@
     <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
     <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5339b4d16c709f80'></script>
+    <!--   Replace below this line with: https://gist.github.com/bradfordbradford/4a6ca907b8e7f434e0f0  -->
+    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
     </script>
@@ -126,6 +127,7 @@
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+    <!--   End Replace.   -->
   <?php wp_footer(); ?>
   </body>
 </html>
