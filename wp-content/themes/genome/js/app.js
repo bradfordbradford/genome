@@ -1,22 +1,10 @@
-// Sticky Footer only for blank/short pages
-// if ($(document).height() <= $(window).height()) {
-//   $(window).load(function(){
-//     $(window).resize(function(){
-//      var height = $(window).height()
-//      $('#content-wrap').height(height) ;
-//   })
-//   $(window).resize(); //on page load
-//   });
-// }
+
 
 // Email Security
-  $(function() {
-   $('a[href^="mailto:"]').each(function() {
-    this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.');
-    // Remove this line if you don't want to set the email address as link text:
-    this.innerHTML = this.href.replace('mailto:', '');
-   });
-  });
+function createEmail(user, website, ending) {
+  document.write("<a href=" + "&#109a&#105l" + "&#116&#111:" + user + "&#64;" + website + "&#46;" + ending+ ">" + user + "@" + website + "." + ending+"</a>");
+}
+
 
 //  // Now, Now  //
 $(document).ready(function($) {
@@ -107,6 +95,7 @@ $(document).ready(function($) {
         });
         $('.article-header .eta-time').append(rte);
     });
+
 
 
 
