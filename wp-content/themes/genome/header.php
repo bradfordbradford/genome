@@ -51,34 +51,34 @@
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
-            <div class='grid-2-per major-r'>
-              <div class='grid-element'>
-                <div class='g-door-image-content'>
-                  <img alt='genome is the bomb-diggety' src='../assets/img/content/newsletter-ad.jpg'>
+            <h2 class='section-title smaller'>
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
+              <em>
+                Genome
+              </em>
+              updates in your inbox.
+            </p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
                 </div>
-              </div>
-              <div class='grid-element'>
-                <h2 class='section-title left smaller'>Subscribe to Genome</h2>
-                <div class='form-box'>
-                  <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
-                    <div class='mc-field-group'>
-                      <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
-                    </div>
-                    <div class='clear' id='mce-responses'>
-                      <div class='response' id='mce-error-response' style='display:none'></div>
-                      <div class='response' id='mce-success-response' style='display:none'></div>
-                    </div>
-                    <div style='position: absolute; left: -5000px;'>
-                      <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
-                    </div>
-                    <div class='clear'>
-                      <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
-                    </div>
-                  </form>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
                 </div>
-                <a class='close-g-door' data-icon='D' href='x'></a>
-              </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
