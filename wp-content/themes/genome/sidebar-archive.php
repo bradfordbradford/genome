@@ -69,7 +69,7 @@
                               Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
                             </p>
                           </div>
-                          <a class='primary btn' href='http://link/…'>Subscribe</a>
+                          <a class='primary btn' href='https://checkout.subscriptiongenius.com/bigsciencemedia.com/' target='_blank'>Subscribe</a>
                         </div>
                       </div>
                     </div>
