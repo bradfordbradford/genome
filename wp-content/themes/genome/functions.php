@@ -23,11 +23,11 @@ function the_post_thumbnail_caption() {
   $thumb_id = get_post_thumbnail_id($post->id);
 
   $args = array(
-	'post_type' => 'attachment',
-	'post_status' => null,
-	'post_parent' => $post->ID,
-	'include'  => $thumb_id
-	); 
+  'post_type' => 'attachment',
+  'post_status' => null,
+  'post_parent' => $post->ID,
+  'include'  => $thumb_id
+  ); 
 
    $thumbnail_image = get_posts($args);
 
@@ -51,11 +51,11 @@ function the_post_thumbnail_description() {
   $thumb_id = get_post_thumbnail_id($post->id);
 
   $args = array(
-	'post_type' => 'attachment',
-	'post_status' => null,
-	'post_parent' => $post->ID,
-	'include'  => $thumb_id
-	); 
+  'post_type' => 'attachment',
+  'post_status' => null,
+  'post_parent' => $post->ID,
+  'include'  => $thumb_id
+  ); 
 
    $thumbnail_image = get_posts($args);
 
@@ -69,10 +69,10 @@ function the_post_thumbnail_description() {
 
 // Post types
 function myplugin_settings() {  
-	// Add tag metabox to page
-	register_taxonomy_for_object_type('post_tag', 'page');
-	// Add category metabox to page
-	register_taxonomy_for_object_type('category', 'page');
+  // Add tag metabox to page
+  register_taxonomy_for_object_type('post_tag', 'page');
+  // Add category metabox to page
+  register_taxonomy_for_object_type('category', 'page');
 }
  // Add to the admin_init hook of your theme functions.php file 
 add_action( 'admin_init', 'myplugin_settings' );
@@ -91,18 +91,18 @@ function first_paragraph($content){
   return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead-with-drop-cap">', $content, 1);
 }
 // if (is_page_template('column-article.php') {
-// 	add_filter('the_content', 'first_paragraph');
+//  add_filter('the_content', 'first_paragraph');
 // }
 
 // Shortcodes
 function hr_article_break_function() {
-	$return_string = "<hr class='article-break health-journal-hr'>";
-	return $return_string;
+  $return_string = "<hr class='article-break health-journal-hr'>";
+  return $return_string;
 }
 
 function hr_thick_function() {
-	$return_string = "<hr class='thick partial neutral-light-bg'>";
-	return $return_string;
+  $return_string = "<hr class='thick partial neutral-light-bg'>";
+  return $return_string;
 }
 
 function lead_small_caps_function($atts, $content = null) {
@@ -116,9 +116,9 @@ function small_block_function($atts, $content = null) {
    ), $atts));
 
    if ($align != 'center') {
-   	$return_string = "<blockquote class='with-Qmark Q-" . $align . " pull-out-" . $align . "'>" . $content . "</blockquote>";
+    $return_string = "<blockquote class='with-Qmark Q-" . $align . " pull-out-" . $align . "'>" . $content . "</blockquote>";
    } else {
-   	$return_string = "<blockquote class='small-block'>" . $content . "</blockquote>";
+    $return_string = "<blockquote class='small-block'>" . $content . "</blockquote>";
    }
    
    return $return_string;
@@ -161,16 +161,16 @@ function email_function($atts, $content = null) {
 }
 
 function video_function($atts, $content = null) {
-	extract(shortcode_atts(array(
-	  'align'    => 'right',
-	  'vimeo_id' => '11111111',
-	), $atts));
+  extract(shortcode_atts(array(
+    'align'    => 'right',
+    'vimeo_id' => '11111111',
+  ), $atts));
 
-	$content = preg_replace( '/(width|height)=\"\d*\"\s/', "", $content );
+  $content = preg_replace( '/(width|height)=\"\d*\"\s/', "", $content );
   $content = preg_replace( '/(width|height)=\"\d*\"\s/', "", $content );
 
-	if ($align == 'left') {
-		$return_string = "<div class='pull-out-left'>
+  if ($align == 'left') {
+    $return_string = "<div class='pull-out-left'>
   <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/" . $vimeo_id . "'>
       <span>
         Watch Video
@@ -178,8 +178,8 @@ function video_function($atts, $content = null) {
     </a>
   </div>
 </div>";
-	} else {
-		$return_string = "<div class='pull-out-right'>
+  } else {
+    $return_string = "<div class='pull-out-right'>
   <div class='article-photo with-bottom-border'>" . $content . "<a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/" . $vimeo_id . "'>
       <span>
         Watch Video
@@ -187,9 +187,9 @@ function video_function($atts, $content = null) {
     </a>
   </div>
 </div>";
-	}
+  }
 
-	return $return_string;
+  return $return_string;
 }
 
 function contribs_function($atts, $content = null) {
@@ -198,32 +198,32 @@ function contribs_function($atts, $content = null) {
 }
 
 function contrib_function($atts){
-	extract(shortcode_atts(array(
-		'author' => '',
-		//'title'  => '',
-		'pos'  => '',
-		'posts'  => ''
-	), $atts));
+  extract(shortcode_atts(array(
+    'author' => '',
+    //'title'  => '',
+    'position'  => '',
+    'posts'  => ''
+  ), $atts));
 
-	$author = get_user_by('login', $author);
-	// print_r($author);
+  $author = get_user_by('login', $author);
+  // print_r($author);
 
-	// echo $author->display_name;
+  // echo $author->display_name;
 
-	if (function_exists('get_wp_user_avatar_src')) {
-		$avatar = get_wp_user_avatar_src($author->id);
-	} else {
-		$avatar = get_stylesheet_directory_uri() . '/img/icons/user-placeholderRetina.png';
-	}
+  if (function_exists('get_wp_user_avatar_src')) {
+    $avatar = get_wp_user_avatar_src($author->id);
+  } else {
+    $avatar = get_stylesheet_directory_uri() . '/img/icons/user-placeholderRetina.png';
+  }
 
-	if ($pos == 'first' && $posts == '') {
-		$return_string = "<ul class='slats'>";
-	}
-	if ($pos == 'first' && $posts != '') {
-		$return_string = "<ul class='roll-list slats'>";
-	}
-	
-	$return_string .= "                    <li class='title'>
+  if ($position == 'first' && $posts == '') {
+    $return_string = "<ul class='slats'>";
+  }
+  if ($position == 'first' && $posts != '') {
+    $return_string = "<ul class='roll-list slats'>";
+  }
+  
+  $return_string .= "                    <li class='title'>
                       <div class='media-object with-med-image'>
                         <img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>
                         <div class='media-copy'>
@@ -250,7 +250,7 @@ function contrib_function($atts){
 
     if ($posts != '') {
 
-    					$num_posts = 3;
+              $num_posts = 3;
                           $popular = new WP_Query( array(
                             'post_type'             => array( 'page', 'post' ),
                             'showposts'             => $num_posts,
@@ -266,9 +266,9 @@ function contrib_function($atts){
                             'author'                => $author->id,
                           ) );
 
-		while ( $popular->have_posts() ): $popular->the_post();
+    while ( $popular->have_posts() ): $popular->the_post();
                         
-        	// $return_string .= "<li>
+          // $return_string .= "<li>
          //                  <div class='media-object reversed'>";
                             // Display Topic
                               // foreach((get_the_category()) as $childcat) {
@@ -300,8 +300,8 @@ function contrib_function($atts){
 
 
 
-    	$return_string .= "
-    				<li>
+      $return_string .= "
+            <li>
                       <div class='media-object-horizontal-layout'>
                         <header>
                           <h4 class='text-meta-header'>" . the_title('','',FALSE) . "</h4>
@@ -326,15 +326,15 @@ function contrib_function($atts){
 
 
 
-    	endwhile;
+      endwhile;
         wp_reset_query();
     }
 
-    if ($pos == 'last') {
-		$return_string .= "</ul>";
-	}             
+    if ($position == 'last') {
+    $return_string .= "</ul>";
+  }             
 
-	return $return_string;
+  return $return_string;
 
 }
 
@@ -496,18 +496,18 @@ function wpse72394_add_tinymce_button($buttons) {
 }
 
 function register_shortcodes(){
-	add_shortcode('hr-break', 'hr_article_break_function');
-	add_shortcode('hr-thick', 'hr_thick_function');
-	add_shortcode('small-caps', 'lead_small_caps_function');
-	add_shortcode('block-small', 'small_block_function');
-	add_shortcode('block-left', 'left_block_function');
-	add_shortcode('h3', 'h3_function');
+  add_shortcode('hr-break', 'hr_article_break_function');
+  add_shortcode('hr-thick', 'hr_thick_function');
+  add_shortcode('small-caps', 'lead_small_caps_function');
+  add_shortcode('block-small', 'small_block_function');
+  add_shortcode('block-left', 'left_block_function');
+  add_shortcode('h3', 'h3_function');
   add_shortcode('h4', 'h4_function');
   add_shortcode('email', 'email_function');
-	add_shortcode('video', 'video_function');
-	add_shortcode('hero', 'i_can_be_your_hero_baby_function');
-	add_shortcode('contributor', 'contrib_function');
-	add_shortcode('contributors', 'contribs_function');
+  add_shortcode('video', 'video_function');
+  add_shortcode('hero', 'i_can_be_your_hero_baby_function');
+  add_shortcode('contributor', 'contrib_function');
+  add_shortcode('contributors', 'contribs_function');
   add_shortcode('person', 'person_function');
   add_shortcode('contact', 'contact_function');
   add_shortcode('vcard', 'vcard_function');
@@ -517,274 +517,274 @@ add_action( 'init', 'register_shortcodes');
 // Gallery
 //////////////
 function fix_my_gallery($output, $attr) {
-	$post = get_post();
+  $post = get_post();
 
-	static $instance = 0;
-	$instance++;
+  static $instance = 0;
+  $instance++;
 
-	if ( ! empty( $attr['ids'] ) ) {
-		// 'ids' is explicitly ordered, unless you specify otherwise.
-		if ( empty( $attr['orderby'] ) )
-			$attr['orderby'] = 'post__in';
-		$attr['include'] = $attr['ids'];
-	}
+  if ( ! empty( $attr['ids'] ) ) {
+    // 'ids' is explicitly ordered, unless you specify otherwise.
+    if ( empty( $attr['orderby'] ) )
+      $attr['orderby'] = 'post__in';
+    $attr['include'] = $attr['ids'];
+  }
 
-	// Allow plugins/themes to override the default gallery template.
-	//$output = apply_filters('post_gallery', '', $attr);
-	if ( $output != '' )
-		return $output;
+  // Allow plugins/themes to override the default gallery template.
+  //$output = apply_filters('post_gallery', '', $attr);
+  if ( $output != '' )
+    return $output;
 
-	// We're trusting author input, so let's at least make sure it looks like a valid orderby statement
-	if ( isset( $attr['orderby'] ) ) {
-		$attr['orderby'] = sanitize_sql_orderby( $attr['orderby'] );
-		if ( !$attr['orderby'] )
-			unset( $attr['orderby'] );
-	}
+  // We're trusting author input, so let's at least make sure it looks like a valid orderby statement
+  if ( isset( $attr['orderby'] ) ) {
+    $attr['orderby'] = sanitize_sql_orderby( $attr['orderby'] );
+    if ( !$attr['orderby'] )
+      unset( $attr['orderby'] );
+  }
 
-	extract(shortcode_atts(array(
-		'order'      => 'ASC',
-		'orderby'    => 'menu_order ID',
-		'id'         => $post ? $post->ID : 0,
-		'itemtag'    => 'ul',
-		'icontag'    => 'li',
-		'captiontag' => 'figcaption',
-		'columns'    => 1,
-		'size'       => 'original',
-		'include'    => '',
-		'exclude'    => '',
-		'link'       => ''
-	), $attr, 'gallery'));
+  extract(shortcode_atts(array(
+    'order'      => 'ASC',
+    'orderby'    => 'menu_order ID',
+    'id'         => $post ? $post->ID : 0,
+    'itemtag'    => 'ul',
+    'icontag'    => 'li',
+    'captiontag' => 'figcaption',
+    'columns'    => 1,
+    'size'       => 'original',
+    'include'    => '',
+    'exclude'    => '',
+    'link'       => ''
+  ), $attr, 'gallery'));
 
-	if ($columns == 1) {
-		$id = intval($id);
-		if ( 'RAND' == $order )
-			$orderby = 'none';
+  if ($columns == 1) {
+    $id = intval($id);
+    if ( 'RAND' == $order )
+      $orderby = 'none';
 
-		if ( !empty($include) ) {
-			$_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    if ( !empty($include) ) {
+      $_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
 
-			$attachments = array();
-			foreach ( $_attachments as $key => $val ) {
-				$attachments[$val->ID] = $_attachments[$key];
-			}
-		} elseif ( !empty($exclude) ) {
-			$attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
-		} else {
-			$attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
-		}
+      $attachments = array();
+      foreach ( $_attachments as $key => $val ) {
+        $attachments[$val->ID] = $_attachments[$key];
+      }
+    } elseif ( !empty($exclude) ) {
+      $attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    } else {
+      $attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    }
 
-		if ( empty($attachments) )
-			return '';
+    if ( empty($attachments) )
+      return '';
 
-		if ( is_feed() ) {
-			$output = "\n";
-			foreach ( $attachments as $att_id => $attachment )
-				$output .= wp_get_attachment_link($att_id, $size, true) . "\n";
-			return $output;
-		}
+    if ( is_feed() ) {
+      $output = "\n";
+      foreach ( $attachments as $att_id => $attachment )
+        $output .= wp_get_attachment_link($att_id, $size, true) . "\n";
+      return $output;
+    }
 
-		$itemtag = tag_escape($itemtag);
-		$captiontag = tag_escape($captiontag);
-		$icontag = tag_escape($icontag);
-		$valid_tags = wp_kses_allowed_html( 'post' );
-		if ( ! isset( $valid_tags[ $itemtag ] ) )
-			$itemtag = 'dl';
-		if ( ! isset( $valid_tags[ $captiontag ] ) )
-			$captiontag = 'dd';
-		if ( ! isset( $valid_tags[ $icontag ] ) )
-			$icontag = 'dt';
+    $itemtag = tag_escape($itemtag);
+    $captiontag = tag_escape($captiontag);
+    $icontag = tag_escape($icontag);
+    $valid_tags = wp_kses_allowed_html( 'post' );
+    if ( ! isset( $valid_tags[ $itemtag ] ) )
+      $itemtag = 'dl';
+    if ( ! isset( $valid_tags[ $captiontag ] ) )
+      $captiontag = 'dd';
+    if ( ! isset( $valid_tags[ $icontag ] ) )
+      $icontag = 'dt';
 
-		$columns = intval($columns);
-		$itemwidth = $columns > 0 ? floor(100/$columns) : 100;
-		$float = is_rtl() ? 'right' : 'left';
+    $columns = intval($columns);
+    $itemwidth = $columns > 0 ? floor(100/$columns) : 100;
+    $float = is_rtl() ? 'right' : 'left';
 
-		$selector = "gallery-{$instance}";
+    $selector = "gallery-{$instance}";
 
-		$gallery_style = $gallery_div = '';
-		if ( apply_filters( 'use_default_gallery_style', true ) )
-			$gallery_style = "
-			<style type='text/css'>
-				#{$selector} {
-					margin: auto;
-				}
-				#{$selector} .gallery-item {
-					float: {$float};
-					margin-top: 10px;
-					text-align: center;
-					width: {$itemwidth}%;
-				}
-				#{$selector} img {
-					border: 2px solid #cfcfcf;
-				}
-				#{$selector} .gallery-caption {
-					margin-left: 0;
-				}
-				/* see gallery_shortcode() in wp-includes/media.php */
-			</style>";
-		$size_class = sanitize_html_class( $size );
-		$gallery_div = "    </article>
-		          </div>
-		        </section>
-		      </section>
-	              <section class='hero center hero-slideshow-section background-size-full center'>
-	                <div class='slideshow-wrap'>
-	                  <div class='slideshow'>
-	                    ";
-		$output = apply_filters( 'gallery_style', $gallery_style . "\n\t\t" . $gallery_div );
+    $gallery_style = $gallery_div = '';
+    if ( apply_filters( 'use_default_gallery_style', true ) )
+      $gallery_style = "
+      <style type='text/css'>
+        #{$selector} {
+          margin: auto;
+        }
+        #{$selector} .gallery-item {
+          float: {$float};
+          margin-top: 10px;
+          text-align: center;
+          width: {$itemwidth}%;
+        }
+        #{$selector} img {
+          border: 2px solid #cfcfcf;
+        }
+        #{$selector} .gallery-caption {
+          margin-left: 0;
+        }
+        /* see gallery_shortcode() in wp-includes/media.php */
+      </style>";
+    $size_class = sanitize_html_class( $size );
+    $gallery_div = "    </article>
+              </div>
+            </section>
+          </section>
+                <section class='hero center hero-slideshow-section background-size-full center'>
+                  <div class='slideshow-wrap'>
+                    <div class='slideshow'>
+                      ";
+    $output = apply_filters( 'gallery_style', $gallery_style . "\n\t\t" . $gallery_div );
 
-		$output .= "<{$itemtag} class='slides'>";
+    $output .= "<{$itemtag} class='slides'>";
 
-		$i = 0;
-		foreach ( $attachments as $id => $attachment ) {
-			if ( ! empty( $link ) && 'file' === $link )
-				$image_output = wp_get_attachment_link( $id, $size, false, false );
-			elseif ( ! empty( $link ) && 'none' === $link )
-				$image_output = wp_get_attachment_image( $id, $size, false );
-			else
-				$image_output = wp_get_attachment_link( $id, $size, true, false );
-				$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
-  			$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+    $i = 0;
+    foreach ( $attachments as $id => $attachment ) {
+      if ( ! empty( $link ) && 'file' === $link )
+        $image_output = wp_get_attachment_link( $id, $size, false, false );
+      elseif ( ! empty( $link ) && 'none' === $link )
+        $image_output = wp_get_attachment_image( $id, $size, false );
+      else
+        $image_output = wp_get_attachment_link( $id, $size, true, false );
+        $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+        $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
 
-			$image_meta  = wp_get_attachment_metadata( $id );
+      $image_meta  = wp_get_attachment_metadata( $id );
 
-			$orientation = '';
-			if ( isset( $image_meta['height'], $image_meta['width'] ) )
-				$orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
+      $orientation = '';
+      if ( isset( $image_meta['height'], $image_meta['width'] ) )
+        $orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
 
-			$output .= "
-		              <{$icontag}>
-	                        $image_output";
-			if ( $captiontag && trim($attachment->post_excerpt) ) {
-				$output .= "
-	                        <{$captiontag}>
-	                          " . wptexturize($attachment->post_excerpt) . "
-	                        </{$captiontag}>";
-			}
-			$output .= "
-	                      </{$icontag}>";
-		}
-			$output .= "
-		            </{$itemtag}>";
+      $output .= "
+                  <{$icontag}>
+                          $image_output";
+      if ( $captiontag && trim($attachment->post_excerpt) ) {
+        $output .= "
+                          <{$captiontag}>
+                            " . wptexturize($attachment->post_excerpt) . "
+                          </{$captiontag}>";
+      }
+      $output .= "
+                        </{$icontag}>";
+    }
+      $output .= "
+                </{$itemtag}>";
 
-		$output .= "
-		          </div>
-		        </div>
-		      </section>
-		      <section class='featured_layout inner-bounds'>
-	                <section class='primary-content'>
-	                  <div class='content-row'>
-	                    <article class='article-body-copy add-space-t'>";
+    $output .= "
+              </div>
+            </div>
+          </section>
+          <section class='featured_layout inner-bounds'>
+                  <section class='primary-content'>
+                    <div class='content-row'>
+                      <article class='article-body-copy add-space-t'>";
 
-		return $output;
-	} else {
-		$id = intval($id);
-		if ( 'RAND' == $order )
-			$orderby = 'none';
+    return $output;
+  } else {
+    $id = intval($id);
+    if ( 'RAND' == $order )
+      $orderby = 'none';
 
-		if ( !empty($include) ) {
-			$_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    if ( !empty($include) ) {
+      $_attachments = get_posts( array('include' => $include, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
 
-			$attachments = array();
-			foreach ( $_attachments as $key => $val ) {
-				$attachments[$val->ID] = $_attachments[$key];
-			}
-		} elseif ( !empty($exclude) ) {
-			$attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
-		} else {
-			$attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
-		}
+      $attachments = array();
+      foreach ( $_attachments as $key => $val ) {
+        $attachments[$val->ID] = $_attachments[$key];
+      }
+    } elseif ( !empty($exclude) ) {
+      $attachments = get_children( array('post_parent' => $id, 'exclude' => $exclude, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    } else {
+      $attachments = get_children( array('post_parent' => $id, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 'orderby' => $orderby) );
+    }
 
-		if ( empty($attachments) )
-			return '';
+    if ( empty($attachments) )
+      return '';
 
-		if ( is_feed() ) {
-			$output = "\n";
-			foreach ( $attachments as $att_id => $attachment )
-				$output .= wp_get_attachment_link($att_id, $size, true) . "\n";
-			return $output;
-		}
+    if ( is_feed() ) {
+      $output = "\n";
+      foreach ( $attachments as $att_id => $attachment )
+        $output .= wp_get_attachment_link($att_id, $size, true) . "\n";
+      return $output;
+    }
 
-		$itemtag = tag_escape($itemtag);
-		$captiontag = tag_escape($captiontag);
-		$icontag = tag_escape($icontag);
-		$valid_tags = wp_kses_allowed_html( 'post' );
-		if ( ! isset( $valid_tags[ $itemtag ] ) )
-			$itemtag = 'dl';
-		if ( ! isset( $valid_tags[ $captiontag ] ) )
-			$captiontag = 'dd';
-		if ( ! isset( $valid_tags[ $icontag ] ) )
-			$icontag = 'dt';
+    $itemtag = tag_escape($itemtag);
+    $captiontag = tag_escape($captiontag);
+    $icontag = tag_escape($icontag);
+    $valid_tags = wp_kses_allowed_html( 'post' );
+    if ( ! isset( $valid_tags[ $itemtag ] ) )
+      $itemtag = 'dl';
+    if ( ! isset( $valid_tags[ $captiontag ] ) )
+      $captiontag = 'dd';
+    if ( ! isset( $valid_tags[ $icontag ] ) )
+      $icontag = 'dt';
 
-		$columns = intval($columns);
-		$itemwidth = $columns > 0 ? floor(100/$columns) : 100;
-		$float = is_rtl() ? 'right' : 'left';
+    $columns = intval($columns);
+    $itemwidth = $columns > 0 ? floor(100/$columns) : 100;
+    $float = is_rtl() ? 'right' : 'left';
 
-		$selector = "gallery-{$instance}";
+    $selector = "gallery-{$instance}";
 
-		$gallery_style = $gallery_div = '';
-		if ( apply_filters( 'use_default_gallery_style', true ) )
-			$gallery_style = "
-			<style type='text/css'>
-				#{$selector} {
-					margin: auto;
-				}
-				#{$selector} .gallery-item {
-					float: {$float};
-					margin-top: 10px;
-					text-align: center;
-					width: {$itemwidth}%;
-				}
-				#{$selector} img {
-					border: 2px solid #cfcfcf;
-				}
-				#{$selector} .gallery-caption {
-					margin-left: 0;
-				}
-				/* see gallery_shortcode() in wp-includes/media.php */
-			</style>";
-		$size_class = sanitize_html_class( $size );
-		$key = array_keys($attachments);
-		$ok = $attachments[$key[0]];
-		//print_r($attachments);
-		$gallery_div = "                      <div class='pull-out-left'>
-	                        <div class='article-photo'>
-	                          <img alt='' class='load' data-original='" . $ok->guid . "' src='" . $ok->guid . "'>
-	                          <div class='overlay-view-slideshow'>
-	                            <a class='btn media-action slide' data-icon='c' href='" . $ok->guid . "' title='" . $ok->post_excerpt . "'>
-	                              <span>
-	                                View Slideshow
-	                              </span>
-	                            </a>
-	                          ";
-		$output = apply_filters( 'gallery_style', $gallery_style . "\n\t\t" . $gallery_div );
+    $gallery_style = $gallery_div = '';
+    if ( apply_filters( 'use_default_gallery_style', true ) )
+      $gallery_style = "
+      <style type='text/css'>
+        #{$selector} {
+          margin: auto;
+        }
+        #{$selector} .gallery-item {
+          float: {$float};
+          margin-top: 10px;
+          text-align: center;
+          width: {$itemwidth}%;
+        }
+        #{$selector} img {
+          border: 2px solid #cfcfcf;
+        }
+        #{$selector} .gallery-caption {
+          margin-left: 0;
+        }
+        /* see gallery_shortcode() in wp-includes/media.php */
+      </style>";
+    $size_class = sanitize_html_class( $size );
+    $key = array_keys($attachments);
+    $ok = $attachments[$key[0]];
+    //print_r($attachments);
+    $gallery_div = "                      <div class='pull-out-left'>
+                          <div class='article-photo'>
+                            <img alt='' class='load' data-original='" . $ok->guid . "' src='" . $ok->guid . "'>
+                            <div class='overlay-view-slideshow'>
+                              <a class='btn media-action slide' data-icon='c' href='" . $ok->guid . "' title='" . $ok->post_excerpt . "'>
+                                <span>
+                                  View Slideshow
+                                </span>
+                              </a>
+                            ";
+    $output = apply_filters( 'gallery_style', $gallery_style . "\n\t\t" . $gallery_div );
 
-		// $output .= "<{$itemtag} class='slides'>";
+    // $output .= "<{$itemtag} class='slides'>";
 
-		$i = 0;
-		foreach ( $attachments as $id => $attachment ) {
+    $i = 0;
+    foreach ( $attachments as $id => $attachment ) {
 
-			if ($id == $ok->ID) {
-				# code...
-			} else {
+      if ($id == $ok->ID) {
+        # code...
+      } else {
 
-				$image_output = wp_get_attachment_link( $id, $size, false, false, '&nbsp;' );
-				$image_output = str_replace('<a href', "<a class='mfp-hide slide' href", $image_output);
-				$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
-  			$image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+        $image_output = wp_get_attachment_link( $id, $size, false, false, '&nbsp;' );
+        $image_output = str_replace('<a href', "<a class='mfp-hide slide' href", $image_output);
+        $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
+        $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
 
-				$image_meta  = wp_get_attachment_metadata( $id );
+        $image_meta  = wp_get_attachment_metadata( $id );
 
-				$orientation = '';
-				if ( isset( $image_meta['height'], $image_meta['width'] ) )
-					$orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
+        $orientation = '';
+        if ( isset( $image_meta['height'], $image_meta['width'] ) )
+          $orientation = ( $image_meta['height'] > $image_meta['width'] ) ? 'portrait' : 'landscape';
 
-				$output .= "
-			              	
-		                        $image_output";
+        $output .= "
+                      
+                            $image_output";
 
-			}
-		}
-		$output .= "</div>
+      }
+    }
+    $output .= "</div>
                         </div>
                         <div class='article-photo-caption with-bottom-border'>
                           <div class='text-meta-sub'>
@@ -793,8 +793,8 @@ function fix_my_gallery($output, $attr) {
                         </div>
                       </div>";
 
-		return $output;
-	}
+    return $output;
+  }
 
 }
 add_filter("post_gallery", "fix_my_gallery",10,2);
@@ -812,38 +812,38 @@ add_filter("post_gallery", "fix_my_gallery",10,2);
 add_filter('img_caption_shortcode', 'my_img_caption_shortcode_filter',10,3);
 function my_img_caption_shortcode_filter($val, $attr, $content = null)
 {
-	extract(shortcode_atts(array(
-		'id'	=> '',
-		'align'	=> 'none',
-		'width'	=> '200',
-		'caption' => ''
-	), $attr));
+  extract(shortcode_atts(array(
+    'id'  => '',
+    'align' => 'none',
+    'width' => '200',
+    'caption' => ''
+  ), $attr));
 
-	$align = str_replace('align', '', $align);
-	
-// 	if ( 1 > (int) $width || empty($caption) )
-// 		return $val;
+  $align = str_replace('align', '', $align);
+  
+//  if ( 1 > (int) $width || empty($caption) )
+//    return $val;
 
-// 	$capid = '';
-// 	if ( $id ) {
-// 		$id = esc_attr($id);
-// 		$capid = 'id="figcaption_'. $id . '" ';
-// 		$id = 'id="' . $id . '" aria-labelledby="figcaption_' . $id . '" ';
-// 	}
+//  $capid = '';
+//  if ( $id ) {
+//    $id = esc_attr($id);
+//    $capid = 'id="figcaption_'. $id . '" ';
+//    $id = 'id="' . $id . '" aria-labelledby="figcaption_' . $id . '" ';
+//  }
 
-	//$content = get_the_content();
-	//$src = preg_match( '/src="([^"]*)"/i', $content );
-	
-	// $src = do_shortcode( $content );
-	$src = $content;
+  //$content = get_the_content();
+  //$src = preg_match( '/src="([^"]*)"/i', $content );
+  
+  // $src = do_shortcode( $content );
+  $src = $content;
 
-	$src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
-  	$src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
+  $src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
+    $src = preg_replace( '/(width|height)=\"\d*\"\s/', "", $src );
 
-	$src = str_replace('<a', "<a class='overlay-view-image' title='" . $caption . "'", $src);
+  $src = str_replace('<a', "<a class='overlay-view-image' title='" . $caption . "'", $src);
 
-	$src = str_replace('<img', "<span class='btn media-action no-text' data-icon='b'></span>
-	    <img", $src);
+  $src = str_replace('<img', "<span class='btn media-action no-text' data-icon='b'></span>
+      <img", $src);
     // $src =
     // $src =
     //     preg_replace(
@@ -856,7 +856,7 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
   // $src = preg_replace_callback(
   //   '{<a\s+(?:[^>]*?\s+)?href="([^"]*)">}',
   //   function($m) {
-  //   		//$falsetto = $src;
+  //      //$falsetto = $src;
   //       $falsetto .= "<himg>".$m[1]."</himg>";
   //       preg_replace('</a>', $m[1], $falsetto);
   //       return $falsetto;
@@ -864,30 +864,30 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
   //   $src);
 
 
-	//$src = wp_get_attachment_image_src( $src );
-	//$src = "ho";
+  //$src = wp_get_attachment_image_src( $src );
+  //$src = "ho";
 
-	if ($align != 'none') {
-		$output = "<div class='pull-out-" . $align . "'>
-			       <div class='article-photo'>
-		  " . $src . "
-		  	</div>
-		  	<div class='article-photo-caption with-bottom-border'>
-	            	<p class='text-meta-sub smaller'>
-	              	" . $caption . '
-	            	</p>
-	        	</div>
-	        </div>';
-	} else {
-		$output = "       <div class='article-photo with-top-border'>
-		  " . $src . "
-		  </div>
-		  <div class='article-photo-caption with-bottom-border'>
-	            <p class='text-meta-sub smaller'>
-	              " . $caption . '
-	            </p>
-	        </div>';
-	}
+  if ($align != 'none') {
+    $output = "<div class='pull-out-" . $align . "'>
+             <div class='article-photo'>
+      " . $src . "
+        </div>
+        <div class='article-photo-caption with-bottom-border'>
+                <p class='text-meta-sub smaller'>
+                  " . $caption . '
+                </p>
+            </div>
+          </div>';
+  } else {
+    $output = "       <div class='article-photo with-top-border'>
+      " . $src . "
+      </div>
+      <div class='article-photo-caption with-bottom-border'>
+              <p class='text-meta-sub smaller'>
+                " . $caption . '
+              </p>
+          </div>';
+  }
 
   return $output;
 
@@ -927,17 +927,17 @@ add_filter('the_content', 'add_lazyload');
 function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url, $size, $alt) {
   //$html = str_replace('<img ', '<img id="yay" ', $html);
   if ($url != '') {
-//   	$html = "[caption id='id' align='".$align."' width='width']<img alt='".$alt."' class='load' data-original='".$url."' src='".$url."'>
+//    $html = "[caption id='id' align='".$align."' width='width']<img alt='".$alt."' class='load' data-original='".$url."' src='".$url."'>
 // <a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'></a>".$caption."[/caption]";
 
-  	//$html = '<img alt="'.$alt.'" class="load" data-original="'.$url.'" src="'.$url.'">
+    //$html = '<img alt="'.$alt.'" class="load" data-original="'.$url.'" src="'.$url.'">
 //<a class="btn media-action no-text overlay-view-image" data-icon="b" href="'.$url.'" title="'.$title.'">&nbsp;</a>';
 
-  	//$html .= "<a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'>&nbsp;</a>";
+    //$html .= "<a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$title."'>&nbsp;</a>";
 
-  	//$html = "<a href='google.com'>Hi</a>";
+    //$html = "<a href='google.com'>Hi</a>";
 
-  	$html = "                      <div class='pull-out-right'>
+    $html = "                      <div class='pull-out-right'>
                         <div class='article-photo'>
                           <img alt='' class='load' data-original='".$url."' src='".$url."'>
                           <a class='btn media-action no-text overlay-view-image' data-icon='b' href='".$url."' title='".$caption."'> </a>
@@ -949,10 +949,10 @@ function filter_image_send_to_editor($html, $id, $caption, $title, $align, $url,
                         </div>
                       </div>";
 
-  	return $html;
+    return $html;
 
   } else {
-  	return $html;
+    return $html;
   }
 
 }
@@ -1188,5 +1188,3 @@ function get_excerpt_by_id($post_id){
   //$the_excerpt = '<p>' . $the_excerpt . '</p>';
   return $the_excerpt;
 }
-
-?>
