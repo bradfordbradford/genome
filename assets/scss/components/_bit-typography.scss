@@ -164,7 +164,17 @@ abbr {
 
 // Blockquotes
 // blockquote {}
-// cite {}
+cite {
+  font-size: em-font(12px);
+  font-family: $sans;
+  font-weight: 400;
+  line-height: 1.58em;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  letter-spacing: 0.2em;
+  margin: 16px auto 0 auto;
+}
 // blockquote,
 // blockquote p {}
 

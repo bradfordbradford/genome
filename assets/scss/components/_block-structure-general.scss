@@ -44,6 +44,9 @@
     margin-bottom: 60px;
   }
 }
+.card-inner-wrap {
+    padding: 20px 18px;
+}
 
 .container {
   @include span-columns(12, $total);
@@ -114,5 +117,3 @@
     margin-top: -$navbarHeight;
   }
 }
-
-
