@@ -30,10 +30,11 @@
                 </div>
                 <div class='grid-element serif'>
                   <p class='lead emph'>
-                    Quarterly Print Edition
+                    Subscribe to <em>Genome</em> magazine!
                   </p>
                   <p>
-                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta.
+                    <em>Genome</em> is a quarterly print magazine that covers personalized medicine and the genomic revolution that makes it possible.
+                    Your <em>Genome</em> subscription will include four issues each year delivered to your home for free.
                   </p>
                   <p class='lead italic small-block'>
                     Subscribe online at:

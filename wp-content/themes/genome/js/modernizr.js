@@ -6,7 +6,7 @@
 Modernizr.load([
     {   // NOTE: Load for no-touch devices
         test: Modernizr.touch,
-        load: 'http://genome.telegraphcreative.co/output/assets/js/min/skrollr.min.js',
+        nope: 'http://genome.telegraphcreative.co/output/assets/js/min/skrollr.min.js',
         complete: function () {
             var s = skrollr.init({
               edgeStrategy: 'set',

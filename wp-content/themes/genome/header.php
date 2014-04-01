@@ -54,6 +54,7 @@
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
