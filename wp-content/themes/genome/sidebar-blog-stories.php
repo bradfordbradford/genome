@@ -63,7 +63,7 @@
                     <?php endwhile; ?>
 
                       <div class='view-all'>
-                        <a class='italic serif smaller' href='#'>
+                        <a class='italic serif smaller' href='<?php echo site_url() . "/blog/"; ?>'>
                           View All &#187;
                         </a>
                       </div>

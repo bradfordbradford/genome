@@ -8,7 +8,6 @@
  */
 ?>
 
-                  <aside class='aside-column-primary'>
                     <div class='aside-block double-spaced'>
                       <header class='background-neutral'>
                         <h2 class='section-title'>
@@ -50,28 +49,3 @@
                         ?>
                       </ul>
                     </div>
-                    <div class='aside-block'>
-                      <div class='collapse-area'>
-                        <header class='background-neutral collapse-header'>
-                          <h2 class='section-title'>
-                            Print
-                            <span>
-                              Edition
-                            </span>
-                          </h2>
-                        </header>
-                        <div class='media-object with-large-image collapse-content'>
-                          <img alt='image title' src='http://localhost:8888/GenomeCMS/wp-content/themes/genome/img/content/cover-placeholder.jpg'>
-                          <a class='text-meta' href='http://link/…'>genome magazine</a>
-                          <div class='media-copy'>
-                            <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
-                            <p class='text-meta-sub contrast'>
-                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
-                            </p>
-                          </div>
-                          <a class='primary btn' href='https://checkout.subscriptiongenius.com/bigsciencemedia.com/' target='_blank'>Subscribe</a>
-                        </div>
-                      </div>
-                    </div>
-                  </aside>
-                </div>

@@ -17,7 +17,7 @@
 <head>
     <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
     <title>
-    	<?php wp_title( '|', true, 'right' ); ?>
+    	Genome<?php wp_title( '|', true, 'left' ); ?>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
@@ -118,7 +118,7 @@
                   <ol>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='<?php echo site_url() . "/category/issue/"; ?>'>By Issue</a>
+                        By Issue
                       </h3>
                       <ol>
                       <?php $args = array(
@@ -148,14 +148,14 @@
                         'walker'             => null
                       ); ?>
                       <?php wp_list_categories( $args ); ?>
-                        <li class='view-all'>
+                        <!-- <li class='view-all'>
                           <a href='<?php echo site_url() . "/category/issue/"; ?>'>View All &#187;</a>
-                        </li>
+                        </li> -->
                       </ol>
                     </li>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='<?php echo site_url() . "/category/condition/"; ?>'>By Condition</a>
+                        By Condition
                       </h3>
                       <ol>
                       <?php $args = array(
@@ -185,14 +185,14 @@
                         'walker'             => null
                       ); ?>
                       <?php wp_list_categories( $args ); ?>
-                        <li class='view-all'>
+                        <!-- <li class='view-all'>
                           <a href='<?php echo site_url() . "/category/condition/"; ?>'>View All &#187;</a>
-                        </li>
+                        </li> -->
                       </ol>
                     </li>
                     <li class='nav-sub-item'>
                       <h3>
-                        <a href='<?php echo site_url() . "/category/topic/"; ?>'>By Topic</a>
+                        By Topic
                       </h3>
                       <ol>
                       <?php $args = array(
@@ -222,9 +222,9 @@
                         'walker'             => null
                       ); ?>
                       <?php wp_list_categories( $args ); ?>
-                        <li class='view-all'>
+                        <!-- <li class='view-all'>
                           <a href='<?php echo site_url() . "/category/topic/"; ?>'>View All &#187;</a>
-                        </li>
+                        </li> -->
                       </ol>
                     </li>
                   </ol>
