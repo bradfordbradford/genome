@@ -110,7 +110,7 @@
                   <a href='#'>newsletter</a>
                 </li>
                 <li class='nav-item hide-below-tablet-p'>
-                  <a href='#'>subscribe</a>
+                  <a href='https://checkout.subscriptiongenius.com/bigsciencemedia.com/' target=_blank>subscribe</a>
                 </li>
                 <li class='nav-item hide-below-tablet-p'>
                   <a href='#'>browse</a>
