@@ -124,10 +124,10 @@ function small_block_function($atts, $content = null) {
    return $return_string;
 }
 
-function left_block_function($atts, $content = null) {
-   $return_string = "<blockquote class='with-Qmark Q-left pull-out-left'>" . $content . "</blockquote>";
-   return $return_string;
-}
+// function left_block_function($atts, $content = null) {
+//    $return_string = "<blockquote class='with-Qmark Q-left pull-out-left'>" . $content . "</blockquote>";
+//    return $return_string;
+// }
 
 function h3_function($atts, $content = null) {
    $return_string = "<h3>" . $content . "</h3>";
@@ -190,11 +190,6 @@ function video_function($atts, $content = null) {
   }
 
   return $return_string;
-}
-
-function contribs_function($atts, $content = null) {
-   $return_string = "<ul class='slats'>" . $content . "</ul>";
-   return $return_string;
 }
 
 function contrib_function($atts){
@@ -460,54 +455,18 @@ function i_can_be_your_hero_baby_function($atts){
    return $return_string;
 }
 
- // init process for registering our button
- add_action('init', 'wpse72394_shortcode_button_init');
- function wpse72394_shortcode_button_init() {
-
-      //Abort early if the user will never see TinyMCE
-      if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') && get_user_option('rich_editing') == 'true')
-           return;
-
-      //Add a callback to regiser our tinymce plugin   
-      add_filter("mce_external_plugins", "wpse72394_register_tinymce_plugin"); 
-
-      // Add a callback to add our button to the TinyMCE toolbar
-      add_filter('mce_buttons', 'wpse72394_add_tinymce_button');
-}
-
-
-//This callback registers our plug-in
-function wpse72394_register_tinymce_plugin($plugin_array) {
-    $plugin_array['wpse72394_button'] = '../../../wp-content/themes/genome/shortcodes/hero.js';
-    return $plugin_array;
-}
-
-//This callback adds our button to the toolbar
-function wpse72394_add_tinymce_button($buttons) {
-            //Add the button ID to the $button array
-    $buttons[] = "wpse72394_button";
-    $buttons[] = "wpse72395_button";
-    $buttons[] = "wpse72396_button";
-    $buttons[] = "wpse72397_button";
-    $buttons[] = "wpse72398_button";
-    $buttons[] = "wpse72399_button";
-    $buttons[] = "wpse72400_button";
-    return $buttons;
-}
-
 function register_shortcodes(){
   add_shortcode('hr-break', 'hr_article_break_function');
   add_shortcode('hr-thick', 'hr_thick_function');
   add_shortcode('small-caps', 'lead_small_caps_function');
   add_shortcode('block-small', 'small_block_function');
-  add_shortcode('block-left', 'left_block_function');
+  // add_shortcode('block-left', 'left_block_function');
   add_shortcode('h3', 'h3_function');
   add_shortcode('h4', 'h4_function');
   add_shortcode('email', 'email_function');
   add_shortcode('video', 'video_function');
   add_shortcode('hero', 'i_can_be_your_hero_baby_function');
   add_shortcode('contributor', 'contrib_function');
-  add_shortcode('contributors', 'contribs_function');
   add_shortcode('person', 'person_function');
   add_shortcode('contact', 'contact_function');
   add_shortcode('vcard', 'vcard_function');
@@ -1187,4 +1146,42 @@ function get_excerpt_by_id($post_id){
   endif;
   //$the_excerpt = '<p>' . $the_excerpt . '</p>';
   return $the_excerpt;
+}
+
+// /**
+// Hook into WordPress
+// */
+
+add_action('init', 'onehalf_button');  
+// /**
+// Create Our Initialization Function
+// */
+
+function onehalf_button() {
+
+   if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') ) {
+     return;
+   }
+
+   if ( get_user_option('rich_editing') == 'true' ) {
+     add_filter( 'mce_external_plugins', 'add_plugin' );
+     add_filter( 'mce_buttons', 'register_button' );
+   }
+
+}
+// /**
+// Register Button
+// */
+
+function register_button( $buttons ) {
+ array_push( $buttons, "|", "onehalf" );
+ return $buttons;
+}
+
+// Register TinyMCE Plugin
+
+
+function add_plugin( $plugin_array ) {
+   $plugin_array['onehalf'] = get_bloginfo( 'template_url' ) . '/shortcodes/hero.js';
+   return $plugin_array;
 }
