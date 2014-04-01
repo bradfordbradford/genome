@@ -34,11 +34,28 @@ a {
     background: $primaryLight;
 }
 
+// General Typographic Scale
+
 h2 {
     font-size: em-font(48px);
     font-weight: 700;
     letter-spacing: -0.009em;
     line-height: 1em;
+}
+h2 {
+    font-size: em-font(48px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: 1em;
+}
+
+
+h3 {
+    font-size: em-font(32px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: 1em;
+    margin-bottom: 16px;
 }
 
 em,
@@ -88,13 +105,27 @@ code {
 ul,
 ol,
 dl {
+  clear: both;
   list-style-position: outside;
-  font-family: inherit; }
+  font-family: inherit;
+}
 
-ul li ul,
-ul li ol { }
-ul.square li ul, ul.circle li ul, ul.disc li ul {
-  list-style: inherit; }
+// ul li ul,
+// ul li ol { }
+ul.square, ul.circle, ul.disc {
+    li {
+        margin-bottom: 12px;
+    }
+    ul {
+        line-height: 1.25em;
+        list-style: inherit;
+        padding-left: 24px;
+        li {
+            list-style: circle;
+        }
+    }
+
+}
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem; }
@@ -107,9 +138,13 @@ ul.disc {
 ul.no-bullet {
   list-style: none; }
 
+
 // // Ordered Lists
-// ol { }
-//   ol li ul,
+
+ol li {
+    list-style: decimal-leading-zero;
+}
+  // ol li ul,
 //   ol li ol { }
 
 // // Definition Lists
@@ -139,8 +174,6 @@ header.section-header {
     .section-title {
         font-size:1em;
         margin-bottom: 6px;
-        clear: both;
-        display: block;
     }
 }
 
@@ -227,6 +260,13 @@ blockquote {
 
 // Article Body P, .end-mark, H3
 .article-body-copy {
+  h1 {
+      font-size: em-font(54px);
+      font-weight: 700;
+      letter-spacing: -0.009em;
+      line-height: 1em;
+      margin:0 0 16px;
+  }
     h2 {
         font-size: em-font(48px);
         font-weight: 700;
@@ -242,10 +282,21 @@ blockquote {
         line-height: 1em;
         margin:0 0 16px;
     }
-
-
     h4 {
         font-size: em-font(24px);
+        font-weight: 700;
+        line-height: 1em;
+        margin:0 0 6px;
+    }
+
+    h5 {
+        font-size: em-font(21px);
+        font-weight: 700;
+        line-height: 1em;
+        margin:0 0 6px;
+    }
+    h6 {
+        font-size: em-font(16px);
         font-weight: 700;
         line-height: 1em;
         margin:0 0 6px;
@@ -391,7 +442,6 @@ blockquote {
     }
 }
 
-// Article Header ETA
 .article-header span.eta {
     font-family: $serif;
     font-style: italic;
@@ -417,11 +467,6 @@ blockquote {
         line-height:1.25em;
         margin-bottom: 16px;
     }
-}
-
-// Newsletter
-#newsletter-door .section-title {
-  padding-bottom: 16px;
 }
 
 
