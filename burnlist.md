@@ -5,28 +5,36 @@ Burnlist: notes, mini bugs, etc
 ----
 # Launch List
 
+404 Search button [x]
+
+Subscribe to Magazine
+
+
+
+
+
 ### Bugs
-- Search input btn
+- Search input btn [x]
 
-- Footer not pushing down
+- Footer not pushing down [x]
 
-- Footer lacks bg pattern
+- Footer lacks bg pattern [x]
 
-- Newsletter button is floating above form
+- Newsletter button is floating above form [x]
 
 
 
 ### Other
 
-- Hide comment & Share count till site is trafficked [LB]
+- Hide comment & Share count till site is trafficked [LB] [x]
 
 - No view all button at bottom [send]
 
-- Email script ?? [hold]
+- Email script [x]
 
 - Check final paths in modernizr.js [hold]
 
-- Newsletter photo update? [LB]
+- Newsletter photo update? [x]
 
 
 

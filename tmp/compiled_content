@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"ßÄ<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"Å<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -38,13 +38,15 @@
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -62,6 +64,7 @@
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -1051,7 +1054,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"t<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1091,13 +1094,15 @@ I"/article_blog_no_photo/;T{;{	;I"t<!DOCTYPE html>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -1115,6 +1120,7 @@ I"/article_blog_no_photo/;T{;{	;I"t<!DOCTYPE html>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -2000,7 +2006,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"·Ö<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"=Ü<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2040,13 +2046,15 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -2064,6 +2072,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -3066,7 +3075,7 @@ I";<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I",Ö<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"kÖ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3106,13 +3115,15 @@ I";<section class='primary_layout article_layout'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -3130,6 +3141,7 @@ I";<section class='primary_layout article_layout'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -3342,7 +3354,6 @@ I";<section class='primary_layout article_layout'>
                     <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
                       <h2>
                         Targeted
-                        <br>
                         Treatment
                       </h2>
                       <hr class='white-bg partial'>
@@ -3673,7 +3684,7 @@ I";<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"A-# Featured Hero
+;T;	I"Ô@-# Featured Hero
 .background-white
     %header.hero.hero-featured-article.background-size-full.center.hero-tall
         .story-cover-content.single-col-layout
@@ -3683,7 +3694,6 @@ I";<section class='primary_layout article_layout'>
 
                         %h2
                             Targeted
-                            %br/
                             Treatment
 
                         %hr.white-bg.partial/
@@ -3906,8 +3916,7 @@ I";<section class='primary_layout article_layout'>
                         %p
                             Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                             %span.light-text-color.inline-block.end-mark{:'data-icon'=>"G"};T;
-I"
-><div class='background-white'>
+I"˜=<div class='background-white'>
   <header class='hero hero-featured-article background-size-full center hero-tall'>
     <div class='story-cover-content single-col-layout'>
       <div class='align-middle'>
@@ -3915,7 +3924,6 @@ I"
           <a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'>
             <h2>
               Targeted
-              <br>
               Treatment
             </h2>
             <hr class='white-bg partial'>
@@ -4131,7 +4139,7 @@ I"
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"sD<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"œD<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4171,13 +4179,15 @@ I"
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -4195,6 +4205,7 @@ I"
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -4545,7 +4556,7 @@ I"ö<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I""Ä<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"~Ä<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4585,13 +4596,15 @@ I"ö<section class='primary_layout'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -4609,6 +4622,7 @@ I"ö<section class='primary_layout'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -5721,7 +5735,7 @@ I"™5<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"cö<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"øö<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5761,13 +5775,15 @@ I"™5<section class='primary_layout article_layout'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -5785,6 +5801,7 @@ I"™5<section class='primary_layout article_layout'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -7178,7 +7195,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"|o<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"ÿo<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7218,13 +7235,15 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -7242,6 +7261,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -8084,7 +8104,7 @@ I"¸)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"Ÿn<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I"5o<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8124,13 +8144,15 @@ I"¸)<section class='primary_layout article_layout'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -8148,6 +8170,7 @@ I"¸)<section class='primary_layout article_layout'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -9059,7 +9082,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"g|<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"√|<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9099,13 +9122,15 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -9123,6 +9148,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -10189,7 +10215,7 @@ I"Ó1<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"Èh<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"Ei<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10229,13 +10255,15 @@ I"Ó1<section class='primary_layout article_layout'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -10253,6 +10281,7 @@ I"Ó1<section class='primary_layout article_layout'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -11212,7 +11241,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"∫K<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"L<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11252,13 +11281,15 @@ I"F!<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -11276,6 +11307,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -11810,7 +11842,7 @@ I"#
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"+P<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"áP<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11850,13 +11882,15 @@ I"#
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -11874,6 +11908,7 @@ I"#
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -12421,7 +12456,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"]O<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"πO<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12461,13 +12496,15 @@ I"y<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -12485,6 +12522,7 @@ I"y<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -12947,7 +12985,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I" F<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"|F<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12987,13 +13025,15 @@ I"‹<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -13011,6 +13051,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -13464,7 +13505,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"^x<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"∫x<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13504,13 +13545,15 @@ I"Œ<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -13528,6 +13571,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>
@@ -14611,7 +14655,7 @@ I"/<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@dI"/project_index_local/;T{;{	;I"≥n<!DOCTYPE html>
+;T;@dI"/project_index_local/;T{;{	;I"o<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -14651,13 +14695,15 @@ I"/<section class='primary_layout article_layout no-photo'>
         <div class='g-door' id='newsletter-door'>
           <div class='inner-bounds block'>
             <h2 class='section-title smaller'>
-              The
+              The Genome Newsletter
+            </h2>
+            <p class='lead'>
+              Sign up for our newsletter and get
               <em>
                 Genome
               </em>
-              Newsletter
-            </h2>
-            <p class='lead'>Sign up for our newsletter and get Genome updates in your inbox.</p>
+              updates in your inbox.
+            </p>
             <div class='form-box'>
               <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
                 <div class='mc-field-group'>
@@ -14675,6 +14721,7 @@ I"/<section class='primary_layout article_layout no-photo'>
                 </div>
               </form>
             </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
           </div>
         </div>
         <section id='main-site-navigation-wrap'>

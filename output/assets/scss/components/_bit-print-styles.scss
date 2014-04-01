@@ -21,14 +21,26 @@
       h3,
       #subscribe-ad { page-break-after: avoid; }
 
+      // Remove Skrollr Height
+      body {
+        height: auto;
+      }
 
       // Subscribe Add
       #subscribe-ad {
-        width: 90%;
-        margin: 24px auto 24px;
+        width: 96%;
+        margin: 40px auto 24px;
         border: 1px dotted black;
-        padding: 24px 24px 40px;
+        padding: 16px 16px 0;
+        page-break-before: auto;
+        page-break-after: auto;
+        page-break-inside: avoid;
         @include clearlyFixed;
+
+        h2 {
+          font-size: 24px;
+          margin: 0 auto 12px;
+        }
 
         .section-title span {
             color: $secondary !important;
@@ -36,26 +48,34 @@
 
         hr {
             background: #000 !important;
-            margin: 16px auto 60px;
+            margin: 6px auto 40px;
+            height: 4px;
         }
         .image-content {
             width: 80%;
-            margin: -40px auto 0;
-            display: block;
+            margin: 0 auto;
         }
         p.lead {
-            font-size: 18px;
+            font-size: 16px;
+            margin-bottom: 4px;
             a {
                 display: block;
             }
         }
+        p {
+          font-size: 14px;
+        }
 
       }
+
+      // Subscribe Add on Features
+      .nav-add-social #subscribe-ad {margin-top: 200px;}
 
 
 
       // Hide
       #main-navigation,
+      .search,
       .comment-counter-wrap,
       .media-object.with-large-image img,
       .addthis_toolbox,
@@ -64,7 +84,7 @@
       .slideshow-wrap,
       .slideshow-figcaption,
       .hero.hero-article-title h2 br,
-      .scroll-down-arrow,
+      .arrow-down,
       .pull-out-right,
       .pull-out-left,
       .small-pull,
@@ -74,7 +94,10 @@
       .primary_layout aside.aside-column-primary,
       .collection,
       a.action,
-      .ver-line
+      .ver-line,
+      .hero.hero-featured-article hr,
+      .article-footer,
+      #disqus_thread
       {
         display: none !important;
       }
@@ -99,12 +122,17 @@
       section#main-site-navigation-wrap .tagline, section#main-site-navigation-wrap h1.logo {
         left:0px;
       }
+      // Heros
       .hero {
         height: auto !important;
         margin: 32px auto;
+        h2 {
+          margin: 0 auto 16px;
+        }
       }
       .story-cover-content {
         position: relative;
+        height: 100%;
       }
       .featured_layout {
         padding-bottom: 40px !important;
@@ -142,6 +170,9 @@
       p.lead,
       p {
         font-size: 16px;
+      }
+      .article-body-copy p, .hero p.lead, blockquote, p, p.highlight, p.lead {
+        font-size: 14px;
       }
 
       .text-meta-highlight,
