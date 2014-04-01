@@ -1,0 +1,46 @@
+.lt-ie9 .bounds {
+  position: static !important;
+}
+
+.lt-ie9 #content-wrap {
+  min-height: 840px;
+}
+
+.lt-ie9 .g-door {
+  opacity: 0;
+  margin-top: -250px;
+}
+
+.lt-ie9 .g-door.open {
+  margin-top: 0px;
+}
+
+.lt-ie9 .push-for-door {
+  margin-top: 250px;
+}
+
+.lt-ie9 .addthis_button_facebook,
+.lt-ie9 .addthis_button_twitter,
+.lt-ie9 .addthis_button_email {
+  padding-bottom: 0px;
+}
+
+.lt-ie9 section#main-site-navigation-wrap aside.add-social,
+.lt-ie9 .popup-content.media-object.with-large-image p.sans-meta {
+  display: none;
+}
+
+.lt-ie9 body.nav-add-social section#main-site-navigation-wrap.menu-slim aside.add-social {
+  display: block;
+}
+
+.lt-ie9 .mfp-close {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  z-index: 1000;
+  width: 32px;
+}
+
+.lt-ie9 .vcard.inline span.tel {
+  margin-left: 12px;
+}

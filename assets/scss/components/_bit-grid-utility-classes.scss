@@ -1,0 +1,26 @@
+
+
+
+// Grid Utility Classes //
+.grid-3-per {
+    .grid-element {
+        @include span-columns(4, $total);
+        &:nth-child(3n+2) {@include span-columns(4 omega, $total);}
+    }
+}
+
+.grid-2-per {
+    .grid-element {
+        @include span-columns(6, $total);
+        &:nth-child(odd) {@include span-columns(6 omega, $total);}
+    }
+
+    &.major-r {
+        .grid-element{
+            @include span-columns(4, $total);
+        }
+        .grid-element:last-child {
+            @include span-columns(8 omega, $total);
+        }
+    }
+}

@@ -1,0 +1,75 @@
+
+
+
+// Layout: Basic Article (column, blog) //
+.article_layout {
+
+    @include clearlyFixed();
+
+    // Article Header
+    header.article-header {
+        @include span-columns(4, $total);
+        padding: 3px 0 16px;
+        min-height: 380px;
+
+        p.lead {
+            margin: 24px auto 12px;
+        }
+
+        .author-pic {
+            margin: 16px 0;
+            display: block;
+        }
+
+        .author-attrib{
+            margin: 0 auto 16px;
+        }
+
+        .article-meta {
+            border-top: 1px solid $primaryRule;
+        }
+
+        .social-list {
+            margin: 24px 0 16px;
+        }
+
+    }
+
+
+    // Primary Article Photo
+    .article-photo.primary {
+        @include span-columns(8 omega, $total);
+        position: relative;
+        margin-bottom: 32px;
+    }
+
+    // Article Photo Caption Card
+    .article-photo-caption  {
+        @include span-columns(4 omega, $total);
+        display: block;
+        clear: right;
+        margin-top: -32px;
+    }
+
+
+
+    // No Photo
+    &.no-photo {
+        header.article-header {
+            @include span-columns(8, $total);
+            min-height: 100%;
+        }
+
+    }
+
+    .article-footer {
+        padding: 14px 0 76px;
+        border-bottom: 1px solid $primaryRule;
+
+        &.author-profile-object {
+            padding: 56px 0 32px;
+            border-top: 1px solid $primaryRule;
+        }
+    }
+
+}

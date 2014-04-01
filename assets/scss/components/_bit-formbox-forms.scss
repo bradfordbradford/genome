@@ -1,0 +1,62 @@
+
+
+
+// FormBox Forms
+
+.form-box {
+
+    form {
+        padding-top: 24px;
+        clear: both;
+        position: relative;
+
+        // Add Search Icon
+        input[type="submit"],
+        input[type="submit"] {
+            position: absolute;
+            width: inherit;
+            right: 14px;
+            z-index: 2;
+            top: 42px;
+            background: $searchIcon 0px 0px;
+            background-color: transparent;
+            height: 20px;
+            width: 22px;
+            &:hover {
+                background-position: -24px 0px;
+                cursor: pointer;
+            }
+        }
+
+        input[type="text"] {
+            background: $primaryLight;
+            font-family: $serif;
+            font-style: italic;
+            color: $primaryText;
+            position: relative;
+            z-index: 1;
+        }
+
+        input.btn.primary {
+            font-style: normal;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: $sans;
+            padding: 8px 9px;
+            min-width: auto;
+            @include span-columns(3 omega, $total);
+        }
+    }
+
+     &#nav-search-box {
+        form {
+            input[type="text"] {
+                background: darken($primaryBackground, 5%);
+                border-color: darken($primaryBackground, 20%);
+            }
+        }
+    }
+
+
+}
+

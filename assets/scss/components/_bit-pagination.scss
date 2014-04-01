@@ -1,0 +1,60 @@
+
+
+
+// Pagination
+.pagination-wrap {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 56px 0;
+
+    .directional-nav {
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        font-size: .75em;
+        padding: 0 24px;
+
+        span {
+            position: absolute;
+            top: -4px;
+            font-size: 2em;
+        }
+    }
+    .page-prev, .page-prev span{
+        left:0px;
+    }
+
+    .page-new, .page-new span {
+        right:0px;
+    }
+
+    ol {
+        text-align: center;
+        font-size: 0.75em;
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            font-weight: 700;
+            padding: 4px;
+            margin: 0 8px;
+            &:hover {
+                color: $secondary;
+            }
+        }
+
+        .current a {
+            color: $primaryLinkHover;
+            border-bottom: 2px solid $primaryLinkHover;
+        }
+
+
+    }
+
+}

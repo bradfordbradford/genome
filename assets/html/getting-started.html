@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>Genome — Getting Started</title>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='../img/icons/favicon-alt-16.png' rel='icon'>
+    <script src='//use.typekit.net/gzy0ghu.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <script src='../js/min/modernizr.min.js'></script>
+    <link href='../css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../css/ie8.css" /><script src='../js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body class='init' onload='prettyPrint()'>
+    <div id='site-wrap-outer'>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <div class='center content-row add-space-b'>
+            <h2>Getting Started</h2>
+            <br>
+            <br>
+            <a class='btn' href='/'>
+              <span data-icon='z'></span>
+              Return to Docs Index
+            </a>
+          </div>
+          <div class='inner-bounds background-white card-block'>
+            <article class='content-row article-body-copy'>
+              <h3>
+                Core Theme Files
+              </h3>
+              <p>
+                These are the nuts and bolts—the core assets—that comprise the FED of GenomeMag.com. We recommend that you not edit these files directly, but being aware of their contents will be a vital tool as you create new stylesheets and leverage the handy scripts included within.
+              </p>
+              <hr class="partial">
+              <ul class='disc'>
+                <li>
+                  <b>/wp-content —</b>
+                  This is where the Genome FED files are kept. You'll find the major building blocks of the site inside.
+                </li>
+                <ul class='disc'>
+                  <li>
+                    <b>/css —</b>
+                  </li>
+                  <ul class='disc'>
+                    <li>
+                      <b>genome-main.css —</b>
+                      Genome's foundational styles—not a file we recommend you edit. It's also compressed, so it loads fast.
+                    </li>
+                  </ul>
+                  <li>
+                    <b>/js —</b>
+                  </li>
+                  <ul class='disc'>
+                    <li>
+                      <b>app.js —</b>
+                      This file contains the code to initiate plugins other simple scripts.
+                    </li>
+                    <li>
+                      <b>sitescripts.js —</b>
+                      Stores the primary plugins used throughout the site.
+                    </li>
+                    <li>
+                      <b>modernizr.js —</b>
+                      Modernizr.js is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. This file is essential to presenting a beautiful, accessible site for all sorts browsers.
+                    </li>
+                  </ul>
+                  <li>
+                    <b>/min —</b>
+                    Houses the minified versions of the above JS files
+                  </li>
+                  <li>
+                    <b>/fonts —</b>
+                    Genome's Icon Font. Quickly and easily add icons on the fly:
+                    <a href='../fonts/icons-reference.html'>
+                      Genome Font Reference
+                    </a>
+                  </li>
+                  <li>
+                    <b>/img</b>
+                    Patterns, logos, icons, etc.
+                  </li>
+                </ul>
+              </ul>
+
+              <div class="content-row block">
+                <h3>
+                  HTML Page Markup
+                </h3>
+                <p>
+                  Genomemag.com's pages have some specific markup required for them to work. The Wordpress CMS will
+                  manage these essentials for you, but here's the boilerplate markup—just in case it comes in handy.
+                </p>
+                <div class="text-meta light-text-color">OPEN DOCTYPE & HEAD</div>
+                <pre class="prettyprint">
+
+  &lt;!DOCTYPE html&gt;
+  &lt;!--[if lt IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"&gt; &lt;![endif]--&gt;
+  &lt;!--[if IE 7]&gt;    &lt;html class="no-js lt-ie9 lt-ie8" lang="en"&gt; &lt;![endif]--&gt;
+  &lt;!--[if IE 8]&gt;    &lt;html class="no-js lt-ie9" lang="en"&gt; &lt;![endif]--&gt;
+  &lt;!--[if gt IE 8]&gt;&lt;!--&gt; &lt;html class="no-js" lang="en"&gt; &lt;!--&lt;![endif]--&gt;
+  &lt;html class='no-js' lang='en'&gt;
+    &lt;head&gt;
+      &lt;meta charset='utf-8' content='text/html' http-equiv='Content-Type'&gt;
+      &lt;title&gt;
+        Genome - Home
+      &lt;/title&gt;
+      &lt;meta content='Genome Magazine' property='og:title'&gt;
+      &lt;meta content='Website' property='og:type'&gt;
+      &lt;meta content='../img/icons/og-facebook.jpg' property='og:image'&gt;
+      &lt;meta content='/' property='og:url'&gt;
+      &lt;meta content='Genome Magazine' property='og:site_name'&gt;
+      &lt;meta content='Genome Magazine' property='og:author'&gt;
+      &lt;meta content='' property='og:description'&gt;
+      &lt;meta content='' name='description'&gt;
+      &lt;meta content='' name='keywords'&gt;
+      &lt;meta content='' name='author'&gt;
+      &lt;meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'&gt;
+      &lt;meta content='IE=edge' http-equiv='X-UA-Compatible'&gt;
+      &lt;link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'&gt;
+      &lt;link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'&gt;
+      &lt;link href='../assets/img/icons/favicon-alt-16.png' rel='icon'&gt;
+      &lt;script src='//use.typekit.net/wga8bpj.js'>&lt;/script&gt;
+      &lt;script&gt;
+        try{Typekit.load();}catch(e){}
+      &lt;/script&gt;
+      &lt;script src='../assets/js/min/modernizr.min.js'>&lt;/script&gt;
+      &lt;link href='../assets/css/genome-main.css' rel='stylesheet'&gt;
+      &lt;!--[if lt IE 9]&gt;&lt;link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /&gt;&lt;script src='../assets/js/min/ie.min.js'>&lt;/script&gt;&lt;![endif]--&gt;
+    &lt;/head&gt;
+                </pre>
+
+                <br>
+                <div class="text-meta light-text-color">NAV, CONTENT, & FOOTER</div>
+                <pre class="prettyprint">
+
+  &lt;body class='init'&gt;
+    &lt;div id='site-wrap-outer'&gt;
+      &lt;section id='header-nav-wrap'&gt;
+        […lots of goodies…]
+      &lt;/section&gt;
+
+      &lt;div id='site-wrap-inner'&gt;
+        &lt;main id='content-wrap' role='main'&gt;
+          […site content…]
+        &lt;/main&gt;
+      &lt;/div&gt;
+
+      &lt;footer id='main-footer' role='contentinfo'&gt;
+        &lt;div class='footer-content-wrap'&gt;
+          […footer content…]
+        &lt;/div&gt;
+      &lt;/footer&gt;
+
+    &lt;/div&gt;
+
+                </pre>
+
+                <br>
+                <div class="text-meta light-text-color">SCRIPTS, CLOSE DOCUMENT</div>
+                <pre class="prettyprint">
+
+    &lt;script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'&gt;&lt;/script&gt;
+    &lt;!-- / window.jQuery || document.write('&lt;script src="../js/libs/jquery.min.js"&gt;&lt;\/script&gt;') --&gt;
+    &lt;script src='../assets/js/min/app.min.js'&gt;&lt;/script&gt;
+    &lt;script src='../assets/js/min/sitescripts.min.js'&gt;&lt;/script&gt;
+    &lt;script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-ID'&gt;&lt;/script&gt;
+    &lt;script&gt;
+      var addthis_config = {"data_track_addressbar":true};
+    &lt;/script&gt;
+    &lt;script&gt;
+      var disqus_shortname = 'ID'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    &lt;/script&gt;
+    &lt;script&gt;
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+              </div>
+
+
+            </article>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
+    <script src='../js/min/app.min.js'></script>
+    <script src='../js/min/prettify.min.js'></script>
+    <script src='../js/min/sitescripts.min.js'></script>
+  </body>
+</html>

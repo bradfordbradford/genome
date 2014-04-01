@@ -1,0 +1,691 @@
+
+
+
+// Typography //
+body {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-family: $sans;
+    background: $primaryBackground;
+    color: $primaryText;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: $primaryHeader;
+}
+
+
+a {
+    color: inherit;
+    text-decoration:none;
+    transition: color .1s ease-in-out;
+
+    &:hover {
+        color: $primaryLinkHover;
+    }
+}
+
+::selection {
+    color: $primaryLinkHover;
+    background: $primaryLight;
+}
+
+// General Typographic Scale
+
+h2 {
+    font-size: em-font(48px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: 1em;
+}
+h2 {
+    font-size: em-font(48px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: 1em;
+}
+
+
+h3 {
+    font-size: em-font(32px);
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    line-height: 1em;
+    margin-bottom: 16px;
+}
+
+em,
+i {
+  font-style: italic;
+  line-height: inherit; }
+
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit; }
+
+small {
+  font-size: 60%;
+  line-height: inherit; }
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: bold;
+  color: #910b0e; }
+
+
+// Text Dividers/Ornaments
+.interpunct {
+    padding: 0 2px;
+    display: inline-block;
+    font-size: 2em;
+    top: 3px;
+    line-height: 0px;
+    position: relative;
+}
+.ver-line {
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 1em;
+    top:-2px;
+    position: relative;
+}
+.double-quote-right {
+    display: inline-block;
+    font-size: 1.4em;
+    padding-left: 2px;
+}
+
+
+// Lists
+ul,
+ol,
+dl {
+  clear: both;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+// ul li ul,
+// ul li ol { }
+ul.square, ul.circle, ul.disc {
+    li {
+        margin-bottom: 12px;
+    }
+    ul {
+        line-height: 1.25em;
+        list-style: inherit;
+        padding-left: 24px;
+        li {
+            list-style: circle;
+        }
+    }
+
+}
+ul.square {
+  list-style-type: square;
+  margin-left: 1.1rem; }
+ul.circle {
+  list-style-type: circle;
+  margin-left: 1.1rem; }
+ul.disc {
+  list-style-type: disc;
+  margin-left: 1.1rem; }
+ul.no-bullet {
+  list-style: none; }
+
+
+// // Ordered Lists
+
+ol li {
+    list-style: decimal-leading-zero;
+}
+  // ol li ul,
+//   ol li ol { }
+
+// // Definition Lists
+// dl dt {}
+// dl dd {}
+
+// Abbreviations
+abbr,
+acronym {
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 1px dotted $primaryLinkHover;
+  cursor: help; }
+
+abbr {
+  text-transform: none; }
+
+// Blockquotes
+// blockquote {}
+// cite {}
+// blockquote,
+// blockquote p {}
+
+
+
+header.section-header {
+    .section-title {
+        font-size:1em;
+        margin-bottom: 6px;
+    }
+}
+
+.section-title {
+    font-family: $serif;
+    text-transform: uppercase;
+    span {
+        color: $secondaryBackgroundCompliment;
+    }
+}
+
+p {
+    color: $primaryText;
+    font-family: $serif;
+    font-size: em-font(20px);
+    line-height: 1.25em;
+
+
+    // P Lead
+    &.lead {
+        font-family: $serif;
+        font-size: em-font(18px);
+        line-height: 1.125em;
+    }
+
+    // P Highlight
+    &.highlight {
+        font-family:$sans;
+        font-size: em-font(36px);
+        line-height: 1.125em;
+        color: $secondary;
+    }
+
+    // P Drop Cap
+    &.lead-with-drop-cap {
+        &:first-child:first-letter {
+            font-family: $serif;
+            float: left;
+            line-height: .56em;
+            padding: 24px 12px 0 0;
+            color: $secondary;
+            font-size: em-font(100px);
+        }
+    }
+
+    // P Lead In Caps
+    span.lead-with-small-caps {
+        font-size: 1.25em;
+        margin: 0 6px 0 0;
+        font-variant: small-caps;
+        font-weight: 700;
+    }
+}
+
+// Blockquote
+blockquote {
+    -webkit-font-smoothing: initial;
+    font-family: $serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.75em; // 28px
+    line-height: 1.2em; // 33.6px
+    text-align: center;
+    margin: 0 auto 24px;
+
+    &.with-Qmark {
+        position: relative;
+        &:before {
+            content:'\201C';
+            position: absolute;
+            font-size: em-font(30px);
+            color: $primaryRule;
+            left:-44px;
+        }
+    }
+    &.Q-right {
+        text-align: right;
+        &:before {
+            content:'\201D';
+            right: -44px;
+        }
+    }
+}
+
+// Article Body P, .end-mark, H3
+.article-body-copy {
+  h1 {
+      font-size: em-font(54px);
+      font-weight: 700;
+      letter-spacing: -0.009em;
+      line-height: 1em;
+      margin:0 0 16px;
+  }
+    h2 {
+        font-size: em-font(48px);
+        font-weight: 700;
+        letter-spacing: -0.009em;
+        line-height: 1em;
+        margin:0 0 16px;
+    }
+
+    h3 {
+        font-size: em-font(36px);
+        font-weight: 700;
+        letter-spacing: -0.009em;
+        line-height: 1em;
+        margin:0 0 16px;
+    }
+    h4 {
+        font-size: em-font(24px);
+        font-weight: 700;
+        line-height: 1em;
+        margin:0 0 6px;
+    }
+
+    h5 {
+        font-size: em-font(21px);
+        font-weight: 700;
+        line-height: 1em;
+        margin:0 0 6px;
+    }
+    h6 {
+        font-size: em-font(16px);
+        font-weight: 700;
+        line-height: 1em;
+        margin:0 0 6px;
+    }
+
+    p {
+        line-height: 1.64em;
+        font-size: em-font(20px);
+        margin: 0 auto 32px;
+    }
+    .end-mark {
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+
+    a {
+        color: $primaryLinkHover;
+        &:hover {
+            color: $primaryLink;
+        }
+    }
+
+}
+
+// Text Meta
+.text-meta {
+    margin:0 auto 6px;
+    padding-right: 6px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: em-font(13px);
+    line-height: 1.2em;
+    letter-spacing: 0.08em;
+    display: inline-block;
+
+    &, a {
+        color: $secondary;
+
+        &:hover {
+            color: $primaryLinkHover;
+        }
+    }
+
+    // With Brick
+    &.brick {
+        text-indent: 14px;
+        position: relative;
+
+
+        &:before {
+            content: '';
+            margin-left: -14px;
+            top:2px;
+            position: absolute;
+            height:8px;
+            width:8px;
+            background:$secondary;
+        }
+    }
+    time {
+        color: $primaryLink;
+        font-weight: 200;
+        margin-left: 4px;
+    }
+}
+
+// Text Meta Sub
+.text-meta-sub {
+    font-family: $serif;
+    font-style: italic;
+    font-size: 0.75em; // 12px
+    line-height:1.125em; // 18px
+    margin: 4px auto 20px;
+    display: block;
+}
+
+// Text Meta Sub - Sans
+.sans-meta {
+    font-style: normal;
+    font-family: $sans;
+    font-size: em-font(14px);
+    line-height: 1.4em;
+
+    a {
+        color: $secondary;
+        &:hover {
+            color: $primaryLinkHover;
+        }
+    }
+}
+
+// Text Meta Header
+.text-meta-header {
+    font-weight: 700;
+    font-size: em-font(24px);
+    line-height:1em;
+
+    &.small {
+        font-size: em-font(20px);
+        line-height: 20px;
+    }
+}
+
+
+// Meta Highlight
+.text-meta-highlight {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: em-font(16px);
+    font-weight: 700;
+    display: inline-block;
+    color: $secondary;
+}
+
+
+
+// Featured Article
+.featured-article {
+    .article-header {
+        margin-top:32px;
+    }
+    h2 a {
+        &:hover {
+            color: $primaryLink;
+        }
+    }
+    p {
+        line-height: 1.42em;
+    }
+    .tag {
+        padding:26px 16px 20px 0px;
+    }
+    .text-meta-sub {
+        font-size: em-font(20px);
+        margin: 18px auto 26px;
+    }
+
+    p {
+        font-family: $sans;
+        margin:0 auto 16px;
+    }
+}
+
+.article-header span.eta {
+    font-family: $serif;
+    font-style: italic;
+    text-transform: none;
+    font-weight: 200;
+}
+
+
+// Collection
+.collection {
+    .text-meta {
+        font-size: em-font(10px);
+    }
+    .media-copy:hover {
+        .text-meta-header,
+        .text-meta-sub {
+            transition: color .15s ease-in-out;
+            color: $primaryLinkHover;
+        }
+    }
+    .section-title {
+        font-size: em-font(20px);
+        line-height:1.25em;
+        margin-bottom: 16px;
+    }
+}
+
+
+// Hero
+.hero {
+    text-align: center;
+
+    &, p, h2, .text-meta.hr {
+        color: $primaryLight;
+    }
+
+    .text-meta.hr {
+        font-size: em-font(14px);
+        padding:0 0 6px 0;
+        margin:0 auto 14px;
+        border-bottom: 10px solid $primaryLight;
+
+        &.primary-tint {
+            border-color: $primary;
+        }
+
+        &.secondary-tint {
+            border-color: $primary;
+        }
+    }
+
+    h2 {
+        font-size: em-font(80px);
+        line-height: 0.875em;
+    }
+
+    p.lead {
+        font-size: em-font(22px);
+        line-height: 1em;
+        margin: 0 auto 8px;
+    }
+
+    // Hero: Article Tote
+    &.hero-featured-article {
+        hr {
+            margin: 108px auto 16px;
+        }
+        p.lead {
+            width: 78%;
+            font-family: $serif;
+            margin: 0 auto 8px;
+        }
+    }
+
+    // Hero: Article Feature
+    &.hero-article-section {
+
+        .icon {
+            margin-bottom: 16px;
+            display: block;
+            font-size: em-font(24px);
+            color: $primaryText;
+        }
+
+        p.lead {
+            width: 80%;
+            margin: 40px auto 64px;
+        }
+        hr {
+            margin: 36px auto;
+        }
+    }
+
+    // Hero: Article Feature
+    &.hero-article-title {
+        h2 {
+            text-align: left;
+            font-size: em-font(90px);
+            line-height: 0.78em;
+        }
+        p.lead {
+            margin: 8px auto 24px;
+        }
+        .text-meta-highlight, p.lead {text-align:left;}
+        .text-meta-highlight {display: block;line-height:1.125em;}
+    }
+}
+
+
+
+// Photo Attribution
+.photo-attrib {
+    font-style:italic;
+    font-size: em-font(12px);
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    display: block;
+}
+
+// Photo Caption
+.article-photo-caption {
+    .text-meta-sub {
+        font-family: $sans;
+        font-style:normal;
+    }
+}
+
+
+
+// HR Rules
+hr {
+    clear:both;
+    background: $primaryText;
+    border: none;
+    margin: 0 auto;
+    height: 1px;
+    width:100%;
+    margin-bottom: 2em;
+
+
+    &.article-break {
+        background: transparent;
+        background-position: center center !important;
+        background-repeat: no-repeat;
+        border: 0 none;
+        height: 47px !important;
+        margin: 0 0 32px;
+        &.health-journal-hr {
+            background-image: url("../img/ornaments/article-break-health-journal-icon-retina.png") !important;
+        }
+    }
+    &.partial {
+        width: 140px;
+    }
+
+    &.thick {
+        height: 10px;
+    }
+
+    &.brick {
+        height: 8px;
+        width: 8px;
+    }
+
+}
+
+
+// Article Meta
+.article-meta {
+    font-size: em-font(13px);
+    line-height: 32px;
+
+    &, a {color: $primaryLinkHover;
+    }
+    [data-icon]:before {margin-right: 4px;}
+    a:hover {
+        color: $primaryLink;
+    }
+}
+
+
+// Article Meta Utilities
+.action {
+
+    // text-transform: uppercase;
+
+    &[data-icon]:before {
+        padding:0 4px;
+    }
+    // Correct Comment Bubble Spacing
+    &[data-icon=i]:before {
+        position: relative;
+        top:2px;
+    }
+}
+
+
+
+// Media Objects inside Primary Content
+.slats .media-object {
+    h3 {
+        margin: 0 0 4px;
+    }
+    p {
+        font-size: em-font(16px);
+        margin: 0 0 4px;
+    }
+}
+
+
+// Aside Block Media Objects
+.aside-block .media-object {
+    .text-meta {
+        font-size: em-font(11px);
+    }
+    &:not(.with-large-image) {
+        .text-meta-header {
+            font-size: em-font(20px);
+        }
+    }
+}
+
+// VCard
+.vcard {
+    margin-bottom: 8px;
+    span {
+        display: block;
+        line-height: 1em;
+        font-size: em-font(18px);
+    }
+    &.block span {
+        display: block;
+    }
+    &.inline span{
+        display: inline-block;
+    }
+}
+span.org {
+    font-size: em-font(24px);
+    font-weight: 700;
+    line-height: 1em;
+    margin:0 0 6px;
+}
+
+span.tel {
+    font-weight: 700;
+}

@@ -1,0 +1,66 @@
+// SET UP YOUR VARIABLES IN THIS FILE
+
+
+// Colours
+// ------------------------------------------------------------
+
+$primary:                            #7dc98d; // Green
+$secondary:                          #1cbadb; // Light Blue
+$compliment:                         #115e6f; // Dark Blue
+$tertiary:                           #c93e23; // Red
+$tertiaryDark:                       #631f12; // Red:Dark
+
+$warmLight:                          #eeeae7; // warm white
+$primaryLight:                       #ffffff;
+$primaryText:                        #010101;
+$primaryHeader:                      #212120;
+$primaryLink:                        #5a5a5a;
+$primaryLinkHover:                   #bababa;
+$primaryLinkDarkHover:               #231f20;
+
+$primaryBackground:                  #efebe7; // Off-white
+$secondaryBackground:                #f3f3f3; // Off-white
+$secondaryBackgroundCompliment:      #8f8e8e; // Off-white
+
+$primaryRule:                        #eceae8;
+
+
+// Social Colours
+$facebook:                           #3d7cb8;
+$twitter:                            #1da8e0;
+
+
+
+$navbarHeight                        :72px;
+$navbarHeightSlim                    :56px;
+$footerHeight                        :418px;
+
+
+// Fonts
+// Imported Icon Fonts in icons partial
+// ------------------------------------------------------------
+$serif                  : "ff-more-web-pro",serif;
+$sans                   : "franklin-gothic-urw",sans-serif;
+
+
+
+
+// Fonts size and line height defaults for our calculations
+// ------------------------------------------------------------
+$base-font-size                         : 16px;                 // Sets the browser default size. Shouldnt need to change this.
+$base-line-height                       : 1em;                  // Baseline grid. Set to a sensible, small size.
+$round-to-nearest-half-line             : false;                // Round the line height to the nearest half line height. Off by default
+
+
+
+
+// Images
+// ------------------------------------------------------------
+$mainLogo                               : url('/assets/img/logos/genome-logo+@2x.png');
+$mainLogoSVG                            : url('/assets/img/logos/genome-logo.svg');
+// $footerBg                               : url('/assets/img/patterns/footer-bg.jpg') no-repeat;
+$footerBg                               : url('/assets/img/patterns/use_your_illusion_@2X.png') repeat;
+$searchIcon                                 : url('/assets/img/icons/searchRetina.png');
+
+
+
