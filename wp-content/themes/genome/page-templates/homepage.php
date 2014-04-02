@@ -32,6 +32,7 @@ get_header(); ?>
             //print_r($the_query);
             while ( $the_query->have_posts() ): $the_query->the_post();
               $issue = get_post_meta( get_the_ID(), 'issue_number', true );
+              $issueLink = get_post_meta( get_the_ID(), 'issue_link', true );
             endwhile;
           ?>
 
@@ -419,6 +420,9 @@ get_header(); ?>
                     <?php endwhile; ?>
 
                     </section>
+                  </div>
+                  <div class='content-row add-padding-b'>
+                    <a class='btn primary full-bleed' href='<?php echo $issueLink; ?>'>View All From This Issue</a>
                   </div>
 
                 </section>
