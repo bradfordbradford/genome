@@ -110,7 +110,7 @@ function lead_small_caps_function($atts, $content = null) {
    return $return_string;
 }
 
-function small_block_function($atts, $content = null) {
+function block_function($atts, $content = null) {
    extract(shortcode_atts(array(
       'align'    => 'center',
    ), $atts));
@@ -459,7 +459,7 @@ function register_shortcodes(){
   add_shortcode('hr-break', 'hr_article_break_function');
   add_shortcode('hr-thick', 'hr_thick_function');
   add_shortcode('small-caps', 'lead_small_caps_function');
-  add_shortcode('block-small', 'small_block_function');
+  add_shortcode('blockquote', 'block_function');
   // add_shortcode('block-left', 'left_block_function');
   add_shortcode('h3', 'h3_function');
   add_shortcode('h4', 'h4_function');
@@ -560,26 +560,6 @@ function fix_my_gallery($output, $attr) {
     $selector = "gallery-{$instance}";
 
     $gallery_style = $gallery_div = '';
-    if ( apply_filters( 'use_default_gallery_style', true ) )
-      $gallery_style = "
-      <style type='text/css'>
-        #{$selector} {
-          margin: auto;
-        }
-        #{$selector} .gallery-item {
-          float: {$float};
-          margin-top: 10px;
-          text-align: center;
-          width: {$itemwidth}%;
-        }
-        #{$selector} img {
-          border: 2px solid #cfcfcf;
-        }
-        #{$selector} .gallery-caption {
-          margin-left: 0;
-        }
-        /* see gallery_shortcode() in wp-includes/media.php */
-      </style>";
     $size_class = sanitize_html_class( $size );
     $gallery_div = "    </article>
               </div>
@@ -681,26 +661,6 @@ function fix_my_gallery($output, $attr) {
     $selector = "gallery-{$instance}";
 
     $gallery_style = $gallery_div = '';
-    if ( apply_filters( 'use_default_gallery_style', true ) )
-      $gallery_style = "
-      <style type='text/css'>
-        #{$selector} {
-          margin: auto;
-        }
-        #{$selector} .gallery-item {
-          float: {$float};
-          margin-top: 10px;
-          text-align: center;
-          width: {$itemwidth}%;
-        }
-        #{$selector} img {
-          border: 2px solid #cfcfcf;
-        }
-        #{$selector} .gallery-caption {
-          margin-left: 0;
-        }
-        /* see gallery_shortcode() in wp-includes/media.php */
-      </style>";
     $size_class = sanitize_html_class( $size );
     $key = array_keys($attachments);
     $ok = $attachments[$key[0]];
@@ -727,11 +687,13 @@ function fix_my_gallery($output, $attr) {
       } else {
 
         $image_output = wp_get_attachment_link( $id, $size, false, false, '&nbsp;' );
-        $image_output = str_replace('<a href', "<a class='mfp-hide slide' href", $image_output);
+        $image_output = str_replace('<a href', "<a class='mfp-hide slide' title='" . $attachment->post_excerpt . "' href", $image_output);
         $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
         $image_output = preg_replace( '/(width|height)=\"\d*\"\s/', "", $image_output );
 
         $image_meta  = wp_get_attachment_metadata( $id );
+
+        //print_r($attachments);
 
         $orientation = '';
         if ( isset( $image_meta['height'], $image_meta['width'] ) )
@@ -801,8 +763,11 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 
   $src = str_replace('<a', "<a class='overlay-view-image' title='" . $caption . "'", $src);
 
-  $src = str_replace('<img', "<span class='btn media-action no-text' data-icon='b'></span>
+  if (strpos($src, '<a') !== FALSE) {
+    $src = str_replace('<img', "<span class='btn media-action no-text' data-icon='b'></span>
       <img", $src);
+  }
+  
     // $src =
     // $src =
     //     preg_replace(
@@ -854,6 +819,7 @@ function my_img_caption_shortcode_filter($val, $attr, $content = null)
 
 function add_lazyload($content) {
      $dom = new DOMDocument();
+     $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
      @$dom->loadHTML($content);
 
      foreach ($dom->getElementsByTagName('img') as $node) {
@@ -867,7 +833,6 @@ function add_lazyload($content) {
      // $newHtml = $dom->saveHtml();
      // return $newHtml;
 }
-
 add_filter('the_content', 'add_lazyload');
 
 // function k99_image_link_void( $content ) {

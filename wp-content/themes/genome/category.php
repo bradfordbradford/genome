@@ -201,7 +201,7 @@ get_header(); ?>
             <h2 class='section-title left smaller'>
               Not what you were looking for? Let's try this again:
             </h2>
-            <div class='form-box'>
+            <div id="inline-search-box" class='form-box'>
               <form role='search' method='get' action='<?php echo site_url(); ?>'>
                 <input class='input-icon' data-icon='C' type='submit' value='Search'>
                 <input id='search' name='s' placeholder='What were you looking for?' type='text'>

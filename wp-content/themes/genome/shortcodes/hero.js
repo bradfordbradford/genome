@@ -124,7 +124,7 @@
                     // Add some values to the list box
                     mlb.add('Hero Section', '[hero title="" author="" subtitle="" vimeo_id=""]');
                     mlb.add('Small Caps', '[small-caps]Text[/small-caps]');
-                    mlb.add('Block Small', '[block-small align=""]Text[/block-small]');
+                    mlb.add('Blockquote', '[blockquote align=""]Text[/blockquote]');
                     mlb.add('HR Break', '[hr-break]');
                     mlb.add('HR Thick', '[hr-thick]');
                     mlb.add('H3', '[h3]Text[/h3]');

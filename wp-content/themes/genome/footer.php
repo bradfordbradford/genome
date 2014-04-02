@@ -71,7 +71,7 @@
             <div class='col'>
               <ul>
                 <li>
-                  <a href='<?php echo site_url(); ?>/privacy-kit/'>Privacy Kit</a>
+                  <a href='<?php echo site_url(); ?>/privacy-policy/'>Privacy Policy</a>
                 </li>
                 <li>
                   <a href='<?php echo site_url(); ?>/terms-and-conditions/'>Terms & Conditions</a>
