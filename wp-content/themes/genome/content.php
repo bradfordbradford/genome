@@ -58,7 +58,7 @@
                   <div class='article-meta'>
                     <time><?php echo get_the_time('F j, Y'); ?></time>
                     <span class='ver-line'>&#124;</span>
-                    <a class='action' data-icon='p' href='#1'>Print</a>
+                    <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
                     <span class='ver-line'>&#124;</span>
                     <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                     <?php edit_post_link( __( ' | Edit', '' ), '<span class="edit-link">', '</span>' ); ?>
@@ -139,7 +139,7 @@
                       <time>December 22, 2013</time>
                     </div>
                     <div class='right'>
-                      <a class='action' data-icon='p' href='#1'>PRINT</a>
+                      <a class='action' data-icon='p' href='javascript:window.print()'>PRINT</a>
                       <span class='ver-line'>&#124;</span>
                       <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                       <?php edit_post_link( __( ' | Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
