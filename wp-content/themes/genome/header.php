@@ -233,15 +233,19 @@
             </nav>
             <aside class='add-social'>
               <div class='addthis_toolbox social-list'>
-                <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
                   <span class='line'></span>
                   <span class='value'>Share</span>
                 </a>
-                <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
                 </a>
-                <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Linked In</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
                 </a>
