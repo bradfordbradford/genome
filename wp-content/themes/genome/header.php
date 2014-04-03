@@ -245,6 +245,10 @@
                   <span class='line'></span>
                   <span class='value'>LinkedIn</span>
                 </a>
+                <a class='addthis_button_addthis_button_google_plusone_share' data-icon='O' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
                 <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
