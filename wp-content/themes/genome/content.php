@@ -34,15 +34,19 @@
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
                   <a class='author-attrib text-meta-highlight' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>By <?php the_author(); ?></a>
                   <div class='addthis_toolbox social-list'>
-                    <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
                       <span class='line'></span>
                       <span class='value'>Share</span>
                     </a>
-                    <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
                     </a>
-                    <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>LinkedIn</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
                       <span class='line'></span>
                       <span class='value'>Email</span>
                     </a>
@@ -102,15 +106,19 @@
                   <?php the_title( '<h2>', '</h2>' ); ?>
 
                   <div class='addthis_toolbox social-list'>
-                    <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_facebook' data-icon='u' href='#'>
                       <span class='line'></span>
                       <span class='value'>Share</span>
                     </a>
-                    <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_twitter' data-icon='v' href='#'>
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
                     </a>
-                    <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                    <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>LinkedIn</span>
+                    </a>
+                    <a class='addthis_button_email' data-icon='h' href='#'>
                       <span class='line'></span>
                       <span class='value'>Email</span>
                     </a>
@@ -261,7 +269,7 @@
 <li class='media-object-horizontal-layout'>
                       <div class='content-row'>
                         <header>
-                          <?php 
+                          <?php
                             foreach((get_the_category()) as $childcat) {
                               if (cat_is_ancestor_of(5, $childcat)) {
                                 $topicLink = get_category_link($childcat->cat_ID);
@@ -309,4 +317,3 @@
                       </div>
                     </li>
 <?php endif; // Individual / List Page ?>
-
