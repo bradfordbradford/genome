@@ -10,6 +10,7 @@ Modernizr.load([
         complete: function () {
             var s = skrollr.init({
               edgeStrategy: 'set',
+              forceHeight: false,
               easing: {
                 WTF: Math.random,
                 inverted: function(p) {
