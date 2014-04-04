@@ -84,13 +84,13 @@
             <div class='col'>
               <ul class='social-list inline'>
                 <li>
-                  <a data-icon='u' href='http://link/…'></a>
+                  <a data-icon='u' target='_blank' href='http://facebook.com/genomemag'></a>
                 </li>
                 <li>
-                  <a data-icon='v' href='http://link/…'></a>
+                  <a data-icon='v' target='_blank' href='http://twitter.com/genomemag'></a>
                 </li>
                 <li>
-                  <a data-icon='w' href='http://link/…'></a>
+                  <a data-icon='w' target='_blank' href='http://linkedin.com/company/big-science-media'></a>
                 </li>
               </ul>
             </div>
@@ -115,12 +115,6 @@
       s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
       }());
-    </script>
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
