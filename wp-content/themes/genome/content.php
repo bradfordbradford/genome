@@ -158,6 +158,7 @@
   <?php endif; // Featured Img ?>
 
                   <footer class='article-footer'>
+                    <?php if (1==1) : // if Condition ?>
                     <div class='content-row'>
                       <ul class='meta-list with-tags inline tags-compliment-bg'>
                         <li class='list-title'>
@@ -175,6 +176,8 @@
                         ?>
                       </ul>
                     </div>
+                    <?php endif; ?>
+                    <?php if (has_tag()) : // if Tags ?>
                     <div class='content-row'>
                       <ul class='meta-list with-tags inline tags-primary-bg'>
                         <li class='list-title'>
@@ -183,6 +186,7 @@
                         <?php the_tags('<li>','</li><li>','</li>'); ?>
                       </ul>
                     </div>
+                    <?php endif; ?>
                   </footer>
                 </article>
                 <aside class='aside-column-primary'>
@@ -190,7 +194,7 @@
                   <?php get_sidebar( 'print-edition' ); ?>
                 </aside>
               </div>
-              <?php comments_template(); ?>
+              
               <div class='content-row end-block block'>
                 <section class='collection grid-3-per with-dividers'>
                   <h2 class='section-title center'>
@@ -271,7 +275,7 @@
 
                 </section>
               </div>
-
+              <?php comments_template(); ?>
             </section>
           </main>
         </div>
