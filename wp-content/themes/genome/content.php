@@ -190,6 +190,7 @@
                   <?php get_sidebar( 'print-edition' ); ?>
                 </aside>
               </div>
+              <?php comments_template(); ?>
               <div class='content-row end-block block'>
                 <section class='collection grid-3-per with-dividers'>
                   <h2 class='section-title center'>
@@ -270,6 +271,7 @@
 
                 </section>
               </div>
+
             </section>
           </main>
         </div>
