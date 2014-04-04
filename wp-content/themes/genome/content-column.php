@@ -44,10 +44,34 @@
                       }
                     ?>
                     <a class='author-attrib text-meta-highlight' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>By <?php the_author(); ?></a>
+
+                    <div class='addthis_toolbox social-list'>
+                      <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                        <span class='line'></span>
+                        <span class='value'>Share</span>
+                      </a>
+                      <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                        <span class='line'></span>
+                        <span class='value'>Tweet</span>
+                      </a>
+                      <a class='addthis_button_linkedin' data-icon='w' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                        <span class='line'></span>
+                        <span class='value'>LinkedIn</span>
+                      </a>
+                      <a class='addthis_button_google_plusone_share' data-icon='O' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                        <span class='line'></span>
+                        <span class='value'>Google Plus</span>
+                      </a>
+                      <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                        <span class='line'></span>
+                        <span class='value'>Email</span>
+                      </a>
+                    </div>
+
                     <div class='article-meta'>
                       <time><?php echo get_the_time('F j, Y'); ?></time>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='p' href='#1'>Print</a>
+                      <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
                       <span class='ver-line'>&#124;</span>
                       <a class='action' data-icon='i' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                       <?php edit_post_link( __( ' | Edit', '' ), '<span class="edit-link">', '</span>' ); ?>

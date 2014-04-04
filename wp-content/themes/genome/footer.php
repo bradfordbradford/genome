@@ -84,13 +84,13 @@
             <div class='col'>
               <ul class='social-list inline'>
                 <li>
-                  <a data-icon='u' href='http://link/…'></a>
+                  <a data-icon='u' target='_blank' href='http://facebook.com/genomemag'></a>
                 </li>
                 <li>
-                  <a data-icon='v' href='http://link/…'></a>
+                  <a data-icon='v' target='_blank' href='http://twitter.com/genomemag'></a>
                 </li>
                 <li>
-                  <a data-icon='w' href='http://link/…'></a>
+                  <a data-icon='w' target='_blank' href='http://linkedin.com/company/big-science-media'></a>
                 </li>
               </ul>
             </div>
@@ -106,12 +106,6 @@
     <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
     <script>
       var addthis_config = {"data_track_addressbar":true};
-    </script>
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
