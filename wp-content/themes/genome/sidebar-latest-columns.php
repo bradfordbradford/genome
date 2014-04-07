@@ -47,7 +47,7 @@
                                 $avatar = get_stylesheet_directory_uri() . '/img/icons/user-placeholderRetina.png';
                               }
                             ?>
-                            <img alt='' class='author-pic' src='<?php echo $avatar; ?>'>
+                            <img alt='' class='author-pic circle' src='<?php echo $avatar; ?>'>
                             <div class='media-copy'>
                               <a href='<?php echo get_permalink(); ?>'>
                                 <h3 class='author-attrib'>
