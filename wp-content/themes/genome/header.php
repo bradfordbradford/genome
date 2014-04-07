@@ -261,7 +261,7 @@
           <div class='offcanvas-inner'>
             <ol class='navigation-list'>
               <li class='nav-item current'>
-                <a href='#'>newsletter</a>
+                <a href='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;id=0a55916b1f' target="_blank">newsletter</a>
               </li>
               <li class='nav-item collapse-area'>
                 <header class='collapse-header'>
@@ -280,7 +280,7 @@
                 </ol>
               </li>
               <li class='nav-item'>
-                <a href='#'>subscribe</a>
+                <a href='https://checkout.subscriptiongenius.com/bigsciencemedia.com/' target='_blank'>subscribe</a>
               </li>
             </ol>
             <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
