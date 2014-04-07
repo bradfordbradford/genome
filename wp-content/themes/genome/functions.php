@@ -18,7 +18,7 @@ remove_action( 'wp_head', 'rel_canonical');
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 function the_post_thumbnail_caption() {
-  global $post;
+  // global $post;
 
   $thumb_id = get_post_thumbnail_id($post->id);
 
@@ -33,7 +33,7 @@ function the_post_thumbnail_caption() {
 
    if ($thumbnail_image && isset($thumbnail_image[0])) {
      //Uncomment to show the thumbnail caption
-     echo $thumbnail_image[0]->post_excerpt;
+     return $thumbnail_image[0]->post_excerpt;
    
      //show thumbnail title
 //      echo $thumbnail_image[0]->post_title; 
@@ -46,7 +46,7 @@ function the_post_thumbnail_caption() {
 }
 
 function the_post_thumbnail_description() {
-  global $post;
+  // global $post;
 
   $thumb_id = get_post_thumbnail_id($post->id);
 
@@ -62,7 +62,7 @@ function the_post_thumbnail_description() {
    if ($thumbnail_image && isset($thumbnail_image[0])) {
 
      //Uncomment to show the thumbnail description
-     echo $thumbnail_image[0]->post_content; 
+     return $thumbnail_image[0]->post_content; 
      
   }
 }

@@ -69,15 +69,17 @@
 
                   <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                 </div>
+              <?php if (the_post_thumbnail_description() || the_post_thumbnail_caption()) : ?>
                 <div class='article-photo-caption background-neutral'>
                   <div class='card-inner-wrap'>
-                    <span class='photo-attrib'><?php the_post_thumbnail_description(); ?></span>
+                    <span class='photo-attrib'><?php echo the_post_thumbnail_description(); ?></span>
                     <p class='text-meta-sub smaller'>
-                      <?php the_post_thumbnail_caption(); ?>
+                      <?php echo the_post_thumbnail_caption(); ?>
 
                     </p>
                   </div>
                 </div>
+              <?php endif; ?>
                 <article class='primary-content article-body-copy'>
                   <div id='rte-target'>
                     <?php
@@ -158,7 +160,14 @@
   <?php endif; // Featured Img ?>
 
                   <footer class='article-footer'>
-                    <?php if (1==1) : // if Condition ?>
+                    <?php
+                      foreach((get_the_category()) as $childcat) {
+                        if (cat_is_ancestor_of(7, $childcat)) {
+                          $cats[] .= $childcat->cat_name;
+                        }
+                      }
+                    ?>
+                    <?php if (!empty($cats)) : // if Condition ?>
                     <div class='content-row'>
                       <ul class='meta-list with-tags inline tags-compliment-bg'>
                         <li class='list-title'>
