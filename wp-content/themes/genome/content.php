@@ -9,7 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+<?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
 <?php if ( is_single() ) : // Individual Page ?>
   <?php if ($featured_img) : ?>
 

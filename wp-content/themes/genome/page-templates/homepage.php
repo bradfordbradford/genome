@@ -217,7 +217,12 @@ get_header(); ?>
 				            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
 
                       <div class='media-object with-large-image grid-element popup-content'>
-                      	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                        <?php
+                          $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          if ($featured_img == '') {
+                              $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
+                          }
+                        ?>
                         <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                         <div class='popup-content-wrap'>
                           <div class='comment-counter-wrap'>
@@ -268,7 +273,7 @@ get_header(); ?>
                     <section class='grid-2-per content-block'>
                       <div class='media-object-horizontal-layout'>
                         <div class='grid-element image-content'>
-                        	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                        	<?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                           <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                           <div class='comment-counter-wrap'>
                             <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
@@ -388,7 +393,12 @@ get_header(); ?>
 				            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
 
                       <div class='media-object with-large-image grid-element popup-content'>
-                      	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                      	<?php
+                          $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          if ($featured_img == '') {
+                              $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
+                          }
+                        ?>
                         <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                         <div class='popup-content-wrap'>
                           <div class='comment-counter-wrap'>

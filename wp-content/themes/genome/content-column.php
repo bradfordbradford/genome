@@ -194,7 +194,7 @@
                         ?>
                       <?php while ( $related->have_posts() ): $related->the_post(); ?>
                         <?php
-                          $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
                           if ($featured_img == '') {
                             $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
                           }
