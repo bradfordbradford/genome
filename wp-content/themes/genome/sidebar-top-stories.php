@@ -9,7 +9,7 @@
 ?>
 
 <div class='aside-block <?php if (is_front_page()) { echo "with-top-border"; } else { echo "double-spaced"; } ?>'>
-                    <header>
+                    <header<?php if (!is_front_page()) { echo " class='background-neutral'"; }?>>
                       <h2 class='section-title'>
                         Top
                         <span>
