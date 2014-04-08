@@ -9,7 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
 <?php if ( is_single() ) : // Individual Page ?>
   <?php if ($featured_img) : ?>
 
@@ -136,7 +136,7 @@
                   <div class='article-meta'>
                     <div class='left'>
                       By
-                      <a class='emph' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>Authur Righter</a>
+                      <a class='emph' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'><?php the_author(); ?></a>
                       <span class='interpunct'>&#183</span>
                       <time>December 22, 2013</time>
                     </div>
@@ -244,7 +244,7 @@
                         ?>
                       <?php while ( $related->have_posts() ): $related->the_post(); ?>
                         <?php
-                          $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
+                          $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
                           if ($featured_img == '') {
                             $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
                           }

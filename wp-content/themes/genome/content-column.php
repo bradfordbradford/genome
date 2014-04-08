@@ -77,9 +77,9 @@
                       <?php edit_post_link( __( ' | Edit', '' ), '<span class="edit-link">', '</span>' ); ?>
                     </div>
                   </header>
+              <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+              <?php if (!empty($featured_img)) : ?>
                   <div class='article-photo primary'>
-                  <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-
                     <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                   </div>
                 <?php if (the_post_thumbnail_description() || the_post_thumbnail_caption()) : ?>
@@ -93,6 +93,7 @@
                     </div>
                   </div>
                 <?php endif; ?>
+              <?php endif; ?>
                   <article class='primary-content article-body-copy'>
                     <div id='rte-target'>
                       <span class='eta'></span>
