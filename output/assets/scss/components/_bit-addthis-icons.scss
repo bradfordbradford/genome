@@ -1,28 +1,30 @@
 
 
-
-// AddThis Social Icons Custom Styles
 // Addthis Social List (Custom Styles)
 .addthis_toolbox {
     display: table;
 }
 .addthis_button_facebook,
 .addthis_button_twitter,
+.addthis_button_linkedin,
+.addthis_button_google_plusone_share,
 .addthis_button_email {
     display: table-cell;
     transition: background .1s ease-in-out;
     text-align: center;
-    color: $primaryLight !important;
+    // color: $primaryLight !important;
+    color: $primaryLink !important;
     background: $secondaryBackground;
-    font-size: em-font(11px);
+    font-size: em-font(12px);
     text-transform: uppercase;
     vertical-align: top;
     letter-spacing: .1em;
-    padding: 8px 11px;
+    padding: 10px 14px;
     border-right: 4px solid $primaryLight;
 
     &:hover {
         background: $primaryBackground;
+        color: $primaryLight !important;
     }
 
     span.line {
@@ -41,6 +43,7 @@
         top: -3px;
         left: 0px;
         font-weight: 700;
+        display: none;
     }
 
     &[data-icon]:before {
@@ -52,7 +55,7 @@
 }
 
 .addthis_button_facebook {
-    background: $facebook;
+    // background: $facebook;
     &:hover {
         background: darken($facebook, 8%);
     }
@@ -61,15 +64,29 @@
     }
 }
 
+.addthis_button_google_plusone_share {
+    &[data-icon]:before {
+        left:2px;
+    }
+    &:hover {
+      background: #CF4B35;
+    }
+}
+
 .addthis_button_twitter {
-    background: $twitter;
+    // background: $twitter;
+
+    &[data-icon]:before {
+        left:  1px;
+    }
+
     &:hover {
         background: darken($twitter, 8%);
     }
 }
 
 .addthis_button_email {
-    color: $primaryLink !important;
+    // color: $primaryLink !important;
     border-right: none;
 
     span.line {
@@ -79,7 +96,28 @@
 
     &[data-icon]:before {
         top:1px;
-        left:  -2px;
+        left:  1px;
+    }
+
+    &:hover {
+      background: darken($secondaryBackground,8%);
+      color: $primaryLink !important;
+    }
+}
+
+.addthis_button_linkedin {
+    // background:#4897C9;
+    span.line {
+        background: $primaryLink;
+    }
+
+    &[data-icon]:before {
+        top:1px;
+        left:  1px;
+    }
+    &:hover {
+      // background: darken(#4897C9, 8%);
+      background:#4897C9;
     }
 }
 

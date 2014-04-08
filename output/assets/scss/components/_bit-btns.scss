@@ -100,6 +100,15 @@
         }
     }
 
+    &.neutral-light {
+        background: $primaryLink;
+        color: $primaryLight;
+
+        &:hover {
+            background: darken($primaryText, 2%);
+        }
+    }
+
 
     &.media-action {
         @include rgba($primaryHeader, .8);

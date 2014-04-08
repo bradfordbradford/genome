@@ -48,4 +48,28 @@ aside.aside-column-primary {
         margin: 0 4px 0 8px;
     }
 
+    // Share
+    .social-list {
+      margin: 0 auto;
+    }
+
+    // Author
+    .author-pic {
+      display: block;
+      margin: 0 auto 12px;
+    }
+    .author-attrib {
+      text-align:center;
+      display: block;
+      margin: 0 auto 12px;
+    }
+
+}
+
+
+//
+.no-photo {
+  .aside-column-primary {
+    margin-top: -160px;
+  }
 }

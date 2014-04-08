@@ -41,6 +41,7 @@
 
         // Full Bleed Items: REMOVE COLUMNS
         header.article-header,
+        &.no-photo header.article-header,
         .article-photo-caption,
         .article-photo.primary {
             @include fullBleed;
@@ -200,7 +201,9 @@
 
 @media only screen and (max-width: 512px) { // ---- Down from  ----
   .grid-2-per .grid-element:nth-child(odd),
-  .grid-2-per .grid-element {
+  .grid-2-per .grid-element,
+  .grid-2-per.major-r .grid-element,
+  .grid-2-per.major-r .grid-element:last-child {
     @include fullBleed;
   }
 }
@@ -225,6 +228,16 @@
     }
     // ---- //
 
+
+    // NOTE: Section Titles with Bleed
+    .section-header.add-bleed {
+      margin-left: 0;
+      margin-right: 0px;
+    }
+    // NOTE: Correct .interpunct Position on Touch Devices
+    .touch .interpunct {
+      top: -5px !important;
+    }
     // NOTE: Hide tagline
     section#main-site-navigation-wrap.menu-slim .tagline {
         display: none;
