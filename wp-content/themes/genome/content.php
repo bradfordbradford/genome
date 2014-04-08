@@ -203,7 +203,35 @@
                   <?php get_sidebar( 'print-edition' ); ?>
                 </aside>
               </div>
-              
+              <?php
+          // Find Condition ID
+                foreach((get_the_category()) as $childcat) {
+                  if (cat_is_ancestor_of(7, $childcat)) {
+                    $catsIn[] = $childcat->cat_ID;
+                  }
+                }
+          // Related Topics as a backup
+                $catsIn[] = $topicID;
+          // print_r( $catsIn );
+              ?>
+              <?php
+                    $args = array(
+                  'post_type'             => array( 'post', 'page' ),
+                  'showposts'             => 3,
+                  'category__in'          => $catsIn,
+                  'ignore_sticky_posts'   => true,
+                  'post__not_in'          => array( $post->ID ),
+                  // 'orderby'               => 'comment_count',
+                  //'order'                 => 'asc',
+                  // 'date_query' => array(
+                  //     array(
+                  //         'after' => '1 week ago',
+                  //     ),
+                  // ),
+                    );
+                    $related = new WP_Query($args);
+              ?>
+            <?php if ($related->have_posts()) : ?>
               <div class='content-row end-block block'>
                 <section class='collection grid-3-per with-dividers'>
                   <h2 class='section-title center'>
@@ -214,34 +242,6 @@
                   </h2>
                   <hr class='thick neutral-light-bg partial'>
 
-                      <?php
-                  // Find Condition ID
-                        foreach((get_the_category()) as $childcat) {
-                          if (cat_is_ancestor_of(7, $childcat)) {
-                            $catsIn[] = $childcat->cat_ID;
-                          }
-                        }
-                  // Related Topics as a backup
-                        $catsIn[] = $topicID;
-                  // print_r( $catsIn );
-                      ?>
-                      <?php
-                            $args = array(
-                          'post_type'             => array( 'post', 'page' ),
-                          'showposts'             => 3,
-                          'category__in'          => $catsIn,
-                          'ignore_sticky_posts'   => true,
-                          'post__not_in'          => array( $post->ID ),
-                          // 'orderby'               => 'comment_count',
-                          //'order'                 => 'asc',
-                          // 'date_query' => array(
-                          //     array(
-                          //         'after' => '1 week ago',
-                          //     ),
-                          // ),
-                            );
-                            $related = new WP_Query($args);
-                        ?>
                       <?php while ( $related->have_posts() ): $related->the_post(); ?>
                         <?php
                           $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
@@ -284,6 +284,7 @@
 
                 </section>
               </div>
+            <?php endif; // Related Reading ?>
               <?php comments_template(); ?>
             </section>
           </main>
