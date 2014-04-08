@@ -91,6 +91,9 @@
 .accessible-megamenu-panel.open {
     @include container;
 }
+#main-navigation li {
+  list-style:none;
+}
 .nav-sub-item {
     // Grid
     @include span-columns(4, $total);

@@ -110,33 +110,34 @@ dl {
   font-family: inherit;
 }
 
-// ul li ul,
-// ul li ol { }
-ul.square, ul.circle, ul.disc {
-    li {
-        margin-bottom: 12px;
-    }
-    ul {
-        line-height: 1.25em;
-        list-style: inherit;
-        padding-left: 24px;
-        li {
-            list-style: circle;
-        }
-    }
+// Definition List
+dl {
+  dt {
+    font-weight:700;
+    margin: 8px auto;
+  }
+  dd {
+    margin-left: 16px;
+    font-style:italic;
+  }
+}
 
+// Styled Lists
+ul.square, ul.circle, ul.disc {
+  padding-left: 16px;
 }
 ul.square {
   list-style-type: square;
-  margin-left: 1.1rem; }
+}
 ul.circle {
   list-style-type: circle;
-  margin-left: 1.1rem; }
+}
 ul.disc {
   list-style-type: disc;
-  margin-left: 1.1rem; }
+}
 ul.no-bullet {
-  list-style: none; }
+  list-style: none;
+}
 
 
 // // Ordered Lists
@@ -164,17 +165,7 @@ abbr {
 
 // Blockquotes
 // blockquote {}
-cite {
-  font-size: em-font(12px);
-  font-family: $sans;
-  font-weight: 400;
-  line-height: 1.58em;
-  text-transform: uppercase;
-  text-align: center;
-  display: block;
-  letter-spacing: 0.2em;
-  margin: 16px auto 0 auto;
-}
+// cite {}
 // blockquote,
 // blockquote p {}
 
@@ -270,13 +261,13 @@ blockquote {
 
 // Article Body P, .end-mark, H3
 .article-body-copy {
-  h1 {
-      font-size: em-font(54px);
-      font-weight: 700;
-      letter-spacing: -0.009em;
-      line-height: 1em;
-      margin:0 0 16px;
-  }
+    h1 {
+        font-size: em-font(54px);
+        font-weight: 700;
+        letter-spacing: -0.009em;
+        line-height: 1em;
+        margin:0 0 16px;
+    }
     h2 {
         font-size: em-font(48px);
         font-weight: 700;
@@ -328,6 +319,22 @@ blockquote {
         &:hover {
             color: $primaryLink;
         }
+    }
+
+    ul {
+      margin: 0 auto 32px;
+      li {
+          margin-bottom: 12px;
+      }
+      ul {
+          line-height: 1.25em;
+          list-style: inherit;
+          padding-left: 24px;
+          li {
+              list-style: circle;
+          }
+      }
+
     }
 
 }
@@ -549,7 +556,7 @@ blockquote {
     &.hero-article-title {
         h2 {
             text-align: left;
-            font-size: em-font(90px);
+            font-size: em-font(85px);
             line-height: 0.78em;
         }
         p.lead {

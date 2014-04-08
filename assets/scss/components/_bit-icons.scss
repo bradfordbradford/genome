@@ -1,5 +1,4 @@
 
-// Genome Font //
 @font-face {
   font-family: "genome";
   src:url("../fonts/genome.eot");
@@ -154,4 +153,10 @@
 }
 .icon-genome-logo:before {
   content: "L";
+}
+.icon-user:before {
+  content: "N";
+}
+.icon-fontawesome-webfont-1:before {
+  content: "O";
 }

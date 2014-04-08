@@ -1,0 +1,24 @@
+
+// Tables
+
+table {
+  background: $primaryLight;
+  margin-bottom: 1.11111rem;
+  border: solid 1px #ddd; }
+  table thead, table tfoot {
+    background: $secondaryBackground; }
+    table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
+      padding: 0.44444rem 0.55556rem 0.55556rem;
+      font-size: 0.77778rem;
+      font-weight: bold;
+      color: $primaryText;
+      text-align: left; }
+  table tr th, table tr td {
+    padding: 0.5rem 0.55556rem;
+    font-size: 0.77778rem;
+    color: $primaryText; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #f9f9f9; }
+  table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+    display: table-cell;
+    line-height: 1rem; }

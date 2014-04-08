@@ -103,17 +103,17 @@
 }
 
 // Footer Settings depending on Skrollr.js loading
-.no-touch.skrollr {
-  #main-footer {
-    margin-top: - ($footerHeight / 2 ) - ($navbarHeight / 3.6) ;
-  }
-}
+// .no-touch.skrollr {
+//   #main-footer {
+//     margin-top: - ($footerHeight / 2 ) - ($navbarHeight / 3.6) ;
+//   }
+// }
 
-.touch {
-  body {
-    height: auto;
-  }
-  #main-footer {
-    margin-top: -$navbarHeight;
-  }
-}
+// .touch {
+//   body {
+//     height: auto;
+//   }
+  // #main-footer {
+  //   margin-top: -$navbarHeight;
+  // }
+// }

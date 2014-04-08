@@ -2,7 +2,7 @@
 <html class='no-js' lang='en'>
   <head>
     <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
-    <title>Genome — Lists</title>
+    <title>Genome — Tables</title>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../img/icons/favicon-alt-16.png' rel='icon'>
@@ -19,7 +19,7 @@
       <div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
           <div class='center content-row add-space-b'>
-            <h2>Lists</h2>
+            <h2>Tables</h2>
             <br>
             <br>
             <a class='btn' href='/'>
@@ -31,42 +31,79 @@
 
               <div class="content-row">
                 <h3>
-                  Slats
+                  Tables for Tabular data
                 </h3>
-                <p class="article-body-copy">
-                  These can easily be used in combination with other list style classes:
-                  <code>.square</code>,
-                  <code>.circle</code>,
-                  <code>.disc</code>
-                  <br>
-                  More on that in <a href="typography.html#lists">Typography</a>.
+                <p class="article-body-copy">While they're certainly not the sexiest things ever, tables get the job done.
                 </p>
                 <br>
                 <br>
-                <div class="grid-2-per">
-                  <div class="grid-element">
-                    <div class="text-meta light-text-color">RENDERED HTML</div>
-                    <br>
-                    <br>
-                    <ul class="slats">
-                      <li><a href="#">List Item</a></li>
-                      <li><a href="#">List Item</a></li>
-                      <li><a href="#">List Item</a></li>
-                      <li><a href="#">List Item</a></li>
-                    </ul>
+                <div class="text-meta light-text-color">RENDERED HTML</div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th width="200">Table Header</th>
+                      <th>Table Header</th>
+                      <th width="150">Table Header</th>
+                      <th width="150">Table Header</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Content Goes Here</td>
+                      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+                      <td>Content Goes Here</td>
+                      <td>Content Goes Here</td>
+                    </tr>
+                    <tr>
+                      <td>Content Goes Here</td>
+                      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+                      <td>Content Goes Here</td>
+                      <td>Content Goes Here</td>
+                    </tr>
+                    <tr>
+                      <td>Content Goes Here</td>
+                      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+                      <td>Content Goes Here</td>
+                      <td>Content Goes Here</td>
+                    </tr>
+                  </tbody>
+                </table>
 
-                  </div>
-                  <div class="grid-element">
-                    <div class="text-meta light-text-color">HTML</div>
-                      <pre class="prettyprint">
+
+                <div class="text-meta light-text-color">HTML</div>
+                  <pre class="prettyprint">
 
 
-  &lt;ul class="slats"&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-  &lt;/ul&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th width="200"&gt;Table Header&lt;/th&gt;
+        &lt;th&gt;Table Header&lt;/th&gt;
+        &lt;th width="150"&gt;Table Header&lt;/th&gt;
+        &lt;th width="150"&gt;Table Header&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;This is longer content Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+        &lt;td&gt;Content Goes Here&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
 
 
 
@@ -92,43 +129,6 @@
                       <li><a href="#">List Item</a></li>
                       <li><a href="#">List Item</a></li>
                     </ul>
-
-                  </div>
-                  <div class="grid-element">
-                    <div class="text-meta light-text-color">HTML</div>
-                      <pre class="prettyprint">
-
-
-  &lt;ul class="inline"&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-    &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
-  &lt;/ul&gt;
-
-
-
-                      </pre>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="content-row block">
-                <h3>
-                  Definition Lists
-                </h3>
-                <br>
-                <div class="grid-2-per">
-                  <div class="grid-element">
-                    <div class="text-meta light-text-color">RENDERED HTML</div>
-                    <br>
-                    <br>
-                    <dl>
-                      <dt>Definition Term</dt>
-                      <dd>Definition Description</dd>
-                    </dl>
 
                   </div>
                   <div class="grid-element">
