@@ -1,6 +1,23 @@
 ----
 Burnlist: notes, mini bugs, etc
 ----
+04/1/14
+----
+[x] update print ad copy
+update css
+check wp browsers
+check wp mobile
+check wp ipad
+check links
+
+[x] add <abbr>
+[x] add .no-bullet
+[x] style tabular data
+[x] style <dl>s
+
+
+
+----
 03/31/14
 ----
 # Launch List

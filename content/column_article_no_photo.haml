@@ -1,8 +1,8 @@
 ---
-title: Article Type- Column
+title: Article Type- Column without Photo
 ---
 
-%section.primary_layout.article_layout
+%section.primary_layout.article_layout.no-photo
     .inner-bounds.background-white.block
 
 
@@ -18,29 +18,25 @@ title: Article Type- Column
 
                     %h2 Rethinking Cancer Treatment in 2014
 
-                    %p.lead Research finds major flaws in standard medical approach
+                    %p.lead Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non.
 
-                    %img.load.author-pic.circle{:src => "../assets/img/content/author-placeholder.jpg", :'data-original' => "../assets/img/content/author-placeholder.jpg", :alt => ""}/
+                    .hide-above-tablet-p
+                        %img.load.author-pic.circle{:src => "../assets/img/content/author-placeholder.jpg", :'data-original' => "../assets/img/content/author-placeholder.jpg", :alt => ""}/
 
-                    %a.author-attrib.text-meta-highlight{:href => "http://link/…"} By Author Righter
+                        %a.author-attrib.text-meta-highlight{:href => "http://link/…"} By Author Righter
 
-                    -# Social List
-                    = render "social-list"
+                        -# Social List
+                        = render "social-list"
 
                     -# Meta Info - Partial
-                    = render "meta-partial-article-info"
+                    .article-meta
+                        .left
+                            %time December 22, 2013
+                        .right
+                            %a.action{:href=>"javascript:window.print()", :'data-icon'=>"p"} Print
+                            %span.ver-line &#124;
+                            %a.action{:href => "http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread", :'data-icon'=>"i"}
 
-                -# Photo
-                .article-photo.primary
-                    %img.load{:src => "../assets/img/content/Repubblica-30-dicembre-2012.jpg", :'data-original' => "../assets/img/content/Repubblica-30-dicembre-2012.jpg", :alt => ""}/
-
-                -# Photo Caption Card
-                .article-photo-caption.background-neutral
-                    .card-inner-wrap
-                        %span.photo-attrib Annie Photographer
-
-                        %p.text-meta-sub.smaller
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
 
 
                 -# Primary Content Column / Article Body Copy
@@ -89,7 +85,7 @@ title: Article Type- Column
 
 
                 -# Primary Aside Column
-                = render 'aside-column-article'
+                = render 'aside-column-article-no-photo'
 
 
 

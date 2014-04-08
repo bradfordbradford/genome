@@ -151,9 +151,17 @@ section#main-site-navigation-wrap {
         @include opacity(0);
         transition: opacity .4s ease 0s;
         position: absolute;
-        right: 0px;
-        top: 10px;
+        right: 4px;
+        top: 7px;
         z-index: 0;
+        .addthis_button_facebook,
+        .addthis_button_twitter,
+        .addthis_button_linkedin,
+        .addthis_button_linkedin,
+        .addthis_button_email {
+          padding: 9px 12px;
+          // font-size: em-font(11px);
+        }
     }
 
     // Search

@@ -1,4 +1,4 @@
-{:	data{I"/article_blog/:ET{:default{	:	lastI"Å<!DOCTYPE html>
+{:	data{I"/article_blog/:ET{:default{	:	lastI"◊Ü<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11,14 +11,12 @@
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -32,7 +30,7 @@
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -40,6 +38,7 @@
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -229,6 +228,14 @@
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
                 </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
@@ -286,6 +293,14 @@
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
                     </a>
+                    <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>LinkedIn</span>
+                    </a>
+                    <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Google Plus</span>
+                    </a>
                     <a class='addthis_button_email' data-icon='h' href='#'>
                       <span class='line'></span>
                       <span class='value'>Email</span>
@@ -294,7 +309,7 @@
                   <div class='article-meta'>
                     <time>December 22, 2013</time>
                     <span class='ver-line'>&#124;</span>
-                    <a class='action' data-icon='p' href='#1'>Print</a>
+                    <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
                     <span class='ver-line'>&#124;</span>
                     <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
                   </div>
@@ -325,6 +340,22 @@
                       <a href='http://link-here/‚Ä¶'>amazing</a>
                       tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
                     </p>
+                    <ul>
+                      <li>Lorem ipsum...</li>
+                      <li>Lorem ipsum...</li>
+                    </ul>
+                    <ul class='disc'>
+                      <li>Lorem ipsum...</li>
+                      <li>Lorem ipsum...</li>
+                    </ul>
+                    <ul class='square'>
+                      <li>Lorem ipsum...</li>
+                      <li>Lorem ipsum...</li>
+                    </ul>
+                    <ul class='circle'>
+                      <li>Lorem ipsum...</li>
+                      <li>Lorem ipsum...</li>
+                    </ul>
                     <p>
                       Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
                     </p>
@@ -679,7 +710,7 @@
     </script>
   </body>
 </html>
-;T:rawI"a%section.primary_layout.article_layout
+;T:rawI"-%section.primary_layout.article_layout
     .inner-bounds.block.background-white
 
         -# Article Header
@@ -727,8 +758,21 @@
                         Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
                         %a{:href => "http://link-here/‚Ä¶"} amazing
                         tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                    %ul
+                        %li Lorem ipsum...
+                        %li Lorem ipsum...
+                    %ul.disc
+                        %li Lorem ipsum...
+                        %li Lorem ipsum...
+                    %ul.square
+                        %li Lorem ipsum...
+                        %li Lorem ipsum...
+                    %ul.circle
+                        %li Lorem ipsum...
+                        %li Lorem ipsum...
                     %p
                         Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
 
                     %blockquote
                         Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
@@ -758,7 +802,7 @@
 
     .content-row.end-block.inner-bounds.background-white
         -# Collection
-        = render 'collection-related-reading';T:preI"¬6<section class='primary_layout article_layout'>
+        = render 'collection-related-reading';T:preI":<section class='primary_layout article_layout'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -775,6 +819,14 @@
             <span class='line'></span>
             <span class='value'>Tweet</span>
           </a>
+          <a class='addthis_button_linkedin' data-icon='w' href='#'>
+            <span class='line'></span>
+            <span class='value'>LinkedIn</span>
+          </a>
+          <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+            <span class='line'></span>
+            <span class='value'>Google Plus</span>
+          </a>
           <a class='addthis_button_email' data-icon='h' href='#'>
             <span class='line'></span>
             <span class='value'>Email</span>
@@ -783,7 +835,7 @@
         <div class='article-meta'>
           <time>December 22, 2013</time>
           <span class='ver-line'>&#124;</span>
-          <a class='action' data-icon='p' href='#1'>Print</a>
+          <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
           <span class='ver-line'>&#124;</span>
           <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
         </div>
@@ -814,6 +866,22 @@
             <a href='http://link-here/‚Ä¶'>amazing</a>
             tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
           </p>
+          <ul>
+            <li>Lorem ipsum...</li>
+            <li>Lorem ipsum...</li>
+          </ul>
+          <ul class='disc'>
+            <li>Lorem ipsum...</li>
+            <li>Lorem ipsum...</li>
+          </ul>
+          <ul class='square'>
+            <li>Lorem ipsum...</li>
+            <li>Lorem ipsum...</li>
+          </ul>
+          <ul class='circle'>
+            <li>Lorem ipsum...</li>
+            <li>Lorem ipsum...</li>
+          </ul>
           <p>
             Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
           </p>
@@ -1054,7 +1122,7 @@
   </div>
 </section>
 ;T:	post@
-I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
+I"/article_blog_no_photo/;T{;{	;I"¬w<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -1067,14 +1135,12 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -1088,7 +1154,7 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -1096,6 +1162,7 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -1285,6 +1352,14 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
                 </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
@@ -1339,6 +1414,14 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
                     <a class='addthis_button_twitter' data-icon='v' href='#'>
                       <span class='line'></span>
                       <span class='value'>Tweet</span>
+                    </a>
+                    <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>LinkedIn</span>
+                    </a>
+                    <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                      <span class='line'></span>
+                      <span class='value'>Google Plus</span>
                     </a>
                     <a class='addthis_button_email' data-icon='h' href='#'>
                       <span class='line'></span>
@@ -1751,7 +1834,7 @@ I"/article_blog_no_photo/;T{;{	;I"lt<!DOCTYPE html>
     .end-block.inner-bounds.block.background-white
         -# Collection
         = render 'collection-related-reading';T;
-I"Ø+<section class='primary_layout article_layout no-photo'>
+I"-<section class='primary_layout article_layout no-photo'>
   <div class='inner-bounds block background-white'>
     <div class='content-row'>
       <header class='article-header'>
@@ -1765,6 +1848,14 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
           <a class='addthis_button_twitter' data-icon='v' href='#'>
             <span class='line'></span>
             <span class='value'>Tweet</span>
+          </a>
+          <a class='addthis_button_linkedin' data-icon='w' href='#'>
+            <span class='line'></span>
+            <span class='value'>LinkedIn</span>
+          </a>
+          <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+            <span class='line'></span>
+            <span class='value'>Google Plus</span>
           </a>
           <a class='addthis_button_email' data-icon='h' href='#'>
             <span class='line'></span>
@@ -2006,7 +2097,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </section>
   </div>
 </section>
-;T;@I"/article_column/;T{;{	;I"=Ü<!DOCTYPE html>
+;T;@I"/article_column/;T{;{	;I"óå<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -2019,14 +2110,12 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -2040,7 +2129,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -2048,6 +2137,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -2237,6 +2327,14 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
                 </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
@@ -2291,10 +2389,32 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                     <p class='lead'>Research finds major flaws in standard medical approach</p>
                     <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
                     <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+                    <div class='addthis_toolbox social-list'>
+                      <a class='addthis_button_facebook' data-icon='u' href='#'>
+                        <span class='line'></span>
+                        <span class='value'>Share</span>
+                      </a>
+                      <a class='addthis_button_twitter' data-icon='v' href='#'>
+                        <span class='line'></span>
+                        <span class='value'>Tweet</span>
+                      </a>
+                      <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                        <span class='line'></span>
+                        <span class='value'>LinkedIn</span>
+                      </a>
+                      <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                        <span class='line'></span>
+                        <span class='value'>Google Plus</span>
+                      </a>
+                      <a class='addthis_button_email' data-icon='h' href='#'>
+                        <span class='line'></span>
+                        <span class='value'>Email</span>
+                      </a>
+                    </div>
                     <div class='article-meta'>
                       <time>December 22, 2013</time>
                       <span class='ver-line'>&#124;</span>
-                      <a class='action' data-icon='p' href='#1'>Print</a>
+                      <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
                       <span class='ver-line'>&#124;</span>
                       <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
                     </div>
@@ -2688,7 +2808,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
     </script>
   </body>
 </html>
-;T;	I"ˇ%section.primary_layout.article_layout
+;T;	I"N%section.primary_layout.article_layout
     .inner-bounds.background-white.block
 
 
@@ -2709,6 +2829,9 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
                     %img.load.author-pic.circle{:src => "../assets/img/content/author-placeholder.jpg", :'data-original' => "../assets/img/content/author-placeholder.jpg", :alt => ""}/
 
                     %a.author-attrib.text-meta-highlight{:href => "http://link/‚Ä¶"} By Author Righter
+
+                    -# Social List
+                    = render "social-list"
 
                     -# Meta Info - Partial
                     = render "meta-partial-article-info"
@@ -2779,7 +2902,7 @@ I"Ø+<section class='primary_layout article_layout no-photo'>
         .content-row.end-block.block
             -# Collection
             = render 'collection-related-reading';T;
-I";<section class='primary_layout article_layout'>
+I"Õ?<section class='primary_layout article_layout'>
   <div class='inner-bounds background-white block'>
     <div class='content-row'>
       <div class='content-row'>
@@ -2793,10 +2916,32 @@ I";<section class='primary_layout article_layout'>
           <p class='lead'>Research finds major flaws in standard medical approach</p>
           <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
           <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+          <div class='addthis_toolbox social-list'>
+            <a class='addthis_button_facebook' data-icon='u' href='#'>
+              <span class='line'></span>
+              <span class='value'>Share</span>
+            </a>
+            <a class='addthis_button_twitter' data-icon='v' href='#'>
+              <span class='line'></span>
+              <span class='value'>Tweet</span>
+            </a>
+            <a class='addthis_button_linkedin' data-icon='w' href='#'>
+              <span class='line'></span>
+              <span class='value'>LinkedIn</span>
+            </a>
+            <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+              <span class='line'></span>
+              <span class='value'>Google Plus</span>
+            </a>
+            <a class='addthis_button_email' data-icon='h' href='#'>
+              <span class='line'></span>
+              <span class='value'>Email</span>
+            </a>
+          </div>
           <div class='article-meta'>
             <time>December 22, 2013</time>
             <span class='ver-line'>&#124;</span>
-            <a class='action' data-icon='p' href='#1'>Print</a>
+            <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
             <span class='ver-line'>&#124;</span>
             <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
           </div>
@@ -3075,7 +3220,7 @@ I";<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"kÖ<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"á<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3088,14 +3233,12 @@ I";<section class='primary_layout article_layout'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -3109,7 +3252,7 @@ I";<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -3117,6 +3260,7 @@ I";<section class='primary_layout article_layout'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -3305,6 +3449,14 @@ I";<section class='primary_layout article_layout'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -4139,7 +4291,7 @@ I"˜=<div class='background-white'>
     </section>
   </div>
 </div>
-;T;@I"/blank_page/;T{;{	;I"œD<!DOCTYPE html>
+;T;@I"/blank_page/;T{;{	;I"pF<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4152,14 +4304,12 @@ I"˜=<div class='background-white'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -4173,7 +4323,7 @@ I"˜=<div class='background-white'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4181,6 +4331,7 @@ I"˜=<div class='background-white'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -4369,6 +4520,14 @@ I"˜=<div class='background-white'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -4556,7 +4715,7 @@ I"ö<section class='primary_layout'>
     </div>
   </div>
 </section>
-;T;@"I"/blog_roll/;T{;{	;I"~Ä<!DOCTYPE html>
+;T;@"I"/blog_roll/;T{;{	;I"Ç<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -4569,14 +4728,12 @@ I"ö<section class='primary_layout'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -4590,7 +4747,7 @@ I"ö<section class='primary_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -4598,6 +4755,7 @@ I"ö<section class='primary_layout'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -4786,6 +4944,14 @@ I"ö<section class='primary_layout'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -5735,7 +5901,7 @@ I"™5<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@(I"/;T{;{	;I"øö<!DOCTYPE html>
+;T;@(I"/;T{;{	;I"Oú<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -5748,14 +5914,12 @@ I"™5<section class='primary_layout article_layout'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -5769,7 +5933,7 @@ I"™5<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -5777,6 +5941,7 @@ I"™5<section class='primary_layout article_layout'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -5965,6 +6130,14 @@ I"™5<section class='primary_layout article_layout'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -6198,8 +6371,8 @@ I"™5<section class='primary_layout article_layout'>
                       </div>
                     </section>
                   </div>
-                  <div class='content-row add-padding-b'>
-                    <a class='btn primary full-bleed' href='#'>View All (Issues?)</a>
+                  <div class='content-row'>
+                    <a class='btn primary full-bleed' href='#'>View All Issues</a>
                   </div>
                 </section>
                 <aside class='aside-column-primary'>
@@ -6567,7 +6740,7 @@ I"™5<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"j'%header.hero.hero-featured-article.background-size-full.center
+;T;	I"Y'%header.hero.hero-featured-article.background-size-full.center
     .story-cover-content.single-col-layout
         .align-middle
             .align-block
@@ -6744,12 +6917,12 @@ I"™5<section class='primary_layout article_layout'>
                                         Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
 
-                .content-row.add-padding-b
-                    %a.btn.primary.full-bleed{:href => "#"} View All (Issues?)
+                .content-row
+                    %a.btn.primary.full-bleed{:href => "#"} View All Issues
 
             -# Aside Column
             = render 'aside-column-home';T;
-I"¶J<header class='hero hero-featured-article background-size-full center'>
+I"ïJ<header class='hero hero-featured-article background-size-full center'>
   <div class='story-cover-content single-col-layout'>
     <div class='align-middle'>
       <div class='align-block'>
@@ -6941,8 +7114,8 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
             </div>
           </section>
         </div>
-        <div class='content-row add-padding-b'>
-          <a class='btn primary full-bleed' href='#'>View All (Issues?)</a>
+        <div class='content-row'>
+          <a class='btn primary full-bleed' href='#'>View All Issues</a>
         </div>
       </section>
       <aside class='aside-column-primary'>
@@ -7195,7 +7368,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     </div>
   </div>
 </section>
-;T;@.I"/project_index/;T{;{	;I"ÿo<!DOCTYPE html>
+;T;@.I"/project_index/;T{;{	;I"yq<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -7208,14 +7381,12 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -7229,7 +7400,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -7237,6 +7408,7 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -7425,6 +7597,14 @@ I"¶J<header class='hero hero-featured-article background-size-full center'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -8104,7 +8284,7 @@ I"¸)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@4I"/search_results/;T{;{	;I"5o<!DOCTYPE html>
+;T;@4I"/search_results/;T{;{	;I";~<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -8117,14 +8297,12 @@ I"¸)<section class='primary_layout article_layout'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -8138,7 +8316,7 @@ I"¸)<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -8146,6 +8324,7 @@ I"¸)<section class='primary_layout article_layout'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -8335,6 +8514,14 @@ I"¸)<section class='primary_layout article_layout'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
                 </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
                   <span class='value'>Email</span>
@@ -8419,7 +8606,7 @@ I"¸)<section class='primary_layout article_layout'>
                     </div>
                     <a class='text-meta' href='#'>Science</a>
                     <a class='media-copy' href='#'>
-                      <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                      <h3 class='text-meta-header'>Why is this $99 Home DNA Kit Causing Such an Uproar?</h3>
                       <p class='text-meta-sub light-text-color'>By Authur Righter</p>
                       <p class='text-meta-sub light-text-color sans-meta'>
                         A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
@@ -8436,6 +8623,54 @@ I"¸)<section class='primary_layout article_layout'>
                     <a class='text-meta' href='#'>Treatment</a>
                     <a class='media-copy' href='#'>
                       <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                      <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                      <p class='text-meta-sub light-text-color sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' class='load' data-original='../assets/img/icons/article-img-placeholderRetina.png' src='../assets/img/icons/article-img-placeholderRetina.png'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+                    </div>
+                    <a class='text-meta' href='#'>Research</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                      <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                      <p class='text-meta-sub light-text-color sans-meta'>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-3.jpg' src='../assets/img/content/th-feature-placeholder-3.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+                    </div>
+                    <a class='text-meta' href='#'>Science</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Why is this $99 Home DNA Kit Causing Such an Uproar?</h3>
+                      <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                      <p class='text-meta-sub light-text-color sans-meta'>
+                        A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class='media-object with-large-image grid-element popup-content'>
+                  <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                  <div class='popup-content-wrap'>
+                    <div class='comment-counter-wrap'>
+                      <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+                    </div>
+                    <a class='text-meta' href='#'>Treatment</a>
+                    <a class='media-copy' href='#'>
+                      <h3 class='text-meta-header'>Changing the Facts</h3>
                       <p class='text-meta-sub light-text-color'>By Authur Righter</p>
                       <p class='text-meta-sub light-text-color sans-meta'>
                         Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
@@ -8695,7 +8930,7 @@ I"¸)<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"∆%-# Search Results
+;T;	I"Ã0-# Search Results
 .inner-bounds.remove-footer-offset.block
     %header.section-header.add-bleed
         %h2.section-title.left.smaller
@@ -8737,7 +8972,7 @@ I"¸)<section class='primary_layout article_layout'>
                     %a.text-meta{:href => "#"} Science
 
                     %a.media-copy{:href => "#"}
-                        %h3.text-meta-header Rewriting the Brain
+                        %h3.text-meta-header Why is this $99 Home DNA Kit Causing Such an Uproar?
                         %p.text-meta-sub.light-text-color By Authur Righter
                         %p.text-meta-sub.light-text-color.sans-meta
                             A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
@@ -8757,6 +8992,50 @@ I"¸)<section class='primary_layout article_layout'>
                         %p.text-meta-sub.light-text-color.sans-meta
                             Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
+
+            .media-object.with-large-image.grid-element.popup-content
+                %img.load{:src => "../assets/img/icons/article-img-placeholderRetina.png", :'data-original' => "../assets/img/icons/article-img-placeholderRetina.png", :alt => "image title"}/
+                .popup-content-wrap
+                    .comment-counter-wrap
+                        %a.icon.comment-counter{:href => "http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread"}
+
+                    %a.text-meta{:href => "#"} Research
+
+                    %a.media-copy{:href => "#"}
+                        %h3.text-meta-header Reworking Your Genetic Puzzle
+                        %p.text-meta-sub.light-text-color By Authur Righter
+                        %p.text-meta-sub.light-text-color.sans-meta
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+
+
+            .media-object.with-large-image.grid-element.popup-content
+                %img.load{:src => "../assets/img/content/th-feature-placeholder-3.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-3.jpg", :alt => "image title"}/
+                .popup-content-wrap
+                    .comment-counter-wrap
+                        %a.icon.comment-counter{:href => "http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread"}
+
+                    %a.text-meta{:href => "#"} Science
+
+                    %a.media-copy{:href => "#"}
+                        %h3.text-meta-header Why is this $99 Home DNA Kit Causing Such an Uproar?
+                        %p.text-meta-sub.light-text-color By Authur Righter
+                        %p.text-meta-sub.light-text-color.sans-meta
+                            A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
+
+
+            .media-object.with-large-image.grid-element.popup-content
+                %img.load{:src => "../assets/img/content/th-feature-placeholder-2.jpg", :'data-original' => "../assets/img/content/th-feature-placeholder-2.jpg", :alt => "image title"}/
+                .popup-content-wrap
+                    .comment-counter-wrap
+                        %a.icon.comment-counter{:href => "http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread"}
+
+                    %a.text-meta{:href => "#"} Treatment
+
+                    %a.media-copy{:href => "#"}
+                        %h3.text-meta-header Changing the Facts
+                        %p.text-meta-sub.light-text-color By Authur Righter
+                        %p.text-meta-sub.light-text-color.sans-meta
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
 
 
 .inner-bounds.background-white.card-block
@@ -8877,7 +9156,7 @@ I"¸)<section class='primary_layout article_layout'>
                 / %a.input-icon{:'data-icon'=>"C", :href=>"#"}
                 %input.input-icon{:type => "submit", :value=>"", :'data-icon'=>"C",}/
                 %input#search{:type => "text", :placeholder => "What were you looking for?"}/;T;
-I"q(<div class='inner-bounds remove-footer-offset block'>
+I"ˆ3<div class='inner-bounds remove-footer-offset block'>
   <header class='section-header add-bleed'>
     <h2 class='section-title left smaller'>
       <span>
@@ -8921,7 +9200,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
           </div>
           <a class='text-meta' href='#'>Science</a>
           <a class='media-copy' href='#'>
-            <h3 class='text-meta-header'>Rewriting the Brain</h3>
+            <h3 class='text-meta-header'>Why is this $99 Home DNA Kit Causing Such an Uproar?</h3>
             <p class='text-meta-sub light-text-color'>By Authur Righter</p>
             <p class='text-meta-sub light-text-color sans-meta'>
               A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
@@ -8938,6 +9217,54 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
           <a class='text-meta' href='#'>Treatment</a>
           <a class='media-copy' href='#'>
             <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+            <p class='text-meta-sub light-text-color sans-meta'>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class='media-object with-large-image grid-element popup-content'>
+        <img alt='image title' class='load' data-original='../assets/img/icons/article-img-placeholderRetina.png' src='../assets/img/icons/article-img-placeholderRetina.png'>
+        <div class='popup-content-wrap'>
+          <div class='comment-counter-wrap'>
+            <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+          </div>
+          <a class='text-meta' href='#'>Research</a>
+          <a class='media-copy' href='#'>
+            <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+            <p class='text-meta-sub light-text-color sans-meta'>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class='media-object with-large-image grid-element popup-content'>
+        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-3.jpg' src='../assets/img/content/th-feature-placeholder-3.jpg'>
+        <div class='popup-content-wrap'>
+          <div class='comment-counter-wrap'>
+            <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+          </div>
+          <a class='text-meta' href='#'>Science</a>
+          <a class='media-copy' href='#'>
+            <h3 class='text-meta-header'>Why is this $99 Home DNA Kit Causing Such an Uproar?</h3>
+            <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+            <p class='text-meta-sub light-text-color sans-meta'>
+              A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class='media-object with-large-image grid-element popup-content'>
+        <img alt='image title' class='load' data-original='../assets/img/content/th-feature-placeholder-2.jpg' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+        <div class='popup-content-wrap'>
+          <div class='comment-counter-wrap'>
+            <a class='icon comment-counter' href='http://genome.telegraphcreative.co/genometest.disqus/article.html#disqus_thread'></a>
+          </div>
+          <a class='text-meta' href='#'>Treatment</a>
+          <a class='media-copy' href='#'>
+            <h3 class='text-meta-header'>Changing the Facts</h3>
             <p class='text-meta-sub light-text-color'>By Authur Righter</p>
             <p class='text-meta-sub light-text-color sans-meta'>
               Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
@@ -9082,7 +9409,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
     </div>
   </div>
 </div>
-;T;@:I"/story_roll/;T{;{	;I"√|<!DOCTYPE html>
+;T;@:I"/story_roll/;T{;{	;I"d~<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -9095,14 +9422,12 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -9116,7 +9441,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -9124,6 +9449,7 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -9312,6 +9638,14 @@ I"q(<div class='inner-bounds remove-footer-offset block'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -10215,7 +10549,7 @@ I"Ó1<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@@I"/utility_about/;T{;{	;I"Ei<!DOCTYPE html>
+;T;@@I"/utility_about/;T{;{	;I"Êj<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -10228,14 +10562,12 @@ I"Ó1<section class='primary_layout article_layout'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -10249,7 +10581,7 @@ I"Ó1<section class='primary_layout article_layout'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -10257,6 +10589,7 @@ I"Ó1<section class='primary_layout article_layout'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -10445,6 +10778,14 @@ I"Ó1<section class='primary_layout article_layout'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -11241,7 +11582,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@FI""/utility_partners-and-allies/;T{;{	;I"L<!DOCTYPE html>
+;T;@FI""/utility_partners-and-allies/;T{;{	;I"∑M<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11254,14 +11595,12 @@ I"F!<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -11275,7 +11614,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11283,6 +11622,7 @@ I"F!<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -11471,6 +11811,14 @@ I"F!<section class='primary_layout article_layout no-photo'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -11842,7 +12190,7 @@ I"#
     </div>
   </div>
 </section>
-;T;@LI"/utility_media-kit/;T{;{	;I"áP<!DOCTYPE html>
+;T;@LI"/utility_media-kit/;T{;{	;I"(R<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -11855,14 +12203,12 @@ I"#
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -11876,7 +12222,7 @@ I"#
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -11884,6 +12230,7 @@ I"#
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -12072,6 +12419,14 @@ I"#
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -12456,7 +12811,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@RI"/utility_privacy-policy/;T{;{	;I"πO<!DOCTYPE html>
+;T;@RI"/utility_privacy-policy/;T{;{	;I"ZQ<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12469,14 +12824,12 @@ I"y<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -12490,7 +12843,7 @@ I"y<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -12498,6 +12851,7 @@ I"y<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -12686,6 +13040,14 @@ I"y<section class='primary_layout article_layout no-photo'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -12985,7 +13347,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@XI"/utility_contact/;T{;{	;I"|F<!DOCTYPE html>
+;T;@XI"/utility_contact/;T{;{	;I"H<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -12998,14 +13360,12 @@ I"‹<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -13019,7 +13379,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -13027,6 +13387,7 @@ I"‹<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -13215,6 +13576,14 @@ I"‹<section class='primary_layout article_layout no-photo'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -13505,7 +13874,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@^I"/utility_contributors/;T{;{	;I"∫x<!DOCTYPE html>
+;T;@^I"/utility_contributors/;T{;{	;I"[z<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -13518,14 +13887,12 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -13539,7 +13906,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -13547,6 +13914,7 @@ I"Œ<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -13735,6 +14103,14 @@ I"Œ<section class='primary_layout article_layout no-photo'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -14655,7 +15031,7 @@ I"/<section class='primary_layout article_layout no-photo'>
     </div>
   </div>
 </section>
-;T;@dI"/project_index_local/;T{;{	;I"o<!DOCTYPE html>
+;T;@dI"/project_index_local/;T{;{	;I"∞p<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -14668,14 +15044,12 @@ I"/<section class='primary_layout article_layout no-photo'>
     </title>
     <meta content='Genome Magazine' property='og:title'>
     <meta content='Website' property='og:type'>
-    <meta content='../img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
     <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
     <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <meta content='' name='author'>
     <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
@@ -14689,7 +15063,7 @@ I"/<section class='primary_layout article_layout no-photo'>
     <link href='../assets/css/genome-main.css' rel='stylesheet'>
     <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
   </head>
-  <body class='init'>
+  <body class='init nav-add-social'>
     <div id='site-wrap-outer'>
       <section id='header-nav-wrap'>
         <div class='g-door' id='newsletter-door'>
@@ -14697,6 +15071,7 @@ I"/<section class='primary_layout article_layout no-photo'>
             <h2 class='section-title smaller'>
               The Genome Newsletter
             </h2>
+            <br>
             <p class='lead'>
               Sign up for our newsletter and get
               <em>
@@ -14885,6 +15260,14 @@ I"/<section class='primary_layout article_layout no-photo'>
                 <a class='addthis_button_twitter' data-icon='v' href='#'>
                   <span class='line'></span>
                   <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
                 </a>
                 <a class='addthis_button_email' data-icon='h' href='#'>
                   <span class='line'></span>
@@ -15564,4 +15947,1163 @@ I"+)<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@j:versioni
+;T;@jI"/column_article_no_photo/;T{;{	;I"ƒê<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-Type'>
+    <title>
+      Genome - Article Type- Column without Photo
+    </title>
+    <meta content='Genome Magazine' property='og:title'>
+    <meta content='Website' property='og:type'>
+    <meta content='http://genome.telegraphcreative.co/assets/img/icons/og-facebook.jpg' property='og:image'>
+    <meta content='http://genome.telegraphcreative.co/' property='og:url'>
+    <meta content='Genome Magazine' property='og:site_name'>
+    <meta content='' property='og:description'>
+    <meta content='' name='description'>
+    <meta content='' name='keywords'>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link href='../assets/img/icons/favicon-152.png' rel='apple-touch-icon-precomposed' sizes='152x152'>
+    <link href='../assets/img/icons/favicon-alt-32.png' rel='apple-touch-icon-precomposed' sizes='32x32'>
+    <link href='../assets/img/icons/favicon-alt-16.png' rel='icon'>
+    <script src='//use.typekit.net/wga8bpj.js'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <script src='../assets/js/min/modernizr.min.js'></script>
+    <link href='../assets/css/genome-main.css' rel='stylesheet'>
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../assets/css/ie8.css" /><script src='../assets/js/min/ie.min.js'></script><![endif]-->
+  </head>
+  <body class='init nav-add-social'>
+    <div id='site-wrap-outer'>
+      <section id='header-nav-wrap'>
+        <div class='g-door' id='newsletter-door'>
+          <div class='inner-bounds block'>
+            <h2 class='section-title smaller'>
+              The Genome Newsletter
+            </h2>
+            <br>
+            <p class='lead'>
+              Sign up for our newsletter and get
+              <em>
+                Genome
+              </em>
+              updates in your inbox.
+            </p>
+            <div class='form-box'>
+              <form action='http://bigsciencemedia.us8.list-manage.com/subscribe/post?u=f01a898f9c8e64b560ee3c845&amp;amp;id=0a55916b1f' class='validate' id='mc-embedded-subscribe-form' method='post' name='mc-embedded-subscribe-form' novalidate='' target='_blank'>
+                <div class='mc-field-group'>
+                  <input class='required email' id='mce-EMAIL' name='EMAIL' placeholder='jane@youremail.com' type='email' value=''>
+                </div>
+                <div class='clear' id='mce-responses'>
+                  <div class='response' id='mce-error-response' style='display:none'></div>
+                  <div class='response' id='mce-success-response' style='display:none'></div>
+                </div>
+                <div style='position: absolute; left: -5000px;'>
+                  <input name='b_f01a898f9c8e64b560ee3c845_0a55916b1f' type='text' value=''>
+                </div>
+                <div class='clear'>
+                  <input class='input-icon' id='mc-embedded-subscribe' name='subscribe' type='submit' value='Subscribe'>
+                </div>
+              </form>
+            </div>
+            <a class='close-g-door' data-icon='D' href='x'></a>
+          </div>
+        </div>
+        <section id='main-site-navigation-wrap'>
+          <div class='site-navigation-inner'>
+            <div class='hide-above-tablet-p' id='toggle-offcanvas-nav'>
+              <a class='light-text-color' data-icon='B' href='#offcanvas-navigation'></a>
+            </div>
+            <div class='search'>
+              <a class='light-text-color search-glass overlay-view-search' data-icon='C' href='#nav-search-box'></a>
+              <div class='form-box mfp-hide inner-bounds' id='nav-search-box'>
+                <form action=''>
+                  <input class='input-icon' data-icon='C' type='submit' value='search'>
+                  <input id='search' placeholder='What were you looking for?' type='text'>
+                </form>
+              </div>
+            </div>
+            <header id='site-title' role='banner'>
+              <h1 class='logo'>
+                <a data-icon='L' href='http://genome.com'></a>
+                <span>Genome</span>
+              </h1>
+              <div class='tagline'>
+                Your Health is Personal
+              </div>
+            </header>
+            <nav id='main-navigation' role='navigation'>
+              <ol class='navigation-list'>
+                <li class='nav-item hide-below-tablet-p open-g-door'>
+                  <a href='#'>newsletter</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>subscribe</a>
+                </li>
+                <li class='nav-item hide-below-tablet-p'>
+                  <a href='#'>browse</a>
+                  <ol>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Issue</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Condition</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                    <li class='nav-sub-item'>
+                      <h3>
+                        <a href='#'>By Topic</a>
+                      </h3>
+                      <ol>
+                        <li>
+                          <a href='#'>Lifestyle</a>
+                        </li>
+                        <li>
+                          <a href='#'>Policy</a>
+                        </li>
+                        <li>
+                          <a href='#'>Science</a>
+                        </li>
+                        <li>
+                          <a href='#'>Treatment</a>
+                        </li>
+                        <li>
+                          <a href='#'>Technology</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li>
+                          <a href='#'>Topic</a>
+                        </li>
+                        <li class='view-all'>
+                          <a href='#'>View All &#187;</a>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </nav>
+            <aside class='add-social'>
+              <div class='addthis_toolbox social-list'>
+                <a class='addthis_button_facebook' data-icon='u' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Share</span>
+                </a>
+                <a class='addthis_button_twitter' data-icon='v' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Tweet</span>
+                </a>
+                <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>linked in</span>
+                </a>
+                <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Google Plus</span>
+                </a>
+                <a class='addthis_button_email' data-icon='h' href='#'>
+                  <span class='line'></span>
+                  <span class='value'>Email</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <nav class='hide-above-tablet-p' id='offcanvas-navigation' role='navigation'>
+          <div class='offcanvas-inner'>
+            <ol class='navigation-list'>
+              <li class='nav-item current'>
+                <a href='#'>newsletter</a>
+              </li>
+              <li class='nav-item collapse-area'>
+                <header class='collapse-header'>
+                  <div class='collapse-section-title'>browse</div>
+                </header>
+                <ol class='collapse-content'>
+                  <li>
+                    <a href='https://www.google.com/'>By Issue</a>
+                  </li>
+                  <li>
+                    <a href='https://www.google.com/'>By Topic</a>
+                  </li>
+                  <li>
+                    <a href='https://www.google.com/'>By Condition</a>
+                  </li>
+                </ol>
+              </li>
+              <li class='nav-item'>
+                <a href='#'>subscribe</a>
+              </li>
+            </ol>
+            <a data-icon='D' href='#main-site-navigation-wrap' id='offcanvas-nav-close-btn'></a>
+          </div>
+        </nav>
+      </section>
+      <div id='site-wrap-inner'>
+        <main id='content-wrap' role='main'>
+          <section class='primary_layout article_layout no-photo'>
+            <div class='inner-bounds background-white block'>
+              <div class='content-row'>
+                <div class='content-row'>
+                  <header class='article-header'>
+                    <a class='text-meta brick' href='http://link/‚Ä¶'>Treatment</a>
+                    <div class='text-meta light-text-color' href='http://link/‚Ä¶'>
+                      <span class='icon' data-icon='F'></span>
+                      <span class='eta-time'></span>
+                    </div>
+                    <h2>Rethinking Cancer Treatment in 2014</h2>
+                    <p class='lead'>Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non.</p>
+                    <div class='hide-above-tablet-p'>
+                      <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
+                      <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+                      <div class='addthis_toolbox social-list'>
+                        <a class='addthis_button_facebook' data-icon='u' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Share</span>
+                        </a>
+                        <a class='addthis_button_twitter' data-icon='v' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Tweet</span>
+                        </a>
+                        <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>LinkedIn</span>
+                        </a>
+                        <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Google Plus</span>
+                        </a>
+                        <a class='addthis_button_email' data-icon='h' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Email</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class='article-meta'>
+                      <div class='left'>
+                        <time>December 22, 2013</time>
+                      </div>
+                      <div class='right'>
+                        <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
+                        <span class='ver-line'>&#124;</span>
+                        <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
+                      </div>
+                    </div>
+                  </header>
+                  <article class='primary-content article-body-copy'>
+                    <div id='rte-target'>
+                      <span class='eta'></span>
+                      <p class='lead-with-drop-cap'>
+                        Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                        tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                      </p>
+                      <p>
+                        Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+                      </p>
+                      <p>
+                        Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                      </p>
+                      <p>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                      </p>
+                      <p>
+                        I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                      </p>
+                      <p>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                      </p>
+                      <p>
+                        I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                      </p>
+                      <hr class='article-break health-journal-hr'>
+                      <p>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                      </p>
+                      <p>
+                        I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                      </p>
+                      <p>
+                        Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                      </p>
+                      <p>
+                        I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                      </p>
+                      <p>
+                        Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                        <span class='light-text-color inline-block end-mark' data-icon='G'></span>
+                      </p>
+                    </div>
+                    <footer class='article-footer'>
+                      <div class='content-row'>
+                        <ul class='meta-list with-tags inline tags-compliment-bg'>
+                          <li class='list-title'>
+                            <div class='text-meta-highlight'>Condition:</div>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Heart Attack</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Heart Disease</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Dietary Issue</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class='content-row'>
+                        <ul class='meta-list with-tags inline tags-primary-bg'>
+                          <li class='list-title'>
+                            <div class='text-meta-highlight'>Tags:</div>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Medicaid</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Insurance</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Diet</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Medicaid</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Insurance</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Diet</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Medicaid</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Insurance</a>
+                          </li>
+                          <li>
+                            <a href='http://link/‚Ä¶'>Diet</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </footer>
+                    <div id='disqus_thread'></div>
+                  </article>
+                  <aside class='aside-column-primary'>
+                    <div class='hide-below-tablet-p'>
+                      <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
+                      <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+                      <div class='addthis_toolbox social-list'>
+                        <a class='addthis_button_facebook' data-icon='u' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Share</span>
+                        </a>
+                        <a class='addthis_button_twitter' data-icon='v' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Tweet</span>
+                        </a>
+                        <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>LinkedIn</span>
+                        </a>
+                        <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Google Plus</span>
+                        </a>
+                        <a class='addthis_button_email' data-icon='h' href='#'>
+                          <span class='line'></span>
+                          <span class='value'>Email</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class='aside-block double-spaced'>
+                      <header class='background-neutral'>
+                        <h2 class='section-title'>
+                          Top
+                          <span>
+                            Stories
+                          </span>
+                        </h2>
+                      </header>
+                      <ul class='featured-list'>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                          <div class='media-object reversed'>
+                            <a class='text-meta' href='http://link/‚Ä¶'>science</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>
+                                <a href='http://link/‚Ä¶'>
+                                  Rewriting the Brain
+                                </a>
+                              </h3>
+                              <p class='text-meta-sub light-text-color'>
+                                <a href='http://link/‚Ä¶'>
+                                  By Author Rightspoke
+                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>‚Ä¶</span>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                          <div class='media-object'>
+                            <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>
+                                <a href='http://link/‚Ä¶'>
+                                  Changing the Face of Chemo
+                                </a>
+                              </h3>
+                              <p class='text-meta-sub light-text-color'>
+                                <a href='http://link/‚Ä¶'>
+                                  By Author Rightspoke
+                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>‚Ä¶</span>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                          <div class='media-object'>
+                            <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+                            <div class='media-copy'>
+                              <h3 class='text-meta-header small'>
+                                <a href='http://link/‚Ä¶'>
+                                  Changing the Face of Chemo
+                                </a>
+                              </h3>
+                              <p class='text-meta-sub light-text-color'>
+                                <a href='http://link/‚Ä¶'>
+                                  By Author Rightspoke
+                                </a>
+                                <span class='action' data-icon='F' href='#'>
+                                  <span class='eta'>‚Ä¶</span>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class='aside-block'>
+                      <div class='collapse-area'>
+                        <header class='background-neutral collapse-header'>
+                          <h2 class='section-title'>
+                            Print
+                            <span>
+                              Edition
+                            </span>
+                          </h2>
+                        </header>
+                        <div class='media-object with-large-image collapse-content'>
+                          <img alt='image title' src='../assets/img/content/cover-placeholder.jpg'>
+                          <a class='text-meta' href='http://link/‚Ä¶'>genome magazine</a>
+                          <div class='media-copy'>
+                            <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+                            <p class='text-meta-sub contrast'>
+                              Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                            </p>
+                          </div>
+                          <a class='primary btn' href='http://link/‚Ä¶'>Subscribe</a>
+                        </div>
+                      </div>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+              <div class='content-row end-block block'>
+                <section class='collection grid-3-per with-dividers'>
+                  <h2 class='section-title center'>
+                    Related
+                    <span>
+                      Reading
+                    </span>
+                  </h2>
+                  <hr class='thick neutral-light-bg partial'>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' src='../assets/img/content/th-feature-placeholder.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='comment-counter-wrap'>
+                        <a class='icon comment-counter' href=''>
+                          <span class='value'>6</span>
+                        </a>
+                      </div>
+                      <a class='text-meta' href='http://link/‚Ä¶'>Research</a>
+                      <a class='media-copy' href='http://link/‚Ä¶'>
+                        <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+                        <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' src='../assets/img/content/th-feature-placeholder-3.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='comment-counter-wrap'>
+                        <a class='icon comment-counter' href=''>
+                          <span class='value'>6</span>
+                        </a>
+                      </div>
+                      <a class='text-meta' href='http://link/‚Ä¶'>Science</a>
+                      <a class='media-copy' href='http://link/‚Ä¶'>
+                        <h3 class='text-meta-header'>Rewriting the Brain</h3>
+                        <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='media-object with-large-image grid-element popup-content'>
+                    <img alt='image title' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+                    <div class='popup-content-wrap'>
+                      <div class='comment-counter-wrap'>
+                        <a class='icon comment-counter' href=''>
+                          <span class='value'>6</span>
+                        </a>
+                      </div>
+                      <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+                      <a class='media-copy' href='http://link/‚Ä¶'>
+                        <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+                        <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+                        <p class='text-meta-sub light-text-color sans-meta'>
+                          Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer id='main-footer' role='contentinfo'>
+        <div class='footer-content-wrap'>
+          <div class='show-for-print content-row' id='subscribe-ad'>
+            <div class='grid-2-per add-space-b'>
+              <div class='content-row'>
+                <h2 class='section-title sans center'>
+                  <span>
+                    Free
+                  </span>
+                  Home Subscription
+                </h2>
+                <hr class='partial thick'>
+              </div>
+              <div class='content-row'>
+                <div class='grid-element'>
+                  <div class='image-content'>
+                    <img alt='genome is the bomb-diggety' src='../assets/img/content/subscription-ad.jpg'>
+                  </div>
+                </div>
+                <div class='grid-element serif'>
+                  <p class='lead emph'>
+                    Quarterly Print Edition
+                  </p>
+                  <p>
+                    Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta.
+                  </p>
+                  <p class='lead italic small-block'>
+                    Subscribe online at:
+                    <a href='http://genomemag.com'>
+                      www.genomemag.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='content-row add-space-b hide-below-tablet-p'>
+            <p class='highlight white-text-color center add-space-g'>
+              Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              <a class='small-block show-for-print' href='http://genomemag.com'>
+                www.genomemag.com
+              </a>
+            </p>
+          </div>
+          <div class='content-row footer-site-map'>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/‚Ä¶'>About Genome</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Partners & Allies</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Media Kit</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul>
+                <li>
+                  <a href='http://link/‚Ä¶'>Privacy Kit</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class='col'>
+              <ul class='social-list inline'>
+                <li>
+                  <a data-icon='u' href='http://link/‚Ä¶'></a>
+                </li>
+                <li>
+                  <a data-icon='v' href='http://link/‚Ä¶'></a>
+                </li>
+                <li>
+                  <a data-icon='w' href='http://link/‚Ä¶'></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
+    <script src='../assets/js/min/app.min.js'></script>
+    <script src='../assets/js/min/sitescripts.min.js'></script>
+    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
+    <script>
+      var addthis_config = {"data_track_addressbar":true};
+    </script>
+    <script>
+      var disqus_shortname = 'genometest'; // required: replace example with your forum shortname
+      (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
+;T;	I"n%section.primary_layout.article_layout.no-photo
+    .inner-bounds.background-white.block
+
+
+        .content-row
+            -# Article Header
+            .content-row
+                %header.article-header
+                    %a.text-meta.brick{:href => "http://link/‚Ä¶"} Treatment
+                    .text-meta.light-text-color{:href => "http://link/‚Ä¶"}
+                        %span.icon{:'data-icon'=>"F"}
+                        %span.eta-time
+
+
+                    %h2 Rethinking Cancer Treatment in 2014
+
+                    %p.lead Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non.
+
+                    .hide-above-tablet-p
+                        %img.load.author-pic.circle{:src => "../assets/img/content/author-placeholder.jpg", :'data-original' => "../assets/img/content/author-placeholder.jpg", :alt => ""}/
+
+                        %a.author-attrib.text-meta-highlight{:href => "http://link/‚Ä¶"} By Author Righter
+
+                        -# Social List
+                        = render "social-list"
+
+                    -# Meta Info - Partial
+                    .article-meta
+                        .left
+                            %time December 22, 2013
+                        .right
+                            %a.action{:href=>"javascript:window.print()", :'data-icon'=>"p"} Print
+                            %span.ver-line &#124;
+                            %a.action{:href => "http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread", :'data-icon'=>"i"}
+
+
+
+                -# Primary Content Column / Article Body Copy
+                %article.primary-content.article-body-copy
+                    #rte-target
+                        %span.eta
+                        %p.lead-with-drop-cap
+                            Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                            tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                        %p
+                            Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+
+                        %p
+                            Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+                        %p
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                        %p
+                            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                        %p
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                        %p
+                            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+
+
+                        %hr.article-break.health-journal-hr
+                        %p
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                        %p
+                            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+                        %p
+                            Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+                        %p
+                            I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+
+
+
+                        %p
+                            Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+                            %span.light-text-color.inline-block.end-mark{:'data-icon'=>"G"}
+
+
+                    -# Footer: Related Tags
+                    = render 'footer-article-related-tags'
+
+                    #disqus_thread
+
+
+                -# Primary Aside Column
+                = render 'aside-column-article-no-photo'
+
+
+
+        .content-row.end-block.block
+            -# Collection
+            = render 'collection-related-reading';T;
+I"$C<section class='primary_layout article_layout no-photo'>
+  <div class='inner-bounds background-white block'>
+    <div class='content-row'>
+      <div class='content-row'>
+        <header class='article-header'>
+          <a class='text-meta brick' href='http://link/‚Ä¶'>Treatment</a>
+          <div class='text-meta light-text-color' href='http://link/‚Ä¶'>
+            <span class='icon' data-icon='F'></span>
+            <span class='eta-time'></span>
+          </div>
+          <h2>Rethinking Cancer Treatment in 2014</h2>
+          <p class='lead'>Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non.</p>
+          <div class='hide-above-tablet-p'>
+            <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
+            <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+            <div class='addthis_toolbox social-list'>
+              <a class='addthis_button_facebook' data-icon='u' href='#'>
+                <span class='line'></span>
+                <span class='value'>Share</span>
+              </a>
+              <a class='addthis_button_twitter' data-icon='v' href='#'>
+                <span class='line'></span>
+                <span class='value'>Tweet</span>
+              </a>
+              <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                <span class='line'></span>
+                <span class='value'>LinkedIn</span>
+              </a>
+              <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                <span class='line'></span>
+                <span class='value'>Google Plus</span>
+              </a>
+              <a class='addthis_button_email' data-icon='h' href='#'>
+                <span class='line'></span>
+                <span class='value'>Email</span>
+              </a>
+            </div>
+          </div>
+          <div class='article-meta'>
+            <div class='left'>
+              <time>December 22, 2013</time>
+            </div>
+            <div class='right'>
+              <a class='action' data-icon='p' href='javascript:window.print()'>Print</a>
+              <span class='ver-line'>&#124;</span>
+              <a class='action' data-icon='i' href='http://genome.telegraphcreative.co/genometest.disqus/index.html#disqus_thread'></a>
+            </div>
+          </div>
+        </header>
+        <article class='primary-content article-body-copy'>
+          <div id='rte-target'>
+            <span class='eta'></span>
+            <p class='lead-with-drop-cap'>
+              Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+              tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+            </p>
+            <p>
+              Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+            </p>
+            <p>
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+            </p>
+            <p>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            </p>
+            <p>
+              I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+            </p>
+            <p>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            </p>
+            <p>
+              I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+            </p>
+            <hr class='article-break health-journal-hr'>
+            <p>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            </p>
+            <p>
+              I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+            </p>
+            <p>
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            </p>
+            <p>
+              I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+            </p>
+            <p>
+              Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+              <span class='light-text-color inline-block end-mark' data-icon='G'></span>
+            </p>
+          </div>
+          <footer class='article-footer'>
+            <div class='content-row'>
+              <ul class='meta-list with-tags inline tags-compliment-bg'>
+                <li class='list-title'>
+                  <div class='text-meta-highlight'>Condition:</div>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Heart Attack</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Heart Disease</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Dietary Issue</a>
+                </li>
+              </ul>
+            </div>
+            <div class='content-row'>
+              <ul class='meta-list with-tags inline tags-primary-bg'>
+                <li class='list-title'>
+                  <div class='text-meta-highlight'>Tags:</div>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Medicaid</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Insurance</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Diet</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Medicaid</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Insurance</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Diet</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Medicaid</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Insurance</a>
+                </li>
+                <li>
+                  <a href='http://link/‚Ä¶'>Diet</a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+          <div id='disqus_thread'></div>
+        </article>
+        <aside class='aside-column-primary'>
+          <div class='hide-below-tablet-p'>
+            <img alt='' class='load author-pic circle' data-original='../assets/img/content/author-placeholder.jpg' src='../assets/img/content/author-placeholder.jpg'>
+            <a class='author-attrib text-meta-highlight' href='http://link/‚Ä¶'>By Author Righter</a>
+            <div class='addthis_toolbox social-list'>
+              <a class='addthis_button_facebook' data-icon='u' href='#'>
+                <span class='line'></span>
+                <span class='value'>Share</span>
+              </a>
+              <a class='addthis_button_twitter' data-icon='v' href='#'>
+                <span class='line'></span>
+                <span class='value'>Tweet</span>
+              </a>
+              <a class='addthis_button_linkedin' data-icon='w' href='#'>
+                <span class='line'></span>
+                <span class='value'>LinkedIn</span>
+              </a>
+              <a class='addthis_button_google_plusone_share' data-icon='O' href='#'>
+                <span class='line'></span>
+                <span class='value'>Google Plus</span>
+              </a>
+              <a class='addthis_button_email' data-icon='h' href='#'>
+                <span class='line'></span>
+                <span class='value'>Email</span>
+              </a>
+            </div>
+          </div>
+          <div class='aside-block double-spaced'>
+            <header class='background-neutral'>
+              <h2 class='section-title'>
+                Top
+                <span>
+                  Stories
+                </span>
+              </h2>
+            </header>
+            <ul class='featured-list'>
+              <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                <div class='media-object reversed'>
+                  <a class='text-meta' href='http://link/‚Ä¶'>science</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>
+                      <a href='http://link/‚Ä¶'>
+                        Rewriting the Brain
+                      </a>
+                    </h3>
+                    <p class='text-meta-sub light-text-color'>
+                      <a href='http://link/‚Ä¶'>
+                        By Author Rightspoke
+                      </a>
+                      <span class='action' data-icon='F' href='#'>
+                        <span class='eta'>‚Ä¶</span>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                <div class='media-object'>
+                  <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>
+                      <a href='http://link/‚Ä¶'>
+                        Changing the Face of Chemo
+                      </a>
+                    </h3>
+                    <p class='text-meta-sub light-text-color'>
+                      <a href='http://link/‚Ä¶'>
+                        By Author Rightspoke
+                      </a>
+                      <span class='action' data-icon='F' href='#'>
+                        <span class='eta'>‚Ä¶</span>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class='rte-remote' data-file='/article_blog/index.html' data-target='#rte-target'>
+                <div class='media-object'>
+                  <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+                  <div class='media-copy'>
+                    <h3 class='text-meta-header small'>
+                      <a href='http://link/‚Ä¶'>
+                        Changing the Face of Chemo
+                      </a>
+                    </h3>
+                    <p class='text-meta-sub light-text-color'>
+                      <a href='http://link/‚Ä¶'>
+                        By Author Rightspoke
+                      </a>
+                      <span class='action' data-icon='F' href='#'>
+                        <span class='eta'>‚Ä¶</span>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class='aside-block'>
+            <div class='collapse-area'>
+              <header class='background-neutral collapse-header'>
+                <h2 class='section-title'>
+                  Print
+                  <span>
+                    Edition
+                  </span>
+                </h2>
+              </header>
+              <div class='media-object with-large-image collapse-content'>
+                <img alt='image title' src='../assets/img/content/cover-placeholder.jpg'>
+                <a class='text-meta' href='http://link/‚Ä¶'>genome magazine</a>
+                <div class='media-copy'>
+                  <h3 class='text-meta-header'>NSA and Online Medical Records Privacy</h3>
+                  <p class='text-meta-sub contrast'>
+                    Preasent dapibd, neque id curscu faucibu  torot neq e gasut auge, eiu vluate magna opus atlas.
+                  </p>
+                </div>
+                <a class='primary btn' href='http://link/‚Ä¶'>Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class='content-row end-block block'>
+      <section class='collection grid-3-per with-dividers'>
+        <h2 class='section-title center'>
+          Related
+          <span>
+            Reading
+          </span>
+        </h2>
+        <hr class='thick neutral-light-bg partial'>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='../assets/img/content/th-feature-placeholder.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='comment-counter-wrap'>
+              <a class='icon comment-counter' href=''>
+                <span class='value'>6</span>
+              </a>
+            </div>
+            <a class='text-meta' href='http://link/‚Ä¶'>Research</a>
+            <a class='media-copy' href='http://link/‚Ä¶'>
+              <h3 class='text-meta-header'>Reworking Your Genetic Puzzle</h3>
+              <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='../assets/img/content/th-feature-placeholder-3.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='comment-counter-wrap'>
+              <a class='icon comment-counter' href=''>
+                <span class='value'>6</span>
+              </a>
+            </div>
+            <a class='text-meta' href='http://link/‚Ä¶'>Science</a>
+            <a class='media-copy' href='http://link/‚Ä¶'>
+              <h3 class='text-meta-header'>Rewriting the Brain</h3>
+              <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                A discussion of the original 1987 film considers its place in the canon of 1980s action films, and ponders whethe‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class='media-object with-large-image grid-element popup-content'>
+          <img alt='image title' src='../assets/img/content/th-feature-placeholder-2.jpg'>
+          <div class='popup-content-wrap'>
+            <div class='comment-counter-wrap'>
+              <a class='icon comment-counter' href=''>
+                <span class='value'>6</span>
+              </a>
+            </div>
+            <a class='text-meta' href='http://link/‚Ä¶'>Treatment</a>
+            <a class='media-copy' href='http://link/‚Ä¶'>
+              <h3 class='text-meta-header'>Changing the Face of Chemo</h3>
+              <p class='text-meta-sub light-text-color'>By Authur Righter</p>
+              <p class='text-meta-sub light-text-color sans-meta'>
+                Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor‚Ä¶
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+;T;@p:versioni

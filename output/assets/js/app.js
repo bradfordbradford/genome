@@ -1,14 +1,13 @@
 
 
-// Email Security
-function createEmail(user, website, ending) {
-  document.write("<a href=" + "&#109a&#105l" + "&#116&#111:" + user + "&#64;" + website + "&#46;" + ending+ ">" + user + "@" + website + "." + ending+"</a>");
-}
-
 
 //  // Now, Now  //
 $(document).ready(function($) {
 
+    // Email Security
+    function createEmail(user, website, ending) {
+      document.write("<a href=" + "&#109a&#105l" + "&#116&#111:" + user + "&#64;" + website + "&#46;" + ending+ ">" + user + "@" + website + "." + ending+"</a>");
+    }
 
     // Prevent FOUC while JS loads, then swap for Run ----------
     setTimeout(function () {
