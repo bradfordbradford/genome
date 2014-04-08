@@ -29,7 +29,8 @@
                       <p class='sans lead'>
                         <?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?>
                       </p>
-                      <div class='author-attrib text-meta-highlight tertiary-text-color'>By <?php the_author(); ?></div>
+                      <div class='author-attrib text-meta-highlight tertiary-text-color'>By <?php the_author(); ?></div><br>
+                      <div class='author-attrib text-meta-highlight tertiary-text-color'><?php echo the_post_thumbnail_caption(); ?></div>
                       <div class='content-row'>
                         <a class='arrow-down' data-icon='E' href=''></a>
                       </div>
