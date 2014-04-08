@@ -98,22 +98,23 @@
         </div>
       </footer>
     </div>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-    <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
-    <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
-    <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
-    <!--   Replace below this line with: https://gist.github.com/bradfordbradford/4a6ca907b8e7f434e0f0  -->
-    <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-509d72c21cd49086'></script>
-    <script>
-      var addthis_config = {"data_track_addressbar":true};
-    </script>
-    <script>
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-    <!--   End Replace.   -->
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  <!-- / window.jQuery || document.write('<script src="../js/libs/jquery.min.js"><\/script>') -->
+  <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/app.min.js'></script>
+  <script src='<?php echo get_stylesheet_directory_uri(); ?>/js/min/sitescripts.min.js'></script>
+  <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5339b4d16c709f80'></script>
+  <script>
+    var addthis_config = {"data_track_addressbar":true};
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-49456501-1', 'genomemag.com');
+    ga('send', 'pageview');
+  </script>
   <?php wp_footer(); ?>
   </body>
 </html>
