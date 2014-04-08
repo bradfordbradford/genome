@@ -30,9 +30,9 @@
                     ?>
                     <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
 
-                      <li class='rte-remote' data-file='<?php echo get_permalink(); ?>' data-target='#rte-target'>
+                      <li>
                         <div class='media-object'>
-                          <?php 
+                          <?php
                             foreach((get_the_category()) as $childcat) {
                               if (cat_is_ancestor_of(5, $childcat)) {
                                 $topicLink = get_category_link($childcat->cat_ID);
@@ -52,9 +52,6 @@
                               <a href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>
                                 By <?php the_author(); ?>
                               </a>
-                              <span class='action' data-icon='F' href='#'>
-                                <span class='eta'>…</span>
-                              </span>
                             </p>
                           </div>
                         </div>
