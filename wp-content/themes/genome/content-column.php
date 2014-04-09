@@ -220,10 +220,51 @@
                       <?php endif; ?>
                     </footer>
                   </article>
+                <?php if (!empty($featured_img)) : // If there is a featured image ?>
                   <aside class='aside-column-primary'>
                     <?php get_sidebar( 'top-stories' ); ?>
                     <?php get_sidebar( 'print-edition' ); ?>
                   </aside>
+                <?php else: // If no featured image ?>
+                  <aside class='aside-column-primary'>
+                    <div class='hide-below-tablet-p'>
+                      <?php
+                        $user_id = get_the_author_meta('ID');
+                        if (has_wp_user_avatar($user_id)) {
+                          $avatar = get_wp_user_avatar_src($user_id);
+                          echo "<img alt='' class='load author-pic circle' data-original='" . $avatar . "' src='" . $avatar . "'>";
+                        }
+                      ?>
+                      <a class='author-attrib text-meta-highlight' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'>By <?php the_author(); ?></a>
+                      <div class='addthis_toolbox social-list'>
+                        <a class='addthis_button_facebook' data-icon='u' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                          <span class='line'></span>
+                          <span class='value'>Share</span>
+                        </a>
+                        <a class='addthis_button_twitter' data-icon='v' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                          <span class='line'></span>
+                          <span class='value'>Tweet</span>
+                        </a>
+                        <a class='addthis_button_linkedin' data-icon='w' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                          <span class='line'></span>
+                          <span class='value'>LinkedIn</span>
+                        </a>
+                        <a class='addthis_button_google_plusone_share' data-icon='O' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                          <span class='line'></span>
+                          <span class='value'>Google Plus</span>
+                        </a>
+                        <a class='addthis_button_email' data-icon='h' href='<?php echo $_SERVER['REQUEST_URI']; ?>'>
+                          <span class='line'></span>
+                          <span class='value'>Email</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class='aside-block double-spaced'>
+                      <?php get_sidebar( 'top-stories' ); ?>
+                      <?php get_sidebar( 'print-edition' ); ?>
+                    </div>
+                  </aside>
+                <?php endif; ?>
                 </div>
               </div>
               <?php
