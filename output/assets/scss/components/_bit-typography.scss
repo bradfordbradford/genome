@@ -140,7 +140,7 @@ ul.no-bullet {
 }
 
 ul.inline li {
-  margin: 0 12px 0 0;
+  margin: 0 6px 3px 0;
 }
 
 
@@ -320,6 +320,17 @@ cite {
     }
 
     // Lists
+    ol, ul {
+      margin: 40px auto;
+    }
+    ol li, ul li {
+      margin-bottom: 24px;
+    }
+    ol li, ul li, dl {
+      font-family: $serif;
+      font-size: em-font(20px);
+      line-height: 1.25em;
+    }
     ol {
       padding-left: 16px;
       li {
@@ -327,12 +338,7 @@ cite {
       }
     }
     ul {
-      margin: 0 auto 32px;
-      li {
-          margin-bottom: 12px;
-      }
       ul {
-          line-height: 1.25em;
           list-style: inherit;
           padding-left: 24px;
           li {
