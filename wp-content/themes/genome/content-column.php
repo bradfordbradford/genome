@@ -221,7 +221,7 @@
                     </footer>
                   </article>
                 <?php if (!empty($featured_img)) : // If there is a featured image ?>
-                  <aside class='aside-column-primary'>
+                  <aside class='aside-column-primary aside-column-pull-up'>
                     <?php get_sidebar( 'top-stories' ); ?>
                     <?php get_sidebar( 'print-edition' ); ?>
                   </aside>
