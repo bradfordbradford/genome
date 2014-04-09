@@ -525,6 +525,7 @@ ul.contact-list {
 ul.meta-list {
     margin-bottom: 24px;
     &.with-tags {
+
         li:not(.list-title) {
             a {
                 padding: 4px 10px;
@@ -541,9 +542,28 @@ ul.meta-list {
                     color: $primaryLight;
                 }
             }
+            &.current a,
+            a.current {
+              background: $primary !important;
+              color: $primaryLight;
+            }
+
         }
 
         // Tag Backgrounds
+        &.tags-white-bg li {
+          a {
+            background: $primaryLight !important;
+            &:hover {
+                background: $primaryLinkHover !important;
+            }
+          }
+          &.current a,
+          a.current {
+            background: $compliment !important;
+          }
+        }
+
         &.tags-primary-bg li a:hover {
             background: $primary !important;
         }
@@ -701,6 +721,17 @@ ul.meta-list {
         display: none;
     }
 }
+
+// Search with Tags
+header.search-tags {
+  hr {
+    margin-bottom: 16px;
+  }
+  ul.meta-list {
+    margin-bottom: 16px;
+  }
+}
+
 
 // Tables
 table {
