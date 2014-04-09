@@ -27,6 +27,7 @@
 
         .article-meta {
             border-top: 1px solid $primaryRule;
+            @include clearlyFixed;
         }
 
         .social-list {

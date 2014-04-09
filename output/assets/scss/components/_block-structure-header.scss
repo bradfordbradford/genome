@@ -45,7 +45,8 @@ section#main-site-navigation-wrap {
         transition: all .4s ease-in-out;
     }
     #site-title {
-        transition: all .1s ease;
+        transition: opacity .15s ease 1s,
+                    top .15s ease 1.5s
     }
 
     // Logo
@@ -54,7 +55,7 @@ section#main-site-navigation-wrap {
         margin: 0;
         padding: 0;
         height:$navbarHeight;
-        overflow: hidden;
+        // overflow: hidden;
         position: absolute;
         z-index: 20;
 
@@ -68,9 +69,9 @@ section#main-site-navigation-wrap {
             color: $primaryText;
             position: relative;
             top: -60px;
-            transition: color .15s ease-in-out,
-                        top .4s ease-in-out,
-                        font-size .4s ease-in-out;
+            transition: color .15s ease,
+                        top .4s ease,
+                        font-size .4s ease;
 
             &:hover {
                 color: $primaryLink;
