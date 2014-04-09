@@ -18,7 +18,11 @@
 .background-size-full {
     max-width: 100%;
     margin-top: 0;
-    position: relative;
+    position: relative; // testing
+    // top: 0px; // testing
+    // bottom: 0px; // testing
+    left: 0px; // testing
+    // right: 0px; // testing
     height: 100%;
     max-height: 600px;
     background-color: $primaryHeader;
@@ -42,23 +46,27 @@
     }
 }
 
-// Taller Hero
-.hero-tall {
-    height:800px !important;
-    // max-height:800px !important;
+.hero-wrap {
+  // overflow:auto;
+  height:600px;
+  position:relative;
 }
+
+// Taller Hero
+// .hero-tall {
+//     height:800px !important;
+//     // max-height:800px !important;
+// }
 
 // Align Middle
-.wrap-temp {
-    height: 600px;
-    width: 100%;
-    text-align: center;
-}
-
 .align-middle {
     height: 100%;
+    width: 100%;
+    //testing
     position: relative;
+    // --
     z-index: 2;
+    margin: 0 auto;
     &.align-bottom {
         .align-block {
             vertical-align: bottom;
@@ -70,12 +78,23 @@
         height: 100%;
         margin-right: -0.25em;
     }
-    &:before, .align-block {
+    &:before, & .align-block {
         display: inline-block;
         vertical-align: middle;
     }
+
 }
 
+@-moz-document url-prefix() {
+  .align-middle .align-block {
+    position: relative;
+    top: 50%;
+    margin-top: -16%;
+  }
+  .align-middle:before  {
+    height: auto;
+  }
+}
 
 // .story-cover-image, .story-cover-image-transition {display: none;}
 
@@ -88,51 +107,16 @@
     position: absolute;
     left: 0;
     right: 0;
+    // top:0px;
+    // bottom:0px;
     z-index: 2;
-    // height: 100%;
-//     bottom: 40px;
-//     padding-top: 20px;
-//     padding-bottom: 20px;
+
 
 //     // Set to Rel to allow Skrollr.js magic
     .cover-content-inner {
         position: relative;
     }
 }
-
-// Cover Hover
-// .story-cover-hover-background {
-//     -moz-backface-visibility: hidden;
-//     -webkit-backface-visibility: hidden;
-//     opacity: 0;
-//     transition: all .15s ease-in-out;
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     z-index: 2;
-//     bottom: 0px;
-//     top: 0px;
-//     max-width: 100%;
-//     margin-top: 0;
-//     height: 100%;
-//     max-height: 600px;
-//     background: lighten($primaryText, 10%) url('../img/patterns/background-pixelated-dark.png') repeat;
-
-//     .story-cover-hover-content {
-//         transition: transform .34s ease-in-out;
-//         transform: translate3d(0px, 10px, 0px);
-//     }
-
-//     h2 {
-//         font-weight: 200;
-//     }
-//     .read-this-arrow {
-//         display: inline-block;
-//         font-size: 60px;
-//         position: relative;
-//         top: 8px;
-//     }
-// }
 
 // Cover Image
 .story-cover-image,
@@ -212,7 +196,7 @@
     height: 600px;
     width: 100%;
     text-align: center;
-    // position: relative;
+    // position: relative; // testing
     // height: 600px;
     // width:100%;
     // overflow: auto;

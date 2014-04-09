@@ -3220,7 +3220,7 @@ I"Í?<section class='primary_layout article_layout'>
     </div>
   </div>
 </section>
-;T;@I"/article_feature/;T{;{	;I"‡<!DOCTYPE html>
+;T;@I"/article_feature/;T{;{	;I"‡<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -3514,7 +3514,7 @@ I"Í?<section class='primary_layout article_layout'>
                       </p>
                       <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
                       <div class='content-row'>
-                        <a class='arrow-down' data-icon='E' href=''></a>
+                        <div class='arrow-down' data-icon='E' href=''></div>
                       </div>
                     </a>
                   </div>
@@ -3836,7 +3836,7 @@ I"Í?<section class='primary_layout article_layout'>
     </script>
   </body>
 </html>
-;T;	I"ï@-# Featured Hero
+;T;	I"í@-# Featured Hero
 .background-white
     %header.hero.hero-featured-article.background-size-full.center.hero-tall
         .story-cover-content.single-col-layout
@@ -3856,7 +3856,7 @@ I"Í?<section class='primary_layout article_layout'>
                         .author-attrib.text-meta-highlight.tertiary-text-color By Author Righter
 
                         .content-row
-                            %a.arrow-down{:href => "",:'data-icon' => "E"}
+                            .arrow-down{:href => "",:'data-icon' => "E"}
 
         .story-cover-image{:'data-0'=>'opacity:1;', :'data-140'=>'opacity:0;'}
         .story-cover-image-transition
@@ -4068,7 +4068,7 @@ I"Í?<section class='primary_layout article_layout'>
                         %p
                             Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
                             %span.light-text-color.inline-block.end-mark{:'data-icon'=>"G"};T;
-I"÷=<div class='background-white'>
+I"û=<div class='background-white'>
   <header class='hero hero-featured-article background-size-full center hero-tall'>
     <div class='story-cover-content single-col-layout'>
       <div class='align-middle'>
@@ -4084,7 +4084,7 @@ I"÷=<div class='background-white'>
             </p>
             <div class='author-attrib text-meta-highlight tertiary-text-color'>By Author Righter</div>
             <div class='content-row'>
-              <a class='arrow-down' data-icon='E' href=''></a>
+              <div class='arrow-down' data-icon='E' href=''></div>
             </div>
           </a>
         </div>

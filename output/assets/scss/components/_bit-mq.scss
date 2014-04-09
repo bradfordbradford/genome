@@ -206,6 +206,10 @@
   .grid-2-per.major-r .grid-element:last-child {
     @include fullBleed;
   }
+  // ---- //
+
+
+
 }
 
 
@@ -264,10 +268,17 @@
         }
     }
 
+    // Adjust Margins on Media Objects
+    .grid-2-per .media-object-horizontal-layout .grid-element.image-content,
+    .grid-2-per .media-object-horizontal-layout .grid-element.image-content:nth-child(3n+2) {
+      margin-bottom: 16px;
+    }
+    // ---- //
+
     // Collection Items: Correct Height
     .collection {
         .media-object {
-            height: auto;
+            margin: 6px auto 24px;
         }
     }
     // ---- //
