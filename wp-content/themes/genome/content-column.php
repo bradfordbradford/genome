@@ -221,12 +221,12 @@
                     </footer>
                   </article>
                 <?php if (!empty($featured_img)) : // If there is a featured image ?>
-                  <aside class='aside-column-primary aside-column-pull-up'>
+                  <aside class='aside-column-primary'>
                     <?php get_sidebar( 'top-stories' ); ?>
                     <?php get_sidebar( 'print-edition' ); ?>
                   </aside>
                 <?php else: // If no featured image ?>
-                  <aside class='aside-column-primary'>
+                  <aside class='aside-column-primary aside-column-pull-up'>
                     <div class='hide-below-tablet-p'>
                       <?php
                         $user_id = get_the_author_meta('ID');
