@@ -1,6 +1,6 @@
 <?php
 /**
- * The template used for displaying page content
+ * The template used for displaying page contents
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -226,7 +226,7 @@
                     <?php get_sidebar( 'print-edition' ); ?>
                   </aside>
                 <?php else: // If no featured image ?>
-                  <aside class='aside-column-primary'>
+                  <aside class='aside-column-primary aside-column-pull-up'>
                     <div class='hide-below-tablet-p'>
                       <?php
                         $user_id = get_the_author_meta('ID');
