@@ -201,7 +201,7 @@ get_header(); ?>
 				              $popular = new WP_Query( array(
 				                'post_type'             => array( 'page' ),
 				                'showposts'             => 2,
-				                // 'cat'                   => 'MyCategory',
+				                'category__not_in'      => 47,
 				                'orderby'               => 'date',
 				                'order'                 => 'dsc',
 				                'meta_key'              => 'Subtitle',
@@ -377,7 +377,7 @@ get_header(); ?>
 				              $popular = new WP_Query( array(
 				                'post_type'             => array( 'page' ),
 				                'showposts'             => 2,
-				                // 'cat'                   => 'MyCategory',
+				                'category__not_in'      => 47,
 				                'orderby'               => 'date',
 				                'order'                 => 'dsc',
 				                'meta_key'              => 'Subtitle',

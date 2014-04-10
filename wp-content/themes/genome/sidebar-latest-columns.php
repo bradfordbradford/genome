@@ -24,7 +24,7 @@
                           $popular = new WP_Query( array(
                             'post_type'             => array( 'page' ),
                             'showposts'             => 3,
-                            'category__not_in'      => 44,
+                            'category__not_in'      => 45,
                             'orderby'               => 'date',
                             'order'                 => 'dsc',
                             // 'tag__not_in'           => 24,
