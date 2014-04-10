@@ -8,11 +8,6 @@
  */
 
 get_header(); ?>
-<?php if (is_category('condition')) : ?>
-<?php elseif (is_category('topic')) : ?>
-<?php elseif (is_category('issue')) : ?>
-<?php else : ?>
-<?php endif; ?>
 	<div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
           <div class='inner-bounds remove-footer-offset block'>
@@ -20,13 +15,72 @@ get_header(); ?>
               <h2 class='section-title left smaller'>
 
 			<?php if ( have_posts() ) : ?>
-								<span>
-									<?php printf( __( 'Showing Results for: ', '' ) ); ?>
-								</span>
-                <?php printf( __( '%s', '' ), single_cat_title( '', false ) ); ?>
+        <?php if (is_category('condition') || is_category('topic')) : ?>
+                <span>
+                  Select A <?php single_cat_title( '', true ); ?>: 
+                </span>
+        <?php elseif (is_category('issue')) : ?>
+                <span>
+                  Select An <?php single_cat_title( '', true ); ?>: 
+                </span>
+        <?php else : ?>
+                <span>
+                  Selected 
+                  <?php
+                    // print_r($wp_query);
+                    $parent = $wp_query->queried_object->category_parent;
+                    $parentName = get_category($parent);
+                    echo $parentName->name;
+                  ?>: 
+                </span>
+                <?php single_cat_title( '', true ); ?>
+        <?php endif; ?>
 
 							</h2>
               <hr class='neutral-bg'>
+              <ul class='meta-list with-tags tags-white-bg inline'>
+                
+                  <?php
+                  if (!isset($parent)) {
+                    $parent = $wp_query->queried_object->cat_ID;
+                  }
+                  $args = array(
+                    'show_option_all'    => '',
+                    'orderby'            => 'name',
+                    'order'              => 'ASC',
+                    'style'              => 'list',
+                    // 'show_count'         => 1,
+                    'hide_empty'         => 1,
+                    'use_desc_for_title' => 1,
+                    'child_of'           => $parent,
+                    'feed'               => '',
+                    'feed_type'          => '',
+                    'feed_image'         => '',
+                    'exclude'            => '',
+                    'exclude_tree'       => '',
+                    'include'            => '',
+                    'hierarchical'       => 1,
+                    'title_li'           => '',
+                    'show_option_none'   => __('No categories'),
+                    'number'             => null,
+                    'echo'               => 0,
+                    'depth'              => 0,
+                    'current_category'   => 0,
+                    'pad_counts'         => 0,
+                    'taxonomy'           => 'category',
+                    'walker'             => null
+                  ); ?>
+                  <?php
+                    $topics = wp_list_categories( $args );
+                    // $topics = str_replace('<a ', "<a class='text-meta capital-case' ", $topics);
+                    // $topics = preg_replace('~\((\d+)\)(?=\s*+<)~', "<span class='inline smaller light-text-color'>($1)</span>", $topics);
+                    echo $topics;
+                  ?>
+
+              </ul>
+              <hr class='neutral-bg'>
+              <br>
+              <br>
             </header>
           </div>
 
