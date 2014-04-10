@@ -8,7 +8,11 @@
  */
 
 get_header(); ?>
-
+<?php if (is_category('condition')) : ?>
+<?php elseif (is_category('topic')) : ?>
+<?php elseif (is_category('issue')) : ?>
+<?php else : ?>
+<?php endif; ?>
 	<div id='site-wrap-inner'>
         <main id='content-wrap' role='main'>
           <div class='inner-bounds remove-footer-offset block'>
