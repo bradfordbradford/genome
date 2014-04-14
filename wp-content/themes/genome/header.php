@@ -110,7 +110,7 @@
                 <span>Genome</span>
               </h1>
               <div class='tagline'>
-                Your Health is Personal
+                Your Health Is Personal
               </div>
             </header>
             <nav id='main-navigation' role='navigation'>

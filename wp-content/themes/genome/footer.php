@@ -48,7 +48,7 @@
           </div>
           <div class='content-row add-space-b hide-below-tablet-p'>
             <p class='highlight white-text-color center add-space-g'>
-              Genome explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
+              <em>Genome</em> explores the world of personalized medicine and the genomic revolution that makes it possible, empowering you to make informed health decisions that will help you live better, longer.
               <a class='small-block show-for-print' href='http://genomemag.com'>
                 www.genomemag.com
               </a>
@@ -58,7 +58,7 @@
             <div class='col'>
               <ul>
                 <li>
-                  <a href='<?php echo site_url(); ?>/about-us/'>About Genome</a>
+                  <a href='<?php echo site_url(); ?>/about-us/'>About Us</a>
                 </li>
                 <li>
                   <a href='<?php echo site_url(); ?>/partners-and-allies/'>Partners & Allies</a>
