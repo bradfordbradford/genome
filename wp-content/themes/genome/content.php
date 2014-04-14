@@ -138,7 +138,7 @@
                       By
                       <a class='emph' href='<?php echo site_url() . "/author/" . get_the_author_meta( 'user_nicename' ); ?>'><?php the_author(); ?></a>
                       <span class='interpunct'>&#183</span>
-                      <time>December 22, 2013</time>
+                      <time><?php echo get_the_time('F j, Y'); ?></time>
                     </div>
                     <div class='right'>
                       <a class='action' data-icon='p' href='javascript:window.print()'>PRINT</a>

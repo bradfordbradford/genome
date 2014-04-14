@@ -33,7 +33,7 @@
                     ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                     <a class='media-copy' href='<?php echo get_permalink(); ?>'>
                       <h3 class='text-meta-header'><?php the_title(); ?></h3>
-                      <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
+                      <p class='text-meta-sub light-text-color'>By <?php $author_id = get_post_field( 'post_author', $post_id ); echo get_the_author_meta('display_name', $author_id) ?></p>
                       <p class='text-meta-sub light-text-color sans-meta'>
                       <?php
                         $my_excerpt = get_excerpt_by_id($post->id);
