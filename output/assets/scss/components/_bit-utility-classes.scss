@@ -206,6 +206,7 @@
 .author-pic {
     width: 84px;
     height: 84px;
+    border-radius: 1000px;
 }
 
 // Article Caption
@@ -542,8 +543,8 @@ ul.meta-list {
                     color: $primaryLight;
                 }
             }
-            &.current a,
-            a.current {
+            &.current-cat a,
+            a.current-cat {
               background: $primary !important;
               color: $primaryLight;
             }

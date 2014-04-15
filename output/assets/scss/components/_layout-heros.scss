@@ -73,11 +73,16 @@
             padding-bottom:40px;
         }
     }
+    .align-block  {
+      max-width: 64.875em;
+      margin: 0 auto;
+    }
     &:before  {
         content: '';
         height: 100%;
         margin-right: -0.25em;
     }
+
     &:before, & .align-block {
         display: inline-block;
         vertical-align: middle;

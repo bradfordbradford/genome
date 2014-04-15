@@ -247,13 +247,15 @@
         display: none;
     }
 
-
     // Layout - FEATURE
     .featured_layout {
         // Full Bleed Items: REMOVE COLUMNS
         .primary-content {
             @include fullBleed;
         }
+    }
+    .story-cover-content {
+      padding: 0 8px;
     }
     //----//
 
