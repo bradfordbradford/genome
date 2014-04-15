@@ -28,7 +28,15 @@ section#main-site-navigation-wrap {
         left: 1.6em;
     }
 
+    h1.logo a:before {
+      position: absolute;
+      height: 132px;
+      overflow: hidden;
+    }
+
     .tagline {
+        width: 168px;
+        text-align: center;
         -webkit-font-smoothing: initial;
         position: absolute;
         display: block;
@@ -241,7 +249,7 @@ body.nav-add-social {
 // Responsive for below Portrait
 @include breakpoint(ipad-portrait) {
     // Implement .menu-slim, pull up Content-Wrap and center logo and tagline
-    #content-wrap {
+    #site-wrap-inner {
     padding-top: 60px;
     }
     section#main-site-navigation-wrap {

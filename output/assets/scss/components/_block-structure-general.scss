@@ -16,13 +16,15 @@
   width: 100%;
   height: 100%;
   z-index: 5;
+  // NOTE: Offset fixed navigation
+  padding-top:$navbarHeight;
 }
 
 // NOTE: Offset fixed navigation
-#content-wrap {
-  padding-top:$navbarHeight;
-  height: auto !important;
-}
+// #content-wrap {
+  // padding-top:$navbarHeight;
+  // height: auto !important;
+// }
 
 .inner-bounds {
   // NOTE: Content is edge to edge unless given .inner-bounds
