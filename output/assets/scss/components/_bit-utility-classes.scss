@@ -526,28 +526,37 @@ ul.contact-list {
 ul.meta-list {
     margin-bottom: 24px;
     &.with-tags {
+        li {
+          font-size: em-font(15px);
+          margin-bottom:6px;
+          &.list-title {
+            font-family: $sans;
+          }
 
-        li:not(.list-title) {
-            a {
-                padding: 4px 10px;
-                background: $secondaryBackground;
-                border-radius: 14px 14px;
-                color: $primaryLink;
-                display: inline-block;
-                margin: 4px 2px;
-                transition: all .15s ease;
-            }
-            &:hover {
-                a {
-                    background: $primaryLinkHover;
-                    color: $primaryLight;
-                }
-            }
-            &.current-cat a,
-            a.current-cat {
-              background: $primary !important;
-              color: $primaryLight;
-            }
+          &:not(.list-title) {
+
+              a {
+                  padding: 4px 10px;
+                  background: $secondaryBackground;
+                  border-radius: 14px 14px;
+                  color: $primaryLink;
+                  display: inline-block;
+                  margin: 4px 2px;
+                  transition: all .15s ease;
+              }
+              &:hover {
+                  a {
+                      background: $primaryLinkHover;
+                      color: $primaryLight;
+                  }
+              }
+              &.current-cat a,
+              a.current-cat {
+                background: $primary !important;
+                color: $primaryLight;
+              }
+
+          }
 
         }
 
