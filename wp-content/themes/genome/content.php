@@ -28,7 +28,10 @@
                         $topicID   = $childcat->cat_ID;
                       }
                     }
-                  ?><a class='text-meta brick' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
+                    if ($topicLink) {
+                      echo "<a class='text-meta brick' href='" . $topicLink . "'>" . $topicName . "</a>";
+                    }
+                  ?>
                   <?php the_title( '<h2>', '</h2>' ); ?>
 
                   <p class='lead'><?php echo get_post_meta( get_the_ID(), 'Subtitle', true ); ?></p>
