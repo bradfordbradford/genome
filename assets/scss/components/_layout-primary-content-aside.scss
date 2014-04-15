@@ -56,20 +56,20 @@ aside.aside-column-primary {
     // Author
     .author-pic {
       display: block;
-      margin: 0 auto 12px;
+      margin: 0 auto 8px;
+      width: 120px;
+      height: 120px;
     }
     .author-attrib {
       text-align:center;
       display: block;
-      margin: 0 auto 12px;
+      margin: 0 auto 40px;
     }
 
 }
 
 
-//
-.no-photo {
-  .aside-column-primary {
-    margin-top: -160px;
-  }
+// Pull Aside Column up
+.aside-column-pull-up {
+    margin-top: -224px;
 }

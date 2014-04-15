@@ -1,6 +1,9 @@
 
 # Burnlist
 
+
+NOTE: Since we've tweaked a couple of the styles, here's an updated zip of the docs reflecting the latest…
+
 [x] Getting Started
   - Core Theme Files
   - A Word on Working With the Code
@@ -47,7 +50,7 @@
   - .grid-2-per + major-r
   - .grid-3-per
 
-[] Featured Articles
+[x] Featured Articles
   - structure
   - heros: title & media
   - media content: overlays

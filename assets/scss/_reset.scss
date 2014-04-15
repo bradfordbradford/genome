@@ -61,8 +61,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html, body {
-  height: 100%; }
+// html, body {
+//   height: 100%; }
+body {
+  height: auto;
+}
 *,
 *:before,
 *:after {

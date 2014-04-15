@@ -36,8 +36,9 @@
               <p>
                 GenomeMain.css includes styles for all of the header elements that are balanced and based on a modular scale.
               </p>
+              <br>
 
-              <div class="grid-2-per">
+              <div class="grid-2-per article-body-copy">
                 <div class="grid-element">
                   <div class="text-meta light-text-color">RENDERED HTML</div>
                   <h1>Header One (reserved for really important things)</h1>
@@ -86,7 +87,7 @@
             <div class="content-row block">
               <h3>Paragraphs</h3>
               <p>
-                This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content -- so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool.
+                This is a regular paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content -- so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool.
                 Wrap <code>strong</code> around type to make it <b>bold</b>! You can also use <code>em</code> to <em>italicize</em> your words.
               </p>
               <br>
@@ -97,7 +98,56 @@
             </div>
 
 
+            <div class="content-row block ">
+              <p>
+                <span class="lead-with-small-caps">Paragraph with Small Caps.</span> Unfortunately, browsers have a weird way of rendering things and the kerning is a bit off. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content -- so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool.
+                Wrap <code>strong</code> around type to make it <b>bold</b>! You can also use <code>em</code> to <em>italicize</em> your words.
+              </p>
+              <br>
+              <br>
+              <pre class="prettyprint">
+
+  &lt;p&gt;&lt;span class="lead-with-small-caps"&gt;Lead with Small Caps&lt;/span&gt;. This is a paragraph… &lt;p/&gt;
+              </pre>
+              <br>
+
+              <br>
+              <div class="primary-content article-body-copy">
+                <p class="lead-with-drop-cap">
+                  Paragraph with a drop cap. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+                  tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+                </p>
+              </div>
+              <br>
+              <br>
+              <pre class="prettyprint">
+
+  &lt;p class="lead-with-drop-cap"&gt;
+    Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+    tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+  &lt;/p&gt;
+              </pre>
+            </div>
+
+
             <div class="content-row block">
+              <h3>Abbreviations</h3>
+              <br>
+              <abbr>ANCC</abbr>
+              <abbr>EOC</abbr>
+              <abbr>FDA</abbr>
+              <br>
+              <br>
+              <pre class="prettyprint">
+
+  &lt;abbr&gt;FDA&lt;/abbr&gt;
+              </pre>
+            </div>
+
+
+
+
+            <div class="content-row block article-body-copy">
               <h3>Links</h3>
               <p>
                 Links are pretty straight-forward. The color is a <a href="#">subdued grey</a>.
@@ -110,7 +160,7 @@
             </div>
 
 
-            <div class="content-row block" id="lists">
+            <div class="content-row block article-body-copy" id="lists">
               <h3>Lists</h3>
               <p class="article-body-copy">
                 Lists are helpful for, well, lists of things. Didn't see that coming did you! There are baked-in styles for a number of different unordered list styles, as well as ordered and definition lists.
@@ -181,7 +231,7 @@
                 </div>
               </div>
 
-              <div class="content-row block">
+              <div class="content-row block ">
                 <div class="grid-2-per">
                   <div class="grid-element">
                     <div class="text-meta light-text-color">RENDERED HTML</div>
@@ -214,9 +264,43 @@
                 </div>
               </div>
 
+
+              <div class="content-row block article-body-copy">
+                <div class="grid-2-per">
+                  <div class="grid-element">
+                    <div class="text-meta light-text-color">RENDERED HTML</div>
+                    <br>
+                    <br>
+                    <ol>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                    </ol>
+
+                  </div>
+                  <div class="grid-element">
+                    <div class="text-meta light-text-color">HTML</div>
+                      <pre class="prettyprint">
+
+
+    &lt;ol&gt;
+      &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
+      &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
+      &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
+      &lt;li>&lt;a href="#">List Item&lt;/a>&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+
+                      </pre>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <div class="content-row block">
+            <div class="content-row block article-body-copy">
               <div class="grid-2-per">
                 <div class="grid-element">
                   <div class="text-meta light-text-color">RENDERED HTML</div>
@@ -256,6 +340,56 @@
                 </div>
               </div>
             </div>
+
+            <div class="content-row block article-body-copy">
+              <div class="grid-2-per">
+                <div class="grid-element">
+                  <div class="text-meta light-text-color">RENDERED HTML</div>
+                  <br>
+                  <br>
+                  <dl>
+                    <dt>Definition Term</dt>
+                    <dd>Definition Description</dd>
+
+                    <dt>Definition Term</dt>
+                    <dd>Definition Description</dd>
+
+                    <dt>Definition Term</dt>
+                    <dd>Definition Description</dd>
+
+                    <dt>Definition Term</dt>
+                    <dd>Definition Description</dd>
+
+                  </dl>
+
+                </div>
+                <div class="grid-element">
+                  <div class="text-meta light-text-color">HTML</div>
+                    <pre class="prettyprint">
+
+
+  &lt;dl&gt;
+
+    &lt;dt&gt;Definition Term&lt;/dt&gt;
+
+    &lt;dd&gt;Definition Description&lt;/dd&gt;
+
+
+
+    &lt;dt&gt;Definition Term&lt;/dt&gt;
+
+    &lt;dd&gt;Definition Description&lt;/dd&gt;
+
+  &lt;/dl&gt;
+
+
+
+                  </pre>
+                </div>
+              </div>
+            </div>
+
+
 
             <div class="content-row block">
               <h3>Horizontal Rules</h3>
@@ -437,7 +571,7 @@
               <br>
               <br>
               <p>
-                In addition to these print styles, <code>genome-main.css</code> includes some simple classes you can use to control elements printing, or not printing.
+                In addition to these print styles, we've also included some simple classes you can use to control elements printing, or not printing.
                 Simply attach <code>.show-for-print</code> to an element to only show when printing, and <code>.hide-for-print</code> to hide something when printing.
               </p>
 

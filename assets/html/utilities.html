@@ -330,7 +330,7 @@
                 Cards
               </h3>
               <p>
-                Easily create 'index cards'.
+                Create 'index cards' for image captions or notes.
               </p>
               <br>
               <div class="grid-2-per">
@@ -391,11 +391,12 @@
 
 
 
-            <div class="content-row block">
+            <div class="content-row block" id="pull-outs">
               <h3>Pull-Outs</h3>
-              <p>
-                Useful for creating interesting blockquotes and media content within Featured Articles.
+              <p class="article-body-copy">
+                Useful for creating interesting blockquotes and media content within <a href="feature.html#pull-outs">Featured Articles</a>.
               </p>
+
               <br>
               <br>
               <div class='pull-out-right'>
@@ -406,7 +407,9 @@
               </div>
               <br>
               <br>
+
               <div class="content-row">
+                <div class="text-meta light-text-color">PULL OUT WITH BLOCKQUOTE</div>
                 <pre class="prettyprint">
 
   &lt;div class='pull-out-right'&gt;
@@ -427,6 +430,7 @@
               <div class="content-row">
                 <br>
                 <br>
+                <div class="text-meta light-text-color">PULL OUT WITH PHOTO</div>
                 <pre class="prettyprint">
 
   &lt;div class='pull-out-left'&gt;
@@ -474,7 +478,7 @@
                   We've included two simple classes that you can use to control visibility based on device size:
                   <br>
                   To hide elements above <em>Tablet Portrait (wider than 768px)</em>, use <code>.hide-above-tablet-p</code>.
-                  Alternatively, use <code>.hide-below-tablet-p</code> to hide element above <em>Tablet Portrait (narrower than 768px)</em>
+                  Alternatively, use <code>.hide-below-tablet-p</code> to hide elements above <em>Tablet Portrait (narrower than 768px)</em>.
                 </p>
               </div>
 
@@ -488,7 +492,7 @@
               </div>
 
               <div class="content-row block">
-                <h3>Misc</h3>
+                <h3>Circle Images</h3>
                 <p>
                   Turn square images into circular ones.
                 </p>
@@ -507,27 +511,29 @@
 
                 <br>
                 <br>
+                <h3>Smooth Scrolling</h3>
                 <p>
-                  Create smooth-scrolling relative links within a page by attaching the
+                  Create smooth-scrolling relative links within a page by including the
                   <code>#Div_ID</code> of the target to an anchor tag. You can see this in action
-                  by clicking the link at the very bottom of this page, 'Go To Top'
+                  by clicking the link at the very bottom of this page, 'Go to Top'
                 </p>
                 <br>
                 <br>
 
-                <div class="text-meta light-text-color">ANCHOR</div>
-                <pre class="prettyprint">
-
-  &lt;a href="#site-wrap-outer">Go to  Top&lt;/a&gt;
-                </pre>
-                <br>
-                <br>
-
-                <div class="text-meta light-text-color">DIV ANCHORED TO</div>
+                <div class="text-meta light-text-color">PLACE YOUR ANCHOR</div>
                 <pre class="prettyprint">
 
   &lt;div id="site-wrap-outer">[content]&lt;/div&gt;
                 </pre>
+
+                <br>
+
+                <div class="text-meta light-text-color">REFERENCE YOUR ANCHOR</div>
+                <pre class="prettyprint">
+
+  &lt;a href="#site-wrap-outer">Go to  Top&lt;/a&gt;
+                </pre>
+
 
               </div>
 

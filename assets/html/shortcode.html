@@ -32,45 +32,95 @@
               <p>The Shortcodes listed here are to aid in the creation of custom formatting that comes standard with your site. In using these Shortcodes, HTML tags can be avoided when entering content in WordPress. All of these Shortcodes can be accessed through the Shortcodes drop-down list on the WordPress Visual editor, this section is simply for reference.</p>
               <p><b>Note:</b> If including text surrounded in double quotes, change the opening and closing quotes to single quotes. Ex: title="The Title Here" becomes title='The "Title" Here'.</p>
 
-              <pre class="prettyprint">[hero title="" author="" subtitle="" vimeo_id=""]</pre>
+              <pre class="prettyprint">
+
+  [hero title="" author="" subtitle="" vimeo_id=""]
+
+            </pre>
               <p>[hero] generates the Hero section for Feature articles and requires a Title, Author, Subtitle and Vimeo ID. The Vimeo ID is the numeric value at the end of a Vimeo URL (ex: for the URL http://vimeo.com/90667610, the value would be vimeo_id="90667610").</p>
 
-              <pre class="prettyprint">[small-caps]Text Here[/small-caps]</pre>
+              <pre class="prettyprint">
+
+  [small-caps]Text Here[/small-caps]
+
+            </pre>
               <p>Surround text that needs to by styled as small caps.</p>
 
-              <pre class="prettyprint">[blockquote align=""]Text Here[/blockquote]</pre>
+              <pre class="prettyprint">
+
+  [blockquote align=""]Text Here[/blockquote]
+
+            </pre>
               <p>[blockquote] should be used instead of WordPress's default blockquote code. The Align value can accept 'right', 'left', 'center', and defaults to 'center'.</p>
 
-              <pre class="prettyprint">[hr-break]</pre>
-              <pre class="prettyprint">[hr-thick]</pre>
+              <pre class="prettyprint">
+
+  [hr-break]
+  
+  [hr-thick]
+
+            </pre>
               <p>Two different styles of Horizontal Rule are available.</p>
 
-              <pre class="prettyprint">[h3]Text Here[/h3]</pre>
-              <pre class="prettyprint">[h4]Text Here[/h4]</pre>
+              <pre class="prettyprint">
+
+  [h3]Text Here[/h3]
+
+  [h4]Text Here[/h4]
+
+            </pre>
               <p>Use [h3] and [h4] for primary and secondary headings on pages.</p>
 
-              <pre class="prettyprint">[video align="" vimeo_id=""]Image Here[/video]</pre>
+              <pre class="prettyprint">
+
+  [video align="" vimeo_id=""]Image Here[/video]
+
+            </pre>
               <p>[video] requires Align and Vimeo ID parameters. Align accepts 'left' and 'right', and the Vimeo ID follows the same guidelines as in the [hero] tag above. Insert the [video] Shortcode first, then delete the "Image Here" text and insert an image in its place using the Add Media button.</p>
 
-              <pre class="prettyprint">[email]name@genomemag.com[/email]</pre>
+              <pre class="prettyprint">
+
+  [email]name@genomemag.com[/email]
+
+            </pre>
               <p>Wrap all email addresses in the [email] tag in order to create a mailto link and to hide email addresses from spam bots.</p>
-              
-              <pre class="prettyprint">[contributor author="" posts="" position="first"]
-[contributor author="" posts=""]
-[contributor author="" posts="" position="last"]</pre>
+
+              <pre class="prettyprint">
+
+  [contributor author="" posts="" position="first"]
+
+  [contributor author="" posts=""]
+
+  [contributor author="" posts="" position="last"]
+
+            </pre>
               <p>[contributor] uses Author, Posts and Position attributes. Author requires the Username found under a User's profile. Posts accepts a numeric value for the number of posts to display. The first and last contributor must have the Position tag as in the illustration above. This Shortcode is used on the Contributors page.</p>
 
-              <pre class="prettyprint">[person name="" title="" link="#" position="first"]
-[person name="" title="" link="#"]
-[person name="" title="" link="#" position="last"]</pre>
+              <pre class="prettyprint">
+
+  [person name="" title="" link="#" position="first"]
+
+  [person name="" title="" link="#"]
+
+  [person name="" title="" link="#" position="last"]
+
+              </pre>
               <p>This Shortcode is used on the About us page and accepts a Name, Title, Link and Position attribute. The Link may be to an external site. The Position attribute follows the same guidelines as the [contributor] Shortcode described above.</p>
 
-              <pre class="prettyprint">[contact name="" phone=""]</pre>
+              <pre class="prettyprint">
+
+  [contact name="" phone=""]
+
+            </pre>
               <p>[contact] is used on the Media Kit page and requires a Name and Phone attribute.</p>
 
-              <pre class="prettyprint">[vcard name="" address1="" address2="" address3=""]</pre>
+              <pre class="prettyprint">
+
+  [vcard name="" address1="" address2="" address3=""]
+
+            </pre>
               <p>[vcard] is used on the Contact Us page. It accepts the Name attribute, and each Address attribute is displayed on a new line.</p>
-              
+
           </div>
           <div class="center"><a href="#site-wrap-outer"><b>Go to  Top</b></a></div>
         </main>

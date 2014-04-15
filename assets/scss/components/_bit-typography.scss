@@ -139,18 +139,10 @@ ul.no-bullet {
   list-style: none;
 }
 
-
-// // Ordered Lists
-
-ol li {
-    list-style: decimal-leading-zero;
+ul.inline li {
+  margin: 0 12px 0 0;
 }
-  // ol li ul,
-//   ol li ol { }
 
-// // Definition Lists
-// dl dt {}
-// dl dd {}
 
 // Abbreviations
 abbr,
@@ -162,12 +154,6 @@ acronym {
 
 abbr {
   text-transform: none; }
-
-// Blockquotes
-// blockquote {}
-// cite {}
-// blockquote,
-// blockquote p {}
 
 
 
@@ -258,6 +244,18 @@ blockquote {
         }
     }
 }
+// CITE
+cite {
+  text-transform: uppercase;
+  text-align:center;
+  font-family: $sans;
+  font-weight: 400;
+  line-height: 1.58em;
+  font-size: em-font(12px);
+  display: block;
+  letter-spacing: 0.2em;
+  margin: 16px auto 0 auto;
+}
 
 // Article Body P, .end-mark, H3
 .article-body-copy {
@@ -321,13 +319,24 @@ blockquote {
         }
     }
 
+    // Lists
+    ol li, ul li, dl {
+      font-family: $serif;
+      font-size: em-font(20px);
+      line-height: 1.25em;
+    }
+    ol {
+      padding-left: 16px;
+      li {
+        list-style: decimal;
+      }
+    }
     ul {
       margin: 0 auto 32px;
       li {
-          margin-bottom: 12px;
+          margin-bottom: 8px;
       }
       ul {
-          line-height: 1.25em;
           list-style: inherit;
           padding-left: 24px;
           li {

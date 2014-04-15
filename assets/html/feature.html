@@ -28,97 +28,249 @@
             </a>
           </div>
           <div class='inner-bounds background-white card-block'>
-
-            <div class="content-row">
-              <h2 class="center">In Progress</h2>
-              <br>
-              <p class="center">
-                We'll have these ready for you soon!
+            <div class="content-row ">
+              <h3>Featured Article Example</h3>
+              <p class="article-body-copy">See the full rendered example: <a target="_blank" href="featured-article-example.html">Featured Article</a>. For a bird's eye view, check out the <a href="#big-picture">full markup</a>.
               </p>
-            </div>
 
-            <div class="content-row block">
-              <h3>HTML Structure</h3>
-              <p>description</p>
+              <div class="block">
+                <h3>HTML Structure</h3>
+                <p>
+                    Featured articles break down into two major parts:
+                    first, the article title is contained in <code>.hero-wrap</code>, then, the main content (i.e.
+                    article copy, video heros, and edge-to-edge slideshows)
+                    falls within <code>#rte-target</code>. Read time is estimated by using <code>#rte-target</code>, so it's essential this wraps the copy to generate the correct reading time estimate.
+                </p>
+              </div>
+
               <br>
-              <br>
-              <div class="text-meta light-text-color">CSS</div>
+
+              <div class="text-meta light-text-color">TITLE HERO &amp; RTE-TARGET</div>
               <pre class="prettyprint">
+
+  &lt;div class="hero-wrap"&gt;
+    &lt;header class='hero hero-featured-article background-size-full center hero-tall'&gt;
+      &lt;div class='story-cover-content single-col-layout'&gt;
+        &lt;div class='align-middle'&gt;
+          &lt;div class='align-block'&gt;
+            &lt;a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'&gt;
+              &lt;h2&gt;
+                [FEATURE HEADING]
+              &lt;/h2&gt;
+              &lt;hr class='white-bg partial'&gt;
+              &lt;p class='sans lead'&gt;
+                [FEATURE SUB-HEADING]
+              &lt;/p&gt;
+              &lt;div class='author-attrib text-meta-highlight tertiary-text-color'&gt;[AUTHOR NAME]&lt;/div&gt;
+              &lt;div class='content-row'&gt;
+                &lt;div class='arrow-down' data-icon='E' href=''&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'&gt;&lt;/div&gt;
+      &lt;div class='story-cover-image-transition'&gt;&lt;/div&gt;
+    &lt;/header&gt;
+  &lt;/div&gt;
+
+  &lt;div id='rte-target'&gt;
+    [MAIN ARTICLE CONTENT (copy, heros, slideshows, etc)]
+  &lt;/div&gt;
+
               </pre>
-            </div>
-
-
-
-            <div class="content-row">
-              <h3>Heros</h3>
-              <p>description</p>
               <br>
               <br>
-              <div class="text-meta light-text-color">CSS</div>
-              <pre class="prettyprint">
-              </pre>
-            </div>
 
 
+            <div id="article-copy"></div>
+            <h3>Article Copy</h3>
+            <p class="article-body-copy">
+              Featured Article layouts alternate between full-bleed content (heros, edge-to-edge slideshows) and article copy against a white background with
+              with ample margins. To see this in action, check out the <a href="#big-picture">full markup</a>.
+            </p>
+            <br>
+
+
+            <div class="text-meta light-text-color">HTML</div>
+            <pre class="prettyprint">
+
+  &lt;section class='featured_layout inner-bounds block'&gt;
+    &lt;section class='primary-content'&gt;
+      &lt;div class='content-row'&gt;
+        &lt;article class='article-body-copy'&gt;
+        [ARTICLE COPY]
+        &lt;/article&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/section&gt;
+
+            </pre>
+            <br>
+
+
+            <h3>Video Heros</h3>
+            <p>
+              Highlight video content for your readers.
+            </p>
+            <br>
+            <div class="text-meta light-text-color">HTML</div>
+            <pre class="prettyprint">
+
+  &lt;header class='hero hero-article-section background-size-full center'&gt;
+    &lt;div class='story-cover-content single-col-layout'&gt;
+      &lt;div class='align-middle'&gt;
+        &lt;div class='align-block'&gt;
+          &lt;h2&gt;
+            The Genetic Code
+          &lt;/h2&gt;
+          &lt;hr class='thick white-bg partial'&gt;
+          &lt;a class='author-attrib text-meta-highlight tertiary-text-color' href='#'&gt;By Big Science Media&lt;/a&gt;
+          &lt;p class='italic lead'&gt;
+            The PreDx test measures seven  substances called “biomarkers” in your blood that are linked to the development of type 2 diabetes.
+          &lt;/p&gt;
+          &lt;a class='special btn neutral overlay-watch-video icon-camera-video' href='https://vimeo.com/17404191'&gt;
+            &lt;span&gt;
+              Watch Video
+            &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+
+            </pre>
+            <br>
+
+            <h3>Slideshows — Edge-to-edge </h3>
+            <p>Like Heros, these elements are full-bleed.</p>
+            <br>
+            <div class="text-meta light-text-color">HTML</div>
+            <pre class="prettyprint">
+
+  &lt;section class='hero center hero-slideshow-section background-size-full center'&gt;
+    &lt;div class='slideshow-wrap'&gt;
+      &lt;div class='slideshow'&gt;
+        &lt;ul class='slides'&gt;
+          &lt;li&gt;
+            &lt;img alt='' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;img alt='' src='../assets/img/content/article-placeholder.jpg'&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;img alt='' src='../assets/img/content/article-placeholder.jpg'&gt;
+            &lt;figcaption&gt;
+              Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+            &lt;/figcaption&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+            </pre>
+            <br>
 
             <div class="content-row">
               <h3>Using Skrollr.js</h3>
-              <p>description</p>
+              <p class="article-body-copy"><a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr.js</a> is a parallax scrolling library. Use it create elegant transitions in a snap. Below is an example of how to transition a
+                block of content upward. For more examples and ideas, check out the <a href="https://github.com/Prinzhorn/skrollr/wiki" target="_blank">Wiki on Github</a> or
+                reference the markup in this <a href="http://prinzhorn.github.io/skrollr/" target='_blank'>Parallax example</a>.
+
               <br>
               <br>
-              <div class="text-meta light-text-color">CSS</div>
+              <p>
+                <b>The Basics</b>
+                <br>
+                Using skrollr.js, you can transition any CSS attribute. Enter your starting value in <code>data-0=''</code>
+                and ending value in <code>data-500=''</code>. The number following <code>data-</code> specifies the duration of the transition.
+                In this example, <code>.cover-content-inner</code> will start at <b>0px</b> and move upward by <b>-40px</b> for a duration <b>500px</b> scrolled.
+              </p>
+              <br>
+              <div class="text-meta light-text-color">HTML</div>
               <pre class="prettyprint">
+
+  &lt;a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'&gt;
+    &lt;h2&gt;
+      [FEATURE HEADING]
+    &lt;/h2&gt;
+    &lt;hr class='white-bg partial'&gt;
+    &lt;p class='sans lead'&gt;
+      [FEATURE SUB-HEADING]
+    &lt;/p&gt;
+    &lt;div class='author-attrib text-meta-highlight tertiary-text-color'&gt;[AUTHOR NAME]&lt;/div&gt;
+    &lt;div class='content-row'&gt;
+      &lt;div class='arrow-down' data-icon='E' href=''&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
               </pre>
             </div>
-
-
-
-            <div class="content-row">
-              <h3>Inline Slideshows</h3>
-              <p>Like Heros, these elements are full-bleed.</p>
-              <br>
-              <br>
-              <div class="text-meta light-text-color">CSS</div>
-              <pre class="prettyprint">
-              </pre>
-            </div>
-
-
-
+            <br>
 
             <div class="content-row">
               <h3>Media: Image in Overlay</h3>
-              <p>description</p>
-              <br>
-              <br>
+              <p>
+                Make the full-sized image accessible for your readers with a simple click.
+              </p>
               <div class="text-meta light-text-color">CSS</div>
               <pre class="prettyprint">
+
+  &lt;div class='article-photo'&gt;
+    &lt;a class='overlay-view-image' href='../assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'&gt;
+      &lt;span class='btn media-action no-text' data-icon='b'&gt;&lt;/span&gt;
+      &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder-slim.jpg' src='../assets/img/content/article-placeholder-slim.jpg'&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class='article-photo-caption with-bottom-border'&gt;
+    &lt;p class='text-meta-sub smaller'&gt;
+      Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+    &lt;/p&gt;
+  &lt;/div&gt;
               </pre>
             </div>
-
-
+            <br>
 
 
             <div class="content-row">
               <h3>Media: Video in Overlay</h3>
-              <p>description</p>
-              <br>
-              <br>
-              <div class="text-meta light-text-color">CSS</div>
+              <div class="text-meta light-text-color">HTML</div>
               <pre class="prettyprint">
+
+  &lt;div class='article-photo with-bottom-border'&gt;
+    &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder.jpg' src='../assets/img/content/article-placeholder.jpg'&gt;
+    &lt;a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'&gt;
+      &lt;span&gt;
+        Watch Video
+      &lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
               </pre>
             </div>
+            <br>
 
 
 
 
             <div class="content-row">
               <h3>Media: Slideshow in Overlay</h3>
-              <p>description</p>
-              <br>
-              <br>
+
               <div class="text-meta light-text-color">CSS</div>
               <pre class="prettyprint">
+
+  &lt;div class='article-photo'&gt;
+    &lt;img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'&gt;
+    &lt;div class='overlay-view-slideshow'&gt;
+      &lt;a class='btn media-action slide' data-icon='c' href='../assets/img/content/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+        &lt;span&gt;
+          View Slideshow
+        &lt;/span&gt;
+      &lt;/a&gt;
+      &lt;a class='mfp-hide slide' href='../assets/img/content/article-placeholder.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+        two
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
               </pre>
             </div>
 
@@ -126,29 +278,335 @@
 
 
             <div class="content-row">
+              <br>
               <h3>Inline Figures & Captions</h3>
-              <p>description</p>
-              <br>
-              <br>
-              <div class="text-meta light-text-color">CSS</div>
+
+              <div class="text-meta light-text-color">HTML</div>
               <pre class="prettyprint">
+
+  &lt;div class='article-photo with-top-border'&gt;
+    &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder.jpg' src='../assets/img/content/article-placeholder.jpg'&gt;
+  &lt;/div&gt;
+  &lt;div class='article-photo-caption with-bottom-border'&gt;
+    &lt;p class='text-meta-sub smaller'&gt;
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+    &lt;/p&gt;
+  &lt;/div&gt;
               </pre>
             </div>
 
 
 
-            <div class="content-row">
+            <div class="content-row article-body-copy" id="pull-outs">
+              <br>
+              <br>
               <h3>Using Pull-Outs</h3>
-              <p>description</p>
-              <br>
-              <br>
-              <div class="text-meta light-text-color">CSS</div>
+              <p>Below are some examples of how Pull Outs can be used to include complimentary content. For more examples, check out the <a href="utilities.html#pull-outs">Utilities Docs</a>.</p>
+
+
+              <div class="text-meta light-text-color">ARTICLE PHOTO IN OVERLAY W/ CAPTION IN A PULL OUT</div>
               <pre class="prettyprint">
+
+  &lt;div class='pull-out-right'&gt;
+    &lt;div class='article-photo'&gt;
+      &lt;a class='overlay-view-image' href='../assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'&gt;
+        &lt;span class='btn media-action no-text' data-icon='b'&gt;&lt;/span&gt;
+        &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder-slim.jpg' src='../assets/img/content/article-placeholder-slim.jpg'&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class='article-photo-caption with-bottom-border'&gt;
+      &lt;p class='text-meta-sub smaller'&gt;
+        Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+              </pre>
+              <br>
+
+              <div class="text-meta light-text-color">VIDEO OVERLAY IN A PULL OUT</div>
+              <pre class="prettyprint">
+
+  &lt;div class='pull-out-right'&gt;
+    &lt;div class='article-photo with-bottom-border'&gt;
+      &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder.jpg' src='../assets/img/content/article-placeholder.jpg'&gt;
+      &lt;a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'&gt;
+        &lt;span&gt;
+          Watch Video
+        &lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+              </pre>
+              <br>
+
+              <div class="text-meta light-text-color">SLIDESHOW OVERLAY IN A PULL OUT</div>
+              <pre class="prettyprint">
+
+  &lt;div class='pull-out-right'&gt;
+    &lt;div class='article-photo'&gt;
+      &lt;img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'&gt;
+      &lt;div class='overlay-view-slideshow'&gt;
+        &lt;a class='btn media-action slide' data-icon='c' href='../assets/img/content/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+          &lt;span&gt;
+            View Slideshow
+          &lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class='mfp-hide slide' href='../assets/img/content/article-placeholder.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+          two
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+              </pre>
+              <br>
+
+
+              <div class="text-meta light-text-color">QUOTE IN A PULL OUT</div>
+              <pre class="prettyprint">
+
+  &lt;blockquote class='with-Qmark Q-left pull-out-left'&gt;
+    No sensible decision can be made any longer without taking into account not only the world as it is.
+  &lt;/blockquote&gt;
               </pre>
             </div>
+            <br>
 
+            <div class="block"  id="big-picture" >
+              <h3>Featured Article Example</h3>
+              <p class="article-body-copy">See the full rendered example: <a target="_blank" href="featured-article-example.html">Featured Article</a></p>
+              <br>
+            <div class="text-meta light-text-color">FULL FEATURED ARTICLE HTML MARKUP</div>
+            <pre class="prettyprint">
 
+  &lt;div class="hero-wrap"&gt;
+    &lt;header class='hero hero-featured-article background-size-full center hero-tall'&gt;
+      &lt;div class='story-cover-content single-col-layout'&gt;
+        &lt;div class='align-middle'&gt;
+          &lt;div class='align-block'&gt;
+            &lt;a class='cover-content-inner' data-0='top:0px;' data-500='top:-40px;' href='https://www.google.com/'&gt;
+              &lt;h2&gt;
+                How Personalized Medicine is developing health care tailored
+              &lt;/h2&gt;
+              &lt;hr class='white-bg partial'&gt;
+              &lt;p class='sans lead'&gt;
+                How Personalized Medicine is developing health care tailored to your unique genetic blueprint — and how that affects you today.
+              &lt;/p&gt;
+              &lt;div class='author-attrib text-meta-highlight tertiary-text-color'&gt;By Author Righter&lt;/div&gt;
+              &lt;div class='content-row'&gt;
+                &lt;div class='arrow-down' data-icon='E' href=''&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'&gt;&lt;/div&gt;
+      &lt;div class='story-cover-image-transition'&gt;&lt;/div&gt;
+    &lt;/header&gt;
+  &lt;/div&gt;
+  &lt;div id='rte-target'&gt;
+    &lt;section class='featured_layout inner-bounds block' id='top'&gt;
+      &lt;section class='primary-content'&gt;
+        &lt;div class='content-row'&gt;
+          &lt;article class='article-body-copy'&gt;
+            &lt;p&gt;
+              &lt;span class='lead-with-small-caps tertiary-text-color'&gt;Lorem ipsum dolor sit amet,&lt;/span&gt;
+              consectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat tristique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+              raesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+              tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur.
+            &lt;/p&gt;
+            &lt;div class='pull-out-right'&gt;
+              &lt;div class='article-photo'&gt;
+                &lt;a class='overlay-view-image' href='../assets/img/content/article-placeholder-slim.jpg' title='Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs'&gt;
+                  &lt;span class='btn media-action no-text' data-icon='b'&gt;&lt;/span&gt;
+                  &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder-slim.jpg' src='../assets/img/content/article-placeholder-slim.jpg'&gt;
+                &lt;/a&gt;
+              &lt;/div&gt;
+              &lt;div class='article-photo-caption with-bottom-border'&gt;
+                &lt;p class='text-meta-sub smaller'&gt;
+                  Waltz, bad nymph, for quick jigs vex get my woven flax jodhpurs.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+              Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros. Aliquam interdum elit nec ipsum iaculis adipiscing.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id. Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est.
+            &lt;/p&gt;
+            &lt;blockquote class='small-block'&gt;
+              No sensible decision can be made any longer without taking into account not only the world as it is.
+            &lt;/blockquote&gt;
+            &lt;hr class='thick partial neutral-light-bg'&gt;
+            &lt;p&gt;
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            &lt;/p&gt;
+          &lt;/article&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/section&gt;
+    &lt;header class='hero hero-article-section background-size-full center'&gt;
+      &lt;div class='story-cover-content single-col-layout'&gt;
+        &lt;div class='align-middle'&gt;
+          &lt;div class='align-block'&gt;
+            &lt;h2&gt;
+              The Genetic Code
+            &lt;/h2&gt;
+            &lt;hr class='thick white-bg partial'&gt;
+            &lt;a class='author-attrib text-meta-highlight tertiary-text-color' href='#'&gt;By Big Science Media&lt;/a&gt;
+            &lt;p class='italic lead'&gt;
+              The PreDx test measures seven  substances called “biomarkers” in your blood that are linked to the development of type 2 diabetes.
+            &lt;/p&gt;
+            &lt;a class='special btn neutral overlay-watch-video icon-camera-video' href='https://vimeo.com/17404191'&gt;
+              &lt;span&gt;
+                Watch Video
+              &lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;section class='featured_layout inner-bounds block'&gt;
+      &lt;section class='primary-content'&gt;
+        &lt;div class='content-row'&gt;
+          &lt;article class='article-body-copy'&gt;
+            &lt;p&gt;
+              Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+              tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+            &lt;/p&gt;
+          &lt;/article&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/section&gt;
+    &lt;section class='hero center hero-slideshow-section background-size-full center'&gt;
+      &lt;div class='slideshow-wrap'&gt;
+        &lt;div class='slideshow'&gt;
+          &lt;ul class='slides'&gt;
+            &lt;li&gt;
+              &lt;img alt='' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img alt='' src='../assets/img/content/article-placeholder.jpg'&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;img alt='' src='../assets/img/content/article-placeholder.jpg'&gt;
+              &lt;figcaption&gt;
+                Nonsectetur adipiscing elit. Praesent interdum augue nisi.
+              &lt;/figcaption&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class='featured_layout inner-bounds'&gt;
+      &lt;section class='primary-content'&gt;
+        &lt;div class='content-row'&gt;
+          &lt;article class='article-body-copy add-space-t'&gt;
+            &lt;p&gt;
+              Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Nonsectetur adipiscing elit. Praesent interdum augue nisi, eget eleifend arcu vestibulum non. Pellentesque volutpat
+              tris tique nisi vitae ornare. Aenean et libero vel lacus faucibus imperdiet. Praesent imperdiet mauris ornare est commodo, sit amet ultricies orci hendrerit.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Quisque aliquam adipiscing arcu. Mauris vel nisi eget turpis feugiat sollicitudin sit amet eu elit. Donec nec purus nisl. Nulla vitae mi erat. Aenean faucibus, ligula eu consectetur porta, ligula felis placerat augue, a hendrerit libero nulla non arcu. Aliquam interdum elit nec ipsum iaculis adipiscing. Donec pulvinar est vitae nunc consectetur, non malesuada dolor ornare.
+            &lt;/p&gt;
+            &lt;hr class='article-break health-journal-hr'&gt;
+            &lt;h3&gt;Fluctuat Nec Mergitur&lt;/h3&gt;
+            &lt;div class='pull-out-right'&gt;
+              &lt;div class='article-photo with-bottom-border'&gt;
+                &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder.jpg' src='../assets/img/content/article-placeholder.jpg'&gt;
+                &lt;a class='btn media-action overlay-watch-video' data-icon='j' href='https://vimeo.com/17404191'&gt;
+                  &lt;span&gt;
+                    Watch Video
+                  &lt;/span&gt;
+                &lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            &lt;/p&gt;
+            &lt;div class='pull-out-left'&gt;
+              &lt;div class='article-photo'&gt;
+                &lt;img alt='' class='load' data-original='../assets/img/content/Repubblica-30-dicembre-2012.jpg' src='../assets/img/content/Repubblica-30-dicembre-2012.jpg'&gt;
+                &lt;div class='overlay-view-slideshow'&gt;
+                  &lt;a class='btn media-action slide' data-icon='c' href='../assets/img/content/Repubblica-30-dicembre-2012.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+                    &lt;span&gt;
+                      View Slideshow
+                    &lt;/span&gt;
+                  &lt;/a&gt;
+                  &lt;a class='mfp-hide slide' href='../assets/img/content/article-placeholder.jpg' title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'&gt;
+                    two
+                  &lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class='article-photo-caption with-bottom-border'&gt;
+                &lt;div class='text-meta-sub'&gt;
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+              Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            &lt;/p&gt;
+            &lt;blockquote class='with-Qmark Q-left pull-out-left'&gt;
+              No sensible decision can be made any longer without taking into account not only the world as it is.
+            &lt;/blockquote&gt;
+            &lt;p&gt;
+              Praesent et vehicula sapien, a bibendum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam eget viverra tortor, at rhoncus massa. Nullam eros eros, viverra non mauris vitae, suscipit vulputate purus. Nam orci eros, ullamcorper ac auctor non, interdum a nibh. Phasellus imperdiet iaculis neque in semper. Vestibulum bibendum ligula nibh, at fringilla ligula ornare id.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Mauris suscipit ligula orci, eu pharetra nunc mattis in. Vestibulum tortor dolor, tincidunt sit amet metus a, tristique iaculis est. Etiam molestie viverra orci, sit amet faucibus elit condimentum non. Ut laoreet ornare lacus. Nulla pretium dictum imperdiet. Pellentesque commodo viverra lacus, vulputate accumsan lacus elementum sed.
+            &lt;/p&gt;
+            &lt;div class='article-photo with-top-border'&gt;
+              &lt;img alt='' class='load' data-original='../assets/img/content/article-placeholder.jpg' src='../assets/img/content/article-placeholder.jpg'&gt;
+            &lt;/div&gt;
+            &lt;div class='article-photo-caption with-bottom-border'&gt;
+              &lt;p class='text-meta-sub smaller'&gt;
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+              &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+              I velit tellus egestas metus, a feugiat tellus purus a est. Morbi erat risus, faucibus at odio ut, pellentesque sodales eros. Phasellus accumsan erat sapien, id placerat sem vulputate blandit.
+            &lt;/p&gt;
+            &lt;p&gt;
+              Vestibulum adipiscing, enim vitae porttitor euismod, arcu justo adipiscing urna, in luctus urna turpis eget eros.
+              &lt;span class='light-text-color inline-block end-mark' data-icon='G'&gt;&lt;/span&gt;
+            &lt;/p&gt;
+          &lt;/article&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+            </pre>
           </div>
+
+
+
+
+
+            </div>
+          </div>
+
+          <div class="center"><a href="#site-wrap-outer"><b>Go to  Top</b></a></div>
         </main>
       </div>
     </div>

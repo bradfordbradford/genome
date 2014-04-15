@@ -6,10 +6,11 @@
 Modernizr.load([
     {   // NOTE: Load for no-touch devices
         test: Modernizr.touch,
-        load: 'http://genome-nanoc.tc/assets/js/min/skrollr.min.js',
+        nope: 'http://genomemag.com/wp-content/themes/genome/js/min/skrollr.min.js',
         complete: function () {
             var s = skrollr.init({
               edgeStrategy: 'set',
+              forceHeight: false,
               easing: {
                 WTF: Math.random,
                 inverted: function(p) {
