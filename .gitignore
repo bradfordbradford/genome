@@ -1,6 +1,7 @@
 # Cleave
 .htaccess
 error_log
+assets
 
 *~
 .DS_Store
