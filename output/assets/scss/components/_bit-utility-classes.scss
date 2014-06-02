@@ -281,6 +281,10 @@
         border-bottom: $primaryLinkHover 1px solid;
     }
 
+    .author-attrib {
+      margin: 6px auto !important;
+    }
+
     .view-all {
         padding:24px 0 0;
     }
@@ -511,6 +515,7 @@ ul.contact-list {
 
     .media-object {
         @include clearfix;
+        overflow:visible;
     }
 
     &.side-nav {
@@ -526,6 +531,7 @@ ul.contact-list {
 ul.meta-list {
     margin-bottom: 24px;
     &.with-tags {
+      margin: 0 auto ;
         li {
           font-size: em-font(15px);
           margin-bottom:6px;

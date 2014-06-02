@@ -222,9 +222,13 @@ blockquote {
     font-weight: 800;
     font-style: italic;
     font-size: 1.75em; // 28px
-    line-height: 1.2em; // 33.6px
+    line-height: 1.3em; // 33.6px
     text-align: center;
     margin: 0 auto 24px;
+
+    p {
+        line-height: 1.3em; // 33.6px
+    }
 
     &.with-Qmark {
         position: relative;
