@@ -19,13 +19,7 @@
     <title>
     	Genome<?php wp_title( '|', true, 'left' ); ?>
     </title>
-    <meta content='Genome Magazine' property='og:title'>
-    <meta content='Website' property='og:type'>
     <meta content='<?php echo get_stylesheet_directory_uri(); ?>/img/icons/og-facebook.jpg' property='og:image'>
-    <meta content='/' property='og:url'>
-    <meta content='Genome Magazine' property='og:site_name'>
-    <meta content='Genome Magazine' property='og:author'>
-    <meta content='' property='og:description'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
     <meta content='' name='author'>

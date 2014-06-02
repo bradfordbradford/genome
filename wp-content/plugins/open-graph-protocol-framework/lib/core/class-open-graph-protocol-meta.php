@@ -64,7 +64,7 @@ class Open_Graph_Protocol_Meta {
 		$metas['og:type'] = $type;
 
 		// image
-		if ( post_type_supports( $post->post_type, 'thumbnail' ) && has_post_thumbnail() ) {
+		if ( isset( $post->post_type ) && post_type_supports( $post->post_type, 'thumbnail' ) && has_post_thumbnail() ) {
 			list( $src, $width, $height ) = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
 			if ( ! empty( $src ) ) {
 				$metas['og:image'] = $src;
@@ -90,7 +90,7 @@ class Open_Graph_Protocol_Meta {
 		// description
 		$description = '';
 		if ( is_singular() ) {
-			if ( post_type_supports( $post->post_type, 'excerpt' ) ) {
+			if ( isset( $post->post_type ) && post_type_supports( $post->post_type, 'excerpt' ) ) {
 				$description = wp_strip_all_tags( apply_filters( 'get_the_excerpt', $post->post_excerpt ), true );
 			}
 			if ( empty( $description ) ) {
