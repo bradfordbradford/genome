@@ -3,7 +3,7 @@
  Plugin Name: Dynamic Featured Image
  Plugin URI: http://wordpress.org/plugins/dynamic-featured-image/
  Description: Dynamically adds multiple featured image or post thumbnail functionality to your posts, pages and custom post types.
- Version: 3.0.0
+ Version: 3.1.0
  Author: Ankit Pokhrel
  Author URI: http://ankitpokhrel.com.np
  License: GPL2 or later
@@ -39,29 +39,28 @@ if ( !defined( 'ABSPATH' ) ) {
  * 
  * @package dynamic-featured-image
  * @author Ankit Pokhrel <ankitpokhrel@gmail.com>
- * @version 3.0.0
+ * @version 3.0.1
  */
 class Dynamic_Featured_Image {
 
 	/**
 	 * Current version of the plugin.
 	 *
-	 * @since 1.0.0
-	 * @static
-	 * @access public
-	 * @var	string	$version
+	 * @since 3.0.0
 	 */
-	public static $version = '3.0.0';
+	const VERSION = '3.1.0';
+	private $upload_dir, $upload_url, $prefix, $db;
 
 	/**
 	 * Constructor. Hooks all interactions to initialize the class.
 	 *
 	 * @since 1.0.0
 	 * @access public
+	 * @global object $wpdb
 	 *
 	 * @see	 add_action()
 	 *
-	 * @return	void
+	 * @return	Void
 	 */  
 	public function __construct() {
 
@@ -78,6 +77,13 @@ class Dynamic_Featured_Image {
 		add_action( 'wp_ajax_nopriv_dfiMetaBox_callback',	array( $this, 'ajax_callback' ) );
 		add_action( 'wp_ajax_dfiMetaBox_callback', array( $this, 'ajax_callback' ) );
 
+		$this->upload_dir = wp_upload_dir();
+		$this->upload_url = $this->upload_dir['baseurl'];
+
+		global $wpdb;
+		$this->db = $wpdb;
+		$this->prefix = $wpdb->prefix;
+
 	} // END __construct()
 
   /**
@@ -90,16 +96,19 @@ class Dynamic_Featured_Image {
    * @see  wp_register_script()
    * @see  wp_enqueue_script()
    * 
-   * @return void
+   * @return Void
    */
-	public function enqueue_admin_scripts( $hook ) {
+	public function enqueue_admin_scripts( ) {
 
 		//enqueue styles
-    wp_enqueue_style( 'style-dfi', plugins_url( '/css/style-dfi.css', __FILE__ ), array(), self::$version );
-		wp_enqueue_style( 'dashicons', plugins_url( '/css/dashicons.css', __FILE__ ), array(), self::$version );
+    	wp_enqueue_style( 'style-dfi', plugins_url( '/css/style-dfi.css', __FILE__ ), array(), self::VERSION );
+		wp_enqueue_style( 'dashicons', plugins_url( '/css/dashicons.css', __FILE__ ), array(), self::VERSION );
 
-		//register scripts
-		wp_register_script( 'scripts-dfi', plugins_url( '/js/script-dfi.js', __FILE__), array( 'jquery' ), self::$version );
+		//register script
+		wp_register_script( 'scripts-dfi', plugins_url( '/js/script-dfi.js', __FILE__), array( 'jquery' ), self::VERSION );
+
+		//localize the script with required data			
+		wp_localize_script( 'scripts-dfi', 'WP_SPECIFIC', array( 'upload_url' => $this->upload_url  ) );
 
 		//enqueue scripts		
 		wp_enqueue_script( 'scripts-dfi' );
@@ -118,7 +127,7 @@ class Dynamic_Featured_Image {
    * @see  add_meta_box()
    * @see  add_filter()
    * 
-   * @return void
+   * @return Void
    */  
 	public function initialize_featured_box() {
 
@@ -126,6 +135,7 @@ class Dynamic_Featured_Image {
 		$data = get_post_custom( $post->ID );
 
 		$totalFeatured = 0;
+		$featuredData = array();
 		if ( isset( $data['dfiFeatured'][0] ) && !empty( $data['dfiFeatured'][0] ) ) {
 			$featuredData = unserialize($data['dfiFeatured'][0]);
 			$totalFeatured = count( $featuredData );
@@ -137,22 +147,39 @@ class Dynamic_Featured_Image {
 
 		if ( $totalFeatured >= 1 ) {
 			$i = 2;
-			foreach ( $featuredData as $featured ) {
-				foreach ( $postTypes as $type ) {
-					add_meta_box(
-						'dfiFeaturedMetaBox-' . $i,
-						__('Featured Image ') . $i,
-						array( $this, 'featured_meta_box' ),
-						$type,
-						'side',
-						'low',
-						array( $featured, $i + 1 )
-					);
-					add_filter( "postbox_classes_{$type}_dfiFeaturedMetaBox-" . $i, array( $this, 'add_metabox_classes' ) );
-				}
-
+			foreach ( $featuredData as $featured ) {				
+				self::_dfi_add_meta_box($postTypes, $featured, $i);
 				$i++;
 			}
+		} else {
+			self::_dfi_add_meta_box($postTypes);
+		}
+
+	} // END initialize_featured_box()
+
+	/**
+	 * adds meta boxes
+	 * @param  Array $postTypes     post types to show featured image box	 
+	 * @param  Object $featured     callback arguments
+	 * @param  Integer $i           index of the featured image
+	 * @return Void
+	 */
+	private function _dfi_add_meta_box( $postTypes, $featured = null, $i = null ) {
+
+		if ( !is_null($i) ) {
+			foreach ( $postTypes as $type ) {
+				add_meta_box(
+					'dfiFeaturedMetaBox-' . $i,
+					__('Featured Image ') . $i,
+					array( $this, 'featured_meta_box' ),
+					$type,
+					'side',
+					'low',
+					array( $featured, $i + 1 )
+				);
+				add_filter( "postbox_classes_{$type}_dfiFeaturedMetaBox-" . $i, array( $this, 'add_metabox_classes' ) );
+			}
+				
 		} else {
 			foreach ( $postTypes as $type ) {
 				add_meta_box(
@@ -168,7 +195,7 @@ class Dynamic_Featured_Image {
 			}
 		}
 
-	} // END initialize_featured_box()
+	}
 
   /**
    * Featured meta box as seen in the admin
@@ -179,37 +206,71 @@ class Dynamic_Featured_Image {
    * @see  wp_nonce_field()
    * @see  plugin_basename()
    *
-   * @param  $post global post object
-   * @param  $featured array containing featured image count
+   * @param  Object $post global post object
+   * @param  Array $featured array containing featured image count
    *
-   * @return void
+   * @return Void
    */
 	public function featured_meta_box( $post, $featured ) {
 
-		$featuredImg	= is_null( $featured['args'][0]) ? '' : $featured['args'][0];
-		$featuredId		= is_null( $featured['args'][1]) ? 2 : --$featured['args'][1];
+		$featuredImg = $featured['args'][0];
+		$featuredId	= is_null( $featured['args'][1]) ? 2 : --$featured['args'][1];
 
 		$featuredImgTrimmed = $featuredImgFull = $featuredImg;
-		if ( !empty( $featuredImg ) ) {
-			list( $featuredImgTrimmed, $featuredImgFull ) = explode( ',', $featuredImg );
+		if ( !is_null( $featured['args'][0] ) ) {
+			@list( $featuredImgTrimmed, $featuredImgFull ) = explode( ',', $featuredImg );
 		}
 
-		$thumbnail = ( strpos( $featuredImgFull, 'wp-content' ) !== false ) ? $this->get_image_thumb( site_url() . $featuredImgFull, 'medium' ) : $featuredImgFull;
+		try {		
 
+			$thumbnail = $this->get_image_thumb( $this->upload_url . $featuredImgFull, 'medium' );			
+			if( is_null($thumbnail) ) {
+
+				//medium sized thumbnail image is missing				
+				throw new Exception("Medium size image not found", 1);				
+
+			}
+
+		} catch (Exception $e) {	
+
+			//since medium sized thumbnail image was not found, 
+			//let's set full image url as thumbnail
+			$thumbnail = $featuredImgFull;
+
+		}
+		
 		//Add a nonce field
 		wp_nonce_field(plugin_basename(__FILE__), 'dfi_fimageplug-' . $featuredId);
-		?>
-			<a href="javascript:void(0)" class='dfiFeaturedImage <?php if (isset($featuredImgTrimmed) && !empty($featuredImgTrimmed)) echo 'hasFeaturedImage' ?>' title="Set Featured Image" data-post-id="<?php the_ID() ?>"><span class="dashicons dashicons-camera"></span></a><br/>
-			<img src="<?php if (isset($thumbnail) && !is_null($thumbnail)) echo $thumbnail; ?>" class='dfiImg <?php if (!isset($featuredImgTrimmed) || is_null($featuredImgTrimmed)) echo 'dfiImgEmpty' ?>'/>
-			<div class='dfiLinks'>
-				<a href="javascript:void(0)" data-id='<?php echo $featuredId ?>' class='dfiAddNew dashicons dashicons-plus' title="Add New"></a>
-				<a href="javascript:void(0)" class='dfiRemove dashicons dashicons-minus' title="Remove"></a>
-			</div>
-			<div class='dfiClearFloat'></div>
-			<input type='hidden' name="dfiFeatured[]" value="<?php echo $featuredImg ?>"  class="dfiImageHolder" />
-		<?php
+		echo self::_get_featured_box($featuredImgTrimmed, $featuredImg, $featuredId, $thumbnail);
 
 	} // END featured_meta_box()
+
+	/**
+	 * Returns featured box html content
+	 * @since  3.1.0
+	 * @access private
+	 * 
+	 * @param  String $featuredImgTrimmed Medium sized image
+	 * @param  String $featuredImg        Full sized image
+	 * @param  String $featuredId         Attachment Id
+	 * @param  String $thumbnail          Thumb sized image
+	 * 
+	 * @return String                     Html content
+	 */
+	private function _get_featured_box($featuredImgTrimmed, $featuredImg, $featuredId, $thumbnail) {
+		$hasFeaturedImage = !empty($featuredImgTrimmed) ? 'hasFeaturedImage' : '';
+		$thumbnail = !is_null($thumbnail) ? $thumbnail : '';
+		$dfiEmpty = is_null($featuredImgTrimmed) ? 'dfiImgEmpty' : '';
+
+		return "<a href='javascript:void(0)' class='dfiFeaturedImage {$hasFeaturedImage}' title='Set Featured Image' data-post-id='" . get_the_ID() . "'><span class='dashicons dashicons-camera'></span></a><br/>
+			<img src='" . $thumbnail . "' class='dfiImg {$dfiEmpty}'/>
+			<div class='dfiLinks'>
+				<a href='javascript:void(0)'' data-id='{$featuredId}' class='dfiAddNew dashicons dashicons-plus' title='Add New'></a>
+				<a href='javascript:void(0)' class='dfiRemove dashicons dashicons-minus' title='Remove'></a>
+			</div>
+			<div class='dfiClearFloat'></div>
+			<input type='hidden' name='dfiFeatured[]' value='{$featuredImg}'  class='dfiImageHolder' />";
+	}
 
   /**
    * Load new featured meta box via ajax
@@ -220,7 +281,7 @@ class Dynamic_Featured_Image {
    * @see  wp_nonce_field()
    * @see  plugin_basename()
    *
-   * @return void
+   * @return Void
    */
 	public function ajax_callback() {
 
@@ -276,38 +337,30 @@ class Dynamic_Featured_Image {
    * @see  update_post_meta()
    * @see  current_user_can()
    *
-   * @param  $post_id current post id
+   * @param  Integer $post_id current post id
    * 
-   * @return void
+   * @return Void
    */
 	public function save_meta( $post_id ) {
-
-		$featuredIds = array();
-		$keys = array_keys( $_POST );
-
-		foreach ( $keys as $key ) {
-			if ( preg_match( '/dfi_fimageplug-.$/', $key ) ) {
-				$featuredIds[] = $key;
-			}
-		}
-
-		//Verify nonce
-		foreach ( $featuredIds as $nonceId ) {
-			if ( !wp_verify_nonce( $_POST[$nonceId], plugin_basename(__FILE__) ) ) {
-				return;
-			}
-		}
 
 		//Check autosave
 		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
 			return;
 		}
+		
+		$keys = array_keys( $_POST );
+		foreach ( $keys as $key ) {
+			if ( preg_match( '/dfi_fimageplug-.$/', $key ) ) {
+				//Verify nonce
+				if ( !wp_verify_nonce( $_POST[$key], plugin_basename(__FILE__) ) ) {
+					return;
+				}			
+			}
+		}				
 
 		//Check permission before saving data
-		if ( !empty( $_POST ) && current_user_can( 'edit_posts', $post_id ) ) {
-			if ( isset( $_POST['dfiFeatured'] ) ) {
-				update_post_meta( $post_id, 'dfiFeatured', $_POST['dfiFeatured'] );
-			}
+		if ( current_user_can( 'edit_posts', $post_id ) && isset( $_POST['dfiFeatured']) ) {			
+			update_post_meta( $post_id, 'dfiFeatured', $_POST['dfiFeatured'] );			
 		}
 
 	} // END save_meta()
@@ -319,7 +372,7 @@ class Dynamic_Featured_Image {
    * @access public
    * @ignore
    * 
-   * @return void
+   * @return Void
    */
 	public function update_notice() {
 
@@ -330,39 +383,41 @@ class Dynamic_Featured_Image {
 
 	/** Helper functions */
 
+	private function execute_query( $query ) {
+		$resultSet = $this->db->get_col( $query );
+
+		return empty( $resultSet ) ? null : $resultSet[0];
+	}
+
 	/**
 	 * Get attachment id of the image by image url
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @param  $image_url url of the image
-   * 
+     *
+     * @since 2.0.0
+     * @access public
+     * @global object $wpdb
+     *
+     * @param  String $image_url url of the image
+     * 
 	 * @return string
 	 */   
-	public function get_image_id( $image_url ) {
+	public function get_image_id( $image_url ) {		
 
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$attachment = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM " . $prefix . "posts" . " WHERE guid= %s", $image_url ) );
-
-		return empty( $attachment ) ? null : $attachment[0];
+		return self::execute_query($this->db->prepare( "SELECT ID FROM " . $this->prefix . "posts" . " WHERE guid = %s", $image_url ));
 
 	} // END get_image_id()
 
 	/**
 	 * Get image url of the image by attachment id
-   * 
-   * @since 2.0.0
-   * @access public 
-   *
-   * @see  wp_get_attachment_image_src()
-   *
-   * @param  $attachment_id attachment id of an image
-   * @param  $size size of the image to fetch (thumbnail, medium, full)
+     * 
+     * @since 2.0.0
+     * @access public 
+     *
+     * @see  wp_get_attachment_image_src()
+     *
+     * @param  Integer $attachment_id attachment id of an image
+     * @param  String $size size of the image to fetch (thumbnail, medium, full)
 	 *
-	 * @return string
+	 * @return String
 	 */
 	public function get_image_url( $attachment_id, $size = 'full' ) {
 
@@ -374,17 +429,17 @@ class Dynamic_Featured_Image {
 
 	/**
 	 * Get image thumbnail url of specific size by image url
-   *
-   * @since 2.0.0
-   * @access public
-   *
-   * @see  get_image_id()
-   * @see  wp_get_attachment_image_src() 
-   *
-   * @param  $image_url url of an image
-   * @param  $size size of the image to fetch (thumbnail, medium, full)
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @see  get_image_id()
+     * @see  wp_get_attachment_image_src() 
+     *
+     * @param  String $image_url url of an image
+     * @param  String $size size of the image to fetch (thumbnail, medium, full)
 	 *
-	 * @return string
+	 * @return String
 	 */
 	public function get_image_thumb( $image_url, $size = 'thumbnail' ) {
 
@@ -397,106 +452,83 @@ class Dynamic_Featured_Image {
 
 	/**
 	 * Get image title
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @param  $image_url url of an image
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @param  String $image_url url of an image
 	 *
-	 * @return string
+	 * @return String
 	 */
 	public function get_image_title( $image_url ) {
-
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$post_title = $wpdb->get_col( $wpdb->prepare( "SELECT post_title FROM " . $prefix . "posts" . " WHERE guid = %s", $image_url ) );
-
-		return empty( $post_title ) ? null : $post_title[0];
+		
+		return self::execute_query( $this->db->prepare( "SELECT post_title FROM " . $this->prefix . "posts" . " WHERE guid = %s", $image_url ) );
 
 	} // END get_image_title()
 
 	/**
 	 * Get image title by id
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @param  $attachment_id attachment id of an image
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @param  Integer $attachment_id attachment id of an image
 	 *
-	 * @return string
+	 * @return String
 	 */
-	public function get_image_title_by_id( $attachment_id ) {
+	public function get_image_title_by_id( $attachment_id ) {		
 
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$post_title = $wpdb->get_col( $wpdb->prepare( "SELECT post_title FROM " . $prefix . "posts" . " WHERE ID = %d", $attachment_id ) );
-
-		return empty($post_title) ? null : $post_title[0];
+		return self::execute_query( $this->db->prepare( "SELECT post_title FROM " . $this->prefix . "posts" . " WHERE ID = %d", $attachment_id ) );
 
 	} // END get_image_title_by_id()
 
 	/**
 	 * Get image caption
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @param  $image_url url of an image
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @param  String $image_url url of an image
 	 *
-	 * @return string
+	 * @return String
 	 */
 	public function get_image_caption( $image_url ) {
-
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$post_caption = $wpdb->get_col( $wpdb->prepare("SELECT post_excerpt FROM " . $prefix . "posts" . " WHERE guid = %s", $image_url ) );
-
-		return empty( $post_caption ) ? null : $post_caption[0];
+		
+		return self::execute_query( $this->db->prepare("SELECT post_excerpt FROM " . $this->prefix . "posts" . " WHERE guid = %s", $image_url ) );
 
 	} // END get_image_caption()
 
 	/**
 	 * Get image caption by id
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @param  $attachment_id attachment id of an image
-   * 
-	 * @return string
+     *
+     * @since 2.0.0
+     * @access public  
+     *
+     * @param  Integer $attachment_id attachment id of an image
+     * 
+	 * @return String
 	 */
 	public function get_image_caption_by_id( $attachment_id ) {
-
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$post_caption = $wpdb->get_col($wpdb->prepare("SELECT post_excerpt FROM " . $prefix . "posts" . " WHERE ID = %d", $attachment_id));
-
-		return empty( $post_caption ) ? null : $post_caption[0];
+	
+		return self::execute_query( $this->db->prepare("SELECT post_excerpt FROM " . $this->prefix . "posts" . " WHERE ID = %d", $attachment_id) );
 
 	} // END get_image_caption_by_id()
 
 	/**
 	 * Get image alternate text
-   *
-   * @since 2.0.0
-   * @access public
-   * @global object $wpdb
-   *
-   * @see  get_post_meta()
-   *
-   * @param  $image_url url of an image
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @see  get_post_meta()
+     *
+     * @param  String $image_url url of an image
 	 *
-	 * @return string
+	 * @return String
 	 */
 	public function get_image_alt( $image_url ) {
-
-		global $wpdb;
-		$prefix = $wpdb->prefix;
-		$attachment = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM " . $prefix . "posts" . " WHERE guid = %s", $image_url ) );
+		
+		$attachment = $this->db->get_col( $this->db->prepare( "SELECT ID FROM " . $this->prefix . "posts" . " WHERE guid = %s", $image_url ) );
 
 		$alt = null;
 		if ( !empty( $attachment ) ) {
@@ -515,9 +547,9 @@ class Dynamic_Featured_Image {
    *
    * @see  get_post_meta()
    *
-   * @param  $attachment_id attachment id of an image
+   * @param  Integer $attachment_id attachment id of an image
    *
-   * @return string
+   * @return String
    */
   public function get_image_alt_by_id( $attachment_id ) {
 
@@ -532,56 +564,45 @@ class Dynamic_Featured_Image {
    *
    * @since 3.0.0
    * @access public
-   * @global object $wpdb
    *
-   * @param  $image_url url of an image
+   * @param  String $image_url url of an image
    *
-   * @return string
+   * @return String
    */
   public function get_image_description( $image_url ) {
-
-    global $wpdb;
-    $prefix = $wpdb->prefix;
-    $post_description = $wpdb->get_col( $wpdb->prepare( "SELECT post_content FROM " . $prefix . "posts" . " WHERE guid = %s", $image_url ) );
-
-    return empty( $post_description ) ? null : $post_description[0];
+  
+    return self::execute_query( $this->db->prepare( "SELECT post_content FROM " . $this->prefix . "posts" . " WHERE guid = %s", $image_url ) );
 
   } // END get_image_description()
 
-	/**
-	 * Get image description by id
-   *
-   * @since 3.0.0
-   * @access public
-   * @global object $wpdb   
-   *
-   * @param  $attachment_id attachment id of an image
-	 *
-	 * @return string
-	 */
+   /**
+	* Get image description by id
+	*
+	* @since 3.0.0
+	* @access public
+	*
+	* @param  Integer $attachment_id attachment id of an image
+	*
+	* @return String
+	*/
 	public function get_image_description_by_id( $attachment_id ) {
-
-		global $wpdb;
-    $prefix = $wpdb->prefix;
-    $post_description = $wpdb->get_col( $wpdb->prepare( "SELECT post_content FROM " . $prefix . "posts" . " WHERE ID = %d", $attachment_id ) );
-
-    return empty($post_description) ? null : $post_description[0];
+		
+	    return self::execute_query( $this->db->prepare( "SELECT post_content FROM " . $this->prefix . "posts" . " WHERE ID = %d", $attachment_id ) );
 
 	} // END get_image_description_by_id()
 
-	/**
-	 * Get all attachment ids of the post
-   *
-   * @since 2.0.0
-   * @access public
-   *
-   * @see  get_post_custom()
-   * @see  site_url()
-   *
-   * @param  $post_id id of the current post
-	 *
-	 * @return array
-	 */
+   /**
+	* Get all attachment ids of the post
+	*
+	* @since 2.0.0
+	* @access public
+	*
+	* @see  get_post_custom()
+	*
+	* @param  Integer $post_id id of the current post
+	*
+	* @return Array
+	*/
 	public function get_post_attachment_ids( $post_id ) {
 
 		$dfiImages = get_post_custom( $post_id );
@@ -590,9 +611,9 @@ class Dynamic_Featured_Image {
 		$retVal = array();
 		if ( !empty( $dfiImages ) && is_array( $dfiImages ) ) {
 			foreach ( $dfiImages as $dfiImage ) {
-				list( $dfiImageTrimmed, $dfiImageFull ) = explode( ',', $dfiImage );
+				@list( $dfiImageTrimmed, $dfiImageFull ) = explode( ',', $dfiImage );
 
-				$retVal[] = $this->get_image_id( site_url() . $dfiImageFull );
+				$retVal[] = $this->get_image_id( $this->upload_url . $dfiImageFull );
 			}
 		}
 
@@ -608,10 +629,10 @@ class Dynamic_Featured_Image {
    * 
    * @see  get_featured_images()
    * 
-   * @param  integer $position position of the featured image
-   * @param  integer $post_id  id of the current post
+   * @param  Integer $position position of the featured image
+   * @param  Integer $post_id  id of the current post
    * 
-   * @return array if found null otherwise
+   * @return Array if found, null otherwise
    */
   public function get_nth_featured_image( $position, $post_id = null ) {
 
@@ -621,21 +642,21 @@ class Dynamic_Featured_Image {
     }
 
     $featured_images = $this->get_featured_images( $post_id );
-
+    
     return isset($featured_images[$position - 2 ]) ? $featured_images[$position - 2] : null;
     
   } // END get_nth_featured_image()
 
 	/**
 	 * Check if the image is attached with the particular post
-   *
-   * @since 2.0.0
-   * @access public
-   *
-   * @see  get_post_attachment_ids()
-   *
-   * @param  $attachment_id attachment id of an image
-   * @param  $post_id id of the current post
+     *
+     * @since 2.0.0
+     * @access public
+     *
+     * @see  get_post_attachment_ids()
+     *
+     * @param  $attachment_id attachment id of an image
+     * @param  $post_id id of the current post
 	 *
 	 * @return boolean
 	 */
@@ -647,19 +668,18 @@ class Dynamic_Featured_Image {
 
 	} // END is_attached()
 
-	/**
-	 * Retrieve featured images for specific post(s)
-   *
-   * @since 2.0.0
-   * @access public
-   *
-   * @see  get_post_custom()
-   * @see  site_url()
-   *
-   * @param  $post_id id of the current post
-	 *
-	 * @return array
-	 */
+   /**
+	* Retrieve featured images for specific post(s)
+	*
+	* @since 2.0.0
+	* @access public
+	*
+	* @see  get_post_custom()
+	*
+	* @param  Integer $post_id id of the current post
+	*
+	* @return Array
+	*/
 	public function get_featured_images( $post_id = null ) {
 
 		if ( is_null( $post_id ) ) {
@@ -675,21 +695,20 @@ class Dynamic_Featured_Image {
 			$count = 0;
 			foreach ( $dfiImages as $dfiImage ) {
 				@list( $dfiImageTrimmed, $dfiImageFull ) = explode( ',', $dfiImage );
-				if ( strpos( $dfiImageFull, 'wp-content' ) !== false ) {
-					$retImages[$count]['thumb']			= site_url() . $dfiImageTrimmed;
-					$retImages[$count]['full']			= site_url() . $dfiImageFull;
-					$retImages[$count]['attachment_id']	= $this->get_image_id( site_url() . $dfiImageFull );
-				} else {
-					$retImages[$count]['thumb']			= $dfiImageTrimmed;
-					$retImages[$count]['full']			= $dfiImageFull;
-					$retImages[$count]['attachment_id']	= $this->get_image_id( site_url() . $dfiImageFull );
-				}
+				
+				try {
+
+					$retImages[$count]['thumb']			= $this->upload_url . $dfiImageTrimmed;
+					$retImages[$count]['full']			= $this->upload_url . $dfiImageFull;
+					$retImages[$count]['attachment_id']	= $this->get_image_id( $this->upload_url . $dfiImageFull );
+
+				} catch(Exception $e) { /* Ignore the exception and continue with other featured images */ }
 
 				$count++;
 			}
 		}
 
-		return ( !empty( $retImages ) ) ? $retImages : null;
+		return $retImages;
 
 	} // END get_featured_images()
 
@@ -703,7 +722,7 @@ class Dynamic_Featured_Image {
 	 * @see	plugin_basename()
 	 * @action	plugins_loaded
 	 *
-	 * @return	void
+	 * @return	Void
 	 */
 	public function load_plugin_textdomain() {
 

@@ -3,8 +3,8 @@ Contributors: ankitpokhrel, cfoellmann
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J9FVY3ESPPD58
 Tags: dynamic featured image, featured image, post thumbnail, dynamic post thumbnail, multiple featured image, multiple post thumbnail
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 3.0.0
+Tested up to: 3.9.1
+Stable tag: 3.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,10 @@ Dynamically adds multiple featured image (post thumbnail) functionality to posts
 
 == Description ==
 Dynamically adds multiple featured image or multiple post thumbnail functionality to your page, posts and custom post types. This plugin provides you an interface to add any number of featured image as you want without writing a single code. These dynamic featured images can then be collected by the various theme functions.
+
+> Attention! If you upgrade from 3.0.1 to 3.1.0 you need to re-enter all images  
+> or manage image url in the database manually. The plugins find the image folder  
+> automatically from ver. 3.1.0.
 
 **Overview**  
 Dynamic Featured Image enables the option to have MULTIPLE featured images within a post or page. 
@@ -23,7 +27,7 @@ DFI allows you to add different number of featured images to each post and page 
 1. After successfull plugin activation go to `add` or `edit` page of posts or pages and you will notice a box for second featured image.  
 2. Click `Set featured image`, select required image from "Dynamic Featured Image - Media Selector" popup and click `Set Featured Image`.  
 3. Click on `Add New` to add new featured image or use `Remove` link to remove the featured image box.  
-4. You can then get the images by calling the function  `$dynamic_featured_image->get_featured_images([$postId (optional)])` in your theme. ([Click here for details](https://github.com/ankitpokhrel/Dynamic-Featured-Image/wiki "Documentation for current version"))  
+4. You can then get the images by calling the function `$dynamic_featured_image->get_featured_images([$postId (optional)])` in your theme. ([Click here for details](https://github.com/ankitpokhrel/Dynamic-Featured-Image/wiki "Documentation for current version"))  
 5. The data will be returned in the following format.
 `
 array
@@ -42,7 +46,8 @@ array
 
 **Resources**  
 1. [Detail Documentation](https://github.com/ankitpokhrel/Dynamic-Featured-Image/wiki "Documentation for current ver.").  
-2. [DFI Blog](http://ankitpokhrel.com.np/blog/category/dynamic-featured-image/ "DFI Blog").
+2. [DFI Blog](http://ankitpokhrel.com.np/blog/category/dynamic-featured-image/ "DFI Blog").  
+3. [StackOverflow Tag](http://stackoverflow.com/questions/tagged/dynamic-featured-image "StackOverflow Tag").
 
 **MultiSite Info**  
 You can use `Network Activate` to activate plugin for all sites on a single install. It is only available on the Network admin site not anywhere else. 
@@ -103,6 +108,13 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 3. Add new featured image box.
 
 == Changelog ==
+= 3.1.0 =
+* Partial fix for issue #22.
+* Increased code quality.
+
+= 3.0.1 =
+* Fixed several JSLint issues
+
 = 3.0.0 =
 * Fully Object Oriented (Thanks to @cfoellmann).
 * New WordPress Media Uploader.
@@ -145,6 +157,13 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 * Fixed some minor issues.
 
 == Upgrade Notice ==
+== 3.1.0 ==
+This version has some bug fix and code quality improvement. You may need to change database value manually because the plugin finds the uplod folder
+automatically from now on.
+
+= 3.0.1 =
+This version has fixed various JSLint issues.
+
 = 3.0.0 =
 This version has major changes which are not compatible with the previous version of the plugin. The plugin is now fully object oriented.
 
