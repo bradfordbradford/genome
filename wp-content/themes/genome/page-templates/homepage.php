@@ -152,7 +152,9 @@ get_header(); ?>
                       <div class='featured-article'>
                         <div class='article-photo primary'>
                         	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-                          <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          <a href='<?php echo get_permalink(); ?>'>
+                            <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          </a>
                         </div>
                         <header class='article-header'>
                           <div class='text-meta'>
@@ -223,7 +225,9 @@ get_header(); ?>
                               $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
                           }
                         ?>
-                        <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                        <a href='<?php echo get_permalink(); ?>'>
+                          <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                        </a>
                         <div class='popup-content-wrap'>
                           <div class='comment-counter-wrap'>
                             <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
@@ -274,7 +278,9 @@ get_header(); ?>
                       <div class='media-object-horizontal-layout'>
                         <div class='grid-element image-content'>
                         	<?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-                          <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          <a href='<?php echo get_permalink(); ?>'>
+                            <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          </a>
                           <div class='comment-counter-wrap'>
                             <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
                           </div>
@@ -328,7 +334,9 @@ get_header(); ?>
                       <div class='featured-article'>
                         <div class='article-photo primary'>
                         	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
-                          <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          <a href='<?php echo get_permalink(); ?>'>
+                            <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                          </a>
                         </div>
                         <header class='article-header'>
                           <div class='text-meta'>
@@ -399,7 +407,9 @@ get_header(); ?>
                               $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
                           }
                         ?>
-                        <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                        <a href='<?php echo get_permalink(); ?>'>
+                          <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
+                        </a>
                         <div class='popup-content-wrap'>
                           <div class='comment-counter-wrap'>
                             <a class='icon comment-counter' href='<?php echo get_permalink(); ?>#disqus_thread'></a>
