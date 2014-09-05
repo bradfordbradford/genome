@@ -464,7 +464,7 @@ function register_shortcodes(){
   add_shortcode('h3', 'h3_function');
   add_shortcode('h4', 'h4_function');
   add_shortcode('email', 'email_function');
-  add_shortcode('video', 'video_function');
+  add_shortcode('vimeo', 'video_function');
   add_shortcode('hero', 'i_can_be_your_hero_baby_function');
   add_shortcode('contributor', 'contrib_function');
   add_shortcode('person', 'person_function');
@@ -1111,42 +1111,4 @@ function get_excerpt_by_id($post_id){
   endif;
   //$the_excerpt = '<p>' . $the_excerpt . '</p>';
   return $the_excerpt;
-}
-
-// /**
-// Hook into WordPress
-// */
-
-add_action('init', 'onehalf_button');  
-// /**
-// Create Our Initialization Function
-// */
-
-function onehalf_button() {
-
-   if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') ) {
-     return;
-   }
-
-   if ( get_user_option('rich_editing') == 'true' ) {
-     add_filter( 'mce_external_plugins', 'add_plugin' );
-     add_filter( 'mce_buttons', 'register_button' );
-   }
-
-}
-// /**
-// Register Button
-// */
-
-function register_button( $buttons ) {
- array_push( $buttons, "|", "onehalf" );
- return $buttons;
-}
-
-// Register TinyMCE Plugin
-
-
-function add_plugin( $plugin_array ) {
-   $plugin_array['onehalf'] = get_bloginfo( 'template_url' ) . '/shortcodes/hero.js';
-   return $plugin_array;
 }

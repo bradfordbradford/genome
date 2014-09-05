@@ -1,0 +1,283 @@
+[
+
+    {
+        "text": "Hero Section",
+        "value": "hero",
+        "content": false,
+        "hideContentInput": true,
+        "description": false,
+        "options": [
+            {
+                "type": "textbox",
+                "name": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textbox",
+                "name": "author",
+                "label": "Author"
+            },
+            {
+                "type": "textbox",
+                "name": "subtitle",
+                "label": "Subtitle"
+            },
+            {
+                "type": "textbox",
+                "name": "vimeo_id",
+                "label": "Vimeo ID"
+            }    
+        ]
+    },
+
+    {
+        "text": "Small Caps",
+        "value": "small-caps",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text."
+    },
+
+    {
+        "text": "Blockquote",
+        "value": "blockquote",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text.",
+        "options": [
+            {
+                "type": "select",
+                "name": "align",
+                "label": "Alignment",
+                "options": [
+                	{
+                		"text": "Left",
+                		"value": "left"
+                	},
+                	{
+                		"text": "Centered",
+                		"value": "center"
+                	},
+                	{
+                		"text": "Right",
+                		"value": "right"
+                	}
+                ]
+            }
+      	]
+    },
+
+    {
+        "text": "HR Break",
+        "value": "hr-break",
+        "content": false
+    },
+
+    {
+        "text": "HR Thick",
+        "value": "hr-thick",
+        "content": false
+    },
+
+    {
+        "text": "H3 Heading",
+        "value": "h3",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text."
+    },
+
+    {
+        "text": "H4 Heading",
+        "value": "h4",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text."
+    },
+
+    {
+        "text": "Email",
+        "value": "email",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text."
+    },
+
+    {
+        "text": "Video",
+        "value": "vimeo",
+        "content": true,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text.",
+        "options": [
+            {
+                "type": "select",
+                "name": "align",
+                "label": "Alignment",
+                "options": [
+                	{
+                		"text": "Left",
+                		"value": "left"
+                	},
+                	{
+                		"text": "Right",
+                		"value": "right"
+                	}
+                ]
+            },
+            {
+                "type": "textbox",
+                "name": "vimeo_id",
+                "label": "Vimeo ID"
+            }
+      	]
+    },
+
+    {
+        "text": "Contributor",
+        "value": "contributor",
+        "content": false,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text.",
+        "options": [
+            {
+                "type": "textbox",
+                "name": "author",
+                "label": "Author"
+            },
+            {
+                "type": "select",
+                "name": "posts",
+                "label": "# of Posts",
+                "options": [
+                    {
+                        "text": "1",
+                        "value": "1"
+                    },
+                    {
+                        "text": "2",
+                        "value": "2"
+                    },
+                    {
+                        "text": "3",
+                        "value": "3"
+                    },
+                    {
+                        "text": "4",
+                        "value": "4"
+                    },
+                    {
+                        "text": "5",
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "position",
+                "label": "Position",
+                "options": [
+                    {
+                        "text": "First",
+                        "value": "first"
+                    },
+                    {
+                        "text": "Middle",
+                        "value": "middle"
+                    },
+                    {
+                        "text": "Last",
+                        "value": "last"
+                    }
+                ]
+            }
+
+        ]
+    },
+
+    {
+        "text": "Person",
+        "value": "person",
+        "content": false,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text.",
+        "options": [
+            {
+                "type": "textbox",
+                "name": "name",
+                "label": "Name"
+            },
+            {
+                "type": "textbox",
+                "name": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textbox",
+                "name": "link",
+                "label": "Link"
+            },
+            {
+                "type": "select",
+                "name": "position",
+                "label": "Position",
+                "options": [
+                    {
+                        "text": "First",
+                        "value": "first"
+                    },
+                    {
+                        "text": "Middle",
+                        "value": "middle"
+                    },
+                    {
+                        "text": "Last",
+                        "value": "last"
+                    }
+                ]
+            }
+
+        ]
+    },
+
+   {
+        "text": "vCard",
+        "value": "vcard",
+        "content": false,
+        "hideContentInput": true,
+        "description": false,
+        "description_text": "Enters a Small Caps styled text.",
+        "options": [
+            {
+                "type": "textbox",
+                "name": "name",
+                "label": "Name"
+            },
+            {
+                "type": "textbox",
+                "name": "address1",
+                "label": "Address Line 1"
+            },
+            {
+                "type": "textbox",
+                "name": "address2",
+                "label": "Address Line 2"
+            },
+            {
+                "type": "textbox",
+                "name": "address3",
+                "label": "Address Line 3"
+            }
+
+        ]
+    }
+
+]
