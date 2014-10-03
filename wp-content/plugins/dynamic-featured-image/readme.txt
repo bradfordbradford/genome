@@ -3,8 +3,8 @@ Contributors: ankitpokhrel, cfoellmann
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J9FVY3ESPPD58
 Tags: dynamic featured image, featured image, post thumbnail, dynamic post thumbnail, multiple featured image, multiple post thumbnail
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 3.1.9
+Tested up to: 4.0
+Stable tag: 3.1.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,13 +94,16 @@ Make sure you click on `File URL` under `Link URL` section before clicking `Inse
 = 5. I cannot add or change secondary featured images after update? =
 This usually happens because of cache. Clear all your cache and try again if you are having this problem. If you still have such problem you can get help through support forum.
 
-= 6. Other problems or questions? =
+= 6. Is it Possible to Make DFI Work Only for Certain Post Types? =
+Yes! It is easily possible from version 3.1.13. A filter is added in the recent version for this purpose. Refer [this thread](http://ankitpokhrel.com.np/blog/is-it-possible-to-make-dfi-work-only-for-certain-post-types/) for mor info.
+
+= 7. Other problems or questions? =
 Other problems? Don't forget to check the [blog](http://ankitpokhrel.com.np/blog/category/dynamic-featured-image/) and learn to create some exciting things using DFI.
 
 Please use [support forum](http://wordpress.org/support/plugin/dynamic-featured-image) first if you have any question or queries about the project. 
-If you don't receive any help in support forum then you can directly contact me at `ankitpokhrel@gmail.com`. Please atleast wait for 48hrs before sending another request.
+If you don't receive any help in support forum then you can directly contact me at `ankitpokhrel [at] gmail [dot] com`. Please atleast wait for 48hrs before sending another request.
 
-Please feel free to report any bug found at https://github.com/ankitpokhrel/Dynamic-Featured-Image/ or `ankitpokhrel@gmail.com`.
+Please feel free to report any bug found at https://github.com/ankitpokhrel/Dynamic-Featured-Image/ or `ankitpokhrel [at] gmail [dot] com`.
 
 == Screenshots == 
 1. New featured image box.
@@ -108,6 +111,13 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 3. Add new featured image box.
 
 == Changelog ==
+= 3.1.13 =
+* Added post types filter - Pull Request #32 
+* Fixed issue #33 - Incorrect data return when no image attached.
+* Fixed issue #34 - Problem Retrieving Images in HTTPS Protocol.
+* Revised code quality.
+* Added Italian translation.
+
 = 3.1.9 =
 * Changed the scope of function get_image_id()
 * Fixed typo in Nepali translation.
@@ -169,6 +179,9 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 * Fixed some minor issues.
 
 == Upgrade Notice ==
+== 3.1.13 =
+This version has some major bug fix over ver. 3.1.9
+
 == 3.1.9 ==
 This version has some bug fix over ver. 3.1.7
 
