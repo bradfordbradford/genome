@@ -31,6 +31,19 @@
     },
 
     {
+        "text": "Full-width Image",
+        "value": "full-width",
+        "content": false,
+        "options": [
+            {
+                "type": "textbox",
+                "name": "img",
+                "label": "Image URL"
+            }
+        ]
+    },
+
+    {
         "text": "Small Caps",
         "value": "small-caps",
         "content": true,

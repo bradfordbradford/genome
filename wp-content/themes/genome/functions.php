@@ -455,6 +455,24 @@ function i_can_be_your_hero_baby_function($atts){
    return $return_string;
 }
 
+function full_width_image_function($atts){
+   extract(shortcode_atts(array(
+      'img'    => 'Image URL'
+   ), $atts));
+   $return_string = "                    </article>
+                  </div>
+                </section>
+              </section>
+              <header class='hero hero-article-section background-size-full center'>
+                <div class='story-cover-image' style='background-image: url(" . $img . ");'></div>
+              </header>
+              <section class='featured_layout inner-bounds block'>
+                <section class='primary-content'>
+                  <div class='content-row'>
+                    <article class='article-body-copy'>";
+   return $return_string;
+}
+
 function register_shortcodes(){
   add_shortcode('hr-break', 'hr_article_break_function');
   add_shortcode('hr-thick', 'hr_thick_function');
@@ -466,6 +484,7 @@ function register_shortcodes(){
   add_shortcode('email', 'email_function');
   add_shortcode('vimeo', 'video_function');
   add_shortcode('hero', 'i_can_be_your_hero_baby_function');
+  add_shortcode('full-width', 'full_width_image_function');
   add_shortcode('contributor', 'contrib_function');
   add_shortcode('person', 'person_function');
   add_shortcode('contact', 'contact_function');
