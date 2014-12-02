@@ -64,7 +64,7 @@
                   <a href='<?php echo site_url(); ?>/partners-and-allies/'>Partners & Allies</a>
                 </li>
                 <li>
-                  <a href='http://issuu.com/genomemag/docs/bsm_mediakit_booklet_072114'>Media Kit</a>
+                  <a href='<?php echo get_option( 'genome_media_kit' ); ?>'>Media Kit</a>
                 </li>
               </ul>
             </div>
