@@ -49,6 +49,7 @@ get_header(); ?>
 
 						// Not an acutal Loop, only display the most recent values
 						//print_r($the_query);
+
 						while ( $the_query->have_posts() ): $the_query->the_post();
 						  $url = get_permalink();
 							$author = the_author();
@@ -138,6 +139,10 @@ get_header(); ?>
 			          <?php
 		              $popular = new WP_Query( array(
 		                'post_type'             => array( 'page' ),
+				'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 		                'showposts'             => 1,
 		                // 'cat'                   => 'MyCategory',
 		                'orderby'               => 'date',
@@ -202,6 +207,10 @@ get_header(); ?>
 					          <?php
 				              $popular = new WP_Query( array(
 				                'post_type'             => array( 'page' ),
+						'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 				                'showposts'             => 2,
 				                'category__not_in'      => 47,
 				                'orderby'               => 'date',
@@ -263,7 +272,15 @@ get_header(); ?>
                 			          <?php
 		              $popular = new WP_Query( array(
 		                'post_type'             => array( 'page' ),
+				'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 		                'showposts'             => 1,
+				'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 		                // 'cat'                   => 'MyCategory',
 		                'orderby'               => 'date',
 		                'order'                 => 'dsc',
@@ -319,7 +336,15 @@ get_header(); ?>
 			          <?php
 		              $popular = new WP_Query( array(
 		                'post_type'             => array( 'page' ),
+				'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 		                'showposts'             => 1,
+				'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 		                // 'cat'                   => 'MyCategory',
 		                'orderby'               => 'date',
 		                'order'                 => 'dsc',
@@ -384,6 +409,10 @@ get_header(); ?>
 					          <?php
 				              $popular = new WP_Query( array(
 				                'post_type'             => array( 'page' ),
+						'date_query' 		=> array( array(
+								'column' => 'post_date_gmt',
+            							'after'  => '90 days ago',
+							) ),
 				                'showposts'             => 2,
 				                'category__not_in'      => 47,
 				                'orderby'               => 'date',
@@ -448,9 +477,9 @@ get_header(); ?>
                 </section>
                 <aside class='aside-column-primary'>
                 	<?php get_sidebar( 'current-issue' ); ?>
+                  <?php get_sidebar( 'latest-columns' ); ?>
                   <?php get_sidebar( 'blog-stories' ); ?>
                   <?php get_sidebar( 'top-stories' ); ?>
-                  <?php get_sidebar( 'latest-columns' ); ?>
                 </aside>
               </div>
             </div>
