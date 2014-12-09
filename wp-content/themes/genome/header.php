@@ -100,7 +100,8 @@
             </div>
             <header id='site-title' role='banner'>
               <h1 class='logo'>
-                <a href='<?php echo esc_url( home_url( '/' ) ); ?>'><span>Genome</span></a>
+                <a data-icon='L' href='<?php echo esc_url( home_url( '/' ) ); ?>'></a>
+                <span>Genome</span>
               </h1>
               <div class='tagline'>
                 Your Health Is Personal
