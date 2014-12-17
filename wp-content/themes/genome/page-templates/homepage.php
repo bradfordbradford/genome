@@ -32,29 +32,28 @@ get_header(); ?>
             //print_r($the_query);
             while ( $the_query->have_posts() ): $the_query->the_post();
               $issue = get_post_meta( get_the_ID(), 'issue_number', true );
-              $issueLink = get_post_meta( get_the_ID(), 'issue_link', true );
+              // $issueLink = get_post_meta( get_the_ID(), 'issue_link', true ); // No longer used.
             endwhile;
           ?>
 
-        	<?php
-        		$args = array(
-        			'post_type' => 'page',
-        			'tag'				=> 'homepage',
-        			'orderby'   => 'date',
+          <?php
+            $args = array(
+              'post_type' => 'page',
+              'tag'       => 'homepage',
+              'orderby'   => 'date',
               'order'     => 'dsc'
-        		);
+            );
 
-						// The Query
-						$the_query = new WP_Query( $args );
+            // The Query
+            $the_query = new WP_Query( $args );
 
-						// Not an acutal Loop, only display the most recent values
-						//print_r($the_query);
-
-						while ( $the_query->have_posts() ): $the_query->the_post();
-						  $url = get_permalink();
-							$author = the_author();
-							$subtitle = get_post_meta( get_the_ID(), 'Subtitle', true );
-	            $title = get_post_meta( get_the_ID(), 'Feature Title', true );
+            // Not an acutal Loop, only display the most recent values
+            //print_r($the_query);
+            while ( $the_query->have_posts() ): $the_query->the_post();
+              $url = get_permalink();
+              $author = the_author();
+              $subtitle = get_post_meta( get_the_ID(), 'Subtitle', true );
+              $title = get_post_meta( get_the_ID(), 'Feature Title', true );
               $title = nl2br($title);
               $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
               if( class_exists('Dynamic_Featured_Image') ) {
@@ -63,12 +62,12 @@ get_header(); ?>
                   //print_r($featured_images);
                   $featured_img_2 = $featured_images[0][full];
                }
-						endwhile;
+            endwhile;
 
-						// If there isn't a permalink, fallback
-						if ($url != '') :
+            // If there isn't a permalink, fallback
+            if ($url != '') :
 
-						?>
+            ?>
 
             <div class='story-cover-content single-col-layout'>
               <div class='align-middle'>
@@ -96,8 +95,8 @@ get_header(); ?>
             <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;' style='background-image: url(<?php echo $featured_img; ?>);'></div>
             <div class='story-cover-image-transition' style='background-image: url(<?php echo $featured_img_2; ?>);'></div>
 
-					<?php else : ?>
-								
+          <?php else : ?>
+                
             <div class='story-cover-content single-col-layout'>
               <div class='align-middle'>
                 <div class='align-block'>
@@ -123,40 +122,36 @@ get_header(); ?>
             <div class='story-cover-image' data-0='opacity:1;' data-140='opacity:0;'></div>
             <div class='story-cover-image-transition'></div>
 
-					<?php
+          <?php
 
-						endif;
-						/* Restore original Post Data */
-						wp_reset_postdata();
-					?>
+            endif;
+            /* Restore original Post Data */
+            wp_reset_postdata();
+          ?>
 
           </header>
           <section class='primary_layout' id='top'>
             <div class='inner-bounds block'>
               <div class='content-row'>
-                <section class='primary-content'>            	
+                <section class='primary-content'>             
 
-			          <?php
-		              $popular = new WP_Query( array(
-		                'post_type'             => array( 'page' ),
-				'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-		                'showposts'             => 1,
-		                // 'cat'                   => 'MyCategory',
-		                'orderby'               => 'date',
-		                'order'                 => 'dsc',
-		                'tag__not_in'           => 24,
-		                'meta_key'              => 'Feature Title',
-		              ) );
-		            ?>
-		            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
+                <?php
+                  $popular = new WP_Query( array(
+                    'post_type'             => array( 'page' ),
+                    'showposts'             => 1,
+                    // 'cat'                   => 'MyCategory',
+                    'orderby'               => 'date',
+                    'order'                 => 'dsc',
+                    'tag__not_in'           => 24,
+                    'meta_key'              => 'Feature Title',
+                  ) );
+                ?>
+                <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
                   <div class='content-row'>
                     <div class='content-block'>
                       <div class='featured-article'>
                         <div class='article-photo primary'>
-                        	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                          <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                           <a href='<?php echo get_permalink(); ?>'>
                             <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                           </a>
@@ -164,14 +159,14 @@ get_header(); ?>
                         <header class='article-header'>
                           <div class='text-meta'>
                             <?php 
-	                            foreach((get_the_category()) as $childcat) {
-	                              if (cat_is_ancestor_of(5, $childcat)) {
-	                                $topicLink = get_category_link($childcat->cat_ID);
-	                                $topicName = $childcat->cat_name;
-	                                $topicID   = $childcat->cat_ID;
-	                              }
-	                            }
-                          	?><a href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
+                              foreach((get_the_category()) as $childcat) {
+                                if (cat_is_ancestor_of(5, $childcat)) {
+                                  $topicLink = get_category_link($childcat->cat_ID);
+                                  $topicName = $childcat->cat_name;
+                                  $topicID   = $childcat->cat_ID;
+                                }
+                              }
+                            ?><a href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                             <time><?php echo get_the_time('F j, Y'); ?></time>
                           </div>
                           <h2>
@@ -204,28 +199,24 @@ get_header(); ?>
                   <div class='content-row'>
                     <section class='collection grid-2-per content-block'>
 
-					          <?php
-				              $popular = new WP_Query( array(
-				                'post_type'             => array( 'page' ),
-						'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-				                'showposts'             => 2,
-				                'category__not_in'      => 47,
-				                'orderby'               => 'date',
-				                'order'                 => 'dsc',
-				                'meta_key'              => 'Subtitle',
+                    <?php
+                      $popular = new WP_Query( array(
+                        'post_type'             => array( 'page' ),
+                        'showposts'             => 2,
+                        'category__not_in'      => 47,
+                        'orderby'               => 'date',
+                        'order'                 => 'dsc',
+                        'meta_key'              => 'Subtitle',
                         'meta_query' => array(
                           array(
                             'key' => 'Feature Title',
                             'compare' => 'NOT EXISTS'
                           )
                         )
-				                // 'offset'                => 2,
-				              ) );
-				            ?>
-				            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
+                        // 'offset'                => 2,
+                      ) );
+                    ?>
+                    <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
 
                       <div class='media-object with-large-image grid-element popup-content'>
                         <?php
@@ -249,16 +240,16 @@ get_header(); ?>
                                 $topicID   = $childcat->cat_ID;
                               }
                             }
-                        	?>
+                          ?>
                           <a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                           <a class='media-copy' href='<?php echo get_permalink(); ?>'>
                             <h3 class='text-meta-header'><?php echo the_title(); ?></h3>
                             <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
                             <p class='text-meta-sub light-text-color sans-meta'>
                               <?php
-                              	remove_filter( 'the_excerpt', 'wpautop' );
-                              	the_excerpt();
-                            	?>
+                                remove_filter( 'the_excerpt', 'wpautop' );
+                                the_excerpt();
+                              ?>
                             </p>
                           </a>
                         </div>
@@ -269,32 +260,24 @@ get_header(); ?>
                     </section>
                   </div>
 
-                			          <?php
-		              $popular = new WP_Query( array(
-		                'post_type'             => array( 'page' ),
-				'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-		                'showposts'             => 1,
-				'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-		                // 'cat'                   => 'MyCategory',
-		                'orderby'               => 'date',
-		                'order'                 => 'dsc',
-		                'tag__not_in'           => 24,
-		                'meta_key'              => 'Feature Title',
-		                'offset'                => 1,
-		              ) );
-		            ?>
-		            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
+                                <?php
+                  $popular = new WP_Query( array(
+                    'post_type'             => array( 'page' ),
+                    'showposts'             => 1,
+                    // 'cat'                   => 'MyCategory',
+                    'orderby'               => 'date',
+                    'order'                 => 'dsc',
+                    'tag__not_in'           => 24,
+                    'meta_key'              => 'Feature Title',
+                    'offset'                => 1,
+                  ) );
+                ?>
+                <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
                   <div class='content-row'>
                     <section class='grid-2-per content-block'>
                       <div class='media-object-horizontal-layout'>
                         <div class='grid-element image-content'>
-                        	<?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                          <?php $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                           <a href='<?php echo get_permalink(); ?>'>
                             <img alt='image title' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                           </a>
@@ -311,7 +294,7 @@ get_header(); ?>
                                 $topicID   = $childcat->cat_ID;
                               }
                             }
-                        	?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
+                          ?><a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                           <div class='media-copy'>
                             <h3 class='text-meta-header'>
                               <a href='<?php echo get_permalink(); ?>'>
@@ -321,9 +304,9 @@ get_header(); ?>
                             <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
                             <p class='text-meta-sub light-text-color sans-meta'>
                               <?php
-                              	remove_filter( 'the_excerpt', 'wpautop' );
-                              	the_excerpt();
-                            	?>
+                                remove_filter( 'the_excerpt', 'wpautop' );
+                                the_excerpt();
+                              ?>
                             </p>
                           </div>
                         </div>
@@ -333,32 +316,24 @@ get_header(); ?>
 
                 <?php endwhile; ?>
 
-			          <?php
-		              $popular = new WP_Query( array(
-		                'post_type'             => array( 'page' ),
-				'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-		                'showposts'             => 1,
-				'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-		                // 'cat'                   => 'MyCategory',
-		                'orderby'               => 'date',
-		                'order'                 => 'dsc',
-		                'tag__not_in'           => 24,
-		                'meta_key'              => 'Feature Title',
-		                'offset'                => 2,
-		              ) );
-		            ?>
-		            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
+                <?php
+                  $popular = new WP_Query( array(
+                    'post_type'             => array( 'page' ),
+                    'showposts'             => 1,
+                    // 'cat'                   => 'MyCategory',
+                    'orderby'               => 'date',
+                    'order'                 => 'dsc',
+                    'tag__not_in'           => 24,
+                    'meta_key'              => 'Feature Title',
+                    'offset'                => 2,
+                  ) );
+                ?>
+                <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
                   <div class='content-row'>
                     <div class='content-block'>
                       <div class='featured-article'>
                         <div class='article-photo primary'>
-                        	<?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                          <?php $featured_img = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                           <a href='<?php echo get_permalink(); ?>'>
                             <img alt='' class='load' data-original='<?php echo $featured_img; ?>' src='<?php echo $featured_img; ?>'>
                           </a>
@@ -366,14 +341,14 @@ get_header(); ?>
                         <header class='article-header'>
                           <div class='text-meta'>
                             <?php 
-	                            foreach((get_the_category()) as $childcat) {
-	                              if (cat_is_ancestor_of(5, $childcat)) {
-	                                $topicLink = get_category_link($childcat->cat_ID);
-	                                $topicName = $childcat->cat_name;
-	                                $topicID   = $childcat->cat_ID;
-	                              }
-	                            }
-                          	?><a href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
+                              foreach((get_the_category()) as $childcat) {
+                                if (cat_is_ancestor_of(5, $childcat)) {
+                                  $topicLink = get_category_link($childcat->cat_ID);
+                                  $topicName = $childcat->cat_name;
+                                  $topicID   = $childcat->cat_ID;
+                                }
+                              }
+                            ?><a href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                             <time><?php echo get_the_time('F j, Y'); ?></time>
                           </div>
                           <h2>
@@ -406,31 +381,27 @@ get_header(); ?>
                   <div class='content-row'>
                     <section class='collection grid-2-per content-block'>
 
-					          <?php
-				              $popular = new WP_Query( array(
-				                'post_type'             => array( 'page' ),
-						'date_query' 		=> array( array(
-								'column' => 'post_date_gmt',
-            							'after'  => '90 days ago',
-							) ),
-				                'showposts'             => 2,
-				                'category__not_in'      => 47,
-				                'orderby'               => 'date',
-				                'order'                 => 'dsc',
-				                'meta_key'              => 'Subtitle',
+                    <?php
+                      $popular = new WP_Query( array(
+                        'post_type'             => array( 'page' ),
+                        'showposts'             => 2,
+                        'category__not_in'      => 47,
+                        'orderby'               => 'date',
+                        'order'                 => 'dsc',
+                        'meta_key'              => 'Subtitle',
                         'meta_query' => array(
                           array(
                             'key' => 'Feature Title',
                             'compare' => 'NOT EXISTS'
                           )
                         ),
-				                'offset'                => 2,
-				              ) );
-				            ?>
-				            <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
+                        'offset'                => 2,
+                      ) );
+                    ?>
+                    <?php while ( $popular->have_posts() ): $popular->the_post(); ?>
 
                       <div class='media-object with-large-image grid-element popup-content'>
-                      	<?php
+                        <?php
                           $featured_img = wp_get_attachment_thumb_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
                           if ($featured_img == '') {
                               $featured_img = get_stylesheet_directory_uri() . '/img/icons/article-img-placeholderRetina.png';
@@ -451,16 +422,16 @@ get_header(); ?>
                                 $topicID   = $childcat->cat_ID;
                               }
                             }
-                        	?>
+                          ?>
                           <a class='text-meta' href='<?php echo $topicLink; ?>'><?php echo $topicName; ?></a>
                           <a class='media-copy' href='<?php echo get_permalink(); ?>'>
                             <h3 class='text-meta-header'><?php echo the_title(); ?></h3>
                             <p class='text-meta-sub light-text-color'>By <?php the_author(); ?></p>
                             <p class='text-meta-sub light-text-color sans-meta'>
                               <?php
-                              	remove_filter( 'the_excerpt', 'wpautop' );
-                              	the_excerpt();
-                            	?>
+                                remove_filter( 'the_excerpt', 'wpautop' );
+                                the_excerpt();
+                              ?>
                             </p>
                           </a>
                         </div>
@@ -471,15 +442,15 @@ get_header(); ?>
                     </section>
                   </div>
                   <div class='content-row add-padding-b'>
-                    <a class='btn primary full-bleed' href='<?php echo $issueLink; ?>'>View All From This Issue</a>
+                    <a class='btn primary full-bleed' href='/?s='>View More Articles</a>
                   </div>
 
                 </section>
                 <aside class='aside-column-primary'>
-                	<?php get_sidebar( 'current-issue' ); ?>
-                  <?php get_sidebar( 'latest-columns' ); ?>
+                  <?php get_sidebar( 'current-issue' ); ?>
                   <?php get_sidebar( 'blog-stories' ); ?>
                   <?php get_sidebar( 'top-stories' ); ?>
+                  <?php get_sidebar( 'latest-columns' ); ?>
                 </aside>
               </div>
             </div>
