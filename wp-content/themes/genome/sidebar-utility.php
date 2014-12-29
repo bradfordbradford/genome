@@ -29,7 +29,7 @@
                         <a href='<?php echo site_url(); ?>/contributors/'>Contributors</a>
                       </li>
                       <li<?php if ($url == 'media-kit') { echo " class='active'"; } ?>>
-                        <a href='<?php echo site_url(); ?>/media-kit/'>Media Kit</a>
+                        <a href='<?php echo get_option( 'genome_media_kit' ); ?>'>Media Kit</a>
                       </li>
                       <li<?php if ($url == 'privacy-policy') { echo " class='active'"; } ?>>
                         <a href='<?php echo site_url(); ?>/privacy-policy/'>Privacy Policy</a>
