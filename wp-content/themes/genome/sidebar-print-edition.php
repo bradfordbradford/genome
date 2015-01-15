@@ -43,7 +43,7 @@
                               ?>
                             </p>
                           </div>
-                          <a class='primary btn' href='#'>Subscribe</a>
+                          <a class='primary btn' href='https://checkout.subscriptiongenius.com/bigsciencemedia.com/' target='_blank'>Subscribe</a>
                         </div>
                       </div>
                     </div>
