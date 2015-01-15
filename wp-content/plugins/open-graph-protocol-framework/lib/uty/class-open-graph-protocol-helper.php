@@ -24,7 +24,7 @@ class Open_Graph_Protocol_Helper {
 	 * Returns the current page's title.
 	 * @return string page title
 	 */
-	public function get_title() {
+	public static function get_title() {
 		// Some themes (e.g. Genesis) mess with that adding a <title> tag
 		// where that is not desired.
 		global $wp_filter, $merged_filters;

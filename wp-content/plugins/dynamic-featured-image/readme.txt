@@ -3,8 +3,8 @@ Contributors: ankitpokhrel, cfoellmann
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J9FVY3ESPPD58
 Tags: dynamic featured image, featured image, post thumbnail, dynamic post thumbnail, multiple featured image, multiple post thumbnail
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 3.1.13
+Tested up to: 4.1
+Stable tag: 3.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,10 +12,6 @@ Dynamically adds multiple featured image (post thumbnail) functionality to posts
 
 == Description ==
 Dynamically adds multiple featured image or multiple post thumbnail functionality to your page, posts and custom post types. This plugin provides you an interface to add any number of featured image as you want without writing a single code. These dynamic featured images can then be collected by the various theme functions.
-
-> Attention! If you upgrade from 3.0.1 to a newer version you will need to re-enter all  
-> images or manage image url in the database manually. The plugins find the image  
-> folder automatically from ver. 3.1.0.
 
 **Overview**  
 Dynamic Featured Image enables the option to have MULTIPLE featured images within a post or page. 
@@ -35,12 +31,12 @@ array
     array
       'thumb' => string 'http://your_site/upload_path/yourSelectedImage.jpg' (length=50)
       'full' => string 'http://your_site/upload_path/yourSelectedImage_fullSize.jpg' (length=69)
-	    'attachment_id' => string '197' (length=3)
+      'attachment_id' => string '197' (length=3)
   1 => 
     array
       'thumb' => string 'http://your_site/upload_path/yourSelectedImage.jpg' (length=50)
       'full' => string 'http://your_site/upload_path/yourSelectedImage_fullSize.jpg' (length=69)
-	    'attachment_id' => string '198' (length=3)
+      'attachment_id' => string '198' (length=3)
   2 => ...
 `
 
@@ -111,6 +107,12 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 3. Add new featured image box.
 
 == Changelog ==
+= 3.3.0 =
+* Fixed Invalid image path returned - Pull Request #35
+* Added dfi_post_type_user_filter to disable metabox in post types.
+* Added filter to change metabox title.
+* Some minor fixes.
+
 = 3.1.13 =
 * Added post types filter - Pull Request #32 
 * Fixed issue #33 - Incorrect data return when no image attached.
@@ -179,19 +181,22 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 * Fixed some minor issues.
 
 == Upgrade Notice ==
-== 3.1.13 =
+= 3.3.0 =
+This version has multisite url bug fix and has added various useful filters.
+
+= 3.1.13 =
 This version has some major bug fix over ver. 3.1.9
 
-== 3.1.9 ==
+= 3.1.9 =
 This version has some bug fix over ver. 3.1.7
 
-== 3.1.7 ==
+= 3.1.7 =
 This version has translation in 6 different languages, bug fix on edited image and code quality improvement.
 
-== 3.1.2 ==
+= 3.1.2 =
 This version has bug fixes on edited image. View issue #25 in Github for more info.
 
-== 3.1.0 ==
+= 3.1.0 =
 This version has some bug fix and code quality improvement. You may need to change database value manually because the plugin finds the uplod folder
 automatically from now on.
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPress Shortcode-Helper
 Author: Yanik Peiffer
-Version: 1.2
+Version: 1.3.1
 
 Makes the usage of Shortcodes for Clients easier.
 
@@ -36,8 +36,8 @@ function add_tinymce_button() {
     if ( !current_user_can('edit_posts') && !current_user_can('edit_pages') ) {
    	return;
     }
-    if( ! in_array( $typenow, array( 'post', 'page' ) ) )
-        return;
+    //if( ! in_array( $typenow, array( 'post', 'page' ) ) )
+    //    return;
   	if ( get_user_option('rich_editing') == 'true') {
   		add_filter("mce_external_plugins", "add_plugin");
   		add_filter('mce_buttons', 'register_button');
@@ -74,6 +74,15 @@ function pw_load_scripts() {
   wp_register_script( 'shortcode_script', plugins_url( 'wp-shortcode-helper/assets/js/shortcode-button.js' , dirname(__FILE__) ), array('jquery'), false );
   wp_localize_script( 'shortcode_script', 'template_path', localize_vars() );
   wp_enqueue_script( 'shortcode_script');
+    wp_enqueue_script('jquery');
+
+    wp_enqueue_script('thickbox');
+    wp_enqueue_style('thickbox');
+
+    wp_enqueue_script('media-upload');
+    wp_enqueue_script('wptuts-upload');
+    
+    wp_enqueue_style( 'shortcode_css', plugins_url( 'assets/css/shortcode_helper.css', __FILE__ ) );
   
 }
 add_action('admin_init', 'pw_load_scripts');
@@ -144,6 +153,7 @@ function wp_shortcode_helper_page() {
   ?>
   <div class="wrap">
     <form method="post" action="options.php"> 
+        <button id="big_upload_button">UPLOAD</button>
         <?php @settings_fields('wp-shortcode-helper-group'); ?>
         <?php @do_settings_fields('wp-shortcode-helper-group'); ?>
 

@@ -2,8 +2,8 @@
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZU9TXHEWGX9EJ
 Tags: shortcode, tinymce, button, helper, backend, javascript, popup
 Requires at least: 3.9
-Tested up to: 3.9.2
-Stable tag: 1.2
+Tested up to: 4.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,7 @@ WordPress Shortcode-Helper is a plugin that helps you to make your shortcodes ea
 
 Features include:
 
+*	Media-Field: Choose an image from the media-popup (option-type: media)
 *	Unlimited shortcodes
 *	Comes without annoying standard shortcodes
 *	Choose your own description for every code
@@ -73,7 +74,12 @@ Sample json-file:
 					{
 						"text": "Yes",
 						"value": "yes"
-					}
+					},
+                    {
+                        "type":"media",
+                        "name":"img",
+                        "label":"Image"
+                    },
 				]
 			}
 		]
@@ -211,6 +217,15 @@ The shortcode-helper is just a wrapper for your shortcodes. That means you code 
 2. Popup for attributes
 
 == Changelog ==
+
+= Version 1.3.1 =
+*	Added button to custom post types
+*	New icon
+
+= Version 1.3 =
+*	Fixed js-errors
+*	Fixed problem with inserting the content
+*   Added Media-Support
 
 = Version 1.2 =
 *	Change directory of the json-file (choose between template- or plugin-folder)
