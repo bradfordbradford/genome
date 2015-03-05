@@ -1,3 +1,0 @@
-[11-Mar-2014 18:42:21] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'wpse72394_add_tinymce_button' was given in /home4/jjjohn/public_html/cleave.co/genome/wp-includes/plugin.php on line 199
-[11-Mar-2014 18:42:21] PHP Warning:  array_search() [<a href='function.array-search'>function.array-search</a>]: Wrong datatype for second argument in /home4/jjjohn/public_html/cleave.co/genome/wp-includes/class-wp-editor.php on line 434
-[11-Mar-2014 18:42:21] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home4/jjjohn/public_html/cleave.co/genome/wp-includes/class-wp-editor.php on line 449

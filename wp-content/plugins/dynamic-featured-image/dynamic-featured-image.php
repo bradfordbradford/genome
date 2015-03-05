@@ -3,7 +3,7 @@
  Plugin Name: Dynamic Featured Image
  Plugin URI: http://wordpress.org/plugins/dynamic-featured-image/
  Description: Dynamically adds multiple featured image or post thumbnail functionality to your posts, pages and custom post types.
- Version: 3.3.0
+ Version: 3.3.1
  Author: Ankit Pokhrel
  Author URI: http://ankitpokhrel.com.np
  License: GPL2 or later
@@ -48,8 +48,8 @@ class Dynamic_Featured_Image
 	 *
 	 * @since 3.0.0
 	 */
-	const VERSION = '3.3.0';
-	private $upload_dir, $upload_url, $prefix, $db, $textDomain, $_metabox_title, $_userFilter;
+	const VERSION = '3.3.1';
+	private $upload_dir, $upload_url, $db, $textDomain, $_metabox_title, $_userFilter;
 
 	/**
 	 * Constructor. Hooks all interactions to initialize the class.
@@ -59,8 +59,6 @@ class Dynamic_Featured_Image
 	 * @global object $wpdb
 	 *
 	 * @see	 add_action()
-	 *
-	 * @return	Void
 	 */
 	public function __construct()
 	{
@@ -240,6 +238,27 @@ class Dynamic_Featured_Image
 	}
 
 	/**
+	 * Separate thumb and full image url from given URL string
+	 *
+	 * @since  3.3.1
+	 * 
+	 * @param  string $urlString   [description]
+	 * @param  string $state Thumb or full
+	 * 
+	 * @return string|null
+	 */
+	private function _separate($urlString, $state = 'thumb') 
+	{
+		$imagePiece = explode( ',', $urlString );
+
+		if( $state == 'thumb' ) {
+			return isset($imagePiece[0]) ? $imagePiece[0] : null;
+		}
+
+		return isset($imagePiece[1]) ? $imagePiece[1] : null;
+	}
+
+	/**
 	 * Featured meta box as seen in the admin
 	 *
 	 * @since 1.0.0
@@ -259,8 +278,9 @@ class Dynamic_Featured_Image
 		$featuredId    = is_null( $featured['args'][1]) ? 2 : --$featured['args'][1];
 
 		$featuredImgTrimmed = $featuredImgFull = $featuredImg;
-		if ( !is_null( $featured['args'][0] ) ) {
-			@list( $featuredImgTrimmed, $featuredImgFull ) = explode( ',', $featuredImg );
+		if ( !is_null( $featuredImg ) ) {
+			$featuredImgTrimmed = self::_separate($featuredImg);
+			$featuredImgFull = self::_separate($featuredImg, 'full');
 		}
 
 		try {
@@ -676,8 +696,7 @@ class Dynamic_Featured_Image
 		$retVal = array();
 		if ( !empty( $dfiImages ) && is_array( $dfiImages ) ) {
 			foreach ($dfiImages as $dfiImage) {
-				@list( $dfiImageTrimmed, $dfiImageFull ) = explode( ',', $dfiImage );
-
+				$dfiImageFull = self::_separate($dfiImage, 'full');
 				$retVal[] = $this->get_image_id( $this->upload_url . $dfiImageFull );
 			}
 		}
@@ -701,14 +720,14 @@ class Dynamic_Featured_Image
 	 */
 	public function get_nth_featured_image($position, $post_id = null)
 	{
-	if ( is_null( $post_id ) ) {
-		global $post;
-		$post_id = $post->ID;
-	}
+		if ( is_null( $post_id ) ) {
+			global $post;
+			$post_id = $post->ID;
+		}
 
-	$featured_images = $this->get_featured_images( $post_id );
+		$featured_images = $this->get_featured_images( $post_id );
 
-	return isset($featured_images[$position - 2 ]) ? $featured_images[$position - 2] : null;
+		return isset($featured_images[$position - 2 ]) ? $featured_images[$position - 2] : null;
 
 	} // END get_nth_featured_image()
 
@@ -760,7 +779,8 @@ class Dynamic_Featured_Image
 
 			$count = 0;
 			foreach ($dfiImages as $dfiImage) {
-				@list( $dfiImageTrimmed, $dfiImageFull ) = explode( ',', $dfiImage );
+				$dfiImageTrimmed = self::_separate($dfiImage);
+				$dfiImageFull = self::_separate($dfiImage, 'full');
 
 				try {
 

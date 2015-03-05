@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: dynamic featured image, featured image, post thumbnail, dynamic post thumbnail, multiple featured image, multiple post thumbnail
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 3.3.0
+Stable tag: 3.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,19 @@ Dynamically adds multiple featured image (post thumbnail) functionality to posts
 
 == Description ==
 Dynamically adds multiple featured image or multiple post thumbnail functionality to your page, posts and custom post types. This plugin provides you an interface to add any number of featured image as you want without writing a single code. These dynamic featured images can then be collected by the various theme functions.
+
+> **A NOTE ABOUT SUPPORT:** We’re here to help troubleshoot bugs, but please don't set expectations early as the support forums at WordPress.org are only checked once a week. All the support of the Dynamic Featured Image plugin will now be provided from within [this support forum](http://ankitpokhrel.com.np/blog/forums/forum/dynamic-featured-image-free-version/ "Dynamic Featured Image Support Forum").
+
+> Users looking for more timely/in-depth support and extended features are encouraged to check out [Dynamic Featured Image PRO](http://ankitpokhrel.com.np/blog/downloads/dynamic-featured-image-pro/ "Dynamic Featured Image PRO").
+
+> **FEATURES OF PRO VERSION**  
+  - Settings Page to control various settings.  
+  - Shortcodes to make your life easier.  
+  - Pro-level support on all forums, including the free forum.  
+  - Dedicated email and chat support.  
+  - Access to more advance features and future updates for free.  
+
+> [Learn more &raquo;](http://ankitpokhrel.com.np/blog/downloads/dynamic-featured-image-pro/ "Dynamic Featured Image PRO")
 
 **Overview**  
 Dynamic Featured Image enables the option to have MULTIPLE featured images within a post or page. 
@@ -107,6 +120,9 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 3. Add new featured image box.
 
 == Changelog ==
+= 3.3.1 =
+* Increased code quality
+
 = 3.3.0 =
 * Fixed Invalid image path returned - Pull Request #35
 * Added dfi_post_type_user_filter to disable metabox in post types.
@@ -181,6 +197,9 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 * Fixed some minor issues.
 
 == Upgrade Notice ==
+= 3.3.1 =
+This version has no functionality change.
+
 = 3.3.0 =
 This version has multisite url bug fix and has added various useful filters.
 
