@@ -163,6 +163,15 @@ h3 {
 	text-align: center;
 }
 
+.col-top {
+	height: 400px;
+	margin-top: 150px;
+}
+
+.col-bottom {
+	vertical-align: middle;
+}
+
 .white-bg {
 	background-color: #fff;
 	padding: 150px 30px;
