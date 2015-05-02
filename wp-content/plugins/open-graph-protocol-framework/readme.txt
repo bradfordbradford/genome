@@ -2,9 +2,9 @@
 Contributors: itthinx
 Donate link: http://www.itthinx.com/plugins/open-graph-protocol/
 Tags: ogp, open, open graph, open graph protocol, share, sharing, social, social network, twitter, linkedlin, facebook, pinterest, affiliates, meta, meta tag, meta tags, tag, tags
-Requires at least: 3.3
-Tested up to: 4.1
-Stable tag: 1.0.8
+Requires at least: 4.0
+Tested up to: 4.2
+Stable tag: 1.0.9
 License: GPLv3
 
 The Open Graph Protocol enables any web page to become a rich object in a social graph. This plugin renders meta tags within an extension framework.
@@ -14,8 +14,6 @@ The Open Graph Protocol enables any web page to become a rich object in a social
 The [Open Graph protocol](http://ogp.me/) enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
 
 This WordPress plugin is aimed at automating the process of adding basic and optional metadata to a site's pages. It is also designed to act as a framework for other plugins or themes and allows to modify and adapt the information provided as needed.
-
-Here's a small [Demo](http://ogp.itthinx.org/) site.
 
 ### Usage ###
 
@@ -96,6 +94,10 @@ None of the existing plugins provided a sufficiently flexible way of doing that,
 - must not ask to provide your Facebook account details or application ID when there is no need for it
 - must not be bloated with features you don't want or need when you simply want Open Graph metatags to be rendered automatically for your pages
 
+### Logo Attribution ###
+
+The logo used for this plugin's icon and banner is the [Open Graph protocol logo](http://commons.wikimedia.org/wiki/File:Open_Graph_protocol_logo.png#/media/File:Open_Graph_protocol_logo.png) by Facebook - [ogp.me](http://ogp.me). Licensed under Public Domain via [Wikimedia Commons](http://commons.wikimedia.org/wiki/).
+
 == Installation ==
 
 See also the [Open Graph Protocol](http://www.itthinx.com/plugin/open-graph-protocol/) plugin pages and [documentation](http://www.itthinx.com/documentation/open-graph-protocol/).
@@ -124,6 +126,10 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 1. Plugin info
 
 == Changelog ==
+
+= 1.0.9 =
+* Fixed an issue with descriptions so that shortcodes are rendered
+  instead of being displayed as such.
 
 = 1.0.8 =
 * Fixed static method declaration.
@@ -163,6 +169,9 @@ Not much to see here, the plugin does its job automatically and doesn't need any
 * First public release.
 
 == Upgrade Notice ==
+
+= 1.0.9 =
+* Fixed shortcodes not rendered in descriptions.
 
 = 1.0.8 =
 * Fixed static method declaration.

@@ -91,7 +91,7 @@ class Open_Graph_Protocol_Meta {
 		$description = '';
 		if ( is_singular() ) {
 			if ( isset( $post->post_type ) && post_type_supports( $post->post_type, 'excerpt' ) ) {
-				$description = wp_strip_all_tags( apply_filters( 'get_the_excerpt', $post->post_excerpt ), true );
+				$description = self::flatten( apply_filters( 'get_the_excerpt', $post->post_excerpt ) );
 			}
 			if ( empty( $description ) ) {
 				$excerpt_length = apply_filters( 'excerpt_length', 55 );
@@ -102,7 +102,14 @@ class Open_Graph_Protocol_Meta {
 				//$excerpt_more   = apply_filters( 'excerpt_more', ' ' . '[...]' );
 				// wp_trim_words() already applies wp_strip_all_tags() but it doesn't
 				// compact whitespace.
-				$description = wp_trim_words( wp_strip_all_tags( $post->post_content, true ), $excerpt_length, ' &hellip;' );
+
+				// Get the content and apply filters so that shortcodes etc
+				// are rendered instead of being displayed as such.
+				$content = $post->post_content;
+				$content = apply_filters( 'the_content', $content );
+				$content = str_replace( ']]>', ']]&gt;', $content );
+				$content = self::flatten( $content );
+				$description = wp_trim_words( $content, $excerpt_length, ' &hellip;' );
 			}
 		} else if ( is_home() ) {
 			$description = get_bloginfo( 'description' );
@@ -132,6 +139,22 @@ class Open_Graph_Protocol_Meta {
 		}
 
 		echo apply_filters( 'open_graph_protocol_echo_metas', $m );
+	}
+
+	/**
+	 * Reduces content to flat text only.
+	 * 
+	 * @param string $content
+	 * @return string
+	 */
+	private static function flatten( $content ) {
+		// Add space between potential adjacent tags so the content
+		// isn't glued together after applying wp_strip_all_tags().
+		$content = str_replace( '><', '> <', $content );
+		$content = wp_strip_all_tags( $content, true );
+		$content = preg_replace('/\n+|\t+|\s+/', ' ', $content );
+		$content = trim( $content );
+		return $content;
 	}
 
 	public static function render_meta( $property, $content ) {
