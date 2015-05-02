@@ -166,7 +166,7 @@ class WP_User_Avatar {
     $avatar_medium = $has_wp_user_avatar ? get_wp_user_avatar_src($user->ID, 'medium') : $avatar_medium_src;
     // Check if user has wp_user_avatar, if not show image from above
     $avatar_thumbnail = $has_wp_user_avatar ? get_wp_user_avatar_src($user->ID, 96) : $avatar_medium_src;
-    $edit_attachment_link = add_query_arg(array('post' => $wpua, 'action' => 'edit'), admin_url('post.php'));
+    $edit_attachment_link = esc_url(add_query_arg(array('post' => $wpua, 'action' => 'edit'), admin_url('post.php')));
     // Chck if admin page
     $is_admin = is_admin() ? '_admin' : "";
   ?>
