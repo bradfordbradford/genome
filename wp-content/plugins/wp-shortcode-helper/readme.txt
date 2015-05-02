@@ -2,8 +2,8 @@
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZU9TXHEWGX9EJ
 Tags: shortcode, tinymce, button, helper, backend, javascript, popup
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.3.1
+Tested up to: 4.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,7 @@ WordPress Shortcode-Helper is a plugin that helps you to make your shortcodes ea
 
 Features include:
 
+*	NEW: JSON-Generator (create valid JSON-Code within the backend)
 *	Media-Field: Choose an image from the media-popup (option-type: media)
 *	Unlimited shortcodes
 *	Comes without annoying standard shortcodes
@@ -24,7 +25,6 @@ Features include:
 
 Comming soon:
 
-*	Edit shortcodes using the WordPress backend
 *	Multilingual descriptions
 *	More input-fields
 *	Any ideas? 
@@ -49,160 +49,153 @@ Sample json-file:
 
 `
 [
-
-	{
-		"text": "Button",
-		"value": "btn",
-		"content": true,
-		"description": true,
-		"description_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-		"options": [
-			{
-				"type": "textbox",
-				"name": "href",
-				"label": "URL"
-			},
-			{
-				"type": "select",
-				"name": "blank",
-				"label": "New Tab",
-				"options": [
-					{
-						"text": "No",
-						"value": "no"
-					},
-					{
-						"text": "Yes",
-						"value": "yes"
-					},
+    {
+        "text": "Button",
+        "value": "btn",
+        "content": true,
+        "description": true,
+        "description_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "options": [
+            {
+                "type": "textbox",
+                "name": "href",
+                "label": "URL"
+            },
+            {
+                "type": "select",
+                "name": "blank",
+                "label": "New Tab",
+                "options": [
                     {
-                        "type":"media",
-                        "name":"img",
-                        "label":"Image"
+                        "text": "No",
+                        "value": "no"
                     },
-				]
-			}
-		]
-	},
-
-	{
-		"text": "1/2 Column",
-		"value": "one_half",
-		"content": true,
-		"hideContentInput": true,
-		"description": true,
-		"description_text": "Creates a 1/2 column",
-		"options": [
-			{
-				"type": "select",
-				"name": "position",
-				"label": "Position",
-				"options": [
-					{
-						"text": "First",
-						"value": "first"
-					},
-					{
-						"text": "Last",
-						"value": "last"
-					}
-				]
-			}
-		]
-	},
-
-	{
-		"text": "1/3 Column",
-		"value": "one_third",
-		"content": true,
-		"hideContentInput": true,
-		"description": true,
-		"description_text": "Creates a 1/3-Column",
-		"options": [
-			{
-				"type": "select",
-				"name": "position",
-				"label": "Position",
-				"options": [
-					{
-						"text": "First",
-						"value": "first"
-					},
-					{
-						"text": "Last",
-						"value": "last"
-					}
-				]
-			}
-		]
-	},
-
-	{
-		"text": "2/3 Column",
-		"value": "two_third",
-		"content": true,
-		"hideContentInput": true,
-		"description": true,
-		"description_text": "Creates a 2/3-Column",
-		"options": [
-			{
-				"type": "select",
-				"name": "position",
-				"label": "Position",
-				"options": [
-					{
-						"text": "First",
-						"value": "first"
-					},
-					{
-						"text": "Last",
-						"value": "last"
-					}
-				]
-			}
-		]
-	},
-
-	{
-		"text": "Tabwrapper",
-		"value": "tabwrapper",
-		"description": true,
-		"content": true,
-		"hideContentInput": true,
-		"description_text": "Creates a Wrapper for Tabs"
-	},
-
-	{
-		"text": "Tab",
-		"value": "tab",
-		"content": true,
-		"description": true,
-		"hideContentInput": true,
-		"description_text": "Creates a Tab",
-		"options": [
-			{
-				"type": "select",
-				"name": "active",
-				"label": "Active",
-				"options": [
-					{
-						"text": "Yes",
-						"value": "yes"
-					},
-					{
-						"text": "No",
-						"value": "no"
-					}
-				]
-			},
-			{
-				"type": "textbox",
-				"name": "title",
-				"label": "Title"
-			}
-		]
-	}
-
+                    {
+                        "text": "Yes",
+                        "value": "yes"
+                    },
+                    {
+                        "type": "media",
+                        "name": "img",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "1/2 Column",
+        "value": "one_half",
+        "content": true,
+        "hideContentInput": true,
+        "description": true,
+        "description_text": "Creates a 1/2 column",
+        "options": [
+            {
+                "type": "select",
+                "name": "position",
+                "label": "Position",
+                "options": [
+                    {
+                        "text": "First",
+                        "value": "first"
+                    },
+                    {
+                        "text": "Last",
+                        "value": "last"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "1/3 Column",
+        "value": "one_third",
+        "content": true,
+        "hideContentInput": true,
+        "description": true,
+        "description_text": "Creates a 1/3-Column",
+        "options": [
+            {
+                "type": "select",
+                "name": "position",
+                "label": "Position",
+                "options": [
+                    {
+                        "text": "First",
+                        "value": "first"
+                    },
+                    {
+                        "text": "Last",
+                        "value": "last"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "2/3 Column",
+        "value": "two_third",
+        "content": true,
+        "hideContentInput": true,
+        "description": true,
+        "description_text": "Creates a 2/3-Column",
+        "options": [
+            {
+                "type": "select",
+                "name": "position",
+                "label": "Position",
+                "options": [
+                    {
+                        "text": "First",
+                        "value": "first"
+                    },
+                    {
+                        "text": "Last",
+                        "value": "last"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Tabwrapper",
+        "value": "tabwrapper",
+        "description": true,
+        "content": true,
+        "hideContentInput": true,
+        "description_text": "Creates a Wrapper for Tabs"
+    },
+    {
+        "text": "Tab",
+        "value": "tab",
+        "content": true,
+        "description": true,
+        "hideContentInput": true,
+        "description_text": "Creates a Tab",
+        "options": [
+            {
+                "type": "select",
+                "name": "active",
+                "label": "Active",
+                "options": [
+                    {
+                        "text": "Yes",
+                        "value": "yes"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no"
+                    }
+                ]
+            },
+            {
+                "type": "textbox",
+                "name": "title",
+                "label": "Title"
+            }
+        ]
+    }
 ]
 `
 
@@ -215,8 +208,13 @@ The shortcode-helper is just a wrapper for your shortcodes. That means you code 
 
 1. Dropdown
 2. Popup for attributes
+3. JSON-Generator
 
 == Changelog ==
+
+= Version 1.4 =
+*	NEW: JSON-Generator (create valid JSON-Code within the backend)
+*	Sample JSON is valid now
 
 = Version 1.3.1 =
 *	Added button to custom post types

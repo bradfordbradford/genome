@@ -2,22 +2,25 @@
 /*
 Plugin Name: WordPress Shortcode-Helper
 Author: Yanik Peiffer
-Version: 1.3.1
+Version: 1.4
 
-Makes the usage of Shortcodes for Clients easier.
+WordPress Shortcode-Helper is a plugin that helps you to make your shortcodes easier for clients. Make them avialble through a dropdown-list in the WordPress-Editor.
 
-This plugin creates a dropdown-menu in the wysiwyg-editor of wordpress, alos known as TinyMCE. You create a JSON-file with all the settings for each shortcode, and the user of the backend just sees a simple button where he can choose one of the possible shortcodes.
+Features include:
 
-A popup asks you to enter every attribute the shortcode needs and at the end, the correct shortcodes get copied to the textarea.
+* NEW: JSON-Generator (create valid JSON-Code within the backend)
+* Media-Field: Choose an image from the media-popup (option-type: media)
+* Unlimited shortcodes
+* Comes without annoying standard shortcodes
+* Choose your own description for every code
+* Multiple input-fields for attributes
+* Many settings to provide the best UI for your shortcodes
 
-Features:
+Comming soon:
 
-* Simple Frontend
-* Use your own shortcodes
-* add or delete shortcodes any time
-* easy use of attributes
-* any typing errors
-
+* Multilingual descriptions
+* More input-fields
+* Any ideas? 
 
 Installation:
 
@@ -28,30 +31,28 @@ After that, all is set up and you can see the plugin in action when you edit or 
 
 */
 
-//require('assets/php/update-notifier.php');
 
-add_action('admin_head', 'add_tinymce_button');
-function add_tinymce_button() {
+add_action('admin_head', 'wp_shortcode_helper_add_tinymce_button');
+function wp_shortcode_helper_add_tinymce_button() {
     global $typenow;
     if ( !current_user_can('edit_posts') && !current_user_can('edit_pages') ) {
    	return;
     }
-    //if( ! in_array( $typenow, array( 'post', 'page' ) ) )
-    //    return;
+
   	if ( get_user_option('rich_editing') == 'true') {
-  		add_filter("mce_external_plugins", "add_plugin");
-  		add_filter('mce_buttons', 'register_button');
+  		add_filter("mce_external_plugins", "wp_shortcode_helper_add_plugin");
+  		add_filter('mce_buttons', 'wp_shortcode_helper_register_button');
   	}
 }
 
 //Button-Script
-function add_plugin($plugin_array) {
+function wp_shortcode_helper_add_plugin($plugin_array) {
    	$plugin_array['shortcode_button'] = plugins_url( '/assets/js/shortcode-button.js', __FILE__ );
    	return $plugin_array;
 }
 
 //Adds the Button
-function register_button($buttons) {
+function wp_shortcode_helper_register_button($buttons) {
    array_push($buttons, "shortcode_button");
    return $buttons;
 }
@@ -70,22 +71,22 @@ function localize_vars() {
     );
 }
 
-function pw_load_scripts() {
+function wp_shortcode_helper_load_scripts() {
   wp_register_script( 'shortcode_script', plugins_url( 'wp-shortcode-helper/assets/js/shortcode-button.js' , dirname(__FILE__) ), array('jquery'), false );
   wp_localize_script( 'shortcode_script', 'template_path', localize_vars() );
   wp_enqueue_script( 'shortcode_script');
-    wp_enqueue_script('jquery');
+  wp_enqueue_script('jquery');
 
-    wp_enqueue_script('thickbox');
-    wp_enqueue_style('thickbox');
+  wp_enqueue_script('thickbox');
+  wp_enqueue_style('thickbox');
 
-    wp_enqueue_script('media-upload');
-    wp_enqueue_script('wptuts-upload');
-    
-    wp_enqueue_style( 'shortcode_css', plugins_url( 'assets/css/shortcode_helper.css', __FILE__ ) );
+  wp_enqueue_script('media-upload');
+  wp_enqueue_script('wptuts-upload');
+  
+  wp_enqueue_style( 'shortcode_css', plugins_url( 'assets/css/shortcode_helper.css', __FILE__ ) );
   
 }
-add_action('admin_init', 'pw_load_scripts');
+add_action('admin_init', 'wp_shortcode_helper_load_scripts');
 
 function wp_shortcode_helper_settings() {
     register_setting('wp-shortcode-helper-group', 'wp_shortcode_helper_path');
@@ -150,19 +151,31 @@ function wp_shortcode_helper_menu() {
 }
 
 function wp_shortcode_helper_page() {
-  ?>
-  <div class="wrap">
-    <form method="post" action="options.php"> 
-        <button id="big_upload_button">UPLOAD</button>
-        <?php @settings_fields('wp-shortcode-helper-group'); ?>
-        <?php @do_settings_fields('wp-shortcode-helper-group'); ?>
+  require_once('page.php');
+}
 
-        <?php do_settings_sections( 'wp_shortcode_helper_settings'); ?>
 
-        <?php @submit_button(); ?>
-    </form>
-</div>
-  <?php 
+add_action( 'wp_ajax_sh_save_json', 'sh_save_json' );
+
+function sh_save_json() {
+  global $wpdb; // this is how you get access to the database
+
+  $jsonString = $_POST['jsonString'];
+
+  $value = esc_attr(get_option('wp_shortcode_helper_path'));
+  if($value == 'plugin_path') {
+    $json = plugins_url().'/wp-shortcode-helper/shortcodes.json';
+  } else {
+    $json = get_stylesheet_directory_uri().'/shortcodes.json';
+  }
+
+  $fp = fopen($json, "w");
+  // clear content to 0 bits
+  fwrite($fp, $jsonString);
+  //close file
+  fclose($fp);
+
+  wp_die(); // this is required to terminate immediately and return a proper response
 }
 
 ?>
