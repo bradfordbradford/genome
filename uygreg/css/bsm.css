@@ -1,0 +1,272 @@
+body {
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	font-family: 'Merriweather',serif;
+	font-size: 26px;
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+	color: #1a232e;
+}
+
+
+
+/* TYPOGRAPHY */
+
+@font-face {
+	font-family: 'FoundersGroteskWeb-Semibold';
+	src: url('../fonts/FoundersGroteskWeb-Semibold.eot');
+	src: url('../fonts/FoundersGroteskWeb-Semibold?#iefix') format('embedded-opentype');
+	src: url('../fonts/FoundersGroteskWeb-Semibold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'FoundersGroteskWeb-Light';
+	src: url('../fonts/FoundersGroteskWeb-Light.eot');
+	src: url('../fonts/FoundersGroteskWeb-Light?#iefix') format('embedded-opentype');
+	src: url('../fonts/FoundersGroteskWeb-Light.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+p {
+	font-family: ff-more-web-pro,serif;
+	font-size: 21px;
+	line-height: 34px;
+	font-weight: 400;
+	color: #1a232e;
+}
+
+a {
+	color: #660000;
+}
+
+a:hover {
+	color: #660000;
+}
+
+h1 {
+	font-family: 'FoundersGroteskWeb-Light', sans-serif;
+	font-size:80px;
+	line-height: 60px;
+	letter-spacing: -2px;
+	color: #fff;
+	font-kerning: normal;
+	margin: 30px;
+}
+
+h2 {
+	font-family: 'FoundersGroteskWeb-Semibold', sans-serif;
+	font-size: 36px;
+	margin-bottom: 30px;
+	letter-spacing: -.5px;
+	color: #1a232e;
+	font-kerning: normal;
+
+}
+
+h3 {
+	font-family: 'FoundersGroteskWeb-Semibold', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #660000;
+}	
+
+.serif-med {
+	font-family: ff-more-web-pro, Georgia, serif;
+	font-size: 17px;
+	line-height: 27px;
+	font-weight: 400;
+}
+
+.call-out {
+	color: #660000;
+}
+
+.option {
+	font-family: 'FoundersGroteskWeb-Semibold', sans;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #1a232e;
+	background-color: #bca88a;
+	padding: 2px 3px;
+	position: relative;
+	top : -3px;
+}
+
+.shift {
+	font-size: 48px;
+}
+
+.sans-end {
+	font-family: 'FoundersGroteskWeb-Light', sans-serif;
+	font-size: 13px;
+	letter-spacing: .25px;
+	line-height: 16px;
+	color: #dfe4e7;
+}
+
+.type-left {
+	text-align: left;
+}
+
+.quote-text {
+	font-family: ff-more-web-pro, Georgia, serif;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: -.5px;
+	margin-top: 200px;
+	color: #fff;
+}
+
+
+.pbold {
+	font-weight: 900;
+}
+
+.pmed {
+	font-weight: 500;
+}
+
+
+.quote-credit {
+	color: #fff; 
+	text-align: center;
+}
+
+
+
+/* LAYOUT */
+
+
+#gradient {
+	width: 100%;
+	height: 600px;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.col-top {
+	height: 400px;
+	margin-top: 150px;
+}
+
+.col-bottom {
+	vertical-align: middle;
+}
+
+.white-bg {
+	background-color: #fff;
+	padding: 150px 30px;
+}
+
+.silver-bg {
+	background-color: #dfe4e7;
+	padding: 150px 30px;
+}
+
+.border-silver {
+	border-top: 5px solid #94a2aa;
+}
+
+.border-gold {
+	border-top: 5px solid #bca88a;
+}
+
+.big-top {
+	margin-top: 40px;
+}
+
+.quote {
+	width: 100%;
+	height: 600px;
+	background: #1a232e;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.video {
+	width: 100%;
+	padding: 150px 0;
+	background: #dfe4e7;
+	text-align: center;
+}
+
+.end {
+	width: 100%;
+	padding: 60px 0;
+	background: #1a232e;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+.vert-align {
+	display: flex;
+	align-items: center;
+}
+
+.illogo {
+	margin: 13px 1px;
+}
+
+.btn {
+	font-family: 'FoundersGroteskWeb-Semibold', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	text-transform: uppercase;
+    border-radius: 2px;
+
+}
+
+.btn-gold {
+  color: #1a232e;
+  background-color: #bca88a;
+  border: 0px;
+}
+
+.btn-gold:hover {
+  color: #1a232e;
+  background-color: #D9CCB8;
+}
+
+
+.btn-silver {
+  color: #1a232e;
+  background-color: #94a2aa;
+  border: 0px;
+}
+
+.btn-silver:hover {
+  color: #1a232e;
+  background-color: #C2C8CC;
+}
+
+
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 48px;
+		-letter-kern: -letter-pairs('Yo': 0px);
+		}
+	.quote-text	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+}
