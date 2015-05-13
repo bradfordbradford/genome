@@ -230,6 +230,31 @@ h3 {
 
 
 
+.btn {
+	font-family: 'FoundersGroteskWeb-Semibold', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	text-transform: uppercase;
+    border-radius: 4px;
+
+}
+
+.btn-gold {
+  color: #443d32;
+  background-color: #bca88a;
+  border: 0px;
+}
+
+.btn-gold:hover {
+  color: #6d6151;
+  background-color: #D9CCB8;
+}
+
+
+
+
+
 @media (max-width: 768px) {
 	h1 {
 		font-size: 48px;
